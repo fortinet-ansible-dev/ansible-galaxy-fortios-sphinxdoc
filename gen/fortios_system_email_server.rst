@@ -1,0 +1,143 @@
+:source: fortios_system_email_server.py
+
+:orphan:
+
+.. fortios_system_email_server:
+
+fortios_system_email_server -- Configure the email server used by the FortiGate various things. For example, for sending email messages to users to support user authentication features in Fortinet's FortiOS and FortiGate.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.. versionadded:: 2.9
+
+.. contents::
+   :local:
+   :depth: 1
+
+
+Synopsis
+--------
+- This module is able to configure a FortiGate or FortiOS (FOS) device by allowing the user to set and modify system feature and email_server category. Examples include all parameters and values need to be adjusted to datasources before usage. Tested with FOS v6.4.0
+
+
+
+Requirements
+------------
+The below requirements are needed on the host that executes this module.
+
+- ansible>=2.9.0
+
+
+Parameters
+----------
+
+
+.. raw:: html
+
+    <ul>
+    <li> <span class="li-head">host</span> - FortiOS or FortiGate IP address. <span class="li-normal">type: str</span> <span class="li-required">required: False</span></li>
+    <li> <span class="li-head">username</span> - FortiOS or FortiGate username. <span class="li-normal">type: str</span> <span class="li-required">required: False</span></li>
+    <li> <span class="li-head">password</span> - FortiOS or FortiGate password. <span class="li-normal">type: str</span> <span class="li-normal">default: </span></li>
+    <li> <span class="li-head">vdom</span> - Virtual domain, among those defined previously. A vdom is a virtual instance of the FortiGate that can be configured and used as a different unit. <span class="li-normal">type: str</span> <span class="li-normal">default: root</span></li>
+    <li> <span class="li-head">https</span> - Indicates if the requests towards FortiGate must use HTTPS protocol. <span class="li-normal">type: bool</span> <span class="li-normal">default: True</span></li>
+    <li> <span class="li-head">ssl_verify</span> - Ensures FortiGate certificate must be verified by a proper CA. <span class="li-normal">type: bool</span> <span class="li-normal">default: True</span></li>
+    <li> <span class="li-head">system_email_server</span> - Configure the email server used by the FortiGate various things. For example, for sending email messages to users to support user authentication features. <span class="li-normal">type: dict</span></li>
+        <ul class="ul-self">
+        <li> <span class="li-head">authenticate</span> - Enable/disable authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span></li>
+        <li> <span class="li-head">password</span> - SMTP server user password for authentication. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">port</span> - SMTP server port. <span class="li-normal">type: int</span></li>
+        <li> <span class="li-head">reply_to</span> - Reply-To email address. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">security</span> - Connection security used by the email server. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, starttls, smtps</span></li>
+        <li> <span class="li-head">server</span> - SMTP server IP address or hostname. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">source_ip</span> - SMTP server IPv4 source IP. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">source_ip6</span> - SMTP server IPv6 source IP. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">ssl_min_proto_version</span> - Minimum supported protocol version for SSL/TLS connections . <span class="li-normal">type: str</span> <span class="li-normal">choices: default, SSLv3, TLSv1, TLSv1-1, TLSv1-2</span></li>
+        <li> <span class="li-head">type</span> - Use FortiGuard Message service or custom email server. <span class="li-normal">type: str</span> <span class="li-normal">choices: custom</span></li>
+        <li> <span class="li-head">username</span> - SMTP server user name for authentication. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">validate_server</span> - Enable/disable validation of server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span></li>
+        </ul>
+    </ul>
+
+
+Notes
+-----
+
+.. note::
+
+   - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+
+
+Examples
+--------
+
+.. code-block:: yaml+jinja
+    
+    - hosts: fortigates
+      collections:
+        - fortinet.fortios
+      connection: httpapi
+      vars:
+       vdom: "root"
+       ansible_httpapi_use_ssl: yes
+       ansible_httpapi_validate_certs: no
+       ansible_httpapi_port: 443
+      tasks:
+      - name: Configure the email server used by the FortiGate various things. For example, for sending email messages to users to support user authentication
+         features.
+        fortios_system_email_server:
+          vdom:  "{{ vdom }}"
+          system_email_server:
+            authenticate: "enable"
+            password: "<your_own_value>"
+            port: "5"
+            reply_to: "<your_own_value>"
+            security: "none"
+            server: "192.168.100.40"
+            source_ip: "84.230.14.43"
+            source_ip6: "<your_own_value>"
+            ssl_min_proto_version: "default"
+            type: "custom"
+            username: "<your_own_value>"
+            validate_server: "enable"
+
+
+Return Values
+-------------
+Common return values are documented: https://docs.ansible.com/ansible/latest/reference_appendices/common_return_values.html#common-return-values, the following are the fields unique to this module:
+
+.. raw:: html
+
+    <ul>
+
+    <li> <span class="li-return">build</span> - Build number of the fortigate image <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: 1547</span></li>
+    <li> <span class="li-return">http_method</span> - Last method used to provision the content into FortiGate <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: PUT</span></li>
+    <li> <span class="li-return">http_status</span> - Last result given by FortiGate on last operation applied <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: 200</span></li>
+    <li> <span class="li-return">mkey</span> - Master key (id) used in the last call to FortiGate <span class="li-normal">returned: success</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: id</span></li>
+    <li> <span class="li-return">name</span> - Name of the table used to fulfill the request <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: urlfilter</span></li>
+    <li> <span class="li-return">path</span> - Path of the table used to fulfill the request <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: webfilter</span></li>
+    <li> <span class="li-return">revision</span> - Internal revision number <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: 17.0.2.10658</span></li>
+    <li> <span class="li-return">serial</span> - Serial number of the unit <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: FGVMEVYYQT3AB5352</span></li>
+    <li> <span class="li-return">status</span> - Indication of the operation's result <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: success</span></li>
+    <li> <span class="li-return">vdom</span> - Virtual domain used <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: root</span></li>
+    <li> <span class="li-return">version</span> - Version of the FortiGate <span class="li-normal">returned: always</span> <span class="li-normal">type: str</span> <span class="li-normal">sample: v5.6.3</span></li>
+    </ul>
+
+Status
+------
+
+- This module is not guaranteed to have a backwards compatible interface.
+
+
+Authors
+-------
+
+- Link Zheng (@chillancezen)
+- Hongbin Lu (@fgtdev-hblu)
+- Frank Shen (@frankshen01)
+- Jie Xue (@JieX19)
+- Miguel Angel Munoz (@mamunozgonzalez)
+- Nicolas Thomas (@thomnico)
+
+
+.. hint::
+    If you notice any issues in this documentation, you can create a pull request to improve it.
