@@ -7,7 +7,7 @@ Get Help
 Technical and Commuity Support
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can get support from Fortinet `Techinical Assistance Center`_.
+You can get support from Fortinet `Technical Assistance Center`_.
 
 For Ansible common issue, you can also get support from the `community`_
 
