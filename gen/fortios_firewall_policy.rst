@@ -167,7 +167,7 @@ Parameters
             </ul>
         <li> <span class="li-head">rtp_nat</span> - Enable Real Time Protocol (RTP) NAT. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span></li>
         <li> <span class="li-head">scan_botnet_connections</span> - Block or monitor connections to Botnet servers or disable Botnet scanning. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span></li>
-        <li> <span class="li-head">schedule</span> - Schedule name. Source firewall.schedule.onetime.name firewall.schedule.recurring.name firewall.schedule.group.name. <span class="li-normal">type: str</span></li>
+        <li> <span class="li-head">schedule</span> - Schedule name. Source firewall.schedule.onetime.name firewall.schedule.recurring.name firewall.schedule.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: True</span></li>
         <li> <span class="li-head">schedule_timeout</span> - Enable to force current sessions to end when the schedule object times out. Disable allows them to end from inactivity. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span></li>
         <li> <span class="li-head">send_deny_packet</span> - Enable to send a reply when a session is denied or blocked by a firewall policy. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span></li>
         <li> <span class="li-head">service</span> - Service and service group names. <span class="li-normal">type: list</span></li>
