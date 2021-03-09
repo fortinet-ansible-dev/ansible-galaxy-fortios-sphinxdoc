@@ -44,7 +44,7 @@ Parameters
     <li> <span class="li-head">firewall_policy</span> - Configure IPv4 policies. <span class="li-normal">type: dict</span></li>
         <ul class="ul-self">
         <li> <span class="li-head">state</span> - B(Deprecated) <span class="li-normal">type: str</span> <span class="li-required">required: False</span> <span class="li-normal">choices: present, absent</span></li>
-        <li> <span class="li-head">action</span> - Policy action (allow/deny/ipsec). <span class="li-normal">type: str</span> <span class="li-normal">choices: accept, deny, ipsec</span></li>
+        <li> <span class="li-head">action</span> - Policy action (accept/deny/ipsec). <span class="li-normal">type: str</span> <span class="li-normal">choices: accept, deny, ipsec</span></li>
         <li> <span class="li-head">app_category</span> - Application category ID list. <span class="li-normal">type: list</span></li>
             <ul class="ul-self">
             <li> <span class="li-head">id</span> - Category IDs. <span class="li-normal">type: int</span> <span class="li-required">required: True</span></li>
