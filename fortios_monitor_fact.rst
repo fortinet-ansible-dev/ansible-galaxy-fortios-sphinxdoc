@@ -1798,9 +1798,9 @@ Notes
 
    - For some selectors, the objects are global, no ``params`` are allowed to appear.
 
-   - Not all parameters are required for a slector.
+   - Not all parameters are required for a selector.
 
-   - This module is exclusivly for FortiOS monitor API.
+   - This module is exclusively for FortiOS monitor API.
 
    - The result of API request is stored in ``results``.
 
