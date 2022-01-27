@@ -9,7 +9,7 @@ Frequently Asked Questions (FAQ)
  - `How To Backup And Restore FOS?`_
  - `How To Import A License?`_
  - `How does Ansible work with login banner?`_
- - `How To Work With Raw FotiOS CLI?`_
+ - `How To Work With Raw FortiOS CLI?`_
  - `How to use the set_fact module in a task?`_
 
 |
