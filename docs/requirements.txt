@@ -1,0 +1,4 @@
+docutils<0.18
+Sphinx<2
+Jinja2<3
+MarkupSafe<2
