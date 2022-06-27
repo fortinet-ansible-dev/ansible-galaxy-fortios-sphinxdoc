@@ -17,6 +17,7 @@ fortios_system_vdom -- Configure virtual domain in Fortinet's FortiOS and FortiG
 Synopsis
 --------
 - This module is able to configure a FortiGate or FortiOS (FOS) device by allowing the user to set and modify system feature and vdom category. Examples include all parameters and values need to be adjusted to datasources before usage. Tested with FOS v6.0.0
+- The creation of new virtual domains requires super_admin privileges and can not be done with an access_token.
 
 
 
@@ -368,7 +369,6 @@ Examples
         fortios_system_vdom:
           vdom:  "{{ vdom }}"
           state: "present"
-          access_token: "<your_own_value>"
           system_vdom:
             flag: "3"
             name: "default_name_4"
