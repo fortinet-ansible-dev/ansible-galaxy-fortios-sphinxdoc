@@ -325,7 +325,7 @@ Examples
             id:  "4"
             last_known_port: "<your_own_value>"
             last_known_switch: "<your_own_value> (source switch-controller.managed-switch.switch-id)"
-            last_seen: "7"
+            last_seen: "2147483647"
             mac: "<your_own_value>"
             mac_policy: "<your_own_value> (source switch-controller.mac-policy.name)"
             matched_nac_policy: "<your_own_value> (source user.nac-policy.name)"

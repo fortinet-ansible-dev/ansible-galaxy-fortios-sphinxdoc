@@ -4,6 +4,39 @@ Release Notes
 
 |
 
+Release Galaxy 2.2.0
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.2.0 is based on 2.1.7
+
+Features
+^^^^^^^^^^^^^^^
+- Support FortiOS v7.0.6, v7.0.7, v7.0.8, v7.2.1, v7.2.2.
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix issue of missing some options for monitor modules (#196);
+- Fix issue of filter content could not contain spaces (#208);
+- Fix list type not match issue;
+
+New modules
+^^^^^^^^^^^^^^^
+- ``fortios_extension_controller_dataplan`` - FortiExtender dataplan configuration in Fortinet's FortiOS and FortiGate;
+- ``fortios_extension_controller_extender_profile`` - FortiExtender extender profile configuration in Fortinet's FortiOS and FortiGate;
+- ``fortios_extension_controller_extender`` - Extender controller configuration in Fortinet's FortiOS and FortiGate.
+- ``fortios_extension_controller_fortigate_profile`` - FortiGate connector profile configuration in Fortinet's FortiOS and FortiGate.
+- ``fortios_extension_controller_fortigate`` - FortiGate controller configuration in Fortinet's FortiOS and FortiGate.
+- ``fortios_firewall_global`` - Global firewall settings in Fortinet's FortiOS and FortiGate.
+- ``fortios_firewall_network_service_dynamic`` - Configure Dynamic Network Services in Fortinet's FortiOS and FortiGate.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Update arguments' value in example;
+- Update document to reflect accurate version map;
+
 Release Galaxy 2.1.7
 --------------------
 

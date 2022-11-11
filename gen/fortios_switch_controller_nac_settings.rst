@@ -302,7 +302,7 @@ Examples
           switch_controller_nac_settings:
             auto_auth: "disable"
             bounce_nac_port: "disable"
-            inactive_timer: "5"
+            inactive_timer: "720"
             link_down_flush: "disable"
             mode: "local"
             name: "default_name_8"

@@ -207,7 +207,7 @@ Examples
         fortios_monitoring_npu_hpe:
           vdom:  "{{ vdom }}"
           monitoring_npu_hpe:
-            interval: "3"
+            interval: "1"
             multipliers: "<your_own_value>"
             status: "enable"
     

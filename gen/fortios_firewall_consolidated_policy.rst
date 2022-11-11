@@ -2519,7 +2519,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">wanopt_detection</span> - WAN optimization auto-detection mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: active, passive, False</span>
+        <li> <span class="li-head">wanopt_detection</span> - WAN optimization auto-detection mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: active, passive, off</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">
@@ -2886,7 +2886,7 @@ Examples
             nat: "enable"
             outbound: "enable"
             per_ip_shaper: "<your_own_value> (source firewall.shaper.per-ip-shaper.name)"
-            policyid: "63"
+            policyid: "2147483647"
             poolname4:
              -
                 name: "default_name_65 (source firewall.ippool.name)"
@@ -2901,7 +2901,7 @@ Examples
              -
                 name: "default_name_73 (source firewall.service.custom.name firewall.service.group.name)"
             service_negate: "enable"
-            session_ttl: "75"
+            session_ttl: "1382400"
             srcaddr_negate: "enable"
             srcaddr4:
              -
@@ -2916,8 +2916,8 @@ Examples
             ssh_policy_redirect: "enable"
             ssl_ssh_profile: "<your_own_value> (source firewall.ssl-ssh-profile.name)"
             status: "enable"
-            tcp_mss_receiver: "87"
-            tcp_mss_sender: "88"
+            tcp_mss_receiver: "32767"
+            tcp_mss_sender: "32767"
             traffic_shaper: "<your_own_value> (source firewall.shaper.traffic-shaper.name)"
             traffic_shaper_reverse: "<your_own_value> (source firewall.shaper.traffic-shaper.name)"
             users:

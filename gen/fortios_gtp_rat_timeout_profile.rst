@@ -406,17 +406,17 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           gtp_rat_timeout_profile:
-            eutran_timeout: "3"
-            gan_timeout: "4"
-            geran_timeout: "5"
-            hspa_timeout: "6"
-            ltem_timeout: "7"
+            eutran_timeout: "0"
+            gan_timeout: "0"
+            geran_timeout: "0"
+            hspa_timeout: "0"
+            ltem_timeout: "0"
             name: "default_name_8"
-            nbiot_timeout: "9"
-            nr_timeout: "10"
-            utran_timeout: "11"
-            virtual_timeout: "12"
-            wlan_timeout: "13"
+            nbiot_timeout: "0"
+            nr_timeout: "0"
+            utran_timeout: "0"
+            virtual_timeout: "0"
+            wlan_timeout: "0"
     
 
 

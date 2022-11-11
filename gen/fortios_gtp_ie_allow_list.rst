@@ -275,8 +275,8 @@ Examples
             entries:
              -
                 id:  "4"
-                ie: "5"
-                message: "6"
+                ie: "0"
+                message: "0"
             name: "default_name_7"
     
 

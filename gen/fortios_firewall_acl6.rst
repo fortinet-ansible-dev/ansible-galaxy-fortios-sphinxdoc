@@ -744,7 +744,7 @@ Examples
                 name: "default_name_5 (source firewall.address6.name firewall.addrgrp6.name)"
             interface: "<your_own_value> (source system.zone.name system.interface.name)"
             name: "default_name_7"
-            policyid: "8"
+            policyid: "0"
             service:
              -
                 name: "default_name_10 (source firewall.service.custom.name firewall.service.group.name)"

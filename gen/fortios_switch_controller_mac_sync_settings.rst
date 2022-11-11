@@ -135,7 +135,7 @@ Examples
         fortios_switch_controller_mac_sync_settings:
           vdom:  "{{ vdom }}"
           switch_controller_mac_sync_settings:
-            mac_sync_interval: "3"
+            mac_sync_interval: "900"
     
 
 

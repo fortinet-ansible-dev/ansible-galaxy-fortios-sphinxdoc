@@ -519,7 +519,7 @@ Examples
           access_token: "<your_own_value>"
           system_physical_switch:
             age_enable: "enable"
-            age_val: "4"
+            age_val: "3158067"
             name: "default_name_5"
             port:
              -

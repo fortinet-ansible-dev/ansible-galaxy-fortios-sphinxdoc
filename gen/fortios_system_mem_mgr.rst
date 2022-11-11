@@ -159,7 +159,7 @@ Examples
         fortios_system_mem_mgr:
           vdom:  "{{ vdom }}"
           system_mem_mgr:
-            mass_mmsd: "3"
+            mass_mmsd: "30"
     
 
 

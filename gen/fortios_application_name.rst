@@ -1005,26 +1005,26 @@ Examples
           access_token: "<your_own_value>"
           application_name:
             behavior: "<your_own_value>"
-            category: "4"
+            category: "0"
             id:  "5"
             metadata:
              -
                 id:  "7"
-                metaid: "8"
-                valueid: "9"
+                metaid: "0"
+                valueid: "0"
             name: "default_name_10"
             parameter: "<your_own_value>"
             parameters:
              -
                 default value: "<your_own_value>"
                 name: "default_name_14"
-            popularity: "15"
+            popularity: "0"
             protocol: "<your_own_value>"
-            risk: "17"
-            sub_category: "18"
+            risk: "0"
+            sub_category: "127"
             technology: "<your_own_value>"
             vendor: "<your_own_value>"
-            weight: "21"
+            weight: "0"
     
 
 

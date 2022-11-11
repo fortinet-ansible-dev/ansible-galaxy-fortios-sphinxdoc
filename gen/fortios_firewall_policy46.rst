@@ -1313,7 +1313,7 @@ Examples
             name: "default_name_12"
             per_ip_shaper: "<your_own_value> (source firewall.shaper.per-ip-shaper.name)"
             permit_any_host: "enable"
-            policyid: "15"
+            policyid: "0"
             poolname:
              -
                 name: "default_name_17 (source firewall.ippool6.name)"
@@ -1326,8 +1326,8 @@ Examples
                 name: "default_name_22 (source firewall.address.name firewall.addrgrp.name)"
             srcintf: "<your_own_value> (source system.zone.name system.interface.name)"
             status: "enable"
-            tcp_mss_receiver: "25"
-            tcp_mss_sender: "26"
+            tcp_mss_receiver: "0"
+            tcp_mss_sender: "0"
             traffic_shaper: "<your_own_value> (source firewall.shaper.traffic-shaper.name)"
             traffic_shaper_reverse: "<your_own_value> (source firewall.shaper.traffic-shaper.name)"
             uuid: "<your_own_value>"

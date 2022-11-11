@@ -1139,7 +1139,7 @@ Examples
           ips_rule:
             action: "pass"
             application: "<your_own_value>"
-            date: "5"
+            date: "0"
             group: "<your_own_value>"
             location: "<your_own_value>"
             log: "disable"
@@ -1147,12 +1147,12 @@ Examples
             metadata:
              -
                 id:  "11"
-                metaid: "12"
-                valueid: "13"
+                metaid: "0"
+                valueid: "0"
             name: "default_name_14"
             os: "<your_own_value>"
-            rev: "16"
-            rule_id: "17"
+            rev: "0"
+            rule_id: "0"
             service: "<your_own_value>"
             severity: "<your_own_value>"
             status: "disable"

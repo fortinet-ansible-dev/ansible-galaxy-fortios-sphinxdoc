@@ -334,8 +334,8 @@ Examples
             burst_bps_granularity: "disable"
             burst_control: "disable"
             burst_pps_granularity: "disable"
-            guaranteed_bandwidth: "7"
-            maximum_bandwidth: "8"
+            guaranteed_bandwidth: "0"
+            maximum_bandwidth: "0"
             name: "default_name_9"
     
 

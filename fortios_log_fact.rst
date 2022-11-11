@@ -120,12 +120,12 @@ Parameters
         disk_anomaly_raw
         <li><span class="li-head">disk_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -133,8 +133,8 @@ Parameters
         disk_app-ctrl_archive
         <li><span class="li-head">disk_app-ctrl_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -142,8 +142,8 @@ Parameters
         disk_app-ctrl_archive-download
         <li><span class="li-head">disk_app-ctrl_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -152,12 +152,12 @@ Parameters
         disk_app-ctrl_raw
         <li><span class="li-head">disk_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -165,12 +165,12 @@ Parameters
         disk_cifs_raw
         <li><span class="li-head">disk_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -178,12 +178,12 @@ Parameters
         disk_dlp_raw
         <li><span class="li-head">disk_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -191,12 +191,12 @@ Parameters
         disk_dns_raw
         <li><span class="li-head">disk_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -204,12 +204,12 @@ Parameters
         disk_emailfilter_raw
         <li><span class="li-head">disk_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -217,13 +217,13 @@ Parameters
         disk_event_compliance-check
         <li><span class="li-head">disk_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -231,13 +231,13 @@ Parameters
         disk_event_connector
         <li><span class="li-head">disk_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -245,13 +245,13 @@ Parameters
         disk_event_endpoint
         <li><span class="li-head">disk_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -259,13 +259,13 @@ Parameters
         disk_event_fortiextender
         <li><span class="li-head">disk_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -273,13 +273,13 @@ Parameters
         disk_event_ha
         <li><span class="li-head">disk_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -287,13 +287,13 @@ Parameters
         disk_event_router
         <li><span class="li-head">disk_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -301,13 +301,13 @@ Parameters
         disk_event_security-rating
         <li><span class="li-head">disk_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -315,13 +315,13 @@ Parameters
         disk_event_system
         <li><span class="li-head">disk_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -329,13 +329,13 @@ Parameters
         disk_event_user
         <li><span class="li-head">disk_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -343,13 +343,13 @@ Parameters
         disk_event_vpn
         <li><span class="li-head">disk_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -357,13 +357,13 @@ Parameters
         disk_event_wad
         <li><span class="li-head">disk_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -371,13 +371,13 @@ Parameters
         disk_event_wireless
         <li><span class="li-head">disk_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -385,12 +385,12 @@ Parameters
         disk_file-filter_raw
         <li><span class="li-head">disk_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -398,12 +398,12 @@ Parameters
         disk_gtp_raw
         <li><span class="li-head">disk_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -411,8 +411,8 @@ Parameters
         disk_ips_archive
         <li><span class="li-head">disk_ips_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -420,8 +420,8 @@ Parameters
         disk_ips_archive-download
         <li><span class="li-head">disk_ips_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -430,12 +430,12 @@ Parameters
         disk_ips_raw
         <li><span class="li-head">disk_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -443,12 +443,12 @@ Parameters
         disk_ssh_raw
         <li><span class="li-head">disk_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -456,12 +456,12 @@ Parameters
         disk_ssl_raw
         <li><span class="li-head">disk_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -469,13 +469,13 @@ Parameters
         disk_traffic_fortiview
         <li><span class="li-head">disk_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -483,13 +483,13 @@ Parameters
         disk_traffic_forward
         <li><span class="li-head">disk_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -497,13 +497,13 @@ Parameters
         disk_traffic_local
         <li><span class="li-head">disk_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -511,13 +511,13 @@ Parameters
         disk_traffic_multicast
         <li><span class="li-head">disk_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -525,13 +525,13 @@ Parameters
         disk_traffic_sniffer
         <li><span class="li-head">disk_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -539,13 +539,13 @@ Parameters
         disk_traffic_threat
         <li><span class="li-head">disk_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -562,12 +562,12 @@ Parameters
         disk_virus_raw
         <li><span class="li-head">disk_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -575,12 +575,12 @@ Parameters
         disk_voip_raw
         <li><span class="li-head">disk_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -588,12 +588,12 @@ Parameters
         disk_waf_raw
         <li><span class="li-head">disk_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -601,12 +601,12 @@ Parameters
         disk_webfilter_raw
         <li><span class="li-head">disk_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -614,12 +614,12 @@ Parameters
         fortianalyzer_anomaly_raw
         <li><span class="li-head">fortianalyzer_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -627,8 +627,8 @@ Parameters
         fortianalyzer_app-ctrl_archive
         <li><span class="li-head">fortianalyzer_app-ctrl_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -636,8 +636,8 @@ Parameters
         fortianalyzer_app-ctrl_archive-download
         <li><span class="li-head">fortianalyzer_app-ctrl_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -646,12 +646,12 @@ Parameters
         fortianalyzer_app-ctrl_raw
         <li><span class="li-head">fortianalyzer_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -659,12 +659,12 @@ Parameters
         fortianalyzer_cifs_raw
         <li><span class="li-head">fortianalyzer_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -672,12 +672,12 @@ Parameters
         fortianalyzer_dlp_raw
         <li><span class="li-head">fortianalyzer_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -685,12 +685,12 @@ Parameters
         fortianalyzer_dns_raw
         <li><span class="li-head">fortianalyzer_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -698,12 +698,12 @@ Parameters
         fortianalyzer_emailfilter_raw
         <li><span class="li-head">fortianalyzer_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -711,13 +711,13 @@ Parameters
         fortianalyzer_event_compliance-check
         <li><span class="li-head">fortianalyzer_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -725,13 +725,13 @@ Parameters
         fortianalyzer_event_connector
         <li><span class="li-head">fortianalyzer_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -739,13 +739,13 @@ Parameters
         fortianalyzer_event_endpoint
         <li><span class="li-head">fortianalyzer_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -753,13 +753,13 @@ Parameters
         fortianalyzer_event_fortiextender
         <li><span class="li-head">fortianalyzer_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -767,13 +767,13 @@ Parameters
         fortianalyzer_event_ha
         <li><span class="li-head">fortianalyzer_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -781,13 +781,13 @@ Parameters
         fortianalyzer_event_router
         <li><span class="li-head">fortianalyzer_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -795,13 +795,13 @@ Parameters
         fortianalyzer_event_security-rating
         <li><span class="li-head">fortianalyzer_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -809,13 +809,13 @@ Parameters
         fortianalyzer_event_system
         <li><span class="li-head">fortianalyzer_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -823,13 +823,13 @@ Parameters
         fortianalyzer_event_user
         <li><span class="li-head">fortianalyzer_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -837,13 +837,13 @@ Parameters
         fortianalyzer_event_vpn
         <li><span class="li-head">fortianalyzer_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -851,13 +851,13 @@ Parameters
         fortianalyzer_event_wad
         <li><span class="li-head">fortianalyzer_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -865,13 +865,13 @@ Parameters
         fortianalyzer_event_wireless
         <li><span class="li-head">fortianalyzer_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -879,12 +879,12 @@ Parameters
         fortianalyzer_file-filter_raw
         <li><span class="li-head">fortianalyzer_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -892,12 +892,12 @@ Parameters
         fortianalyzer_gtp_raw
         <li><span class="li-head">fortianalyzer_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -905,8 +905,8 @@ Parameters
         fortianalyzer_ips_archive
         <li><span class="li-head">fortianalyzer_ips_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -914,8 +914,8 @@ Parameters
         fortianalyzer_ips_archive-download
         <li><span class="li-head">fortianalyzer_ips_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -924,12 +924,12 @@ Parameters
         fortianalyzer_ips_raw
         <li><span class="li-head">fortianalyzer_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -937,12 +937,12 @@ Parameters
         fortianalyzer_ssh_raw
         <li><span class="li-head">fortianalyzer_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -950,12 +950,12 @@ Parameters
         fortianalyzer_ssl_raw
         <li><span class="li-head">fortianalyzer_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -963,13 +963,13 @@ Parameters
         fortianalyzer_traffic_fortiview
         <li><span class="li-head">fortianalyzer_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -977,13 +977,13 @@ Parameters
         fortianalyzer_traffic_forward
         <li><span class="li-head">fortianalyzer_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -991,13 +991,13 @@ Parameters
         fortianalyzer_traffic_local
         <li><span class="li-head">fortianalyzer_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1005,13 +1005,13 @@ Parameters
         fortianalyzer_traffic_multicast
         <li><span class="li-head">fortianalyzer_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1019,13 +1019,13 @@ Parameters
         fortianalyzer_traffic_sniffer
         <li><span class="li-head">fortianalyzer_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1033,13 +1033,13 @@ Parameters
         fortianalyzer_traffic_threat
         <li><span class="li-head">fortianalyzer_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1056,12 +1056,12 @@ Parameters
         fortianalyzer_virus_raw
         <li><span class="li-head">fortianalyzer_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1069,12 +1069,12 @@ Parameters
         fortianalyzer_voip_raw
         <li><span class="li-head">fortianalyzer_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1082,12 +1082,12 @@ Parameters
         fortianalyzer_waf_raw
         <li><span class="li-head">fortianalyzer_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1095,12 +1095,12 @@ Parameters
         fortianalyzer_webfilter_raw
         <li><span class="li-head">fortianalyzer_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1108,12 +1108,12 @@ Parameters
         forticloud_anomaly_raw
         <li><span class="li-head">forticloud_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1121,8 +1121,8 @@ Parameters
         forticloud_app-ctrl_archive
         <li><span class="li-head">forticloud_app-ctrl_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1130,8 +1130,8 @@ Parameters
         forticloud_app-ctrl_archive-download
         <li><span class="li-head">forticloud_app-ctrl_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -1140,12 +1140,12 @@ Parameters
         forticloud_app-ctrl_raw
         <li><span class="li-head">forticloud_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1153,12 +1153,12 @@ Parameters
         forticloud_cifs_raw
         <li><span class="li-head">forticloud_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1166,12 +1166,12 @@ Parameters
         forticloud_dlp_raw
         <li><span class="li-head">forticloud_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1179,12 +1179,12 @@ Parameters
         forticloud_dns_raw
         <li><span class="li-head">forticloud_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1192,12 +1192,12 @@ Parameters
         forticloud_emailfilter_raw
         <li><span class="li-head">forticloud_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1205,13 +1205,13 @@ Parameters
         forticloud_event_compliance-check
         <li><span class="li-head">forticloud_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1219,13 +1219,13 @@ Parameters
         forticloud_event_connector
         <li><span class="li-head">forticloud_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1233,13 +1233,13 @@ Parameters
         forticloud_event_endpoint
         <li><span class="li-head">forticloud_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1247,13 +1247,13 @@ Parameters
         forticloud_event_fortiextender
         <li><span class="li-head">forticloud_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1261,13 +1261,13 @@ Parameters
         forticloud_event_ha
         <li><span class="li-head">forticloud_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1275,13 +1275,13 @@ Parameters
         forticloud_event_router
         <li><span class="li-head">forticloud_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1289,13 +1289,13 @@ Parameters
         forticloud_event_security-rating
         <li><span class="li-head">forticloud_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1303,13 +1303,13 @@ Parameters
         forticloud_event_system
         <li><span class="li-head">forticloud_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1317,13 +1317,13 @@ Parameters
         forticloud_event_user
         <li><span class="li-head">forticloud_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1331,13 +1331,13 @@ Parameters
         forticloud_event_vpn
         <li><span class="li-head">forticloud_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1345,13 +1345,13 @@ Parameters
         forticloud_event_wad
         <li><span class="li-head">forticloud_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1359,13 +1359,13 @@ Parameters
         forticloud_event_wireless
         <li><span class="li-head">forticloud_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1373,12 +1373,12 @@ Parameters
         forticloud_file-filter_raw
         <li><span class="li-head">forticloud_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1386,12 +1386,12 @@ Parameters
         forticloud_gtp_raw
         <li><span class="li-head">forticloud_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1399,8 +1399,8 @@ Parameters
         forticloud_ips_archive
         <li><span class="li-head">forticloud_ips_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1408,8 +1408,8 @@ Parameters
         forticloud_ips_archive-download
         <li><span class="li-head">forticloud_ips_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -1418,12 +1418,12 @@ Parameters
         forticloud_ips_raw
         <li><span class="li-head">forticloud_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1431,12 +1431,12 @@ Parameters
         forticloud_ssh_raw
         <li><span class="li-head">forticloud_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1444,12 +1444,12 @@ Parameters
         forticloud_ssl_raw
         <li><span class="li-head">forticloud_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1457,13 +1457,13 @@ Parameters
         forticloud_traffic_fortiview
         <li><span class="li-head">forticloud_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1471,13 +1471,13 @@ Parameters
         forticloud_traffic_forward
         <li><span class="li-head">forticloud_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1485,13 +1485,13 @@ Parameters
         forticloud_traffic_local
         <li><span class="li-head">forticloud_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1499,13 +1499,13 @@ Parameters
         forticloud_traffic_multicast
         <li><span class="li-head">forticloud_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1513,13 +1513,13 @@ Parameters
         forticloud_traffic_sniffer
         <li><span class="li-head">forticloud_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1527,13 +1527,13 @@ Parameters
         forticloud_traffic_threat
         <li><span class="li-head">forticloud_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1550,12 +1550,12 @@ Parameters
         forticloud_virus_raw
         <li><span class="li-head">forticloud_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1563,12 +1563,12 @@ Parameters
         forticloud_voip_raw
         <li><span class="li-head">forticloud_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1576,12 +1576,12 @@ Parameters
         forticloud_waf_raw
         <li><span class="li-head">forticloud_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1589,12 +1589,12 @@ Parameters
         forticloud_webfilter_raw
         <li><span class="li-head">forticloud_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1602,12 +1602,12 @@ Parameters
         memory_anomaly_raw
         <li><span class="li-head">memory_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1615,8 +1615,8 @@ Parameters
         memory_app-ctrl_archive
         <li><span class="li-head">memory_app-ctrl_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1624,8 +1624,8 @@ Parameters
         memory_app-ctrl_archive-download
         <li><span class="li-head">memory_app-ctrl_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -1634,12 +1634,12 @@ Parameters
         memory_app-ctrl_raw
         <li><span class="li-head">memory_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1647,12 +1647,12 @@ Parameters
         memory_cifs_raw
         <li><span class="li-head">memory_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1660,12 +1660,12 @@ Parameters
         memory_dlp_raw
         <li><span class="li-head">memory_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1673,12 +1673,12 @@ Parameters
         memory_dns_raw
         <li><span class="li-head">memory_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1686,12 +1686,12 @@ Parameters
         memory_emailfilter_raw
         <li><span class="li-head">memory_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1699,13 +1699,13 @@ Parameters
         memory_event_compliance-check
         <li><span class="li-head">memory_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1713,13 +1713,13 @@ Parameters
         memory_event_connector
         <li><span class="li-head">memory_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1727,13 +1727,13 @@ Parameters
         memory_event_endpoint
         <li><span class="li-head">memory_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1741,13 +1741,13 @@ Parameters
         memory_event_fortiextender
         <li><span class="li-head">memory_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1755,13 +1755,13 @@ Parameters
         memory_event_ha
         <li><span class="li-head">memory_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1769,13 +1769,13 @@ Parameters
         memory_event_router
         <li><span class="li-head">memory_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1783,13 +1783,13 @@ Parameters
         memory_event_security-rating
         <li><span class="li-head">memory_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1797,13 +1797,13 @@ Parameters
         memory_event_system
         <li><span class="li-head">memory_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1811,13 +1811,13 @@ Parameters
         memory_event_user
         <li><span class="li-head">memory_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1825,13 +1825,13 @@ Parameters
         memory_event_vpn
         <li><span class="li-head">memory_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1839,13 +1839,13 @@ Parameters
         memory_event_wad
         <li><span class="li-head">memory_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1853,13 +1853,13 @@ Parameters
         memory_event_wireless
         <li><span class="li-head">memory_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1867,12 +1867,12 @@ Parameters
         memory_file-filter_raw
         <li><span class="li-head">memory_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1880,12 +1880,12 @@ Parameters
         memory_gtp_raw
         <li><span class="li-head">memory_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1893,8 +1893,8 @@ Parameters
         memory_ips_archive
         <li><span class="li-head">memory_ips_archive</span> - Return a list of archived items for the desired type. :type can be app-ctrl or ips 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number. (required if source is not fortianalyzer) <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1902,8 +1902,8 @@ Parameters
         memory_ips_archive-download
         <li><span class="li-head">memory_ips_archive-download</span> - Download an archived file. 
         <ul class="ul-self">
-                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">mkey</span> - Archive identifier. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">roll</span> - Log roll number (required if source is not fortianalyzer). <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">filename</span> - File name to use when saving the file in the browser. <span class="li-normal">type: string </span> </li>
                 
             </ul>
@@ -1912,12 +1912,12 @@ Parameters
         memory_ips_raw
         <li><span class="li-head">memory_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1925,12 +1925,12 @@ Parameters
         memory_ssh_raw
         <li><span class="li-head">memory_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1938,12 +1938,12 @@ Parameters
         memory_ssl_raw
         <li><span class="li-head">memory_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1951,13 +1951,13 @@ Parameters
         memory_traffic_fortiview
         <li><span class="li-head">memory_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1965,13 +1965,13 @@ Parameters
         memory_traffic_forward
         <li><span class="li-head">memory_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1979,13 +1979,13 @@ Parameters
         memory_traffic_local
         <li><span class="li-head">memory_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -1993,13 +1993,13 @@ Parameters
         memory_traffic_multicast
         <li><span class="li-head">memory_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2007,13 +2007,13 @@ Parameters
         memory_traffic_sniffer
         <li><span class="li-head">memory_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2021,13 +2021,13 @@ Parameters
         memory_traffic_threat
         <li><span class="li-head">memory_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">extra</span> - Flag(s) for extra data to be included [reverse_lookup|country_id]. <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2044,12 +2044,12 @@ Parameters
         memory_virus_raw
         <li><span class="li-head">memory_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2057,12 +2057,12 @@ Parameters
         memory_voip_raw
         <li><span class="li-head">memory_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2070,12 +2070,12 @@ Parameters
         memory_waf_raw
         <li><span class="li-head">memory_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         
@@ -2083,12 +2083,12 @@ Parameters
         memory_webfilter_raw
         <li><span class="li-head">memory_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
-                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
-                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
+                <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
+                <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
                 
             </ul>
         

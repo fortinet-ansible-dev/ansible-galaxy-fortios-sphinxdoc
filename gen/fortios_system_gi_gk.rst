@@ -266,8 +266,8 @@ Examples
         fortios_system_gi_gk:
           vdom:  "{{ vdom }}"
           system_gi_gk:
-            context: "3"
-            port: "4"
+            context: "696"
+            port: "21123"
     
 
 

@@ -135,7 +135,7 @@ Examples
         fortios_spamfilter_options:
           vdom:  "{{ vdom }}"
           spamfilter_options:
-            dns_timeout: "3"
+            dns_timeout: "15"
     
 
 

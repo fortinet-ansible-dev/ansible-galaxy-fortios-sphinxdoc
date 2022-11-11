@@ -307,7 +307,7 @@ Examples
         fortios_monitoring_np6_ipsec_engine:
           vdom:  "{{ vdom }}"
           monitoring_np6_ipsec_engine:
-            interval: "3"
+            interval: "1"
             status: "enable"
             threshold: "<your_own_value>"
     

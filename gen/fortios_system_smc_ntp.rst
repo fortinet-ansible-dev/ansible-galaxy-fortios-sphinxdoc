@@ -208,13 +208,13 @@ Examples
         fortios_system_smc_ntp:
           vdom:  "{{ vdom }}"
           system_smc_ntp:
-            channel: "3"
+            channel: "32767"
             ntpserver:
              -
                 id:  "5"
                 server: "192.168.100.40"
             ntpsync: "enable"
-            syncinterval: "8"
+            syncinterval: "32767"
     
 
 

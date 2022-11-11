@@ -520,7 +520,7 @@ Examples
           access_token: "<your_own_value>"
           switch_controller_vlan:
             auth: "radius"
-            color: "4"
+            color: "16"
             comments: "<your_own_value>"
             name: "default_name_6"
             portal_message_override_group: "<your_own_value>"
@@ -536,7 +536,7 @@ Examples
                 name: "default_name_16 (source user.group.name)"
             usergroup: "<your_own_value> (source user.group.name)"
             vdom: "<your_own_value>"
-            vlanid: "19"
+            vlanid: "2047"
     
 
 

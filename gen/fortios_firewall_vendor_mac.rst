@@ -280,9 +280,9 @@ Examples
           access_token: "<your_own_value>"
           firewall_vendor_mac:
             id:  "3"
-            mac_number: "4"
+            mac_number: "0"
             name: "default_name_5"
-            obsolete: "6"
+            obsolete: "0"
     
 
 

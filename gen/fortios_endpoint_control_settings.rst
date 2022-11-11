@@ -539,19 +539,19 @@ Examples
           endpoint_control_settings:
             download_custom_link: "<your_own_value>"
             download_location: "fortiguard"
-            forticlient_avdb_update_interval: "5"
+            forticlient_avdb_update_interval: "12"
             forticlient_dereg_unsupported_client: "enable"
             forticlient_disconnect_unsupported_client: "enable"
-            forticlient_ems_rest_api_call_timeout: "8"
-            forticlient_keepalive_interval: "9"
+            forticlient_ems_rest_api_call_timeout: "15000"
+            forticlient_keepalive_interval: "150"
             forticlient_offline_grace: "enable"
-            forticlient_offline_grace_interval: "11"
+            forticlient_offline_grace_interval: "300"
             forticlient_reg_key: "<your_own_value>"
             forticlient_reg_key_enforce: "enable"
-            forticlient_reg_timeout: "14"
-            forticlient_sys_update_interval: "15"
+            forticlient_reg_timeout: "90"
+            forticlient_sys_update_interval: "720"
             forticlient_user_avatar: "enable"
-            forticlient_warning_interval: "17"
+            forticlient_warning_interval: "12"
     
 
 

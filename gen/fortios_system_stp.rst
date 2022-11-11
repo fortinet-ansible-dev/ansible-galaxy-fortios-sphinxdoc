@@ -706,11 +706,11 @@ Examples
         fortios_system_stp:
           vdom:  "{{ vdom }}"
           system_stp:
-            config_revision: "3"
-            forward_delay: "4"
-            hello_time: "5"
-            max_age: "6"
-            max_hops: "7"
+            config_revision: "2147483647"
+            forward_delay: "15"
+            hello_time: "2"
+            max_age: "20"
+            max_hops: "20"
             region_name: "<your_own_value>"
             status: "<your_own_value>"
             switch_priority: "0"

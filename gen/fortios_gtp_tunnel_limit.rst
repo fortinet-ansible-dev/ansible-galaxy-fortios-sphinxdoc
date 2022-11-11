@@ -270,7 +270,7 @@ Examples
           access_token: "<your_own_value>"
           gtp_tunnel_limit:
             name: "default_name_3"
-            tunnel_limit: "4"
+            tunnel_limit: "0"
     
 
 

@@ -2820,7 +2820,7 @@ Examples
             port_npu_map:
              -
                 interface: "<your_own_value>"
-                npu_group_index: "31"
+                npu_group_index: "0"
             priority_protocol:
                 bfd: "enable"
                 bgp: "enable"
@@ -2837,7 +2837,7 @@ Examples
                 destination_ip_upper_16: "include"
                 destination_port: "include"
                 ip_protocol: "include"
-                netmask_length: "48"
+                netmask_length: "32"
                 source_ip_lower_16: "include"
                 source_ip_upper_16: "include"
                 source_port: "include"

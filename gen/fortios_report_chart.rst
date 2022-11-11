@@ -1311,7 +1311,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">favorite</span> - Favorite. <span class="li-normal">type: str</span> <span class="li-normal">choices: False, True</span>
+        <li> <span class="li-head">favorite</span> - Favorite. <span class="li-normal">type: str</span> <span class="li-normal">choices: no, yes</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -2103,7 +2103,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">is_category</span> - X-series represent category or not. <span class="li-normal">type: str</span> <span class="li-normal">choices: True, False</span>
+            <li> <span class="li-head">is_category</span> - X-series represent category or not. <span class="li-normal">type: str</span> <span class="li-normal">choices: yes, no</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -3083,7 +3083,7 @@ Examples
             category: "misc"
             category_series:
                 databind: "<your_own_value>"
-                font_size: "7"
+                font_size: "10"
             color_palette: "<your_own_value>"
             column:
              -
@@ -3112,36 +3112,36 @@ Examples
             favorite: "no"
             graph_type: "none"
             legend: "enable"
-            legend_font_size: "33"
+            legend_font_size: "2147483647"
             name: "default_name_34"
             period: "last24h"
-            policy: "36"
+            policy: "2147483647"
             style: "auto"
             title: "<your_own_value>"
-            title_font_size: "39"
+            title_font_size: "2147483647"
             type: "graph"
             value_series:
                 databind: "<your_own_value>"
             x_series:
                 caption: "<your_own_value>"
-                caption_font_size: "45"
+                caption_font_size: "10"
                 databind: "<your_own_value>"
-                font_size: "47"
+                font_size: "10"
                 is_category: "yes"
                 label_angle: "45-degree"
                 scale_direction: "decrease"
                 scale_format: "YYYY-MM-DD-HH-MM"
-                scale_step: "52"
+                scale_step: "32767"
                 scale_unit: "minute"
                 unit: "<your_own_value>"
             y_series:
                 caption: "<your_own_value>"
-                caption_font_size: "57"
+                caption_font_size: "10"
                 databind: "<your_own_value>"
                 extra_databind: "<your_own_value>"
                 extra_y: "enable"
                 extra_y_legend: "<your_own_value>"
-                font_size: "62"
+                font_size: "10"
                 group: "<your_own_value>"
                 label_angle: "45-degree"
                 unit: "<your_own_value>"

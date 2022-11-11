@@ -292,7 +292,7 @@ Examples
             ip: "<your_own_value>"
             ip6: "<your_own_value>"
             password: "<your_own_value>"
-            port: "7"
+            port: "32767"
             server_name: "<your_own_value>"
             username: "<your_own_value>"
     

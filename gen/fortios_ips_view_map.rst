@@ -467,9 +467,9 @@ Examples
           access_token: "<your_own_value>"
           ips_view_map:
             id:  "3"
-            id_policy_id: "4"
-            policy_id: "5"
-            vdom_id: "6"
+            id_policy_id: "0"
+            policy_id: "0"
+            vdom_id: "0"
             which: "firewall"
     
 

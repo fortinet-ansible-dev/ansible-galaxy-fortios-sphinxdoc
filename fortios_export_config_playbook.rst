@@ -163,7 +163,7 @@ Parameters
         <li><span class="li-normal">emailfilter_options</span> </li>
         <li><span class="li-normal">emailfilter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_client</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
-        <li><span class="li-normal">endpoint-control_fctems</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">endpoint-control_fctems</span>  <span class="li-required">param: ems_id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_forticlient-ems</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_forticlient-registration-sync</span>  <span class="li-required">param: peer_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_profile</span>  <span class="li-required">param: profile_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -180,6 +180,11 @@ Parameters
         <li><span class="li-normal">extender_modem-status</span> </li>
         <li><span class="li-normal">extender_session-info</span> </li>
         <li><span class="li-normal">extender_sys-info</span> </li>
+        <li><span class="li-normal">extension-controller_dataplan</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">extension-controller_extender</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">extension-controller_extender-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">extension-controller_fortigate</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">extension-controller_fortigate-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">file-filter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall.consolidated_policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall.ipmacbinding_setting</span> </li>
@@ -224,6 +229,7 @@ Parameters
         <li><span class="li-normal">firewall_dnstranslation</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_DoS-policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_DoS-policy6</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_global</span> </li>
         <li><span class="li-normal">firewall_gtp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_identity-based-route</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_interface-policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -256,6 +262,7 @@ Parameters
         <li><span class="li-normal">firewall_multicast-address6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_multicast-policy</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_multicast-policy6</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_network-service-dynamic</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_pfcp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_policy46</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>

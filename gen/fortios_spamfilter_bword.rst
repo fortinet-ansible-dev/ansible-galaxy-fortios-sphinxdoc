@@ -459,7 +459,7 @@ Examples
                 language: "western"
                 pattern: "<your_own_value>"
                 pattern_type: "wildcard"
-                score: "10"
+                score: "49999"
                 status: "enable"
                 where: "subject"
             id:  "13"

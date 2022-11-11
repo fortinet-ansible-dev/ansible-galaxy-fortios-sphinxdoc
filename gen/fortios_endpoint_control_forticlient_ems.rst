@@ -337,12 +337,12 @@ Examples
             admin_password: "<your_own_value>"
             admin_type: "Windows"
             admin_username: "<your_own_value>"
-            https_port: "7"
-            listen_port: "8"
+            https_port: "32767"
+            listen_port: "32767"
             name: "default_name_9"
             rest_api_auth: "disable"
             serial_number: "<your_own_value>"
-            upload_port: "12"
+            upload_port: "32767"
     
 
 

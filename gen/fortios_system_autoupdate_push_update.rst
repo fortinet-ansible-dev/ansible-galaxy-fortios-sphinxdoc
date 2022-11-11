@@ -330,7 +330,7 @@ Examples
           system_autoupdate_push_update:
             address: "<your_own_value>"
             override: "enable"
-            port: "5"
+            port: "32767"
             status: "enable"
     
 

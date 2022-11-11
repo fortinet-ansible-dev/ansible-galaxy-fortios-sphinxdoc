@@ -252,11 +252,11 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           endpoint_control_registered_forticlient:
-            flag: "3"
+            flag: "32767"
             ip: "<your_own_value>"
             mac: "<your_own_value>"
             reg_fortigate: "<your_own_value>"
-            status: "7"
+            status: "32767"
             uid: "<your_own_value>"
             vdom: "<your_own_value>"
     

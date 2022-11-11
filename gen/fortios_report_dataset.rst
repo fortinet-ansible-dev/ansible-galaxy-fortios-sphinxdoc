@@ -697,7 +697,7 @@ Examples
                 display_name: "<your_own_value>"
                 field: "<your_own_value>"
                 id:  "13"
-            policy: "14"
+            policy: "2147483647"
             query: "<your_own_value>"
     
 

@@ -363,7 +363,7 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           firewall_vipgrp46:
-            color: "3"
+            color: "0"
             comments: "<your_own_value>"
             member:
              -
