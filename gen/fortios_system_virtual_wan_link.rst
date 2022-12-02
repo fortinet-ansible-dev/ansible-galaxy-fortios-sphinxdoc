@@ -1002,7 +1002,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">link_cost_factor</span> - Criteria on which to base link selection. <span class="li-normal">type: str</span> <span class="li-normal">choices: latency, jitter, packet-loss</span>
+                <li> <span class="li-head">link_cost_factor</span> - Criteria on which to base link selection. <span class="li-normal">type: list</span> <span class="li-normal">choices: latency, jitter, packet-loss</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">

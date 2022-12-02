@@ -2286,7 +2286,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">type</span> - Select whether to check the content of messages (an email message) or files (downloaded files or email attachments). <span class="li-normal">type: str</span> <span class="li-normal">choices: file, message</span>
+            <li> <span class="li-head">type</span> - Select whether to check the content of messages (an email message) or files (downloaded files or email attachments). <span class="li-normal">type: str</span> <span class="li-normal">choices: file, fos_message</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -2357,7 +2357,7 @@ Parameters
  <td>yes</td>
  </tr>
  <tr>
- <td>[message]</td>
+ <td>[fos_message]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

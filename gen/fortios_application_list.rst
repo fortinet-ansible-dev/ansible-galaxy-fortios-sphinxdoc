@@ -699,7 +699,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">services</span> - Network protocols. <span class="li-normal">type: str</span> <span class="li-normal">choices: http, ssh, telnet, ftp, dns, smtp, pop3, imap, snmp, nntp, https</span>
+            <li> <span class="li-head">services</span> - Network protocols. <span class="li-normal">type: list</span> <span class="li-normal">choices: http, ssh, telnet, ftp, dns, smtp, pop3, imap, snmp, nntp, https</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">

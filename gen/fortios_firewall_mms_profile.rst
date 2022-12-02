@@ -3526,7 +3526,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">threshold</span> - Thresholds on which this MSISDN will receive an alert. <span class="li-normal">type: str</span> <span class="li-normal">choices: flood-thresh-1, flood-thresh-2, flood-thresh-3, dupe-thresh-1, dupe-thresh-2, dupe-thresh-3</span>
+            <li> <span class="li-head">threshold</span> - Thresholds on which this MSISDN will receive an alert. <span class="li-normal">type: list</span> <span class="li-normal">choices: flood-thresh-1, flood-thresh-2, flood-thresh-3, dupe-thresh-1, dupe-thresh-2, dupe-thresh-3</span>
  <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
  <div id="label163" style="display:none">
  <table border="1">

@@ -839,11 +839,11 @@ Examples
             auth: "enable"
             dest_opt: "enable"
             fragment: "enable"
-            hdopt_type: ""
+            hdopt_type: "<your_own_value>"
             hop_opt: "enable"
             no_next: "enable"
             routing: "enable"
-            routing_type: "0"
+            routing_type: "<your_own_value>"
     
 
 

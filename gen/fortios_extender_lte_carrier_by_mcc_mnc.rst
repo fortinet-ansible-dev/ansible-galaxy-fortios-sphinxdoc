@@ -108,7 +108,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head"><sn></span> - FortiExtender serial number. Source extender-controller.extender.id. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sn</span> - FortiExtender serial number. Source extender-controller.extender.id. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -125,7 +125,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  </tr>
  <tr>
- <td><sn></td>
+ <td>sn</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -171,7 +171,7 @@ Examples
         fortios_extender_lte_carrier_by_mcc_mnc:
           vdom:  "{{ vdom }}"
           extender_lte_carrier_by_mcc_mnc:
-            <sn>: "<your_own_value> (source extender-controller.extender.id)"
+            sn: "<your_own_value> (source extender-controller.extender.id)"
     
 
 

@@ -730,7 +730,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: str</span> <span class="li-normal">choices: time, timer</span>
+                    <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -1528,7 +1528,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: str</span> <span class="li-normal">choices: time, timer</span>
+                    <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -2349,7 +2349,7 @@ Parameters
  </div>
  </li>
                     <ul class="ul-self">
-                    <li> <span class="li-head">alert</span> - Alert multi-options. <span class="li-normal">type: str</span> <span class="li-normal">choices: system-reboot, data-exhausted, session-disconnect, low-signal-strength, mode-switch, os-image-fallback, fgt-backup-mode-switch</span>
+                    <li> <span class="li-head">alert</span> - Alert multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: system-reboot, data-exhausted, session-disconnect, low-signal-strength, mode-switch, os-image-fallback, fgt-backup-mode-switch</span>
  <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
  <div id="label121" style="display:none">
  <table border="1">

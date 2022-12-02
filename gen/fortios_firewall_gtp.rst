@@ -2465,7 +2465,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_ies</span> - GTP IEs to be removed. <span class="li-normal">type: str</span> <span class="li-normal">choices: apn-restriction, rat-type, rai, uli, imei</span>
+            <li> <span class="li-head">remove_ies</span> - GTP IEs to be removed. <span class="li-normal">type: list</span> <span class="li-normal">choices: apn-restriction, rat-type, rai, uli, imei</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
@@ -12009,7 +12009,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">apn_sel_mode</span> - APN selection mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: ms, net, vrf</span>
+            <li> <span class="li-head">apn_sel_mode</span> - APN selection mode. <span class="li-normal">type: list</span> <span class="li-normal">choices: ms, net, vrf</span>
  <a id='label400' href="javascript:ContentClick('label401', 'label400');" onmouseover="ContentPreview('label401');" onmouseout="ContentUnpreview('label401');" title="click to collapse or expand..."> more... </a>
  <div id="label401" style="display:none">
  <table border="1">
@@ -12434,7 +12434,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">messages</span> - GTP messages. <span class="li-normal">type: str</span> <span class="li-normal">choices: create-ses-req, create-ses-res, modify-bearer-req, modify-bearer-res</span>
+            <li> <span class="li-head">messages</span> - GTP messages. <span class="li-normal">type: list</span> <span class="li-normal">choices: create-ses-req, create-ses-res, modify-bearer-req, modify-bearer-res</span>
  <a id='label414' href="javascript:ContentClick('label415', 'label414');" onmouseover="ContentPreview('label415');" onmouseout="ContentUnpreview('label415');" title="click to collapse or expand..."> more... </a>
  <div id="label415" style="display:none">
  <table border="1">
@@ -12584,7 +12584,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">rat_type</span> - RAT Type. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, utran, geran, wlan, gan, hspa, eutran, virtual, nbiot, ltem, nr</span>
+            <li> <span class="li-head">rat_type</span> - RAT Type. <span class="li-normal">type: list</span> <span class="li-normal">choices: any, utran, geran, wlan, gan, hspa, eutran, virtual, nbiot, ltem, nr</span>
  <a id='label418' href="javascript:ContentClick('label419', 'label418');" onmouseover="ContentPreview('label419');" onmouseout="ContentUnpreview('label419');" title="click to collapse or expand..."> more... </a>
  <div id="label419" style="display:none">
  <table border="1">
@@ -12812,51 +12812,11 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">uli</span> - GTPv2 ULI patterns (in order of CGI SAI RAI TAI ECGI LAI). <span class="li-normal">type: str</span>
- <a id='label420' href="javascript:ContentClick('label421', 'label420');" onmouseover="ContentPreview('label421');" onmouseout="ContentUnpreview('label421');" title="click to collapse or expand..."> more... </a>
- <div id="label421" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- </tr>
- <tr>
- <td>uli</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
+            <li> <span class="li-head">uli</span> - GTPv2 ULI patterns (in order of CGI SAI RAI TAI ECGI LAI). <span class="li-normal">type: list</span> </li>
             </ul>
         <li> <span class="li-head">port_notify</span> - overbilling notify port <span class="li-normal">type: int</span>
- <a id='label422' href="javascript:ContentClick('label423', 'label422');" onmouseover="ContentPreview('label423');" onmouseout="ContentUnpreview('label423');" title="click to collapse or expand..."> more... </a>
- <div id="label423" style="display:none">
+ <a id='label420' href="javascript:ContentClick('label421', 'label420');" onmouseover="ContentPreview('label421');" onmouseout="ContentUnpreview('label421');" title="click to collapse or expand..."> more... </a>
+ <div id="label421" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -12902,8 +12862,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">rat_timeout_profile</span> - RAT timeout profile. Source gtp.rat-timeout-profile.name. <span class="li-normal">type: str</span>
- <a id='label424' href="javascript:ContentClick('label425', 'label424');" onmouseover="ContentPreview('label425');" onmouseout="ContentUnpreview('label425');" title="click to collapse or expand..."> more... </a>
- <div id="label425" style="display:none">
+ <a id='label422' href="javascript:ContentClick('label423', 'label422');" onmouseover="ContentPreview('label423');" onmouseout="ContentUnpreview('label423');" title="click to collapse or expand..."> more... </a>
+ <div id="label423" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -12949,8 +12909,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">rate_limit_mode</span> - GTP rate limit mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: per-profile, per-stream, per-apn</span>
- <a id='label426' href="javascript:ContentClick('label427', 'label426');" onmouseover="ContentPreview('label427');" onmouseout="ContentUnpreview('label427');" title="click to collapse or expand..."> more... </a>
- <div id="label427" style="display:none">
+ <a id='label424' href="javascript:ContentClick('label425', 'label424');" onmouseover="ContentPreview('label425');" onmouseout="ContentUnpreview('label425');" title="click to collapse or expand..."> more... </a>
+ <div id="label425" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13056,8 +13016,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">rate_limited_log</span> - log rate limited <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label428' href="javascript:ContentClick('label429', 'label428');" onmouseover="ContentPreview('label429');" onmouseout="ContentUnpreview('label429');" title="click to collapse or expand..."> more... </a>
- <div id="label429" style="display:none">
+ <a id='label426' href="javascript:ContentClick('label427', 'label426');" onmouseover="ContentPreview('label427');" onmouseout="ContentUnpreview('label427');" title="click to collapse or expand..."> more... </a>
+ <div id="label427" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13143,8 +13103,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">rate_sampling_interval</span> - rate sampling interval (1-3600 seconds) <span class="li-normal">type: int</span>
- <a id='label430' href="javascript:ContentClick('label431', 'label430');" onmouseover="ContentPreview('label431');" onmouseout="ContentUnpreview('label431');" title="click to collapse or expand..."> more... </a>
- <div id="label431" style="display:none">
+ <a id='label428' href="javascript:ContentClick('label429', 'label428');" onmouseover="ContentPreview('label429');" onmouseout="ContentUnpreview('label429');" title="click to collapse or expand..."> more... </a>
+ <div id="label429" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13190,8 +13150,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">remove_if_echo_expires</span> - remove if echo response expires <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label432' href="javascript:ContentClick('label433', 'label432');" onmouseover="ContentPreview('label433');" onmouseout="ContentUnpreview('label433');" title="click to collapse or expand..."> more... </a>
- <div id="label433" style="display:none">
+ <a id='label430' href="javascript:ContentClick('label431', 'label430');" onmouseover="ContentPreview('label431');" onmouseout="ContentUnpreview('label431');" title="click to collapse or expand..."> more... </a>
+ <div id="label431" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13277,8 +13237,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">remove_if_recovery_differ</span> - remove upon different Recovery IE <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label434' href="javascript:ContentClick('label435', 'label434');" onmouseover="ContentPreview('label435');" onmouseout="ContentUnpreview('label435');" title="click to collapse or expand..."> more... </a>
- <div id="label435" style="display:none">
+ <a id='label432' href="javascript:ContentClick('label433', 'label432');" onmouseover="ContentPreview('label433');" onmouseout="ContentUnpreview('label433');" title="click to collapse or expand..."> more... </a>
+ <div id="label433" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13364,8 +13324,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">reserved_ie</span> - reserved information element <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny</span>
- <a id='label436' href="javascript:ContentClick('label437', 'label436');" onmouseover="ContentPreview('label437');" onmouseout="ContentUnpreview('label437');" title="click to collapse or expand..."> more... </a>
- <div id="label437" style="display:none">
+ <a id='label434' href="javascript:ContentClick('label435', 'label434');" onmouseover="ContentPreview('label435');" onmouseout="ContentUnpreview('label435');" title="click to collapse or expand..."> more... </a>
+ <div id="label435" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13451,8 +13411,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">send_delete_when_timeout</span> - send DELETE request to path endpoints when GTPv0/v1 tunnel timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label438' href="javascript:ContentClick('label439', 'label438');" onmouseover="ContentPreview('label439');" onmouseout="ContentUnpreview('label439');" title="click to collapse or expand..."> more... </a>
- <div id="label439" style="display:none">
+ <a id='label436' href="javascript:ContentClick('label437', 'label436');" onmouseover="ContentPreview('label437');" onmouseout="ContentUnpreview('label437');" title="click to collapse or expand..."> more... </a>
+ <div id="label437" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13538,8 +13498,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">send_delete_when_timeout_v2</span> - send DELETE request to path endpoints when GTPv2 tunnel timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label440' href="javascript:ContentClick('label441', 'label440');" onmouseover="ContentPreview('label441');" onmouseout="ContentUnpreview('label441');" title="click to collapse or expand..."> more... </a>
- <div id="label441" style="display:none">
+ <a id='label438' href="javascript:ContentClick('label439', 'label438');" onmouseover="ContentPreview('label439');" onmouseout="ContentUnpreview('label439');" title="click to collapse or expand..."> more... </a>
+ <div id="label439" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13625,8 +13585,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">spoof_src_addr</span> - Spoofed source address for Mobile Station. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny</span>
- <a id='label442' href="javascript:ContentClick('label443', 'label442');" onmouseover="ContentPreview('label443');" onmouseout="ContentUnpreview('label443');" title="click to collapse or expand..."> more... </a>
- <div id="label443" style="display:none">
+ <a id='label440' href="javascript:ContentClick('label441', 'label440');" onmouseover="ContentPreview('label441');" onmouseout="ContentUnpreview('label441');" title="click to collapse or expand..."> more... </a>
+ <div id="label441" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13712,8 +13672,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">state_invalid_log</span> - log state invalid <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label444' href="javascript:ContentClick('label445', 'label444');" onmouseover="ContentPreview('label445');" onmouseout="ContentUnpreview('label445');" title="click to collapse or expand..."> more... </a>
- <div id="label445" style="display:none">
+ <a id='label442' href="javascript:ContentClick('label443', 'label442');" onmouseover="ContentPreview('label443');" onmouseout="ContentUnpreview('label443');" title="click to collapse or expand..."> more... </a>
+ <div id="label443" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13799,8 +13759,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">sub_second_interval</span> - Sub-second interval (0.1, 0.25, or 0.5 sec). <span class="li-normal">type: str</span> <span class="li-normal">choices: 0.5, 0.25, 0.1</span>
- <a id='label446' href="javascript:ContentClick('label447', 'label446');" onmouseover="ContentPreview('label447');" onmouseout="ContentUnpreview('label447');" title="click to collapse or expand..."> more... </a>
- <div id="label447" style="display:none">
+ <a id='label444' href="javascript:ContentClick('label445', 'label444');" onmouseover="ContentPreview('label445');" onmouseout="ContentUnpreview('label445');" title="click to collapse or expand..."> more... </a>
+ <div id="label445" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13906,8 +13866,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">sub_second_sampling</span> - Enable/disable sub-second sampling. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label448' href="javascript:ContentClick('label449', 'label448');" onmouseover="ContentPreview('label449');" onmouseout="ContentUnpreview('label449');" title="click to collapse or expand..."> more... </a>
- <div id="label449" style="display:none">
+ <a id='label446' href="javascript:ContentClick('label447', 'label446');" onmouseover="ContentPreview('label447');" onmouseout="ContentUnpreview('label447');" title="click to collapse or expand..."> more... </a>
+ <div id="label447" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -13993,8 +13953,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">traffic_count_log</span> - log tunnel traffic counter <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label450' href="javascript:ContentClick('label451', 'label450');" onmouseover="ContentPreview('label451');" onmouseout="ContentUnpreview('label451');" title="click to collapse or expand..."> more... </a>
- <div id="label451" style="display:none">
+ <a id='label448' href="javascript:ContentClick('label449', 'label448');" onmouseover="ContentPreview('label449');" onmouseout="ContentUnpreview('label449');" title="click to collapse or expand..."> more... </a>
+ <div id="label449" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14080,8 +14040,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tunnel_limit</span> - tunnel limit <span class="li-normal">type: int</span>
- <a id='label452' href="javascript:ContentClick('label453', 'label452');" onmouseover="ContentPreview('label453');" onmouseout="ContentUnpreview('label453');" title="click to collapse or expand..."> more... </a>
- <div id="label453" style="display:none">
+ <a id='label450' href="javascript:ContentClick('label451', 'label450');" onmouseover="ContentPreview('label451');" onmouseout="ContentUnpreview('label451');" title="click to collapse or expand..."> more... </a>
+ <div id="label451" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14127,8 +14087,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tunnel_limit_log</span> - tunnel limit <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label454' href="javascript:ContentClick('label455', 'label454');" onmouseover="ContentPreview('label455');" onmouseout="ContentUnpreview('label455');" title="click to collapse or expand..."> more... </a>
- <div id="label455" style="display:none">
+ <a id='label452' href="javascript:ContentClick('label453', 'label452');" onmouseover="ContentPreview('label453');" onmouseout="ContentUnpreview('label453');" title="click to collapse or expand..."> more... </a>
+ <div id="label453" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14214,8 +14174,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tunnel_timeout</span> - Established tunnel timeout (in seconds). <span class="li-normal">type: int</span>
- <a id='label456' href="javascript:ContentClick('label457', 'label456');" onmouseover="ContentPreview('label457');" onmouseout="ContentUnpreview('label457');" title="click to collapse or expand..."> more... </a>
- <div id="label457" style="display:none">
+ <a id='label454' href="javascript:ContentClick('label455', 'label454');" onmouseover="ContentPreview('label455');" onmouseout="ContentUnpreview('label455');" title="click to collapse or expand..."> more... </a>
+ <div id="label455" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14261,8 +14221,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unknown_version_action</span> - action for unknown gtp version <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny</span>
- <a id='label458' href="javascript:ContentClick('label459', 'label458');" onmouseover="ContentPreview('label459');" onmouseout="ContentUnpreview('label459');" title="click to collapse or expand..."> more... </a>
- <div id="label459" style="display:none">
+ <a id='label456' href="javascript:ContentClick('label457', 'label456');" onmouseover="ContentPreview('label457');" onmouseout="ContentUnpreview('label457');" title="click to collapse or expand..."> more... </a>
+ <div id="label457" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14348,8 +14308,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">user_plane_message_rate_limit</span> - user plane message rate limit <span class="li-normal">type: int</span>
- <a id='label460' href="javascript:ContentClick('label461', 'label460');" onmouseover="ContentPreview('label461');" onmouseout="ContentUnpreview('label461');" title="click to collapse or expand..."> more... </a>
- <div id="label461" style="display:none">
+ <a id='label458' href="javascript:ContentClick('label459', 'label458');" onmouseover="ContentPreview('label459');" onmouseout="ContentUnpreview('label459');" title="click to collapse or expand..."> more... </a>
+ <div id="label459" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -14395,8 +14355,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">warning_threshold</span> - Warning threshold for rate limiting (0 - 99 percent). <span class="li-normal">type: int</span>
- <a id='label462' href="javascript:ContentClick('label463', 'label462');" onmouseover="ContentPreview('label463');" onmouseout="ContentUnpreview('label463');" title="click to collapse or expand..."> more... </a>
- <div id="label463" style="display:none">
+ <a id='label460' href="javascript:ContentClick('label461', 'label460');" onmouseover="ContentPreview('label461');" onmouseout="ContentUnpreview('label461');" title="click to collapse or expand..."> more... </a>
+ <div id="label461" style="display:none">
  <table border="1">
  <tr>
  <td></td>

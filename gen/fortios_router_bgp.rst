@@ -16744,7 +16744,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged</span> - IPv4 List of attributes that should be unchanged. <span class="li-normal">type: str</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">attribute_unchanged</span> - IPv4 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label402' href="javascript:ContentClick('label403', 'label402');" onmouseover="ContentPreview('label403');" onmouseout="ContentUnpreview('label403');" title="click to collapse or expand..."> more... </a>
  <div id="label403" style="display:none">
  <table border="1">
@@ -16876,7 +16876,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged_vpnv4</span> - List of attributes that should be unchanged for VPNv4 route. <span class="li-normal">type: str</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">attribute_unchanged_vpnv4</span> - List of attributes that should be unchanged for VPNv4 route. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label404' href="javascript:ContentClick('label405', 'label404');" onmouseover="ContentPreview('label405');" onmouseout="ContentUnpreview('label405');" title="click to collapse or expand..."> more... </a>
  <div id="label405" style="display:none">
  <table border="1">
@@ -17008,7 +17008,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged6</span> - IPv6 List of attributes that should be unchanged. <span class="li-normal">type: str</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">attribute_unchanged6</span> - IPv6 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label406' href="javascript:ContentClick('label407', 'label406');" onmouseover="ContentPreview('label407');" onmouseout="ContentUnpreview('label407');" title="click to collapse or expand..."> more... </a>
  <div id="label407" style="display:none">
  <table border="1">

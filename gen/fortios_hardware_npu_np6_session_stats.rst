@@ -124,7 +124,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head"><dev_id></span> - NP6 ID <span class="li-normal">type: str</span>
+        <li> <span class="li-head">dev_id</span> - NP6 ID <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -145,7 +145,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  </tr>
  <tr>
- <td><dev_id></td>
+ <td>dev_id</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -195,7 +195,7 @@ Examples
         fortios_hardware_npu_np6_session_stats:
           vdom:  "{{ vdom }}"
           hardware_npu_np6_session_stats:
-            <dev_id>: "<your_own_value>"
+            dev_id: "<your_own_value>"
     
 
 

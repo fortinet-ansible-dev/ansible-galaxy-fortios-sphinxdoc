@@ -124,7 +124,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head"><refresh_rate></span> - Frequency to refresh the server list (sec). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">refresh_rate</span> - Frequency to refresh the server list (sec). <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -145,7 +145,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  </tr>
  <tr>
- <td><refresh_rate></td>
+ <td>refresh_rate</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -195,7 +195,7 @@ Examples
         fortios_webfilter_status:
           vdom:  "{{ vdom }}"
           webfilter_status:
-            <refresh_rate>: "<your_own_value>"
+            refresh_rate: "<your_own_value>"
     
 
 

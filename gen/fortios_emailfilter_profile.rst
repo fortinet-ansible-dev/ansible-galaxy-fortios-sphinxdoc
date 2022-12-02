@@ -590,7 +590,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">protocol</span> - Protocols to apply with. <span class="li-normal">type: str</span> <span class="li-normal">choices: smtp, imap, pop3</span>
+                <li> <span class="li-head">protocol</span> - Protocols to apply with. <span class="li-normal">type: list</span> <span class="li-normal">choices: smtp, imap, pop3</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">

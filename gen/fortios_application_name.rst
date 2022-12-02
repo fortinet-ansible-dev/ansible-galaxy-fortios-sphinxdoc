@@ -594,7 +594,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">default value</span> - Parameter default value. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">default_value</span> - Parameter default value. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -612,7 +612,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  </tr>
  <tr>
- <td>default value</td>
+ <td>default_value</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1016,7 +1016,7 @@ Examples
             parameter: "<your_own_value>"
             parameters:
              -
-                default value: "<your_own_value>"
+                default_value: "<your_own_value>"
                 name: "default_name_14"
             popularity: "0"
             protocol: "<your_own_value>"

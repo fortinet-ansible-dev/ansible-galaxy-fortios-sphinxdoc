@@ -3089,7 +3089,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+                <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -6574,7 +6574,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+                <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
  <div id="label177" style="display:none">
  <table border="1">

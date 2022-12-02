@@ -504,7 +504,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">services</span> - Bonjour services for the VLAN connecting to the Bonjour network. <span class="li-normal">type: str</span> <span class="li-normal">choices: all, airplay, afp, bit-torrent, ftp, ichat, itunes, printers, samba, scanners, ssh, chromecast</span>
+            <li> <span class="li-head">services</span> - Bonjour services for the VLAN connecting to the Bonjour network. <span class="li-normal">type: list</span> <span class="li-normal">choices: all, airplay, afp, bit-torrent, ftp, ichat, itunes, printers, samba, scanners, ssh, chromecast</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">

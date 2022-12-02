@@ -12464,7 +12464,7 @@ Examples
                         name: "default_name_14"
                         value: "<your_own_value>"
                     height: "768"
-                    host: "<your_own_value>"
+                    host: "myhostname"
                     keyboard_layout: "ar-101"
                     listening_port: "0"
                     load_balancing_info: "<your_own_value>"

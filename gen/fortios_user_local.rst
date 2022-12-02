@@ -1327,7 +1327,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tacacs+_server</span> - Name of TACACS+ server with which the user must authenticate. Source user.tacacs+.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">tacacs_plus_server</span> - Name of TACACS+ server with which the user must authenticate. Source user.tacacs+.name. <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -1357,7 +1357,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  </tr>
  <tr>
- <td>tacacs+_server</td>
+ <td>tacacs_plus_server</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2241,7 +2241,7 @@ Examples
             sms_phone: "<your_own_value>"
             sms_server: "fortiguard"
             status: "enable"
-            tacacs+_server: "<your_own_value> (source user.tacacs+.name)"
+            tacacs_plus_server: "<your_own_value> (source user.tacacs+.name)"
             two_factor: "disable"
             two_factor_authentication: "fortitoken"
             two_factor_notification: "email"

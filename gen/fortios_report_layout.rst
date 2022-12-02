@@ -276,7 +276,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">chart_options</span> - Report chart options. <span class="li-normal">type: str</span> <span class="li-normal">choices: include-no-data, hide-title, show-caption</span>
+            <li> <span class="li-head">chart_options</span> - Report chart options. <span class="li-normal">type: list</span> <span class="li-normal">choices: include-no-data, hide-title, show-caption</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">

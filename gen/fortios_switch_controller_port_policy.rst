@@ -85,7 +85,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">802_1x</span> - 802.1x security policy to be applied when using this port-policy. Source switch-controller.security-policy.802-1X.name switch-controller .security-policy.captive-portal.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">set_802_1x</span> - 802.1x security policy to be applied when using this port-policy. Source switch-controller.security-policy.802-1X.name switch-controller .security-policy.captive-portal.name. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -96,7 +96,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.4 </code></td>
  </tr>
  <tr>
- <td>802_1x</td>
+ <td>set_802_1x</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -283,7 +283,7 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           switch_controller_port_policy:
-            802_1x: "<your_own_value> (source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name)"
+            set_802_1x: "<your_own_value> (source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name)"
             bounce_port_link: "disable"
             description: "<your_own_value>"
             fortilink: "<your_own_value> (source system.interface.name)"

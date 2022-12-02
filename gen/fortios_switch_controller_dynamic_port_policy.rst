@@ -270,7 +270,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">802_1x</span> - 802.1x security policy to be applied when using this policy. Source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">set_802_1x</span> - 802.1x security policy to be applied when using this policy. Source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name. <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -290,7 +290,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  </tr>
  <tr>
- <td>802_1x</td>
+ <td>set_802_1x</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -994,7 +994,7 @@ Examples
             name: "default_name_5"
             policy:
              -
-                802_1x: "<your_own_value> (source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name)"
+                set_802_1x: "<your_own_value> (source switch-controller.security-policy.802-1X.name switch-controller.security-policy.captive-portal.name)"
                 bounce_port_link: "disable"
                 category: "device"
                 description: "<your_own_value>"

@@ -950,7 +950,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">threshold(default)</span> - Number of detected instances per minute which triggers action (1 - 2147483647). Note that each anomaly has a different threshold value assigned to it. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">threshold_default</span> - Number of detected instances per minute which triggers action (1 - 2147483647). Note that each anomaly has a different threshold value assigned to it. <span class="li-normal">type: int</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -975,7 +975,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  </tr>
  <tr>
- <td>threshold(default)</td>
+ <td>threshold_default</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3686,7 +3686,7 @@ Examples
                 quarantine_log: "disable"
                 status: "disable"
                 threshold: "0"
-                threshold(default): "0"
+                threshold_default: "0"
             application_list: "<your_own_value> (source application.list.name)"
             application_list_status: "enable"
             av_profile: "<your_own_value> (source antivirus.profile.name)"

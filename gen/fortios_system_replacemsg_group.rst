@@ -5461,9 +5461,36 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+            <li> <span class="li-head">fos_message</span> - message text <span class="li-normal">type: str</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ </tr>
+ <tr>
+ <td>fos_message</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+ <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
+ <div id="label139" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5489,8 +5516,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">from_sender</span> - notification message sent from recipient <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
- <div id="label139" style="display:none">
+ <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
+ <div id="label141" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5536,8 +5563,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">header</span> - Header flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, http, 8bit</span>
- <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
- <div id="label141" style="display:none">
+ <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
+ <div id="label143" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5593,33 +5620,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">image</span> - Message string. Source system.replacemsg-image.name. <span class="li-normal">type: str</span>
- <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
- <div id="label143" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- </tr>
- <tr>
- <td>image</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">message</span> - message text <span class="li-normal">type: str</span>
  <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
  <div id="label145" style="display:none">
  <table border="1">
@@ -5634,7 +5634,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.2.7 </code></td>
  </tr>
  <tr>
- <td>message</td>
+ <td>image</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -6185,9 +6185,36 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+            <li> <span class="li-head">fos_message</span> - message text <span class="li-normal">type: str</span>
  <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
  <div id="label169" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ </tr>
+ <tr>
+ <td>fos_message</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+ <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
+ <div id="label171" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6213,8 +6240,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">from_sender</span> - notification message sent from recipient <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
- <div id="label171" style="display:none">
+ <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
+ <div id="label173" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6260,8 +6287,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">header</span> - Header flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, http, 8bit</span>
- <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
- <div id="label173" style="display:none">
+ <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
+ <div id="label175" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6317,8 +6344,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">html_part</span> - message encapsulation text <span class="li-normal">type: str</span>
- <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
- <div id="label175" style="display:none">
+ <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
+ <div id="label177" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6344,33 +6371,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">image</span> - Message string. Source system.replacemsg-image.name. <span class="li-normal">type: str</span>
- <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
- <div id="label177" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- </tr>
- <tr>
- <td>image</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">message</span> - message text <span class="li-normal">type: str</span>
  <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
  <div id="label179" style="display:none">
  <table border="1">
@@ -6385,7 +6385,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.2.7 </code></td>
  </tr>
  <tr>
- <td>message</td>
+ <td>image</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -6812,9 +6812,36 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+            <li> <span class="li-head">fos_message</span> - message text <span class="li-normal">type: str</span>
  <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
  <div id="label199" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ </tr>
+ <tr>
+ <td>fos_message</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+ <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
+ <div id="label201" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6840,8 +6867,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">from_sender</span> - notification message sent from recipient <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
- <div id="label201" style="display:none">
+ <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
+ <div id="label203" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6887,8 +6914,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">header</span> - Header flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, http, 8bit</span>
- <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
- <div id="label203" style="display:none">
+ <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
+ <div id="label205" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6944,33 +6971,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">image</span> - Message string. Source system.replacemsg-image.name. <span class="li-normal">type: str</span>
- <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
- <div id="label205" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- </tr>
- <tr>
- <td>image</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">message</span> - message text <span class="li-normal">type: str</span>
  <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
  <div id="label207" style="display:none">
  <table border="1">
@@ -6985,7 +6985,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.2.7 </code></td>
  </tr>
  <tr>
- <td>message</td>
+ <td>image</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -7623,9 +7623,36 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+            <li> <span class="li-head">fos_message</span> - message text <span class="li-normal">type: str</span>
  <a id='label232' href="javascript:ContentClick('label233', 'label232');" onmouseover="ContentPreview('label233');" onmouseout="ContentUnpreview('label233');" title="click to collapse or expand..."> more... </a>
  <div id="label233" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ </tr>
+ <tr>
+ <td>fos_message</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">from</span> - from address <span class="li-normal">type: str</span>
+ <a id='label234' href="javascript:ContentClick('label235', 'label234');" onmouseover="ContentPreview('label235');" onmouseout="ContentUnpreview('label235');" title="click to collapse or expand..."> more... </a>
+ <div id="label235" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7651,8 +7678,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">from_sender</span> - notification message sent from recipient <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label234' href="javascript:ContentClick('label235', 'label234');" onmouseover="ContentPreview('label235');" onmouseout="ContentUnpreview('label235');" title="click to collapse or expand..."> more... </a>
- <div id="label235" style="display:none">
+ <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
+ <div id="label237" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7698,8 +7725,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">header</span> - Header flag. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, http, 8bit</span>
- <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
- <div id="label237" style="display:none">
+ <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
+ <div id="label239" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7755,33 +7782,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">image</span> - Message string. Source system.replacemsg-image.name. <span class="li-normal">type: str</span>
- <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
- <div id="label239" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- </tr>
- <tr>
- <td>image</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">message</span> - message text <span class="li-normal">type: str</span>
  <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
  <div id="label241" style="display:none">
  <table border="1">
@@ -7796,7 +7796,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.2.7 </code></td>
  </tr>
  <tr>
- <td>message</td>
+ <td>image</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -11694,11 +11694,11 @@ Examples
                 charset: "utf-8"
                 class: "not-included"
                 format: "none"
+                fos_message: "<your_own_value>"
                 from: "<your_own_value>"
                 from_sender: "enable"
                 header: "none"
                 image: "<your_own_value> (source system.replacemsg-image.name)"
-                message: "<your_own_value>"
                 msg_type: "<your_own_value>"
                 priority: "not-included"
                 rsp_status: "ok"
@@ -11711,12 +11711,12 @@ Examples
                 add_html: "enable"
                 charset: "utf-8"
                 format: "none"
+                fos_message: "<your_own_value>"
                 from: "<your_own_value>"
                 from_sender: "enable"
                 header: "none"
                 html_part: "<your_own_value>"
                 image: "<your_own_value> (source system.replacemsg-image.name)"
-                message: "<your_own_value>"
                 msg_type: "<your_own_value>"
                 priority: "not-included"
                 subject: "<your_own_value>"
@@ -11727,11 +11727,11 @@ Examples
                 class: "not-included"
                 domain: "<your_own_value>"
                 format: "none"
+                fos_message: "<your_own_value>"
                 from: "<your_own_value>"
                 from_sender: "enable"
                 header: "none"
                 image: "<your_own_value> (source system.replacemsg-image.name)"
-                message: "<your_own_value>"
                 msg_type: "<your_own_value>"
                 priority: "not-included"
                 rsp_status: "ok"
@@ -11745,11 +11745,11 @@ Examples
                 charset: "utf-8"
                 class: "not-included"
                 format: "none"
+                fos_message: "<your_own_value>"
                 from: "<your_own_value>"
                 from_sender: "enable"
                 header: "none"
                 image: "<your_own_value> (source system.replacemsg-image.name)"
-                message: "<your_own_value>"
                 msg_type: "<your_own_value>"
                 priority: "not-included"
                 rsp_status: "success"

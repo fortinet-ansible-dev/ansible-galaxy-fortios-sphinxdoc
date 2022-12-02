@@ -88,7 +88,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head"><fortiswitch_id></span> - FortiSwitch device ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">fortiswitch_id</span> - FortiSwitch device ID. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -100,7 +100,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 </code></td>
  </tr>
  <tr>
- <td><fortiswitch_id></td>
+ <td>fortiswitch_id</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -141,7 +141,7 @@ Examples
         fortios_switch_controller_poe:
           vdom:  "{{ vdom }}"
           switch_controller_poe:
-            <fortiswitch_id>: "<your_own_value>"
+            fortiswitch_id: "<your_own_value>"
     
 
 

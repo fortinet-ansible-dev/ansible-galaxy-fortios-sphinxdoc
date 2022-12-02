@@ -4366,60 +4366,10 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">monitor</span> - Interfaces to check for port monitoring (or link failure). Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">monitor</span> - Interfaces to check for port monitoring (or link failure). Source system.interface.name. <span class="li-normal">type: list</span> </li>
+            <li> <span class="li-head">override</span> - Enable and increase the priority of the unit that should always be primary. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
  <div id="label117" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- </tr>
- <tr>
- <td>monitor</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">override</span> - Enable and increase the priority of the unit that should always be primary. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
- <div id="label119" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4513,8 +4463,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">override_wait_time</span> - Delay negotiating if override is enabled (0 - 3600 sec). Reduces how often the cluster negotiates. <span class="li-normal">type: int</span>
- <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
- <div id="label121" style="display:none">
+ <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
+ <div id="label119" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4564,8 +4514,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">pingserver_failover_threshold</span> - Remote IP monitoring failover threshold (0 - 50). <span class="li-normal">type: int</span>
- <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
- <div id="label123" style="display:none">
+ <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
+ <div id="label121" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4614,60 +4564,10 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">pingserver_monitor_interface</span> - Interfaces to check for remote IP monitoring. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
- <div id="label125" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- </tr>
- <tr>
- <td>pingserver_monitor_interface</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
- </div>
- </li>
+            <li> <span class="li-head">pingserver_monitor_interface</span> - Interfaces to check for remote IP monitoring. Source system.interface.name. <span class="li-normal">type: list</span> </li>
             <li> <span class="li-head">pingserver_secondary_force_reset</span> - Enable to force the cluster to negotiate after a remote IP monitoring failover. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
- <div id="label127" style="display:none">
+ <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
+ <div id="label123" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4761,8 +4661,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">pingserver_slave_force_reset</span> - Enable to force the cluster to negotiate after a remote IP monitoring failover. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
- <div id="label129" style="display:none">
+ <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
+ <div id="label125" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4816,8 +4716,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">priority</span> - Increase the priority to select the primary unit (0 - 255). <span class="li-normal">type: int</span>
- <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
- <div id="label131" style="display:none">
+ <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
+ <div id="label127" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4867,8 +4767,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">vcluster_id</span> - Cluster ID. <span class="li-normal">type: int</span>
- <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
- <div id="label133" style="display:none">
+ <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
+ <div id="label129" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4912,8 +4812,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">vdom</span> - VDOMs in virtual cluster 2. <span class="li-normal">type: str</span>
- <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
- <div id="label135" style="display:none">
+ <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
+ <div id="label131" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4964,8 +4864,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">session_pickup</span> - Enable/disable session pickup. Enabling it can reduce session down time when fail over happens. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
- <div id="label137" style="display:none">
+ <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
+ <div id="label133" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5071,8 +4971,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">session_pickup_connectionless</span> - Enable/disable UDP and ICMP session sync. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
- <div id="label139" style="display:none">
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5178,8 +5078,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">session_pickup_delay</span> - Enable to sync sessions longer than 30 sec. Only longer lived sessions need to be synced. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
- <div id="label141" style="display:none">
+ <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
+ <div id="label137" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5285,8 +5185,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">session_pickup_expectation</span> - Enable/disable session helper expectation session sync for FGSP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
- <div id="label143" style="display:none">
+ <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
+ <div id="label139" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5392,8 +5292,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">session_pickup_nat</span> - Enable/disable NAT session sync for FGSP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
- <div id="label145" style="display:none">
+ <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
+ <div id="label141" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5500,8 +5400,8 @@ Parameters
  </li>
         <li> <span class="li-head">session_sync_dev</span> - Offload session-sync process to kernel and sync sessions using connected interface(s) directly. Source system.interface.name. <span class="li-normal">type: list</span> </li>
         <li> <span class="li-head">smtp_proxy_threshold</span> - Dynamic weighted load balancing weight and high and low number of SMTP proxy sessions. <span class="li-normal">type: str</span>
- <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
- <div id="label147" style="display:none">
+ <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
+ <div id="label143" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5557,8 +5457,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">ssd_failover</span> - Enable/disable automatic HA failover on SSD disk failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
- <div id="label149" style="display:none">
+ <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
+ <div id="label145" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5664,8 +5564,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">standalone_config_sync</span> - Enable/disable FGSP configuration synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
- <div id="label151" style="display:none">
+ <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
+ <div id="label147" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5771,8 +5671,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">standalone_mgmt_vdom</span> - Enable/disable standalone management VDOM. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
- <div id="label153" style="display:none">
+ <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
+ <div id="label149" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5878,8 +5778,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">sync_config</span> - Enable/disable configuration synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
- <div id="label155" style="display:none">
+ <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
+ <div id="label151" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -5985,8 +5885,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">sync_packet_balance</span> - Enable/disable HA packet distribution to multiple CPUs. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
- <div id="label157" style="display:none">
+ <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
+ <div id="label153" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6092,8 +5992,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unicast_gateway</span> - Default route gateway for unicast interface. <span class="li-normal">type: str</span>
- <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
- <div id="label159" style="display:none">
+ <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
+ <div id="label155" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6149,8 +6049,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unicast_hb</span> - Enable/disable unicast heartbeat. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
- <div id="label161" style="display:none">
+ <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
+ <div id="label157" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6256,8 +6156,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unicast_hb_netmask</span> - Unicast heartbeat netmask. <span class="li-normal">type: str</span>
- <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
- <div id="label163" style="display:none">
+ <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
+ <div id="label159" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6313,8 +6213,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unicast_hb_peerip</span> - Unicast heartbeat peer IP. <span class="li-normal">type: str</span>
- <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
- <div id="label165" style="display:none">
+ <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
+ <div id="label161" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6370,8 +6270,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unicast_peers</span> - Number of unicast peers. <span class="li-normal">type: list</span>
- <a id='label166' href="javascript:ContentClick('label167', 'label166');" onmouseover="ContentPreview('label167');" onmouseout="ContentUnpreview('label167');" title="click to collapse or expand..."> more... </a>
- <div id="label167" style="display:none">
+ <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
+ <div id="label163" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6428,8 +6328,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">id</span> - Table ID. <span class="li-normal">type: int</span>
- <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
- <div id="label169" style="display:none">
+ <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
+ <div id="label165" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6463,8 +6363,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">peer_ip</span> - Unicast peer IP. <span class="li-normal">type: str</span>
- <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
- <div id="label171" style="display:none">
+ <a id='label166' href="javascript:ContentClick('label167', 'label166');" onmouseover="ContentPreview('label167');" onmouseout="ContentUnpreview('label167');" title="click to collapse or expand..."> more... </a>
+ <div id="label167" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6499,8 +6399,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">unicast_status</span> - Enable/disable unicast connection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
- <div id="label173" style="display:none">
+ <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
+ <div id="label169" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6606,8 +6506,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">uninterruptible_primary_wait</span> - Number of minutes the primary HA unit waits before the secondary HA unit is considered upgraded and the system is started before starting its own upgrade (15 - 300). <span class="li-normal">type: int</span>
- <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
- <div id="label175" style="display:none">
+ <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
+ <div id="label171" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6663,8 +6563,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">uninterruptible_upgrade</span> - Enable to upgrade a cluster without blocking network traffic. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
- <div id="label177" style="display:none">
+ <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
+ <div id="label173" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6770,8 +6670,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vcluster</span> - Virtual cluster table. <span class="li-normal">type: list</span>
- <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
- <div id="label179" style="display:none">
+ <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
+ <div id="label175" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6829,8 +6729,8 @@ Parameters
             <ul class="ul-self">
             <li> <span class="li-head">monitor</span> - Interfaces to check for port monitoring (or link failure). Source system.interface.name. <span class="li-normal">type: list</span> </li>
             <li> <span class="li-head">override</span> - Enable and increase the priority of the unit that should always be primary (master). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
- <div id="label181" style="display:none">
+ <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
+ <div id="label177" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6860,8 +6760,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">override_wait_time</span> - Delay negotiating if override is enabled (0 - 3600 sec). Reduces how often the cluster negotiates. <span class="li-normal">type: int</span>
- <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
- <div id="label183" style="display:none">
+ <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
+ <div id="label179" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6879,8 +6779,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">pingserver_failover_threshold</span> - Remote IP monitoring failover threshold (0 - 50). <span class="li-normal">type: int</span>
- <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
- <div id="label185" style="display:none">
+ <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
+ <div id="label181" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6899,8 +6799,8 @@ Parameters
  </li>
             <li> <span class="li-head">pingserver_monitor_interface</span> - Interfaces to check for remote IP monitoring. Source system.interface.name. <span class="li-normal">type: list</span> </li>
             <li> <span class="li-head">pingserver_secondary_force_reset</span> - Enable to force the cluster to negotiate after a remote IP monitoring failover. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
- <div id="label187" style="display:none">
+ <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
+ <div id="label183" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6930,8 +6830,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">pingserver_slave_force_reset</span> - Enable to force the cluster to negotiate after a remote IP monitoring failover. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
- <div id="label189" style="display:none">
+ <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
+ <div id="label185" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6953,8 +6853,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">priority</span> - Increase the priority to select the primary unit (0 - 255). <span class="li-normal">type: int</span>
- <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
- <div id="label191" style="display:none">
+ <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
+ <div id="label187" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6972,8 +6872,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">vcluster_id</span> - ID. <span class="li-normal">type: int</span>
- <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
- <div id="label193" style="display:none">
+ <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
+ <div id="label189" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -6991,8 +6891,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">vdom</span> - Virtual domain(s) in the virtual cluster. <span class="li-normal">type: list</span>
- <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
- <div id="label195" style="display:none">
+ <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
+ <div id="label191" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7011,8 +6911,8 @@ Parameters
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">name</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span>
- <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
- <div id="label197" style="display:none">
+ <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
+ <div id="label193" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7032,8 +6932,8 @@ Parameters
                 </ul>
             </ul>
         <li> <span class="li-head">vcluster_id</span> - Cluster ID. <span class="li-normal">type: int</span>
- <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
- <div id="label199" style="display:none">
+ <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
+ <div id="label195" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7077,8 +6977,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vcluster_status</span> - Enable/disable virtual cluster for virtual clustering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
- <div id="label201" style="display:none">
+ <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
+ <div id="label197" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7184,8 +7084,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vcluster2</span> - Enable/disable virtual cluster 2 for virtual clustering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
- <div id="label203" style="display:none">
+ <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
+ <div id="label199" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7279,8 +7179,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vdom</span> - VDOMs in virtual cluster 1. <span class="li-normal">type: str</span>
- <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
- <div id="label205" style="display:none">
+ <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
+ <div id="label201" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7330,8 +7230,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">weight</span> - Weight-round-robin weight for each cluster unit. Syntax <priority> <weight>. <span class="li-normal">type: str</span>
- <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
- <div id="label207" style="display:none">
+ <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
+ <div id="label203" style="display:none">
  <table border="1">
  <tr>
  <td></td>

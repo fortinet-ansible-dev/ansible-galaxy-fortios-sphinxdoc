@@ -10587,7 +10587,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">allowed_methods</span> - Allowed Methods. <span class="li-normal">type: str</span> <span class="li-normal">choices: get, post, put, head, connect, trace, options, delete, others</span>
+                <li> <span class="li-head">allowed_methods</span> - Allowed Methods. <span class="li-normal">type: list</span> <span class="li-normal">choices: get, post, put, head, connect, trace, options, delete, others</span>
  <a id='label220' href="javascript:ContentClick('label221', 'label220');" onmouseover="ContentPreview('label221');" onmouseout="ContentUnpreview('label221');" title="click to collapse or expand..."> more... </a>
  <div id="label221" style="display:none">
  <table border="1">
@@ -12367,7 +12367,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">target</span> - Match HTTP target. <span class="li-normal">type: str</span> <span class="li-normal">choices: arg, arg-name, req-body, req-cookie, req-cookie-name, req-filename, req-header, req-header-name, req-raw-uri, req-uri, resp-body, resp-hdr, resp-status</span>
+                <li> <span class="li-head">target</span> - Match HTTP target. <span class="li-normal">type: list</span> <span class="li-normal">choices: arg, arg-name, req-body, req-cookie, req-cookie-name, req-filename, req-header, req-header-name, req-raw-uri, req-uri, resp-body, resp-hdr, resp-status</span>
  <a id='label256' href="javascript:ContentClick('label257', 'label256');" onmouseover="ContentPreview('label257');" onmouseout="ContentUnpreview('label257');" title="click to collapse or expand..."> more... </a>
  <div id="label257" style="display:none">
  <table border="1">

@@ -5948,7 +5948,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">action</span> - Actions taken for detected offending SSID. <span class="li-normal">type: str</span> <span class="li-normal">choices: log, suppress</span>
+            <li> <span class="li-head">action</span> - Actions taken for detected offending SSID. <span class="li-normal">type: list</span> <span class="li-normal">choices: log, suppress</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">

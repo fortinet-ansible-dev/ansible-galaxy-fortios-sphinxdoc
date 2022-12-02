@@ -106,7 +106,7 @@ Parameters
     <li> <span class="li-head">self</span> - mkey of self identifier <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">after</span> - mkey of target identifier <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">before</span> - mkey of target identifier <span class="li-normal">type: str</span> </li>
-    <li> <span class="li-head">state</span> - Indicates whether to create or remove the object. <span class="li-normal">type: str</span> <span class="li-required">required: true</span> <span class="li-normal">choices: present, absent</span> </li>
+    <li> <span class="li-head">state</span> - Indicates whether to create or remove the object. <span class="li-normal">type: str</span> <span class="li-required">required: false</span> <span class="li-normal">choices: present, absent</span> </li>
     <li> <span class="li-head">firewall_central_snat_map</span> - Configure IPv4 and IPv6 central SNAT policies. <span class="li-normal">type: dict</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">

@@ -1740,7 +1740,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">options</span> - FortiGuard DNS filter options. <span class="li-normal">type: str</span> <span class="li-normal">choices: error-allow, ftgd-disable</span>
+            <li> <span class="li-head">options</span> - FortiGuard DNS filter options. <span class="li-normal">type: list</span> <span class="li-normal">choices: error-allow, ftgd-disable</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">

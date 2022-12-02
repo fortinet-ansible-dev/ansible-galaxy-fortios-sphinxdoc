@@ -2204,7 +2204,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">server_type</span> - FortiGuard service type. <span class="li-normal">type: str</span> <span class="li-normal">choices: update, rating, iot-query, iot-collect</span>
+            <li> <span class="li-head">server_type</span> - FortiGuard service type. <span class="li-normal">type: list</span> <span class="li-normal">choices: update, rating, iot-query, iot-collect</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">

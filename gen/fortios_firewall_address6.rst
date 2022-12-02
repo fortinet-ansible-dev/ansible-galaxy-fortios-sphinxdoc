@@ -2584,7 +2584,7 @@ Examples
             epg_name: "<your_own_value>"
             fabric_object: "enable"
             fqdn: "<your_own_value>"
-            host: "<your_own_value>"
+            host: "myhostname"
             host_type: "any"
             ip6: "<your_own_value>"
             list:

@@ -2075,7 +2075,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: str</span> <span class="li-normal">choices: time, timer</span>
+                <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -2676,7 +2676,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: str</span> <span class="li-normal">choices: time, timer</span>
+                <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
  <table border="1">

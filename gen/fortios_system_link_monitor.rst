@@ -2090,7 +2090,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">protocol</span> - Protocols used to monitor the server. <span class="li-normal">type: str</span> <span class="li-normal">choices: ping, tcp-echo, udp-echo, http, twamp</span>
+            <li> <span class="li-head">protocol</span> - Protocols used to monitor the server. <span class="li-normal">type: list</span> <span class="li-normal">choices: ping, tcp-echo, udp-echo, http, twamp</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
