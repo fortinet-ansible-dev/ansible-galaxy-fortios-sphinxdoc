@@ -4,6 +4,20 @@ Release Notes
 
 |
 
+Release Galaxy 2.2.2
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.2.2 is based on 2.2.1
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix runtime issue (#214);
+- Add required field for module log_fact;
+- Fix sanity test errors in validate-modules test;
+
 Release Galaxy 2.2.1
 --------------------
 
