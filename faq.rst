@@ -11,6 +11,7 @@ Frequently Asked Questions (FAQ)
  - `How does Ansible work with login banner?`_
  - `How To Work With Raw FotiOS CLI?`_
  - `How to use the set_fact module in a task?`_
+ - `How to use the member operation to add an element in an object?`_
 
 |
 
@@ -413,6 +414,38 @@ In the example, the first task is preprocessing the input content.
 Specifically, it splits the input content with comma to get a list of the firewall addresses.
 Then it appends the each address to the variable demo_members.
 So the demo_members variable can be assigned to the variable members in the subsequent play.
+
+How to use the member operation to add an element in an object?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Member operation is used to add an element to an existing object. The example below will show you how to use it.
+
+::
+
+  - hosts: fortigateslab
+    connection: httpapi
+    collections:
+      - fortinet.fortios
+    vars:
+      ansible_httpapi_use_ssl: yes
+      ansible_httpapi_validate_certs: no
+      ansible_httpapi_port: 443
+    tasks:
+    - name: Add an dns entry in the existing obj.
+      fortios_system_dns_database:
+        #access_token: "{{ access_token }}"
+        state: "present"
+        member_state: "present"
+        member_path: "dns_entry:id"
+        system_dns_database:
+          name: 1
+          dns_entry:
+            - id: 1
+              hostname: xyz.com
+              ip: 8.8.8.9
+            - id: 2
+              hostname: abc.com
+              ip: 7.7.7.8
 
 
 .. _Run Your Playbook: playbook.html

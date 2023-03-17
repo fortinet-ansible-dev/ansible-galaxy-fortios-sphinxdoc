@@ -4,6 +4,27 @@ Release Notes
 
 |
 
+Release Galaxy 2.2.3
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.2.3 is based on 2.2.2
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the login issue (#232);
+- Fix the issue that all the params with underscore cannot be set under member operation;
+- Fix the output path issue (#227);
+
+Improvements
+^^^^^^^^^^^^^^^
+- Update ``fortios.py`` for higher performance;
+- supports temporary session key and pre/post login banner;
+- update the examples on how to use member operation in Q&A.
+- Add annotations of member operation for every module.
+
 Release Galaxy 2.2.2
 --------------------
 
