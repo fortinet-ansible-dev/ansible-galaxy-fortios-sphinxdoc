@@ -63,9 +63,13 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>fortios_firewall_addrgrp</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -135,9 +139,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>firewall_addrgrp</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -193,9 +201,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>allow_routing</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -243,9 +255,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -300,6 +316,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>category</td>
@@ -313,6 +331,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -350,6 +370,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[ztna-ems-tag]</td>
@@ -375,6 +397,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[ztna-geo-tag]</td>
@@ -388,6 +412,8 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -432,9 +458,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>color</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -489,9 +519,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>comment</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -546,12 +580,16 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>exclude</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -596,6 +634,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -621,11 +661,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">exclude_member</span> - Address exclusion member. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">exclude_member</span> - Address exclusion member. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: exclude_member:name</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -653,6 +695,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>exclude_member</td>
@@ -678,12 +722,14 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -708,9 +754,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -763,6 +813,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>fabric_object</td>
@@ -775,6 +827,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -813,6 +867,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -838,11 +894,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">member</span> - Address objects contained within the group. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">member</span> - Address objects contained within the group. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: member:name</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -870,9 +928,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>member</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -900,7 +962,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -928,9 +990,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -986,9 +1052,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1015,7 +1085,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -1043,9 +1113,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>tagging</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1101,9 +1175,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>category</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1130,7 +1208,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -1158,9 +1236,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1187,7 +1269,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name/tags:name</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -1215,9 +1297,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>tags</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1245,7 +1331,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1273,9 +1359,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1332,6 +1422,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>type</td>
@@ -1342,6 +1434,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1382,6 +1476,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[folder]</td>
@@ -1392,6 +1488,8 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1439,9 +1537,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>uuid</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

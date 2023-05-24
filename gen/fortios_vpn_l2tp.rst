@@ -63,9 +63,13 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>fortios_vpn_l2tp</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -134,9 +138,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>vpn_l2tp</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -192,6 +200,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>compress</td>
@@ -200,6 +210,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -242,6 +254,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -250,6 +264,8 @@ Parameters
  <td>n/a</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -299,9 +315,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>eip</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -356,9 +376,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>enforce_ipsec</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -406,9 +430,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -463,6 +491,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>hello_interval</td>
@@ -477,6 +507,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -520,6 +552,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>lcp_echo_interval</td>
@@ -532,6 +566,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -577,6 +613,8 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>lcp_max_echo_fails</td>
@@ -589,6 +627,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -634,9 +674,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>sip</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -691,9 +735,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>status</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -741,9 +789,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -798,9 +850,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>usrgrp</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

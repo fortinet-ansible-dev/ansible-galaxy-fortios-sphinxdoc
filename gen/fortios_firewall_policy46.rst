@@ -219,7 +219,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dstaddr</span> - Destination address objects. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">dstaddr</span> - Destination address objects. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: dstaddr:name</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -255,7 +255,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.vip46.name firewall.vipgrp46.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.vip46.name firewall.vipgrp46.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -746,7 +746,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">poolname</span> - IP Pool names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">poolname</span> - IP Pool names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: poolname:name</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -782,7 +782,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - IP pool name. Source firewall.ippool6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - IP pool name. Source firewall.ippool6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -853,7 +853,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">service</span> - Service name. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">service</span> - Service name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:name</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -889,7 +889,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Service name. Source firewall.service.custom.name firewall.service.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Service name. Source firewall.service.custom.name firewall.service.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -925,7 +925,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">srcaddr</span> - Source address objects. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">srcaddr</span> - Source address objects. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcaddr:name</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -961,7 +961,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">

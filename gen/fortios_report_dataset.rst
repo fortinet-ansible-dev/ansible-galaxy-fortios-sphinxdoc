@@ -117,7 +117,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">field</span> - Fields. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">field</span> - Fields. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: field:id</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -184,7 +184,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Field ID (1 to number of columns in SQL result). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Field ID (1 to number of columns in SQL result). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -356,7 +356,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">parameters</span> - Parameters. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">parameters</span> - Parameters. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: parameters:id</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -554,7 +554,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Parameter ID (1 to number of columns in SQL result). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Parameter ID (1 to number of columns in SQL result). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">

@@ -108,7 +108,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">device_groups</span> - Device groups. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">device_groups</span> - Device groups. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: device_groups:name</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -128,7 +128,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Device group object from available options. Source user.device-group.name user.device-category.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Device group object from available options. Source user.device-group.name user.device-category.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -280,7 +280,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">forticlient_vpn_settings</span> - FortiClient VPN settings. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_vpn_settings</span> - FortiClient VPN settings. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_android_settings/forticlient_vpn_settings:name</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -331,7 +331,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">name</span> - VPN name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - VPN name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -572,7 +572,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">client_vpn_settings</span> - FortiClient VPN settings. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">client_vpn_settings</span> - FortiClient VPN settings. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_ios_settings/client_vpn_settings:name</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -623,7 +623,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">name</span> - VPN name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - VPN name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -1176,7 +1176,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">forticlient_ems_entries</span> - FortiClient EMS entries. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_ems_entries</span> - FortiClient EMS entries. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_winmac_settings/forticlient_ems_entries:name</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -1196,7 +1196,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - FortiClient EMS name. Source endpoint-control.forticlient-ems.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - FortiClient EMS name. Source endpoint-control.forticlient-ems.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -1372,7 +1372,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">forticlient_operating_system</span> - FortiClient operating system. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_operating_system</span> - FortiClient operating system. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_winmac_settings/forticlient_operating_system:id</span>
  <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
  <div id="label107" style="display:none">
  <table border="1">
@@ -1392,7 +1392,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Operating system entry ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Operating system entry ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -1582,7 +1582,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">forticlient_own_file</span> - Checking the path and filename of the FortiClient application. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_own_file</span> - Checking the path and filename of the FortiClient application. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_winmac_settings/forticlient_own_file:id</span>
  <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
  <div id="label115" style="display:none">
  <table border="1">
@@ -1621,7 +1621,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - File ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - File ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -1672,7 +1672,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">forticlient_registry_entry</span> - FortiClient registry entry. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_registry_entry</span> - FortiClient registry entry. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_winmac_settings/forticlient_registry_entry:id</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
  <table border="1">
@@ -1692,7 +1692,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Registry entry ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Registry entry ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
  <div id="label125" style="display:none">
  <table border="1">
@@ -1731,7 +1731,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">forticlient_running_app</span> - Use FortiClient to verify if the listed applications are running on the client. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">forticlient_running_app</span> - Use FortiClient to verify if the listed applications are running on the client. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: forticlient_winmac_settings/forticlient_running_app:id</span>
  <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
  <div id="label129" style="display:none">
  <table border="1">
@@ -1877,7 +1877,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - Application ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Application ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
  <div id="label143" style="display:none">
  <table border="1">
@@ -2409,7 +2409,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">on_net_addr</span> - Addresses for on-net detection. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">on_net_addr</span> - Addresses for on-net detection. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: on_net_addr:name</span>
  <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
  <div id="label183" style="display:none">
  <table border="1">
@@ -2429,7 +2429,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address object from available options. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address object from available options. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
  <div id="label185" style="display:none">
  <table border="1">
@@ -2449,7 +2449,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">profile_name</span> - Profile name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">profile_name</span> - Profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
  <table border="1">
@@ -2487,7 +2487,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">src_addr</span> - Source addresses. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">src_addr</span> - Source addresses. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: src_addr:name</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -2507,7 +2507,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address object from available options. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address object from available options. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -2527,7 +2527,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">user_groups</span> - User groups. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">user_groups</span> - User groups. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: user_groups:name</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">
@@ -2547,7 +2547,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - User group name. Source user.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - User group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
  <div id="label197" style="display:none">
  <table border="1">
@@ -2567,7 +2567,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">users</span> - Users. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">users</span> - Users. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: users:name</span>
  <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
  <div id="label199" style="display:none">
  <table border="1">
@@ -2587,7 +2587,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - User name. Source user.local.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - User name. Source user.local.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
  <div id="label201" style="display:none">
  <table border="1">

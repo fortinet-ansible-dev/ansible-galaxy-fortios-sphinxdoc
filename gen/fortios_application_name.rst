@@ -286,7 +286,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">metadata</span> - Meta data. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">metadata</span> - Meta data. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: metadata:id</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -334,7 +334,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -550,7 +550,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">parameters</span> - Application parameters. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">parameters</span> - Application parameters. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: parameters:name</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -631,7 +631,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - Parameter name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Parameter name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">

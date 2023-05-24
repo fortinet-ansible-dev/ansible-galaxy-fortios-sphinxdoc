@@ -4,6 +4,25 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.0
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.0 is based on 2.2.3
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the error of pure number password.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Improve the `no_log` feature in some modules;
+- Improve the documentation for `member_path` in all the modules;
+- Improve the documentation and example for `seq_num` in `fortios_router_static`;
+- Support new FOS versions.
+
 Release Galaxy 2.2.3
 --------------------
 

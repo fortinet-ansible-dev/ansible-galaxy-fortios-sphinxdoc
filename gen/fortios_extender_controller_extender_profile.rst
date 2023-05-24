@@ -403,7 +403,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">dataplan</span> - Dataplan names. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">dataplan</span> - Dataplan names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cellular/dataplan:name</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -433,7 +433,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Dataplan name. Source extender-controller.dataplan.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Dataplan name. Source extender-controller.dataplan.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -2323,7 +2323,7 @@ Parameters
  </div>
  </li>
                     </ul>
-                <li> <span class="li-head">receiver</span> - SMS notification receiver list. <span class="li-normal">type: list</span>
+                <li> <span class="li-head">receiver</span> - SMS notification receiver list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cellular/sms_notification/receiver:name</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -2459,7 +2459,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">name</span> - FortiExtender SMS notification receiver name. <span class="li-normal">type: str</span>
+                    <li> <span class="li-head">name</span> - FortiExtender SMS notification receiver name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
  <table border="1">
@@ -2783,7 +2783,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">backhaul</span> - LAN extension backhaul tunnel configuration. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">backhaul</span> - LAN extension backhaul tunnel configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: lan_extension/backhaul:name</span>
  <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
  <div id="label139" style="display:none">
  <table border="1">
@@ -2813,7 +2813,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - FortiExtender LAN extension backhaul name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - FortiExtender LAN extension backhaul name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
  <div id="label141" style="display:none">
  <table border="1">

@@ -132,7 +132,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">entries</span> - Carrier end point black/white list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">entries</span> - Carrier end point black/white list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: entries:carrier_endpoint</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -217,7 +217,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">carrier_endpoint</span> - End point to act on. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">carrier_endpoint</span> - End point to act on. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">

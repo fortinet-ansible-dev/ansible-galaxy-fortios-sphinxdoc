@@ -209,7 +209,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">app_category</span> - Application category ID list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">app_category</span> - Application category ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: app_category:id</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -237,7 +237,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Category IDs. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Category IDs. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -265,7 +265,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">app_group</span> - Application group names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">app_group</span> - Application group names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: app_group:name</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -293,7 +293,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Application group names. Source application.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Application group names. Source application.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -321,7 +321,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">application</span> - Application ID list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">application</span> - Application ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: application:id</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -349,7 +349,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Application IDs. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Application IDs. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -532,7 +532,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">custom_log_fields</span> - Log field index numbers to append custom log fields to log messages for this policy. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">custom_log_fields</span> - Log field index numbers to append custom log fields to log messages for this policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: custom_log_fields:field_id</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -560,7 +560,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">field_id</span> - Custom log field. Source log.custom-field.id. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">field_id</span> - Custom log field. Source log.custom-field.id. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -588,7 +588,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">devices</span> - Names of devices or device groups that can be matched by the policy. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">devices</span> - Names of devices or device groups that can be matched by the policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: devices:name</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -612,7 +612,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Device or group name. Source user.device.alias user.device-group.name user.device-category.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Device or group name. Source user.device.alias user.device-group.name user.device-category.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -964,7 +964,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dstaddr</span> - Destination address and address group names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">dstaddr</span> - Destination address and address group names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: dstaddr:name</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -992,7 +992,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name firewall.vip6.name firewall.vipgrp6.name system .external-resource.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name firewall.vip6.name firewall.vipgrp6.name system .external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -1067,7 +1067,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dstintf</span> - Outgoing (egress) interface. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">dstintf</span> - Outgoing (egress) interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: dstintf:name</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -1095,7 +1095,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name system.zone.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name system.zone.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -1244,7 +1244,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">fsso_groups</span> - Names of FSSO groups. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">fsso_groups</span> - Names of FSSO groups. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: fsso_groups:name</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -1272,7 +1272,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Names of FSSO groups. Source user.adgrp.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Names of FSSO groups. Source user.adgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -1317,7 +1317,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">groups</span> - Names of user groups that can authenticate with this policy. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">groups</span> - Names of user groups that can authenticate with this policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: groups:name</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -1345,7 +1345,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -2085,7 +2085,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">poolname</span> - IP Pool names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">poolname</span> - IP Pool names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: poolname:name</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -2113,7 +2113,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - IP pool name. Source firewall.ippool6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - IP pool name. Source firewall.ippool6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
  <div id="label121" style="display:none">
  <table border="1">
@@ -2390,7 +2390,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">service</span> - Service and service group names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">service</span> - Service and service group names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:name</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
  <table border="1">
@@ -2418,7 +2418,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.service.custom.name firewall.service.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.service.custom.name firewall.service.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
  <div id="label139" style="display:none">
  <table border="1">
@@ -2539,7 +2539,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">srcaddr</span> - Source address and address group names. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">srcaddr</span> - Source address and address group names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcaddr:name</span>
  <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
  <div id="label147" style="display:none">
  <table border="1">
@@ -2567,7 +2567,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name system.external-resource.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
  <div id="label149" style="display:none">
  <table border="1">
@@ -2642,7 +2642,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">srcintf</span> - Incoming (ingress) interface. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">srcintf</span> - Incoming (ingress) interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcintf:name</span>
  <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
  <div id="label153" style="display:none">
  <table border="1">
@@ -2670,7 +2670,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Interface name. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
  <div id="label155" style="display:none">
  <table border="1">
@@ -2819,7 +2819,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_mirror_intf</span> - SSL mirror interface name. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">ssl_mirror_intf</span> - SSL mirror interface name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_mirror_intf:name</span>
  <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
  <div id="label163" style="display:none">
  <table border="1">
@@ -2847,7 +2847,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Interface name. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
  <div id="label165" style="display:none">
  <table border="1">
@@ -3262,7 +3262,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">url_category</span> - URL category ID list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">url_category</span> - URL category ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: url_category:id</span>
  <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
  <div id="label189" style="display:none">
  <table border="1">
@@ -3290,7 +3290,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - URL category ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - URL category ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -3318,7 +3318,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">users</span> - Names of individual users that can authenticate with this policy. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">users</span> - Names of individual users that can authenticate with this policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: users:name</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -3346,7 +3346,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Names of individual users that can authenticate with this policy. Source user.local.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Names of individual users that can authenticate with this policy. Source user.local.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">

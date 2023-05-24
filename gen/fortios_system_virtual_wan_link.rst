@@ -104,7 +104,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">fail_alert_interfaces</span> - Physical interfaces that will be alerted. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">fail_alert_interfaces</span> - Physical interfaces that will be alerted. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: fail_alert_interfaces:name</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -132,7 +132,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Physical interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Physical interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -207,7 +207,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">health_check</span> - SD-WAN status checking or health checking. Identify a server on the Internet and determine how SD-WAN verifies that the FortiGate can communicate with it. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">health_check</span> - SD-WAN status checking or health checking. Identify a server on the Internet and determine how SD-WAN verifies that the FortiGate can communicate with it. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: health_check:name</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -471,7 +471,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">members</span> - Member sequence number list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">members</span> - Member sequence number list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: health_check:name/members:seq_num</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -499,7 +499,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -527,7 +527,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">name</span> - Status check or health check name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Status check or health check name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -897,7 +897,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">sla</span> - Service level agreement (SLA). <span class="li-normal">type: list</span>
+            <li> <span class="li-head">sla</span> - Service level agreement (SLA). <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: health_check:name/sla:id</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -925,7 +925,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - SLA ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - SLA ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -1479,7 +1479,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">members</span> - FortiGate interfaces added to the virtual-wan-link. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">members</span> - FortiGate interfaces added to the virtual-wan-link. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: members:seq_num</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -1696,7 +1696,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">seq_num</span> - Sequence number(1-255). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">seq_num</span> - Sequence number(1-255). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
@@ -1906,7 +1906,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">neighbor</span> - Create SD-WAN neighbor from BGP neighbor table to control route advertisements according to SLA status. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">neighbor</span> - Create SD-WAN neighbor from BGP neighbor table to control route advertisements according to SLA status. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor:ip</span>
  <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
  <div id="label115" style="display:none">
  <table border="1">
@@ -1955,7 +1955,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ip</span> - IP address of neighbor. Source router.bgp.neighbor.ip. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ip</span> - IP address of neighbor. Source router.bgp.neighbor.ip. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -2162,7 +2162,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">service</span> - Create SD-WAN rules (also called services) to control how sessions are distributed to interfaces in the SD-WAN. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">service</span> - Create SD-WAN rules (also called services) to control how sessions are distributed to interfaces in the SD-WAN. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id</span>
  <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
  <div id="label133" style="display:none">
  <table border="1">
@@ -2459,7 +2459,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">dst</span> - Destination address name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">dst</span> - Destination address name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/dst:name</span>
  <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
  <div id="label149" style="display:none">
  <table border="1">
@@ -2487,7 +2487,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Address or address group name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Address or address group name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
  <div id="label151" style="display:none">
  <table border="1">
@@ -2562,7 +2562,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">dst6</span> - Destination address6 name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">dst6</span> - Destination address6 name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/dst6:name</span>
  <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
  <div id="label155" style="display:none">
  <table border="1">
@@ -2590,7 +2590,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Address6 or address6 group name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Address6 or address6 group name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
  <div id="label157" style="display:none">
  <table border="1">
@@ -2692,7 +2692,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">groups</span> - User groups. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">groups</span> - User groups. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/groups:name</span>
  <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
  <div id="label163" style="display:none">
  <table border="1">
@@ -2720,7 +2720,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
  <div id="label165" style="display:none">
  <table border="1">
@@ -2802,7 +2802,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Priority rule ID (1 - 4000). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Priority rule ID (1 - 4000). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
  <div id="label171" style="display:none">
  <table border="1">
@@ -2829,7 +2829,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">input_device</span> - Source interface name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">input_device</span> - Source interface name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/input_device:name</span>
  <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
  <div id="label173" style="display:none">
  <table border="1">
@@ -2857,7 +2857,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
  <div id="label175" style="display:none">
  <table border="1">
@@ -2979,7 +2979,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">internet_service_app_ctrl</span> - Application control based Internet Service ID list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_app_ctrl</span> - Application control based Internet Service ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_app_ctrl:id</span>
  <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
  <div id="label181" style="display:none">
  <table border="1">
@@ -3007,7 +3007,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Application control based Internet Service ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Application control based Internet Service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
  <div id="label183" style="display:none">
  <table border="1">
@@ -3029,7 +3029,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_app_ctrl_group</span> - Application control based Internet Service group list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_app_ctrl_group</span> - Application control based Internet Service group list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_app_ctrl_group:name</span>
  <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
  <div id="label185" style="display:none">
  <table border="1">
@@ -3057,7 +3057,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Application control based Internet Service group name. Source application.group.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Application control based Internet Service group name. Source application.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
  <table border="1">
@@ -3079,7 +3079,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_ctrl</span> - Control-based Internet Service ID list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_ctrl</span> - Control-based Internet Service ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_ctrl:id</span>
  <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
  <div id="label189" style="display:none">
  <table border="1">
@@ -3099,7 +3099,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Control-based Internet Service ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Control-based Internet Service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -3119,7 +3119,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_ctrl_group</span> - Control-based Internet Service group list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_ctrl_group</span> - Control-based Internet Service group list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_ctrl_group:name</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -3139,7 +3139,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Control-based Internet Service group name. Source application.group.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Control-based Internet Service group name. Source application.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">
@@ -3159,7 +3159,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_custom</span> - Custom Internet service name list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_custom</span> - Custom Internet service name list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_custom:name</span>
  <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
  <div id="label197" style="display:none">
  <table border="1">
@@ -3187,7 +3187,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Custom Internet service name. Source firewall.internet-service-custom.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Custom Internet service name. Source firewall.internet-service-custom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
  <div id="label199" style="display:none">
  <table border="1">
@@ -3215,7 +3215,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_custom_group</span> - Custom Internet Service group list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_custom_group</span> - Custom Internet Service group list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_custom_group:name</span>
  <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
  <div id="label201" style="display:none">
  <table border="1">
@@ -3243,7 +3243,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Custom Internet Service group name. Source firewall.internet-service-custom-group.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Custom Internet Service group name. Source firewall.internet-service-custom-group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
  <div id="label203" style="display:none">
  <table border="1">
@@ -3271,7 +3271,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_group</span> - Internet Service group list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_group</span> - Internet Service group list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_group:name</span>
  <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
  <div id="label205" style="display:none">
  <table border="1">
@@ -3299,7 +3299,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Internet Service group name. Source firewall.internet-service-group.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Internet Service group name. Source firewall.internet-service-group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
  <div id="label207" style="display:none">
  <table border="1">
@@ -3327,7 +3327,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">internet_service_id</span> - Internet service ID list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">internet_service_id</span> - Internet service ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/internet_service_id:id</span>
  <a id='label208' href="javascript:ContentClick('label209', 'label208');" onmouseover="ContentPreview('label209');" onmouseout="ContentUnpreview('label209');" title="click to collapse or expand..."> more... </a>
  <div id="label209" style="display:none">
  <table border="1">
@@ -3355,7 +3355,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Internet service ID. Source firewall.internet-service.id. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Internet service ID. Source firewall.internet-service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label210' href="javascript:ContentClick('label211', 'label210');" onmouseover="ContentPreview('label211');" onmouseout="ContentUnpreview('label211');" title="click to collapse or expand..."> more... </a>
  <div id="label211" style="display:none">
  <table border="1">
@@ -3715,7 +3715,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority_members</span> - Member sequence number list. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">priority_members</span> - Member sequence number list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/priority_members:seq_num</span>
  <a id='label228' href="javascript:ContentClick('label229', 'label228');" onmouseover="ContentPreview('label229');" onmouseout="ContentUnpreview('label229');" title="click to collapse or expand..."> more... </a>
  <div id="label229" style="display:none">
  <table border="1">
@@ -3743,7 +3743,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">
@@ -3909,7 +3909,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">sla</span> - Service level agreement (SLA). <span class="li-normal">type: list</span>
+            <li> <span class="li-head">sla</span> - Service level agreement (SLA). <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/sla:health_check</span>
  <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
  <div id="label241" style="display:none">
  <table border="1">
@@ -3937,7 +3937,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">health_check</span> - Virtual WAN Link health-check. Source system.virtual-wan-link.health-check.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">health_check</span> - Virtual WAN Link health-check. Source system.virtual-wan-link.health-check.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label242' href="javascript:ContentClick('label243', 'label242');" onmouseover="ContentPreview('label243');" onmouseout="ContentUnpreview('label243');" title="click to collapse or expand..."> more... </a>
  <div id="label243" style="display:none">
  <table border="1">
@@ -4039,7 +4039,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">src</span> - Source address name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">src</span> - Source address name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/src:name</span>
  <a id='label248' href="javascript:ContentClick('label249', 'label248');" onmouseover="ContentPreview('label249');" onmouseout="ContentUnpreview('label249');" title="click to collapse or expand..."> more... </a>
  <div id="label249" style="display:none">
  <table border="1">
@@ -4067,7 +4067,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Address or address group name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Address or address group name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label250' href="javascript:ContentClick('label251', 'label250');" onmouseover="ContentPreview('label251');" onmouseout="ContentUnpreview('label251');" title="click to collapse or expand..."> more... </a>
  <div id="label251" style="display:none">
  <table border="1">
@@ -4142,7 +4142,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">src6</span> - Source address6 name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">src6</span> - Source address6 name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/src6:name</span>
  <a id='label254' href="javascript:ContentClick('label255', 'label254');" onmouseover="ContentPreview('label255');" onmouseout="ContentUnpreview('label255');" title="click to collapse or expand..."> more... </a>
  <div id="label255" style="display:none">
  <table border="1">
@@ -4170,7 +4170,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Address6 or address6 group name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Address6 or address6 group name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label256' href="javascript:ContentClick('label257', 'label256');" onmouseover="ContentPreview('label257');" onmouseout="ContentUnpreview('label257');" title="click to collapse or expand..."> more... </a>
  <div id="label257" style="display:none">
  <table border="1">
@@ -4373,7 +4373,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">users</span> - User name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">users</span> - User name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:id/users:name</span>
  <a id='label268' href="javascript:ContentClick('label269', 'label268');" onmouseover="ContentPreview('label269');" onmouseout="ContentUnpreview('label269');" title="click to collapse or expand..."> more... </a>
  <div id="label269" style="display:none">
  <table border="1">
@@ -4401,7 +4401,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - User name. Source user.local.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - User name. Source user.local.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label270' href="javascript:ContentClick('label271', 'label270');" onmouseover="ContentPreview('label271');" onmouseout="ContentUnpreview('label271');" title="click to collapse or expand..."> more... </a>
  <div id="label271" style="display:none">
  <table border="1">
@@ -4477,7 +4477,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">zone</span> - Configure SD-WAN zones. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">zone</span> - Configure SD-WAN zones. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: zone:name</span>
  <a id='label274' href="javascript:ContentClick('label275', 'label274');" onmouseover="ContentPreview('label275');" onmouseout="ContentUnpreview('label275');" title="click to collapse or expand..."> more... </a>
  <div id="label275" style="display:none">
  <table border="1">
@@ -4505,7 +4505,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Zone name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Zone name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label276' href="javascript:ContentClick('label277', 'label276');" onmouseover="ContentPreview('label277');" onmouseout="ContentUnpreview('label277');" title="click to collapse or expand..."> more... </a>
  <div id="label277" style="display:none">
  <table border="1">

@@ -142,7 +142,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">entries</span> - File filter entries. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">entries</span> - File filter entries. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: file_filter/entries:filter</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -262,7 +262,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">file_type</span> - Select file type. <span class="li-normal">type: list</span>
+                <li> <span class="li-head">file_type</span> - Select file type. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: file_filter/entries:filter/file_type:name</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -284,7 +284,7 @@ Parameters
  </div>
  </li>
                     <ul class="ul-self">
-                    <li> <span class="li-head">name</span> - File type name. Source antivirus.filetype.name. <span class="li-normal">type: str</span>
+                    <li> <span class="li-head">name</span> - File type name. Source antivirus.filetype.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -306,7 +306,7 @@ Parameters
  </div>
  </li>
                     </ul>
-                <li> <span class="li-head">filter</span> - Add a file filter. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">filter</span> - Add a file filter. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -491,7 +491,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_keytab</span> - Server keytab. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">server_keytab</span> - Server keytab. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server_keytab:principal</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -555,7 +555,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">principal</span> - Service principal.  For example, "host/cifsserver.example.com@example.com". <span class="li-normal">type: str</span>
+            <li> <span class="li-head">principal</span> - Service principal.  For example, "host/cifsserver.example.com@example.com". <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">

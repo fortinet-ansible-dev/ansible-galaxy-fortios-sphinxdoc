@@ -118,6 +118,7 @@ Parameters
         <div class="content">
         <ul class="ul-self">
         <li><span class="li-normal">alertemail_setting</span> </li>
+        <li><span class="li-normal">antivirus_exempt-list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">antivirus_heuristic</span> </li>
         <li><span class="li-normal">antivirus_mms-checksum</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">antivirus_notification</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -164,6 +165,7 @@ Parameters
         <li><span class="li-normal">emailfilter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_client</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_fctems</span>  <span class="li-required">param: ems_id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">endpoint-control_fctems-override</span>  <span class="li-required">param: ems_id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_forticlient-ems</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_forticlient-registration-sync</span>  <span class="li-required">param: peer_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">endpoint-control_profile</span>  <span class="li-required">param: profile_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -404,6 +406,7 @@ Parameters
         <li><span class="li-normal">router_bfd6</span> </li>
         <li><span class="li-normal">router_bgp</span> </li>
         <li><span class="li-normal">router_community-list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">router_extcommunity-list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">router_info</span> </li>
         <li><span class="li-normal">router_info6</span> </li>
         <li><span class="li-normal">router_isis</span> </li>
@@ -433,6 +436,8 @@ Parameters
         <li><span class="li-normal">spamfilter_options</span> </li>
         <li><span class="li-normal">spamfilter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ssh-filter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">switch-controller.acl_group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">switch-controller.acl_ingress</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.auto-config_custom</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.auto-config_default</span> </li>
         <li><span class="li-normal">switch-controller.auto-config_policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -562,13 +567,16 @@ Parameters
         <li><span class="li-normal">system_custom-language</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_ddns</span>  <span class="li-required">param: ddnsid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dedicated-mgmt</span> </li>
+        <li><span class="li-normal">system_device-upgrade</span>  <span class="li-required">param: serial</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dns</span> </li>
         <li><span class="li-normal">system_dns-database</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dns-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dns64</span> </li>
         <li><span class="li-normal">system_dscp-based-priority</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_email-server</span> </li>
+        <li><span class="li-normal">system_evpn</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_external-resource</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_fabric-vpn</span> </li>
         <li><span class="li-normal">system_federated-upgrade</span> </li>
         <li><span class="li-normal">system_fips-cc</span> </li>
         <li><span class="li-normal">system_fm</span> </li>
@@ -620,6 +628,7 @@ Parameters
         <li><span class="li-normal">system_object-tagging</span>  <span class="li-required">param: category</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_password-policy</span> </li>
         <li><span class="li-normal">system_password-policy-guest-admin</span> </li>
+        <li><span class="li-normal">system_pcp-server</span> </li>
         <li><span class="li-normal">system_physical-switch</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_pppoe-interface</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_probe-response</span> </li>
@@ -630,6 +639,7 @@ Parameters
         <li><span class="li-normal">system_resource-limits</span> </li>
         <li><span class="li-normal">system_saml</span> </li>
         <li><span class="li-normal">system_sdn-connector</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_sdn-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sdwan</span> </li>
         <li><span class="li-normal">system_session</span> </li>
         <li><span class="li-normal">system_session-helper</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -644,6 +654,7 @@ Parameters
         <li><span class="li-normal">system_speed-test-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sso-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sso-forticloud-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_sso-fortigate-cloud-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_standalone-cluster</span> </li>
         <li><span class="li-normal">system_startup-error-log</span> </li>
         <li><span class="li-normal">system_status</span> </li>
@@ -729,6 +740,7 @@ Parameters
         <li><span class="li-normal">vpn.status.ssl_list</span> </li>
         <li><span class="li-normal">vpn.status_l2tp</span> </li>
         <li><span class="li-normal">vpn.status_pptp</span> </li>
+        <li><span class="li-normal">vpn_kmip-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn_l2tp</span> </li>
         <li><span class="li-normal">vpn_ocvpn</span> </li>
         <li><span class="li-normal">vpn_pptp</span> </li>

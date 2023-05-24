@@ -157,7 +157,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">down_intfs_before_sess_sync</span> - List of interfaces to be turned down before session synchronization is complete. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">down_intfs_before_sess_sync</span> - List of interfaces to be turned down before session synchronization is complete. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: down_intfs_before_sess_sync:name</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -211,7 +211,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -969,7 +969,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">custom_service</span> - Only sessions using these custom services are synchronized. Use source and destination port ranges to define these custom services. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">custom_service</span> - Only sessions using these custom services are synchronized. Use source and destination port ranges to define these custom services. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: session_sync_filter/custom_service:id</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -1076,7 +1076,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - Custom service ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Custom service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1565,7 +1565,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sync_id</span> - Sync ID. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">sync_id</span> - Sync ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -1618,7 +1618,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">syncvd</span> - Sessions from these VDOMs are synchronized using this session synchronization configuration. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">syncvd</span> - Sessions from these VDOMs are synchronized using this session synchronization configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: syncvd:name</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -1672,7 +1672,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">

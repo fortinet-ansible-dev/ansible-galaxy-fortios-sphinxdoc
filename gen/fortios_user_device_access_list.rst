@@ -120,7 +120,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">device_list</span> - Device list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">device_list</span> - Device list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: device_list:id</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -190,7 +190,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Entry ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Entry ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">

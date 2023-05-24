@@ -548,7 +548,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">monitor</span> - Health monitors. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">monitor</span> - Health monitors. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: monitor:name</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -584,7 +584,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Health monitor name. Source firewall.ldb-monitor.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Health monitor name. Source firewall.ldb-monitor.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -781,7 +781,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">realservers</span> - Real servers. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">realservers</span> - Real servers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: realservers:id</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -964,7 +964,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Real server ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Real server ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -1069,7 +1069,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">monitor</span> - Health monitors. Source firewall.ldb-monitor.name. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">monitor</span> - Health monitors. Source firewall.ldb-monitor.name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: realservers:id/monitor:name</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -1105,7 +1105,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Health monitor name. Source firewall.ldb-monitor.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">name</span> - Health monitor name. Source firewall.ldb-monitor.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -1380,7 +1380,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">src_filter</span> - Source IP filter (x.x.x.x/x). <span class="li-normal">type: list</span>
+        <li> <span class="li-head">src_filter</span> - Source IP filter (x.x.x.x/x). <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: src_filter:range</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -1416,7 +1416,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">range</span> - Src-filter range. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">range</span> - Src-filter range. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -1452,7 +1452,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">srcintf_filter</span> - Interfaces to which the VIP46 applies. Separate the names with spaces. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">srcintf_filter</span> - Interfaces to which the VIP46 applies. Separate the names with spaces. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcintf_filter:interface_name</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -1486,7 +1486,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">

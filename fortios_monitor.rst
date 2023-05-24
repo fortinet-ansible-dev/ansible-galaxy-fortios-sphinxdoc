@@ -178,6 +178,14 @@ Parameters
         <li><span class="li-head">clear-counters.firewall.dnat</span> - Reset hit count statistics for one or more firewall virtual IP/server by ID. 
         <ul class="ul-self">
                 <li><span class="li-required">id</span> - Single IDs to reset. <span class="li-normal">type: int  required: False </span> </li>
+                <li><span class="li-required">is_ipv6</span> - Clear only IPv6 VIP stats. <span class="li-normal">type: boolean  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">clear-counters.firewall.ztna-firewall-policy</span> - Reset traffic statistics for one or more ZTNA firewall policies by policy ID. 
+        <ul class="ul-self">
+                <li><span class="li-required">policy</span> - Single ZTNA firewall policy ID to reset. <span class="li-normal">type: int  required: False </span> </li>
                 
             </ul>
         
@@ -348,6 +356,9 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">create.forticonverter.ticket</span> - Create a new FortiConverter service ticket to initiate a migration. 
+        
+        </li>
         <li><span class="li-head">create.registration.forticare</span> - Create a new FortiCare account. 
         <ul class="ul-self">
                 <li><span class="li-required">email</span> - Account email. <span class="li-normal">type: string  required: True </span> </li>
@@ -393,7 +404,6 @@ Parameters
         </li>
         <li><span class="li-head">create.web-ui.custom-language</span> - Upload custom language file to this Fortigate. 
         <ul class="ul-self">
-                <li><span class="li-required">filename</span> - Name of custom language file. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">lang_name</span> - Name of custom language entry. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">lang_comments</span> - Comments of custom language entry. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
@@ -595,6 +605,14 @@ Parameters
         <li><span class="li-head">format.system.logdisk</span> - Format log disk. 
         
         </li>
+        <li><span class="li-head">forticonverter.set-source-sn</span> - Set the source FortiGate which will upload its config. 
+        <ul class="ul-self">
+                <li><span class="li-required">source_sn</span> - Source FortiGate serial. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">generate-key.system.api-user</span> - Generate a new api-key for the specified api-key-auth admin. The old api-key will be replaced. The response contains the only chance to read the new api-key plaintext in the api_key field. 
         <ul class="ul-self">
                 <li><span class="li-required">api-user</span> - Generate a new token for this api-user. <span class="li-normal">type: string  required: True </span> </li>
@@ -607,7 +625,6 @@ Parameters
                 <li><span class="li-required">mpsk_profile</span> - Multi pre-shared key profile to add keys to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">group</span> - Multi pre-shared key group to add keys to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">prefix</span> - Prefix to be added at the start of the generated key's name. <span class="li-normal">type: string  required: True </span> </li>
-                <li><span class="li-required">count</span> - Number of keys to be generated [1-512]. <span class="li-normal">type: int  required: True </span> </li>
                 <li><span class="li-required">key_length</span> - Length of the keys to be generated [8-63]. <span class="li-normal">type: int  required: True </span> </li>
                 
             </ul>
@@ -813,6 +830,13 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">pse-config.switch-controller.recommendation</span> - Execute switch recommendation for pse-config to prevent PSE-PSE scenarios. 
+        <ul class="ul-self">
+                <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">purdue-level.user.device</span> - Update the Purdue level of device from device store. 
         <ul class="ul-self">
                 <li><span class="li-required">mac</span> - Main MAC address of the device. <span class="li-normal">type: string  required: True </span> </li>
@@ -824,7 +848,7 @@ Parameters
         </li>
         <li><span class="li-head">push.switch-controller.fsw-firmware</span> - Push FortiSwitch firmware to the given device. 
         <ul class="ul-self">
-                <li><span class="li-required">serial</span> - The target device's serial. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">switch_id</span> - The target device's switch ID. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">image_id</span> - FortiSwitch image ID. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>
@@ -1010,7 +1034,6 @@ Parameters
                 <li><span class="li-required">password</span> - Password to decrypt configuration data. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">scope</span> - Specify global or VDOM only restore [global | vdom]. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">vdom</span> - If 'vdom' scope specified, the name of the VDOM to restore configuration. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">file_format</span> - Configuration file format [fos* | yaml]. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">confirm_password_mask</span> - True to upload password mask config file. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
                 
@@ -1131,6 +1154,14 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">start.forticonverter.download</span> - Start download from FortiConverter for processed config. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">extension</span> - File extension [pdf|conf]. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">start.network.debug-flow</span> - Start debug flow packet capture. 
         <ul class="ul-self">
                 <li><span class="li-required">num_packets</span> - Number of packets. <span class="li-normal">type: int  required: True </span> </li>
@@ -1213,6 +1244,40 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">ap_interface</span> - FortiAP interface to send the probe on. <span class="li-normal">type: int  required: True </span> </li>
                 <li><span class="li-required">wtp</span> - FortiAP ID. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">submit.forticonverter.intf-mapping</span> - Submit physical interface mapping to FortiConverter. 
+        <ul class="ul-self">
+                <li><span class="li-required">intf_mapping</span> - Interface mapping from source to target. <span class="li-normal">type: object  required: True </span> </li>
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">submit.forticonverter.mgmt-intf</span> - Submit management interface details to FortiConverter. 
+        <ul class="ul-self">
+                <li><span class="li-required">intf_details</span> - Management interface details. <span class="li-normal">type: object  required: True </span> </li>
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">submit.forticonverter.notes</span> - Submit contact details and conversion notes to FortiConverter. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">contact_name</span> - Contact name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">contact_email</span> - Contact email. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">contact_phone</span> - Contact phone. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">notes</span> - Conversion notes. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">submit.forticonverter.ticket</span> - Submit FortiConverter ticket. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>
         
@@ -1300,6 +1365,9 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">trial.user.fortitoken-cloud</span> - Activate FortiToken Cloud trial. 
+        
+        </li>
         <li><span class="li-head">trigger.system.security-rating</span> - Run a Security Rating report. 
         <ul class="ul-self">
                 <li><span class="li-required">report_type</span> - Security Rating report to run, run all reports when unspecified. <span class="li-normal">type: string  required: False </span> </li>
@@ -1357,6 +1425,26 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">update.forticonverter.eligibility</span> - Force an immediate request to update eligibility and ticket info. 
+        
+        </li>
+        <li><span class="li-head">update.forticonverter.intf-list</span> - Force an immediate request to update source interface list. 
+        
+        </li>
+        <li><span class="li-head">update.forticonverter.sn-list</span> - Force an immediate request to update source device serials. 
+        
+        </li>
+        <li><span class="li-head">update.forticonverter.submitted-info</span> - Force an immediate request to update all submitted info. 
+        
+        </li>
+        <li><span class="li-head">update.switch-controller.isl-lockdown</span> - Enable/disable ISL lockdown. 
+        <ul class="ul-self">
+                <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">status</span> - To enable or disable lockdown. [enable|disable] <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">update.switch-controller.managed-switch</span> - Update administrative state for a given FortiSwitch (enable or disable authorization). 
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - FortiSwitch name. <span class="li-normal">type: string  required: False </span> </li>
@@ -1392,7 +1480,6 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - Name of custom language entry. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">lang_name</span> - New name of custom language entry. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">filename</span> - Name of custom language file. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">lang_comments</span> - Comments of custom language entry. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
                 
@@ -1420,7 +1507,7 @@ Parameters
         <li><span class="li-head">upgrade.system.firmware</span> - Upgrade firmware image on this device using uploaded file. 
         <ul class="ul-self">
                 <li><span class="li-required">source</span> - Firmware file data source [upload|usb|fortiguard]. <span class="li-normal">type: string  required: True </span> </li>
-                <li><span class="li-required">filename</span> - Name of file on fortiguard or USB disk to upgrade to. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">filename</span> - Name of file on USB disk to upgrade to, or ID from FortiGuard available firmware. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">format_partition</span> - Set to true to format boot partition before upgrade. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">ignore_invalid_signature</span> - Set to true to allow upgrade of firmware images with invalid signatures. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">file_id</span> - File ID of the uploaded firmware image to allow upgrade of firmware images with invalid signatures. <span class="li-normal">type: string  required: False </span> </li>
@@ -1432,9 +1519,17 @@ Parameters
         <li><span class="li-head">upgrade.system.lte-modem</span> - Upgrade LTE modem firmware image on this device using uploaded files. 
         
         </li>
+        <li><span class="li-head">upload.forticonverter.config</span> - Upload config from target FortiGate to FortiConverter. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">upload.switch-controller.fsw-firmware</span> - Upload FortiSwitch firmware to the management FortiGate and then push to target FortiSwitches. 
         <ul class="ul-self">
-                <li><span class="li-required">serials</span> - The target device's serial. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">switch_ids</span> - The target device's switch ID. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
                 
             </ul>
@@ -1513,6 +1608,7 @@ Parameters
         <li><span class="li-head">verify-cert.endpoint-control.ems</span> - Verify EMS server certificate for a specific EMS. 
         <ul class="ul-self">
                 <li><span class="li-required">ems_id</span> - EMS server ID (as defined in CLI table endpoint-control.fctems). <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">scope</span> - Scope from which to verify EMS [vdom*|global]. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">fingerprint</span> - EMS server certificate fingerprint to check with. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>

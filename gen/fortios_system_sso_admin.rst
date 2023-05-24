@@ -60,9 +60,13 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>fortios_system_sso_admin</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -126,9 +130,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>system_sso_admin</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -178,9 +186,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>accprofile</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -204,7 +216,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">gui_dashboard</span> - GUI dashboards. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">gui_dashboard</span> - GUI dashboards. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -237,7 +249,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Dashboard ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Dashboard ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -328,7 +340,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">widget</span> - Dashboard widgets. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">widget</span> - Dashboard widgets. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id/widget:id</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -404,7 +416,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">fortiview_filters</span> - FortiView filters. <span class="li-normal">type: list</span>
+                <li> <span class="li-head">fortiview_filters</span> - FortiView filters. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id/widget:id/fortiview_filters:id</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -420,7 +432,7 @@ Parameters
  </div>
  </li>
                     <ul class="ul-self">
-                    <li> <span class="li-head">id</span> - FortiView Filter ID. <span class="li-normal">type: int</span>
+                    <li> <span class="li-head">id</span> - FortiView Filter ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -541,7 +553,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - Widget ID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - Widget ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -782,7 +794,7 @@ Parameters
  </li>
                 </ul>
             </ul>
-        <li> <span class="li-head">gui_global_menu_favorites</span> - Favorite GUI menu IDs for the global VDOM. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">gui_global_menu_favorites</span> - Favorite GUI menu IDs for the global VDOM. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_global_menu_favorites:id</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -800,7 +812,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -841,7 +853,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">gui_new_feature_acknowledge</span> - Acknowledgement of new features. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">gui_new_feature_acknowledge</span> - Acknowledgement of new features. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_new_feature_acknowledge:id</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -859,7 +871,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -875,7 +887,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">gui_vdom_menu_favorites</span> - Favorite GUI menu IDs for VDOMs. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">gui_vdom_menu_favorites</span> - Favorite GUI menu IDs for VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_vdom_menu_favorites:id</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -893,7 +905,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
@@ -934,9 +946,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -960,7 +976,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vdom</span> - Virtual domain(s) that the administrator can access. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">vdom</span> - Virtual domain(s) that the administrator can access. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdom:name</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -985,9 +1001,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>vdom</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1012,7 +1032,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -1037,9 +1057,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

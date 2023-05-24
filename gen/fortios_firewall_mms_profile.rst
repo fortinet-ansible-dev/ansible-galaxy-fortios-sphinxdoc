@@ -341,7 +341,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dupe</span> - Duplicate configuration. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">dupe</span> - Duplicate configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: dupe:protocol</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -762,7 +762,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -1039,7 +1039,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">flood</span> - Flood configuration. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">flood</span> - Flood configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: flood:protocol</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -1460,7 +1460,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -3475,7 +3475,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">notif_msisdn</span> - Notification for MSISDNs. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">notif_msisdn</span> - Notification for MSISDNs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: notif_msisdn:msisdn</span>
  <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
  <div id="label159" style="display:none">
  <table border="1">
@@ -3503,7 +3503,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">msisdn</span> - Recipient MSISDN. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">msisdn</span> - Recipient MSISDN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
  <div id="label161" style="display:none">
  <table border="1">
@@ -3618,7 +3618,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">notification</span> - Notification configuration. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">notification</span> - Notification configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: notification:protocol</span>
  <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
  <div id="label165" style="display:none">
  <table border="1">
@@ -4960,7 +4960,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">protocol</span> - Protocol. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">

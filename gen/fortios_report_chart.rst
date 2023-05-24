@@ -447,7 +447,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">column</span> - Table column definition. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">column</span> - Table column definition. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: column:id</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -646,7 +646,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -679,7 +679,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">mapping</span> - Show detail in certain display value for certain condition. <span class="li-normal">type: list</span>
+            <li> <span class="li-head">mapping</span> - Show detail in certain display value for certain condition. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: column:id/mapping:id</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -746,7 +746,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - id <span class="li-normal">type: int</span>
+                <li> <span class="li-head">id</span> - id <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1155,7 +1155,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">drill_down_charts</span> - Drill down charts. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">drill_down_charts</span> - Drill down charts. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: drill_down_charts:id</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -1222,7 +1222,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Drill down chart ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - Drill down chart ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">

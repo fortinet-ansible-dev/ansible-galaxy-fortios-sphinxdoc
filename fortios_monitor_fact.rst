@@ -136,6 +136,7 @@ Parameters
         <li><span class="li-head">endpoint-control_ems_cert-status</span> - Retrieve authentication status of the EMS server certificate for a specific EMS. 
         <ul class="ul-self">
                 <li><span class="li-required">ems_id</span> - EMS server ID (as defined in CLI table endpoint-control.fctems). <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">scope</span> - Scope from which to retrieve EMS certificate status [vdom*|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">with_cert</span> - Return detailed certificate information. Available when the certificate is authenticated by installed CA certificates.  <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -145,12 +146,17 @@ Parameters
         <li><span class="li-head">endpoint-control_ems_status</span> - Retrieve EMS connection status for a specific EMS. 
         <ul class="ul-self">
                 <li><span class="li-required">ems_id</span> - EMS server ID (as defined in CLI table endpoint-control.fctems). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">scope</span> - Scope from which to retrieve EMS connection status [vdom*|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
         </li>
         endpoint-control_ems_status-summary
-        <li><span class="li-head">endpoint-control_ems_status-summary</span> 
+        <li><span class="li-head">endpoint-control_ems_status-summary</span> - Retrieve status summary for all configured EMS. 
+        <ul class="ul-self">
+                <li><span class="li-required">scope</span> - Scope from which to retrieve EMS status summary [vdom*|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         endpoint-control_installer
@@ -196,7 +202,6 @@ Parameters
         extender-controller_extender
         <li><span class="li-head">extender-controller_extender</span> - Retrieve statistics for specific configured FortiExtender units. 
         <ul class="ul-self">
-                <li><span class="li-required">name</span> - Filter: list of FortiExtender names. To be deprecated in FortiOS v7.4.0. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">fortiextender-name</span> - Filter: list of FortiExtender name. Retrieve statistics for all configured FortiExtender units unless specified. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Statistic type.'type' options are [system | modem | usage | last]. If 'type' is not specified, all types of statistics are retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
@@ -220,11 +225,19 @@ Parameters
         
         </li>
         firewall_address-fqdns
-        <li><span class="li-head">firewall_address-fqdns</span> 
+        <li><span class="li-head">firewall_address-fqdns</span> - List of FQDN address objects and the IPs they resolved to. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, all FQDN addresses will be retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         firewall_address-fqdns6
-        <li><span class="li-head">firewall_address-fqdns6</span> 
+        <li><span class="li-head">firewall_address-fqdns6</span> - List of IPv6 FQDN address objects and the IPs they resolved to. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, all FQDN addresses will be retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         firewall_address6-dynamic
@@ -255,7 +268,7 @@ Parameters
         firewall_dnat
         <li><span class="li-head">firewall_dnat</span> - List hit count statistics for firewall virtual IP/server. 
         <ul class="ul-self">
-                <li><span class="li-required">uuid</span> - Filter: Virtual IP's UUID. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">uuid</span> - Filter: List of Virtual IP UUIDs. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - Filter: Traffic IP Version. [ ipv4 | ipv6 ], if left empty, will retrieve data for both IPv4 and IPv6. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -278,7 +291,11 @@ Parameters
         
         </li>
         firewall_internet-service-basic
-        <li><span class="li-head">firewall_internet-service-basic</span> 
+        <li><span class="li-head">firewall_internet-service-basic</span> - List internet services with basic information. 
+        <ul class="ul-self">
+                <li><span class="li-required">ipv6_only</span> - Only return IPv6 entries. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         firewall_internet-service-details
@@ -288,9 +305,8 @@ Parameters
                 <li><span class="li-required">country_id</span> - Filter: Country ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">region_id</span> - Filter: Region ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">city_id</span> - Filter: City ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. If a value is less than zero, it will be set to zero. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. Default value is 1000. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">summary_only</span> - Only return number of entries instead of entries. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ipv6_only</span> - Only returns ipv6 entries. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -299,7 +315,9 @@ Parameters
         <li><span class="li-head">firewall_internet-service-match</span> - List internet services that exist at a given IP or Subnet. 
         <ul class="ul-self">
                 <li><span class="li-required">ip</span> - IP (in dot-decimal notation). <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
-                <li><span class="li-required">mask</span> - IP Mask (in dot-decimal notation). <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">is_ipv6</span> - Whether IP is IPv6. If not provided, will determine IP version based on given IP, but setting is_ipv6 flag is recommended. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ipv4_mask</span> - IPv4 address mask (in dot-decimal notation). Required if is_ipv6 is false. Example: 255.255.255.255 <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ipv6_prefix</span> - IPv6 address prefix. Required if is_ipv6 is true. Example: 128 <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -308,6 +326,7 @@ Parameters
         <li><span class="li-head">firewall_internet-service-reputation</span> - List internet services with reputation information that exist at a given IP. 
         <ul class="ul-self">
                 <li><span class="li-required">ip</span> - IP (in dot-decimal notation). <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">is_ipv6</span> - Whether IP is IPv6. If not provided, will determine IP version based on given IP, but setting is_ipv6 flag is recommended. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -325,12 +344,7 @@ Parameters
         
         </li>
         firewall_load-balance
-        <li><span class="li-head">firewall_load-balance</span> - List all firewall load balance servers. 
-        <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
-                
-            </ul>
+        <li><span class="li-head">firewall_load-balance</span> 
         
         </li>
         firewall_local-in
@@ -410,8 +424,6 @@ Parameters
         <li><span class="li-head">firewall_proxy_sessions</span> - List all active proxy sessions (optionally filtered). 
         <ul class="ul-self">
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">srcaddr</span> - Source IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">dstaddr</span> - Destination IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
@@ -456,8 +468,6 @@ Parameters
         <li><span class="li-head">firewall_session</span> - List all active firewall sessions (optionally filtered). 
         <ul class="ul-self">
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">sourceport</span> - Filter: Source port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">policyid</span> - Filter: Policy ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
@@ -489,8 +499,46 @@ Parameters
             </ul>
         
         </li>
+        firewall_sessions
+        <li><span class="li-head">firewall_sessions</span> - List all active firewall sessions (optionally filtered). 
+        <ul class="ul-self">
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcport</span> - Source port. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">policyid</span> - Policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">security-policyid</span> - Filter: Security Policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">application</span> - Application ID, or application PROTO/PORT pair. (e.g. "TCP/443") <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">protocol</span> - Protocol name [all|igmp|tcp|udp|icmp|etc]. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstport</span> - Destination port. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcintf</span> - Source interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstintf</span> - Destination interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcintfrole</span> - Source interface roles. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstintfrole</span> - Filter: Destination interface roles. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcaddr</span> - Source IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcaddr6</span> - Source IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcuuid</span> - Source UUID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr</span> - Destination IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr6</span> - Destination IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstuuid</span> - Destination UUID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">username</span> - Authenticated username. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">shaper</span> - Forward traffic shaper name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">country</span> - Destination country name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">owner</span> - Destination owner. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">natsourceaddress</span> - NAT source address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">natsourceport</span> - NAT source port. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">since</span> - Only return sessions generated since this Unix timestamp. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">seconds</span> - Only return sessions generated in the last N seconds. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">fortiasic</span> - "true" to include NPU accelerated sessions, false to exclude. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         firewall_shaper
-        <li><span class="li-head">firewall_shaper</span> 
+        <li><span class="li-head">firewall_shaper</span> - List of statistics for configured firewall shared traffic shapers. 
+        <ul class="ul-self">
+                <li><span class="li-required">shaper_name</span> - Filter the result by shaper name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         firewall_shaper_multi-class-shaper
@@ -513,6 +561,101 @@ Parameters
         <li><span class="li-head">firewall_vip-overlap</span> 
         
         </li>
+        forticonverter_custom-operation_status
+        <li><span class="li-head">forticonverter_custom-operation_status</span> - Get the current status for a custom FortiConverter operation that was executed. 
+        <ul class="ul-self">
+                <li><span class="li-required">id</span> - Operation ID. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_download_ready
+        <li><span class="li-head">forticonverter_download_ready</span> - Check if config file from FortiConverter is ready for download. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">extension</span> - File extension [pdf|conf]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_download_status
+        <li><span class="li-head">forticonverter_download_status</span> - Retrieve download status for converted config. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">extension</span> - File extension [pdf|conf]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_eligibility
+        <li><span class="li-head">forticonverter_eligibility</span> 
+        
+        </li>
+        forticonverter_file_download
+        <li><span class="li-head">forticonverter_file_download</span> - Download processed config sent by FortiConverter. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">extension</span> - File extension [pdf|conf]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_intf-list
+        <li><span class="li-head">forticonverter_intf-list</span> - Retrieve source interface list. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_intf-mapping
+        <li><span class="li-head">forticonverter_intf-mapping</span> - Retrieve submitted physical interface mapping. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_mgmt-intf
+        <li><span class="li-head">forticonverter_mgmt-intf</span> - Retrieve submitted management interface details. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_notes
+        <li><span class="li-head">forticonverter_notes</span> - Retrieve submitted contact details and conversion notes. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_sn-list
+        <li><span class="li-head">forticonverter_sn-list</span> - Retrieve source FortiGate serials that can upload their config. 
+        <ul class="ul-self">
+                <li><span class="li-required">ticket_id</span> - Service ticket ID. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        forticonverter_ticket_status
+        <li><span class="li-head">forticonverter_ticket_status</span> 
+        
+        </li>
+        fortiguard_answers
+        <li><span class="li-head">fortiguard_answers</span> - Retrieve a list of questions on answers.fortinet.com 
+        <ul class="ul-self">
+                <li><span class="li-required">page</span> - Page number to retrieve. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">pagesize</span> - Page size of a list of response. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sortkey</span> - Sort key of a list of response. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">topics</span> - Topic to retrieve. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">limit</span> - Limit of the number of entries. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         fortiguard_redirect-portal
         <li><span class="li-head">fortiguard_redirect-portal</span> 
         
@@ -520,8 +663,23 @@ Parameters
         fortiguard_service-communication-stats
         <li><span class="li-head">fortiguard_service-communication-stats</span> - Retrieve historical statistics for communication with FortiGuard services. 
         <ul class="ul-self">
-                <li><span class="li-required">service_type</span> - To get stats for [forticare|fortiguard_download|fortiguard_query|forticloud_log|fortisandbox_cloud|fortiguard.com|ocvpn|sdns|fortitoken_registration|sms_service]. Defaults to all stats if not provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">service_type</span> - To get stats for [forticare|fortiguard_download|fortiguard_query|forticloud_log|fortisandbox_cloud|fortiguard.com|sdns|fortitoken_registration|sms_service]. Defaults to all stats if not provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timeslot</span> - History timeslot of stats [1_hour|24_hour|1_week]. Defaults to all timeslots if not provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        fortiview_historical-statistics
+        <li><span class="li-head">fortiview_historical-statistics</span> - Retrieve historical drill-down and summary data for FortiView. 
+        <ul class="ul-self">
+                <li><span class="li-required">filter</span> - A map of filter keys to arrays of values. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sessionid</span> - FortiView request Session ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">device</span> - FortiView source device [disk|fortianalyzer|forticloud]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">report_by</span> - Report by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sort_by</span> - Sort by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">chart_only</span> - Only return graph values in results. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">end</span> - End timestamp. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -556,6 +714,70 @@ Parameters
             </ul>
         
         </li>
+        fortiview_realtime-proxy-statistics
+        <li><span class="li-head">fortiview_realtime-proxy-statistics</span> - Retrieve realtime drill-down and summary data for proxy session FortiView statistics. 
+        <ul class="ul-self">
+                <li><span class="li-required">report_by</span> - Report by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sort_by</span> - Sort by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcaddr</span> - Source IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr</span> - Destination IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcaddr6</span> - Source IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr6</span> - Destination IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcport</span> - Source TCP port number. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstport</span> - Destination TCP port number. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcintf</span> - Source interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstintf</span> - Destination interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">policyid</span> - Firewall policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">proxy-policyid</span> - Explicit proxy policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">protocol</span> - Protocol type. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">application</span> - Web application type. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">country</span> - Geographic location. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">seconds</span> - Time in seconds, since the session is established. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">since</span> - Time when the session is established. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">owner</span> - Owner. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">username</span> - Session login user name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcuuid</span> - UUID of source. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstuuid</span> - UUID of destination. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        fortiview_realtime-statistics
+        <li><span class="li-head">fortiview_realtime-statistics</span> - Retrieve realtime drill-down and summary data for FortiView. 
+        <ul class="ul-self">
+                <li><span class="li-required">srcaddr</span> - Source IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr</span> - Destination IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcaddr6</span> - Source IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstaddr6</span> - Destination IPv6 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcport</span> - Source TCP port number. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstport</span> - Destination TCP port number. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcintf</span> - Source interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcintfrole</span> - Source interface role name. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstintf</span> - Destination interface name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstintfrole</span> - Destination interface role name. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">policyid</span> - Firewall policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">security-policyid</span> - NGFW policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">protocol</span> - Protocol type. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">web-category</span> - Web category ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">web-domain</span> - Web domain name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">application</span> - Web application type. It can be ID, or protocol/port pair. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">country</span> - Geographic location. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">seconds</span> - Time in seconds, since the session is established. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">since</span> - Time when the session is established. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">owner</span> - Owner. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">username</span> - Session login user name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">shaper</span> - Traffic shaper name. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">srcuuid</span> - UUID of source. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">dstuuid</span> - UUID of destination. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sessionid</span> - FortiView request Session ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">report_by</span> - Report by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sort_by</span> - Sort by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         fortiview_sandbox-file-details
         <li><span class="li-head">fortiview_sandbox-file-details</span> - Retrieve FortiSandbox analysis details for a specific file checksum. 
         <ul class="ul-self">
@@ -569,17 +791,15 @@ Parameters
         
         </li>
         fortiview_statistics
-        <li><span class="li-head">fortiview_statistics</span> - Retrieve drill-down and summary data for FortiView (both realtime and historical). 
+        <li><span class="li-head">fortiview_statistics</span> - Retrieve drill-down and summary data for FortiView (both realtime and historical). Deprecated, use /api/v2/monitor/fortiview/realtime-statistics or /api/v2/monitor/fortiview/historical-statistics instead. 
         <ul class="ul-self">
                 <li><span class="li-required">realtime</span> - Set to true to retrieve realtime results (from kernel). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filter</span> - A map of filter keys to arrays of values. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">sessionid</span> - FortiView request Session ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of details to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">device</span> - FortiView source device [disk|fortianalyzer|forticloud]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">report_by</span> - Report by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">sort_by</span> - Sort by field. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">chart_only</span> - Only return graph values in results. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Start timestamp. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">end</span> - End timestamp. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
@@ -622,6 +842,10 @@ Parameters
         <li><span class="li-head">ips_rate-based</span> 
         
         </li>
+        ips_session_performance
+        <li><span class="li-head">ips_session_performance</span> 
+        
+        </li>
         license_fortianalyzer-status
         <li><span class="li-head">license_fortianalyzer-status</span> 
         
@@ -660,6 +884,10 @@ Parameters
         </li>
         log_event
         <li><span class="li-head">log_event</span> 
+        
+        </li>
+        log_feature-set
+        <li><span class="li-head">log_feature-set</span> 
         
         </li>
         log_fortianalyzer
@@ -705,7 +933,7 @@ Parameters
         log_historic-daily-remote-logs
         <li><span class="li-head">log_historic-daily-remote-logs</span> - Returns the amount of logs in bytes sent daily to a remote logging service (FortiCloud or FortiAnalyzer). 
         <ul class="ul-self">
-                <li><span class="li-required">server</span> - Service name [forticloud | fortianalyzer]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">server</span> - Service name [forticloud | fortianalyzer | fortianalyzercloud | nulldevice]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         
@@ -731,7 +959,8 @@ Parameters
         log_local-report_download
         <li><span class="li-head">log_local-report_download</span> - Download local report 
         <ul class="ul-self">
-                <li><span class="li-required">mkey</span> - Local Report Name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">mkey</span> - Local report name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">layout</span> - Layout name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -840,12 +1069,7 @@ Parameters
         
         </li>
         router_bgp_paths
-        <li><span class="li-head">router_bgp_paths</span> - List all discovered BGP paths. 
-        <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return (Default behavior will return all BGP Paths). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                
-            </ul>
+        <li><span class="li-head">router_bgp_paths</span> 
         
         </li>
         router_bgp_paths-statistics
@@ -857,19 +1081,12 @@ Parameters
         
         </li>
         router_bgp_paths6
-        <li><span class="li-head">router_bgp_paths6</span> - List all discovered IPv6 BGP paths. 
-        <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return (Default behavior will return all BGP Paths). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                
-            </ul>
+        <li><span class="li-head">router_bgp_paths6</span> 
         
         </li>
         router_ipv4
         <li><span class="li-head">router_ipv4</span> - List all active IPv4 routing table entries. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return (Default for all routes). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
@@ -881,8 +1098,6 @@ Parameters
         router_ipv6
         <li><span class="li-head">router_ipv6</span> - List all active IPv6 routing table entries. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return (Default for all routes). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
@@ -920,8 +1135,6 @@ Parameters
         router_policy
         <li><span class="li-head">router_policy</span> - Retrieve a list of active IPv4 policy routes. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">count_only</span> - Returns the number of IPv4 policy routes only. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -930,8 +1143,6 @@ Parameters
         router_policy6
         <li><span class="li-head">router_policy6</span> - Retrieve a list of active IPv6 policy routes. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">count_only</span> - Returns the number of IPv6 policy routes only. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -963,6 +1174,14 @@ Parameters
             </ul>
         
         </li>
+        switch-controller_isl-lockdown_status
+        <li><span class="li-head">switch-controller_isl-lockdown_status</span> - Get current status of ISL lockdown. 
+        <ul class="ul-self">
+                <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
         switch-controller_managed-switch
         <li><span class="li-head">switch-controller_managed-switch</span> - Retrieve statistics for configured FortiSwitches. Deprecated. It will be removed in 7.2.       It's replaced by /api/v2/monitor/switch-controller/managed-switch/status for faster performance. 
         <ul class="ul-self">
@@ -973,6 +1192,14 @@ Parameters
                 <li><span class="li-required">stp_status</span> - Filter: Retrieve STP status for ports of configured FortiSwitches. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">igmp_snooping_group</span> - Filter: Retrieve IGMP Snooping group for configured FortiSwitches. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">transceiver</span> - Filter: Retrieve transceiver information for ports of configured FortiSwitches. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        switch-controller_managed-switch_bios
+        <li><span class="li-head">switch-controller_managed-switch_bios</span> - Get a list of BIOS info by managed FortiSwitches. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Filter: FortiSwitch ID. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1064,6 +1291,10 @@ Parameters
             </ul>
         
         </li>
+        switch-controller_nac-device_stats
+        <li><span class="li-head">switch-controller_nac-device_stats</span> 
+        
+        </li>
         switch-controller_validate-switch-prefix
         <li><span class="li-head">switch-controller_validate-switch-prefix</span> - Validate a FortiSwitch serial number prefix. Deprecated in 7.2 replaced by /api/v2/monitor/switch-controller/managed-switch/models. 
         <ul class="ul-self">
@@ -1121,8 +1352,19 @@ Parameters
         system_available-interfaces
         <li><span class="li-head">system_available-interfaces</span> - Retrieve a list of all interfaces along with some meta information regarding their availability. 
         <ul class="ul-self">
-                <li><span class="li-required">view_type</span> - Optionally include additional information for interfaces. This parameter can be repeated multiple times. 'ha': Includes extra meta information useful when dealing with interfaces related to HA configuration. Interfaces that are used by an HA cluster as management interfaces are also included in this view. 'zone': Includes extra meta information for determining zone membership eligibility. 'vwp': Includes extra meta information for determining virtual wire pair eligibility. 'sdwan': Includes extra meta information for determining SD-WAN eligibility. 'switch': Includes extra meta information for determining switch eligibility. 'hard-switch': Includes extra meta information for determining hard-switch eligibility. 'limited': Includes limited information on parent interfaces that are in another VDOM. 'stat': Includes TX/RX statistics data.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">mkey</span> - Name of the interface. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">include_ha</span> - Incude HA management interfaces. Will only show if accessing the root VDOM interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">view_type</span> - Optionally include additional information for interfaces. This parameter can be repeated multiple times. 'ha': Includes extra meta information useful when dealing with interfaces related to HA configuration. Interfaces that are used by an HA cluster as management interfaces are also included in this view. 'zone': Includes extra meta information for determining zone membership eligibility. 'vwp': Includes extra meta information for determining virtual wire pair eligibility. 'sdwan': Includes extra meta information for determining SD-WAN eligibility. 'switch': Includes extra meta information for determining switch eligibility. 'hard-switch': Includes extra meta information for determining hard-switch eligibility. 'stat': Includes TX/RX statistics data.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">scope</span> - Scope of interface list [vdom|global] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        system_available-interfaces_meta
+        <li><span class="li-head">system_available-interfaces_meta</span> - Get metadata for the system/available-interfaces API endpoint. 
+        <ul class="ul-self">
+                <li><span class="li-required">scope</span> - Scope of interface list [*vdom|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">include_ha</span> - Incude HA management interfaces. Will only show if accessing the root VDOM interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1130,20 +1372,13 @@ Parameters
         system_botnet
         <li><span class="li-head">system_botnet</span> - List all known IP-based botnet entries in FortiGuard botnet database. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_hit_only</span> - Include entries with hits only. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
         </li>
         system_botnet-domains
-        <li><span class="li-head">system_botnet-domains</span> - List all known domain-based botnet entries in FortiGuard botnet database. 
-        <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                
-            </ul>
+        <li><span class="li-head">system_botnet-domains</span> 
         
         </li>
         system_botnet-domains_hits
@@ -1156,6 +1391,10 @@ Parameters
         </li>
         system_botnet_stat
         <li><span class="li-head">system_botnet_stat</span> 
+        
+        </li>
+        system_central-management_status
+        <li><span class="li-head">system_central-management_status</span> 
         
         </li>
         system_certificate_download
@@ -1739,15 +1978,27 @@ Parameters
         user_device_query
         <li><span class="li-head">user_device_query</span> - Retrieve user devices from user device store. List all the user devices if there is no filter set. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Number of entries to skip from the beginning. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">number</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history|iot_vuln_info]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_id</span> - Provide a query ID to continue getting data for that unified request. Only available for unified query types. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">cache_query</span> - Cache query result for 5 mins and return query ID. Only available for unified query types. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">key_only</span> - Return primary key fields only. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">filter_logic</span> - The logic between filters [and|or]). Default is and. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">total_only</span> - Whether the query should return just the total number of devices present. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        user_device_stats
+        <li><span class="li-head">user_device_stats</span> - Retrieve user devices stats from device store by given stat item. 
+        <ul class="ul-self">
+                <li><span class="li-required">stat-query-type</span> - Stat query type [device|fortiswitch_client|forticlient]. Default is device. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">stat-key</span> - key of the stats count on [os_name|hardware_type|detected_interface|is_online|max_vuln_level|fortiswitch_id|fortiswitch_port_name]. fortiswitch_id and fortiswitch_port_name only for fortiswitch_client stats query type <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for stats query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for stats query. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Only is_online type is supported. Op: filter operator [exact|contains]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filter_logic</span> - The logic between filters [and|or]). Default is and. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1756,8 +2007,6 @@ Parameters
         user_firewall
         <li><span class="li-head">user_firewall</span> - List authenticated firewall users. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ipv4</span> - Include IPv4 users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ipv6</span> - Include IPv6 users (default=false). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_wad</span> - Include explicit proxy users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
@@ -1797,8 +2046,6 @@ Parameters
         user_info_query
         <li><span class="li-head">user_info_query</span> - Query user info. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Number of entries to skip from the beginning. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">number</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
@@ -1807,6 +2054,7 @@ Parameters
                 <li><span class="li-required">cache_query</span> - Cache query result for 5 mins and return query ID. Only available for unified query types. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">key_only</span> - Return primary key fields only. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filter_logic</span> - The logic between filters [and|or]). Default is and. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">total_only</span> - Whether the query should return just the total number of identities present. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1844,12 +2092,7 @@ Parameters
         
         </li>
         utm_blacklisted-certificates
-        <li><span class="li-head">utm_blacklisted-certificates</span> - Retrieve a list of blacklisted SSL certificates. 
-        <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. Limit is set to 2000. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
-                
-            </ul>
+        <li><span class="li-head">utm_blacklisted-certificates</span> 
         
         </li>
         utm_blacklisted-certificates_statistics
@@ -1911,8 +2154,6 @@ Parameters
         <li><span class="li-head">vpn_ipsec</span> - Return an array of active IPsec VPNs. 
         <ul class="ul-self">
                 <li><span class="li-required">tunnel</span> - Filter for a specific IPsec tunnel name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1968,7 +2209,7 @@ Parameters
         web-ui_custom-language_download
         <li><span class="li-head">web-ui_custom-language_download</span> - Download a custom language file. 
         <ul class="ul-self">
-                <li><span class="li-required">filename</span> - Name of custom language entry. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">lang_name</span> - Name of custom language entry. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         
@@ -2040,8 +2281,6 @@ Parameters
         wifi_client
         <li><span class="li-head">wifi_client</span> - Retrieve a list of connected WiFi clients. 
         <ul class="ul-self">
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Request type [all*|fail-login]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">with_triangulation</span> - Enable to include regions of FortiAP detecting the client. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
@@ -2066,8 +2305,6 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">wtp</span> - FortiAP ID to query. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">radio</span> - Radio ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2087,6 +2324,10 @@ Parameters
         </li>
         wifi_meta
         <li><span class="li-head">wifi_meta</span> 
+        
+        </li>
+        wifi_nac-device_stats
+        <li><span class="li-head">wifi_nac-device_stats</span> 
         
         </li>
         wifi_network_list
@@ -2109,8 +2350,6 @@ Parameters
         <li><span class="li-head">wifi_rogue_ap</span> - Retrieve a list of detected rogue APs. 
         <ul class="ul-self">
                 <li><span class="li-required">managed_ssid_only</span> - Filter: True to include only WiFi controller managed SSIDs. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2127,6 +2366,8 @@ Parameters
         <li><span class="li-head">wifi_station-capability</span> - Retrieve a list of stations and their capability to connect to detected access points. 
         <ul class="ul-self">
                 <li><span class="li-required">mac_address</span> - Station MAC address. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">min_age</span> - Minimum value for RSSI 2G age and 5G RSSI age, in seconds. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">max_age</span> - Maximum value for RSSI 2G age and 5G RSSI age, in seconds. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         

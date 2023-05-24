@@ -63,9 +63,13 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>fortios_system_vdom_exception</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -135,9 +139,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>system_vdom_exception</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -193,9 +201,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -222,7 +234,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">object</span> - Name of the configuration object that can be configured independently for all VDOMs. <span class="li-normal">type: str</span> <span class="li-normal">choices: log.fortianalyzer.setting, log.fortianalyzer.override-setting, log.fortianalyzer2.setting, log.fortianalyzer2.override-setting, log.fortianalyzer3.setting, log.fortianalyzer3.override-setting, log.fortianalyzer-cloud.setting, log.fortianalyzer-cloud.override-setting, log.syslogd.setting, log.syslogd.override-setting, log.syslogd2.setting, log.syslogd2.override-setting, log.syslogd3.setting, log.syslogd3.override-setting, log.syslogd4.setting, log.syslogd4.override-setting, system.gre-tunnel, system.central-management, system.csf, user.radius, system.interface, vpn.ipsec.phase1-interface, vpn.ipsec.phase2-interface, router.bgp, router.route-map, router.prefix-list, firewall.ippool, firewall.ippool6, router.static, router.static6, firewall.vip, firewall.vip6, system.sdwan, system.saml, router.policy, router.policy6, firewall.vip46, firewall.vip64</span>
+        <li> <span class="li-head">object</span> - Name of the configuration object that can be configured independently for all VDOMs. <span class="li-normal">type: str</span> <span class="li-normal">choices: log.fortianalyzer.setting, log.fortianalyzer.override-setting, log.fortianalyzer2.setting, log.fortianalyzer2.override-setting, log.fortianalyzer3.setting, log.fortianalyzer3.override-setting, log.fortianalyzer-cloud.setting, log.fortianalyzer-cloud.override-setting, log.syslogd.setting, log.syslogd.override-setting, log.syslogd2.setting, log.syslogd2.override-setting, log.syslogd3.setting, log.syslogd3.override-setting, log.syslogd4.setting, log.syslogd4.override-setting, system.gre-tunnel, system.central-management, system.csf, user.radius, system.interface, vpn.ipsec.phase1-interface, vpn.ipsec.phase2-interface, router.bgp, router.route-map, router.prefix-list, firewall.ippool, firewall.ippool6, router.static, router.static6, firewall.vip, firewall.vip6, system.sdwan, system.saml, router.policy, router.policy6, log.syslogd.setting, log.syslogd.override-setting, firewall.vip46, firewall.vip64</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -250,9 +262,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>object</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -300,9 +316,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer.override-setting]</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -350,11 +370,15 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer2.override-setting]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -400,11 +424,15 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer3.override-setting]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -450,12 +478,16 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer-cloud.override-setting]</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -500,6 +532,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd.override-setting]</td>
@@ -510,6 +544,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -550,6 +586,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd2.override-setting]</td>
@@ -560,6 +598,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -600,6 +640,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd3.override-setting]</td>
@@ -610,6 +652,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -650,6 +694,8 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd4.override-setting]</td>
@@ -660,6 +706,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -700,11 +748,15 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[system.central-management]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -750,11 +802,15 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[user.radius]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -800,6 +856,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[vpn.ipsec.phase1-interface]</td>
@@ -824,6 +882,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -850,6 +910,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[router.bgp]</td>
@@ -874,6 +936,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -900,6 +964,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[router.prefix-list]</td>
@@ -924,6 +990,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -950,6 +1018,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[firewall.ippool6]</td>
@@ -974,6 +1044,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -1000,6 +1072,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[router.static6]</td>
@@ -1024,6 +1098,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -1050,6 +1126,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[firewall.vip6]</td>
@@ -1074,6 +1152,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -1100,6 +1180,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[system.saml]</td>
@@ -1124,6 +1206,8 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -1150,6 +1234,8 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[router.policy6]</td>
@@ -1174,6 +1260,62 @@ Parameters
  <td>yes</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>no</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[log.syslogd.setting]</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[log.syslogd.override-setting]</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
  <td>yes</td>
  </tr>
  <tr>
@@ -1200,6 +1342,8 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[firewall.vip64]</td>
@@ -1214,6 +1358,8 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>yes</td>
+ <td>n/a</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -1280,9 +1426,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>scope</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1330,9 +1480,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[inclusive]</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1380,11 +1534,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vdom</span> - Names of the VDOMs. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">vdom</span> - Names of the VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdom:name</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -1412,9 +1568,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>vdom</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1442,7 +1602,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -1470,9 +1630,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 </code></td>
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

@@ -117,7 +117,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">city</span> - City ID list. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">city</span> - City ID list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: city:id</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -151,7 +151,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - City ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - City ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">

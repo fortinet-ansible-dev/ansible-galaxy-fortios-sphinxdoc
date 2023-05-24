@@ -382,7 +382,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">selected_usergroups</span> - Selected user group. <span class="li-normal">type: list</span>
+        <li> <span class="li-head">selected_usergroups</span> - Selected user group. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: selected_usergroups:name</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -404,7 +404,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - User group name. Source user.group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">name</span> - User group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
