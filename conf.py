@@ -26,12 +26,10 @@ release = '1.0'
 
 html_static_path = ['_static']
 
-html_context = {
-    'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
-        '_static/collapse.css',
-        ],
-     }
+html_css_files = [
+    'theme_overrides.css',
+    'collapse.css',
+]
 
 html_js_files = [
     'util.js',
@@ -66,5 +64,5 @@ html_theme = 'sphinx_rtd_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-html4_writer=True
+# html_static_path = ['_static']
+# html4_writer=True

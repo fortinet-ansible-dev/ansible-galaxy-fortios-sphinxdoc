@@ -12,6 +12,7 @@ Frequently Asked Questions (FAQ)
  - `How To Work With Raw FotiOS CLI?`_
  - `How to use the set_fact module in a task?`_
  - `How to use the member operation to add an element in an object?`_
+ - `Set up FortiToken multi-factor authentication`_
 
 |
 
@@ -446,6 +447,44 @@ Member operation is used to add an element to an existing object. The example be
             - id: 2
               hostname: abc.com
               ip: 7.7.7.8
+
+Set up FortiToken multi-factor authentication
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It uses one of the two free mobile FortiTokens that is already installed on the FortiGate.
+
+::
+
+  tasks:
+  - name: To configure MFA.
+    fortios_user_local:
+      enable_log: true
+      vdom:  "{{ vdom }}"
+      state: "present"
+      user_local:
+        auth_concurrent_override: "enable"
+        auth_concurrent_value: "0"
+        authtimeout: "0"
+        email_to: "abc@gmail.com"
+        fortitoken: "FTKMOB324C29689B"
+        id:  "8"
+        name: "test_user"
+        status: "enable"
+        two_factor: "fortitoken"
+        two_factor_authentication: "fortitoken"
+        two_factor_notification: "email"
+        type: "password"
+        username_case_sensitivity: "disable"
+        username_sensitivity: "disable"
+
+  - name: Activate the mobile token
+    fortios_monitor:
+      vdom: "root"
+      selector: "send-activation.user.fortitoken"
+      params:
+        token: FTKMOB324C29689B
+        method: email
+        email: abc@gmail.com
 
 
 .. _Run Your Playbook: playbook.html
