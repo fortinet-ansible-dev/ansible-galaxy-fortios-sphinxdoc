@@ -1971,7 +1971,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">policyid</span> - Policy ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">policyid</span> - Policy ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -4004,7 +4004,7 @@ Examples
                     name: "default_name_24 (source firewall.address.name firewall.addrgrp.name)"
                 pac_file_data: "<your_own_value>"
                 pac_file_name: "<your_own_value>"
-                policyid: "0"
+                policyid: "<you_own_value>"
                 srcaddr:
                  -
                     name: "default_name_29 (source firewall.address.name firewall.addrgrp.name firewall.proxy-address.name firewall.proxy-addrgrp.name)"

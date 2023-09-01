@@ -499,7 +499,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. see <a href='#notes'>Notes</a>. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -925,7 +925,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - SLA ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - SLA ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -1696,7 +1696,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">seq_num</span> - Sequence number(1-255). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">seq_num</span> - Sequence number(1-255). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
@@ -2802,7 +2802,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Priority rule ID (1 - 4000). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - Priority rule ID (1 - 4000). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
  <div id="label171" style="display:none">
  <table border="1">
@@ -3007,7 +3007,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Application control based Internet Service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Application control based Internet Service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
  <div id="label183" style="display:none">
  <table border="1">
@@ -3099,7 +3099,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Control-based Internet Service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Control-based Internet Service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -3355,7 +3355,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Internet service ID. Source firewall.internet-service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Internet service ID. see <a href='#notes'>Notes</a>. Source firewall.internet-service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label210' href="javascript:ContentClick('label211', 'label210');" onmouseover="ContentPreview('label211');" onmouseout="ContentUnpreview('label211');" title="click to collapse or expand..."> more... </a>
  <div id="label211" style="display:none">
  <table border="1">
@@ -3743,7 +3743,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. see <a href='#notes'>Notes</a>. Source system.virtual-wan-link.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">
@@ -4573,7 +4573,7 @@ Examples
                 interval: "1800000"
                 members:
                  -
-                    seq_num: "2147483647"
+                    seq_num: "<you_own_value>"
                 name: "default_name_17"
                 packet_size: "512"
                 password: "<your_own_value>"
@@ -4611,7 +4611,7 @@ Examples
                 ingress_spillover_threshold: "8388000"
                 interface: "<your_own_value> (source system.interface.name)"
                 priority: "2147483647"
-                seq_num: "127"
+                seq_num: "<you_own_value>"
                 source: "<your_own_value>"
                 source6: "<your_own_value>"
                 spillover_threshold: "8388000"
@@ -4691,7 +4691,7 @@ Examples
                 packet_loss_weight: "5000000"
                 priority_members:
                  -
-                    seq_num: "2147483647"
+                    seq_num: "<you_own_value>"
                 protocol: "127"
                 quality_link: "127"
                 role: "standalone"

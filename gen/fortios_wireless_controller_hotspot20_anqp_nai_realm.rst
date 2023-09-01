@@ -544,7 +544,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">index</span> - Param index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                    <li> <span class="li-head">index</span> - Param index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -1511,7 +1511,7 @@ Parameters
  </div>
  </li>
                     </ul>
-                <li> <span class="li-head">index</span> - EAP method index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">index</span> - EAP method index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -2212,9 +2212,9 @@ Examples
                     auth_param:
                      -
                         id:  "6"
-                        index: "0"
+                        index: "<you_own_value>"
                         val: "eap-identity"
-                    index: "0"
+                    index: "<you_own_value>"
                     method: "eap-identity"
                 encoding: "disable"
                 nai_realm: "<your_own_value>"

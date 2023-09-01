@@ -535,7 +535,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">rule_id</span> - Rule ID (1 - 65535). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">rule_id</span> - Rule ID (1 - 65535). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -1020,7 +1020,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">rule_id</span> - Rule ID (1 - 65535). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">rule_id</span> - Rule ID (1 - 65535). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -1259,7 +1259,7 @@ Examples
                 dstaddr: "<your_own_value>"
                 dstport: "0"
                 protocol: "255"
-                rule_id: "0"
+                rule_id: "<you_own_value>"
                 srcaddr: "<your_own_value>"
                 srcport: "0"
             layer3_ipv6_rules:
@@ -1269,7 +1269,7 @@ Examples
                 dstaddr: "<your_own_value>"
                 dstport: "0"
                 protocol: "255"
-                rule_id: "0"
+                rule_id: "<you_own_value>"
                 srcaddr: "<your_own_value>"
                 srcport: "0"
             name: "default_name_22"

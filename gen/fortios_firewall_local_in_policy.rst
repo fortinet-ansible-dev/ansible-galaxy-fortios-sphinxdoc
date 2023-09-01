@@ -788,7 +788,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">policyid</span> - User defined local in policy ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">policyid</span> - User defined local in policy ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -1718,6 +1718,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the policyid instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -1751,7 +1753,7 @@ Examples
             dstaddr_negate: "enable"
             ha_mgmt_intf_only: "enable"
             intf: "<your_own_value> (source system.zone.name system.interface.name)"
-            policyid: "0"
+            policyid: "<you_own_value>"
             schedule: "<your_own_value> (source firewall.schedule.onetime.name firewall.schedule.recurring.name firewall.schedule.group.name)"
             service:
              -

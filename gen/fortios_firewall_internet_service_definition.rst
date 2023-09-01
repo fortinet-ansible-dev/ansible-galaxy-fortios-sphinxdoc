@@ -404,7 +404,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - Custom entry port range ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Custom entry port range ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -544,7 +544,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">seq_num</span> - Entry sequence number. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">seq_num</span> - Entry sequence number. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -602,7 +602,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">id</span> - Internet Service application list ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">id</span> - Internet Service application list ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -652,6 +652,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the id instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -687,7 +689,7 @@ Examples
                     id:  "8"
                     start_port: "1"
                 protocol: "0"
-                seq_num: "6"
+                seq_num: "<you_own_value>"
             id:  "12"
     
 

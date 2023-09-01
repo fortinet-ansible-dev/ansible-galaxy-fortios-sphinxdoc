@@ -461,7 +461,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">id</span> - Custom service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                    <li> <span class="li-head">id</span> - Custom service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -631,7 +631,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">sync_id</span> - Sync ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">sync_id</span> - Sync ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -1082,7 +1082,7 @@ Examples
                     srcaddr: "<your_own_value>"
                     srcaddr6: "<your_own_value>"
                     srcintf: "<your_own_value> (source system.interface.name)"
-                sync_id: "0"
+                sync_id: "<you_own_value>"
                 syncvd:
                  -
                     name: "default_name_25 (source system.vdom.name)"

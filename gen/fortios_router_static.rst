@@ -1452,7 +1452,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">seq_num</span> - Sequence number. Starting from 1 <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">seq_num</span> - Sequence number. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -1942,6 +1942,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the seq_num instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -1985,7 +1987,7 @@ Examples
             sdwan_zone:
              -
                 name: "default_name_19 (source system.sdwan.zone.name)"
-            seq_num: "0"
+            seq_num: "<you_own_value>"
             src: "<your_own_value>"
             status: "enable"
             tag: "0"

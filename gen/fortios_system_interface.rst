@@ -2505,7 +2505,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -11235,7 +11235,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">iaid</span> - Identity association identifier. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">iaid</span> - Identity association identifier. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label246' href="javascript:ContentClick('label247', 'label246');" onmouseover="ContentPreview('label247');" onmouseout="ContentUnpreview('label247');" title="click to collapse or expand..."> more... </a>
  <div id="label247" style="display:none">
  <table border="1">
@@ -13122,7 +13122,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">prefix_id</span> - Prefix ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">prefix_id</span> - Prefix ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label290' href="javascript:ContentClick('label291', 'label290');" onmouseover="ContentPreview('label291');" onmouseout="ContentUnpreview('label291');" title="click to collapse or expand..."> more... </a>
  <div id="label291" style="display:none">
  <table border="1">
@@ -17011,7 +17011,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">vrid</span> - Virtual router identifier (1 - 255). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">vrid</span> - Virtual router identifier (1 - 255). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label382' href="javascript:ContentClick('label383', 'label382');" onmouseover="ContentPreview('label383');" onmouseout="ContentUnpreview('label383');" title="click to collapse or expand..."> more... </a>
  <div id="label383" style="display:none">
  <table border="1">
@@ -23530,7 +23530,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label514' href="javascript:ContentClick('label515', 'label514');" onmouseover="ContentPreview('label515');" onmouseout="ContentUnpreview('label515');" title="click to collapse or expand..."> more... </a>
  <div id="label515" style="display:none">
  <table border="1">
@@ -31148,7 +31148,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label666' href="javascript:ContentClick('label667', 'label666');" onmouseover="ContentPreview('label667');" onmouseout="ContentUnpreview('label667');" title="click to collapse or expand..."> more... </a>
  <div id="label667" style="display:none">
  <table border="1">
@@ -31703,7 +31703,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">vrid</span> - Virtual router identifier (1 - 255). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">vrid</span> - Virtual router identifier (1 - 255). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label680' href="javascript:ContentClick('label681', 'label680');" onmouseover="ContentPreview('label681');" onmouseout="ContentUnpreview('label681');" title="click to collapse or expand..."> more... </a>
  <div id="label681" style="display:none">
  <table border="1">
@@ -32356,7 +32356,7 @@ Examples
                 dhcp6_client_options: "rapid"
                 dhcp6_iapd_list:
                  -
-                    iaid: "0"
+                    iaid: "<you_own_value>"
                     prefix_hint: "<your_own_value>"
                     prefix_hint_plt: "604800"
                     prefix_hint_vlt: "2592000"
@@ -32380,7 +32380,7 @@ Examples
                     autonomous_flag: "enable"
                     delegated_prefix_iaid: "0"
                     onlink_flag: "enable"
-                    prefix_id: "0"
+                    prefix_id: "<you_own_value>"
                     rdnss: "<your_own_value>"
                     rdnss_service: "delegated"
                     subnet: "<your_own_value>"
@@ -32433,7 +32433,7 @@ Examples
                     status: "enable"
                     vrdst6: "<your_own_value>"
                     vrgrp: "0"
-                    vrid: "0"
+                    vrid: "<you_own_value>"
                     vrip6: "<your_own_value>"
             l2forward: "enable"
             lacp_ha_secondary: "enable"
@@ -32592,7 +32592,7 @@ Examples
                 vrdst: "<your_own_value>"
                 vrdst_priority: "0"
                 vrgrp: "0"
-                vrid: "0"
+                vrid: "<you_own_value>"
                 vrip: "<your_own_value>"
             vrrp_virtual_mac: "enable"
             wccp: "enable"

@@ -1215,7 +1215,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Destination Internet Service ID. Source firewall.internet-service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - Destination Internet Service ID. see <a href='#notes'>Notes</a>. Source firewall.internet-service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1363,7 +1363,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">seq_num</span> - Sequence number(1-65535). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">seq_num</span> - Sequence number(1-65535). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -2076,6 +2076,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the seq_num instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -2124,7 +2126,7 @@ Examples
                 id:  "18 (source firewall.internet-service.id)"
             output_device: "<your_own_value> (source system.interface.name system.interface.name)"
             protocol: "0"
-            seq_num: "0"
+            seq_num: "<you_own_value>"
             src:
              -
                 addr6: "<your_own_value>"

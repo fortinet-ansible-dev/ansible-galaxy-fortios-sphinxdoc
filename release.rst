@@ -4,6 +4,22 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.2
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.2 is based on 2.3.1
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the hyperlink issue for the supported FOS versions in USER's GUIDE.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Improve the document for adding notes and examples in Q&A for modules using Integer number as the mkey.
+
 Release Galaxy 2.3.1
 --------------------
 

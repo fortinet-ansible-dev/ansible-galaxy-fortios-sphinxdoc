@@ -4043,7 +4043,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Real server ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - Real server ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -7668,7 +7668,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -12962,7 +12962,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
  <div id="label175" style="display:none">
  <table border="1">
@@ -14656,7 +14656,7 @@ Examples
             ssl_cipher_suites:
              -
                 cipher: "TLS-AES-128-GCM-SHA256"
-                priority: "0"
+                priority: "<you_own_value>"
                 versions: "ssl-3.0"
             ssl_client_fallback: "disable"
             ssl_client_rekey_count: "0"
@@ -14685,7 +14685,7 @@ Examples
             ssl_server_cipher_suites:
              -
                 cipher: "TLS-AES-128-GCM-SHA256"
-                priority: "0"
+                priority: "<you_own_value>"
                 versions: "ssl-3.0"
             ssl_server_max_version: "ssl-3.0"
             ssl_server_min_version: "ssl-3.0"

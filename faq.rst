@@ -13,6 +13,7 @@ Frequently Asked Questions (FAQ)
  - `How to use the set_fact module in a task?`_
  - `How to use the member operation to add an element in an object?`_
  - `Set up FortiToken multi-factor authentication`_
+ - `Avoid using the special placeholder 0 as the mkey in some modules`_
 
 |
 
@@ -486,6 +487,40 @@ It uses one of the two free mobile FortiTokens that is already installed on the 
         method: email
         email: abc@gmail.com
 
+Avoid using the special placeholder 0 as the mkey in some modules
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+While '0' is a special placeholder that allows the backend to assign the latest available number for the entity, it does have limitations, for example, when you create a new router_static entity that has the identical configurations with an existing one, if the 'seq_num' is '0' or seq_num is absent, there will be an error thrown out from the backend and complain "duplicate entry already exists". Also, it's required to provide the mkey when updating or deleting an entity. Therefore, using your own value for this purpose to avoid any potential issues in the future.
+
+::
+
+  tasks:
+  - name: Configuring Static Routing 1
+    fortios_router_static:
+      enable_log: true
+      state: present
+      router_static:
+        seq_num: 1
+        dst: "180.0.1.11/32"
+        gateway: "192.168.0.1"
+        device: "port1"
+        status: "enable"
+        distance: 10
+
+  - name: Update the distance parameter
+    fortios_router_static:
+      enable_log: true
+      state: present
+      router_static:
+        seq_num: 1
+        distance: 15
+
+  - name: Delete the specific router static entity
+    fortios_router_static:
+      enable_log: true
+      state: absent
+      router_static:
+        seq_num: 1
 
 .. _Run Your Playbook: playbook.html
 .. _How To Generate Access Token Dynamically: faq.html#what-s-access-token

@@ -1821,7 +1821,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">policyid</span> - Policy ID (0 - 4294967295). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">policyid</span> - Policy ID (0 - 4294967295). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -2537,6 +2537,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the policyid instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -2583,7 +2585,7 @@ Examples
             ips_sensor_status: "enable"
             label: "<your_own_value>"
             logtraffic: "all"
-            policyid: "0"
+            policyid: "<you_own_value>"
             scan_botnet_connections: "disable"
             service6:
              -

@@ -29,7 +29,7 @@ you can install the latest collection by default via command
 ``ansible-galaxy collection install fortinet.fortios``. you can also
 choose another galaxy version to match your FortiOS device.
 
-Please see the `versionig notes`_ for more recently released collections
+Please see the `versioning notes`_ for more recently released collections
 and install the ones which are marked ``latest`` for your devices.
 
 .. _versioning notes: version.html

@@ -822,7 +822,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">severity_num</span> - Enter multiple severity levels, where 0 = Info, 1 = Low, ..., 4 = Critical <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">severity_num</span> - Enter multiple severity levels, where 0 = Info, 1 = Low, ..., 4 = Critical see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -1562,7 +1562,7 @@ Examples
             os: "<your_own_value>"
             severity:
              -
-                severity_num: "0"
+                severity_num: "<you_own_value>"
             src: "<your_own_value>"
             ssid_policy: "<your_own_value> (source wireless-controller.ssid-policy.name)"
             status: "enable"

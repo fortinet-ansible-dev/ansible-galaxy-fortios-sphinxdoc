@@ -1418,7 +1418,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">policyid</span> - Policy ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">policyid</span> - Policy ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1865,6 +1865,8 @@ Notes
 
 .. note::
 
+   - We highly recommend using your own value as the policyid instead of 0, while '0' is a special placeholder that allows the backend to assign the latest available number for the object, it does have limitations. Please find more details in Q&A.
+
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
 
@@ -1907,7 +1909,7 @@ Examples
                 name: "default_name_15 (source firewall.address6.name firewall.addrgrp6.name)"
             interface: "<your_own_value> (source system.zone.name system.interface.name)"
             name: "default_name_17"
-            policyid: "0"
+            policyid: "<you_own_value>"
             service:
              -
                 name: "default_name_20 (source firewall.service.custom.name firewall.service.group.name)"

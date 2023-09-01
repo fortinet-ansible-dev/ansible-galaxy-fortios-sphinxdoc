@@ -535,7 +535,7 @@ Parameters
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">id</span> - Duplication rule ID (1 - 255). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - Duplication rule ID (1 - 255). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -920,7 +920,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - SD-WAN service rule ID. Source system.sdwan.service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - SD-WAN service rule ID. see <a href='#notes'>Notes</a>. Source system.sdwan.service.id. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -2648,7 +2648,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. see <a href='#notes'>Notes</a>. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -3715,7 +3715,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - SLA ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - SLA ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
  <div id="label117" style="display:none">
  <table border="1">
@@ -5748,7 +5748,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">seq_num</span> - Sequence number(1-512). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">seq_num</span> - Sequence number(1-512). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
  <table border="1">
@@ -6381,7 +6381,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. see <a href='#notes'>Notes</a>. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label210' href="javascript:ContentClick('label211', 'label210');" onmouseover="ContentPreview('label211');" onmouseout="ContentUnpreview('label211');" title="click to collapse or expand..."> more... </a>
  <div id="label211" style="display:none">
  <table border="1">
@@ -8429,7 +8429,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - SD-WAN rule ID (1 - 4000). <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - SD-WAN rule ID (1 - 4000). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label270' href="javascript:ContentClick('label271', 'label270');" onmouseover="ContentPreview('label271');" onmouseout="ContentUnpreview('label271');" title="click to collapse or expand..."> more... </a>
  <div id="label271" style="display:none">
  <table border="1">
@@ -8884,7 +8884,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Application control based Internet Service ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Application control based Internet Service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label286' href="javascript:ContentClick('label287', 'label286');" onmouseover="ContentPreview('label287');" onmouseout="ContentUnpreview('label287');" title="click to collapse or expand..."> more... </a>
  <div id="label287" style="display:none">
  <table border="1">
@@ -8984,7 +8984,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">id</span> - Application control category ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Application control category ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label290' href="javascript:ContentClick('label291', 'label290');" onmouseover="ContentPreview('label291');" onmouseout="ContentUnpreview('label291');" title="click to collapse or expand..."> more... </a>
  <div id="label291" style="display:none">
  <table border="1">
@@ -10293,7 +10293,7 @@ Parameters
  </div>
  </li>
                 <ul class="ul-self">
-                <li> <span class="li-head">seq_num</span> - Member sequence number. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">seq_num</span> - Member sequence number. see <a href='#notes'>Notes</a>. Source system.sdwan.members.seq-num. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label332' href="javascript:ContentClick('label333', 'label332');" onmouseover="ContentPreview('label333');" onmouseout="ContentUnpreview('label333');" title="click to collapse or expand..."> more... </a>
  <div id="label333" style="display:none">
  <table border="1">
@@ -12540,7 +12540,7 @@ Examples
                 interval: "500"
                 members:
                  -
-                    seq_num: "0"
+                    seq_num: "<you_own_value>"
                 mos_codec: "g711"
                 name: "default_name_48"
                 packet_size: "124"
@@ -12592,7 +12592,7 @@ Examples
                 preferred_source: "<your_own_value>"
                 priority: "1"
                 priority6: "1024"
-                seq_num: "0"
+                seq_num: "<you_own_value>"
                 source: "<your_own_value>"
                 source6: "<your_own_value>"
                 spillover_threshold: "0"
@@ -12606,7 +12606,7 @@ Examples
                 ip: "<your_own_value> (source router.bgp.neighbor.ip)"
                 member:
                  -
-                    seq_num: "0"
+                    seq_num: "<you_own_value>"
                 minimum_sla_meet_members: "1"
                 mode: "sla"
                 role: "standalone"
@@ -12682,7 +12682,7 @@ Examples
                 passive_measurement: "enable"
                 priority_members:
                  -
-                    seq_num: "0"
+                    seq_num: "<you_own_value>"
                 priority_zone:
                  -
                     name: "default_name_171 (source system.sdwan.zone.name)"

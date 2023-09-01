@@ -1272,7 +1272,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">spi</span> - Security Parameters Index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">spi</span> - Security Parameters Index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -2143,7 +2143,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - Range entry ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">id</span> - Range entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -3513,7 +3513,7 @@ Parameters
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">spi</span> - Security Parameters Index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                    <li> <span class="li-head">spi</span> - Security Parameters Index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -5957,7 +5957,7 @@ Parameters
  </table>
  </div>
  </li>
-                <li> <span class="li-head">spi</span> - Security Parameters Index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">spi</span> - Security Parameters Index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
  <div id="label121" style="display:none">
  <table border="1">
@@ -8254,7 +8254,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Summary address entry ID. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - Summary address entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
  <div id="label181" style="display:none">
  <table border="1">
@@ -8488,7 +8488,7 @@ Examples
                  -
                     auth_key: "<your_own_value>"
                     enc_key: "<your_own_value>"
-                    spi: "0"
+                    spi: "<you_own_value>"
                 key_rollover_interval: "300"
                 nssa_default_information_originate: "enable"
                 nssa_default_information_originate_metric: "10"
@@ -8513,7 +8513,7 @@ Examples
                      -
                         auth_key: "<your_own_value>"
                         enc_key: "<your_own_value>"
-                        spi: "0"
+                        spi: "<you_own_value>"
                     key_rollover_interval: "300"
                     name: "default_name_37"
                     peer: "<your_own_value>"
@@ -8542,7 +8542,7 @@ Examples
                  -
                     auth_key: "<your_own_value>"
                     enc_key: "<your_own_value>"
-                    spi: "0"
+                    spi: "<you_own_value>"
                 key_rollover_interval: "300"
                 mtu: "0"
                 mtu_ignore: "enable"

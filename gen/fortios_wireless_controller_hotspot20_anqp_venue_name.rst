@@ -304,7 +304,7 @@ Parameters
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">index</span> - Value index. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">index</span> - Value index. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -531,7 +531,7 @@ Examples
             name: "default_name_3"
             value_list:
              -
-                index: "0"
+                index: "<you_own_value>"
                 lang: "<your_own_value>"
                 value: "<your_own_value>"
     
