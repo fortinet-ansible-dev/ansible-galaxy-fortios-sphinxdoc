@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -42,9 +42,11 @@ FortiOS Version Compatibility
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_switch_controller_acl_ingress</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -72,9 +74,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>switch_controller_acl_ingress</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -88,9 +92,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>action</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -104,17 +110,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>count</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -127,17 +137,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>drop</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -151,9 +165,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>classifier</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -167,9 +183,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>dst_ip_prefix</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -182,9 +200,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>dst_mac</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -197,9 +217,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>src_ip_prefix</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -212,9 +234,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>src_mac</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -227,9 +251,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>vlan</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -243,9 +269,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>description</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -258,9 +286,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>

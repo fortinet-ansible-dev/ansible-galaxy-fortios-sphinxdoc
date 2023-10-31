@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -66,9 +66,11 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_wireless_controller_wids_profile</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -144,9 +146,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>wireless_controller_wids_profile</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -208,9 +212,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_auto_suppress</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -264,9 +270,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -407,12 +415,14 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_disable_schedules</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -468,9 +478,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -548,9 +560,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_duration</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -611,9 +625,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_idle</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -674,9 +690,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -737,9 +755,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_period</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -800,9 +820,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_bgscan_report_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -863,9 +885,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_fgscan_report_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -926,9 +950,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ap_scan</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -982,9 +1008,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1014,7 +1042,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ap_scan_passive</span> - Enable/disable passive scanning. Enable means do not send probe request on any channels . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ap_scan_channel_list_2G_5G</span> - Selected ap scan channel list for 2.4G and 5G bands. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ap_scan_channel_list_2G_5G:chan</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -1045,158 +1073,58 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>ap_scan_passive</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td>ap_scan_channel_list_2G_5G</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ap_scan_threshold</span> - Minimum signal level/threshold in dBm required for the AP to report detected rogue AP (-95 to -20). <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">chan</span> - Channel number. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>ap_scan_threshold</td>
- <td>no</td>
- <td>no</td>
- <td>no</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td>chan</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">asleap_attack</span> - Enable/disable asleap attack detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">ap_scan_channel_list_6G</span> - Selected ap scan channel list for 6G band. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ap_scan_channel_list_6G:chan</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -1227,158 +1155,58 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>asleap_attack</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td>ap_scan_channel_list_6G</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">assoc_flood_thresh</span> - The threshold value for association frame flooding. <span class="li-normal">type: int</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">chan</span> - Channel 6g number. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>assoc_flood_thresh</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td>chan</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">assoc_flood_time</span> - Number of seconds after which a station is considered not connected. <span class="li-normal">type: int</span>
+            </ul>
+        <li> <span class="li-head">ap_scan_passive</span> - Enable/disable passive scanning. Enable means do not send probe request on any channels . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -1409,9 +1237,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>assoc_flood_time</td>
+ <td>ap_scan_passive</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1441,7 +1329,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">assoc_frame_flood</span> - Enable/disable association frame flooding detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ap_scan_threshold</span> - Minimum signal level/threshold in dBm required for the AP to report detected rogue AP (-95 to -20). <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -1472,67 +1360,13 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>assoc_frame_flood</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
+ <td>ap_scan_threshold</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1560,7 +1394,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">auth_flood_thresh</span> - The threshold value for authentication frame flooding. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">asleap_attack</span> - Enable/disable asleap attack detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -1591,9 +1425,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>auth_flood_thresh</td>
+ <td>asleap_attack</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1623,7 +1517,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">auth_flood_time</span> - Number of seconds after which a station is considered not connected. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">assoc_flood_thresh</span> - The threshold value for association frame flooding. <span class="li-normal">type: int</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -1654,9 +1548,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>auth_flood_time</td>
+ <td>assoc_flood_thresh</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1686,7 +1582,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">auth_frame_flood</span> - Enable/disable authentication frame flooding detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">assoc_flood_time</span> - Number of seconds after which a station is considered not connected. <span class="li-normal">type: int</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -1717,65 +1613,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>auth_frame_flood</td>
+ <td>assoc_flood_time</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1805,7 +1647,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">assoc_frame_flood</span> - Enable/disable association frame flooding detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -1836,9 +1678,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>comment</td>
+ <td>assoc_frame_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1868,7 +1770,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">deauth_broadcast</span> - Enable/disable broadcasting de-authentication detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">auth_flood_thresh</span> - The threshold value for authentication frame flooding. <span class="li-normal">type: int</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -1899,65 +1801,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>deauth_broadcast</td>
+ <td>auth_flood_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1987,7 +1835,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">deauth_unknown_src_thresh</span> - Threshold value per second to deauth unknown src for DoS attack (0: no limit). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">auth_flood_time</span> - Number of seconds after which a station is considered not connected. <span class="li-normal">type: int</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -2018,9 +1866,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>deauth_unknown_src_thresh</td>
+ <td>auth_flood_time</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2050,7 +1900,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_fail_flood</span> - Enable/disable EAPOL-Failure flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">auth_frame_flood</span> - Enable/disable authentication frame flooding detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -2081,9 +1931,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_fail_flood</td>
+ <td>auth_frame_flood</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2137,9 +1989,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2169,7 +2023,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_fail_intv</span> - The detection interval for EAPOL-Failure flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -2200,9 +2054,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_fail_intv</td>
+ <td>comment</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2232,7 +2088,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_fail_thresh</span> - The threshold value for EAPOL-Failure flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">deauth_broadcast</span> - Enable/disable broadcasting de-authentication detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -2263,9 +2119,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_fail_thresh</td>
+ <td>deauth_broadcast</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2295,7 +2211,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_logoff_flood</span> - Enable/disable EAPOL-Logoff flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">deauth_unknown_src_thresh</span> - Threshold value per second to deauth unknown src for DoS attack (0: no limit). <span class="li-normal">type: int</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -2326,65 +2242,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_logoff_flood</td>
+ <td>deauth_unknown_src_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2414,7 +2276,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_logoff_intv</span> - The detection interval for EAPOL-Logoff flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_fail_flood</span> - Enable/disable EAPOL-Failure flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -2445,9 +2307,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_logoff_intv</td>
+ <td>eapol_fail_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2477,7 +2399,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_logoff_thresh</span> - The threshold value for EAPOL-Logoff flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_fail_intv</span> - The detection interval for EAPOL-Failure flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -2508,9 +2430,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_logoff_thresh</td>
+ <td>eapol_fail_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2540,7 +2464,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_fail_flood</span> - Enable/disable premature EAPOL-Failure flooding (to STA) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_fail_thresh</span> - The threshold value for EAPOL-Failure flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -2571,65 +2495,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_fail_flood</td>
+ <td>eapol_fail_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2659,7 +2529,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_fail_intv</span> - The detection interval for premature EAPOL-Failure flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_logoff_flood</span> - Enable/disable EAPOL-Logoff flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -2690,9 +2560,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_fail_intv</td>
+ <td>eapol_logoff_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2722,7 +2652,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_fail_thresh</span> - The threshold value for premature EAPOL-Failure flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_logoff_intv</span> - The detection interval for EAPOL-Logoff flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -2753,9 +2683,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_fail_thresh</td>
+ <td>eapol_logoff_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2785,7 +2717,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_succ_flood</span> - Enable/disable premature EAPOL-Success flooding (to STA) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_logoff_thresh</span> - The threshold value for EAPOL-Logoff flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -2816,65 +2748,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_succ_flood</td>
+ <td>eapol_logoff_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2904,7 +2782,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_succ_intv</span> - The detection interval for premature EAPOL-Success flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_pre_fail_flood</span> - Enable/disable premature EAPOL-Failure flooding (to STA) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -2935,9 +2813,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_succ_intv</td>
+ <td>eapol_pre_fail_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2967,7 +2905,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_pre_succ_thresh</span> - The threshold value for premature EAPOL-Success flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_pre_fail_intv</span> - The detection interval for premature EAPOL-Failure flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -2998,9 +2936,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_pre_succ_thresh</td>
+ <td>eapol_pre_fail_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3030,7 +2970,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_start_flood</span> - Enable/disable EAPOL-Start flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_pre_fail_thresh</span> - The threshold value for premature EAPOL-Failure flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
@@ -3061,65 +3001,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_start_flood</td>
+ <td>eapol_pre_fail_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3149,7 +3035,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_start_intv</span> - The detection interval for EAPOL-Start flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_pre_succ_flood</span> - Enable/disable premature EAPOL-Success flooding (to STA) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -3180,9 +3066,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_start_intv</td>
+ <td>eapol_pre_succ_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3212,7 +3158,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_start_thresh</span> - The threshold value for EAPOL-Start flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_pre_succ_intv</span> - The detection interval for premature EAPOL-Success flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -3243,9 +3189,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_start_thresh</td>
+ <td>eapol_pre_succ_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3275,7 +3223,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_succ_flood</span> - Enable/disable EAPOL-Success flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_pre_succ_thresh</span> - The threshold value for premature EAPOL-Success flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -3306,65 +3254,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_succ_flood</td>
+ <td>eapol_pre_succ_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3394,7 +3288,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_succ_intv</span> - The detection interval for EAPOL-Success flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_start_flood</span> - Enable/disable EAPOL-Start flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -3425,9 +3319,69 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_succ_intv</td>
+ <td>eapol_start_flood</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3457,7 +3411,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eapol_succ_thresh</span> - The threshold value for EAPOL-Success flooding in specified interval. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_start_intv</span> - The detection interval for EAPOL-Start flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
  <div id="label87" style="display:none">
  <table border="1">
@@ -3488,9 +3442,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>eapol_succ_thresh</td>
+ <td>eapol_start_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3520,7 +3476,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">invalid_mac_oui</span> - Enable/disable invalid MAC OUI detection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_start_thresh</span> - The threshold value for EAPOL-Start flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -3551,65 +3507,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>invalid_mac_oui</td>
+ <td>eapol_start_thresh</td>
  <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
- <td>[disable]</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3639,7 +3541,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">long_duration_attack</span> - Enable/disable long duration attack detection based on user configured threshold . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">eapol_succ_flood</span> - Enable/disable EAPOL-Success flooding (to AP) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -3670,9 +3572,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>long_duration_attack</td>
+ <td>eapol_succ_flood</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3726,9 +3630,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3758,7 +3664,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">long_duration_thresh</span> - Threshold value for long duration attack detection (1000 - 32767 usec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eapol_succ_intv</span> - The detection interval for EAPOL-Success flooding (1 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -3789,9 +3695,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>long_duration_thresh</td>
+ <td>eapol_succ_intv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3821,7 +3729,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - WIDS profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">eapol_succ_thresh</span> - The threshold value for EAPOL-Success flooding in specified interval. <span class="li-normal">type: int</span>
  <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
  <div id="label95" style="display:none">
  <table border="1">
@@ -3852,9 +3760,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>name</td>
+ <td>eapol_succ_thresh</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3884,7 +3794,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">null_ssid_probe_resp</span> - Enable/disable null SSID probe response detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">invalid_mac_oui</span> - Enable/disable invalid MAC OUI detection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
  <div id="label97" style="display:none">
  <table border="1">
@@ -3915,9 +3825,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>null_ssid_probe_resp</td>
+ <td>invalid_mac_oui</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3971,9 +3883,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4003,7 +3917,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sensor_mode</span> - Scan nearby WiFi stations . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, foreign, both</span>
+        <li> <span class="li-head">long_duration_attack</span> - Enable/disable long duration attack detection based on user configured threshold . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
@@ -4034,9 +3948,40 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>sensor_mode</td>
+ <td>long_duration_attack</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4065,6 +4010,354 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">long_duration_thresh</span> - Threshold value for long duration attack detection (1000 - 32767 usec). <span class="li-normal">type: int</span>
+ <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
+ <div id="label101" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>long_duration_thresh</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">name</span> - WIDS profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
+ <div id="label103" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">null_ssid_probe_resp</span> - Enable/disable null SSID probe response detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
+ <div id="label105" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>null_ssid_probe_resp</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">sensor_mode</span> - Scan nearby WiFi stations . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, foreign, both</span>
+ <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
+ <div id="label107" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>sensor_mode</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4118,9 +4411,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[both]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4151,8 +4446,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">spoofed_deauth</span> - Enable/disable spoofed de-authentication attack detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
- <div id="label101" style="display:none">
+ <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
+ <div id="label109" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4181,9 +4476,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>spoofed_deauth</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4237,9 +4534,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4270,8 +4569,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">weak_wep_iv</span> - Enable/disable weak WEP IV (Initialization Vector) detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
- <div id="label103" style="display:none">
+ <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
+ <div id="label111" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4300,9 +4599,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>weak_wep_iv</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4356,9 +4657,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4389,8 +4692,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">wireless_bridge</span> - Enable/disable wireless bridge detection . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
- <div id="label105" style="display:none">
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -4419,9 +4722,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>wireless_bridge</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4475,9 +4780,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4555,6 +4862,12 @@ Examples
             ap_bgscan_report_intv: "30"
             ap_fgscan_report_intv: "15"
             ap_scan: "disable"
+            ap_scan_channel_list_2G_5G:
+             -
+                chan: "<your_own_value>"
+            ap_scan_channel_list_6G:
+             -
+                chan: "<your_own_value>"
             ap_scan_passive: "enable"
             ap_scan_threshold: "<your_own_value>"
             asleap_attack: "enable"
@@ -4588,7 +4901,7 @@ Examples
             invalid_mac_oui: "enable"
             long_duration_attack: "enable"
             long_duration_thresh: "8200"
-            name: "default_name_49"
+            name: "default_name_53"
             null_ssid_probe_resp: "enable"
             sensor_mode: "disable"
             spoofed_deauth: "enable"

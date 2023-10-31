@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -66,9 +66,11 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_router_route_map</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -144,9 +146,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>router_route_map</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -208,9 +212,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>comments</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -271,9 +277,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -334,9 +342,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>rule</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -398,9 +408,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>action</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -454,9 +466,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[deny]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -517,9 +531,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -580,9 +596,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_as_path</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -643,9 +661,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_community</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -706,9 +726,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_community_exact</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -762,9 +784,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -825,6 +849,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_extcommunity</td>
@@ -851,6 +876,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -888,6 +914,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_extcommunity_exact</td>
@@ -914,6 +941,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -944,6 +972,7 @@ Parameters
  <td>n/a</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -970,6 +999,7 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -1040,9 +1070,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_interface</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1103,9 +1135,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_ip_address</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1166,9 +1200,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_ip_nexthop</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1229,9 +1265,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_ip6_address</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1292,9 +1330,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_ip6_nexthop</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1355,9 +1395,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_metric</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1418,9 +1460,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_origin</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1474,9 +1518,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[egp]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1530,9 +1576,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[incomplete]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1593,9 +1641,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_route_type</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1649,6 +1699,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[external-type2]</td>
@@ -1677,9 +1728,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[none]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1733,6 +1786,7 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[2]</td>
@@ -1746,6 +1800,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -1796,9 +1851,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_tag</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1859,6 +1916,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>match_vrf</td>
@@ -1869,6 +1927,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1922,9 +1981,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_aggregator_as</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1985,9 +2046,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_aggregator_ip</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2048,9 +2111,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_aspath</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2112,9 +2177,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>as</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2176,9 +2243,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_aspath_action</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2232,9 +2301,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[replace]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2295,9 +2366,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_atomic_aggregate</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2351,9 +2424,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2414,9 +2489,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_community</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2478,9 +2555,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>community</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2542,9 +2621,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_community_additive</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2598,9 +2679,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2661,9 +2744,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_community_delete</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2724,9 +2809,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_dampening_max_suppress</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2787,9 +2874,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_dampening_reachability_half_life</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2850,9 +2939,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_dampening_reuse</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2913,9 +3004,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_dampening_suppress</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2976,9 +3069,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_dampening_unreachability_half_life</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3039,9 +3134,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_extcommunity_rt</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3103,9 +3200,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>community</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3167,9 +3266,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_extcommunity_soo</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3231,9 +3332,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>community</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3328,9 +3431,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_ip_nexthop</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3391,6 +3496,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_ip_prefsrc</td>
@@ -3418,6 +3524,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -3454,9 +3561,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_ip6_nexthop</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3517,9 +3626,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_ip6_nexthop_local</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3580,9 +3691,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_local_preference</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3643,9 +3756,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_metric</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3706,9 +3821,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_metric_type</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3762,6 +3879,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[external-type2]</td>
@@ -3790,9 +3908,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[none]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3846,6 +3966,7 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[2]</td>
@@ -3859,6 +3980,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -3909,9 +4031,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_origin</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -3965,9 +4089,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[egp]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4021,9 +4147,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[incomplete]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4084,9 +4212,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_originator_id</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4147,6 +4277,7 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_priority</td>
@@ -4170,6 +4301,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4210,9 +4342,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_route_tag</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4273,9 +4407,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_tag</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4305,7 +4441,7 @@ Parameters
  </table>
  </div>
  </li>
-            <li> <span class="li-head">set_weight</span> - BGP weight for routing table. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">set_vpnv4_nexthop</span> - IP address of VPNv4 next-hop. <span class="li-normal">type: str</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -4336,9 +4472,76 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>set_vpnv4_nexthop</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">set_weight</span> - BGP weight for routing table. <span class="li-normal">type: int</span>
+ <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
+ <div id="label111" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>set_weight</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -4461,6 +4664,7 @@ Examples
                 set_priority: ""
                 set_route_tag: ""
                 set_tag: ""
+                set_vpnv4_nexthop: "<your_own_value>"
                 set_weight: ""
     
 

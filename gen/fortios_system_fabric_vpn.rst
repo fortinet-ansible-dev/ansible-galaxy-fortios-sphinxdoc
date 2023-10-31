@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -43,9 +43,11 @@ FortiOS Version Compatibility
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_system_fabric_vpn</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -74,9 +76,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>system_fabric_vpn</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -92,9 +96,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>advertised_subnets</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -110,9 +116,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>access</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -120,9 +128,11 @@ Parameters
  <td>[inbound]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[bidirectional]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -137,9 +147,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_network</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -154,9 +166,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>firewall_address</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -171,9 +185,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -189,9 +205,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>prefix</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -207,9 +225,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_as</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -224,9 +244,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>branch_name</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -242,9 +264,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>loopback_address_block</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -259,9 +283,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>loopback_advertised_subnet</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -276,9 +302,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>loopback_interface</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -293,9 +321,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>overlays</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -311,9 +341,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_neighbor</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -328,9 +360,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_neighbor_group</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -345,9 +379,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_neighbor_range</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -362,9 +398,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>bgp_network</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -379,9 +417,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>interface</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -396,9 +436,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ipsec_phase1</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -413,9 +455,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -430,9 +474,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>overlay_policy</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -447,9 +493,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>overlay_tunnel_block</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -464,9 +512,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>remote_gw</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -481,9 +531,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>route_policy</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -498,9 +550,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>sdwan_member</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -516,9 +570,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>policy_rule</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -526,14 +582,17 @@ Parameters
  <td>[health-check]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[manual]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[auto]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -548,9 +607,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>psksecret</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -565,9 +626,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>sdwan_zone</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -582,9 +645,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>status</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -592,9 +657,11 @@ Parameters
  <td>[enable]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -609,9 +676,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>sync_mode</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -619,9 +688,11 @@ Parameters
  <td>[enable]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -636,9 +707,11 @@ Parameters
  <td></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>vpn_role</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>
@@ -646,9 +719,11 @@ Parameters
  <td>[hub]</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[spoke]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  </tr>

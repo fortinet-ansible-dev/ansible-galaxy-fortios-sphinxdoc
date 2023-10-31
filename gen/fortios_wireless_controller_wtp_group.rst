@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -66,9 +66,11 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_wireless_controller_wtp_group</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -144,9 +146,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>wireless_controller_wtp_group</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -177,7 +181,7 @@ Parameters
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">name</span> - WTP group name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">ble_major_id</span> - Override BLE Major ID. <span class="li-normal">type: int</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -208,39 +212,41 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
- <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td>ble_major_id</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
+ <td>no</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">platform_type</span> - FortiAP models to define the WTP group platform type. <span class="li-normal">type: str</span> <span class="li-normal">choices: AP-11N, C24JE, 421E, 423E, 221E, 222E, 223E, 224E, 231E, 321E, 431F, 431FL, 432F, 432FR, 433F, 433FL, 231F, 231FL, 234F, 23JF, 831F, 231G, 233G, 234G, 431G, 433G, U421E, U422EV, U423E, U221EV, U223EV, U24JEV, U321EV, U323EV, U431F, U433F, U231F, U234F, U432F, U231G, 220B, 210B, 222B, 112B, 320B, 11C, 14C, 223B, 28C, 320C, 221C, 25D, 222C, 224D, 214B, 21D, 24D, 112D, 223C, 321C, C220C, C225C, C23JD, S321C, S322C, S323C, S311C, S313C, S321CR, S322CR, S323CR, S421E, S422E, S423E, S221E, S223E, U441G</span>
+        <li> <span class="li-head">name</span> - WTP group name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -271,9 +277,76 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ <td>yes</td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">platform_type</span> - FortiAP models to define the WTP group platform type. <span class="li-normal">type: str</span> <span class="li-normal">choices: AP-11N, C24JE, 421E, 423E, 221E, 222E, 223E, 224E, 231E, 321E, 431F, 431FL, 432F, 432FR, 433F, 433FL, 231F, 231FL, 234F, 23JF, 831F, 231G, 233G, 234G, 431G, 433G, U421E, U422EV, U423E, U221EV, U223EV, U24JEV, U321EV, U323EV, U431F, U433F, U231F, U234F, U432F, U231G, 220B, 210B, 222B, 112B, 320B, 11C, 14C, 223B, 28C, 320C, 221C, 25D, 222C, 224D, 214B, 21D, 24D, 112D, 223C, 321C, C220C, C225C, C23JD, S321C, S322C, S323C, S311C, S313C, S321CR, S322CR, S323CR, S421E, S422E, S423E, S221E, S223E, U441G</span>
+ <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
+ <div id="label7" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td><code class="docutils literal notranslate">v6.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.7 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>platform_type</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -327,9 +400,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[C24JE]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -383,9 +458,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[423E]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -439,9 +516,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[222E]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -495,9 +574,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[224E]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -551,12 +632,14 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[321E]</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -607,6 +690,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[431FL]</td>
@@ -635,6 +719,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[432F]</td>
@@ -647,6 +732,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -691,6 +777,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[433F]</td>
@@ -699,6 +786,7 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -747,6 +835,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[231F]</td>
@@ -759,6 +848,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -803,6 +893,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[234F]</td>
@@ -815,6 +906,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -859,6 +951,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[831F]</td>
@@ -871,6 +964,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -915,6 +1009,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[233G]</td>
@@ -939,6 +1034,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -971,6 +1067,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[431G]</td>
@@ -995,6 +1092,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1027,9 +1125,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U421E]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1083,9 +1183,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U423E]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1139,9 +1241,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U223EV]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1195,9 +1299,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U321EV]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1251,12 +1357,14 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U431F]</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1307,6 +1415,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U231F]</td>
@@ -1319,6 +1428,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1363,6 +1473,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[U432F]</td>
@@ -1375,6 +1486,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1419,6 +1531,7 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[220B]</td>
@@ -1446,6 +1559,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1475,6 +1589,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[222B]</td>
@@ -1502,6 +1617,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1531,6 +1647,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[320B]</td>
@@ -1558,6 +1675,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1587,6 +1705,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[14C]</td>
@@ -1614,6 +1733,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1643,6 +1763,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[28C]</td>
@@ -1670,6 +1791,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1699,6 +1821,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[221C]</td>
@@ -1726,6 +1849,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1755,6 +1879,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[222C]</td>
@@ -1782,6 +1907,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1811,6 +1937,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[214B]</td>
@@ -1838,6 +1965,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1867,6 +1995,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[24D]</td>
@@ -1894,6 +2023,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1923,6 +2053,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[223C]</td>
@@ -1950,6 +2081,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -1979,6 +2111,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[C220C]</td>
@@ -2006,6 +2139,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2035,6 +2169,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[C23JD]</td>
@@ -2062,6 +2197,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2091,6 +2227,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S322C]</td>
@@ -2118,6 +2255,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2147,6 +2285,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S311C]</td>
@@ -2174,6 +2313,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2203,6 +2343,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S321CR]</td>
@@ -2230,6 +2371,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2259,6 +2401,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S323CR]</td>
@@ -2286,6 +2429,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2315,6 +2459,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S422E]</td>
@@ -2342,6 +2487,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2371,6 +2517,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[S221E]</td>
@@ -2398,6 +2545,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>n/a</td>
  <td>n/a</td>
  </tr>
  <tr>
@@ -2427,6 +2575,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[U441G]</td>
@@ -2455,13 +2604,14 @@ Parameters
  <td>no</td>
  <td>yes</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">wtps</span> - WTP list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wtps:wtp_id</span>
- <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
- <div id="label7" style="display:none">
+ <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
+ <div id="label9" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2490,9 +2640,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>wtps</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2524,8 +2676,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">wtp_id</span> - WTP ID. Source wireless-controller.wtp.wtp-id. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
- <div id="label9" style="display:none">
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2554,9 +2706,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>wtp_id</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -2621,7 +2775,8 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           wireless_controller_wtp_group:
-            name: "default_name_3"
+            ble_major_id: "0"
+            name: "default_name_4"
             platform_type: "AP-11N"
             wtps:
              -

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -66,9 +66,11 @@ FortiOS Version Compatibility
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_system_vdom_exception</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -144,9 +146,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>system_vdom_exception</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -208,9 +212,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -271,9 +277,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>object</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -327,9 +335,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer.override-setting]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -383,11 +393,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer2.override-setting]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -439,11 +451,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer3.override-setting]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -495,12 +509,14 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.fortianalyzer-cloud.override-setting]</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -551,6 +567,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd.override-setting]</td>
@@ -561,6 +578,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -607,6 +625,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd2.override-setting]</td>
@@ -617,6 +636,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -663,6 +683,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd3.override-setting]</td>
@@ -673,6 +694,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -719,6 +741,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[log.syslogd4.override-setting]</td>
@@ -729,6 +752,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -775,11 +799,13 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[system.central-management]</td>
  <td>yes</td>
  <td>no</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -831,6 +857,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[user.radius]</td>
@@ -859,9 +886,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[system.interface]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -915,9 +944,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[vpn.ipsec.phase2-interface]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -971,9 +1002,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[router.route-map]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1027,9 +1060,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[firewall.ippool]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1083,9 +1118,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[router.static]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1139,9 +1176,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[firewall.vip]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1195,9 +1234,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[system.sdwan]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1251,9 +1292,11 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[router.policy]</td>
+ <td>no</td>
  <td>no</td>
  <td>no</td>
  <td>no</td>
@@ -1307,6 +1350,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>no</td>
  </tr>
  <tr>
  <td>[log.syslogd.setting]</td>
@@ -1317,6 +1361,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -1345,6 +1390,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -1391,6 +1437,7 @@ Parameters
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
+ <td>n/a</td>
  </tr>
  <tr>
  <td>[firewall.vip64]</td>
@@ -1405,6 +1452,7 @@ Parameters
  <td>no</td>
  <td>no</td>
  <td>no</td>
+ <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
  <td>n/a</td>
@@ -1477,9 +1525,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>scope</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1533,6 +1583,7 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[inclusive]</td>
@@ -1561,9 +1612,11 @@ Parameters
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[exclusive]</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1624,9 +1677,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>vdom</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>
@@ -1688,9 +1743,11 @@ Parameters
  <td><code class="docutils literal notranslate">v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  <td>yes</td>
  <td>yes</td>

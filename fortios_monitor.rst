@@ -154,6 +154,14 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">change-password.user.local</span> - Change password for local user. 
+        <ul class="ul-self">
+                <li><span class="li-required">username</span> - User name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">new_password</span> - Password. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">change-vdom-mode.system.admin</span> - Switch between VDOM modes. 
         <ul class="ul-self">
                 <li><span class="li-required">vdom-mode</span> - VDOM mode [no-vdom|split-vdom|multi-vdom] <span class="li-normal">type: string  required: True </span> </li>
@@ -1087,6 +1095,18 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">set-tier-plus.switch-controller.mclag-icl</span> - Setup a tier 2/3 MC-LAG link between a pair of FortiSwitches. 
+        <ul class="ul-self">
+                <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">parent_peer1</span> - FortiSwitch ID for MC-LAG parent peer 1. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">parent_peer2</span> - FortiSwitch ID for MC-LAG parent peer 2. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">peer1</span> - FortiSwitch ID for MC-LAG peer 1. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">peer2</span> - FortiSwitch ID for MC-LAG peer 2. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">isl_port_group</span> - ISL port group name. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">set-tier1.switch-controller.mclag-icl</span> - Setup a tier-1 MC-LAG link between a pair of FortiSwitches. 
         <ul class="ul-self">
                 <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string  required: True </span> </li>
@@ -1417,10 +1437,36 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">unverify-cert.endpoint-control.ems</span> - Unverify EMS server certificate for a specific EMS. 
+        <ul class="ul-self">
+                <li><span class="li-required">ems_id</span> - EMS server ID (as defined in CLI table endpoint-control.fctems). <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">scope</span> - Scope from which to retrieve EMS certificate status [vdom*|global]. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">update-comments.system.config-revision</span> - Updates comments for a system configuration file. 
         <ul class="ul-self">
                 <li><span class="li-required">config_id</span> - Configuration id. <span class="li-normal">type: int  required: False </span> </li>
                 <li><span class="li-required">comments</span> - Configuration comments. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">update-global-label.firewall.policy</span> - Update the global-label of group starting with the provided leading policy ID. 
+        <ul class="ul-self">
+                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">current-label</span> - The current global-label of the group. If not provided, will assume the current group's label is empty string. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">new-label</span> - The new global-label of the group. If not provided, the current group's label will be deleted <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">update-global-label.firewall.security-policy</span> - Update the global-label of group starting with the provided leading policy ID. 
+        <ul class="ul-self">
+                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">current-label</span> - The current global-label of the group. If not provided, will assume the current group's label is empty string. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">new-label</span> - The new global-label of the group. If not provided, the current group's label will be deleted <span class="li-normal">type: string  required: False </span> </li>
                 
             </ul>
         
@@ -1498,6 +1544,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">db_name</span> - Security service database name [ips|appctrl|industrial_db|antivirus|security_rating|isdb|iotddb] <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">confirm_not_signed</span> - Confirm whether unsigned pkg files may be uploaded. <span class="li-normal">type: boolean  required: False </span> </li>
+                <li><span class="li-required">confirm_not_ga_certified</span> - Confirm whether non GA-certified pkg files may be uploaded. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">file_id</span> - File id of existing pkg file from a previous upload. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
                 
@@ -1586,6 +1633,14 @@ Parameters
                 <li><span class="li-required">region_name</span> - Region name to save image to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">image_type</span> - MIME type of the image (png|jpeg|gif). <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">user.password-policy-conform</span> - Check if password adheres to local user password policy. 
+        <ul class="ul-self">
+                <li><span class="li-required">username</span> - User name. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">password</span> - Password. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>
         

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -42,9 +42,11 @@ FortiOS Version Compatibility
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_system_evpn</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -72,9 +74,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>system_evpn</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -88,17 +92,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>arp_suppression</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -111,25 +119,29 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>export_rt</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">route_target</span> - Route target: AA|AA:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">route_target</span> - Route target: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>route_target</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -143,9 +155,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -158,25 +172,29 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>import_rt</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">route_target</span> - Route target: AA|AA:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">route_target</span> - Route target: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>route_target</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -190,32 +208,38 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ip_local_learning</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">rd</span> - Route Distinguisher: AA|AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">rd</span> - Route Distinguisher: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>rd</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>

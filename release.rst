@@ -4,6 +4,26 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.3
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.3 is based on 2.3.2
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the issue of one session remaining open after the task is finished.
+- To optimize the json_generic module and reduce the time spent while sending GET requests.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Add new fortios version 7.4.1.
+- Update Q&A with a resolution for Ansible Always Sending GET/PUT Requests as POST Requests.
+- Update Ansible version from 2.9 to 2.14.
+- Update the requirement.txt file to specify the sphinx_rtd_theme==1.3.0
+
 Release Galaxy 2.3.2
 --------------------
 

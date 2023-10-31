@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -42,9 +42,11 @@ FortiOS Version Compatibility
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_endpoint_control_fctems_override</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -72,9 +74,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>endpoint_control_fctems_override</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -88,56 +92,73 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>call_timeout</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">capabilities</span> - List of EMS capabilities. <span class="li-normal">type: list</span> <span class="li-normal">choices: fabric-auth, silent-approval, websocket, websocket-malware, push-ca-certs, common-tags-api, tenant-id, single-vdom-connector</span>
+        <li> <span class="li-head">capabilities</span> - List of EMS capabilities. <span class="li-normal">type: list</span> <span class="li-normal">choices: fabric-auth, silent-approval, websocket, websocket-malware, push-ca-certs, common-tags-api, tenant-id, client-avatars, single-vdom-connector</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>capabilities</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[fabric-auth]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[silent-approval]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[websocket]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[websocket-malware]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[push-ca-certs]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[common-tags-api]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[tenant-id]</td>
  <td>yes</td>
+ <td>yes</td>
+ </tr>
+ <tr>
+ <td>[client-avatars]</td>
+ <td>no</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[single-vdom-connector]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -177,17 +198,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>dirty_reason</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[none]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[mismatched-ems-sn]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -200,9 +225,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ems_id</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -215,17 +242,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortinetone_cloud_authentication</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -238,9 +269,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>https_port</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -253,9 +286,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>interface</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -268,21 +303,26 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>interface_select_method</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[auto]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[sdwan]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[specify]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -295,9 +335,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -310,9 +352,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>out_of_sync_threshold</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -325,17 +369,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>preserve_ssl_session</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -348,17 +396,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pull_avatars</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -371,17 +423,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pull_malware_hash</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -394,17 +450,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pull_sysinfo</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -417,17 +477,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pull_tags</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -440,17 +504,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pull_vulnerabilities</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -463,9 +531,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>serial_number</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -478,9 +548,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>server</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -493,9 +565,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>source_ip</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -508,17 +582,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>status</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -531,9 +609,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>tenant_id</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -546,17 +626,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>trust_ca_cn</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -569,17 +653,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>websocket_override</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>

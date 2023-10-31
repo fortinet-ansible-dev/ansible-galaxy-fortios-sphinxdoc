@@ -134,6 +134,9 @@ Parameters
         <li><span class="li-normal">authentication_scheme</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">authentication_setting</span> </li>
         <li><span class="li-normal">automation_setting</span> </li>
+        <li><span class="li-normal">casb_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">casb_saas-application</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">casb_user-activity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_ca</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_crl</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -443,7 +446,9 @@ Parameters
         <li><span class="li-normal">switch-controller.auto-config_policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.initial-config_template</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.initial-config_vlans</span> </li>
+        <li><span class="li-normal">switch-controller.ptp_interface-policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.ptp_policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">switch-controller.ptp_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.ptp_settings</span> </li>
         <li><span class="li-normal">switch-controller.qos_dot1p-map</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.qos_ip-dscp-map</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -652,6 +657,7 @@ Parameters
         <li><span class="li-normal">system_sms-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_speed-test-schedule</span>  <span class="li-required">param: interface</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_speed-test-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_speed-test-setting</span> </li>
         <li><span class="li-normal">system_sso-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sso-forticloud-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sso-fortigate-cloud-admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -706,6 +712,7 @@ Parameters
         <li><span class="li-normal">videofilter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">videofilter_youtube-channel-filter</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">videofilter_youtube-key</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">virtual-patch_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">voip_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_ca</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_crl</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -758,6 +765,7 @@ Parameters
         <li><span class="li-normal">wanopt_webcache</span> </li>
         <li><span class="li-normal">web-proxy_debug-url</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_explicit</span> </li>
+        <li><span class="li-normal">web-proxy_fast-fallback</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_forward-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_forward-server-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_global</span> </li>

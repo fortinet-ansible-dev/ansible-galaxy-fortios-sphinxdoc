@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.9
+- ansible>=2.14
 
 
 Tips
@@ -42,9 +42,11 @@ FortiOS Version Compatibility
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>fortios_system_pcp_server</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -71,9 +73,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>system_pcp_server</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -87,9 +91,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>pools</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -103,21 +109,26 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>allow_opcode</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[map]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[peer]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[announce]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -130,9 +141,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>announcement_count</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -145,17 +158,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>arp_reply</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -168,9 +185,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>client_mapping_limit</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -183,9 +202,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>client_subnet</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -199,9 +220,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>subnet</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -215,9 +238,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>description</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -230,9 +255,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>ext_intf</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -245,9 +272,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>extip</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -260,9 +289,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>extport</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -275,9 +306,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>id</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -290,9 +323,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>intl_intf</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -306,9 +341,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>interface_name</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -322,9 +359,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>mapping_filter_limit</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -337,9 +376,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>maximal_lifetime</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -352,9 +393,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>minimal_lifetime</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -367,17 +410,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>multicast_announcement</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -390,9 +437,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>name</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -405,9 +454,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>recycle_delay</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -420,17 +471,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>third_party</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[allow]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disallow]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -443,9 +498,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>third_party_subnet</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -459,9 +516,11 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>subnet</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>
@@ -476,17 +535,21 @@ Parameters
  <tr>
  <td></td>
  <td><code class="docutils literal notranslate">v7.4.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 </code></td>
  </tr>
  <tr>
  <td>status</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td>yes</td>
+ <td>yes</td>
  </tr>
  <tr>
  <td>[disable]</td>
+ <td>yes</td>
  <td>yes</td>
  </tr>
  </table>

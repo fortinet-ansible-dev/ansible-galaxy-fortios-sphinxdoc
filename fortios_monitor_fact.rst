@@ -121,6 +121,14 @@ Parameters
         <li><span class="li-head">azure_application-list</span> 
         
         </li>
+        casb_saas-application_details
+        <li><span class="li-head">casb_saas-application_details</span> - Retrieve details for CASB SaaS applications. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Filter: Key of the application to be fetched <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         endpoint-control_avatar_download
         <li><span class="li-head">endpoint-control_avatar_download</span> - Download an endpoint avatar image. 
         <ul class="ul-self">
@@ -206,6 +214,14 @@ Parameters
                 <li><span class="li-required">type</span> - Statistic type.'type' options are [system | modem | usage | last]. If 'type' is not specified, all types of statistics are retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        extension-controller_fortigate
+        <li><span class="li-head">extension-controller_fortigate</span> 
+        
+        </li>
+        extension-controller_lan-extension-vdom-status
+        <li><span class="li-head">extension-controller_lan-extension-vdom-status</span> 
         
         </li>
         firewall_acl
@@ -376,7 +392,11 @@ Parameters
         
         </li>
         firewall_per-ip-shaper
-        <li><span class="li-head">firewall_per-ip-shaper</span> 
+        <li><span class="li-head">firewall_per-ip-shaper</span> - List of statistics for configured firewall per-IP traffic shapers. 
+        <ul class="ul-self">
+                <li><span class="li-required">shaper_name</span> - Filter the results by per-IP shaper name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         firewall_policy
@@ -394,12 +414,16 @@ Parameters
                 <li><span class="li-required">ipv6</span> - Perform an IPv6 lookup? <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">srcintf</span> - Source interface. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">sourceport</span> - Source port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">sourceip</span> - Source IP. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sourceip</span> - Source IP. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">protocol</span> - Protocol. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">dest</span> - Destination IP/FQDN. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">destport</span> - Destination port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">icmptype</span> - ICMP type. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">icmpcode</span> - ICMP code. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">policy_type</span> - Policy type. [*policy | proxy] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">auth_type</span> - Authentication type. [user | group] Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">user_group</span> - List of remote user groups. ['cn=remote desktop users,cn=builtin,dc=devqa,dc=lab','cn=domain users,cn=users,dc=devqa,dc=lab', ...] Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">server_name</span> - Remote user/group server name. Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -528,7 +552,7 @@ Parameters
                 <li><span class="li-required">natsourceport</span> - NAT source port. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">since</span> - Only return sessions generated since this Unix timestamp. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">seconds</span> - Only return sessions generated in the last N seconds. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">fortiasic</span> - "true" to include NPU accelerated sessions, false to exclude. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">fortiasic</span> - "true" to show NPU accelerated sessions only, false to exclude. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1122,6 +1146,7 @@ Parameters
                 <li><span class="li-required">destination</span> - Destination IP/FQDN. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">source</span> - Source IP/FQDN. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">destination_port</span> - Destination Port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">source_port</span> - Source Port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface_name</span> - Incoming Interface. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">protocol_number</span> - IP Protocol Number. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
@@ -1287,6 +1312,17 @@ Parameters
         <li><span class="li-head">switch-controller_mclag-icl_eligible-peer</span> - Find a pair of FortiSwitches that are eligible to form a tier-1 MC-LAG. 
         <ul class="ul-self">
                 <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        switch-controller_mclag-icl_tier-plus-candidates
+        <li><span class="li-head">switch-controller_mclag-icl_tier-plus-candidates</span> - Find a pair of FortiSwitches that are eligible to form a tier 2/3 MC-LAG. 
+        <ul class="ul-self">
+                <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">parent_peer1</span> - FortiSwitch ID for MC-LAG parent peer 1. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">parent_peer2</span> - FortiSwitch ID for MC-LAG parent peer 2. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">is_tier2</span> - Whether candidates are for a Tier 2 MC-LAG. <span class="li-normal">type: boolean</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         
@@ -1522,6 +1558,8 @@ Parameters
                 <li><span class="li-required">mkey</span> - The external resource name to query. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">status_only</span> - Set to true to retrieve resource file status only. (Skip valid/invalid entries.) <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_notes</span> - Set to true to retrieve notes on the resource file. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">counts_only</span> - Set to true to retrive valid/invalid counts only. (Skip entries.) <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">entry</span> - Entry of external resource. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2009,7 +2047,6 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">ipv4</span> - Include IPv4 users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ipv6</span> - Include IPv6 users (default=false). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">include_wad</span> - Include explicit proxy users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_fsso</span> - Include FSSO users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -2020,7 +2057,6 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">ipv4</span> - Include IPv4 users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ipv6</span> - Include IPv6 users (default=false). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">include_wad</span> - Include explicit proxy users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_fsso</span> - Include FSSO users (default=true). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -2073,6 +2109,14 @@ Parameters
                 <li><span class="li-required">filename</span> - Thumbnail file name. The file name is from thumbnailPhoto field of user info query. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
+        
+        </li>
+        user_proxy
+        <li><span class="li-head">user_proxy</span> 
+        
+        </li>
+        user_proxy_count
+        <li><span class="li-head">user_proxy_count</span> 
         
         </li>
         utm_antivirus_stats
@@ -2283,6 +2327,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">type</span> - Request type [all*|fail-login]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">with_triangulation</span> - Enable to include regions of FortiAP detecting the client. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">with_stats</span> - Enable to include statistics of FortiAP client. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         

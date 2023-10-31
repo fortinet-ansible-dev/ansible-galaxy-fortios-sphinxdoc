@@ -14,8 +14,7 @@ Frequently Asked Questions (FAQ)
  - `How to use the member operation to add an element in an object?`_
  - `Set up FortiToken multi-factor authentication`_
  - `Avoid using the special placeholder 0 as the mkey in some modules`_
-
-|
+ - `Resolution for Ansible Always Sending GET/PUT Requests as POST Requests`_
 
 What's Access Token?
 ~~~~~~~~~~~~~~~~~~~~
@@ -521,6 +520,14 @@ While '0' is a special placeholder that allows the backend to assign the latest 
       state: absent
       router_static:
         seq_num: 1
+
+Resolution for Ansible Always Sending GET/PUT Requests as POST Requests
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+We have been inundated with complaints regarding older Ansible versions consistently sending GET/PUT requests as POST requests due to a bug in the ansible.netcommon module. To prevent such issues, please ensure that you have installed the latest Ansible version.
+
+To upgrade to the latest version of ansible.netcommon, use the following command:
+ansible-galaxy collection install ansible.netcommon --force
 
 .. _Run Your Playbook: playbook.html
 .. _How To Generate Access Token Dynamically: faq.html#what-s-access-token
