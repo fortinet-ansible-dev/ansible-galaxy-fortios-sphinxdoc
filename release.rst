@@ -4,6 +4,19 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.4
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.4 is based on 2.3.3
+
+Improvements
+^^^^^^^^^^^^^^^
+- update the required Ansible version to 2.14.0 in the runtime.yml file.
+- Format the contents in the changelog.yml file.
+
 Release Galaxy 2.3.3
 --------------------
 
