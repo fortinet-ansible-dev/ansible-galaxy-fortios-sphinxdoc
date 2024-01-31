@@ -38,64 +38,13 @@ FortiOS Version Compatibility
 .. raw:: html
 
  <br>
- <table>
+ <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>fortios_router_isis</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  <p>
@@ -119,62 +68,11 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>router_isis</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -186,121 +84,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>adjacency_check</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">adjacency_check6</span> - Enable/disable IPv6 adjacency check. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -309,121 +103,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>adjacency_check6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">adv_passive_only</span> - Enable/disable IS-IS advertisement of passive interfaces only. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -432,121 +122,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>adv_passive_only</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">adv_passive_only6</span> - Enable/disable IPv6 IS-IS advertisement of passive interfaces only. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -555,121 +141,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>adv_passive_only6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">auth_keychain_l1</span> - Authentication key-chain for level 1 PDUs. Source router.key-chain.name. <span class="li-normal">type: str</span>
@@ -678,61 +160,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_keychain_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -743,61 +175,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_keychain_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -808,121 +190,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_mode_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[password]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[md5]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">auth_mode_l2</span> - Level 2 authentication mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: password, md5</span>
@@ -931,121 +209,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_mode_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[password]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[md5]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">auth_password_l1</span> - Authentication password for level 1 PDUs. <span class="li-normal">type: str</span>
@@ -1054,61 +228,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_password_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1119,61 +243,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_password_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1184,121 +258,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_sendonly_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">auth_sendonly_l2</span> - Enable/disable level 2 authentication send-only. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1307,121 +277,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_sendonly_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">default_originate</span> - Enable/disable distribution of default route information. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1430,121 +296,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>default_originate</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">default_originate6</span> - Enable/disable distribution of default IPv6 route information. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1553,121 +315,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>default_originate6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">dynamic_hostname</span> - Enable/disable dynamic hostname. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1676,121 +334,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>dynamic_hostname</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">ignore_lsp_errors</span> - Enable/disable ignoring of LSP errors with bad checksums. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1799,121 +353,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>ignore_lsp_errors</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">is_type</span> - IS type. <span class="li-normal">type: str</span> <span class="li-normal">choices: level-1-2, level-1, level-2-only</span>
@@ -1922,150 +372,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>is_type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2-only]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">isis_interface</span> - IS-IS interface configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: isis_interface:name</span>
@@ -2073,62 +392,11 @@ Parameters
  <div id="label37" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>isis_interface</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2140,61 +408,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_keychain_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2205,61 +423,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_keychain_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2270,121 +438,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_mode_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[md5]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[password]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">auth_mode_l2</span> - Level 2 authentication mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: md5, password</span>
@@ -2393,121 +457,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_mode_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[md5]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[password]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">auth_password_l1</span> - Authentication password for level 1 PDUs. <span class="li-normal">type: str</span>
@@ -2516,61 +476,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_password_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2581,61 +491,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_password_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2646,121 +506,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_send_only_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">auth_send_only_l2</span> - Enable/disable authentication send-only for level 2 PDUs. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2769,121 +525,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auth_send_only_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">circuit_type</span> - IS-IS interface"s circuit type. <span class="li-normal">type: str</span> <span class="li-normal">choices: level-1-2, level-1, level-2</span>
@@ -2892,150 +544,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>circuit_type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">csnp_interval_l1</span> - Level 1 CSNP interval. <span class="li-normal">type: int</span>
@@ -3044,61 +565,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>csnp_interval_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3109,61 +580,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>csnp_interval_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3174,61 +595,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_interval_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3239,61 +610,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_interval_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3304,61 +625,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_multiplier_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3369,61 +640,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_multiplier_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3434,121 +655,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_padding</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">lsp_interval</span> - LSP transmission interval (milliseconds). <span class="li-normal">type: int</span>
@@ -3557,61 +674,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lsp_interval</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3622,61 +689,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lsp_retransmit_interval</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3687,121 +704,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>mesh_group</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">mesh_group_id</span> - Mesh group ID <0-4294967295>, 0: mesh-group blocked. <span class="li-normal">type: int</span>
@@ -3810,61 +723,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>mesh_group_id</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3875,61 +738,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -3940,61 +753,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4005,61 +768,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4070,150 +783,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>network_type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[broadcast]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[point-to-point]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[loopback]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">priority_l1</span> - Level 1 priority. <span class="li-normal">type: int</span>
@@ -4222,61 +804,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>priority_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4287,61 +819,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>priority_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4352,121 +834,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">status6</span> - Enable/disable IPv6 interface for IS-IS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -4475,121 +853,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">wide_metric_l1</span> - Level 1 wide metric for interface. <span class="li-normal">type: int</span>
@@ -4598,61 +872,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>wide_metric_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4663,61 +887,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>wide_metric_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4728,62 +902,11 @@ Parameters
  <div id="label99" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>isis_net</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4795,61 +918,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4860,61 +933,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>net</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4926,61 +949,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lsp_gen_interval_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -4991,61 +964,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lsp_gen_interval_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -5056,61 +979,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lsp_refresh_interval</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -5121,61 +994,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>max_lsp_lifetime</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -5186,440 +1009,39 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric_style</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[narrow]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[transition]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[narrow-transition]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[narrow-transition-l1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[narrow-transition-l2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide-l1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide-l2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide-transition]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide-transition-l1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[wide-transition-l2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[transition-l1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[transition-l2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">overload_bit</span> - Enable/disable signal other routers not to use us in SPF. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -5628,121 +1050,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>overload_bit</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">overload_bit_on_startup</span> - Overload-bit only temporarily after reboot. <span class="li-normal">type: int</span>
@@ -5751,61 +1069,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>overload_bit_on_startup</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -5816,121 +1084,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>overload_bit_suppress</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[external]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[interlevel]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute</span> - IS-IS redistribute protocols. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: redistribute:protocol</span>
@@ -5938,44 +1102,12 @@ Parameters
  <div id="label121" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -5987,105 +1119,20 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>level</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">metric</span> - Metric. <span class="li-normal">type: int</span>
@@ -6094,43 +1141,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -6141,85 +1157,18 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric_type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[external]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[internal]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">protocol</span> - Protocol name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -6228,43 +1177,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>protocol</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -6275,43 +1193,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>routemap</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -6322,85 +1209,18 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             </ul>
@@ -6410,121 +1230,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute_l1_list</span> - Access-list for route redistribution from l1 to l2. Source router.access-list.name. <span class="li-normal">type: str</span>
@@ -6533,61 +1249,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute_l1_list</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -6598,121 +1264,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute_l2_list</span> - Access-list for route redistribution from l2 to l1. Source router.access-list.name. <span class="li-normal">type: str</span>
@@ -6721,61 +1283,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute_l2_list</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -6785,44 +1297,12 @@ Parameters
  <div id="label143" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -6834,105 +1314,20 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>level</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">metric</span> - Metric. <span class="li-normal">type: int</span>
@@ -6941,43 +1336,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -6988,85 +1352,18 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>metric_type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[external]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[internal]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">protocol</span> - Protocol name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -7075,43 +1372,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>protocol</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -7122,43 +1388,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>routemap</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  </table>
  </div>
@@ -7169,85 +1404,18 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             </ul>
@@ -7257,121 +1425,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute6_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute6_l1_list</span> - Access-list for IPv6 route redistribution from l1 to l2. Source router.access-list6.name. <span class="li-normal">type: str</span>
@@ -7380,61 +1444,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute6_l1_list</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7445,121 +1459,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute6_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute6_l2_list</span> - Access-list for IPv6 route redistribution from l2 to l1. Source router.access-list6.name. <span class="li-normal">type: str</span>
@@ -7568,61 +1478,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redistribute6_l2_list</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7633,61 +1493,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>spf_interval_exp_l1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7698,61 +1508,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>spf_interval_exp_l2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7762,62 +1522,11 @@ Parameters
  <div id="label169" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>summary_address</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7829,61 +1538,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -7894,150 +1553,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>level</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">prefix</span> - Prefix. <span class="li-normal">type: str</span>
@@ -8046,61 +1574,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>prefix</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -8111,62 +1589,11 @@ Parameters
  <div id="label177" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>summary_address6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -8178,61 +1605,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -8243,150 +1620,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>level</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  <tr>
  <td>[level-1-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[level-2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             <li> <span class="li-head">prefix6</span> - IPv6 prefix. <span class="li-normal">type: str</span>
@@ -8395,61 +1641,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 </code></td>
- <td><code class="docutils literal notranslate">v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 </code></td>
- <td><code class="docutils literal notranslate">v7.0.2 </code></td>
- <td><code class="docutils literal notranslate">v7.0.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.0.6 </code></td>
- <td><code class="docutils literal notranslate">v7.0.7 </code></td>
- <td><code class="docutils literal notranslate">v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>prefix6</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -8473,118 +1669,107 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - hosts: fortigates
-      collections:
-        - fortinet.fortios
-      connection: httpapi
-      vars:
-       vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
-       ansible_httpapi_port: 443
-      tasks:
-      - name: Configure IS-IS.
-        fortios_router_isis:
-          vdom:  "{{ vdom }}"
+    - name: Configure IS-IS.
+      fortinet.fortios.fortios_router_isis:
+          vdom: "{{ vdom }}"
           router_isis:
-            adjacency_check: "enable"
-            adjacency_check6: "enable"
-            adv_passive_only: "enable"
-            adv_passive_only6: "enable"
-            auth_keychain_l1: "<your_own_value> (source router.key-chain.name)"
-            auth_keychain_l2: "<your_own_value> (source router.key-chain.name)"
-            auth_mode_l1: "password"
-            auth_mode_l2: "password"
-            auth_password_l1: "<your_own_value>"
-            auth_password_l2: "<your_own_value>"
-            auth_sendonly_l1: "enable"
-            auth_sendonly_l2: "enable"
-            default_originate: "enable"
-            default_originate6: "enable"
-            dynamic_hostname: "enable"
-            ignore_lsp_errors: "enable"
-            is_type: "level-1-2"
-            isis_interface:
-             -
-                auth_keychain_l1: "<your_own_value> (source router.key-chain.name)"
-                auth_keychain_l2: "<your_own_value> (source router.key-chain.name)"
-                auth_mode_l1: "md5"
-                auth_mode_l2: "md5"
-                auth_password_l1: "<your_own_value>"
-                auth_password_l2: "<your_own_value>"
-                auth_send_only_l1: "enable"
-                auth_send_only_l2: "enable"
-                circuit_type: "level-1-2"
-                csnp_interval_l1: "10"
-                csnp_interval_l2: "10"
-                hello_interval_l1: "10"
-                hello_interval_l2: "10"
-                hello_multiplier_l1: "3"
-                hello_multiplier_l2: "3"
-                hello_padding: "enable"
-                lsp_interval: "33"
-                lsp_retransmit_interval: "5"
-                mesh_group: "enable"
-                mesh_group_id: "0"
-                metric_l1: "10"
-                metric_l2: "10"
-                name: "default_name_43 (source system.interface.name)"
-                network_type: "broadcast"
-                priority_l1: "64"
-                priority_l2: "64"
-                status: "enable"
-                status6: "enable"
-                wide_metric_l1: "10"
-                wide_metric_l2: "10"
-            isis_net:
-             -
-                id:  "52"
-                net: "<your_own_value>"
-            lsp_gen_interval_l1: "30"
-            lsp_gen_interval_l2: "30"
-            lsp_refresh_interval: "900"
-            max_lsp_lifetime: "1200"
-            metric_style: "narrow"
-            overload_bit: "enable"
-            overload_bit_on_startup: "0"
-            overload_bit_suppress: "external"
-            redistribute:
-             -
-                level: "level-1-2"
-                metric: "0"
-                metric_type: "external"
-                protocol: "<your_own_value>"
-                routemap: "<your_own_value> (source router.route-map.name)"
-                status: "enable"
-            redistribute_l1: "enable"
-            redistribute_l1_list: "<your_own_value> (source router.access-list.name)"
-            redistribute_l2: "enable"
-            redistribute_l2_list: "<your_own_value> (source router.access-list.name)"
-            redistribute6:
-             -
-                level: "level-1-2"
-                metric: "0"
-                metric_type: "external"
-                protocol: "<your_own_value>"
-                routemap: "<your_own_value> (source router.route-map.name)"
-                status: "enable"
-            redistribute6_l1: "enable"
-            redistribute6_l1_list: "<your_own_value> (source router.access-list6.name)"
-            redistribute6_l2: "enable"
-            redistribute6_l2_list: "<your_own_value> (source router.access-list6.name)"
-            spf_interval_exp_l1: "<your_own_value>"
-            spf_interval_exp_l2: "<your_own_value>"
-            summary_address:
-             -
-                id:  "87"
-                level: "level-1-2"
-                prefix: "<your_own_value>"
-            summary_address6:
-             -
-                id:  "91"
-                level: "level-1-2"
-                prefix6: "<your_own_value>"
-    
+              adjacency_check: "enable"
+              adjacency_check6: "enable"
+              adv_passive_only: "enable"
+              adv_passive_only6: "enable"
+              auth_keychain_l1: "<your_own_value> (source router.key-chain.name)"
+              auth_keychain_l2: "<your_own_value> (source router.key-chain.name)"
+              auth_mode_l1: "password"
+              auth_mode_l2: "password"
+              auth_password_l1: "<your_own_value>"
+              auth_password_l2: "<your_own_value>"
+              auth_sendonly_l1: "enable"
+              auth_sendonly_l2: "enable"
+              default_originate: "enable"
+              default_originate6: "enable"
+              dynamic_hostname: "enable"
+              ignore_lsp_errors: "enable"
+              is_type: "level-1-2"
+              isis_interface:
+                  -
+                      auth_keychain_l1: "<your_own_value> (source router.key-chain.name)"
+                      auth_keychain_l2: "<your_own_value> (source router.key-chain.name)"
+                      auth_mode_l1: "md5"
+                      auth_mode_l2: "md5"
+                      auth_password_l1: "<your_own_value>"
+                      auth_password_l2: "<your_own_value>"
+                      auth_send_only_l1: "enable"
+                      auth_send_only_l2: "enable"
+                      circuit_type: "level-1-2"
+                      csnp_interval_l1: "10"
+                      csnp_interval_l2: "10"
+                      hello_interval_l1: "10"
+                      hello_interval_l2: "10"
+                      hello_multiplier_l1: "3"
+                      hello_multiplier_l2: "3"
+                      hello_padding: "enable"
+                      lsp_interval: "33"
+                      lsp_retransmit_interval: "5"
+                      mesh_group: "enable"
+                      mesh_group_id: "0"
+                      metric_l1: "10"
+                      metric_l2: "10"
+                      name: "default_name_43 (source system.interface.name)"
+                      network_type: "broadcast"
+                      priority_l1: "64"
+                      priority_l2: "64"
+                      status: "enable"
+                      status6: "enable"
+                      wide_metric_l1: "10"
+                      wide_metric_l2: "10"
+              isis_net:
+                  -
+                      id: "52"
+                      net: "<your_own_value>"
+              lsp_gen_interval_l1: "30"
+              lsp_gen_interval_l2: "30"
+              lsp_refresh_interval: "900"
+              max_lsp_lifetime: "1200"
+              metric_style: "narrow"
+              overload_bit: "enable"
+              overload_bit_on_startup: "0"
+              overload_bit_suppress: "external"
+              redistribute:
+                  -
+                      level: "level-1-2"
+                      metric: "0"
+                      metric_type: "external"
+                      protocol: "<your_own_value>"
+                      routemap: "<your_own_value> (source router.route-map.name)"
+                      status: "enable"
+              redistribute_l1: "enable"
+              redistribute_l1_list: "<your_own_value> (source router.access-list.name)"
+              redistribute_l2: "enable"
+              redistribute_l2_list: "<your_own_value> (source router.access-list.name)"
+              redistribute6:
+                  -
+                      level: "level-1-2"
+                      metric: "0"
+                      metric_type: "external"
+                      protocol: "<your_own_value>"
+                      routemap: "<your_own_value> (source router.route-map.name)"
+                      status: "enable"
+              redistribute6_l1: "enable"
+              redistribute6_l1_list: "<your_own_value> (source router.access-list6.name)"
+              redistribute6_l2: "enable"
+              redistribute6_l2_list: "<your_own_value> (source router.access-list6.name)"
+              spf_interval_exp_l1: "<your_own_value>"
+              spf_interval_exp_l2: "<your_own_value>"
+              summary_address:
+                  -
+                      id: "87"
+                      level: "level-1-2"
+                      prefix: "<your_own_value>"
+              summary_address6:
+                  -
+                      id: "91"
+                      level: "level-1-2"
+                      prefix6: "<your_own_value>"
 
 
 Return Values

@@ -38,22 +38,13 @@ FortiOS Version Compatibility
 .. raw:: html
 
  <br>
- <table>
+ <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>fortios_extension_controller_extender_profile</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  <p>
@@ -78,20 +69,11 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>extension_controller_extender_profile</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -103,69 +85,25 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>allowaccess</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[telnet]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[http]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[https]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[ssh]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[snmp]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">bandwidth_limit</span> - FortiExtender LAN extension bandwidth limit (Mbps). <span class="li-normal">type: int</span>
@@ -174,19 +112,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>bandwidth_limit</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -196,20 +126,11 @@ Parameters
  <div id="label7" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>cellular</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -220,20 +141,11 @@ Parameters
  <div id="label9" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>controller_report</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -245,19 +157,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>interval</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -268,19 +172,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>signal_threshold</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -291,37 +187,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 </ul>
@@ -330,20 +206,11 @@ Parameters
  <div id="label17" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>dataplan</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -355,19 +222,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -378,20 +237,11 @@ Parameters
  <div id="label21" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>modem1</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -402,20 +252,11 @@ Parameters
  <div id="label23" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auto_switch</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -427,37 +268,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>dataplan</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">disconnect</span> - Auto switch by disconnect. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -466,37 +287,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">disconnect_period</span> - Automatically switch based on disconnect period. <span class="li-normal">type: int</span>
@@ -505,19 +306,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect_period</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -528,19 +321,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect_threshold</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -551,37 +336,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>signal</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
@@ -590,37 +355,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[time]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[timer]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">switch_back_time</span> - Automatically switch over to preferred SIM/carrier at a specified time in UTC (HH:MM). <span class="li-normal">type: str</span>
@@ -629,19 +374,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back_time</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -652,19 +389,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back_timer</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -676,53 +405,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>default_sim</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[sim1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[sim2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[carrier]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[cost]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">gps</span> - FortiExtender GPS enable/disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -731,37 +428,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>gps</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">preferred_carrier</span> - Preferred carrier. <span class="li-normal">type: str</span>
@@ -770,19 +447,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>preferred_carrier</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -793,19 +462,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redundant_intf</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -816,37 +477,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redundant_mode</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim1_pin</span> - SIM <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -855,37 +496,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim1_pin</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim1_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -894,19 +515,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim1_pin_code</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -917,37 +530,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim2_pin</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim2_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -956,19 +549,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim2_pin_code</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -979,20 +564,11 @@ Parameters
  <div id="label59" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>modem2</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1003,20 +579,11 @@ Parameters
  <div id="label61" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auto_switch</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1028,37 +595,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>dataplan</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">disconnect</span> - Auto switch by disconnect. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1067,37 +614,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">disconnect_period</span> - Automatically switch based on disconnect period. <span class="li-normal">type: int</span>
@@ -1106,19 +633,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect_period</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1129,19 +648,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>disconnect_threshold</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1152,37 +663,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>signal</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
@@ -1191,37 +682,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[time]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[timer]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">switch_back_time</span> - Automatically switch over to preferred SIM/carrier at a specified time in UTC (HH:MM). <span class="li-normal">type: str</span>
@@ -1230,19 +701,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back_time</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1253,19 +716,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_back_timer</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1277,53 +732,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>default_sim</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[sim1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[sim2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[carrier]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[cost]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">gps</span> - FortiExtender GPS enable/disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1332,37 +755,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>gps</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">preferred_carrier</span> - Preferred carrier. <span class="li-normal">type: str</span>
@@ -1371,19 +774,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>preferred_carrier</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1394,19 +789,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redundant_intf</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1417,37 +804,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redundant_mode</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim1_pin</span> - SIM <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1456,37 +823,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim1_pin</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim1_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -1495,19 +842,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim1_pin_code</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1518,37 +857,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim2_pin</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">sim2_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -1557,19 +876,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sim2_pin_code</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1580,20 +891,11 @@ Parameters
  <div id="label97" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>sms_notification</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1604,20 +906,11 @@ Parameters
  <div id="label99" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>alert</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1629,19 +922,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>data_exhausted</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1652,19 +937,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>fgt_backup_mode_switch</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1675,19 +952,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>low_signal_strength</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1698,19 +967,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>mode_switch</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1721,19 +982,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>os_image_fallback</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1744,19 +997,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>session_disconnect</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1767,19 +1012,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_reboot</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1790,20 +1027,11 @@ Parameters
  <div id="label115" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>receiver</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1815,77 +1043,27 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>alert</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[system-reboot]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[data-exhausted]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[session-disconnect]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[low-signal-strength]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[mode-switch]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[os-image-fallback]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[fgt-backup-mode-switch]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     <li> <span class="li-head">name</span> - FortiExtender SMS notification receiver name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -1894,19 +1072,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1917,19 +1087,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>phone_number</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -1940,37 +1102,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                     </ul>
@@ -1980,37 +1122,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 </ul>
@@ -2021,37 +1143,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>enforce_bandwidth</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[disable]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">extension</span> - Extension option. <span class="li-normal">type: str</span> <span class="li-normal">choices: wan-extension, lan-extension</span>
@@ -2060,37 +1162,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>extension</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[wan-extension]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[lan-extension]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span>
@@ -2099,19 +1181,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2121,20 +1195,11 @@ Parameters
  <div id="label133" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>lan_extension</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2145,20 +1210,11 @@ Parameters
  <div id="label135" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>backhaul</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2170,19 +1226,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2193,93 +1241,31 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>port</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[wan]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[lte1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[lte2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[port1]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[port2]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[port3]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[port4]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[port5]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[sfp]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">role</span> - FortiExtender uplink port. <span class="li-normal">type: str</span> <span class="li-normal">choices: primary, secondary</span>
@@ -2288,37 +1274,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>role</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[primary]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[secondary]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
                 <li> <span class="li-head">weight</span> - WRR weight parameter. <span class="li-normal">type: int</span>
@@ -2327,19 +1293,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>weight</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2351,19 +1309,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>backhaul_interface</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2374,19 +1324,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>backhaul_ip</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2397,19 +1339,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>ipsec_tunnel</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2420,37 +1354,17 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>link_loadbalance</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[activebackup]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[loadbalance]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
             </ul>
@@ -2460,19 +1374,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>login_password</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2483,45 +1389,19 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>login_password_change</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[yes]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[default]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[no]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">model</span> - Model. <span class="li-normal">type: str</span> <span class="li-normal">choices: FX201E, FX211E, FX200F, FXA11F, FXE11F, FXA21F, FXE21F, FXA22F, FXE22F, FX212F, FX311F, FX312F, FX511F, FVG21F, FVA21F, FVG22F, FVA22F, FX04DA</span>
@@ -2530,165 +1410,49 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>model</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  <tr>
  <td>[FX201E]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX211E]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX200F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXA11F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXE11F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXA21F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXE21F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXA22F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FXE22F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX212F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX311F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX312F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX511F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FVG21F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FVA21F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FVG22F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FVA22F]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[FX04DA]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- </tr>
- </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - FortiExtender profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -2697,19 +1461,11 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v7.2.1 </code></td>
- <td><code class="docutils literal notranslate">v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 </code></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
  </tr>
  </table>
  </div>
@@ -2732,105 +1488,94 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - hosts: fortigates
-      collections:
-        - fortinet.fortios
-      connection: httpapi
-      vars:
-       vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
-       ansible_httpapi_port: 443
-      tasks:
-      - name: FortiExtender extender profile configuration.
-        fortios_extension_controller_extender_profile:
-          vdom:  "{{ vdom }}"
+    - name: FortiExtender extender profile configuration.
+      fortinet.fortios.fortios_extension_controller_extender_profile:
+          vdom: "{{ vdom }}"
           state: "present"
           access_token: "<your_own_value>"
           extension_controller_extender_profile:
-            allowaccess: "ping"
-            bandwidth_limit: "1024"
-            cellular:
-                controller_report:
-                    interval: "300"
-                    signal_threshold: "10"
-                    status: "disable"
-                dataplan:
-                 -
-                    name: "default_name_11 (source extension-controller.dataplan.name)"
-                modem1:
-                    auto_switch:
-                        dataplan: "disable"
-                        disconnect: "disable"
-                        disconnect_period: "600"
-                        disconnect_threshold: "3"
-                        signal: "disable"
-                        switch_back: "time"
-                        switch_back_time: "<your_own_value>"
-                        switch_back_timer: "86400"
-                    default_sim: "sim1"
-                    gps: "disable"
-                    preferred_carrier: "<your_own_value>"
-                    redundant_intf: "<your_own_value>"
-                    redundant_mode: "disable"
-                    sim1_pin: "disable"
-                    sim1_pin_code: "<your_own_value>"
-                    sim2_pin: "disable"
-                    sim2_pin_code: "<your_own_value>"
-                modem2:
-                    auto_switch:
-                        dataplan: "disable"
-                        disconnect: "disable"
-                        disconnect_period: "600"
-                        disconnect_threshold: "3"
-                        signal: "disable"
-                        switch_back: "time"
-                        switch_back_time: "<your_own_value>"
-                        switch_back_timer: "86400"
-                    default_sim: "sim1"
-                    gps: "disable"
-                    preferred_carrier: "<your_own_value>"
-                    redundant_intf: "<your_own_value>"
-                    redundant_mode: "disable"
-                    sim1_pin: "disable"
-                    sim1_pin_code: "<your_own_value>"
-                    sim2_pin: "disable"
-                    sim2_pin_code: "<your_own_value>"
-                sms_notification:
-                    alert:
-                        data_exhausted: "<your_own_value>"
-                        fgt_backup_mode_switch: "<your_own_value>"
-                        low_signal_strength: "<your_own_value>"
-                        mode_switch: "<your_own_value>"
-                        os_image_fallback: "<your_own_value>"
-                        session_disconnect: "<your_own_value>"
-                        system_reboot: "<your_own_value>"
-                    receiver:
-                     -
-                        alert: "system-reboot"
-                        name: "default_name_61"
-                        phone_number: "<your_own_value>"
-                        status: "disable"
-                    status: "disable"
-            enforce_bandwidth: "enable"
-            extension: "wan-extension"
-            id:  "67"
-            lan_extension:
-                backhaul:
-                 -
-                    name: "default_name_70"
-                    port: "wan"
-                    role: "primary"
-                    weight: "1"
-                backhaul_interface: "<your_own_value> (source system.interface.name)"
-                backhaul_ip: "<your_own_value>"
-                ipsec_tunnel: "<your_own_value>"
-                link_loadbalance: "activebackup"
-            login_password: "<your_own_value>"
-            login_password_change: "yes"
-            model: "FX201E"
-            name: "default_name_81"
-    
+              allowaccess: "ping"
+              bandwidth_limit: "1024"
+              cellular:
+                  controller_report:
+                      interval: "300"
+                      signal_threshold: "10"
+                      status: "disable"
+                  dataplan:
+                      -
+                          name: "default_name_11 (source extension-controller.dataplan.name)"
+                  modem1:
+                      auto_switch:
+                          dataplan: "disable"
+                          disconnect: "disable"
+                          disconnect_period: "600"
+                          disconnect_threshold: "3"
+                          signal: "disable"
+                          switch_back: "time"
+                          switch_back_time: "<your_own_value>"
+                          switch_back_timer: "86400"
+                      default_sim: "sim1"
+                      gps: "disable"
+                      preferred_carrier: "<your_own_value>"
+                      redundant_intf: "<your_own_value>"
+                      redundant_mode: "disable"
+                      sim1_pin: "disable"
+                      sim1_pin_code: "<your_own_value>"
+                      sim2_pin: "disable"
+                      sim2_pin_code: "<your_own_value>"
+                  modem2:
+                      auto_switch:
+                          dataplan: "disable"
+                          disconnect: "disable"
+                          disconnect_period: "600"
+                          disconnect_threshold: "3"
+                          signal: "disable"
+                          switch_back: "time"
+                          switch_back_time: "<your_own_value>"
+                          switch_back_timer: "86400"
+                      default_sim: "sim1"
+                      gps: "disable"
+                      preferred_carrier: "<your_own_value>"
+                      redundant_intf: "<your_own_value>"
+                      redundant_mode: "disable"
+                      sim1_pin: "disable"
+                      sim1_pin_code: "<your_own_value>"
+                      sim2_pin: "disable"
+                      sim2_pin_code: "<your_own_value>"
+                  sms_notification:
+                      alert:
+                          data_exhausted: "<your_own_value>"
+                          fgt_backup_mode_switch: "<your_own_value>"
+                          low_signal_strength: "<your_own_value>"
+                          mode_switch: "<your_own_value>"
+                          os_image_fallback: "<your_own_value>"
+                          session_disconnect: "<your_own_value>"
+                          system_reboot: "<your_own_value>"
+                      receiver:
+                          -
+                              alert: "system-reboot"
+                              name: "default_name_61"
+                              phone_number: "<your_own_value>"
+                              status: "disable"
+                      status: "disable"
+              enforce_bandwidth: "enable"
+              extension: "wan-extension"
+              id: "67"
+              lan_extension:
+                  backhaul:
+                      -
+                          name: "default_name_70"
+                          port: "wan"
+                          role: "primary"
+                          weight: "1"
+                  backhaul_interface: "<your_own_value> (source system.interface.name)"
+                  backhaul_ip: "<your_own_value>"
+                  ipsec_tunnel: "<your_own_value>"
+                  link_loadbalance: "activebackup"
+              login_password: "<your_own_value>"
+              login_password_change: "yes"
+              model: "FX201E"
+              name: "default_name_81"
 
 
 Return Values

@@ -38,20 +38,14 @@ FortiOS Version Compatibility
 .. raw:: html
 
  <br>
- <table>
+ <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>fortios_user_device</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  <p>
@@ -76,18 +70,12 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>user_device</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -99,17 +87,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>alias</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -120,17 +103,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>avatar</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -141,66 +119,40 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>category</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[amazon-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[android-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[blackberry-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[fortinet-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[ios-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[windows-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  </table>
  </div>
@@ -211,17 +163,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>comment</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -232,17 +179,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>mac</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -253,17 +195,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>master_device</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -273,18 +210,12 @@ Parameters
  <div id="label15" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>tagging</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -296,17 +227,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>category</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -317,17 +243,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -337,18 +258,12 @@ Parameters
  <div id="label21" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>tags</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -360,17 +275,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -383,164 +293,96 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>type</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  <tr>
  <td>[unknown]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[android-phone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[android-tablet]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[blackberry-phone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[blackberry-playbook]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[forticam]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[fortifone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[fortinet-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[gaming-console]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[ip-phone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[ipad]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[iphone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[linux-pc]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[mac]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[media-streaming]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[printer]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[router-nat-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[windows-pc]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[windows-phone]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[windows-tablet]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  <tr>
  <td>[other-network-device]</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>n/a</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  </table>
  </div>
@@ -551,17 +393,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td><code class="docutils literal notranslate">v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.5 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 </code></td>
- <td><code class="docutils literal notranslate">v6.2.3 </code></td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>user</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
- <td>yes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
@@ -584,38 +421,27 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - hosts: fortigates
-      collections:
-        - fortinet.fortios
-      connection: httpapi
-      vars:
-       vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
-       ansible_httpapi_port: 443
-      tasks:
-      - name: Configure devices.
-        fortios_user_device:
-          vdom:  "{{ vdom }}"
+    - name: Configure devices.
+      fortinet.fortios.fortios_user_device:
+          vdom: "{{ vdom }}"
           state: "present"
           access_token: "<your_own_value>"
           user_device:
-            alias: "<your_own_value>"
-            avatar: "<your_own_value>"
-            category: "none"
-            comment: "Comment."
-            mac: "<your_own_value>"
-            master_device: "<your_own_value> (source user.device.alias)"
-            tagging:
-             -
-                category: "<your_own_value> (source system.object-tagging.category)"
-                name: "default_name_11"
-                tags:
-                 -
-                    name: "default_name_13 (source system.object-tagging.tags.name)"
-            type: "unknown"
-            user: "<your_own_value>"
-    
+              alias: "<your_own_value>"
+              avatar: "<your_own_value>"
+              category: "none"
+              comment: "Comment."
+              mac: "<your_own_value>"
+              master_device: "<your_own_value> (source user.device.alias)"
+              tagging:
+                  -
+                      category: "<your_own_value> (source system.object-tagging.category)"
+                      name: "default_name_11"
+                      tags:
+                          -
+                              name: "default_name_13 (source system.object-tagging.tags.name)"
+              type: "unknown"
+              user: "<your_own_value>"
 
 
 Return Values

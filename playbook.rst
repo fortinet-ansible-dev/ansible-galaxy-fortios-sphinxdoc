@@ -27,7 +27,7 @@ in our case we create a file named ``hosts``:
    ansible_network_os=fortinet.fortios.fortios
 
 FortiOS supports two ways to authenticate Ansible: ``ansible_user`` and ``ansible_password`` pair based; ``fortios_access_token`` access token based.
-Access token based way is prefered as it is safer without any password explosure and access token guarantees request source location is wanted. 
+Access token based way is prefered as it is safer without any password explosure and access token guarantees request source location is wanted.
 
 
 for how to generate an API token, visit page `FortiOS API Spec`_.
@@ -37,7 +37,7 @@ Write the playbook
 ~~~~~~~~~~~~~~~~~~
 
 in the example: ``test.yml`` we are going to modify the fortigate
-device’s hostname:
+device's hostname:
 
 ::
 
@@ -47,8 +47,8 @@ device’s hostname:
      - fortinet.fortios
      vars:
       vdom: "root"
-      ansible_httpapi_use_ssl: yes
-      ansible_httpapi_validate_certs: no
+      ansible_httpapi_use_ssl: true
+      ansible_httpapi_validate_certs: false
       ansible_httpapi_port: 443
      tasks:
       - name: Configure global attributes.

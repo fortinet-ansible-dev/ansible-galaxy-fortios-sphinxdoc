@@ -16,7 +16,7 @@ fortios_json_generic -- Configure Fortinet's FortiOS and FortiGate with json gen
 
 Synopsis
 --------
-This module is able to configure a FortiGate or FortiOS (FOS) device by allowing the user to set any category supported by FortiAPI with raw json. All parameters and values included in examples need to be adjusted to datasources before usage. 
+This module is able to configure a FortiGate or FortiOS (FOS) device by allowing the user to set any category supported by FortiAPI with raw json. All parameters and values included in examples need to be adjusted to datasources before usage.
 
 
 Requirements
@@ -75,8 +75,8 @@ Examples
         - fortinet.fortios
       vars:
        vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
+       ansible_httpapi_use_ssl: true
+       ansible_httpapi_validate_certs: false
        ansible_httpapi_port: 443
 
       tasks:
@@ -98,10 +98,10 @@ Examples
               "allow-routing": "disable"
               }
         register: info
-        
+
       - name: display vars
-        debug: msg="{{info}}" 
-        
+        debug: msg="{{info}}"
+
 **sample2.yml**
 
 .. code-block:: yaml+jinja
@@ -113,8 +113,8 @@ Examples
         - fortinet.fortios
       vars:
        vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
+       ansible_httpapi_use_ssl: true
+       ansible_httpapi_validate_certs: false
        ansible_httpapi_port: 443
 
       tasks:
@@ -126,7 +126,7 @@ Examples
             path: "/api/v2/cmdb/firewall/address/111"
             specialparams: "testpara1=1&testpara2=2"
         register: info
-        
+
       - name: display vars
         debug: msg="{{info}}"
 
@@ -146,10 +146,10 @@ Examples
               associated-interface: "port1"
               allow-routing: "disable"
         register: info
-        
+
       - name: display vars
-        debug: msg="{{info}}"    
-        
+        debug: msg="{{info}}"
+
       - name: test delete
         fortios_json_generic:
           vdom:  "{{ vdom }}"
@@ -157,7 +157,7 @@ Examples
             method: "DELETE"
             path: "/api/v2/cmdb/firewall/address/111"
         register: info
-        
+
       - name: display vars
         debug: msg="{{info}}"
 
@@ -179,10 +179,10 @@ Examples
               "allow-routing": "disable"
               }
         register: info
-        
+
       - name: display vars
-        debug: msg="{{info}}" 
-        
+        debug: msg="{{info}}"
+
 
 **sample3.yml**
 
@@ -195,8 +195,8 @@ Examples
       connection: httpapi
       vars:
        vdom: "root"
-       ansible_httpapi_use_ssl: yes
-       ansible_httpapi_validate_certs: no
+       ansible_httpapi_use_ssl: true
+       ansible_httpapi_validate_certs: false
        ansible_httpapi_port: 443
 
       tasks:
@@ -208,10 +208,10 @@ Examples
     		path: "/api/v2/cmdb/firewall/policy/1"
     		specialparams: "action=move&after=2"
     	register: info
-    	
+
       - name: display vars
     	debug: msg="{{info}}"
-    
+
 
 
 

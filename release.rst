@@ -4,6 +4,28 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.5
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.5 is based on 2.3.4
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Github issue #278.
+- Github issue #236.
+- Github issue #270.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Update the document of log_fact.
+- Update all the boolean values to true/false in the documents and examples.
+- Update the supported version ranges instead of concrete version numbers to reduce the collection size.
+- Update the mismatched version message with version ranges.
+- Update the required ansible version to 2.14.
+
 Release Galaxy 2.3.4
 --------------------
 

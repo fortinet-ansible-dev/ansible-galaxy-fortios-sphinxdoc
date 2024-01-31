@@ -19,7 +19,7 @@ Install Ansible Core
 -  Follow instructions in
    https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
    to install Ansible
--  The Ansible core version requirement: >= 2.9.0
+-  The Ansible core version requirement: >= 2.14.0
 
 Install FortiOS Galaxy Collection
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

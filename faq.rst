@@ -166,10 +166,9 @@ Then run the following playbook to upload licence for the first time:
       - fortinet.fortios
      vars:
       vdom: "root"
-      ansible_httpapi_use_ssl: no
-      ansible_httpapi_validate_certs: no
-      ansible_httpapi_port: 80
-      ansible_command_timeout: 5
+      ansible_httpapi_use_ssl: true
+      ansible_httpapi_validate_certs: false
+      ansible_httpapi_port: 443
      tasks:
 
       - name: Upload the license to the newly installed FGT device
@@ -191,7 +190,7 @@ Renew a license for a licence-ready FOS instance.
 ......................................................
 
 To renew the license for a running FOS instance, we don't have to use http service (by default, after license is activated, http service is redirected to https service, which causes problems for Ansible).
-by setting ``ansible_httpapi_use_ssl`` to ``True`` and ``ansible_httpapi_port`` to ``443``, the task can normally upload the license.
+by setting ``ansible_httpapi_use_ssl`` to ``true`` and ``ansible_httpapi_port`` to ``443``, the task can normally upload the license.
 
 
 **Renewing a license can use access token based authentication as long as associated API user has admin privilege to upload license.**
@@ -262,8 +261,8 @@ then in subsequent tasks, we read the token directly from saved file:
 
    vars:
     vdom: "root"
-    ansible_httpapi_use_ssl: yes
-    ansible_httpapi_validate_certs: no
+    ansible_httpapi_use_ssl: true
+    ansible_httpapi_validate_certs: false
     ansible_httpapi_port: 443
     saved_access_token: "{{ lookup( 'file', './access_token.save') | string }}"
 
@@ -384,8 +383,8 @@ The following example will show you how set_fact module can be used in a task to
       - fortinet.fortios
     vars:
       vdom: 'root'
-      ansible_httpapi_use_ssl: yes
-      ansible_httpapi_validate_certs: no
+      ansible_httpapi_use_ssl: true
+      ansible_httpapi_validate_certs: false
       ansible_httpapi_port: 443
       demo_input: 'login.microsoftonline.com, login.microsoft.com, login.windows.net'
       demo_members: []
@@ -428,8 +427,8 @@ Member operation is used to add an element to an existing object. The example be
     collections:
       - fortinet.fortios
     vars:
-      ansible_httpapi_use_ssl: yes
-      ansible_httpapi_validate_certs: no
+      ansible_httpapi_use_ssl: true
+      ansible_httpapi_validate_certs: false
       ansible_httpapi_port: 443
     tasks:
     - name: Add an dns entry in the existing obj.

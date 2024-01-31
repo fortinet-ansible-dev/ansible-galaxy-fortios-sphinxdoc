@@ -2462,14 +2462,14 @@ Examples
 
 .. code-block:: yaml+jinja
 
- - hosts: fortigate03
+ - hosts: fortigates
    connection: httpapi
    collections:
    - fortinet.fortios
    vars:
     vdom: "root"
-    ansible_httpapi_use_ssl: yes
-    ansible_httpapi_validate_certs: no
+    ansible_httpapi_use_ssl: true
+    ansible_httpapi_validate_certs: false
     ansible_httpapi_port: 443
    tasks:
 
