@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_vne_tunnel</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.4.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_vne_tunnel</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,13 +74,15 @@ Parameters
  </tr>
  <tr>
  <td>auto_asic_offload</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">bmr_hostname</span> - BMR hostname. <span class="li-normal">type: str</span>
@@ -107,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>bmr_hostname</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -122,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>br</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -137,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>http_password</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -152,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>http_username</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -167,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -182,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>ipv4_address</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -197,15 +185,17 @@ Parameters
  </tr>
  <tr>
  <td>mode</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[map-e]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fixed-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ds-lite]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
  </tr>
  </table>
  </div>
@@ -220,7 +210,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -235,13 +225,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">update_url</span> - URL of provisioning server. <span class="li-normal">type: str</span>
@@ -254,7 +246,7 @@ Parameters
  </tr>
  <tr>
  <td>update_url</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_extender_controller_extender</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.2.0 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> v7.2.0
 
 
 
@@ -126,11 +112,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[discovered]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">allowaccess</span> - Control management access to the managed extender. Separate entries with a space. <span class="li-normal">type: list</span> <span class="li-normal">choices: ping, telnet, http, https, ssh, snmp</span>
@@ -147,17 +136,23 @@ Parameters
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[telnet]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[snmp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">at_dial_script</span> - Initialization AT commands specific to the MODEM. <span class="li-normal">type: str</span>
@@ -191,9 +186,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">bandwidth_limit</span> - FortiExtender LAN extension bandwidth limit (Mbps). <span class="li-normal">type: int</span>
@@ -354,9 +351,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -405,9 +404,11 @@ Parameters
  </tr>
  <tr>
  <td>[dial-on-demand]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[always-connect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">dial_status</span> - Dial status. <span class="li-normal">type: int</span>
@@ -440,9 +441,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ext_name</span> - FortiExtender name. <span class="li-normal">type: str</span>
@@ -474,9 +477,11 @@ Parameters
  </tr>
  <tr>
  <td>[wan-extension]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[lan-extension]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ha_shared_secret</span> - HA shared secret. <span class="li-normal">type: str</span>
@@ -541,9 +546,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">login_password</span> - Set the managed extender"s administrator password. <span class="li-normal">type: str</span>
@@ -576,11 +583,14 @@ Parameters
  </tr>
  <tr>
  <td>[yes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[no]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">mode</span> - FortiExtender mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: standalone, redundant</span>
@@ -598,9 +608,11 @@ Parameters
  </tr>
  <tr>
  <td>[standalone]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[redundant]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">modem_passwd</span> - MODEM password. <span class="li-normal">type: str</span>
@@ -634,11 +646,14 @@ Parameters
  </tr>
  <tr>
  <td>[cdma]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[gsm/lte]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[wimax]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">modem1</span> - Configuration options for modem 1. <span class="li-normal">type: dict</span>
@@ -688,9 +703,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">disconnect</span> - Auto switch by disconnect. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -708,9 +725,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">disconnect_period</span> - Automatically switch based on disconnect period. <span class="li-normal">type: int</span>
@@ -760,9 +779,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
@@ -780,9 +801,11 @@ Parameters
  </tr>
  <tr>
  <td>[time]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[timer]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">switch_back_time</span> - Automatically switch over to preferred SIM/carrier at a specified time in UTC (HH:MM). <span class="li-normal">type: str</span>
@@ -849,13 +872,17 @@ Parameters
  </tr>
  <tr>
  <td>[sim1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[sim2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[carrier]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[cost]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">gps</span> - FortiExtender GPS enable/disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -873,9 +900,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ifname</span> - FortiExtender interface name. Source system.interface.name. <span class="li-normal">type: str</span>
@@ -941,9 +970,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim1_pin</span> - SIM <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -961,9 +992,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim1_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -997,9 +1030,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim2_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -1066,9 +1101,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">disconnect</span> - Auto switch by disconnect. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1086,9 +1123,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">disconnect_period</span> - Automatically switch based on disconnect period. <span class="li-normal">type: int</span>
@@ -1138,9 +1177,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">switch_back</span> - Auto switch with switch back multi-options. <span class="li-normal">type: list</span> <span class="li-normal">choices: time, timer</span>
@@ -1158,9 +1199,11 @@ Parameters
  </tr>
  <tr>
  <td>[time]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[timer]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">switch_back_time</span> - Automatically switch over to preferred SIM/carrier at a specified time in UTC (HH:MM). <span class="li-normal">type: str</span>
@@ -1227,13 +1270,17 @@ Parameters
  </tr>
  <tr>
  <td>[sim1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[sim2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[carrier]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[cost]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">gps</span> - FortiExtender GPS enable/disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1251,9 +1298,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ifname</span> - FortiExtender interface name. Source system.interface.name. <span class="li-normal">type: str</span>
@@ -1319,9 +1368,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim1_pin</span> - SIM <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1339,9 +1390,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim1_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -1375,9 +1428,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sim2_pin_code</span> - SIM <span class="li-normal">type: str</span>
@@ -1412,15 +1467,20 @@ Parameters
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[auto-3g]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[force-lte]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[force-3g]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[force-2g]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - FortiExtender entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -1453,9 +1513,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">override_enforce_bandwidth</span> - Enable to override the extender profile enforce-bandwidth setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1472,9 +1534,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">override_login_password_change</span> - Enable to override the extender profile login-password (administrator password) setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1491,9 +1555,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ppp_auth_protocol</span> - PPP authentication protocol (PAP,CHAP or auto). <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, pap, chap</span>
@@ -1511,11 +1577,14 @@ Parameters
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[pap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[chap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ppp_echo_request</span> - Enable/disable PPP echo request. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1533,9 +1602,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ppp_password</span> - PPP password. <span class="li-normal">type: str</span>
@@ -1632,27 +1703,38 @@ Parameters
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[7]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[8]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[9]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[10]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">redundant_intf</span> - Redundant interface. <span class="li-normal">type: str</span>
@@ -1686,9 +1768,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">role</span> - FortiExtender work role(Primary, Secondary, None). <span class="li-normal">type: str</span> <span class="li-normal">choices: none, primary, secondary</span>
@@ -1706,11 +1790,14 @@ Parameters
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[primary]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[secondary]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">secondary_ha</span> - Secondary HA. <span class="li-normal">type: str</span>
@@ -1822,9 +1909,11 @@ Parameters
  </tr>
  <tr>
  <td>[tls]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[ttls]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">wimax_carrier</span> - WiMax carrier. <span class="li-normal">type: str</span>

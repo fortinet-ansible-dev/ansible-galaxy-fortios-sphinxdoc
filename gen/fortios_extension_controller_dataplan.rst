@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_extension_controller_dataplan</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.2.1 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>extension_controller_dataplan</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>apn</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,15 +90,18 @@ Parameters
  </tr>
  <tr>
  <td>auth_type</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[pap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[chap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">billing_date</span> - Billing day of the month (1 - 31). <span class="li-normal">type: int</span>
@@ -125,7 +114,7 @@ Parameters
  </tr>
  <tr>
  <td>billing_date</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +129,7 @@ Parameters
  </tr>
  <tr>
  <td>capacity</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +144,7 @@ Parameters
  </tr>
  <tr>
  <td>carrier</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +159,7 @@ Parameters
  </tr>
  <tr>
  <td>iccid</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -185,15 +174,18 @@ Parameters
  </tr>
  <tr>
  <td>modem_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[modem1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[modem2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">monthly_fee</span> - Monthly fee of dataplan (0 - 100000, in local currency). <span class="li-normal">type: int</span>
@@ -206,7 +198,7 @@ Parameters
  </tr>
  <tr>
  <td>monthly_fee</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -221,7 +213,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -236,13 +228,15 @@ Parameters
  </tr>
  <tr>
  <td>overage</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">password</span> - Password. <span class="li-normal">type: str</span>
@@ -255,7 +249,7 @@ Parameters
  </tr>
  <tr>
  <td>password</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -270,15 +264,18 @@ Parameters
  </tr>
  <tr>
  <td>pdn</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ipv4-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[ipv6-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[ipv4-ipv6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">preferred_subnet</span> - Preferred subnet mask (0 - 32). <span class="li-normal">type: int</span>
@@ -291,7 +288,7 @@ Parameters
  </tr>
  <tr>
  <td>preferred_subnet</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -306,13 +303,15 @@ Parameters
  </tr>
  <tr>
  <td>private_network</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">signal_period</span> - Signal period (600 to 18000 seconds). <span class="li-normal">type: int</span>
@@ -325,7 +324,7 @@ Parameters
  </tr>
  <tr>
  <td>signal_period</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -340,7 +339,7 @@ Parameters
  </tr>
  <tr>
  <td>signal_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -355,13 +354,15 @@ Parameters
  </tr>
  <tr>
  <td>slot</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[sim1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[sim2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">type</span> - Type preferences configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: carrier, slot, iccid, generic</span>
@@ -374,17 +375,21 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[carrier]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[slot]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[iccid]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[generic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">username</span> - Username. <span class="li-normal">type: str</span>
@@ -397,7 +402,7 @@ Parameters
  </tr>
  <tr>
  <td>username</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

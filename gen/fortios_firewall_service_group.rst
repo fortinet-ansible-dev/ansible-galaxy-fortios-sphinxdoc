@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_firewall_service_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_service_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +90,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -119,13 +105,15 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">member</span> - Service objects contained within the group. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: member:name</span>
@@ -137,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>member</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +141,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -169,7 +157,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -184,13 +172,30 @@ Parameters
  </tr>
  <tr>
  <td>proxy</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
  </div>
  </li>
         </ul>
@@ -225,6 +230,7 @@ Examples
                       name: "default_name_7 (source firewall.service.custom.name firewall.service.group.name)"
               name: "default_name_8"
               proxy: "enable"
+              uuid: "<your_own_value>"
 
 
 Return Values

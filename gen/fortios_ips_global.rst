@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_ips_global</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>ips_global</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,16 +74,18 @@ Parameters
  </tr>
  <tr>
  <td>anomaly_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[periodical]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[continuous]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">cp_accel_mode</span> - IPS Pattern matching acceleration/offloading to CPx processors. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, basic, advanced</span>
+        <li> <span class="li-head">av_mem_limit</span> - Maximum percentage of system memory allowed for use on AV scanning (10 - 50). To disable set to zero. When disabled, there is no limit on the AV memory usage. <span class="li-normal">type: int</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -106,19 +94,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cp_accel_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>av_mem_limit</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[basic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[advanced]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">database</span> - Regular or extended IPS database. Regular protects against the latest common and in-the-wild attacks. Extended includes protection from legacy attacks. <span class="li-normal">type: str</span> <span class="li-normal">choices: regular, extended</span>
+        <li> <span class="li-head">cp_accel_mode</span> - IPS Pattern matching acceleration/offloading to CPx processors. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, basic, advanced</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -127,17 +109,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>database</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>cp_accel_mode</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[regular]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[basic]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[advanced]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">deep_app_insp_db_limit</span> - Limit on number of entries in deep application inspection database (1 - 2147483647, use recommended setting = 0). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">database</span> - Regular or extended IPS database. Regular protects against the latest common and in-the-wild attacks. Extended includes protection from legacy attacks. <span class="li-normal">type: str</span> <span class="li-normal">choices: regular, extended</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -146,13 +133,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>deep_app_insp_db_limit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>database</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[regular]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">deep_app_insp_timeout</span> - Timeout for Deep application inspection (1 - 2147483647 sec., 0 = use recommended setting). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">deep_app_insp_db_limit</span> - Limit on number of entries in deep application inspection database (1 - 2147483647, use recommended setting = 0). <span class="li-normal">type: int</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -161,13 +154,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>deep_app_insp_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>deep_app_insp_db_limit</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">engine_count</span> - Number of IPS engines running. If set to the default value of 0, FortiOS sets the number to optimize performance depending on the number of CPU cores. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">deep_app_insp_timeout</span> - Timeout for Deep application inspection (1 - 2147483647 sec., 0 = use recommended setting). <span class="li-normal">type: int</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -176,13 +169,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>engine_count</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>deep_app_insp_timeout</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">exclude_signatures</span> - Excluded signatures. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, ot, industrial</span>
+        <li> <span class="li-head">engine_count</span> - Number of IPS engines running. If set to the default value of 0, FortiOS sets the number to optimize performance depending on the number of CPU cores. <span class="li-normal">type: int</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -191,14 +184,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>engine_count</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">exclude_signatures</span> - Excluded signatures. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, ot, industrial</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>exclude_signatures</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ot]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[industrial]</td>
@@ -208,8 +217,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">fail_open</span> - Enable to allow traffic if the IPS buffer is full. Default is disable and IPS traffic is blocked when the IPS buffer is full. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
- <div id="label17" style="display:none">
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -217,18 +226,20 @@ Parameters
  </tr>
  <tr>
  <td>fail_open</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">intelligent_mode</span> - Enable/disable IPS adaptive scanning (intelligent mode). Intelligent mode optimizes the scanning method for the type of traffic. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -240,46 +251,36 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ips_reserve_cpu</span> - Enable/disable IPS daemon"s use of CPUs other than CPU 0. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>ips_reserve_cpu</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
- </div>
- </li>
-        <li> <span class="li-head">ngfw_max_scan_range</span> - NGFW policy-mode app detection threshold. <span class="li-normal">type: int</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ngfw_max_scan_range</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td>ips_reserve_cpu</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">np_accel_mode</span> - Acceleration mode for IPS processing by NPx processors. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, basic</span>
+        <li> <span class="li-head">ngfw_max_scan_range</span> - NGFW policy-mode app detection threshold. <span class="li-normal">type: int</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -288,17 +289,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>np_accel_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>ngfw_max_scan_range</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[basic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">packet_log_queue_depth</span> - Packet/pcap log queue depth per IPS engine. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">np_accel_mode</span> - Acceleration mode for IPS processing by NPx processors. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, basic</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -307,13 +304,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>packet_log_queue_depth</td>
- <td><code class="docutils literal notranslate">v6.2.7 -> latest </code></td>
+ <td>np_accel_mode</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[basic]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">session_limit_mode</span> - Method of counting concurrent sessions used by session limit anomalies. Choose between greater accuracy (accurate) or improved performance (heuristics). <span class="li-normal">type: str</span> <span class="li-normal">choices: accurate, heuristic</span>
+        <li> <span class="li-head">packet_log_queue_depth</span> - Packet/pcap log queue depth per IPS engine. <span class="li-normal">type: int</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -322,19 +325,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>packet_log_queue_depth</td>
+ <td><code class="docutils literal notranslate">v6.2.7 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">session_limit_mode</span> - Method of counting concurrent sessions used by session limit anomalies. Choose between greater accuracy (accurate) or improved performance (heuristics). <span class="li-normal">type: str</span> <span class="li-normal">choices: accurate, heuristic</span>
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>session_limit_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[accurate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[heuristic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">skype_client_public_ipaddr</span> - Public IP addresses of your network that receive Skype sessions. Helps identify Skype sessions. Separate IP addresses with commas. <span class="li-normal">type: str</span>
- <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
- <div id="label31" style="display:none">
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -348,21 +368,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">socket_size</span> - IPS socket buffer size. Max and default value depend on available memory. Can be changed to tune performance. <span class="li-normal">type: int</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>socket_size</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">sync_session_ttl</span> - Enable/disable use of kernel session TTL for IPS sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -371,19 +376,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>socket_size</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">sync_session_ttl</span> - Enable/disable use of kernel session TTL for IPS sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>sync_session_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">tls_active_probe</span> - TLS active probe configuration. <span class="li-normal">type: dict</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="2">Supported Version Ranges</td>
@@ -391,29 +413,13 @@ Parameters
  <tr>
  <td>tls_active_probe</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
- <div id="label39" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -422,20 +428,14 @@ Parameters
  <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface_select_method</td>
+ <td>interface</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-            <li> <span class="li-head">source_ip</span> - Source IP address used for TLS active probe. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -444,14 +444,23 @@ Parameters
  <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
+ <td>interface_select_method</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7</code></td>
+ <tr>
+ <td>[sdwan]</td>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7</code></td>
+ <tr>
+ <td>[specify]</td>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">source_ip6</span> - Source IPv6 address used for TLS active probe. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">source_ip</span> - Source IP address used for TLS active probe. <span class="li-normal">type: str</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -460,14 +469,14 @@ Parameters
  <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip6</td>
+ <td>source_ip</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">vdom</span> - Virtual domain name for TLS active probe. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">source_ip6</span> - Source IPv6 address used for TLS active probe. <span class="li-normal">type: str</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -476,17 +485,33 @@ Parameters
  <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>source_ip6</td>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">vdom</span> - Virtual domain name for TLS active probe. Source system.vdom.name. <span class="li-normal">type: str</span>
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="2">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vdom</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">traffic_submit</span> - Enable/disable submitting attack data found by this FortiGate to FortiGuard. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
- <div id="label49" style="display:none">
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -494,13 +519,15 @@ Parameters
  </tr>
  <tr>
  <td>traffic_submit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -526,6 +553,7 @@ Examples
           vdom: "{{ vdom }}"
           ips_global:
               anomaly_mode: "periodical"
+              av_mem_limit: "0"
               cp_accel_mode: "none"
               database: "regular"
               deep_app_insp_db_limit: "0"

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_report_style</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> v6.4.4
 
 
 
@@ -93,13 +79,17 @@ Parameters
  </tr>
  <tr>
  <td>[left]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[center]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[right]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[justify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">bg_color</span> - Background color. <span class="li-normal">type: str</span>
@@ -206,9 +196,11 @@ Parameters
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fg_color</span> - Foreground color. <span class="li-normal">type: str</span>
@@ -240,15 +232,20 @@ Parameters
  </tr>
  <tr>
  <td>[Verdana]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[Arial]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[Helvetica]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[Courier]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[Times]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">font_size</span> - Font size. <span class="li-normal">type: str</span>
@@ -280,9 +277,11 @@ Parameters
  </tr>
  <tr>
  <td>[normal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[italic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">font_weight</span> - Font weight. <span class="li-normal">type: str</span> <span class="li-normal">choices: normal, bold</span>
@@ -299,9 +298,11 @@ Parameters
  </tr>
  <tr>
  <td>[normal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[bold]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">height</span> - Height. <span class="li-normal">type: str</span>
@@ -423,23 +424,32 @@ Parameters
  </tr>
  <tr>
  <td>[font]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[text]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[color]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[align]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[size]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[margin]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[border]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[padding]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[column]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">padding_bottom</span> - Padding bottom. <span class="li-normal">type: str</span>

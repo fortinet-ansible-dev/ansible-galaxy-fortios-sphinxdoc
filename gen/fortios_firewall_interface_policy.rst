@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_firewall_interface_policy</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_interface_policy</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -94,9 +80,11 @@ Parameters
  </tr>
  <tr>
  <td>[ipv4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ipv6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">application_list</span> - Application list name. Source application.list.name. <span class="li-normal">type: str</span>
@@ -109,7 +97,7 @@ Parameters
  </tr>
  <tr>
  <td>application_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -124,13 +112,15 @@ Parameters
  </tr>
  <tr>
  <td>application_list_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">av_profile</span> - Antivirus profile. Source antivirus.profile.name. <span class="li-normal">type: str</span>
@@ -143,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>av_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -158,13 +148,15 @@ Parameters
  </tr>
  <tr>
  <td>av_profile_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">casb_profile</span> - CASB profile. Source casb.profile.name. <span class="li-normal">type: str</span>
@@ -177,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>casb_profile</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -192,13 +184,15 @@ Parameters
  </tr>
  <tr>
  <td>casb_profile_status</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">comments</span> - Comments. <span class="li-normal">type: str</span>
@@ -211,7 +205,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -226,7 +220,7 @@ Parameters
  </tr>
  <tr>
  <td>dlp_profile</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -241,13 +235,15 @@ Parameters
  </tr>
  <tr>
  <td>dlp_profile_status</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">dlp_sensor</span> - DLP sensor name. Source dlp.sensor.name. <span class="li-normal">type: str</span>
@@ -279,9 +275,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">dsri</span> - Enable/disable DSRI. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -294,13 +292,15 @@ Parameters
  </tr>
  <tr>
  <td>dsri</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">dstaddr</span> - Address object to limit traffic monitoring to network traffic sent to the specified address or range. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: dstaddr:name</span>
@@ -312,7 +312,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -328,7 +328,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -344,7 +344,7 @@ Parameters
  </tr>
  <tr>
  <td>emailfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -359,13 +359,15 @@ Parameters
  </tr>
  <tr>
  <td>emailfilter_profile_status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">interface</span> - Monitored interface name from available interfaces. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span>
@@ -378,7 +380,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -393,7 +395,7 @@ Parameters
  </tr>
  <tr>
  <td>ips_sensor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -408,13 +410,15 @@ Parameters
  </tr>
  <tr>
  <td>ips_sensor_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">label</span> - Label. <span class="li-normal">type: str</span>
@@ -443,15 +447,18 @@ Parameters
  </tr>
  <tr>
  <td>logtraffic</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[utm]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">policyid</span> - Policy ID (0 - 4294967295). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
@@ -464,7 +471,7 @@ Parameters
  </tr>
  <tr>
  <td>policyid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -483,11 +490,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">service</span> - Service object from available options. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service:name</span>
@@ -499,7 +509,7 @@ Parameters
  </tr>
  <tr>
  <td>service</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -515,7 +525,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -550,9 +560,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">srcaddr</span> - Address object to limit traffic monitoring to network traffic sent from the specified address or range. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcaddr:name</span>
@@ -564,7 +576,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -580,7 +592,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -596,16 +608,18 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">webfilter_profile</span> - Web filter profile. Source webfilter.profile.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -614,13 +628,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>webfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">webfilter_profile_status</span> - Enable/disable web filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">webfilter_profile</span> - Web filter profile. Source webfilter.profile.name. <span class="li-normal">type: str</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -629,14 +643,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>webfilter_profile</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">webfilter_profile_status</span> - Enable/disable web filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>webfilter_profile_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -699,6 +730,7 @@ Examples
                   -
                       name: "default_name_32 (source firewall.address.name firewall.addrgrp.name)"
               status: "enable"
+              uuid: "<your_own_value>"
               webfilter_profile: "<your_own_value> (source webfilter.profile.name)"
               webfilter_profile_status: "enable"
 

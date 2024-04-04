@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,23 +33,8 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_ips_rule</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- </tr>
- </table>
- <p>
-
+Supported Version Ranges: v6.0.0 -> v7.0.5
+, v7.2.0
 
 
 Parameters
@@ -96,9 +81,11 @@ Parameters
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">application</span> - Vulnerable applications. <span class="li-normal">type: str</span>
@@ -165,9 +152,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">log_packet</span> - Enable/disable packet logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -185,9 +174,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">metadata</span> - Meta data. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: metadata:id</span>
@@ -366,9 +357,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.5</code></td>
+ </table>
  </div>
  </li>
         </ul>

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_dlp_dictionary</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.2.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>dlp_dictionary</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>entries</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +105,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +120,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -149,13 +135,15 @@ Parameters
  </tr>
  <tr>
  <td>ignore_case</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pattern</span> - Pattern to match. <span class="li-normal">type: str</span>
@@ -168,7 +156,7 @@ Parameters
  </tr>
  <tr>
  <td>pattern</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -183,13 +171,15 @@ Parameters
  </tr>
  <tr>
  <td>repeat</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Enable/disable this pattern. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -202,13 +192,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">type</span> - Pattern type to match. Source dlp.data-type.name. <span class="li-normal">type: str</span>
@@ -221,7 +213,7 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -237,13 +229,15 @@ Parameters
  </tr>
  <tr>
  <td>match_around</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">match_type</span> - Logical relation between entries . <span class="li-normal">type: str</span> <span class="li-normal">choices: match-all, match-any</span>
@@ -256,13 +250,15 @@ Parameters
  </tr>
  <tr>
  <td>match_type</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[match-all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[match-any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - Name of table containing the dictionary. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -275,7 +271,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -290,7 +286,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

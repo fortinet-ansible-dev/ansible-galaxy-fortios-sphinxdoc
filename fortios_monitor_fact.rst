@@ -216,6 +216,14 @@ Parameters
             </ul>
         
         </li>
+        extender-controller_extender_modem-firmware
+        <li><span class="li-head">extender-controller_extender_modem-firmware</span> - List all available FortiExtender modem firmware images on FortiCloud. 
+        <ul class="ul-self">
+                <li><span class="li-required">serial</span> - FortiExtender serial number. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
         extension-controller_fortigate
         <li><span class="li-head">extension-controller_fortigate</span> 
         
@@ -269,6 +277,15 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">policyid</span> - Filter: Policy ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - Filter: Traffic IP Version. [ ipv4 | ipv6 ], if left empty, will retrieve data for both IPv4 and IPv6. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        firewall_check-addrgrp-exclude-mac-member
+        <li><span class="li-head">firewall_check-addrgrp-exclude-mac-member</span> - Check if the IPv4 or IPv6 address group should exclude mac address type member. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - The address group name to be checked. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">ip_version</span> - IP version [ipv4 | ipv6]. Specify the IP version of the address / address group. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -470,6 +487,10 @@ Parameters
                 <li><span class="li-required">dst_uuid</span> - UUID of destination. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        firewall_saas-application
+        <li><span class="li-head">firewall_saas-application</span> 
         
         </li>
         firewall_sdn-connector-filters
@@ -1173,6 +1194,22 @@ Parameters
             </ul>
         
         </li>
+        router_sdwan_routes
+        <li><span class="li-head">router_sdwan_routes</span> 
+        
+        </li>
+        router_sdwan_routes-statistics
+        <li><span class="li-head">router_sdwan_routes-statistics</span> - Retrieve SD-WAN routes statistics, including number of IPv4 or IPv6 SD-WAN routes. 
+        <ul class="ul-self">
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        router_sdwan_routes6
+        <li><span class="li-head">router_sdwan_routes6</span> 
+        
+        </li>
         router_statistics
         <li><span class="li-head">router_statistics</span> - Retrieve routing table statistics, including number of matched routes. 
         <ul class="ul-self">
@@ -1613,6 +1650,7 @@ Parameters
                 <li><span class="li-required">scope</span> - Search scope [vdom|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">search_tables</span> - Array of CMDB tables to search on. If not defined, global search function will do a search on all tables that the current user has read permission on. E.g ['firewall.address', 'firewall.address6']. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">skip_tables</span> - Array of CMDB tables to be skipped when doing global search. E.g. ['firewall.address', 'firewall.address6']. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">exact</span> - If true, only entries with exact match will be returned. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2019,7 +2057,8 @@ Parameters
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history|iot_vuln_info]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">view_type</span> - View type [device|fortiswitch_client|forticlient|iot_vuln_info]. Default is device. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_id</span> - Provide a query ID to continue getting data for that unified request. Only available for unified query types. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">cache_query</span> - Cache query result for 5 mins and return query ID. Only available for unified query types. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">key_only</span> - Return primary key fields only. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
@@ -2117,6 +2156,20 @@ Parameters
         </li>
         user_proxy_count
         <li><span class="li-head">user_proxy_count</span> 
+        
+        </li>
+        user_radius_get-test-connect
+        <li><span class="li-head">user_radius_get-test-connect</span> - Test the connectivity of the given RADIUS server and, optionally, the validity of a username & password. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of FortiGate's RADIUS object whose settings to test. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ordinal</span> - If 'mkey' is provided, the server-secret pair to use from the object: 'primary', 'secondary' or 'tertiary'. Defaults to 'primary'. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">server</span> - Host name or IP of a RADIUS server. If 'mkey' is provided, this overrides the 'server' value in the object. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">secret</span> - Secret password for the RADIUS server. If 'mkey' is provided, this overrides the 'secret' value in the object. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">auth_type</span> - Authentication protocol to use [auto|ms_chap_v2|ms_chap|chap|pap]. If 'mkey' is provided, this overrides the 'auth-type' value in the object. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">user</span> - User name whose access to check. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">password</span> - User's password. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         utm_antivirus_stats
@@ -2445,7 +2498,9 @@ Notes
 
 .. note::
 
-   - Different ``selector`` may have different parameters, users are expected to look up them for a specific selector.
+   - Backup API varies across versions. For FOS 7.0.1 and earlier, utilize system_config_backup in fortios_monitor_fact. For FOS 7.0.2 and later, utilize backup.system.config in fortios_monitor.
+
+   - Different ``selector`` may have different parameters, users are expected to look them up for a specific selector.
 
    - For some selectors, the objects are global, no ``params`` are allowed to appear.
 

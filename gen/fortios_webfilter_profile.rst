@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_webfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>webfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>antiphish</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,13 +90,15 @@ Parameters
  </tr>
  <tr>
  <td>authentication</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[domain-controller]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ldap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">check_basic_auth</span> - Enable/disable checking of HTTP Basic Auth field for known credentials. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -123,13 +111,15 @@ Parameters
  </tr>
  <tr>
  <td>check_basic_auth</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">check_uri</span> - Enable/disable checking of GET URI parameters for known credentials. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -142,13 +132,15 @@ Parameters
  </tr>
  <tr>
  <td>check_uri</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">check_username_only</span> - Enable/disable username only matching of credentials. Action will be taken for valid usernames regardless of password validity. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -161,13 +153,15 @@ Parameters
  </tr>
  <tr>
  <td>check_username_only</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">custom_patterns</span> - Custom username and password regex patterns. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: antiphish/custom_patterns:pattern</span>
@@ -179,7 +173,7 @@ Parameters
  </tr>
  <tr>
  <td>custom_patterns</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -195,13 +189,15 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[username]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[password]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">pattern</span> - Target pattern. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -214,7 +210,7 @@ Parameters
  </tr>
  <tr>
  <td>pattern</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -229,13 +225,15 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[regex]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[literal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 </ul>
@@ -249,15 +247,18 @@ Parameters
  </tr>
  <tr>
  <td>default_action</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[exempt]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[log]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">domain_controller</span> - Domain for which to verify received credentials against. Source user.domain-controller.name credential-store.domain-controller .server-name. <span class="li-normal">type: str</span>
@@ -270,7 +271,7 @@ Parameters
  </tr>
  <tr>
  <td>domain_controller</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -284,7 +285,7 @@ Parameters
  </tr>
  <tr>
  <td>inspection_entries</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -300,15 +301,18 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[exempt]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[log]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">fortiguard_category</span> - FortiGuard category to match. <span class="li-normal">type: list</span> </li>
@@ -322,7 +326,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -338,7 +342,7 @@ Parameters
  </tr>
  <tr>
  <td>ldap</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -353,7 +357,7 @@ Parameters
  </tr>
  <tr>
  <td>max_body_len</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -368,13 +372,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -388,7 +394,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -403,13 +409,15 @@ Parameters
  </tr>
  <tr>
  <td>extended_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">feature_set</span> - Flow/proxy feature set. <span class="li-normal">type: str</span> <span class="li-normal">choices: flow, proxy</span>
@@ -422,13 +430,15 @@ Parameters
  </tr>
  <tr>
  <td>feature_set</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[flow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">file_filter</span> - File filter. <span class="li-normal">type: dict</span>
@@ -475,9 +485,11 @@ Parameters
  </tr>
  <tr>
  <td>[log]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
@@ -509,11 +521,14 @@ Parameters
  </tr>
  <tr>
  <td>[incoming]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[outgoing]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">file_type</span> - Select file type. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: file_filter/entries:filter/file_type:name</span>
@@ -576,9 +591,11 @@ Parameters
  </tr>
  <tr>
  <td>[yes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">protocol</span> - Protocols to apply with. <span class="li-normal">type: list</span> <span class="li-normal">choices: http, ftp</span>
@@ -595,9 +612,11 @@ Parameters
  </tr>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[ftp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
                 </ul>
@@ -615,9 +634,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">scan_archive_contents</span> - Enable/disable file filter archive contents scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -634,9 +655,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Enable/disable file filter. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -653,9 +676,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -668,7 +693,7 @@ Parameters
  </tr>
  <tr>
  <td>ftgd_wf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -684,7 +709,7 @@ Parameters
  </tr>
  <tr>
  <td>filters</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -700,17 +725,21 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[authenticate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[warning]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">auth_usr_grp</span> - Groups with permission to authenticate. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ftgd_wf/filters:id/auth_usr_grp:name</span>
@@ -722,7 +751,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_usr_grp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -738,7 +767,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -754,7 +783,7 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -769,7 +798,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -784,13 +813,15 @@ Parameters
  </tr>
  <tr>
  <td>log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">override_replacemsg</span> - Override replacement message. <span class="li-normal">type: str</span>
@@ -803,7 +834,7 @@ Parameters
  </tr>
  <tr>
  <td>override_replacemsg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -818,7 +849,7 @@ Parameters
  </tr>
  <tr>
  <td>warn_duration</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -833,13 +864,15 @@ Parameters
  </tr>
  <tr>
  <td>warning_duration_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[session]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">warning_prompt</span> - Warning prompts in each category or each domain. <span class="li-normal">type: str</span> <span class="li-normal">choices: per-domain, per-category</span>
@@ -852,13 +885,15 @@ Parameters
  </tr>
  <tr>
  <td>warning_prompt</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[per-domain]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[per-category]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 </ul>
@@ -872,7 +907,7 @@ Parameters
  </tr>
  <tr>
  <td>max_quota_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -887,17 +922,21 @@ Parameters
  </tr>
  <tr>
  <td>options</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[error-allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[rate-server-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[connect-request-bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ftgd-disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ovrd</span> - Allow web filter profile overrides. <span class="li-normal">type: list</span> </li>
@@ -910,7 +949,7 @@ Parameters
  </tr>
  <tr>
  <td>quota</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -927,7 +966,7 @@ Parameters
  </tr>
  <tr>
  <td>duration</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -942,7 +981,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -957,7 +996,7 @@ Parameters
  </tr>
  <tr>
  <td>override_replacemsg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -972,13 +1011,15 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[time]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[traffic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">unit</span> - Traffic quota unit of measurement. <span class="li-normal">type: str</span> <span class="li-normal">choices: B, KB, MB, GB</span>
@@ -991,17 +1032,21 @@ Parameters
  </tr>
  <tr>
  <td>unit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[B]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[KB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">value</span> - Traffic quota value. <span class="li-normal">type: int</span>
@@ -1014,7 +1059,7 @@ Parameters
  </tr>
  <tr>
  <td>value</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1030,13 +1075,15 @@ Parameters
  </tr>
  <tr>
  <td>rate_crl_urls</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">rate_css_urls</span> - Enable/disable rating CSS by URL. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1049,13 +1096,15 @@ Parameters
  </tr>
  <tr>
  <td>rate_css_urls</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">rate_image_urls</span> - Enable/disable rating images by URL. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1072,9 +1121,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.1</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.1</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">rate_javascript_urls</span> - Enable/disable rating JavaScript by URL. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1087,13 +1138,15 @@ Parameters
  </tr>
  <tr>
  <td>rate_javascript_urls</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1107,13 +1160,15 @@ Parameters
  </tr>
  <tr>
  <td>https_replacemsg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">inspection_mode</span> - Web filtering inspection mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: proxy, flow-based</span>
@@ -1130,9 +1185,11 @@ Parameters
  </tr>
  <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[flow-based]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">log_all_url</span> - Enable/disable logging all URLs visited. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1145,13 +1202,15 @@ Parameters
  </tr>
  <tr>
  <td>log_all_url</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - Profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -1164,7 +1223,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1179,33 +1238,44 @@ Parameters
  </tr>
  <tr>
  <td>options</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[activexfilter]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[cookiefilter]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[javafilter]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block-invalid-url]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[jscript]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[js]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[vbs]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unknown]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[intrinsic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[wf-referer]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[wf-cookie]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[per-user-bal]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[per-user-bwl]</td>
@@ -1223,7 +1293,7 @@ Parameters
  </tr>
  <tr>
  <td>override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1239,13 +1309,15 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_cookie</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ovrd_dur</span> - Override duration. <span class="li-normal">type: str</span>
@@ -1258,7 +1330,7 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_dur</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1273,13 +1345,15 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_dur_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[constant]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ask]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ovrd_scope</span> - Override scope. <span class="li-normal">type: str</span> <span class="li-normal">choices: user, user-group, ip, browser, ask</span>
@@ -1292,19 +1366,24 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_scope</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[user]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[user-group]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[browser]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ask]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ovrd_user_group</span> - User groups with permission to use the override. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: override/ovrd_user_group:name</span>
@@ -1316,7 +1395,7 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_user_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1332,7 +1411,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1347,7 +1426,7 @@ Parameters
  </tr>
  <tr>
  <td>profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1363,7 +1442,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1379,53 +1458,75 @@ Parameters
  </tr>
  <tr>
  <td>profile_attribute</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[User-Name]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NAS-IP-Address]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Framed-IP-Address]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Framed-IP-Netmask]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Filter-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Login-IP-Host]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Reply-Message]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Callback-Number]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Callback-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Framed-Route]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Framed-IPX-Network]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Class]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Called-Station-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Calling-Station-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NAS-Identifier]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Proxy-State]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Login-LAT-Service]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Login-LAT-Node]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Login-LAT-Group]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Framed-AppleTalk-Zone]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Acct-Session-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[Acct-Multi-Session-Id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">profile_type</span> - Override profile type. <span class="li-normal">type: str</span> <span class="li-normal">choices: list, radius</span>
@@ -1438,13 +1539,15 @@ Parameters
  </tr>
  <tr>
  <td>profile_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[list]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[radius]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1458,17 +1561,21 @@ Parameters
  </tr>
  <tr>
  <td>ovrd_perm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bannedword-override]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[urlfilter-override]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fortiguard-wf-override]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[contenttype-check-override]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">post_action</span> - Action taken for HTTP POST traffic. <span class="li-normal">type: str</span> <span class="li-normal">choices: normal, block</span>
@@ -1481,13 +1588,15 @@ Parameters
  </tr>
  <tr>
  <td>post_action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[normal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">replacemsg_group</span> - Replacement message group. Source system.replacemsg-group.name. <span class="li-normal">type: str</span>
@@ -1500,7 +1609,7 @@ Parameters
  </tr>
  <tr>
  <td>replacemsg_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1510,12 +1619,13 @@ Parameters
  <div id="label157" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
+ <td></td><td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>url_extraction</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1527,12 +1637,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redirect_header</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1543,18 +1654,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redirect_no_content</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">redirect_url</span> - HTTP header value to use for client redirect on blocked requests <span class="li-normal">type: str</span>
@@ -1563,12 +1677,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>redirect_url</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1579,12 +1694,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>server_fqdn</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1595,18 +1711,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>status</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1619,7 +1738,7 @@ Parameters
  </tr>
  <tr>
  <td>web</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1635,21 +1754,27 @@ Parameters
  </tr>
  <tr>
  <td>allowlist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[exempt-av]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[exempt-webcontent]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[exempt-activex-java-cookie]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[exempt-dlp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[exempt-rangeblock]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[extended-log-others]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">blacklist</span> - Enable/disable automatic addition of URLs detected by FortiSandbox to blacklist. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1666,9 +1791,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">blocklist</span> - Enable/disable automatic addition of URLs detected by FortiSandbox to blocklist. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1681,13 +1808,15 @@ Parameters
  </tr>
  <tr>
  <td>blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">bword_table</span> - Banned word table ID. Source webfilter.content.id. <span class="li-normal">type: int</span>
@@ -1700,7 +1829,7 @@ Parameters
  </tr>
  <tr>
  <td>bword_table</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1715,7 +1844,7 @@ Parameters
  </tr>
  <tr>
  <td>bword_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1730,7 +1859,7 @@ Parameters
  </tr>
  <tr>
  <td>content_header_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1744,7 +1873,7 @@ Parameters
  </tr>
  <tr>
  <td>keyword_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1760,7 +1889,7 @@ Parameters
  </tr>
  <tr>
  <td>pattern</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1776,13 +1905,15 @@ Parameters
  </tr>
  <tr>
  <td>log_search</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">safe_search</span> - Safe search type. <span class="li-normal">type: list</span> <span class="li-normal">choices: url, header</span>
@@ -1795,13 +1926,15 @@ Parameters
  </tr>
  <tr>
  <td>safe_search</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[url]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">urlfilter_table</span> - URL filter table ID. Source webfilter.urlfilter.id. <span class="li-normal">type: int</span>
@@ -1814,7 +1947,7 @@ Parameters
  </tr>
  <tr>
  <td>urlfilter_table</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1829,7 +1962,7 @@ Parameters
  </tr>
  <tr>
  <td>vimeo_restrict</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1848,17 +1981,23 @@ Parameters
  </tr>
  <tr>
  <td>[exempt-av]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[exempt-webcontent]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[exempt-activex-java-cookie]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[exempt-dlp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[exempt-rangeblock]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[extended-log-others]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">youtube_restrict</span> - YouTube EDU filter level. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, strict, moderate</span>
@@ -1872,15 +2011,18 @@ Parameters
  <tr>
  <td>youtube_restrict</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4 </code></td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[moderate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1894,13 +2036,15 @@ Parameters
  </tr>
  <tr>
  <td>web_antiphishing_log</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_content_log</span> - Enable/disable logging logging blocked web content. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1913,13 +2057,15 @@ Parameters
  </tr>
  <tr>
  <td>web_content_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_extended_all_action_log</span> - Enable/disable extended any filter action logging for web filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1932,13 +2078,15 @@ Parameters
  </tr>
  <tr>
  <td>web_extended_all_action_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_activex_log</span> - Enable/disable logging ActiveX. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1951,13 +2099,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_activex_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_applet_log</span> - Enable/disable logging Java applets. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1970,13 +2120,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_applet_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_command_block_log</span> - Enable/disable logging blocked commands. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1989,13 +2141,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_command_block_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_cookie_log</span> - Enable/disable logging cookie filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2008,13 +2162,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_cookie_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_cookie_removal_log</span> - Enable/disable logging blocked cookies. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2027,13 +2183,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_cookie_removal_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_js_log</span> - Enable/disable logging Java scripts. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2046,13 +2204,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_js_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_jscript_log</span> - Enable/disable logging JScripts. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2065,13 +2225,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_jscript_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_referer_log</span> - Enable/disable logging referrers. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2084,13 +2246,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_referer_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_unknown_log</span> - Enable/disable logging unknown scripts. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2103,13 +2267,15 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_unknown_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">web_filter_vbs_log</span> - Enable/disable logging VBS scripts. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2122,16 +2288,18 @@ Parameters
  </tr>
  <tr>
  <td>web_filter_vbs_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">web_ftgd_err_log</span> - Enable/disable logging rating errors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">web_flow_log_encoding</span> - Log encoding in flow mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: utf-8, punycode</span>
  <a id='label224' href="javascript:ContentClick('label225', 'label224');" onmouseover="ContentPreview('label225');" onmouseout="ContentUnpreview('label225');" title="click to collapse or expand..."> more... </a>
  <div id="label225" style="display:none">
  <table border="1">
@@ -2140,17 +2308,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>web_ftgd_err_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>web_flow_log_encoding</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[utf-8]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[punycode]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">web_ftgd_quota_usage</span> - Enable/disable logging daily quota usage. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">web_ftgd_err_log</span> - Enable/disable logging rating errors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label226' href="javascript:ContentClick('label227', 'label226');" onmouseover="ContentPreview('label227');" onmouseout="ContentUnpreview('label227');" title="click to collapse or expand..."> more... </a>
  <div id="label227" style="display:none">
  <table border="1">
@@ -2159,17 +2329,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>web_ftgd_quota_usage</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>web_ftgd_err_log</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">web_invalid_domain_log</span> - Enable/disable logging invalid domain names. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">web_ftgd_quota_usage</span> - Enable/disable logging daily quota usage. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label228' href="javascript:ContentClick('label229', 'label228');" onmouseover="ContentPreview('label229');" onmouseout="ContentUnpreview('label229');" title="click to collapse or expand..."> more... </a>
  <div id="label229" style="display:none">
  <table border="1">
@@ -2178,17 +2350,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>web_invalid_domain_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>web_ftgd_quota_usage</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">web_url_log</span> - Enable/disable logging URL filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">web_invalid_domain_log</span> - Enable/disable logging invalid domain names. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">
@@ -2197,17 +2371,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>web_url_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>web_invalid_domain_log</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">wisp</span> - Enable/disable web proxy WISP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">web_url_log</span> - Enable/disable logging URL filtering. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label232' href="javascript:ContentClick('label233', 'label232');" onmouseover="ContentPreview('label233');" onmouseout="ContentUnpreview('label233');" title="click to collapse or expand..."> more... </a>
  <div id="label233" style="display:none">
  <table border="1">
@@ -2216,17 +2392,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>wisp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>web_url_log</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">wisp_algorithm</span> - WISP server selection algorithm. <span class="li-normal">type: str</span> <span class="li-normal">choices: primary-secondary, round-robin, auto-learning</span>
+        <li> <span class="li-head">wisp</span> - Enable/disable web proxy WISP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label234' href="javascript:ContentClick('label235', 'label234');" onmouseover="ContentPreview('label235');" onmouseout="ContentUnpreview('label235');" title="click to collapse or expand..."> more... </a>
  <div id="label235" style="display:none">
  <table border="1">
@@ -2235,36 +2413,60 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>wisp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">wisp_algorithm</span> - WISP server selection algorithm. <span class="li-normal">type: str</span> <span class="li-normal">choices: primary-secondary, round-robin, auto-learning</span>
+ <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
+ <div id="label237" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>wisp_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[primary-secondary]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[round-robin]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[auto-learning]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">wisp_servers</span> - WISP servers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wisp_servers:name</span>
- <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
- <div id="label237" style="display:none">
+ <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
+ <div id="label239" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>wisp_servers</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Server name. Source web-proxy.wisp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
- <div id="label239" style="display:none">
+ <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
+ <div id="label241" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2272,15 +2474,15 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">youtube_channel_filter</span> - YouTube channel filter. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: youtube_channel_filter:id</span>
- <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
- <div id="label241" style="display:none">
+ <a id='label242' href="javascript:ContentClick('label243', 'label242');" onmouseover="ContentPreview('label243');" onmouseout="ContentUnpreview('label243');" title="click to collapse or expand..."> more... </a>
+ <div id="label243" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -2294,8 +2496,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">channel_id</span> - YouTube channel ID to be filtered. <span class="li-normal">type: str</span>
- <a id='label242' href="javascript:ContentClick('label243', 'label242');" onmouseover="ContentPreview('label243');" onmouseout="ContentUnpreview('label243');" title="click to collapse or expand..."> more... </a>
- <div id="label243" style="display:none">
+ <a id='label244' href="javascript:ContentClick('label245', 'label244');" onmouseover="ContentPreview('label245');" onmouseout="ContentUnpreview('label245');" title="click to collapse or expand..."> more... </a>
+ <div id="label245" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2309,8 +2511,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
- <a id='label244' href="javascript:ContentClick('label245', 'label244');" onmouseover="ContentPreview('label245');" onmouseout="ContentUnpreview('label245');" title="click to collapse or expand..."> more... </a>
- <div id="label245" style="display:none">
+ <a id='label246' href="javascript:ContentClick('label247', 'label246');" onmouseover="ContentPreview('label247');" onmouseout="ContentUnpreview('label247');" title="click to collapse or expand..."> more... </a>
+ <div id="label247" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2324,8 +2526,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label246' href="javascript:ContentClick('label247', 'label246');" onmouseover="ContentPreview('label247');" onmouseout="ContentUnpreview('label247');" title="click to collapse or expand..."> more... </a>
- <div id="label247" style="display:none">
+ <a id='label248' href="javascript:ContentClick('label249', 'label248');" onmouseover="ContentPreview('label249');" onmouseout="ContentUnpreview('label249');" title="click to collapse or expand..."> more... </a>
+ <div id="label249" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2340,8 +2542,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">youtube_channel_status</span> - YouTube channel filter status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, blacklist, whitelist</span>
- <a id='label248' href="javascript:ContentClick('label249', 'label248');" onmouseover="ContentPreview('label249');" onmouseout="ContentUnpreview('label249');" title="click to collapse or expand..."> more... </a>
- <div id="label249" style="display:none">
+ <a id='label250' href="javascript:ContentClick('label251', 'label250');" onmouseover="ContentPreview('label251');" onmouseout="ContentUnpreview('label251');" title="click to collapse or expand..."> more... </a>
+ <div id="label251" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2353,11 +2555,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[blacklist]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[whitelist]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -2509,6 +2714,7 @@ Examples
               web_filter_referer_log: "enable"
               web_filter_unknown_log: "enable"
               web_filter_vbs_log: "enable"
+              web_flow_log_encoding: "utf-8"
               web_ftgd_err_log: "enable"
               web_ftgd_quota_usage: "enable"
               web_invalid_domain_log: "enable"
@@ -2517,12 +2723,12 @@ Examples
               wisp_algorithm: "primary-secondary"
               wisp_servers:
                   -
-                      name: "default_name_125 (source web-proxy.wisp.name)"
+                      name: "default_name_126 (source web-proxy.wisp.name)"
               youtube_channel_filter:
                   -
                       channel_id: "<your_own_value>"
                       comment: "Comment."
-                      id: "129"
+                      id: "130"
               youtube_channel_status: "disable"
 
 

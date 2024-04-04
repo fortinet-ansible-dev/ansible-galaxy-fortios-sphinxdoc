@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_firewall_central_snat_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -77,7 +63,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_central_snat_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -93,7 +79,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -107,7 +93,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_addr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -123,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -138,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_addr6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -154,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +156,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_port</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -184,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>dstintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -200,7 +186,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -216,13 +202,15 @@ Parameters
  </tr>
  <tr>
  <td>nat</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">nat_ippool</span> - Name of the IP pools to be used to translate addresses from available IP Pools. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nat_ippool:name</span>
@@ -234,7 +222,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_ippool</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -250,7 +238,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -265,7 +253,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_ippool6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -281,7 +269,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -297,7 +285,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -312,13 +300,15 @@ Parameters
  </tr>
  <tr>
  <td>nat46</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">nat64</span> - Enable/disable NAT64. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -331,13 +321,15 @@ Parameters
  </tr>
  <tr>
  <td>nat64</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">orig_addr</span> - IPv4 Original address. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: orig_addr:name</span>
@@ -349,7 +341,7 @@ Parameters
  </tr>
  <tr>
  <td>orig_addr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -365,7 +357,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -380,7 +372,7 @@ Parameters
  </tr>
  <tr>
  <td>orig_addr6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -396,7 +388,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -412,7 +404,7 @@ Parameters
  </tr>
  <tr>
  <td>orig_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -427,7 +419,7 @@ Parameters
  </tr>
  <tr>
  <td>policyid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -442,7 +434,7 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -456,7 +448,7 @@ Parameters
  </tr>
  <tr>
  <td>srcintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -472,7 +464,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -488,13 +480,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">type</span> - IPv4/IPv6 source NAT. <span class="li-normal">type: str</span> <span class="li-normal">choices: ipv4, ipv6</span>
@@ -507,13 +501,15 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ipv4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ipv6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
@@ -526,7 +522,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

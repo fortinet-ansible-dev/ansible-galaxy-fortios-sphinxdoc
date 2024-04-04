@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_wireless_controller_setting</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_setting</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>account_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -103,565 +89,688 @@ Parameters
  </tr>
  <tr>
  <td>country</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[--]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[AF]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[AL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[DZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AS]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[AO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AU]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BS]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[BH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BD]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BJ]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[BM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[BT]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[BO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BW]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[BR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BG]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BF]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[KH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[KY]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[CF]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[TD]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[CL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CX]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[CO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CG]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[CD]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[CR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[HR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[DK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[DJ]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[DM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[DO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[EC]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[EG]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ET]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[EE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GF]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[PF]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[FO]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[FJ]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[FI]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[FR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GA]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[GE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GM]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[DE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GH]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[GI]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[GR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GD]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GP]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[GU]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GY]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[HT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[HN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[HK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[HU]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IS]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ID]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IQ]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[IE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[IL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CI]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[JM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[JO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[KZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[KE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[KR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[KW]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[LV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LS]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[LR]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[LY]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[LI]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LU]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MG]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MW]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MV]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[ML]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MH]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MQ]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MR]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MU]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[YT]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MX]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[FM]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MD]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MC]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MN]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NP]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[AW]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[NI]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[NE]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[NG]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[NO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[MP]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[OM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PW]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[PA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PG]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PL]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[QA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[RE]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[RO]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[RU]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[RW]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[BL]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[KN]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[LC]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[MF]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[PM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[VC]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[SA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SN]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[RS]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ME]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SL]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[SG]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SI]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SO]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[ZA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ES]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[LK]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[SR]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[SZ]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[SE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TW]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TG]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[TT]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TM]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[AE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[TC]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[UG]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[UA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[GB]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[US]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[PS]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[UY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[UZ]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[VU]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[VE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[VN]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[VI]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[WF]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[YE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ZM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[ZW]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[JP]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[CA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[IR]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
  </tr>
@@ -694,7 +803,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -708,7 +817,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize_schedules</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -724,7 +833,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -741,7 +850,7 @@ Parameters
  <tr>
  <td>device_holdoff</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -757,7 +866,7 @@ Parameters
  <tr>
  <td>device_idle</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -773,7 +882,7 @@ Parameters
  <tr>
  <td>device_weight</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -788,13 +897,15 @@ Parameters
  </tr>
  <tr>
  <td>duplicate_ssid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fake_ssid_action</span> - Actions taken for detected fake SSID. <span class="li-normal">type: list</span> <span class="li-normal">choices: log, suppress</span>
@@ -807,13 +918,15 @@ Parameters
  </tr>
  <tr>
  <td>fake_ssid_action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[suppress]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fapc_compatibility</span> - Enable/disable FAP-C series compatibility. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -826,13 +939,15 @@ Parameters
  </tr>
  <tr>
  <td>fapc_compatibility</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">firmware_provision_on_authorization</span> - Enable/disable automatic provisioning of latest firmware on authorization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -845,13 +960,15 @@ Parameters
  </tr>
  <tr>
  <td>firmware_provision_on_authorization</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">offending_ssid</span> - Configure offending SSID. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: offending_ssid:id</span>
@@ -863,7 +980,7 @@ Parameters
  </tr>
  <tr>
  <td>offending_ssid</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -879,13 +996,15 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[suppress]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
@@ -898,7 +1017,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -913,7 +1032,7 @@ Parameters
  </tr>
  <tr>
  <td>ssid_pattern</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -929,16 +1048,18 @@ Parameters
  </tr>
  <tr>
  <td>phishing_ssid_detect</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">wfa_compatibility</span> - Enable/disable WFA compatibility. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">rolling_wtp_upgrade</span> - Enable/disable rolling WTP upgrade . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -947,14 +1068,37 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>wfa_compatibility</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>rolling_wtp_upgrade</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">wfa_compatibility</span> - Enable/disable WFA compatibility. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>wfa_compatibility</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -998,6 +1142,7 @@ Examples
                       id: "17"
                       ssid_pattern: "<your_own_value>"
               phishing_ssid_detect: "enable"
+              rolling_wtp_upgrade: "enable"
               wfa_compatibility: "enable"
 
 

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_report_chart</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> v6.4.4
 
 
 
@@ -108,25 +94,35 @@ Parameters
  </tr>
  <tr>
  <td>[misc]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[traffic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[event]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[webfilter]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[attack]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[spam]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[dlp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[app-ctrl]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[vulnerability]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">category_series</span> - Category series of pie chart. <span class="li-normal">type: dict</span>
@@ -354,19 +350,26 @@ Parameters
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[greater]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[greater-equal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[less]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[less-equal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[equal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[between]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">value_type</span> - Value type. <span class="li-normal">type: str</span> <span class="li-normal">choices: integer, string</span>
@@ -383,9 +386,11 @@ Parameters
  </tr>
  <tr>
  <td>[integer]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[string]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">value1</span> - Value 1. <span class="li-normal">type: str</span>
@@ -464,9 +469,11 @@ Parameters
  </tr>
  <tr>
  <td>[2D]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[3D]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">drill_down_charts</span> - Drill down charts. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: drill_down_charts:id</span>
@@ -528,9 +535,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -548,9 +557,11 @@ Parameters
  </tr>
  <tr>
  <td>[no]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[yes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">graph_type</span> - Graph type. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, bar, pie, line, flow</span>
@@ -567,15 +578,20 @@ Parameters
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[bar]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[pie]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[line]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[flow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">legend</span> - Enable/Disable Legend area. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -592,9 +608,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">legend_font_size</span> - Font size of legend area. <span class="li-normal">type: int</span>
@@ -641,9 +659,11 @@ Parameters
  </tr>
  <tr>
  <td>[last24h]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[last7d]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">policy</span> - Used by monitor policy. <span class="li-normal">type: int</span>
@@ -675,9 +695,11 @@ Parameters
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[manual]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">title</span> - Chart title. <span class="li-normal">type: str</span>
@@ -724,9 +746,11 @@ Parameters
  </tr>
  <tr>
  <td>[graph]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[table]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">value_series</span> - Value series of pie chart. <span class="li-normal">type: dict</span>
@@ -849,9 +873,11 @@ Parameters
  </tr>
  <tr>
  <td>[yes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[no]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">label_angle</span> - X-series label angle. <span class="li-normal">type: str</span> <span class="li-normal">choices: 45-degree, vertical, horizontal</span>
@@ -868,11 +894,14 @@ Parameters
  </tr>
  <tr>
  <td>[45-degree]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[vertical]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[horizontal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">scale_direction</span> - Scale increase or decrease. <span class="li-normal">type: str</span> <span class="li-normal">choices: decrease, increase</span>
@@ -889,9 +918,11 @@ Parameters
  </tr>
  <tr>
  <td>[decrease]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[increase]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">scale_format</span> - Date/time format. <span class="li-normal">type: str</span> <span class="li-normal">choices: YYYY-MM-DD-HH-MM, YYYY-MM-DD HH, YYYY-MM-DD, YYYY-MM, YYYY, HH-MM, MM-DD</span>
@@ -908,19 +939,26 @@ Parameters
  </tr>
  <tr>
  <td>[YYYY-MM-DD-HH-MM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[YYYY-MM-DD HH]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[YYYY-MM-DD]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[YYYY-MM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[YYYY]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[HH-MM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[MM-DD]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">scale_step</span> - Scale step. <span class="li-normal">type: int</span>
@@ -952,15 +990,20 @@ Parameters
  </tr>
  <tr>
  <td>[minute]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[hour]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[day]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[month]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[year]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unit</span> - X-series unit. <span class="li-normal">type: str</span>
@@ -1068,9 +1111,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">extra_y_legend</span> - Extra Y-series legend type/name. <span class="li-normal">type: str</span>
@@ -1132,11 +1177,14 @@ Parameters
  </tr>
  <tr>
  <td>[45-degree]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[vertical]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[horizontal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unit</span> - Y-series unit. <span class="li-normal">type: str</span>

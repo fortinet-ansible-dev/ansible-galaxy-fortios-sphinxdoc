@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,22 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_wireless_controller_mpsk_profile</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.4.0, v6.4.4 -> 7.4.3
 
 
 
@@ -75,7 +60,7 @@ Parameters
  <tr>
  <td>wireless_controller_mpsk_profile</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -92,7 +77,7 @@ Parameters
  <tr>
  <td>mpsk_concurrent_clients</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -107,7 +92,7 @@ Parameters
  <tr>
  <td>mpsk_group</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -123,7 +108,7 @@ Parameters
  <tr>
  <td>mpsk_key</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +125,7 @@ Parameters
  <tr>
  <td>comment</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -156,15 +141,18 @@ Parameters
  <tr>
  <td>concurrent_client_limit_type</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[unlimited]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[specified]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">concurrent_clients</span> - Number of clients that can connect using this pre-shared key (1 - 65535). <span class="li-normal">type: int</span>
@@ -178,7 +166,7 @@ Parameters
  <tr>
  <td>concurrent_clients</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +182,7 @@ Parameters
  <tr>
  <td>mac</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -209,7 +197,7 @@ Parameters
  <tr>
  <td>mpsk_schedules</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -226,7 +214,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -243,7 +231,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -259,7 +247,7 @@ Parameters
  <tr>
  <td>passphrase</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -276,7 +264,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -292,7 +280,7 @@ Parameters
  <tr>
  <td>vlan_id</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -308,13 +296,15 @@ Parameters
  <tr>
  <td>vlan_type</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[no-vlan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[fixed-vlan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -329,7 +319,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

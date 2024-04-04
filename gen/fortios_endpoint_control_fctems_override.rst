@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_endpoint_control_fctems_override</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.4.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>endpoint_control_fctems_override</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>call_timeout</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,29 +90,37 @@ Parameters
  </tr>
  <tr>
  <td>capabilities</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[fabric-auth]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[silent-approval]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[websocket]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[websocket-malware]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[push-ca-certs]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[common-tags-api]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[tenant-id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[client-avatars]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[single-vdom-connector]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">cloud_server_type</span> - Cloud server type. <span class="li-normal">type: str</span> <span class="li-normal">choices: production, alpha, beta</span>
@@ -143,11 +137,14 @@ Parameters
  </tr>
  <tr>
  <td>[production]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.0</code></td>
+ <tr>
  <td>[alpha]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.0</code></td>
+ <tr>
  <td>[beta]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">dirty_reason</span> - Dirty Reason for FortiClient EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, mismatched-ems-sn</span>
@@ -160,13 +157,15 @@ Parameters
  </tr>
  <tr>
  <td>dirty_reason</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mismatched-ems-sn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ems_id</span> - EMS ID in order (1 - 7). see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
@@ -179,7 +178,7 @@ Parameters
  </tr>
  <tr>
  <td>ems_id</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -194,13 +193,15 @@ Parameters
  </tr>
  <tr>
  <td>fortinetone_cloud_authentication</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">https_port</span> - FortiClient EMS HTTPS access port number. (1 - 65535). <span class="li-normal">type: int</span>
@@ -213,7 +214,7 @@ Parameters
  </tr>
  <tr>
  <td>https_port</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -228,7 +229,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -243,15 +244,18 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - FortiClient Enterprise Management Server (EMS) name. <span class="li-normal">type: str</span>
@@ -264,7 +268,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -279,7 +283,7 @@ Parameters
  </tr>
  <tr>
  <td>out_of_sync_threshold</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -294,13 +298,15 @@ Parameters
  </tr>
  <tr>
  <td>preserve_ssl_session</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pull_avatars</span> - Enable/disable pulling avatars from EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -313,13 +319,15 @@ Parameters
  </tr>
  <tr>
  <td>pull_avatars</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pull_malware_hash</span> - Enable/disable pulling FortiClient malware hash from EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -332,13 +340,15 @@ Parameters
  </tr>
  <tr>
  <td>pull_malware_hash</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pull_sysinfo</span> - Enable/disable pulling SysInfo from EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -351,13 +361,15 @@ Parameters
  </tr>
  <tr>
  <td>pull_sysinfo</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pull_tags</span> - Enable/disable pulling FortiClient user tags from EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -370,13 +382,15 @@ Parameters
  </tr>
  <tr>
  <td>pull_tags</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pull_vulnerabilities</span> - Enable/disable pulling vulnerabilities from EMS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -389,16 +403,18 @@ Parameters
  </tr>
  <tr>
  <td>pull_vulnerabilities</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">serial_number</span> - EMS Serial Number. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">send_tags_to_all_vdoms</span> - Relax restrictions on tags to send all EMS tags to all VDOMs <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -407,13 +423,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>serial_number</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>send_tags_to_all_vdoms</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server</span> - FortiClient EMS FQDN or IPv4 address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">serial_number</span> - EMS Serial Number. <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -422,13 +444,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>serial_number</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - REST API call source IP. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server</span> - FortiClient EMS FQDN or IPv4 address. <span class="li-normal">type: str</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -437,13 +459,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>server</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable or disable this EMS configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">source_ip</span> - REST API call source IP. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -452,17 +474,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">tenant_id</span> - EMS Tenant ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - Enable or disable this EMS configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -471,13 +489,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tenant_id</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trust_ca_cn</span> - Enable/disable trust of the EMS certificate issuer(CA) and common name(CN) for certificate auto-renewal. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">tenant_id</span> - EMS Tenant ID. <span class="li-normal">type: str</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -486,17 +510,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trust_ca_cn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>tenant_id</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">websocket_override</span> - Enable/disable override behavior for how this FortiGate unit connects to EMS using a WebSocket connection. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">trust_ca_cn</span> - Enable/disable trust of the EMS certificate issuer(CA) and common name(CN) for certificate auto-renewal. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -505,14 +525,52 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>websocket_override</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>trust_ca_cn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">verifying_ca</span> - Lowest CA cert on Fortigate in verified EMS cert chain. Source certificate.ca.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>verifying_ca</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">websocket_override</span> - Enable/disable override behavior for how this FortiGate unit connects to EMS using a WebSocket connection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>websocket_override</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -558,13 +616,15 @@ Examples
               pull_sysinfo: "enable"
               pull_tags: "enable"
               pull_vulnerabilities: "enable"
+              send_tags_to_all_vdoms: "enable"
               serial_number: "<your_own_value>"
               server: "192.168.100.40"
               source_ip: "84.230.14.43"
               status: "enable"
               tenant_id: "<your_own_value>"
               trust_ca_cn: "enable"
-              websocket_override: "disable"
+              verifying_ca: "<your_own_value> (source certificate.ca.name vpn.certificate.ca.name)"
+              websocket_override: "enable"
 
 
 Return Values

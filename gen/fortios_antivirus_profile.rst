@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_antivirus_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>antivirus_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>analytics_accept_filetype</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -119,13 +105,15 @@ Parameters
  </tr>
  <tr>
  <td>analytics_db</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">analytics_ignore_filetype</span> - Do not submit files matching this DLP file-pattern to FortiSandbox (post-transfer scan only). Source dlp.filepattern.id. <span class="li-normal">type: int</span>
@@ -138,7 +126,7 @@ Parameters
  </tr>
  <tr>
  <td>analytics_ignore_filetype</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -187,9 +175,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.2.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.2.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">av_virus_log</span> - Enable/disable AntiVirus logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -202,13 +192,15 @@ Parameters
  </tr>
  <tr>
  <td>av_virus_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">cifs</span> - Configure CIFS AntiVirus options. <span class="li-normal">type: dict</span>
@@ -220,7 +212,7 @@ Parameters
  </tr>
  <tr>
  <td>cifs</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -236,25 +228,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.1</code></td>
  </tr>
@@ -271,25 +271,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.1</code></td>
  </tr>
@@ -306,15 +314,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -327,13 +338,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -346,15 +359,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -371,11 +387,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -388,15 +407,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -409,15 +431,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable CIFS AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -434,11 +459,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -451,19 +479,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -490,13 +518,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -510,7 +540,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -524,7 +554,7 @@ Parameters
  </tr>
  <tr>
  <td>content_disarm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -540,13 +570,15 @@ Parameters
  </tr>
  <tr>
  <td>cover_page</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">detect_only</span> - Enable/disable only detect disarmable files, do not alter content. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -559,13 +591,15 @@ Parameters
  </tr>
  <tr>
  <td>detect_only</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">error_action</span> - Action to be taken if CDR engine encounters an unrecoverable error. <span class="li-normal">type: str</span> <span class="li-normal">choices: block, log-only, ignore</span>
@@ -579,15 +613,18 @@ Parameters
  <tr>
  <td>error_action</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_action</span> - Enable/disable stripping of PowerPoint action events in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -600,13 +637,15 @@ Parameters
  </tr>
  <tr>
  <td>office_action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_dde</span> - Enable/disable stripping of Dynamic Data Exchange events in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -619,13 +658,15 @@ Parameters
  </tr>
  <tr>
  <td>office_dde</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_embed</span> - Enable/disable stripping of embedded objects in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -638,13 +679,15 @@ Parameters
  </tr>
  <tr>
  <td>office_embed</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_hylink</span> - Enable/disable stripping of hyperlinks in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -657,13 +700,15 @@ Parameters
  </tr>
  <tr>
  <td>office_hylink</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_linked</span> - Enable/disable stripping of linked objects in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -676,13 +721,15 @@ Parameters
  </tr>
  <tr>
  <td>office_linked</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">office_macro</span> - Enable/disable stripping of macros in Microsoft Office documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -695,13 +742,15 @@ Parameters
  </tr>
  <tr>
  <td>office_macro</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">original_file_destination</span> - Destination to send original file if active content is removed. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortisandbox, quarantine, discard</span>
@@ -714,15 +763,18 @@ Parameters
  </tr>
  <tr>
  <td>original_file_destination</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[fortisandbox]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[discard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_form</span> - Enable/disable stripping of PDF document actions that submit data to other targets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -735,13 +787,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_form</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_gotor</span> - Enable/disable stripping of PDF document actions that access other PDF documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -754,13 +808,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_gotor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_java</span> - Enable/disable stripping of PDF document actions that execute JavaScript code. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -773,13 +829,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_java</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_launch</span> - Enable/disable stripping of PDF document actions that launch other applications. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -792,13 +850,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_launch</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_movie</span> - Enable/disable stripping of PDF document actions that play a movie. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -811,13 +871,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_movie</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_act_sound</span> - Enable/disable stripping of PDF document actions that play a sound. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -830,13 +892,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_act_sound</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_embedfile</span> - Enable/disable stripping of embedded files in PDF documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -849,13 +913,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_embedfile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_hyperlink</span> - Enable/disable stripping of hyperlinks from PDF documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -868,13 +934,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_hyperlink</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pdf_javacode</span> - Enable/disable stripping of JavaScript code in PDF documents. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -887,13 +955,15 @@ Parameters
  </tr>
  <tr>
  <td>pdf_javacode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -907,13 +977,15 @@ Parameters
  </tr>
  <tr>
  <td>ems_threat_feed</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">extended_log</span> - Enable/disable extended logging for antivirus. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -926,13 +998,15 @@ Parameters
  </tr>
  <tr>
  <td>extended_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">external_blocklist</span> - One or more external malware block lists. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: external_blocklist:name</span>
@@ -944,7 +1018,7 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -960,7 +1034,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -980,9 +1054,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">external_blocklist_enable_all</span> - Enable/disable all external blocklists. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -995,13 +1071,15 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist_enable_all</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">feature_set</span> - Flow/proxy feature set. <span class="li-normal">type: str</span> <span class="li-normal">choices: flow, proxy</span>
@@ -1014,13 +1092,15 @@ Parameters
  </tr>
  <tr>
  <td>feature_set</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[flow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortiai_error_action</span> - Action to take if FortiAI encounters an error. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1037,11 +1117,14 @@ Parameters
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortiai_timeout_action</span> - Action to take if FortiAI encounters a scan timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1058,11 +1141,14 @@ Parameters
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.7</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortindr_error_action</span> - Action to take if FortiNDR encounters an error. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1075,15 +1161,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr_error_action</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortindr_timeout_action</span> - Action to take if FortiNDR encounters a scan timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1096,15 +1185,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr_timeout_action</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortisandbox_error_action</span> - Action to take if FortiSandbox inline scan encounters an error. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1117,18 +1209,21 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox_error_action</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">fortisandbox_max_upload</span> - Maximum size of files that can be uploaded to FortiSandbox. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">fortisandbox_max_upload</span> - Maximum size of files that can be uploaded to FortiSandbox in Mbytes. <span class="li-normal">type: int</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -1138,7 +1233,7 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox_max_upload</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1153,15 +1248,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox_mode</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[inline]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[analytics-suspicious]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[analytics-everything]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fortisandbox_timeout_action</span> - Action to take if FortiSandbox inline scan encounters a scan timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, ignore</span>
@@ -1174,15 +1272,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox_timeout_action</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ftgd_analytics</span> - Settings to control which files are uploaded to FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, suspicious, everything</span>
@@ -1199,11 +1300,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[suspicious]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[everything]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ftp</span> - Configure FTP AntiVirus options. <span class="li-normal">type: dict</span>
@@ -1215,7 +1319,7 @@ Parameters
  </tr>
  <tr>
  <td>ftp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1231,25 +1335,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1266,25 +1378,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1301,15 +1421,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1322,13 +1445,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1341,15 +1466,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1366,11 +1494,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1383,15 +1514,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1404,15 +1538,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable FTP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -1429,11 +1566,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -1446,19 +1586,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -1485,13 +1625,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1504,7 +1646,7 @@ Parameters
  </tr>
  <tr>
  <td>http</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1520,25 +1662,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1555,25 +1705,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1590,15 +1748,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">content_disarm</span> - Enable/disable Content Disarm and Reconstruction when performing AntiVirus scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1611,13 +1772,15 @@ Parameters
  </tr>
  <tr>
  <td>content_disarm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1630,13 +1793,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1649,15 +1814,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1674,11 +1842,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1691,15 +1862,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1712,15 +1886,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable HTTP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -1737,11 +1914,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -1754,19 +1934,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -1793,13 +1973,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unknown_content_encoding</span> - Configure the action the FortiGate unit will take on unknown content-encoding. <span class="li-normal">type: str</span> <span class="li-normal">choices: block, inspect, bypass</span>
@@ -1817,11 +1999,14 @@ Parameters
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
+ <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1834,7 +2019,7 @@ Parameters
  </tr>
  <tr>
  <td>imap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1850,25 +2035,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1885,25 +2078,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -1920,15 +2121,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">content_disarm</span> - Enable/disable Content Disarm and Reconstruction when performing AntiVirus scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -1941,13 +2145,15 @@ Parameters
  </tr>
  <tr>
  <td>content_disarm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -1960,13 +2166,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">executables</span> - Treat Windows executable files as viruses for the purpose of blocking or monitoring. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, virus</span>
@@ -1979,13 +2187,15 @@ Parameters
  </tr>
  <tr>
  <td>executables</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -1998,15 +2208,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2023,11 +2236,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2040,15 +2256,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2061,15 +2280,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable IMAP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -2086,11 +2308,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -2103,19 +2328,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -2142,13 +2367,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2166,9 +2393,11 @@ Parameters
  </tr>
  <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[flow-based]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">mapi</span> - Configure MAPI AntiVirus options. <span class="li-normal">type: dict</span>
@@ -2180,7 +2409,7 @@ Parameters
  </tr>
  <tr>
  <td>mapi</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2196,25 +2425,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -2231,25 +2468,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -2266,15 +2511,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2287,13 +2535,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">executables</span> - Treat Windows executable files as viruses for the purpose of blocking or monitoring. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, virus</span>
@@ -2306,13 +2556,15 @@ Parameters
  </tr>
  <tr>
  <td>executables</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2325,15 +2577,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2350,11 +2605,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2367,15 +2625,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2388,15 +2649,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable MAPI AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -2413,11 +2677,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -2430,19 +2697,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -2469,13 +2736,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2489,13 +2758,15 @@ Parameters
  </tr>
  <tr>
  <td>mobile_malware_db</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">nac_quar</span> - Configure AntiVirus quarantine settings. <span class="li-normal">type: dict</span>
@@ -2507,7 +2778,7 @@ Parameters
  </tr>
  <tr>
  <td>nac_quar</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2523,7 +2794,7 @@ Parameters
  </tr>
  <tr>
  <td>expiry</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2538,13 +2809,15 @@ Parameters
  </tr>
  <tr>
  <td>infected</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[quar-src-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">log</span> - Enable/disable AntiVirus quarantine logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2557,13 +2830,15 @@ Parameters
  </tr>
  <tr>
  <td>log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2577,7 +2852,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2591,7 +2866,7 @@ Parameters
  </tr>
  <tr>
  <td>nntp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2607,25 +2882,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -2642,25 +2925,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -2677,15 +2968,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -2698,13 +2992,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2717,15 +3013,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2742,11 +3041,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2759,15 +3061,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -2780,15 +3085,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable NNTP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -2805,11 +3113,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -2822,19 +3133,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -2861,13 +3172,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2900,9 +3213,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ftgd_service</span> - Enable/disable FortiGuard Virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -2919,9 +3234,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2935,13 +3252,15 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention_archive_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">pop3</span> - Configure POP3 AntiVirus options. <span class="li-normal">type: dict</span>
@@ -2953,7 +3272,7 @@ Parameters
  </tr>
  <tr>
  <td>pop3</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2969,25 +3288,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -3004,25 +3331,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -3039,15 +3374,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">content_disarm</span> - Enable/disable Content Disarm and Reconstruction when performing AntiVirus scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3060,13 +3398,15 @@ Parameters
  </tr>
  <tr>
  <td>content_disarm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -3079,13 +3419,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">executables</span> - Treat Windows executable files as viruses for the purpose of blocking or monitoring. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, virus</span>
@@ -3098,13 +3440,15 @@ Parameters
  </tr>
  <tr>
  <td>executables</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3117,15 +3461,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3142,11 +3489,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3159,15 +3509,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3180,15 +3533,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable POP3 AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -3205,11 +3561,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -3222,19 +3581,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -3261,13 +3620,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -3281,7 +3642,7 @@ Parameters
  </tr>
  <tr>
  <td>replacemsg_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3296,15 +3657,15 @@ Parameters
  </tr>
  <tr>
  <td>scan_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[legacy]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[quick]</td>
@@ -3346,23 +3707,32 @@ Parameters
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[fileslimit]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">archive_log</span> - Select the archive types to log. <span class="li-normal">type: str</span> <span class="li-normal">choices: encrypted, corrupted, partiallycorrupted, multipart, nested, mailbomb, fileslimit, timeout, unhandled</span>
@@ -3379,23 +3749,32 @@ Parameters
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[fileslimit]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -3412,9 +3791,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable SMB AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: str</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -3431,11 +3812,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable FortiGuard Virus Outbreak Prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disabled, files, full-archive</span>
@@ -3452,11 +3836,14 @@ Parameters
  </tr>
  <tr>
  <td>[disabled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[files]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[full-archive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -3469,7 +3856,7 @@ Parameters
  </tr>
  <tr>
  <td>smtp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3485,25 +3872,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -3520,25 +3915,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
  </tr>
@@ -3555,15 +3958,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">content_disarm</span> - Enable/disable Content Disarm and Reconstruction when performing AntiVirus scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3576,13 +3982,15 @@ Parameters
  </tr>
  <tr>
  <td>content_disarm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -3595,13 +4003,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">executables</span> - Treat Windows executable files as viruses for the purpose of blocking or monitoring. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, virus</span>
@@ -3614,13 +4024,15 @@ Parameters
  </tr>
  <tr>
  <td>executables</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3633,15 +4045,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3658,11 +4073,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3675,15 +4093,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3696,15 +4117,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable SMTP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -3721,11 +4145,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -3738,19 +4165,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -3777,13 +4204,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -3796,7 +4225,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3812,25 +4241,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_block</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.1</code></td>
  </tr>
@@ -3847,25 +4284,33 @@ Parameters
  </tr>
  <tr>
  <td>archive_log</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[encrypted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[corrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[partiallycorrupted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[multipart]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[nested]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[mailbomb]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[unhandled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[fileslimit]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.1</code></td>
  </tr>
@@ -3882,15 +4327,18 @@ Parameters
  </tr>
  <tr>
  <td>av_scan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">emulator</span> - Enable/disable the virus emulator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -3903,13 +4351,15 @@ Parameters
  </tr>
  <tr>
  <td>emulator</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">external_blocklist</span> - Enable external-blocklist. Analyzes files including the content of archives. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3922,15 +4372,18 @@ Parameters
  </tr>
  <tr>
  <td>external_blocklist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortiai</span> - Enable/disable scanning of files by FortiAI. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3947,11 +4400,14 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortindr</span> - Enable scanning of files by FortiNDR. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3964,15 +4420,18 @@ Parameters
  </tr>
  <tr>
  <td>fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">fortisandbox</span> - Enable scanning of files by FortiSandbox. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor</span>
@@ -3985,15 +4444,18 @@ Parameters
  </tr>
  <tr>
  <td>fortisandbox</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">options</span> - Enable/disable SFTP and SCP AntiVirus scanning, monitoring, and quarantine. <span class="li-normal">type: list</span> <span class="li-normal">choices: scan, avmonitor, quarantine</span>
@@ -4010,11 +4472,14 @@ Parameters
  </tr>
  <tr>
  <td>[scan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[avmonitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">outbreak_prevention</span> - Enable virus outbreak prevention service. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, block, monitor, disabled, files, full-archive</span>
@@ -4027,19 +4492,19 @@ Parameters
  </tr>
  <tr>
  <td>outbreak_prevention</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
@@ -4066,13 +4531,15 @@ Parameters
  </tr>
  <tr>
  <td>quarantine</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>

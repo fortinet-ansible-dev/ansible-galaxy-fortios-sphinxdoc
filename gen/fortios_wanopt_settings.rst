@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_wanopt_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wanopt_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,13 +74,15 @@ Parameters
  </tr>
  <tr>
  <td>auto_detect_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[simple]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[diff-req-resp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">host_id</span> - Local host ID (must also be entered in the remote FortiGate"s peer list). <span class="li-normal">type: str</span>
@@ -107,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>host_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -123,15 +111,18 @@ Parameters
  <tr>
  <td>tunnel_optimization</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[memory-usage]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ <tr>
  <td>[balanced]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ <tr>
  <td>[throughput]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">tunnel_ssl_algorithm</span> - Relative strength of encryption algorithms accepted during tunnel negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: high, medium, low</span>
@@ -144,15 +135,18 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_ssl_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>

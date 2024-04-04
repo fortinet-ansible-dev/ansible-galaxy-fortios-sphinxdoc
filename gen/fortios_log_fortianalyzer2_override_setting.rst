@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_log_fortianalyzer2_override_setting</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.2.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>log_fortianalyzer2_override_setting</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -103,13 +89,15 @@ Parameters
  </tr>
  <tr>
  <td>access_config</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">alt_server</span> - Alternate FortiAnalyzer. <span class="li-normal">type: str</span>
@@ -122,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>alt_server</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -137,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>certificate</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -152,13 +140,15 @@ Parameters
  </tr>
  <tr>
  <td>certificate_verification</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">conn_timeout</span> - FortiAnalyzer connection time-out in seconds (for status and log buffer). <span class="li-normal">type: int</span>
@@ -171,7 +161,7 @@ Parameters
  </tr>
  <tr>
  <td>conn_timeout</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -186,15 +176,18 @@ Parameters
  </tr>
  <tr>
  <td>enc_algorithm</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[high-medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">fallback_to_primary</span> - Enable/disable this FortiGate unit to fallback to the primary FortiAnalyzer when it is available. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -207,13 +200,15 @@ Parameters
  </tr>
  <tr>
  <td>fallback_to_primary</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">faz_type</span> - Hidden setting index of FortiAnalyzer. <span class="li-normal">type: int</span>
@@ -241,11 +236,12 @@ Parameters
  </tr>
  <tr>
  <td>hmac_algorithm</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[sha1]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.4.0</code></td>
  </tr>
@@ -263,7 +259,7 @@ Parameters
  <tr>
  <td>interface</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -279,15 +275,18 @@ Parameters
  <tr>
  <td>interface_select_method</td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.4.0</code></td>
+ <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.4.0</code></td>
+ <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.7 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ips_archive</span> - Enable/disable IPS packet archive logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -300,13 +299,15 @@ Parameters
  </tr>
  <tr>
  <td>ips_archive</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">max_log_rate</span> - FortiAnalyzer maximum log rate in MBps (0 = unlimited). <span class="li-normal">type: int</span>
@@ -319,7 +320,7 @@ Parameters
  </tr>
  <tr>
  <td>max_log_rate</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -349,7 +350,7 @@ Parameters
  </tr>
  <tr>
  <td>monitor_failure_retry_period</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -364,7 +365,7 @@ Parameters
  </tr>
  <tr>
  <td>monitor_keepalive_period</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -383,9 +384,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">preshared_key</span> - Preshared-key used for auto-authorization on FortiAnalyzer. <span class="li-normal">type: str</span>
@@ -398,7 +401,7 @@ Parameters
  </tr>
  <tr>
  <td>preshared_key</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -413,13 +416,15 @@ Parameters
  </tr>
  <tr>
  <td>priority</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">reliable</span> - Enable/disable reliable logging to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -432,13 +437,15 @@ Parameters
  </tr>
  <tr>
  <td>reliable</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">serial</span> - Serial numbers of the FortiAnalyzer. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: serial:name</span>
@@ -450,7 +457,7 @@ Parameters
  </tr>
  <tr>
  <td>serial</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -466,7 +473,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -482,12 +489,12 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - Source IPv4 or IPv6 address used to communicate with FortiAnalyzer. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server_cert_ca</span> - Mandatory CA on FortiGate in certificate chain of server. Source certificate.ca.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -496,13 +503,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>server_cert_ca</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_min_proto_version</span> - Minimum supported protocol version for SSL/TLS connections . <span class="li-normal">type: str</span> <span class="li-normal">choices: default, SSLv3, TLSv1, TLSv1-1, TLSv1-2, TLSv1-3</span>
+        <li> <span class="li-head">source_ip</span> - Source IPv4 or IPv6 address used to communicate with FortiAnalyzer. <span class="li-normal">type: str</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -511,27 +518,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_min_proto_version</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
- </tr>
- <tr>
- <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[SSLv3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[TLSv1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[TLSv1-1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[TLSv1-2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[TLSv1-3]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest</code></td>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable logging to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_min_proto_version</span> - Minimum supported protocol version for SSL/TLS connections . <span class="li-normal">type: str</span> <span class="li-normal">choices: default, SSLv3, TLSv1, TLSv1-1, TLSv1-2, TLSv1-3</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -540,17 +533,32 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>ssl_min_proto_version</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[default]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[SSLv3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[TLSv1]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[TLSv1-1]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[TLSv1-2]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[TLSv1-3]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </tr>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">upload_day</span> - Day of week (month) to upload logs. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - Enable/disable logging to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -559,13 +567,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upload_day</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">upload_interval</span> - Frequency to upload log files to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: daily, weekly, monthly</span>
+        <li> <span class="li-head">upload_day</span> - Day of week (month) to upload logs. <span class="li-normal">type: str</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -574,19 +588,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upload_interval</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>upload_day</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[daily]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[weekly]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[monthly]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">upload_option</span> - Enable/disable logging to hard disk and then uploading to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: store-and-upload, realtime, 1-minute, 5-minute</span>
+        <li> <span class="li-head">upload_interval</span> - Frequency to upload log files to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: daily, weekly, monthly</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -595,21 +603,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upload_option</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>upload_interval</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[store-and-upload]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[realtime]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[1-minute]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[5-minute]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[daily]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[weekly]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[monthly]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">upload_time</span> - Time to upload logs (hh:mm). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">upload_option</span> - Enable/disable logging to hard disk and then uploading to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: store-and-upload, realtime, 1-minute, 5-minute</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -618,13 +627,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upload_time</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td>upload_option</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[store-and-upload]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[realtime]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[1-minute]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[5-minute]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">use_management_vdom</span> - Enable/disable use of management VDOM IP address as source IP for logs sent to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">upload_time</span> - Time to upload logs (hh:mm). <span class="li-normal">type: str</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -633,14 +654,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>upload_time</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">use_management_vdom</span> - Enable/disable use of management VDOM IP address as source IP for logs sent to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>use_management_vdom</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -690,6 +728,7 @@ Examples
                   -
                       name: "default_name_25"
               server: "192.168.100.40"
+              server_cert_ca: "<your_own_value> (source certificate.ca.name vpn.certificate.ca.name)"
               source_ip: "84.230.14.43"
               ssl_min_proto_version: "default"
               status: "enable"

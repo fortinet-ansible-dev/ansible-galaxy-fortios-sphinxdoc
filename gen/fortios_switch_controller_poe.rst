@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,24 +33,8 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_switch_controller_poe</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 -> v6.4.1 </code></td>
- </tr>
- </table>
- <p>
-
+Supported Version Ranges: v6.2.0, v6.2.5 -> v6.2.7
+, v6.4.1
 
 
 Parameters

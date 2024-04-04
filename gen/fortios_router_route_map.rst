@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_router_route_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>router_route_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +90,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>rule</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -134,13 +120,15 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[permit]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">id</span> - Rule ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
@@ -153,7 +141,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -168,7 +156,7 @@ Parameters
  </tr>
  <tr>
  <td>match_as_path</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +171,7 @@ Parameters
  </tr>
  <tr>
  <td>match_community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -198,13 +186,15 @@ Parameters
  </tr>
  <tr>
  <td>match_community_exact</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">match_extcommunity</span> - Match BGP extended community list. Source router.extcommunity-list.name. <span class="li-normal">type: str</span>
@@ -217,7 +207,7 @@ Parameters
  </tr>
  <tr>
  <td>match_extcommunity</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -232,13 +222,15 @@ Parameters
  </tr>
  <tr>
  <td>match_extcommunity_exact</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">match_flags</span> - BGP flag value to match (0 - 65535) <span class="li-normal">type: int</span>
@@ -266,7 +258,7 @@ Parameters
  </tr>
  <tr>
  <td>match_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -281,7 +273,7 @@ Parameters
  </tr>
  <tr>
  <td>match_ip_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -296,7 +288,7 @@ Parameters
  </tr>
  <tr>
  <td>match_ip_nexthop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -311,7 +303,7 @@ Parameters
  </tr>
  <tr>
  <td>match_ip6_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -326,7 +318,7 @@ Parameters
  </tr>
  <tr>
  <td>match_ip6_nexthop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -341,7 +333,7 @@ Parameters
  </tr>
  <tr>
  <td>match_metric</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -356,17 +348,21 @@ Parameters
  </tr>
  <tr>
  <td>match_origin</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[egp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[igp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[incomplete]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">match_route_type</span> - Match route type. <span class="li-normal">type: str</span> <span class="li-normal">choices: external-type1, external-type2, none, 1, 2</span>
@@ -379,19 +375,20 @@ Parameters
  </tr>
  <tr>
  <td>match_route_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[external-type1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[external-type2]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[1]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
  </tr>
@@ -412,7 +409,7 @@ Parameters
  </tr>
  <tr>
  <td>match_tag</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -427,7 +424,7 @@ Parameters
  </tr>
  <tr>
  <td>match_vrf</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -442,7 +439,7 @@ Parameters
  </tr>
  <tr>
  <td>set_aggregator_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -457,7 +454,7 @@ Parameters
  </tr>
  <tr>
  <td>set_aggregator_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -471,7 +468,7 @@ Parameters
  </tr>
  <tr>
  <td>set_aspath</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -487,7 +484,7 @@ Parameters
  </tr>
  <tr>
  <td>as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -503,13 +500,15 @@ Parameters
  </tr>
  <tr>
  <td>set_aspath_action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[prepend]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[replace]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">set_atomic_aggregate</span> - Enable/disable BGP atomic aggregate attribute. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -522,13 +521,15 @@ Parameters
  </tr>
  <tr>
  <td>set_atomic_aggregate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">set_community</span> - BGP community attribute. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: rule:id/set_community:community</span>
@@ -540,7 +541,7 @@ Parameters
  </tr>
  <tr>
  <td>set_community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -556,7 +557,7 @@ Parameters
  </tr>
  <tr>
  <td>community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -572,13 +573,15 @@ Parameters
  </tr>
  <tr>
  <td>set_community_additive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">set_community_delete</span> - Delete communities matching community list. Source router.community-list.name. <span class="li-normal">type: str</span>
@@ -591,7 +594,7 @@ Parameters
  </tr>
  <tr>
  <td>set_community_delete</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -606,7 +609,7 @@ Parameters
  </tr>
  <tr>
  <td>set_dampening_max_suppress</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -621,7 +624,7 @@ Parameters
  </tr>
  <tr>
  <td>set_dampening_reachability_half_life</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -636,7 +639,7 @@ Parameters
  </tr>
  <tr>
  <td>set_dampening_reuse</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -651,7 +654,7 @@ Parameters
  </tr>
  <tr>
  <td>set_dampening_suppress</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -666,7 +669,7 @@ Parameters
  </tr>
  <tr>
  <td>set_dampening_unreachability_half_life</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -680,7 +683,7 @@ Parameters
  </tr>
  <tr>
  <td>set_extcommunity_rt</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -696,7 +699,7 @@ Parameters
  </tr>
  <tr>
  <td>community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -711,7 +714,7 @@ Parameters
  </tr>
  <tr>
  <td>set_extcommunity_soo</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -727,7 +730,7 @@ Parameters
  </tr>
  <tr>
  <td>community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -758,7 +761,7 @@ Parameters
  </tr>
  <tr>
  <td>set_ip_nexthop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -773,7 +776,7 @@ Parameters
  </tr>
  <tr>
  <td>set_ip_prefsrc</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -788,7 +791,7 @@ Parameters
  </tr>
  <tr>
  <td>set_ip6_nexthop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -803,7 +806,7 @@ Parameters
  </tr>
  <tr>
  <td>set_ip6_nexthop_local</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -818,7 +821,7 @@ Parameters
  </tr>
  <tr>
  <td>set_local_preference</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -833,7 +836,7 @@ Parameters
  </tr>
  <tr>
  <td>set_metric</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -848,19 +851,20 @@ Parameters
  </tr>
  <tr>
  <td>set_metric_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[external-type1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[external-type2]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[1]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
  </tr>
@@ -881,17 +885,21 @@ Parameters
  </tr>
  <tr>
  <td>set_origin</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[egp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[igp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[incomplete]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">set_originator_id</span> - BGP originator ID attribute. <span class="li-normal">type: str</span>
@@ -904,7 +912,7 @@ Parameters
  </tr>
  <tr>
  <td>set_originator_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -919,7 +927,7 @@ Parameters
  </tr>
  <tr>
  <td>set_priority</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -934,7 +942,7 @@ Parameters
  </tr>
  <tr>
  <td>set_route_tag</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -949,7 +957,7 @@ Parameters
  </tr>
  <tr>
  <td>set_tag</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -964,12 +972,12 @@ Parameters
  </tr>
  <tr>
  <td>set_vpnv4_nexthop</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">set_weight</span> - BGP weight for routing table. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">set_vpnv6_nexthop</span> - IPv6 global address of VPNv6 next-hop. <span class="li-normal">type: str</span>
  <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
  <div id="label111" style="display:none">
  <table border="1">
@@ -978,8 +986,38 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>set_vpnv6_nexthop</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">set_vpnv6_nexthop_local</span> - IPv6 link-local address of VPNv6 next-hop. <span class="li-normal">type: str</span>
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>set_vpnv6_nexthop_local</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">set_weight</span> - BGP weight for routing table. <span class="li-normal">type: int</span>
+ <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
+ <div id="label115" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>set_weight</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1068,6 +1106,8 @@ Examples
                       set_route_tag: ""
                       set_tag: ""
                       set_vpnv4_nexthop: "<your_own_value>"
+                      set_vpnv6_nexthop: "<your_own_value>"
+                      set_vpnv6_nexthop_local: "<your_own_value>"
                       set_weight: ""
 
 

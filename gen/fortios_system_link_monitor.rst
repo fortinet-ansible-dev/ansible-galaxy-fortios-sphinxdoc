@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_link_monitor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>system_link_monitor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,13 +75,15 @@ Parameters
  </tr>
  <tr>
  <td>addr_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ipv4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ipv6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">class_id</span> - Traffic class ID. Source firewall.traffic-class.class-id. <span class="li-normal">type: int</span>
@@ -108,7 +96,7 @@ Parameters
  </tr>
  <tr>
  <td>class_id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -123,7 +111,7 @@ Parameters
  </tr>
  <tr>
  <td>diffservcode</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -138,7 +126,7 @@ Parameters
  </tr>
  <tr>
  <td>fail_weight</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +141,7 @@ Parameters
  </tr>
  <tr>
  <td>failtime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -168,7 +156,7 @@ Parameters
  </tr>
  <tr>
  <td>gateway_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +171,7 @@ Parameters
  </tr>
  <tr>
  <td>gateway_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -198,7 +186,7 @@ Parameters
  </tr>
  <tr>
  <td>ha_priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -213,7 +201,7 @@ Parameters
  </tr>
  <tr>
  <td>http_agent</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -228,7 +216,7 @@ Parameters
  </tr>
  <tr>
  <td>http_get</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -243,7 +231,7 @@ Parameters
  </tr>
  <tr>
  <td>http_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -258,7 +246,7 @@ Parameters
  </tr>
  <tr>
  <td>interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -273,7 +261,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -288,7 +276,7 @@ Parameters
  </tr>
  <tr>
  <td>packet_size</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -303,7 +291,7 @@ Parameters
  </tr>
  <tr>
  <td>password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -318,7 +306,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -333,7 +321,7 @@ Parameters
  </tr>
  <tr>
  <td>probe_count</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -349,7 +337,7 @@ Parameters
  <tr>
  <td>probe_timeout</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -364,23 +352,28 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[tcp-echo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[udp-echo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[twamp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ping6]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v6.4.1</code></td>
@@ -398,7 +391,7 @@ Parameters
  </tr>
  <tr>
  <td>recoverytime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -412,7 +405,7 @@ Parameters
  </tr>
  <tr>
  <td>route</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -428,7 +421,7 @@ Parameters
  </tr>
  <tr>
  <td>subnet</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -444,13 +437,15 @@ Parameters
  </tr>
  <tr>
  <td>security_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[authentication]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">server</span> - IP address of the server(s) to be monitored. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server:address</span>
@@ -462,7 +457,7 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -478,7 +473,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -494,13 +489,15 @@ Parameters
  </tr>
  <tr>
  <td>server_config</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[individual]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">server_list</span> - Servers for link-monitor to monitor. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server_list:id</span>
@@ -512,7 +509,7 @@ Parameters
  </tr>
  <tr>
  <td>server_list</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -528,7 +525,7 @@ Parameters
  </tr>
  <tr>
  <td>dst</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -543,7 +540,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -558,7 +555,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -573,23 +570,28 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[tcp-echo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[udp-echo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[twamp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">weight</span> - Weight of the monitor to this dst (0 - 255). <span class="li-normal">type: int</span>
@@ -602,7 +604,7 @@ Parameters
  </tr>
  <tr>
  <td>weight</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -618,13 +620,15 @@ Parameters
  </tr>
  <tr>
  <td>server_type</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[static]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[dynamic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">service_detection</span> - Only use monitor to read quality values. If enabled, static routes and cascade interfaces will not be updated. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -637,13 +641,15 @@ Parameters
  </tr>
  <tr>
  <td>service_detection</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">source_ip</span> - Source IP address used in packet to the server. <span class="li-normal">type: str</span>
@@ -656,7 +662,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -671,7 +677,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -686,7 +692,7 @@ Parameters
  </tr>
  <tr>
  <td>srcintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -701,13 +707,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">update_cascade_interface</span> - Enable/disable update cascade interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -720,13 +728,15 @@ Parameters
  </tr>
  <tr>
  <td>update_cascade_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">update_policy_route</span> - Enable/disable updating the policy route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -739,13 +749,15 @@ Parameters
  </tr>
  <tr>
  <td>update_policy_route</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">update_static_route</span> - Enable/disable updating the static route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -758,13 +770,15 @@ Parameters
  </tr>
  <tr>
  <td>update_static_route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>

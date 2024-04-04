@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_switch_controller_snmp_user</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.2.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_snmp_user</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,29 +75,30 @@ Parameters
  </tr>
  <tr>
  <td>auth_proto</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[sha1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[sha224]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[sha256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[sha384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[sha512]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[sha]</td>
@@ -130,7 +117,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_pwd</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -145,7 +132,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -160,31 +147,32 @@ Parameters
  </tr>
  <tr>
  <td>priv_proto</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[aes128]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[aes192]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[aes192c]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[aes256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[aes256c]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[des]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[aes]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
  </tr>
@@ -201,7 +189,7 @@ Parameters
  </tr>
  <tr>
  <td>priv_pwd</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -216,13 +204,15 @@ Parameters
  </tr>
  <tr>
  <td>queries</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">query_port</span> - SNMPv3 query port . <span class="li-normal">type: int</span>
@@ -235,7 +225,7 @@ Parameters
  </tr>
  <tr>
  <td>query_port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -250,15 +240,18 @@ Parameters
  </tr>
  <tr>
  <td>security_level</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[no-auth-no-priv]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[auth-no-priv]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[auth-priv]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>

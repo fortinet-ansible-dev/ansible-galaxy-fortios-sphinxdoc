@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_videofilter_youtube_channel_filter</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.0.0 -> v7.4.1
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>videofilter_youtube_channel_filter</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -108,11 +94,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.2.4</code></td>
+ <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.2.4</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.2.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">entries</span> - YouTube filter entries. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: entries:id</span>
@@ -124,7 +113,7 @@ Parameters
  </tr>
  <tr>
  <td>entries</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -140,17 +129,19 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
  </tr>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1</code></td>
+ <tr>
  <td>[bypass]</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
  </tr>
@@ -167,7 +158,7 @@ Parameters
  </tr>
  <tr>
  <td>channel_id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -182,7 +173,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -197,7 +188,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -213,7 +204,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -228,13 +219,15 @@ Parameters
  </tr>
  <tr>
  <td>log</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span>
@@ -247,7 +240,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -267,9 +260,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         </ul>

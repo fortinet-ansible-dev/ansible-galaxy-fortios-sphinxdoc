@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_sflow</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_sflow</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>collector_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -103,27 +89,27 @@ Parameters
  </tr>
  <tr>
  <td>collector_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">collectors</span> - sFlow collectors. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: collectors:id</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td>collectors</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">collector_ip</span> - IP addresses of the sFlow collectors that sFlow agents added to interfaces in this VDOM send sFlow datagrams to. <span class="li-normal">type: str</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -132,19 +118,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td>collector_ip</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - Source IP address for sFlow agent. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">collector_port</span> - UDP port number used for sending sFlow datagrams (configure only if required by your sFlow collector or your network configuration) (0 - 65535). <span class="li-normal">type: int</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -153,8 +133,132 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>collector_port</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface_select_method</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[sdwan]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[specify]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">source_ip</span> - Source IP address for sFlow agent. <span class="li-normal">type: str</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface_select_method</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1 </code></td>
+ </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
+ <tr>
+ <td>[sdwan]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
+ <tr>
+ <td>[specify]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.4.1</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">source_ip</span> - Source IP address for sFlow agent. <span class="li-normal">type: str</span>
+ <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
+ <div id="label25" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
  </tr>
  </table>
  </div>
@@ -183,6 +287,14 @@ Examples
           system_sflow:
               collector_ip: "<your_own_value>"
               collector_port: "6343"
+              collectors:
+                  -
+                      collector_ip: "<your_own_value>"
+                      collector_port: "6343"
+                      id: "8"
+                      interface: "<your_own_value> (source system.interface.name)"
+                      interface_select_method: "auto"
+                      source_ip: "84.230.14.43"
               interface: "<your_own_value> (source system.interface.name)"
               interface_select_method: "auto"
               source_ip: "84.230.14.43"

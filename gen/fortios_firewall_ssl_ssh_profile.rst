@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_firewall_ssl_ssh_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_ssl_ssh_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,13 +75,15 @@ Parameters
  </tr>
  <tr>
  <td>allowlist</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">block_blacklisted_certificates</span> - Enable/disable blocking SSL-based botnet communication by FortiGuard certificate blacklist. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -112,9 +100,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">block_blocklisted_certificates</span> - Enable/disable blocking SSL-based botnet communication by FortiGuard certificate blocklist. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -127,13 +117,15 @@ Parameters
  </tr>
  <tr>
  <td>block_blocklisted_certificates</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">caname</span> - CA certificate used by SSL Inspection. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
@@ -146,7 +138,7 @@ Parameters
  </tr>
  <tr>
  <td>caname</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -161,7 +153,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -175,7 +167,7 @@ Parameters
  </tr>
  <tr>
  <td>dot</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -191,15 +183,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -212,15 +207,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -233,15 +231,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -254,15 +255,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">proxy_after_tcp_handshake</span> - Proxy traffic after the TCP 3-way handshake has been established (not before). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -275,16 +279,18 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-            <li> <span class="li-head">quic</span> - Enable/disable QUIC inspection . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+            <li> <span class="li-head">quic</span> - QUIC inspection status . <span class="li-normal">type: str</span> <span class="li-normal">choices: inspect, bypass, block, disable, enable</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -294,13 +300,29 @@ Parameters
  </tr>
  <tr>
  <td>quic</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[inspect]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </tr>
+ <tr>
+ <td>[bypass]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </tr>
+ <tr>
+ <td>[block]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> v7.4.1</code></td>
+ </tr>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> v7.4.1</code></td>
+ </tr>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -313,15 +335,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -334,15 +359,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -355,13 +383,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -374,13 +404,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -393,13 +425,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -412,13 +446,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -435,15 +471,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -456,7 +495,7 @@ Parameters
  </tr>
  <tr>
  <td>ftps</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -476,9 +515,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -491,15 +532,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -512,15 +556,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -537,11 +584,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -554,15 +604,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -575,15 +628,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -600,9 +656,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">min_allowed_ssl_version</span> - Minimum SSL version to be allowed. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
@@ -615,19 +673,24 @@ Parameters
  </tr>
  <tr>
  <td>min_allowed_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -641,15 +704,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -662,15 +728,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -683,13 +752,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -706,11 +777,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -723,13 +797,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -742,13 +818,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -761,13 +839,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -788,11 +868,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -805,15 +888,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -826,7 +912,7 @@ Parameters
  </tr>
  <tr>
  <td>https</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -846,9 +932,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_probe_failure</span> - Action based on certificate probe failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -861,13 +949,15 @@ Parameters
  </tr>
  <tr>
  <td>cert_probe_failure</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -880,15 +970,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -901,15 +994,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -926,11 +1022,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -943,15 +1042,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -964,15 +1066,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -989,9 +1094,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">min_allowed_ssl_version</span> - Minimum SSL version to be allowed. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
@@ -1004,19 +1111,24 @@ Parameters
  </tr>
  <tr>
  <td>min_allowed_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -1030,16 +1142,18 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-            <li> <span class="li-head">quic</span> - Enable/disable QUIC inspection . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+            <li> <span class="li-head">quic</span> - QUIC inspection status . <span class="li-normal">type: str</span> <span class="li-normal">choices: inspect, bypass, block, disable, enable</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
@@ -1049,13 +1163,29 @@ Parameters
  </tr>
  <tr>
  <td>quic</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[inspect]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </tr>
+ <tr>
+ <td>[bypass]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </tr>
+ <tr>
+ <td>[block]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> v7.4.1</code></td>
+ </tr>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> v7.4.1</code></td>
+ </tr>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1068,15 +1198,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -1089,15 +1222,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, certificate-inspection, deep-inspection</span>
@@ -1110,15 +1246,18 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[certificate-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1135,11 +1274,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1152,13 +1294,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1171,13 +1315,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -1190,13 +1336,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -1217,11 +1365,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1234,15 +1385,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1255,7 +1409,7 @@ Parameters
  </tr>
  <tr>
  <td>imaps</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1275,9 +1429,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1290,15 +1446,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1311,15 +1470,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1336,11 +1498,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1353,15 +1518,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1374,15 +1542,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1399,9 +1570,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -1415,13 +1588,15 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1434,15 +1609,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -1455,15 +1633,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -1476,13 +1657,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1499,11 +1682,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1516,13 +1702,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1535,13 +1723,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -1554,13 +1744,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -1581,11 +1773,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1598,15 +1793,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -1620,13 +1818,15 @@ Parameters
  </tr>
  <tr>
  <td>mapi_over_https</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -1639,7 +1839,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1653,7 +1853,7 @@ Parameters
  </tr>
  <tr>
  <td>pop3s</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -1673,9 +1873,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1688,15 +1890,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1709,15 +1914,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1734,11 +1942,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1751,15 +1962,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1772,15 +1986,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1797,9 +2014,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -1813,13 +2032,15 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1832,15 +2053,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -1853,15 +2077,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -1874,13 +2101,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -1897,11 +2126,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1914,13 +2146,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -1933,13 +2167,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -1952,13 +2188,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -1979,11 +2217,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -1996,15 +2237,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2018,13 +2262,15 @@ Parameters
  </tr>
  <tr>
  <td>rpc_over_https</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">server_cert</span> - Certificate used by SSL Inspection to replace server certificate. Source vpn.certificate.local.name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server_cert:name</span>
@@ -2036,7 +2282,7 @@ Parameters
  </tr>
  <tr>
  <td>server_cert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2052,7 +2298,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2068,13 +2314,15 @@ Parameters
  </tr>
  <tr>
  <td>server_cert_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[re-sign]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[replace]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">smtps</span> - Configure SMTPS options. <span class="li-normal">type: dict</span>
@@ -2086,7 +2334,7 @@ Parameters
  </tr>
  <tr>
  <td>smtps</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2106,9 +2354,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2121,15 +2371,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2142,15 +2395,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2167,11 +2423,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2184,15 +2443,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2205,15 +2467,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2230,9 +2495,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -2246,13 +2513,15 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2265,15 +2534,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -2286,15 +2558,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -2307,13 +2582,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2330,11 +2607,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2347,13 +2627,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2366,13 +2648,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -2385,13 +2669,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -2412,11 +2698,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2429,15 +2718,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2450,7 +2742,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2466,13 +2758,15 @@ Parameters
  </tr>
  <tr>
  <td>inspect_all</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ports</span> - Ports to use for scanning (1 - 65535). <span class="li-normal">type: list</span> </li>
@@ -2486,13 +2780,15 @@ Parameters
  </tr>
  <tr>
  <td>proxy_after_tcp_handshake</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ssh_algorithm</span> - Relative strength of encryption algorithms accepted during negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: compatible, high-encryption</span>
@@ -2505,13 +2801,15 @@ Parameters
  </tr>
  <tr>
  <td>ssh_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[compatible]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[high-encryption]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ssh_policy_check</span> - Enable/disable SSH policy check. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -2528,9 +2826,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ssh_tun_policy_check</span> - Enable/disable SSH tunnel policy check. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -2543,13 +2843,15 @@ Parameters
  </tr>
  <tr>
  <td>ssh_tun_policy_check</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Configure protocol inspection status. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, deep-inspection</span>
@@ -2562,13 +2864,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_version</span> - Action based on SSH version being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, block</span>
@@ -2581,13 +2885,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2600,7 +2906,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -2620,9 +2926,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_probe_failure</span> - Action based on certificate probe failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2635,13 +2943,15 @@ Parameters
  </tr>
  <tr>
  <td>cert_probe_failure</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_failure</span> - Action based on certificate validation failure. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2654,15 +2964,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_failure</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">cert_validation_timeout</span> - Action based on certificate validation timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2675,15 +2988,18 @@ Parameters
  </tr>
  <tr>
  <td>cert_validation_timeout</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_cert_request</span> - Action based on client certificate request. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2700,11 +3016,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">client_certificate</span> - Action based on received client certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2717,15 +3036,18 @@ Parameters
  </tr>
  <tr>
  <td>client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">expired_server_cert</span> - Action based on server certificate is expired. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2738,15 +3060,18 @@ Parameters
  </tr>
  <tr>
  <td>expired_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">inspect_all</span> - Level of SSL inspection. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, certificate-inspection, deep-inspection</span>
@@ -2759,15 +3084,18 @@ Parameters
  </tr>
  <tr>
  <td>inspect_all</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[certificate-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[deep-inspection]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">invalid_server_cert</span> - Allow or block the invalid SSL session server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2784,9 +3112,11 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">min_allowed_ssl_version</span> - Minimum SSL version to be allowed. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
@@ -2799,19 +3129,24 @@ Parameters
  </tr>
  <tr>
  <td>min_allowed_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">revoked_server_cert</span> - Action based on server certificate is revoked. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2824,15 +3159,18 @@ Parameters
  </tr>
  <tr>
  <td>revoked_server_cert</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">sni_server_cert_check</span> - Check the SNI in the client hello message with the CN or SAN fields in the returned server certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, strict, disable</span>
@@ -2845,15 +3183,18 @@ Parameters
  </tr>
  <tr>
  <td>sni_server_cert_check</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl</span> - Action based on the SSL encryption used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -2870,11 +3211,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_cipher</span> - Action based on the SSL cipher used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2887,13 +3231,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_cipher</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_negotiation</span> - Action based on the SSL negotiation used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block</span>
@@ -2906,13 +3252,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_negotiation</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">unsupported_ssl_version</span> - Action based on the SSL version used being unsupported. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, inspect</span>
@@ -2925,13 +3273,15 @@ Parameters
  </tr>
  <tr>
  <td>unsupported_ssl_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.3</code></td>
  </tr>
@@ -2952,11 +3302,14 @@ Parameters
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">untrusted_server_cert</span> - Action based on server certificate is not issued by a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, block, ignore</span>
@@ -2969,15 +3322,18 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_server_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -2995,9 +3351,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_anomaly_log</span> - Enable/disable logging of SSL anomalies. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3010,13 +3368,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_anomaly_log</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_exempt</span> - Servers to exempt from SSL inspection. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_exempt:id</span>
@@ -3028,7 +3388,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_exempt</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3044,7 +3404,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3059,7 +3419,7 @@ Parameters
  </tr>
  <tr>
  <td>address6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3074,7 +3434,7 @@ Parameters
  </tr>
  <tr>
  <td>fortiguard_category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3089,7 +3449,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3104,7 +3464,7 @@ Parameters
  </tr>
  <tr>
  <td>regex</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3119,19 +3479,24 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[fortiguard-category]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[address]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[address6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[wildcard-fqdn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[regex]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">wildcard_fqdn</span> - Exempt servers by wildcard FQDN. Source firewall.wildcard-fqdn.custom.name firewall.wildcard-fqdn.group.name. <span class="li-normal">type: str</span>
@@ -3144,7 +3509,7 @@ Parameters
  </tr>
  <tr>
  <td>wildcard_fqdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3160,13 +3525,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_exemption_ip_rating</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_exemption_log</span> - Enable/disable logging of SSL exemptions. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3179,13 +3546,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_exemption_log</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_exemptions_log</span> - Enable/disable logging SSL exemptions. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3202,9 +3571,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_handshake_log</span> - Enable/disable logging of TLS handshakes. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3217,13 +3588,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_handshake_log</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_negotiation_log</span> - Enable/disable logging of SSL negotiation events. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -3236,13 +3609,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_negotiation_log</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ssl_server</span> - SSL server settings used for client certificate request. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_server:id</span>
@@ -3254,7 +3629,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3274,11 +3649,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ftps_client_certificate</span> - Action based on received client certificate during the FTPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3291,15 +3669,18 @@ Parameters
  </tr>
  <tr>
  <td>ftps_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">https_client_cert_request</span> - Action based on client certificate request during the HTTPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3316,11 +3697,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">https_client_certificate</span> - Action based on received client certificate during the HTTPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3333,15 +3717,18 @@ Parameters
  </tr>
  <tr>
  <td>https_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">id</span> - SSL server ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
@@ -3354,7 +3741,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3373,11 +3760,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">imaps_client_certificate</span> - Action based on received client certificate during the IMAPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3390,15 +3780,18 @@ Parameters
  </tr>
  <tr>
  <td>imaps_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ip</span> - IPv4 address of the SSL server. <span class="li-normal">type: str</span>
@@ -3411,7 +3804,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3430,11 +3823,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">pop3s_client_certificate</span> - Action based on received client certificate during the POP3S handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3447,15 +3843,18 @@ Parameters
  </tr>
  <tr>
  <td>pop3s_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">smtps_client_cert_request</span> - Action based on client certificate request during the SMTPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3472,11 +3871,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">smtps_client_certificate</span> - Action based on received client certificate during the SMTPS handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3489,15 +3891,18 @@ Parameters
  </tr>
  <tr>
  <td>smtps_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ssl_other_client_cert_request</span> - Action based on client certificate request during an SSL protocol handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3514,11 +3919,14 @@ Parameters
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">ssl_other_client_certificate</span> - Action based on received client certificate during an SSL protocol handshake. <span class="li-normal">type: str</span> <span class="li-normal">choices: bypass, inspect, block</span>
@@ -3531,15 +3939,18 @@ Parameters
  </tr>
  <tr>
  <td>ssl_other_client_certificate</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[inspect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -3553,13 +3964,15 @@ Parameters
  </tr>
  <tr>
  <td>ssl_server_cert_log</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">supported_alpn</span> - Configure ALPN option. <span class="li-normal">type: str</span> <span class="li-normal">choices: http1-1, http2, all, none</span>
@@ -3572,17 +3985,21 @@ Parameters
  </tr>
  <tr>
  <td>supported_alpn</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[http1-1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[http2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">untrusted_caname</span> - Untrusted CA certificate used by SSL Inspection. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
@@ -3595,7 +4012,7 @@ Parameters
  </tr>
  <tr>
  <td>untrusted_caname</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -3610,13 +4027,15 @@ Parameters
  </tr>
  <tr>
  <td>use_ssl_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">whitelist</span> - Enable/disable exempting servers by FortiGuard whitelist. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -3633,9 +4052,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.4.4</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -3673,7 +4094,7 @@ Examples
                   client_certificate: "bypass"
                   expired_server_cert: "allow"
                   proxy_after_tcp_handshake: "enable"
-                  quic: "disable"
+                  quic: "inspect"
                   revoked_server_cert: "allow"
                   sni_server_cert_check: "enable"
                   status: "disable"
@@ -3712,7 +4133,7 @@ Examples
                   min_allowed_ssl_version: "ssl-3.0"
                   ports: "<your_own_value>"
                   proxy_after_tcp_handshake: "enable"
-                  quic: "disable"
+                  quic: "inspect"
                   revoked_server_cert: "allow"
                   sni_server_cert_check: "enable"
                   status: "disable"

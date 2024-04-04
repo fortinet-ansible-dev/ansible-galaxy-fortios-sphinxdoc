@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_extension_controller_fortigate</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.2.1 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>extension_controller_fortigate</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,17 +75,19 @@ Parameters
  </tr>
  <tr>
  <td>authorized</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[discovered]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
@@ -112,7 +100,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -127,7 +115,7 @@ Parameters
  </tr>
  <tr>
  <td>device_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -142,7 +130,7 @@ Parameters
  </tr>
  <tr>
  <td>hostname</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -157,7 +145,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -172,7 +160,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -187,7 +175,7 @@ Parameters
  </tr>
  <tr>
  <td>profile</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

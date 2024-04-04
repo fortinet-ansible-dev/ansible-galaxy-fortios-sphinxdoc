@@ -4,7 +4,7 @@ FortiOS Galaxy Versioning
 FortiOS Galaxy versions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-From ``v2.0.0`` on, FortiOS galaxy collections are unified, and cover FortiOS 6.0, 6.2, 6.4, 7.0, 7.2 versions. There is only one sequential collection at any moment. users who install these collections
+From ``v2.0.0`` on, FortiOS galaxy collections are unified, and cover FortiOS 6.0, 6.2, 6.4, 7.0, 7.2, 7.4 versions. There is only one sequential collection at any moment. users who install these collections
 are expected to find the version compatibility information for each module and its parameters.
 
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
@@ -50,7 +50,9 @@ are expected to find the version compatibility information for each module and i
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
 | unified       | 2.3.4               | 2023/11/02     | ``ansible-galaxy collection install fortinet.fortios:2.3.4``    |
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
-| unified       | 2.3.5 ``latest``    | 2024/2/6       | ``ansible-galaxy collection install fortinet.fortios:2.3.5``    |
+| unified       | 2.3.5               | 2024/2/6       | ``ansible-galaxy collection install fortinet.fortios:2.3.5``    |
++---------------+---------------------+----------------+-----------------------------------------------------------------+
+| unified       | 2.3.6 ``latest``    | 2024/4/3       | ``ansible-galaxy collection install fortinet.fortios:2.3.6``    |
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
 
 

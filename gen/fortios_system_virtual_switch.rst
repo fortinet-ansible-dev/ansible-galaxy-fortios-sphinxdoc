@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,24 +33,10 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_virtual_switch</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- </tr>
- </table>
- <p>
-
+Supported Version Ranges: v6.0.0 -> v6.2.7
+, v6.4.1 -> v7.0.12
+, v7.2.1 -> v7.2.4
+, v7.4.2
 
 
 Parameters
@@ -71,13 +57,14 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
+ <td></td><td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_virtual_switch</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,13 +76,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -106,13 +94,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>physical_switch</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -122,13 +111,14 @@ Parameters
  <div id="label7" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
+ <td></td><td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>port</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -140,13 +130,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>alias</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -166,9 +157,11 @@ Parameters
  </tr>
  <tr>
  <td>[cfp2-sr10]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[cfp2-lr4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">name</span> - Physical interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -177,13 +170,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -203,29 +197,41 @@ Parameters
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[10full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[10half]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[100full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[100half]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[1000full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[1000half]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[1000auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[10000full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[10000auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[40000full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[100Gfull]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">status</span> - Interface status. <span class="li-normal">type: str</span> <span class="li-normal">choices: up, down</span>
@@ -243,9 +249,11 @@ Parameters
  </tr>
  <tr>
  <td>[up]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
             </ul>
@@ -265,9 +273,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">span_dest_port</span> - SPAN destination port. <span class="li-normal">type: str</span>
@@ -303,11 +313,14 @@ Parameters
  </tr>
  <tr>
  <td>[rx]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[tx]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">span_source_port</span> - SPAN source port. <span class="li-normal">type: str</span>
@@ -323,6 +336,21 @@ Parameters
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vlan</span> - VLAN. <span class="li-normal">type: int</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vlan</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -364,6 +392,7 @@ Examples
               span_dest_port: "<your_own_value>"
               span_direction: "rx"
               span_source_port: "<your_own_value>"
+              vlan: "0"
 
 
 Return Values

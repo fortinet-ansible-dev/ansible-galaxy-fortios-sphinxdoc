@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_device_upgrade</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.2.4 -> 7.4.3
 
 
 
@@ -73,13 +59,13 @@ Parameters
  </tr>
  <tr>
  <td>system_device_upgrade</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">device_type</span> - Fortinet device type. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortiswitch, fortiap, fortiextender</span>
+        <li> <span class="li-head">device_type</span> - Fortinet device type. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortigate, fortiswitch, fortiap, fortiextender</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -89,15 +75,22 @@ Parameters
  </tr>
  <tr>
  <td>device_type</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[fortigate]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[fortiswitch]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[fortiap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[fortiextender]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">failure_reason</span> - Upgrade failure reason. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, internal, timeout, device-type-unsupported, download-failed, device-missing, version-unavailable, staging-failed, reboot-failed, device-not-reconnected, node-not-ready, no-final-confirmation, no-confirmation-query, config-error-log-nonempty, csf-tree-not-supported, node-failed</span>
@@ -110,46 +103,61 @@ Parameters
  </tr>
  <tr>
  <td>failure_reason</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[internal]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[timeout]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[device-type-unsupported]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[download-failed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[device-missing]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[version-unavailable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[staging-failed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[reboot-failed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[device-not-reconnected]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[node-not-ready]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[no-final-confirmation]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[no-confirmation-query]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[config-error-log-nonempty]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
  <td>[csf-tree-not-supported]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[node-failed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">maximum_minutes</span> - Maximum number of minutes to allow for immediate upgrade preparation. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ha_reboot_controller</span> - Serial number of the FortiGate unit that will control the reboot process for the federated upgrade of the HA cluster. <span class="li-normal">type: str</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -158,28 +166,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_minutes</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td>ha_reboot_controller</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">serial</span> - Serial number of the node to include. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">known_ha_members</span> - Known members of the HA cluster. If a member is missing at upgrade time, the upgrade will be cancelled. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: known_ha_members:serial</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>serial</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td>known_ha_members</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">setup_time</span> - Upgrade preparation start time in UTC (hh:mm yyyy/mm/dd UTC). <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">serial</span> - Serial number of HA member <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -188,13 +196,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>setup_time</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td>serial</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Current status of the upgrade. <span class="li-normal">type: str</span> <span class="li-normal">choices: disabled, initialized, downloading, device-disconnected, ready, coordinating, staging, final-check, upgrade-devices, cancelled, confirmed, done, failed</span>
+            </ul>
+        <li> <span class="li-head">maximum_minutes</span> - Maximum number of minutes to allow for immediate upgrade preparation. <span class="li-normal">type: int</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -203,39 +212,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td>maximum_minutes</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[disabled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[initialized]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[downloading]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[device-disconnected]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[ready]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[coordinating]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[staging]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[final-check]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[upgrade-devices]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[cancelled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[confirmed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[done]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[failed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">time</span> - Scheduled upgrade execution time in UTC (hh:mm yyyy/mm/dd UTC). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">serial</span> - Serial number of the node to include. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -244,13 +227,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>time</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td>serial</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">timing</span> - Run immediately or at a scheduled time. <span class="li-normal">type: str</span> <span class="li-normal">choices: immediate, scheduled</span>
+        <li> <span class="li-head">setup_time</span> - Upgrade preparation start time in UTC (hh:mm yyyy/mm/dd UTC). <span class="li-normal">type: str</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -259,17 +242,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>timing</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td>setup_time</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[immediate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[scheduled]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">upgrade_path</span> - Fortinet OS image versions to upgrade through in major-minor-patch format, such as 7-0-4. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - Current status of the upgrade. <span class="li-normal">type: str</span> <span class="li-normal">choices: disabled, initialized, downloading, device-disconnected, ready, coordinating, staging, final-check, upgrade-devices, cancelled, confirmed, done, failed</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -278,8 +257,98 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[disabled]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[initialized]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[downloading]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[device-disconnected]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[ready]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[coordinating]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[staging]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[final-check]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[upgrade-devices]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[cancelled]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[confirmed]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[done]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[failed]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">time</span> - Scheduled upgrade execution time in UTC (hh:mm yyyy/mm/dd UTC). <span class="li-normal">type: str</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>time</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">timing</span> - Run immediately or at a scheduled time. <span class="li-normal">type: str</span> <span class="li-normal">choices: immediate, scheduled</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>timing</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[immediate]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <tr>
+ <td>[scheduled]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">upgrade_path</span> - Fortinet OS image versions to upgrade through in major-minor-patch format, such as 7-0-4. <span class="li-normal">type: str</span>
+ <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
+ <div id="label25" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>upgrade_path</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -308,8 +377,12 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           system_device_upgrade:
-              device_type: "fortiswitch"
+              device_type: "fortigate"
               failure_reason: "none"
+              ha_reboot_controller: "<your_own_value>"
+              known_ha_members:
+                  -
+                      serial: "<your_own_value>"
               maximum_minutes: "15"
               serial: "<your_own_value>"
               setup_time: "<your_own_value>"

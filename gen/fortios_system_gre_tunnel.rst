@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_gre_tunnel</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> 7.4.3
 
 
 
@@ -73,15 +59,36 @@ Parameters
  </tr>
  <tr>
  <td>system_gre_tunnel</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">checksum_reception</span> - Enable/disable validating checksums in received GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">auto_asic_offload</span> - Enable/disable automatic ASIC offloading. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>auto_asic_offload</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">checksum_reception</span> - Enable/disable validating checksums in received GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
+ <div id="label5" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -91,26 +98,26 @@ Parameters
  <td>checksum_reception</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">checksum_transmission</span> - Enable/disable including checksums in transmitted GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
- <div id="label5" style="display:none">
+ <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
+ <div id="label7" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -120,39 +127,24 @@ Parameters
  <td>checksum_transmission</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">diffservcode</span> - DiffServ setting to be applied to GRE tunnel outer IP header. <span class="li-normal">type: str</span>
- <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
- <div id="label7" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>diffservcode</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">dscp_copying</span> - Enable/disable DSCP copying. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -161,17 +153,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dscp_copying</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>diffservcode</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">interface</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">dscp_copying</span> - Enable/disable DSCP copying. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -180,13 +168,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>dscp_copying</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ip_version</span> - IP version to use for VPN interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: 4, 6</span>
+        <li> <span class="li-head">interface</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -195,17 +189,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ip_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">keepalive_failtimes</span> - Number of consecutive unreturned keepalive messages before a GRE connection is considered down (1 - 255). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ip_version</span> - IP version to use for VPN interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: 4, 6</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -214,13 +204,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>keepalive_failtimes</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>ip_version</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[4]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <tr>
+ <td>[6]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">keepalive_interval</span> - Keepalive message interval (0 - 32767, 0 = disabled). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">keepalive_failtimes</span> - Number of consecutive unreturned keepalive messages before a GRE connection is considered down (1 - 255). <span class="li-normal">type: int</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -229,15 +225,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>keepalive_failtimes</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">keepalive_interval</span> - Keepalive message interval (0 - 32767, 0 = disabled). <span class="li-normal">type: int</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>keepalive_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">key_inbound</span> - Require received GRE packets contain this key (0 - 4294967295). <span class="li-normal">type: int</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -247,14 +258,14 @@ Parameters
  <td>key_inbound</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">key_outbound</span> - Include this key in transmitted GRE packets (0 - 4294967295). <span class="li-normal">type: int</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -264,27 +275,12 @@ Parameters
  <td>key_outbound</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">local_gw</span> - IP address of the local gateway. <span class="li-normal">type: str</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>local_gw</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">local_gw6</span> - IPv6 address of the local gateway. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -293,13 +289,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_gw6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>local_gw</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Tunnel name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">local_gw6</span> - IPv6 address of the local gateway. <span class="li-normal">type: str</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -308,13 +304,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>local_gw6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">remote_gw</span> - IP address of the remote gateway. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - Tunnel name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -323,13 +319,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remote_gw</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">remote_gw6</span> - IPv6 address of the remote gateway. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">remote_gw</span> - IP address of the remote gateway. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -338,15 +334,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>remote_gw</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">remote_gw6</span> - IPv6 address of the remote gateway. <span class="li-normal">type: str</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>remote_gw6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">sequence_number_reception</span> - Enable/disable validating sequence numbers in received GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -356,26 +367,26 @@ Parameters
  <td>sequence_number_reception</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">sequence_number_transmission</span> - Enable/disable including of sequence numbers in transmitted GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -385,26 +396,26 @@ Parameters
  <td>sequence_number_transmission</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">use_sdwan</span> - Enable/disable use of SD-WAN to reach remote gateway. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -412,13 +423,15 @@ Parameters
  </tr>
  <tr>
  <td>use_sdwan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -445,6 +458,7 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           system_gre_tunnel:
+              auto_asic_offload: "enable"
               checksum_reception: "disable"
               checksum_transmission: "disable"
               diffservcode: "<your_own_value>"
@@ -457,7 +471,7 @@ Examples
               key_outbound: "0"
               local_gw: "<your_own_value>"
               local_gw6: "<your_own_value>"
-              name: "default_name_15"
+              name: "default_name_16"
               remote_gw: "<your_own_value>"
               remote_gw6: "<your_own_value>"
               sequence_number_reception: "disable"

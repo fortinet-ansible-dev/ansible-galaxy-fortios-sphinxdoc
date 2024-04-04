@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_casb_user_activity</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.4.1 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>casb_user_activity</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>application</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +90,7 @@ Parameters
  </tr>
  <tr>
  <td>casb_name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -119,19 +105,24 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[activity-control]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[tenant-control]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[domain-control]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[safe-search-control]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[other]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">control_options</span> - CASB control options. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: control_options:name</span>
@@ -143,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>control_options</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -159,7 +150,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -173,7 +164,7 @@ Parameters
  </tr>
  <tr>
  <td>operations</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -189,21 +180,27 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[append]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[prepend]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[replace]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[new]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[new-on-not-found]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[delete]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">case_sensitive</span> - CASB operation search case sensitive. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -216,13 +213,15 @@ Parameters
  </tr>
  <tr>
  <td>case_sensitive</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">direction</span> - CASB operation direction. <span class="li-normal">type: str</span> <span class="li-normal">choices: request</span>
@@ -235,11 +234,12 @@ Parameters
  </tr>
  <tr>
  <td>direction</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[request]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">header_name</span> - CASB operation header name to search. <span class="li-normal">type: str</span>
@@ -252,7 +252,7 @@ Parameters
  </tr>
  <tr>
  <td>header_name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -267,7 +267,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -282,7 +282,7 @@ Parameters
  </tr>
  <tr>
  <td>search_key</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -297,15 +297,18 @@ Parameters
  </tr>
  <tr>
  <td>search_pattern</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[simple]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[substr]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[regexp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">target</span> - CASB operation target. <span class="li-normal">type: str</span> <span class="li-normal">choices: header, path</span>
@@ -318,13 +321,15 @@ Parameters
  </tr>
  <tr>
  <td>target</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">value_from_input</span> - Enable/disable value from user input. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -337,13 +342,15 @@ Parameters
  </tr>
  <tr>
  <td>value_from_input</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">values</span> - CASB operation new values. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: control_options:name/operations:name/values:value</span>
@@ -355,7 +362,7 @@ Parameters
  </tr>
  <tr>
  <td>values</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -371,15 +378,14 @@ Parameters
  </tr>
  <tr>
  <td>value</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
                     </ul>
                 </ul>
-            </ul>
-        <li> <span class="li-head">description</span> - CASB user activity description. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">status</span> - CASB control option status. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -388,30 +394,52 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">description</span> - CASB user activity description. <span class="li-normal">type: str</span>
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">match</span> - CASB user activity match rules. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id</span>
- <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
- <div id="label39" style="display:none">
+ <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
+ <div id="label41" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>match</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">id</span> - CASB user activity match rules ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
- <div id="label41" style="display:none">
+ <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
+ <div id="label43" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -419,29 +447,29 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">rules</span> - CASB user activity rules. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id/rules:id</span>
- <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
- <div id="label43" style="display:none">
+ <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
+ <div id="label45" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>rules</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">case_sensitive</span> - CASB user activity match case sensitive. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
- <div id="label45" style="display:none">
+ <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
+ <div id="label47" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -449,47 +477,33 @@ Parameters
  </tr>
  <tr>
  <td>case_sensitive</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">domains</span> - CASB user activity domain list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id/rules:id/domains:domain</span>
- <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
- <div id="label47" style="display:none">
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>domains</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
                     <ul class="ul-self">
                     <li> <span class="li-head">domain</span> - Domain list separated by space. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
- <div id="label49" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>domain</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-                    </ul>
-                <li> <span class="li-head">header_name</span> - CASB user activity rule header name. <span class="li-normal">type: str</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -498,13 +512,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>header_name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>domain</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - CASB user activity rule ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                    </ul>
+                <li> <span class="li-head">header_name</span> - CASB user activity rule header name. <span class="li-normal">type: str</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -513,13 +528,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>header_name</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">match_pattern</span> - CASB user activity rule match pattern. <span class="li-normal">type: str</span> <span class="li-normal">choices: simple, substr, regexp</span>
+                <li> <span class="li-head">id</span> - CASB user activity rule ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -528,19 +543,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>match_pattern</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[simple]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[substr]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[regexp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-                <li> <span class="li-head">match_value</span> - CASB user activity rule match value. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">match_pattern</span> - CASB user activity rule match pattern. <span class="li-normal">type: str</span> <span class="li-normal">choices: simple, substr, regexp</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -549,44 +558,52 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>match_value</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>match_pattern</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[simple]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[substr]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[regexp]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">methods</span> - CASB user activity method list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id/rules:id/methods:method</span>
+                <li> <span class="li-head">match_value</span> - CASB user activity rule match value. <span class="li-normal">type: str</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>methods</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
- </tr>
- </table>
- </div>
- </li>
-                    <ul class="ul-self">
-                    <li> <span class="li-head">method</span> - User activity method. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
- <div id="label61" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>method</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>match_value</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                    </ul>
-                <li> <span class="li-head">negate</span> - Enable/disable what the matching strategy must not be. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+                <li> <span class="li-head">methods</span> - CASB user activity method list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id/rules:id/methods:method</span>
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>methods</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                    <ul class="ul-self">
+                    <li> <span class="li-head">method</span> - User activity method. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -595,17 +612,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>negate</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>method</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-                <li> <span class="li-head">type</span> - CASB user activity rule type. <span class="li-normal">type: str</span> <span class="li-normal">choices: domains, host, path, header, header-value, method</span>
+                    </ul>
+                <li> <span class="li-head">negate</span> - Enable/disable what the matching strategy must not be. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -614,26 +628,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>negate</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[domains]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[host]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[header-value]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[method]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">strategy</span> - CASB user activity rules strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
+                <li> <span class="li-head">type</span> - CASB user activity rule type. <span class="li-normal">type: str</span> <span class="li-normal">choices: domains, host, path, header, header-value, method</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -642,18 +649,32 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>strategy</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
- <td>[and]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[or]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td>[domains]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[host]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[path]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[header]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[header-value]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[method]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">match_strategy</span> - CASB user activity match strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
+                </ul>
+            <li> <span class="li-head">strategy</span> - CASB user activity rules strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -662,17 +683,20 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>match_strategy</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>strategy</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[and]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
  <td>[or]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - CASB user activity name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            </ul>
+        <li> <span class="li-head">match_strategy</span> - CASB user activity match strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -681,13 +705,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>match_strategy</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
+ <tr>
+ <td>[and]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[or]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - CASB user activity type. <span class="li-normal">type: str</span> <span class="li-normal">choices: built-in, customized</span>
+        <li> <span class="li-head">name</span> - CASB user activity name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -696,17 +726,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
- <tr>
- <td>[built-in]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
- <td>[customized]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ </table>
  </div>
  </li>
-        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - CASB user activity status. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -715,8 +741,50 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - CASB user activity type. <span class="li-normal">type: str</span> <span class="li-normal">choices: built-in, customized</span>
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ </tr>
+ <tr>
+ <td>[built-in]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <tr>
+ <td>[customized]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -765,10 +833,11 @@ Examples
                               values:
                                   -
                                       value: "<your_own_value>"
+                      status: "enable"
               description: "<your_own_value>"
               match:
                   -
-                      id: "22"
+                      id: "23"
                       rules:
                           -
                               case_sensitive: "enable"
@@ -776,7 +845,7 @@ Examples
                                   -
                                       domain: "<your_own_value>"
                               header_name: "<your_own_value>"
-                              id: "28"
+                              id: "29"
                               match_pattern: "simple"
                               match_value: "<your_own_value>"
                               methods:
@@ -786,7 +855,8 @@ Examples
                               type: "domains"
                       strategy: "and"
               match_strategy: "and"
-              name: "default_name_37"
+              name: "default_name_38"
+              status: "enable"
               type: "built-in"
               uuid: "<your_own_value>"
 

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,23 +33,9 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_dpdk_cpus</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.0.0 -> v7.0.12
+, v7.2.1 -> v7.2.2
+, v7.4.0 -> 7.4.3
 
 
 
@@ -76,7 +62,7 @@ Parameters
  <td>dpdk_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -94,7 +80,7 @@ Parameters
  <td>ips_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -111,7 +97,7 @@ Parameters
  <td>isolated_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -128,7 +114,7 @@ Parameters
  <td>rx_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -145,7 +131,7 @@ Parameters
  <td>tx_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -162,7 +148,22 @@ Parameters
  <td>vnp_cpus</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vnpsp_cpus</span> - CPUs enabled to run DPDK VNP slow path. <span class="li-normal">type: str</span>
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vnpsp_cpus</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -194,6 +195,7 @@ Examples
               rx_cpus: "<your_own_value>"
               tx_cpus: "<your_own_value>"
               vnp_cpus: "<your_own_value>"
+              vnpsp_cpus: "<your_own_value>"
 
 
 Return Values

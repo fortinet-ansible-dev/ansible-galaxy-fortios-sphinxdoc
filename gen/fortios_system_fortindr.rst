@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.0.8 -> 7.4.3
 
 
 
@@ -72,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_fortindr</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -103,15 +89,18 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">source_ip</span> - Source IP address for communications to FortiNDR. <span class="li-normal">type: str</span>
@@ -124,7 +113,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -139,13 +128,15 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 7.4.3</code></td>
+ </table>
  </div>
  </li>
         </ul>

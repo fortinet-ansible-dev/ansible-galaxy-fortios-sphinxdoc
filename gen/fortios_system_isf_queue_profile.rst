@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,23 +33,8 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_isf_queue_profile</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.4.0, v7.2.0, v7.4.0 -> v7.4.1
+, v7.4.3 -> 7.4.3
 
 
 
@@ -71,13 +56,14 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
+ <td></td><td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_isf_queue_profile</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,19 +75,22 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>bandwidth_unit</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[kbps]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[pps]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">burst_bps_granularity</span> - Burst granularity based on bytes per second. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, 512-bytes, 1k-bytes, 2k-bytes, 4k-bytes, 8k-bytes, 16k-bytes, 32k-bytes</span>
@@ -110,30 +99,39 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>burst_bps_granularity</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[512-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[1k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[2k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[4k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[8k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[16k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[32k-bytes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">burst_control</span> - Burst control. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
@@ -150,9 +148,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">burst_pps_granularity</span> - Burst granularity based on packets per second. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, half-packet, 1-packet, 2-packets, 4-packets, 16-packets, 65-packets, 262-packets</span>
@@ -161,30 +161,39 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>burst_pps_granularity</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[half-packet]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[1-packet]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[2-packets]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[4-packets]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[16-packets]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[65-packets]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ <tr>
  <td>[262-packets]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">guaranteed_bandwidth</span> - Guaranteed bandwidth. <span class="li-normal">type: int</span>
@@ -193,13 +202,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>guaranteed_bandwidth</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -210,13 +220,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>maximum_bandwidth</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -227,13 +238,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

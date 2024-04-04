@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,23 +33,9 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_dpdk_global</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.0.0 -> v7.0.12
+, v7.2.1 -> v7.2.2
+, v7.4.0 -> 7.4.3
 
 
 
@@ -76,7 +62,7 @@ Parameters
  <td>dpdk_global</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -94,13 +80,15 @@ Parameters
  <td>elasticbuffer</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">hugepage_percentage</span> - Percentage of main memory allocated to hugepages, which are available for DPDK operation. <span class="li-normal">type: int</span>
@@ -115,7 +103,7 @@ Parameters
  <td>hugepage_percentage</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -131,7 +119,7 @@ Parameters
  <td>interface</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +137,7 @@ Parameters
  <td>interface_name</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -167,13 +155,15 @@ Parameters
  <td>ipsec_offload</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">mbufpool_percentage</span> - Percentage of main memory allocated to DPDK packet buffer. <span class="li-normal">type: int</span>
@@ -188,7 +178,7 @@ Parameters
  <td>mbufpool_percentage</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -205,13 +195,15 @@ Parameters
  <td>multiqueue</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">per_session_accounting</span> - Enable/disable per-session accounting. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, traffic-log-only, enable</span>
@@ -226,20 +218,38 @@ Parameters
  <td>per_session_accounting</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[traffic-log-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">protects</span> - Special arguments for device <span class="li-normal">type: str</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>protects</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ </tr>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">sleep_on_idle</span> - Enable/disable sleep-on-idle support for all FDH engines. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -249,18 +259,20 @@ Parameters
  <td>sleep_on_idle</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">status</span> - Enable/disable DPDK operation for the entire system. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -270,13 +282,15 @@ Parameters
  <td>status</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12</code></td>
+ </table>
  </div>
  </li>
         </ul>
@@ -310,6 +324,7 @@ Examples
               mbufpool_percentage: "25"
               multiqueue: "disable"
               per_session_accounting: "disable"
+              protects: "<your_own_value>"
               sleep_on_idle: "disable"
               status: "disable"
 

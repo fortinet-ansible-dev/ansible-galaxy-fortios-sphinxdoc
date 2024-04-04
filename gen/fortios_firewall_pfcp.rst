@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,22 +33,9 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_firewall_pfcp</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v7.0.1 -> v7.0.8
+, v7.2.0 -> v7.2.4
+, v7.4.3 -> 7.4.3
 
 
 
@@ -70,12 +57,13 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
+ <td></td><td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>firewall_pfcp</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -87,18 +75,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>denied_log</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">forwarded_log</span> - Enable/disable logging forwarded PFCP packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -107,18 +98,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>forwarded_log</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">invalid_reserved_field</span> - Allow or deny invalid reserved field in PFCP header packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny</span>
@@ -127,18 +121,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>invalid_reserved_field</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">log_freq</span> - Logging frequency of PFCP packets. <span class="li-normal">type: int</span>
@@ -147,12 +144,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>log_freq</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -163,12 +161,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>max_message_length</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -179,12 +178,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>message_filter</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -195,12 +195,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>min_message_length</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -211,20 +212,24 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>monitor_mode</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[vdom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">name</span> - PFCP profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
@@ -233,12 +238,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -249,12 +255,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>pfcp_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -265,18 +272,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>traffic_count_log</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">unknown_version</span> - Allow or deny unknown version packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny</span>
@@ -285,18 +295,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>unknown_version</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         </ul>

@@ -144,8 +144,10 @@ Parameters
         <li><span class="li-normal">cifs_domain-controller</span>  <span class="li-required">param: server_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">cifs_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">credential-store_domain-controller</span>  <span class="li-required">param: server_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">diameter-filter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_data-type</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_dictionary</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">dlp_exact-data-match</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_filepattern</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_fp-doc-source</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_fp-sensitivity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -629,6 +631,7 @@ Parameters
         <li><span class="li-normal">system_network-visibility</span> </li>
         <li><span class="li-normal">system_np6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_npu</span> </li>
+        <li><span class="li-normal">system_npu-vlink</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_ntp</span> </li>
         <li><span class="li-normal">system_object-tagging</span>  <span class="li-required">param: category</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_password-policy</span> </li>
@@ -691,6 +694,7 @@ Parameters
         <li><span class="li-normal">user_device-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_domain-controller</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_exchange</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">user_external-identity-provider</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_fortitoken</span>  <span class="li-required">param: serial_number</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_fsso</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_fsso-polling</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -709,6 +713,7 @@ Parameters
         <li><span class="li-normal">user_security-exempt-list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_setting</span> </li>
         <li><span class="li-normal">user_tacacs+</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">videofilter_keyword</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">videofilter_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">videofilter_youtube-channel-filter</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">videofilter_youtube-key</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -751,6 +756,7 @@ Parameters
         <li><span class="li-normal">vpn_l2tp</span> </li>
         <li><span class="li-normal">vpn_ocvpn</span> </li>
         <li><span class="li-normal">vpn_pptp</span> </li>
+        <li><span class="li-normal">vpn_qkd</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">waf_main-class</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">waf_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">waf_signature</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>

@@ -1315,7 +1315,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">id</span> - Admin ID <span class="li-normal">type: int  required: False </span> </li>
                 <li><span class="li-required">method</span> - Login method used to connect admin to FortiGate. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">admins</span> - List of objects with admin id and method. <span class="li-normal">type: array  required: False </span> </li>
+                <li><span class="li-required">admins</span> - List of objects with admin id and method. <span class="li-normal">type: array  required: True </span> </li>
                 
             </ul>
         
@@ -1455,7 +1455,7 @@ Parameters
         </li>
         <li><span class="li-head">update-global-label.firewall.policy</span> - Update the global-label of group starting with the provided leading policy ID. 
         <ul class="ul-self">
-                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">current-label</span> - The current global-label of the group. If not provided, will assume the current group's label is empty string. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">new-label</span> - The new global-label of the group. If not provided, the current group's label will be deleted <span class="li-normal">type: string  required: False </span> </li>
                 
@@ -1464,7 +1464,7 @@ Parameters
         </li>
         <li><span class="li-head">update-global-label.firewall.security-policy</span> - Update the global-label of group starting with the provided leading policy ID. 
         <ul class="ul-self">
-                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">policyid</span> - Leading policy ID of the group to update. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">current-label</span> - The current global-label of the group. If not provided, will assume the current group's label is empty string. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">new-label</span> - The new global-label of the group. If not provided, the current group's label will be deleted <span class="li-normal">type: string  required: False </span> </li>
                 
@@ -1699,7 +1699,9 @@ Notes
 
 .. note::
 
-   - Different ``selector`` may have different parameters, users are expected to look up them in the dropdown list above..
+   - Backup API varies across versions. For FOS 7.0.1 and earlier, utilize system_config_backup in fortios_monitor_fact. For FOS 7.0.2 and later, utilize backup.system.config in fortios_monitor.
+
+   - Different ``selector`` may have different parameters, users are expected to look them up in the dropdown list above..
 
    - For some selectors, no ``params`` are allowed to appear.
 

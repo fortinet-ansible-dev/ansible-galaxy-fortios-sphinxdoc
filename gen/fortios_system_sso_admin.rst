@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_sso_admin</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.2.0 -> 7.4.3
 
 
 
@@ -73,7 +59,7 @@ Parameters
  </tr>
  <tr>
  <td>system_sso_admin</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +75,7 @@ Parameters
  </tr>
  <tr>
  <td>accprofile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -153,9 +139,11 @@ Parameters
  </tr>
  <tr>
  <td>[responsive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[fixed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">name</span> - Dashboard name. <span class="li-normal">type: str</span>
@@ -187,9 +175,11 @@ Parameters
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
             <li> <span class="li-head">vdom</span> - Virtual domain. Source system.vdom.name. <span class="li-normal">type: str</span>
@@ -447,9 +437,11 @@ Parameters
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">interface</span> - Interface to monitor. Source system.interface.name. <span class="li-normal">type: str</span>
@@ -481,9 +473,11 @@ Parameters
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">title</span> - Widget title. <span class="li-normal">type: str</span>
@@ -515,49 +509,71 @@ Parameters
  </tr>
  <tr>
  <td>[sysinfo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[licinfo]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[forticloud]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[cpu-usage]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[memory-usage]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[disk-usage]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[log-rate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[sessions]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[session-rate]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[tr-history]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[analytics]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[usb-modem]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[admins]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[security-fabric]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[security-fabric-ranking]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[sensor-info]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[ha-status]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[vulnerability-summary]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[host-scan-summary]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[fortiview]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[botnet-activity]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ <tr>
  <td>[fabric-device]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
+ </table>
  </div>
  </li>
                 <li> <span class="li-head">width</span> - Width. <span class="li-normal">type: int</span>
@@ -725,7 +741,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -739,7 +755,7 @@ Parameters
  </tr>
  <tr>
  <td>vdom</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -755,7 +771,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

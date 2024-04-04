@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,22 +33,9 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_gtp_apn_shaper</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
- <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> v7.0.8
+, v7.2.0 -> v7.2.4
+, v7.4.3 -> 7.4.3
 
 
 
@@ -70,12 +57,13 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
+ <td></td><td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>gtp_apn_shaper</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -87,18 +75,21 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>action</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ <tr>
  <td>[reject]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">apn</span> - APN names to match. Leave empty to match ANY. Source gtp.apn.name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: apn:name</span>
@@ -106,12 +97,13 @@ Parameters
  <div id="label5" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
+ <td></td><td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>apn</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -123,12 +115,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -140,12 +133,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>back_off_time</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -156,12 +150,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -172,12 +167,13 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="3">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>rate_limit</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>

@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,21 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_fortimanager</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1 </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0 -> v7.0.1
 
 
 
@@ -92,9 +78,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">central_mgmt_auto_backup</span> - Enable/disable central management auto backup. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -111,9 +99,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">central_mgmt_schedule_config_restore</span> - Enable/disable central management schedule config restore. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -130,9 +120,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">central_mgmt_schedule_script_restore</span> - Enable/disable central management schedule script restore. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -149,9 +141,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">ip</span> - IP address. <span class="li-normal">type: str</span>
@@ -183,9 +177,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.1</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">vdom</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span>

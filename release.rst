@@ -4,6 +4,32 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.6
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.6 is based on 2.3.5
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Github issue #273.
+- Github issue #280.
+- Github issue #283.
+- Github issue #290.
+- Github issue #301.
+- Github issue #305.
+- mantis issue #1003948.
+- Fix the issue that ssl-certificate cannot be set in `fortios_firewall_vip` and `fortios_firewall_vip6`.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Supported new FOS versions 7.4.2 and 7.4.3, and support data type mac_address in the collection.
+- Add notes for backup modules in the documentation in both monitor and monitor_fact modules.
+- Update the required ansible version to 2.15.
+- Update the documentation for the supported versions from latest to a fix version number.
+
 Release Galaxy 2.3.5
 --------------------
 
@@ -399,7 +425,7 @@ Compatibility Notes
 As a major release, it semantically breaks backward compability, some modules are removed as new full-fledged replacements come into being.
 
 - For deprecated modules, please find the alternatives in **Deprecated Modules** section.
-- Other existing modules are kepted compatible.
+- Other existing modules remain compatible.
 
 
 Deprecated Modules

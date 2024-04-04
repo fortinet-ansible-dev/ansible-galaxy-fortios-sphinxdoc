@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,24 +33,10 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_system_stp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
- <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- </tr>
- </table>
- <p>
-
+Supported Version Ranges: v6.0.0 -> v6.2.7
+, v6.4.1 -> v7.0.12
+, v7.2.1 -> v7.2.4
+, v7.4.2
 
 
 Parameters
@@ -70,13 +56,14 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
+ <td></td><td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_stp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -103,13 +90,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>forward_delay</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -120,13 +108,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>hello_time</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -137,13 +126,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>max_age</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -154,13 +144,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>max_hops</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  </table>
  </div>
@@ -201,45 +192,61 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>switch_priority</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[4096]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[8192]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[12288]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[16384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[20480]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[24576]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[28672]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[32768]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[36864]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[40960]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[45056]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[49152]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[53248]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ <tr>
  <td>[57344]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.2.7</code></td>
+ </table>
  </div>
  </li>
         </ul>

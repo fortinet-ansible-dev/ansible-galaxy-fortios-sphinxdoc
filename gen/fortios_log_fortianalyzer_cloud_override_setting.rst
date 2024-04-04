@@ -24,7 +24,7 @@ Requirements
 ------------
 The below requirements are needed on the host that executes this module.
 
-- ansible>=2.14
+- ansible>=2.15
 
 
 Tips
@@ -33,22 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-
-
-.. raw:: html
-
- <br>
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortios_log_fortianalyzer_cloud_override_setting</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> latest </code></td>
- </tr>
- </table>
- <p>
+Supported Version Ranges: v6.0.0, v6.0.11 -> 7.4.3
 
 
 
@@ -74,7 +59,7 @@ Parameters
  <tr>
  <td>log_fortianalyzer_cloud_override_setting</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.3 </code></td>
  </tr>
  </table>
  </div>
@@ -113,9 +98,11 @@ Parameters
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
+ </table>
  </div>
  </li>
         <li> <span class="li-head">status</span> - Enable/disable logging to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
@@ -129,13 +116,15 @@ Parameters
  <tr>
  <td>status</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> latest </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.3 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> <tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> latest</code></td> </table>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
+ </table>
  </div>
  </li>
         </ul>
