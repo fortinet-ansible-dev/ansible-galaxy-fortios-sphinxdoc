@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> 7.4.3
-
+Supported Version Ranges: v6.2.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_traffic_sniffer</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>erspan_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,17 +88,17 @@ Parameters
  </tr>
  <tr>
  <td>mode</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[erspan-auto]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[rspan]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -112,7 +111,7 @@ Parameters
  </tr>
  <tr>
  <td>target_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -128,7 +127,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -158,7 +157,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -188,7 +187,7 @@ Parameters
  </tr>
  <tr>
  <td>target_mac</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -204,7 +203,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -234,7 +233,7 @@ Parameters
  </tr>
  <tr>
  <td>mac</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -264,7 +263,7 @@ Parameters
  </tr>
  <tr>
  <td>target_port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -280,7 +279,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -294,7 +293,7 @@ Parameters
  </tr>
  <tr>
  <td>in_ports</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -310,7 +309,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -325,7 +324,7 @@ Parameters
  </tr>
  <tr>
  <td>out_ports</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -341,7 +340,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -357,7 +356,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

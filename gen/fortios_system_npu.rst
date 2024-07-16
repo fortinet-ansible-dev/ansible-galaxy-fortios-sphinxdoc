@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_npu</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>capwap_offload</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +94,7 @@ Parameters
  </tr>
  <tr>
  <td>dedicated_management_affinity</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -110,14 +109,14 @@ Parameters
  </tr>
  <tr>
  <td>dedicated_management_cpu</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -612,7 +611,7 @@ Parameters
  <tr>
  <td>fastpath</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1478,7 +1477,7 @@ Parameters
  <tr>
  <td>gtp_enhanced_cpu_range</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[0]</td>
@@ -1502,14 +1501,14 @@ Parameters
  </tr>
  <tr>
  <td>gtp_enhanced_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1904,7 +1903,7 @@ Parameters
  <tr>
  <td>intf_shaping_offload</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -2014,7 +2013,7 @@ Parameters
  <tr>
  <td>ipsec_dec_subengine_mask</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2030,7 +2029,7 @@ Parameters
  <tr>
  <td>ipsec_enc_subengine_mask</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2046,7 +2045,7 @@ Parameters
  <tr>
  <td>ipsec_inbound_cache</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -2070,7 +2069,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
  <td><code class="docutils literal notranslate">v6.2.7 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.4 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -2116,7 +2115,7 @@ Parameters
  <tr>
  <td>ipsec_over_vlink</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -2139,7 +2138,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2158,7 +2157,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2176,7 +2175,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2194,7 +2193,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2212,7 +2211,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2230,7 +2229,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2248,7 +2247,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2266,7 +2265,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2284,7 +2283,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -2302,7 +2301,7 @@ Parameters
  <td>lag_out_port_select</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -2357,7 +2356,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.0.11 -> v6.2.0 </code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v6.4.4 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[tpe-based]</td>
@@ -9428,7 +9427,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -9447,7 +9446,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -9465,7 +9464,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -9584,7 +9583,7 @@ Parameters
  <td>priority_protocol</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -9602,7 +9601,7 @@ Parameters
  <td>bfd</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9625,7 +9624,7 @@ Parameters
  <td>bgp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9648,7 +9647,7 @@ Parameters
  <td>slbc</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9673,7 +9672,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -9719,7 +9718,7 @@ Parameters
  <tr>
  <td>rdp_offload</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9756,7 +9755,7 @@ Parameters
  <tr>
  <td>session_denied_offload</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -9799,7 +9798,7 @@ Parameters
  <tr>
  <td>sse_backpressure</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9821,7 +9820,7 @@ Parameters
  <tr>
  <td>strip_clear_text_padding</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9843,7 +9842,7 @@ Parameters
  <tr>
  <td>strip_esp_padding</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -9865,7 +9864,7 @@ Parameters
  <td>sw_eh_hash</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -9883,7 +9882,7 @@ Parameters
  <td>computation</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[xor16]</td>
@@ -9912,7 +9911,7 @@ Parameters
  <td>destination_ip_lower_16</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -9935,7 +9934,7 @@ Parameters
  <td>destination_ip_upper_16</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -9958,7 +9957,7 @@ Parameters
  <td>destination_port</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -9981,7 +9980,7 @@ Parameters
  <td>ip_protocol</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -10004,7 +10003,7 @@ Parameters
  <td>netmask_length</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -10021,7 +10020,7 @@ Parameters
  <td>source_ip_lower_16</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -10044,7 +10043,7 @@ Parameters
  <td>source_ip_upper_16</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -10067,7 +10066,7 @@ Parameters
  <td>source_port</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -10090,7 +10089,7 @@ Parameters
  <tr>
  <td>sw_np_bandwidth</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[0G]</td>
@@ -10110,17 +10109,17 @@ Parameters
  <tr>
  <td>[7G]</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1</code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4</code></td>
  </tr>
  <tr>
  <td>[8G]</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1</code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4</code></td>
  </tr>
  <tr>
  <td>[9G]</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1</code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4</code></td>
  </tr>
  </table>
  </div>
@@ -10135,7 +10134,7 @@ Parameters
  <tr>
  <td>sw_tr_hash</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -10152,7 +10151,7 @@ Parameters
  <tr>
  <td>draco15</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -10174,7 +10173,7 @@ Parameters
  <tr>
  <td>tcp_udp_port</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[include]</td>
@@ -10186,9 +10185,30 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">uesp_offload</span> - Enable/disable UDP-encapsulated ESP offload . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">tunnel_over_vlink</span> - Enable/disable selection of which NP6 chip the tunnel uses . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label914' href="javascript:ContentClick('label915', 'label914');" onmouseover="ContentPreview('label915');" onmouseout="ContentUnpreview('label915');" title="click to collapse or expand..."> more... </a>
  <div id="label915" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tunnel_over_vlink</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uesp_offload</span> - Enable/disable UDP-encapsulated ESP offload . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label916' href="javascript:ContentClick('label917', 'label916');" onmouseover="ContentPreview('label917');" onmouseout="ContentUnpreview('label917');" title="click to collapse or expand..."> more... </a>
+ <div id="label917" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -10197,7 +10217,7 @@ Parameters
  <tr>
  <td>uesp_offload</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -10209,8 +10229,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">ull_port_mode</span> - Set ULL port"s speed to 10G/25G . <span class="li-normal">type: str</span> <span class="li-normal">choices: 10G, 25G</span>
- <a id='label916' href="javascript:ContentClick('label917', 'label916');" onmouseover="ContentPreview('label917');" onmouseout="ContentUnpreview('label917');" title="click to collapse or expand..."> more... </a>
- <div id="label917" style="display:none">
+ <a id='label918' href="javascript:ContentClick('label919', 'label918');" onmouseover="ContentPreview('label919');" onmouseout="ContentUnpreview('label919');" title="click to collapse or expand..."> more... </a>
+ <div id="label919" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -10230,8 +10250,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vlan_lookup_cache</span> - Enable/disable vlan lookup cache . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label918' href="javascript:ContentClick('label919', 'label918');" onmouseover="ContentPreview('label919');" onmouseout="ContentUnpreview('label919');" title="click to collapse or expand..."> more... </a>
- <div id="label919" style="display:none">
+ <a id='label920' href="javascript:ContentClick('label921', 'label920');" onmouseover="ContentPreview('label921');" onmouseout="ContentUnpreview('label921');" title="click to collapse or expand..."> more... </a>
+ <div id="label921" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -10740,6 +10760,7 @@ Examples
               sw_tr_hash:
                   draco15: "enable"
                   tcp_udp_port: "include"
+              tunnel_over_vlink: "enable"
               uesp_offload: "enable"
               ull_port_mode: "10G"
               vlan_lookup_cache: "enable"

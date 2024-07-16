@@ -309,7 +309,7 @@ Parameters
         <li><span class="li-head">close-all.firewall.session</span> - Immediately close all active IPv4 and IPv6 sessions, as well as IPS sessions of the current VDOM. 
         
         </li>
-        <li><span class="li-head">close-multiple.firewall.session</span> - Close multiple IPv4 firewall sessions which match the provided criteria. 
+        <li><span class="li-head">close-multiple.firewall.session</span> - Close multiple IPv4 firewall sessions which match the provided criteria. This endpoint also accepts a list of criterias. 
         <ul class="ul-self">
                 <li><span class="li-required">proto</span> - Protocol name [tcp|udp|icmp|...] or number. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">saddr</span> - Source address. <span class="li-normal">type: string  required: False </span> </li>
@@ -323,7 +323,7 @@ Parameters
             </ul>
         
         </li>
-        <li><span class="li-head">close-multiple.firewall.session6</span> - Close multiple IPv6 firewall sessions which match the provided criteria. 
+        <li><span class="li-head">close-multiple.firewall.session6</span> - Close multiple IPv6 firewall sessions which match the provided criteria. This endpoint also accepts a list of criterias 
         <ul class="ul-self">
                 <li><span class="li-required">proto</span> - Protocol name [tcp|udp|icmp|...] or number. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">saddr</span> - Source address. <span class="li-normal">type: string  required: False </span> </li>

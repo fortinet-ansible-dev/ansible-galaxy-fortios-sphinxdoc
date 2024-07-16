@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>dlp_sensor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -110,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>entries</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -126,12 +125,12 @@ Parameters
  </tr>
  <tr>
  <td>count</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">dictionary</span> - Select a DLP dictionary. Source dlp.dictionary.name dlp.exact-data-match.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">dictionary</span> - Select a DLP dictionary or exact-data-match. Source dlp.dictionary.name dlp.exact-data-match.name. <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -141,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>dictionary</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -156,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -171,14 +170,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -193,7 +192,7 @@ Parameters
  </tr>
  <tr>
  <td>eval</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -733,17 +732,17 @@ Parameters
  </tr>
  <tr>
  <td>match_type</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[match-all]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[match-any]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[match-eval]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -778,7 +777,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -886,6 +885,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

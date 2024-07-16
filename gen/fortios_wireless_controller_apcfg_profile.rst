@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> 7.4.3
-
+Supported Version Ranges: v6.4.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_apcfg_profile</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>ac_ip</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -90,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>ac_port</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -105,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>ac_timer</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -120,17 +119,17 @@ Parameters
  </tr>
  <tr>
  <td>ac_type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[apcfg]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -144,17 +143,17 @@ Parameters
  </tr>
  <tr>
  <td>ap_family</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[fap]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
  <tr>
  <td>[fap-u]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
  <tr>
  <td>[fap-c]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -167,7 +166,7 @@ Parameters
  </tr>
  <tr>
  <td>command_list</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +182,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -198,7 +197,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -213,7 +212,7 @@ Parameters
  </tr>
  <tr>
  <td>passwd_value</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -228,14 +227,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[non-password]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[password]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -249,7 +248,7 @@ Parameters
  </tr>
  <tr>
  <td>value</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -265,7 +264,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -280,7 +279,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -295,6 +294,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

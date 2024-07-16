@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> 7.4.3
-
+Supported Version Ranges: v6.2.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_geneve</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>dstport</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -90,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -105,14 +104,14 @@ Parameters
  </tr>
  <tr>
  <td>ip_version</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[ipv4-unicast]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[ipv6-unicast]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -126,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -141,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -156,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_ip6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -171,14 +170,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[ethernet]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
  <tr>
  <td>[ppp]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -192,7 +191,7 @@ Parameters
  </tr>
  <tr>
  <td>vni</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -207,6 +206,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

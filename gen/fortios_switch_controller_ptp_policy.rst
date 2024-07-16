@@ -36,7 +36,6 @@ FortiOS Version Compatibility
 Supported Version Ranges: v6.4.0, v6.4.4 -> v7.4.0
 
 
-
 Parameters
 ----------
 
@@ -114,6 +113,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

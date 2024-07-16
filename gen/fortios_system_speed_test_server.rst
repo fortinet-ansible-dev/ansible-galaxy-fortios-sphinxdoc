@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> 7.4.3
-
+Supported Version Ranges: v6.2.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_speed_test_server</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>host</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -91,7 +90,7 @@ Parameters
  <tr>
  <td>distance</td>
  <td><code class="docutils literal notranslate">v7.0.12 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -106,7 +105,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -121,7 +120,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -137,7 +136,7 @@ Parameters
  <tr>
  <td>latitude</td>
  <td><code class="docutils literal notranslate">v7.0.12 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +152,7 @@ Parameters
  <tr>
  <td>longitude</td>
  <td><code class="docutils literal notranslate">v7.0.12 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -168,7 +167,7 @@ Parameters
  </tr>
  <tr>
  <td>password</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +182,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -198,7 +197,7 @@ Parameters
  </tr>
  <tr>
  <td>user</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -214,7 +213,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -229,7 +228,7 @@ Parameters
  </tr>
  <tr>
  <td>timestamp</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -244,6 +243,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

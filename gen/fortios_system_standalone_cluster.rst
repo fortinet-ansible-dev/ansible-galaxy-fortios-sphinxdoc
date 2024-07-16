@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> 7.4.3
-
+Supported Version Ranges: v6.4.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_standalone_cluster</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>asymmetric_traffic_control</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[cps-preferred]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[strict-anti-replay]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -94,7 +93,7 @@ Parameters
  </tr>
  <tr>
  <td>cluster_peer</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -109,7 +108,7 @@ Parameters
  </tr>
  <tr>
  <td>down_intfs_before_sess_sync</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -125,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -141,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>hb_interval</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -156,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>hb_lost_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -171,14 +170,14 @@ Parameters
  </tr>
  <tr>
  <td>ipsec_tunnel_sync</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -192,7 +191,7 @@ Parameters
  </tr>
  <tr>
  <td>peerip</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -207,7 +206,7 @@ Parameters
  </tr>
  <tr>
  <td>peervd</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -222,14 +221,14 @@ Parameters
  </tr>
  <tr>
  <td>secondary_add_ipsec_routes</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -242,7 +241,7 @@ Parameters
  </tr>
  <tr>
  <td>session_sync_filter</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -257,7 +256,7 @@ Parameters
  </tr>
  <tr>
  <td>custom_service</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -273,7 +272,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_port_range</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -288,7 +287,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -303,7 +302,7 @@ Parameters
  </tr>
  <tr>
  <td>src_port_range</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -319,7 +318,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -334,7 +333,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr6</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -349,7 +348,7 @@ Parameters
  </tr>
  <tr>
  <td>dstintf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -364,7 +363,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -379,7 +378,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr6</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -394,7 +393,7 @@ Parameters
  </tr>
  <tr>
  <td>srcintf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -410,7 +409,7 @@ Parameters
  </tr>
  <tr>
  <td>sync_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -424,7 +423,7 @@ Parameters
  </tr>
  <tr>
  <td>syncvd</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -440,7 +439,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -457,14 +456,14 @@ Parameters
  </tr>
  <tr>
  <td>encryption</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -478,7 +477,7 @@ Parameters
  </tr>
  <tr>
  <td>group_member_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -493,14 +492,14 @@ Parameters
  </tr>
  <tr>
  <td>layer2_connection</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[available]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[unavailable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -514,7 +513,7 @@ Parameters
  </tr>
  <tr>
  <td>psksecret</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -530,7 +529,7 @@ Parameters
  </tr>
  <tr>
  <td>standalone_group_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

@@ -4,6 +4,35 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.7
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.7 is based on 2.3.6
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Github issue #322.
+- Github issue #317.
+- Github issue #316.
+- Github issue #315.
+- Github issue #314.
+- Github issue #312
+- Github issue #311.
+- Github issue #309.
+- mantis issue #1017429.
+- mantis issue #1017038.
+- mantis issue #1034238.
+- Fix some issues in sanity test.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Support new FOS versions 7.4.4.
+- Support Ansible-core 2.17.
+- Add a sanity_test.yaml file to trigger CI tests in GitHub.
+
 Release Galaxy 2.3.6
 --------------------
 

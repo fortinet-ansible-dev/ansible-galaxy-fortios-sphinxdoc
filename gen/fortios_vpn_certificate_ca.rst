@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>vpn_certificate_ca</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>auto_update_days</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -90,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>auto_update_days_warning</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -105,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>ca</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -120,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>ca_identifier</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -135,14 +134,35 @@ Parameters
  </tr>
  <tr>
  <td>est_url</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">last_updated</span> - Time at which CA was last updated. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">fabric_ca</span> - Enable/disable synchronization of CA across Security Fabric. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>fabric_ca</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">last_updated</span> - Time at which CA was last updated. <span class="li-normal">type: int</span>
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -157,21 +177,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
- <div id="label15" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">obsolete</span> - Enable/disable this CA as obsoleted. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -180,19 +185,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>obsolete</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">range</span> - Either global or VDOM IP address range for the CA certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, vdom</span>
+        <li> <span class="li-head">obsolete</span> - Enable/disable this CA as obsoleted. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -201,19 +200,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>range</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>obsolete</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[global]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  <tr>
- <td>[vdom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">scep_url</span> - URL of the SCEP server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">range</span> - Either global or VDOM IP address range for the CA certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, vdom</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -222,13 +221,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>scep_url</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>range</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[global]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[vdom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source</span> - CA certificate source type. <span class="li-normal">type: str</span> <span class="li-normal">choices: factory, user, bundle</span>
+        <li> <span class="li-head">scep_url</span> - URL of the SCEP server. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -237,22 +242,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>scep_url</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[factory]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[user]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[bundle]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - Source IP address for communications to the SCEP server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">source</span> - CA certificate source type. <span class="li-normal">type: str</span> <span class="li-normal">choices: factory, user, bundle</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -261,13 +257,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>source</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[factory]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[user]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[bundle]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_inspection_trusted</span> - Enable/disable this CA as a trusted CA for SSL inspection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">source_ip</span> - Source IP address for communications to the SCEP server. <span class="li-normal">type: str</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -276,21 +281,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">ssl_inspection_trusted</span> - Enable/disable this CA as a trusted CA for SSL inspection. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>ssl_inspection_trusted</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">trusted</span> - Enable/disable as a trusted CA. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
- <div id="label29" style="display:none">
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -320,6 +340,8 @@ Notes
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
+   - The module supports check_mode.
+
 
 
 Examples
@@ -338,8 +360,9 @@ Examples
               ca: "<your_own_value>"
               ca_identifier: "myId_6"
               est_url: "<your_own_value>"
+              fabric_ca: "disable"
               last_updated: "2147483647"
-              name: "default_name_9"
+              name: "default_name_10"
               obsolete: "disable"
               range: "global"
               scep_url: "<your_own_value>"

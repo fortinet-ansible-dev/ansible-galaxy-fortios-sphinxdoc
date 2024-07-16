@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0, v6.0.11 -> 7.4.3
-
+Supported Version Ranges: v6.0.0, v6.0.11 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  <tr>
  <td>log_fortianalyzer_cloud_override_setting</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -116,7 +115,7 @@ Parameters
  <tr>
  <td>status</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>

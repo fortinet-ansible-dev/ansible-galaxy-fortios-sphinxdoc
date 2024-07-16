@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_802_1x_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>link_down_auth</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[set-unauth]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[no-action]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -95,14 +94,14 @@ Parameters
  </tr>
  <tr>
  <td>mab_reauth</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -116,20 +115,20 @@ Parameters
  </tr>
  <tr>
  <td>mac_called_station_delimiter</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[colon]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[single-hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -143,20 +142,20 @@ Parameters
  </tr>
  <tr>
  <td>mac_calling_station_delimiter</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[colon]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[single-hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -170,14 +169,14 @@ Parameters
  </tr>
  <tr>
  <td>mac_case</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[lowercase]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[uppercase]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -191,20 +190,20 @@ Parameters
  </tr>
  <tr>
  <td>mac_password_delimiter</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[colon]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[single-hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -218,20 +217,20 @@ Parameters
  </tr>
  <tr>
  <td>mac_username_delimiter</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[colon]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[single-hyphen]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -245,7 +244,7 @@ Parameters
  </tr>
  <tr>
  <td>max_reauth_attempt</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -260,7 +259,7 @@ Parameters
  </tr>
  <tr>
  <td>reauth_period</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -275,7 +274,7 @@ Parameters
  </tr>
  <tr>
  <td>tx_period</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

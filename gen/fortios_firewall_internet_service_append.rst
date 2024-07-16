@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0, v6.2.5 -> 7.4.3
-
+Supported Version Ranges: v6.2.0, v6.2.5 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  <tr>
  <td>firewall_internet_service_append</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,17 +74,17 @@ Parameters
  </tr>
  <tr>
  <td>addr_mode</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[ipv4]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  <tr>
  <td>[ipv6]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -100,7 +99,7 @@ Parameters
  <tr>
  <td>append_port</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -116,7 +115,7 @@ Parameters
  <tr>
  <td>match_port</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v6.4.4 -> v7.0.5
-, v7.2.0
+Supported Version Ranges: v6.4.0, v6.4.4 -> v7.0.5, v7.2.0
 
 
 Parameters

@@ -33,10 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.0.8
-, v7.2.0 -> v7.2.4
-, v7.4.3 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.4.4
 
 
 Parameters
@@ -63,7 +60,7 @@ Parameters
  <td>gtp_message_filter_v2</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -80,7 +77,7 @@ Parameters
  <tr>
  <td>alert_mme_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -103,7 +100,7 @@ Parameters
  <td>bearer_resource_cmd_fail</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -126,7 +123,7 @@ Parameters
  <td>change_notification</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -148,7 +145,7 @@ Parameters
  <tr>
  <td>configuration_transfer_tunnel</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -171,7 +168,7 @@ Parameters
  <td>context_req_res_ack</td>
  <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -194,7 +191,7 @@ Parameters
  <td>create_bearer</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -216,7 +213,7 @@ Parameters
  <tr>
  <td>create_forwarding_tunnel_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -238,7 +235,7 @@ Parameters
  <tr>
  <td>create_indirect_forwarding_tunnel_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -261,7 +258,7 @@ Parameters
  <td>create_session</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -283,7 +280,7 @@ Parameters
  <tr>
  <td>cs_paging</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -306,7 +303,7 @@ Parameters
  <td>delete_bearer_cmd_fail</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -329,7 +326,7 @@ Parameters
  <td>delete_bearer_req_resp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -351,7 +348,7 @@ Parameters
  <tr>
  <td>delete_indirect_forwarding_tunnel_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -374,7 +371,7 @@ Parameters
  <td>delete_pdn_connection_set</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -397,7 +394,7 @@ Parameters
  <td>delete_session</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -419,7 +416,7 @@ Parameters
  <tr>
  <td>detach_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -441,7 +438,7 @@ Parameters
  <tr>
  <td>dlink_data_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -463,7 +460,7 @@ Parameters
  <tr>
  <td>dlink_notif_failure</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -486,7 +483,7 @@ Parameters
  <td>echo</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -508,7 +505,7 @@ Parameters
  <tr>
  <td>forward_access_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -531,7 +528,7 @@ Parameters
  <td>forward_relocation_cmp_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -554,7 +551,7 @@ Parameters
  <td>forward_relocation_req_res</td>
  <td><code class="docutils literal notranslate">v7.0.2 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -576,7 +573,7 @@ Parameters
  <tr>
  <td>identification_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -598,7 +595,7 @@ Parameters
  <tr>
  <td>isr_status</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -620,7 +617,7 @@ Parameters
  <tr>
  <td>mbms_session_start_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -642,7 +639,7 @@ Parameters
  <tr>
  <td>mbms_session_stop_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -664,7 +661,7 @@ Parameters
  <tr>
  <td>mbms_session_update_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -686,7 +683,7 @@ Parameters
  <tr>
  <td>modify_access_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -709,7 +706,7 @@ Parameters
  <td>modify_bearer_cmd_fail</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -732,7 +729,7 @@ Parameters
  <td>modify_bearer_req_resp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -755,7 +752,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -771,7 +768,7 @@ Parameters
  <tr>
  <td>pgw_dlink_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -793,7 +790,7 @@ Parameters
  <tr>
  <td>pgw_restart_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -815,7 +812,7 @@ Parameters
  <tr>
  <td>ran_info_relay</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -837,7 +834,7 @@ Parameters
  <tr>
  <td>release_access_bearer_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -859,7 +856,7 @@ Parameters
  <tr>
  <td>relocation_cancel_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -881,7 +878,7 @@ Parameters
  <tr>
  <td>remote_ue_report_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -903,7 +900,7 @@ Parameters
  <tr>
  <td>reserved_for_earlier_version</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -926,7 +923,7 @@ Parameters
  <td>resume</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -948,7 +945,7 @@ Parameters
  <tr>
  <td>stop_paging_indication</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -971,7 +968,7 @@ Parameters
  <td>suspend</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -994,7 +991,7 @@ Parameters
  <td>trace_session</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1016,7 +1013,7 @@ Parameters
  <tr>
  <td>ue_activity_notif_ack</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1038,7 +1035,7 @@ Parameters
  <tr>
  <td>ue_registration_query_req_resp</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1061,7 +1058,7 @@ Parameters
  <td>unknown_message</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1083,7 +1080,7 @@ Parameters
  <td>unknown_message_white_list</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1101,7 +1098,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1119,7 +1116,7 @@ Parameters
  <td>update_bearer</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1142,7 +1139,7 @@ Parameters
  <td>update_pdn_connection_set</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1165,7 +1162,7 @@ Parameters
  <td>version_not_support</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -1186,6 +1183,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 

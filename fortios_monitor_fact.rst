@@ -150,6 +150,10 @@ Parameters
             </ul>
         
         </li>
+        endpoint-control_ems_malware-hash
+        <li><span class="li-head">endpoint-control_ems_malware-hash</span> 
+        
+        </li>
         endpoint-control_ems_status
         <li><span class="li-head">endpoint-control_ems_status</span> - Retrieve EMS connection status for a specific EMS. 
         <ul class="ul-self">
@@ -251,7 +255,7 @@ Parameters
         firewall_address-fqdns
         <li><span class="li-head">firewall_address-fqdns</span> - List of FQDN address objects and the IPs they resolved to. 
         <ul class="ul-self">
-                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, all FQDN addresses will be retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, the count of IPs FQDN resolves to will be returned. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -259,7 +263,7 @@ Parameters
         firewall_address-fqdns6
         <li><span class="li-head">firewall_address-fqdns6</span> - List of IPv6 FQDN address objects and the IPs they resolved to. 
         <ul class="ul-self">
-                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, all FQDN addresses will be retrieved. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">mkey</span> - Name of the FQDN address to retrieve. If this is not provided, the count of IPs FQDN resolves to will be returned. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -377,7 +381,11 @@ Parameters
         
         </li>
         firewall_load-balance
-        <li><span class="li-head">firewall_load-balance</span> 
+        <li><span class="li-head">firewall_load-balance</span> - List all firewall load balance servers. 
+        <ul class="ul-self">
+                <li><span class="li-required">count</span> - Maximum number of entries to return. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
         
         </li>
         firewall_local-in
@@ -465,6 +473,7 @@ Parameters
         <li><span class="li-head">firewall_proxy_sessions</span> - List all active proxy sessions (optionally filtered). 
         <ul class="ul-self">
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">srcaddr</span> - Source IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">dstaddr</span> - Destination IPv4 address. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
@@ -513,6 +522,7 @@ Parameters
         <li><span class="li-head">firewall_session</span> - List all active firewall sessions (optionally filtered). 
         <ul class="ul-self">
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">sourceport</span> - Filter: Source port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">policyid</span> - Filter: Policy ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
@@ -1053,13 +1063,19 @@ Parameters
         
         </li>
         network_lldp_neighbors
-        <li><span class="li-head">network_lldp_neighbors</span> 
+        <li><span class="li-head">network_lldp_neighbors</span> - List all active LLDP neighbors. 
+        <ul class="ul-self">
+                <li><span class="li-required">scope</span> - Scope of LLDP neighbors [*vdom|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">port</span> - Filter: specific port name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         network_lldp_ports
         <li><span class="li-head">network_lldp_ports</span> - List all active LLDP ports. 
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - Filter: specific port name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">scope</span> - Scope of LLDP ports [*vdom|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1135,6 +1151,7 @@ Parameters
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1146,6 +1163,7 @@ Parameters
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1217,6 +1235,7 @@ Parameters
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1288,9 +1307,18 @@ Parameters
         
         </li>
         switch-controller_managed-switch_health
-        <li><span class="li-head">switch-controller_managed-switch_health</span> - Retrieve health-check statistics for managed FortiSwitches. 
+        <li><span class="li-head">switch-controller_managed-switch_health</span> - Retrieve health-check statistics for managed FortiSwitches. To be deprecated in FortiOS v7.6.0, replaced by /api/v2/monitor/switch-controller/managed-switch/health-status. 
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - Filter: FortiSwitch ID. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        switch-controller_managed-switch_health-status
+        <li><span class="li-head">switch-controller_managed-switch_health-status</span> - Retrieve health-check statistics for managed FortiSwitches. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Filter: FortiSwitch ID. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">serial</span> - Filter: FortiSwitch Serial. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1467,7 +1495,11 @@ Parameters
         
         </li>
         system_central-management_status
-        <li><span class="li-head">system_central-management_status</span> 
+        <li><span class="li-head">system_central-management_status</span> - Get Central Management status. 
+        <ul class="ul-self">
+                <li><span class="li-required">skip_detect</span> - Skip sending a detect message to the central management device. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         system_certificate_download
@@ -1636,7 +1668,11 @@ Parameters
         
         </li>
         system_fortimanager_status
-        <li><span class="li-head">system_fortimanager_status</span> 
+        <li><span class="li-head">system_fortimanager_status</span> - Get FortiManager status. To be deprecated in FortiOS v7.6.0, replaced by /api/v2/monitor/system/central-management/status 
+        <ul class="ul-self">
+                <li><span class="li-required">skip_detect</span> - Skip sending a detect message to the FortiManager. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         system_global-resources
@@ -2189,7 +2225,12 @@ Parameters
         
         </li>
         utm_blacklisted-certificates
-        <li><span class="li-head">utm_blacklisted-certificates</span> 
+        <li><span class="li-head">utm_blacklisted-certificates</span> - Retrieve a list of blacklisted SSL certificates. 
+        <ul class="ul-self">
+                <li><span class="li-required">start</span> - Starting entry index. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">count</span> - Maximum number of entries to return. Limit is set to 2000. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
         
         </li>
         utm_blacklisted-certificates_statistics

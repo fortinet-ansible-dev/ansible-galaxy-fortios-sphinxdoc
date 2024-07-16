@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_system</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>caputp_echo_interval</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>caputp_max_retransmit</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,12 +103,12 @@ Parameters
  </tr>
  <tr>
  <td>data_sync_interval</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dynamic_periodic_interval</span> - Periodic time interval to run Dynamic port policy engine (5 - 60 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">dynamic_periodic_interval</span> - Periodic time interval to run Dynamic port policy engine (5 - 180 sec). <span class="li-normal">type: int</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -119,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>dynamic_periodic_interval</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_holdoff</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_mac_idle</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -164,7 +163,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_scan_interval</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -179,12 +178,12 @@ Parameters
  </tr>
  <tr>
  <td>iot_weight_threshold</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">nac_periodic_interval</span> - Periodic time interval to run NAC engine (5 - 60 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">nac_periodic_interval</span> - Periodic time interval to run NAC engine (5 - 180 sec). <span class="li-normal">type: int</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -194,7 +193,7 @@ Parameters
  </tr>
  <tr>
  <td>nac_periodic_interval</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -209,7 +208,7 @@ Parameters
  </tr>
  <tr>
  <td>parallel_process</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -224,14 +223,14 @@ Parameters
  </tr>
  <tr>
  <td>parallel_process_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -245,18 +244,18 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_mode</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[compatible]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[moderate]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </tr>
  <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>

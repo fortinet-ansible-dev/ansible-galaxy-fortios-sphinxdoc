@@ -33,10 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.0.12
-, v7.2.1 -> v7.2.2
-, v7.4.0 -> 7.4.3
-
+Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.4.4
 
 
 Parameters
@@ -63,7 +60,7 @@ Parameters
  <td>nsxt_service_chain</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -81,7 +78,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -98,7 +95,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -114,7 +111,7 @@ Parameters
  <td>service_index</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -132,7 +129,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +146,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -166,7 +163,7 @@ Parameters
  <td>reverse_index</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +180,7 @@ Parameters
  <td>vd</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

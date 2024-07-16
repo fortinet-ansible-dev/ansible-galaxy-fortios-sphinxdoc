@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -59,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_vip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>add_nat46_route</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -96,14 +95,14 @@ Parameters
  </tr>
  <tr>
  <td>arp_reply</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -117,7 +116,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -132,7 +131,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -147,7 +146,7 @@ Parameters
  </tr>
  <tr>
  <td>dns_mapping_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -161,7 +160,7 @@ Parameters
  </tr>
  <tr>
  <td>extaddr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -177,7 +176,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -193,7 +192,7 @@ Parameters
  </tr>
  <tr>
  <td>extintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -208,7 +207,7 @@ Parameters
  </tr>
  <tr>
  <td>extip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -223,7 +222,7 @@ Parameters
  </tr>
  <tr>
  <td>extport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -238,7 +237,7 @@ Parameters
  </tr>
  <tr>
  <td>gratuitous_arp_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -253,7 +252,7 @@ Parameters
  </tr>
  <tr>
  <td>gslb_domain_name</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -268,7 +267,7 @@ Parameters
  </tr>
  <tr>
  <td>gslb_hostname</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -282,7 +281,7 @@ Parameters
  </tr>
  <tr>
  <td>gslb_public_ips</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -298,7 +297,7 @@ Parameters
  </tr>
  <tr>
  <td>index</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -313,7 +312,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -329,14 +328,14 @@ Parameters
  </tr>
  <tr>
  <td>h2_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -350,14 +349,14 @@ Parameters
  </tr>
  <tr>
  <td>h3_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -371,7 +370,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_age</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -386,7 +385,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -401,14 +400,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain_from_host</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -422,7 +421,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_generation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -437,7 +436,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_path</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -452,14 +451,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_share</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[same-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -473,14 +472,14 @@ Parameters
  </tr>
  <tr>
  <td>http_ip_header</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -494,7 +493,7 @@ Parameters
  </tr>
  <tr>
  <td>http_ip_header_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -509,14 +508,14 @@ Parameters
  </tr>
  <tr>
  <td>http_multiplex</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -530,7 +529,7 @@ Parameters
  </tr>
  <tr>
  <td>http_multiplex_max_concurrent_request</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -545,7 +544,7 @@ Parameters
  </tr>
  <tr>
  <td>http_multiplex_max_request</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -560,7 +559,7 @@ Parameters
  </tr>
  <tr>
  <td>http_multiplex_ttl</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -575,14 +574,14 @@ Parameters
  </tr>
  <tr>
  <td>http_redirect</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -617,14 +616,14 @@ Parameters
  </tr>
  <tr>
  <td>https_cookie_secure</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -638,7 +637,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -653,7 +652,7 @@ Parameters
  </tr>
  <tr>
  <td>ipv6_mappedip</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -668,7 +667,7 @@ Parameters
  </tr>
  <tr>
  <td>ipv6_mappedport</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -683,29 +682,29 @@ Parameters
  </tr>
  <tr>
  <td>ldb_method</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[static]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[round-robin]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[weighted]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[least-session]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[least-rtt]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[first-alive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[http-host]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -719,7 +718,7 @@ Parameters
  </tr>
  <tr>
  <td>mapped_addr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -733,7 +732,7 @@ Parameters
  </tr>
  <tr>
  <td>mappedip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -749,7 +748,7 @@ Parameters
  </tr>
  <tr>
  <td>range</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -765,7 +764,7 @@ Parameters
  </tr>
  <tr>
  <td>mappedport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -780,7 +779,7 @@ Parameters
  </tr>
  <tr>
  <td>max_embryonic_connections</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -794,7 +793,7 @@ Parameters
  </tr>
  <tr>
  <td>monitor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -810,7 +809,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -826,7 +825,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -841,14 +840,14 @@ Parameters
  </tr>
  <tr>
  <td>nat_source_vip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -862,14 +861,14 @@ Parameters
  </tr>
  <tr>
  <td>nat44</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -883,14 +882,14 @@ Parameters
  </tr>
  <tr>
  <td>nat46</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -904,14 +903,14 @@ Parameters
  </tr>
  <tr>
  <td>one_click_gslb_server</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -925,14 +924,14 @@ Parameters
  </tr>
  <tr>
  <td>outlook_web_access</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -946,17 +945,17 @@ Parameters
  </tr>
  <tr>
  <td>persistence</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[http-cookie]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[ssl-session-id]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -970,14 +969,14 @@ Parameters
  </tr>
  <tr>
  <td>portforward</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -991,14 +990,14 @@ Parameters
  </tr>
  <tr>
  <td>portmapping_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[1-to-1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[m-to-n]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1012,20 +1011,20 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[tcp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[udp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[sctp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[icmp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1038,7 +1037,7 @@ Parameters
  </tr>
  <tr>
  <td>quic</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1054,7 +1053,7 @@ Parameters
  </tr>
  <tr>
  <td>ack_delay_exponent</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1069,7 +1068,7 @@ Parameters
  </tr>
  <tr>
  <td>active_connection_id_limit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1084,14 +1083,14 @@ Parameters
  </tr>
  <tr>
  <td>active_migration</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1105,14 +1104,14 @@ Parameters
  </tr>
  <tr>
  <td>grease_quic_bit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1126,7 +1125,7 @@ Parameters
  </tr>
  <tr>
  <td>max_ack_delay</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1141,7 +1140,7 @@ Parameters
  </tr>
  <tr>
  <td>max_datagram_frame_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1156,7 +1155,7 @@ Parameters
  </tr>
  <tr>
  <td>max_idle_timeout</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1171,7 +1170,7 @@ Parameters
  </tr>
  <tr>
  <td>max_udp_payload_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1186,7 +1185,7 @@ Parameters
  </tr>
  <tr>
  <td>realservers</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1202,7 +1201,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1217,7 +1216,7 @@ Parameters
  </tr>
  <tr>
  <td>client_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1232,21 +1231,21 @@ Parameters
  </tr>
  <tr>
  <td>healthcheck</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[vip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">holddown_interval</span> - Time in seconds that the health check monitor continues to monitor and unresponsive server that should be active. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">holddown_interval</span> - Time in seconds that the system waits before re-activating a previously down active server in the active-standby mode. This is to prevent any flapping issues. <span class="li-normal">type: int</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
  <table border="1">
@@ -1256,7 +1255,7 @@ Parameters
  </tr>
  <tr>
  <td>holddown_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1271,7 +1270,7 @@ Parameters
  </tr>
  <tr>
  <td>http_host</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1286,7 +1285,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1301,7 +1300,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1316,7 +1315,7 @@ Parameters
  </tr>
  <tr>
  <td>max_connections</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1330,7 +1329,7 @@ Parameters
  </tr>
  <tr>
  <td>monitor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1346,7 +1345,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1362,7 +1361,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1377,17 +1376,17 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[active]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[standby]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1401,14 +1400,14 @@ Parameters
  </tr>
  <tr>
  <td>translate_host</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1422,14 +1421,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  <tr>
  <td>[address]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -1443,7 +1442,7 @@ Parameters
  </tr>
  <tr>
  <td>weight</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1459,35 +1458,35 @@ Parameters
  </tr>
  <tr>
  <td>server_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[imaps]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[pop3s]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[smtps]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[ssl]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[tcp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[udp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[ssh]</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
@@ -1504,7 +1503,7 @@ Parameters
  </tr>
  <tr>
  <td>service</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1520,7 +1519,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1535,7 +1534,7 @@ Parameters
  </tr>
  <tr>
  <td>src_filter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1551,44 +1550,49 @@ Parameters
  </tr>
  <tr>
  <td>range</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">srcintf_filter</span> - Interfaces to which the VIP applies. Separate the names with spaces. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcintf_filter:interface_name</span>
+        <li> <span class="li-head">src_vip_filter</span> - Enable/disable use of "src-filter" to match destinations for the reverse SNAT rule. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
  <div id="label171" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>srcintf_filter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
- <div id="label173" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>src_vip_filter</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">srcintf_filter</span> - Interfaces to which the VIP applies. Separate the names with spaces. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: srcintf_filter:interface_name</span>
+ <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
+ <div id="label173" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>srcintf_filter</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">ssl_accept_ffdhe_groups</span> - Enable/disable FFDHE cipher suite for SSL key exchange. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
  <div id="label175" style="display:none">
  <table border="1">
@@ -1597,19 +1601,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_accept_ffdhe_groups</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3 </code></td>
+ <td>interface_name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_algorithm</span> - Permitted encryption algorithms for SSL sessions according to encryption strength. <span class="li-normal">type: str</span> <span class="li-normal">choices: high, medium, low, custom</span>
+            </ul>
+        <li> <span class="li-head">ssl_accept_ffdhe_groups</span> - Enable/disable FFDHE cipher suite for SSL key exchange. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
  <div id="label177" style="display:none">
  <table border="1">
@@ -1618,25 +1617,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_accept_ffdhe_groups</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
  <tr>
- <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_certificate</span> - The name of the certificate to use for SSL handshake. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_algorithm</span> - Permitted encryption algorithms for SSL sessions according to encryption strength. <span class="li-normal">type: str</span> <span class="li-normal">choices: high, medium, low, custom</span>
  <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
  <div id="label179" style="display:none">
  <table border="1">
@@ -1645,22 +1638,35 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_certificate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
+ <td>ssl_algorithm</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[high]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[medium]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[low]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_certificate_dict</span> - Name of the certificate to use for SSL handshake. Use the parameter ssl-certificate instead if the fortiOS firmwear <= 7.4.1 <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_certificate_dict:name</span>
+        <li> <span class="li-head">ssl_certificate</span> - Name of the certificate to use for SSL handshake. Source vpn.certificate.local.name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_certificate:name</span>
  <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
  <div id="label181" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_certificate_dict</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td>ssl_certificate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1676,13 +1682,13 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">ssl_cipher_suites</span> - SSL/TLS cipher suites acceptable from a client, ordered by priority. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_cipher_suites:priority</span>
+        <li> <span class="li-head">ssl_certificate_dict</span> - Name of the certificate to use for SSL handshake. Use the parameter ssl-certificate instead if the fortiOS firmwear <= 7.4.1 <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_certificate_dict:name</span>
  <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
  <div id="label185" style="display:none">
  <table border="1">
@@ -1690,14 +1696,14 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_cipher_suites</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_certificate_dict</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">cipher</span> - Cipher suite name. <span class="li-normal">type: str</span> <span class="li-normal">choices: TLS-AES-128-GCM-SHA256, TLS-AES-256-GCM-SHA384, TLS-CHACHA20-POLY1305-SHA256, TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-AES-128-CBC-SHA, TLS-DHE-RSA-WITH-AES-256-CBC-SHA, TLS-DHE-RSA-WITH-AES-128-CBC-SHA256, TLS-DHE-RSA-WITH-AES-128-GCM-SHA256, TLS-DHE-RSA-WITH-AES-256-CBC-SHA256, TLS-DHE-RSA-WITH-AES-256-GCM-SHA384, TLS-DHE-DSS-WITH-AES-128-CBC-SHA, TLS-DHE-DSS-WITH-AES-256-CBC-SHA, TLS-DHE-DSS-WITH-AES-128-CBC-SHA256, TLS-DHE-DSS-WITH-AES-128-GCM-SHA256, TLS-DHE-DSS-WITH-AES-256-CBC-SHA256, TLS-DHE-DSS-WITH-AES-256-GCM-SHA384, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-AES-128-CBC-SHA, TLS-RSA-WITH-AES-256-CBC-SHA, TLS-RSA-WITH-AES-128-CBC-SHA256, TLS-RSA-WITH-AES-128-GCM-SHA256, TLS-RSA-WITH-AES-256-CBC-SHA256, TLS-RSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-SEED-CBC-SHA, TLS-DHE-DSS-WITH-SEED-CBC-SHA, TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384, TLS-RSA-WITH-SEED-CBC-SHA, TLS-RSA-WITH-ARIA-128-CBC-SHA256, TLS-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-RC4-128-SHA, TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-DHE-RSA-WITH-DES-CBC-SHA, TLS-DHE-DSS-WITH-DES-CBC-SHA, TLS-RSA-WITH-DES-CBC-SHA</span>
+            <li> <span class="li-head">name</span> - Certificate list. Source vpn.certificate.local.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
  <table border="1">
@@ -1706,245 +1712,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cipher</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.3 </code></td>
  </tr>
- <tr>
- <td>[TLS-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[TLS-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            </ul>
+        <li> <span class="li-head">ssl_cipher_suites</span> - SSL/TLS cipher suites acceptable from a client, ordered by priority. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_cipher_suites:priority</span>
  <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
  <div id="label189" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_cipher_suites</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">cipher</span> - Cipher suite name. <span class="li-normal">type: str</span> <span class="li-normal">choices: TLS-AES-128-GCM-SHA256, TLS-AES-256-GCM-SHA384, TLS-CHACHA20-POLY1305-SHA256, TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-AES-128-CBC-SHA, TLS-DHE-RSA-WITH-AES-256-CBC-SHA, TLS-DHE-RSA-WITH-AES-128-CBC-SHA256, TLS-DHE-RSA-WITH-AES-128-GCM-SHA256, TLS-DHE-RSA-WITH-AES-256-CBC-SHA256, TLS-DHE-RSA-WITH-AES-256-GCM-SHA384, TLS-DHE-DSS-WITH-AES-128-CBC-SHA, TLS-DHE-DSS-WITH-AES-256-CBC-SHA, TLS-DHE-DSS-WITH-AES-128-CBC-SHA256, TLS-DHE-DSS-WITH-AES-128-GCM-SHA256, TLS-DHE-DSS-WITH-AES-256-CBC-SHA256, TLS-DHE-DSS-WITH-AES-256-GCM-SHA384, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-AES-128-CBC-SHA, TLS-RSA-WITH-AES-256-CBC-SHA, TLS-RSA-WITH-AES-128-CBC-SHA256, TLS-RSA-WITH-AES-128-GCM-SHA256, TLS-RSA-WITH-AES-256-CBC-SHA256, TLS-RSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-SEED-CBC-SHA, TLS-DHE-DSS-WITH-SEED-CBC-SHA, TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384, TLS-RSA-WITH-SEED-CBC-SHA, TLS-RSA-WITH-ARIA-128-CBC-SHA256, TLS-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-RC4-128-SHA, TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-DHE-RSA-WITH-DES-CBC-SHA, TLS-DHE-DSS-WITH-DES-CBC-SHA, TLS-RSA-WITH-DES-CBC-SHA</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -1953,30 +1743,230 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>versions</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>cipher</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td>[TLS-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </tr>
+ <tr>
+ <td>[TLS-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">ssl_client_fallback</span> - Enable/disable support for preventing Downgrade Attacks on client connections (RFC 7507). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -1985,19 +1975,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_fallback</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>priority</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_client_rekey_count</span> - Maximum length of data in MB before triggering a client rekey (0 = disable). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">
@@ -2006,13 +1990,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_rekey_count</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3 </code></td>
+ <td>versions</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ </tr>
+ <tr>
+ <td>[ssl-3.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.1]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.2]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_client_renegotiation</span> - Allow, deny, or require secure renegotiation of client sessions to comply with RFC 5746. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny, secure</span>
+            </ul>
+        <li> <span class="li-head">ssl_client_fallback</span> - Enable/disable support for preventing Downgrade Attacks on client connections (RFC 7507). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
  <div id="label197" style="display:none">
  <table border="1">
@@ -2021,22 +2022,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_renegotiation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_fallback</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[secure]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_client_session_state_max</span> - Maximum number of client to FortiGate SSL session states to keep. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_client_rekey_count</span> - Maximum length of data in MB before triggering a client rekey (0 = disable). <span class="li-normal">type: int</span>
  <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
  <div id="label199" style="display:none">
  <table border="1">
@@ -2045,13 +2043,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_session_state_max</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_rekey_count</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_client_session_state_timeout</span> - Number of minutes to keep client to FortiGate SSL session state. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_client_renegotiation</span> - Allow, deny, or require secure renegotiation of client sessions to comply with RFC 5746. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, deny, secure</span>
  <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
  <div id="label201" style="display:none">
  <table border="1">
@@ -2060,13 +2058,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_session_state_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_renegotiation</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[allow]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[deny]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[secure]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_client_session_state_type</span> - How to expire SSL sessions for the segment of the SSL connection between the client and the FortiGate. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, time, count, both</span>
+        <li> <span class="li-head">ssl_client_session_state_max</span> - Maximum number of client to FortiGate SSL session states to keep. <span class="li-normal">type: int</span>
  <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
  <div id="label203" style="display:none">
  <table border="1">
@@ -2075,25 +2082,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_session_state_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_session_state_max</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[time]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[count]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_dh_bits</span> - Number of bits to use in the Diffie-Hellman exchange for RSA encryption of SSL sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: 768, 1024, 1536, 2048, 3072, 4096</span>
+        <li> <span class="li-head">ssl_client_session_state_timeout</span> - Number of minutes to keep client to FortiGate SSL session state. <span class="li-normal">type: int</span>
  <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
  <div id="label205" style="display:none">
  <table border="1">
@@ -2102,31 +2097,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_dh_bits</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_session_state_timeout</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[768]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[1024]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[1536]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[2048]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[3072]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[4096]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp</span> - Enable/disable including HPKP header in response. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable, report-only</span>
+        <li> <span class="li-head">ssl_client_session_state_type</span> - How to expire SSL sessions for the segment of the SSL connection between the client and the FortiGate. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, time, count, both</span>
  <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
  <div id="label207" style="display:none">
  <table border="1">
@@ -2135,22 +2112,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_client_session_state_type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[time]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[report-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[count]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp_age</span> - Number of seconds the client should honor the HPKP setting. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_dh_bits</span> - Number of bits to use in the Diffie-Hellman exchange for RSA encryption of SSL sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: 768, 1024, 1536, 2048, 3072, 4096</span>
  <a id='label208' href="javascript:ContentClick('label209', 'label208');" onmouseover="ContentPreview('label209');" onmouseout="ContentUnpreview('label209');" title="click to collapse or expand..."> more... </a>
  <div id="label209" style="display:none">
  <table border="1">
@@ -2159,13 +2139,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp_age</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_dh_bits</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[768]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[1024]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[1536]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[2048]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[3072]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[4096]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp_backup</span> - Certificate to generate backup HPKP pin from. Source vpn.certificate.local.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_hpkp</span> - Enable/disable including HPKP header in response. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable, report-only</span>
  <a id='label210' href="javascript:ContentClick('label211', 'label210');" onmouseover="ContentPreview('label211');" onmouseout="ContentUnpreview('label211');" title="click to collapse or expand..."> more... </a>
  <div id="label211" style="display:none">
  <table border="1">
@@ -2174,13 +2172,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp_backup</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[report-only]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp_include_subdomains</span> - Indicate that HPKP header applies to all subdomains. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">ssl_hpkp_age</span> - Number of seconds the client should honor the HPKP setting. <span class="li-normal">type: int</span>
  <a id='label212' href="javascript:ContentClick('label213', 'label212');" onmouseover="ContentPreview('label213');" onmouseout="ContentUnpreview('label213');" title="click to collapse or expand..."> more... </a>
  <div id="label213" style="display:none">
  <table border="1">
@@ -2189,19 +2196,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp_include_subdomains</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp_age</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp_primary</span> - Certificate to generate primary HPKP pin from. Source vpn.certificate.local.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_hpkp_backup</span> - Certificate to generate backup HPKP pin from. Source vpn.certificate.local.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
  <a id='label214' href="javascript:ContentClick('label215', 'label214');" onmouseover="ContentPreview('label215');" onmouseout="ContentUnpreview('label215');" title="click to collapse or expand..."> more... </a>
  <div id="label215" style="display:none">
  <table border="1">
@@ -2210,13 +2211,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp_primary</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp_backup</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hpkp_report_uri</span> - URL to report HPKP violations to. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_hpkp_include_subdomains</span> - Indicate that HPKP header applies to all subdomains. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label216' href="javascript:ContentClick('label217', 'label216');" onmouseover="ContentPreview('label217');" onmouseout="ContentUnpreview('label217');" title="click to collapse or expand..."> more... </a>
  <div id="label217" style="display:none">
  <table border="1">
@@ -2225,13 +2226,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hpkp_report_uri</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp_include_subdomains</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hsts</span> - Enable/disable including HSTS header in response. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">ssl_hpkp_primary</span> - Certificate to generate primary HPKP pin from. Source vpn.certificate.local.name vpn.certificate.ca.name. <span class="li-normal">type: str</span>
  <a id='label218' href="javascript:ContentClick('label219', 'label218');" onmouseover="ContentPreview('label219');" onmouseout="ContentUnpreview('label219');" title="click to collapse or expand..."> more... </a>
  <div id="label219" style="display:none">
  <table border="1">
@@ -2240,19 +2247,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hsts</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp_primary</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hsts_age</span> - Number of seconds the client should honor the HSTS setting. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_hpkp_report_uri</span> - URL to report HPKP violations to. <span class="li-normal">type: str</span>
  <a id='label220' href="javascript:ContentClick('label221', 'label220');" onmouseover="ContentPreview('label221');" onmouseout="ContentUnpreview('label221');" title="click to collapse or expand..."> more... </a>
  <div id="label221" style="display:none">
  <table border="1">
@@ -2261,13 +2262,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hsts_age</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hpkp_report_uri</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_hsts_include_subdomains</span> - Indicate that HSTS header applies to all subdomains. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">ssl_hsts</span> - Enable/disable including HSTS header in response. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label222' href="javascript:ContentClick('label223', 'label222');" onmouseover="ContentPreview('label223');" onmouseout="ContentUnpreview('label223');" title="click to collapse or expand..."> more... </a>
  <div id="label223" style="display:none">
  <table border="1">
@@ -2276,19 +2277,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_hsts_include_subdomains</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hsts</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_http_location_conversion</span> - Enable to replace HTTP with HTTPS in the reply"s Location HTTP header field. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_hsts_age</span> - Number of seconds the client should honor the HSTS setting. <span class="li-normal">type: int</span>
  <a id='label224' href="javascript:ContentClick('label225', 'label224');" onmouseover="ContentPreview('label225');" onmouseout="ContentUnpreview('label225');" title="click to collapse or expand..."> more... </a>
  <div id="label225" style="display:none">
  <table border="1">
@@ -2297,19 +2298,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_http_location_conversion</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hsts_age</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_http_match_host</span> - Enable/disable HTTP host matching for location conversion. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_hsts_include_subdomains</span> - Indicate that HSTS header applies to all subdomains. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label226' href="javascript:ContentClick('label227', 'label226');" onmouseover="ContentPreview('label227');" onmouseout="ContentUnpreview('label227');" title="click to collapse or expand..."> more... </a>
  <div id="label227" style="display:none">
  <table border="1">
@@ -2318,19 +2313,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_http_match_host</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_hsts_include_subdomains</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_max_version</span> - Highest SSL/TLS version acceptable from a client. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+        <li> <span class="li-head">ssl_http_location_conversion</span> - Enable to replace HTTP with HTTPS in the reply"s Location HTTP header field. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label228' href="javascript:ContentClick('label229', 'label228');" onmouseover="ContentPreview('label229');" onmouseout="ContentUnpreview('label229');" title="click to collapse or expand..."> more... </a>
  <div id="label229" style="display:none">
  <table border="1">
@@ -2339,29 +2334,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_max_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_http_location_conversion</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_min_version</span> - Lowest SSL/TLS version acceptable from a client. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+        <li> <span class="li-head">ssl_http_match_host</span> - Enable/disable HTTP host matching for location conversion. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">
@@ -2370,29 +2355,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_min_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_http_match_host</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_mode</span> - Apply SSL offloading between the client and the FortiGate (half) or from the client to the FortiGate and from the FortiGate to the server (full). <span class="li-normal">type: str</span> <span class="li-normal">choices: half, full</span>
+        <li> <span class="li-head">ssl_max_version</span> - Highest SSL/TLS version acceptable from a client. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label232' href="javascript:ContentClick('label233', 'label232');" onmouseover="ContentPreview('label233');" onmouseout="ContentUnpreview('label233');" title="click to collapse or expand..."> more... </a>
  <div id="label233" style="display:none">
  <table border="1">
@@ -2401,19 +2376,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_max_version</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[half]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[ssl-3.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[tls-1.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.1]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.2]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_pfs</span> - Select the cipher suites that can be used for SSL perfect forward secrecy (PFS). Applies to both client and server sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: require, deny, allow</span>
+        <li> <span class="li-head">ssl_min_version</span> - Lowest SSL/TLS version acceptable from a client. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label234' href="javascript:ContentClick('label235', 'label234');" onmouseover="ContentPreview('label235');" onmouseout="ContentUnpreview('label235');" title="click to collapse or expand..."> more... </a>
  <div id="label235" style="display:none">
  <table border="1">
@@ -2422,22 +2407,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_pfs</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_min_version</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[require]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[ssl-3.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[tls-1.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[tls-1.1]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.2]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_send_empty_frags</span> - Enable/disable sending empty fragments to avoid CBC IV attacks (SSL 3.0 & TLS 1.0 only). May need to be disabled for compatibility with older systems. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_mode</span> - Apply SSL offloading between the client and the FortiGate (half) or from the client to the FortiGate and from the FortiGate to the server (full). <span class="li-normal">type: str</span> <span class="li-normal">choices: half, full</span>
  <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
  <div id="label237" style="display:none">
  <table border="1">
@@ -2446,19 +2438,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_send_empty_frags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_mode</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[half]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[full]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_algorithm</span> - Permitted encryption algorithms for the server side of SSL full mode sessions according to encryption strength. <span class="li-normal">type: str</span> <span class="li-normal">choices: high, medium, low, custom, client</span>
+        <li> <span class="li-head">ssl_pfs</span> - Select the cipher suites that can be used for SSL perfect forward secrecy (PFS). Applies to both client and server sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: require, deny, allow</span>
  <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
  <div id="label239" style="display:none">
  <table border="1">
@@ -2467,43 +2459,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_pfs</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[require]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[deny]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[client]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[allow]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_cipher_suites</span> - SSL/TLS cipher suites to offer to a server, ordered by priority. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_server_cipher_suites:priority</span>
+        <li> <span class="li-head">ssl_send_empty_frags</span> - Enable/disable sending empty fragments to avoid CBC IV attacks (SSL 3.0 & TLS 1.0 only). May need to be disabled for compatibility with older systems. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
  <div id="label241" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_cipher_suites</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_send_empty_frags</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">cipher</span> - Cipher suite name. <span class="li-normal">type: str</span> <span class="li-normal">choices: TLS-AES-128-GCM-SHA256, TLS-AES-256-GCM-SHA384, TLS-CHACHA20-POLY1305-SHA256, TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-AES-128-CBC-SHA, TLS-DHE-RSA-WITH-AES-256-CBC-SHA, TLS-DHE-RSA-WITH-AES-128-CBC-SHA256, TLS-DHE-RSA-WITH-AES-128-GCM-SHA256, TLS-DHE-RSA-WITH-AES-256-CBC-SHA256, TLS-DHE-RSA-WITH-AES-256-GCM-SHA384, TLS-DHE-DSS-WITH-AES-128-CBC-SHA, TLS-DHE-DSS-WITH-AES-256-CBC-SHA, TLS-DHE-DSS-WITH-AES-128-CBC-SHA256, TLS-DHE-DSS-WITH-AES-128-GCM-SHA256, TLS-DHE-DSS-WITH-AES-256-CBC-SHA256, TLS-DHE-DSS-WITH-AES-256-GCM-SHA384, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-AES-128-CBC-SHA, TLS-RSA-WITH-AES-256-CBC-SHA, TLS-RSA-WITH-AES-128-CBC-SHA256, TLS-RSA-WITH-AES-128-GCM-SHA256, TLS-RSA-WITH-AES-256-CBC-SHA256, TLS-RSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-SEED-CBC-SHA, TLS-DHE-DSS-WITH-SEED-CBC-SHA, TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384, TLS-RSA-WITH-SEED-CBC-SHA, TLS-RSA-WITH-ARIA-128-CBC-SHA256, TLS-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-RC4-128-SHA, TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-DHE-RSA-WITH-DES-CBC-SHA, TLS-DHE-DSS-WITH-DES-CBC-SHA, TLS-RSA-WITH-DES-CBC-SHA</span>
+        <li> <span class="li-head">ssl_server_algorithm</span> - Permitted encryption algorithms for the server side of SSL full mode sessions according to encryption strength. <span class="li-normal">type: str</span> <span class="li-normal">choices: high, medium, low, custom, client</span>
  <a id='label242' href="javascript:ContentClick('label243', 'label242');" onmouseover="ContentPreview('label243');" onmouseout="ContentUnpreview('label243');" title="click to collapse or expand..."> more... </a>
  <div id="label243" style="display:none">
  <table border="1">
@@ -2512,245 +2504,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cipher</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_algorithm</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[TLS-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
+ <td>[high]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[TLS-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
+ <td>[medium]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
+ <td>[low]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[client]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">ssl_server_cipher_suites</span> - SSL/TLS cipher suites to offer to a server, ordered by priority. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: ssl_server_cipher_suites:priority</span>
  <a id='label244' href="javascript:ContentClick('label245', 'label244');" onmouseover="ContentPreview('label245');" onmouseout="ContentUnpreview('label245');" title="click to collapse or expand..."> more... </a>
  <div id="label245" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_cipher_suites</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">cipher</span> - Cipher suite name. <span class="li-normal">type: str</span> <span class="li-normal">choices: TLS-AES-128-GCM-SHA256, TLS-AES-256-GCM-SHA384, TLS-CHACHA20-POLY1305-SHA256, TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256, TLS-DHE-RSA-WITH-AES-128-CBC-SHA, TLS-DHE-RSA-WITH-AES-256-CBC-SHA, TLS-DHE-RSA-WITH-AES-128-CBC-SHA256, TLS-DHE-RSA-WITH-AES-128-GCM-SHA256, TLS-DHE-RSA-WITH-AES-256-CBC-SHA256, TLS-DHE-RSA-WITH-AES-256-GCM-SHA384, TLS-DHE-DSS-WITH-AES-128-CBC-SHA, TLS-DHE-DSS-WITH-AES-256-CBC-SHA, TLS-DHE-DSS-WITH-AES-128-CBC-SHA256, TLS-DHE-DSS-WITH-AES-128-GCM-SHA256, TLS-DHE-DSS-WITH-AES-256-CBC-SHA256, TLS-DHE-DSS-WITH-AES-256-GCM-SHA384, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA, TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-AES-128-CBC-SHA, TLS-RSA-WITH-AES-256-CBC-SHA, TLS-RSA-WITH-AES-128-CBC-SHA256, TLS-RSA-WITH-AES-128-GCM-SHA256, TLS-RSA-WITH-AES-256-CBC-SHA256, TLS-RSA-WITH-AES-256-GCM-SHA384, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA, TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256, TLS-DHE-RSA-WITH-SEED-CBC-SHA, TLS-DHE-DSS-WITH-SEED-CBC-SHA, TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256, TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384, TLS-RSA-WITH-SEED-CBC-SHA, TLS-RSA-WITH-ARIA-128-CBC-SHA256, TLS-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256, TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384, TLS-ECDHE-RSA-WITH-RC4-128-SHA, TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA, TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-3DES-EDE-CBC-SHA, TLS-RSA-WITH-RC4-128-MD5, TLS-RSA-WITH-RC4-128-SHA, TLS-DHE-RSA-WITH-DES-CBC-SHA, TLS-DHE-DSS-WITH-DES-CBC-SHA, TLS-RSA-WITH-DES-CBC-SHA</span>
  <a id='label246' href="javascript:ContentClick('label247', 'label246');" onmouseover="ContentPreview('label247');" onmouseout="ContentUnpreview('label247');" title="click to collapse or expand..."> more... </a>
  <div id="label247" style="display:none">
  <table border="1">
@@ -2759,30 +2549,230 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>versions</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>cipher</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td>[TLS-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </tr>
+ <tr>
+ <td>[TLS-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">ssl_server_max_version</span> - Highest SSL/TLS version acceptable from a server. Use the client setting by default. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3, client</span>
+            <li> <span class="li-head">priority</span> - SSL/TLS cipher suites priority. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label248' href="javascript:ContentClick('label249', 'label248');" onmouseover="ContentPreview('label249');" onmouseout="ContentUnpreview('label249');" title="click to collapse or expand..."> more... </a>
  <div id="label249" style="display:none">
  <table border="1">
@@ -2791,32 +2781,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_max_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>priority</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
- </tr>
- <tr>
- <td>[client]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_min_version</span> - Lowest SSL/TLS version acceptable from a server. Use the client setting by default. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3, client</span>
+            <li> <span class="li-head">versions</span> - SSL/TLS versions that the cipher suite can be used with. <span class="li-normal">type: list</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3</span>
  <a id='label250' href="javascript:ContentClick('label251', 'label250');" onmouseover="ContentPreview('label251');" onmouseout="ContentUnpreview('label251');" title="click to collapse or expand..."> more... </a>
  <div id="label251" style="display:none">
  <table border="1">
@@ -2825,32 +2796,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_min_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>versions</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[ssl-3.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
  </tr>
- <tr>
- <td>[client]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_renegotiation</span> - Enable/disable secure renegotiation to comply with RFC 5746. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">ssl_server_max_version</span> - Highest SSL/TLS version acceptable from a server. Use the client setting by default. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3, client</span>
  <a id='label252' href="javascript:ContentClick('label253', 'label252');" onmouseover="ContentPreview('label253');" onmouseout="ContentUnpreview('label253');" title="click to collapse or expand..."> more... </a>
  <div id="label253" style="display:none">
  <table border="1">
@@ -2859,19 +2828,32 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_renegotiation</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3 </code></td>
+ <td>ssl_server_max_version</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <td>[ssl-3.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.3</code></td>
+ <td>[tls-1.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.1]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.2]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[client]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_session_state_max</span> - Maximum number of FortiGate to Server SSL session states to keep. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_server_min_version</span> - Lowest SSL/TLS version acceptable from a server. Use the client setting by default. <span class="li-normal">type: str</span> <span class="li-normal">choices: ssl-3.0, tls-1.0, tls-1.1, tls-1.2, tls-1.3, client</span>
  <a id='label254' href="javascript:ContentClick('label255', 'label254');" onmouseover="ContentPreview('label255');" onmouseout="ContentUnpreview('label255');" title="click to collapse or expand..."> more... </a>
  <div id="label255" style="display:none">
  <table border="1">
@@ -2880,13 +2862,32 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_session_state_max</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_min_version</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[ssl-3.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.0]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.1]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.2]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[tls-1.3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ </tr>
+ <tr>
+ <td>[client]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_session_state_timeout</span> - Number of minutes to keep FortiGate to Server SSL session state. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ssl_server_renegotiation</span> - Enable/disable secure renegotiation to comply with RFC 5746. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label256' href="javascript:ContentClick('label257', 'label256');" onmouseover="ContentPreview('label257');" onmouseout="ContentUnpreview('label257');" title="click to collapse or expand..."> more... </a>
  <div id="label257" style="display:none">
  <table border="1">
@@ -2895,13 +2896,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_session_state_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_renegotiation</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_server_session_state_type</span> - How to expire SSL sessions for the segment of the SSL connection between the server and the FortiGate. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, time, count, both</span>
+        <li> <span class="li-head">ssl_server_session_state_max</span> - Maximum number of FortiGate to Server SSL session states to keep. <span class="li-normal">type: int</span>
  <a id='label258' href="javascript:ContentClick('label259', 'label258');" onmouseover="ContentPreview('label259');" onmouseout="ContentUnpreview('label259');" title="click to collapse or expand..."> more... </a>
  <div id="label259" style="display:none">
  <table border="1">
@@ -2910,25 +2917,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_server_session_state_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_session_state_max</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[time]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[count]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable VIP. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">ssl_server_session_state_timeout</span> - Number of minutes to keep FortiGate to Server SSL session state. <span class="li-normal">type: int</span>
  <a id='label260' href="javascript:ContentClick('label261', 'label260');" onmouseover="ContentPreview('label261');" onmouseout="ContentUnpreview('label261');" title="click to collapse or expand..."> more... </a>
  <div id="label261" style="display:none">
  <table border="1">
@@ -2937,19 +2932,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_session_state_timeout</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Configure a static NAT, load balance, server load balance, access proxy, DNS translation, or FQDN VIP. <span class="li-normal">type: str</span> <span class="li-normal">choices: static-nat, load-balance, server-load-balance, dns-translation, fqdn, access-proxy</span>
+        <li> <span class="li-head">ssl_server_session_state_type</span> - How to expire SSL sessions for the segment of the SSL connection between the server and the FortiGate. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, time, count, both</span>
  <a id='label262' href="javascript:ContentClick('label263', 'label262');" onmouseover="ContentPreview('label263');" onmouseout="ContentUnpreview('label263');" title="click to collapse or expand..."> more... </a>
  <div id="label263" style="display:none">
  <table border="1">
@@ -2958,32 +2947,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>ssl_server_session_state_type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[static-nat]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[load-balance]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[time]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[server-load-balance]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[count]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[dns-translation]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
- <tr>
- <td>[access-proxy]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.3</code></td>
- </tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - Enable/disable VIP. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label264' href="javascript:ContentClick('label265', 'label264');" onmouseover="ContentPreview('label265');" onmouseout="ContentUnpreview('label265');" title="click to collapse or expand..."> more... </a>
  <div id="label265" style="display:none">
  <table border="1">
@@ -2992,13 +2974,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weblogic_server</span> - Enable to add an HTTP header to indicate SSL offloading for a WebLogic server. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">type</span> - Configure a static NAT, load balance, server load balance, access proxy, DNS translation, or FQDN VIP. <span class="li-normal">type: str</span> <span class="li-normal">choices: static-nat, load-balance, server-load-balance, dns-translation, fqdn, access-proxy</span>
  <a id='label266' href="javascript:ContentClick('label267', 'label266');" onmouseover="ContentPreview('label267');" onmouseout="ContentUnpreview('label267');" title="click to collapse or expand..."> more... </a>
  <div id="label267" style="display:none">
  <table border="1">
@@ -3007,19 +2995,32 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>weblogic_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[static-nat]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td>[load-balance]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[server-load-balance]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[dns-translation]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[fqdn]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[access-proxy]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">websphere_server</span> - Enable to add an HTTP header to indicate SSL offloading for a WebSphere server. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
  <a id='label268' href="javascript:ContentClick('label269', 'label268');" onmouseover="ContentPreview('label269');" onmouseout="ContentUnpreview('label269');" title="click to collapse or expand..."> more... </a>
  <div id="label269" style="display:none">
  <table border="1">
@@ -3028,15 +3029,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>websphere_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">weblogic_server</span> - Enable to add an HTTP header to indicate SSL offloading for a WebLogic server. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label270' href="javascript:ContentClick('label271', 'label270');" onmouseover="ContentPreview('label271');" onmouseout="ContentUnpreview('label271');" title="click to collapse or expand..."> more... </a>
+ <div id="label271" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>weblogic_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">websphere_server</span> - Enable to add an HTTP header to indicate SSL offloading for a WebSphere server. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label272' href="javascript:ContentClick('label273', 'label272');" onmouseover="ContentPreview('label273');" onmouseout="ContentUnpreview('label273');" title="click to collapse or expand..."> more... </a>
+ <div id="label273" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>websphere_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -3050,6 +3087,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 
@@ -3156,15 +3195,18 @@ Examples
               src_filter:
                   -
                       range: "<your_own_value>"
+              src_vip_filter: "disable"
               srcintf_filter:
                   -
                       interface_name: "<your_own_value> (source system.interface.name)"
               ssl_accept_ffdhe_groups: "enable"
               ssl_algorithm: "high"
-              ssl_certificate: "<your_own_value> (source vpn.certificate.local.name)"
-              ssl_certificate_dict:
+              ssl_certificate:
                   -
                       name: "default_name_93 (source vpn.certificate.local.name)"
+              ssl_certificate_dict:
+                  -
+                      name: "default_name_95 (source vpn.certificate.local.name)"
               ssl_cipher_suites:
                   -
                       cipher: "TLS-AES-128-GCM-SHA256"

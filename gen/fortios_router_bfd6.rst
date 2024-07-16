@@ -33,8 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> 7.4.3
-
+Supported Version Ranges: v6.0.0 -> v7.4.4
 
 
 Parameters
@@ -58,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>router_bfd6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +72,7 @@ Parameters
  </tr>
  <tr>
  <td>multihop_template</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +88,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_mode</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4</code></td>
  <tr>
  <td>[md5]</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3</code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
@@ -110,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>bfd_desired_min_tx</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -125,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>bfd_detect_mult</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>bfd_required_min_rx</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +154,7 @@ Parameters
  </tr>
  <tr>
  <td>dst</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -185,7 +184,7 @@ Parameters
  </tr>
  <tr>
  <td>md5_key</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -200,7 +199,7 @@ Parameters
  </tr>
  <tr>
  <td>src</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -215,7 +214,7 @@ Parameters
  </tr>
  <tr>
  <td>neighbor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -231,7 +230,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>
@@ -246,7 +245,7 @@ Parameters
  </tr>
  <tr>
  <td>ip6_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.3 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
  </tr>
  </table>
  </div>

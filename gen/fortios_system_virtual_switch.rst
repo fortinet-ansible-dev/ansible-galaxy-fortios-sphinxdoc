@@ -33,10 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v6.2.7
-, v6.4.1 -> v7.0.12
-, v7.2.1 -> v7.2.4
-, v7.4.2
+Supported Version Ranges: v6.0.0 -> v6.2.7, v6.4.1 -> v7.0.12, v7.2.1 -> v7.2.4, v7.4.2
 
 
 Parameters
@@ -365,6 +362,8 @@ Notes
 .. note::
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
+
+   - The module supports check_mode.
 
 
 
