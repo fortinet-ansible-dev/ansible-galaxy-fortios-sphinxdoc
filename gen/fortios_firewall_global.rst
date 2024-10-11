@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.1 -> v7.4.4
+Supported Version Ranges: v7.2.1 -> v7.6.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_global</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,17 +73,17 @@ Parameters
  </tr>
  <tr>
  <td>banned_ip_persistency</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[permanent-only]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>

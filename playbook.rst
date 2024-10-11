@@ -19,15 +19,18 @@ in our case we create a file named ``hosts``:
 ::
 
    [fortigates]
-   fortigate01 ansible_host=192.168.190.130 ansible_user="admin" ansible_password="password"
-   fortigate02 ansible_host=192.168.190.131 ansible_user="admin" ansible_password="password"
-   fortigate03 ansible_host=192.168.190.132 fortios_access_token=<your access token>
+   fortigate01 ansible_host=192.168.190.130
 
    [fortigates:vars]
    ansible_network_os=fortinet.fortios.fortios
+   ansible_log_path=/tmp/ansible.network.log
+   ansible_user=admin
+   ansible_password=YOUR_OWN_VALUE
+   ansible_httpapi_session_key={"access_token":"YOUR_OWN_VALUE"}
 
-FortiOS supports two ways to authenticate Ansible: ``ansible_user`` and ``ansible_password`` pair based; ``fortios_access_token`` access token based.
-Access token based way is prefered as it is safer without any password explosure and access token guarantees request source location is wanted.
+FortiOS supports two ways to authenticate Ansible: ``ansible_user`` and ``ansible_password`` pair based; ``ansible_httpapi_session_key`` access token based. The access token method is preferred as it offers enhanced security by avoiding password exposure and ensures that requests originate from the intended source.
+
+``fortios_access_token`` is a way for authentication, and it will be deprecated in the future, please use ``ansible_httpapi_session_key`` instead.
 
 
 for how to generate an API token, visit page `FortiOS API Spec`_.
@@ -36,12 +39,12 @@ for how to generate an API token, visit page `FortiOS API Spec`_.
 Write the playbook
 ~~~~~~~~~~~~~~~~~~
 
-in the example: ``test.yml`` we are going to modify the fortigate
-device's hostname:
+in the example: ``test.yml`` is going to modify the FortiGate
+device's hostname, please modify the variable values if needed.
 
 ::
 
-   - hosts: fortigate03
+   - hosts: fortigate01
      connection: httpapi
      collections:
      - fortinet.fortios
@@ -54,7 +57,6 @@ device's hostname:
       - name: Configure global attributes.
         fortios_system_global:
            vdom:  "{{ vdom }}"
-           access_token: "{{ fortios_access_token }}" #if you prefer access token based authentication, add this line.
            system_global:
                hostname: 'CustomHostName'
 

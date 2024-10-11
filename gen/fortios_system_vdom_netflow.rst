@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_vdom_netflow</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -102,7 +102,7 @@ Parameters
  </tr>
  <tr>
  <td>collectors</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>collector_ip</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -133,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>collector_port</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -163,7 +163,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -178,17 +178,17 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -202,15 +202,30 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">source_ip_interface</span> - Name of the interface used to determine the source IP for exporting packets. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>source_ip_interface</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -224,8 +239,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
+ <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
+ <div id="label25" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -248,8 +263,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">source_ip</span> - Source IP address for communication with the NetFlow agent. <span class="li-normal">type: str</span>
- <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
- <div id="label25" style="display:none">
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -263,8 +278,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">vdom_netflow</span> - Enable/disable NetFlow per VDOM. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -272,14 +287,14 @@ Parameters
  </tr>
  <tr>
  <td>vdom_netflow</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -315,6 +330,7 @@ Examples
                       interface: "<your_own_value> (source system.interface.name)"
                       interface_select_method: "auto"
                       source_ip: "84.230.14.43"
+                      source_ip_interface: "<your_own_value> (source system.interface.name)"
               interface: "<your_own_value> (source system.interface.name)"
               interface_select_method: "auto"
               source_ip: "84.230.14.43"

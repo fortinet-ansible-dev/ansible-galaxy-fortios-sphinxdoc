@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v7.2.0, v7.4.0 -> v7.4.1, v7.4.3 -> v7.4.4
+Supported Version Ranges: v6.4.0, v7.2.0, v7.4.0 -> v7.4.1, v7.4.3 -> v7.6.0
 
 
 Parameters
@@ -61,7 +61,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -80,7 +80,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[kbps]</td>
@@ -103,7 +103,7 @@ Parameters
  <td>burst_bps_granularity</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -165,7 +165,7 @@ Parameters
  <td>burst_pps_granularity</td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -207,7 +207,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -225,7 +225,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -243,7 +243,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

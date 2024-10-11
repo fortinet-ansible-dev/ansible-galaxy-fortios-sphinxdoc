@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_proxy_addrgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +103,7 @@ Parameters
  </tr>
  <tr>
  <td>member</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -135,7 +135,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +149,7 @@ Parameters
  </tr>
  <tr>
  <td>tagging</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -165,7 +165,7 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -180,7 +180,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +194,7 @@ Parameters
  </tr>
  <tr>
  <td>tags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -210,7 +210,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -227,14 +227,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[src]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[dst]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -248,7 +248,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.4 -> v7.4.4
+Supported Version Ranges: v7.2.4 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>antivirus_exempt_list</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>hash</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,17 +104,17 @@ Parameters
  </tr>
  <tr>
  <td>hash_type</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[md5]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[sha1]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[sha256]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -128,7 +128,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -143,14 +143,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>

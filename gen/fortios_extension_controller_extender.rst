@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.1 -> v7.4.4
+Supported Version Ranges: v7.2.1 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>extension_controller_extender</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,26 +74,26 @@ Parameters
  </tr>
  <tr>
  <td>allowaccess</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[telnet]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[snmp]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -107,18 +107,18 @@ Parameters
  </tr>
  <tr>
  <td>authorized</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[discovered]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -132,7 +132,7 @@ Parameters
  </tr>
  <tr>
  <td>bandwidth_limit</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -147,7 +147,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -162,7 +162,7 @@ Parameters
  </tr>
  <tr>
  <td>device_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -177,14 +177,14 @@ Parameters
  </tr>
  <tr>
  <td>enforce_bandwidth</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -198,7 +198,7 @@ Parameters
  </tr>
  <tr>
  <td>ext_name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -213,14 +213,14 @@ Parameters
  </tr>
  <tr>
  <td>extension_type</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[wan-extension]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[lan-extension]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -234,14 +234,14 @@ Parameters
  </tr>
  <tr>
  <td>firmware_provision_latest</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[once]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -255,7 +255,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -270,7 +270,7 @@ Parameters
  </tr>
  <tr>
  <td>login_password</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -285,17 +285,17 @@ Parameters
  </tr>
  <tr>
  <td>login_password_change</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[yes]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[no]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -309,7 +309,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -324,14 +324,14 @@ Parameters
  </tr>
  <tr>
  <td>override_allowaccess</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -345,14 +345,14 @@ Parameters
  </tr>
  <tr>
  <td>override_enforce_bandwidth</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -366,14 +366,14 @@ Parameters
  </tr>
  <tr>
  <td>override_login_password_change</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -387,7 +387,7 @@ Parameters
  </tr>
  <tr>
  <td>profile</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -401,7 +401,7 @@ Parameters
  </tr>
  <tr>
  <td>wan_extension</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -417,7 +417,7 @@ Parameters
  </tr>
  <tr>
  <td>modem1_extension</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -432,7 +432,7 @@ Parameters
  </tr>
  <tr>
  <td>modem2_extension</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

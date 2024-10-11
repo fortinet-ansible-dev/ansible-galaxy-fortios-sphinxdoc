@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_ssh_local_ca</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>private_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>public_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -134,14 +134,14 @@ Parameters
  </tr>
  <tr>
  <td>source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[built-in]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[user]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>

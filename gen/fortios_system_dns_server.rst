@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_dns_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>dnsfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>doh</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -110,14 +110,14 @@ Parameters
  </tr>
  <tr>
  <td>doh3</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -131,18 +131,18 @@ Parameters
  </tr>
  <tr>
  <td>doq</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">mode</span> - DNS server mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: recursive, non-recursive, forward-only</span>
+        <li> <span class="li-head">mode</span> - DNS server mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: recursive, non-recursive, forward-only, resolver</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -152,17 +152,21 @@ Parameters
  </tr>
  <tr>
  <td>mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[recursive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[non-recursive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[forward-only]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[resolver]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -176,7 +180,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

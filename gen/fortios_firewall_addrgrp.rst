@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>firewall_addrgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">allow_routing</span> - Enable/disable use of this group in the static route configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">allow_routing</span> - Enable/disable use of this group in routing configurations. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>allow_routing</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -95,17 +95,17 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[ztna-ems-tag]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[ztna-geo-tag]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -149,14 +149,14 @@ Parameters
  </tr>
  <tr>
  <td>exclude</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -169,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>exclude_member</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -185,7 +185,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -201,14 +201,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -221,7 +221,7 @@ Parameters
  </tr>
  <tr>
  <td>member</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -237,7 +237,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -253,7 +253,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -267,7 +267,7 @@ Parameters
  </tr>
  <tr>
  <td>tagging</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -283,7 +283,7 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -298,7 +298,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -312,7 +312,7 @@ Parameters
  </tr>
  <tr>
  <td>tags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -328,7 +328,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -345,14 +345,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[folder]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -366,7 +366,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

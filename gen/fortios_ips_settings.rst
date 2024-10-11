@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -57,13 +57,13 @@ Parameters
  </tr>
  <tr>
  <td>ips_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">ips_packet_quota</span> - Maximum amount of disk space in MB for logged packets when logging to disk. Range depends on disk size. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ha_session_pickup</span> - IPS HA failover session pickup preference. <span class="li-normal">type: str</span> <span class="li-normal">choices: connectivity, security</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -72,13 +72,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ips_packet_quota</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>ha_session_pickup</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[connectivity]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[security]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">packet_log_history</span> - Number of packets to capture before and including the one in which the IPS signature is detected (1 - 255). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">ips_packet_quota</span> - Maximum amount of disk space in MB for logged packets when logging to disk. Range depends on disk size. <span class="li-normal">type: int</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -87,13 +93,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>packet_log_history</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>ips_packet_quota</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">packet_log_memory</span> - Maximum memory can be used by packet log (64 - 8192 kB). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">packet_log_history</span> - Number of packets to capture before and including the one in which the IPS signature is detected (1 - 255). <span class="li-normal">type: int</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -102,13 +108,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>packet_log_memory</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>packet_log_history</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">packet_log_post_attack</span> - Number of packets to log after the IPS signature is detected (0 - 255). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">packet_log_memory</span> - Maximum memory can be used by packet log (64 - 8192 kB). <span class="li-normal">type: int</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -117,13 +123,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>packet_log_post_attack</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>packet_log_memory</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">proxy_inline_ips</span> - Enable/disable proxy-mode policy inline IPS support. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">packet_log_post_attack</span> - Number of packets to log after the IPS signature is detected (0 - 255). <span class="li-normal">type: int</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -132,15 +138,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>packet_log_post_attack</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">proxy_inline_ips</span> - Enable/disable proxy-mode policy inline IPS support. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>proxy_inline_ips</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -166,6 +187,7 @@ Examples
       fortinet.fortios.fortios_ips_settings:
           vdom: "{{ vdom }}"
           ips_settings:
+              ha_session_pickup: "connectivity"
               ips_packet_quota: "0"
               packet_log_history: "1"
               packet_log_memory: "256"

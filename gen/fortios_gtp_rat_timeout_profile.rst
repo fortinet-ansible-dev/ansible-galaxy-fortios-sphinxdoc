@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.1 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.4.4
+Supported Version Ranges: v7.0.1 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.0
 
 
 Parameters
@@ -60,7 +60,7 @@ Parameters
  <td>gtp_rat_timeout_profile</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -78,7 +78,7 @@ Parameters
  <td>eutran_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -95,7 +95,7 @@ Parameters
  <td>gan_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -112,7 +112,7 @@ Parameters
  <td>geran_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -129,7 +129,7 @@ Parameters
  <td>hspa_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -146,7 +146,7 @@ Parameters
  <td>ltem_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -163,7 +163,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -180,7 +180,7 @@ Parameters
  <td>nbiot_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -197,7 +197,7 @@ Parameters
  <td>nr_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -214,7 +214,7 @@ Parameters
  <td>utran_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -231,7 +231,7 @@ Parameters
  <td>virtual_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -248,7 +248,7 @@ Parameters
  <td>wlan_timeout</td>
  <td><code class="docutils literal notranslate">v7.0.1 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

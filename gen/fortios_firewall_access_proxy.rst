@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.4.4
+Supported Version Ranges: v7.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_access_proxy</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>add_vhost_domain_to_dnsdb</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -94,7 +94,7 @@ Parameters
  </tr>
  <tr>
  <td>api_gateway</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -109,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>application</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -141,14 +141,14 @@ Parameters
  </tr>
  <tr>
  <td>h2_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -162,14 +162,14 @@ Parameters
  </tr>
  <tr>
  <td>h3_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -183,7 +183,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_age</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -198,7 +198,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -213,14 +213,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain_from_host</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -234,7 +234,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_generation</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -249,7 +249,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_path</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -264,14 +264,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_share</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[same-ip]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -285,14 +285,14 @@ Parameters
  </tr>
  <tr>
  <td>https_cookie_secure</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -306,7 +306,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -321,23 +321,23 @@ Parameters
  </tr>
  <tr>
  <td>ldb_method</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[round-robin]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[weighted]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[first-alive]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[http-host]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[least-session]</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
@@ -359,14 +359,14 @@ Parameters
  </tr>
  <tr>
  <td>persistence</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[http-cookie]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -379,7 +379,7 @@ Parameters
  </tr>
  <tr>
  <td>quic</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -395,7 +395,7 @@ Parameters
  </tr>
  <tr>
  <td>ack_delay_exponent</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -410,7 +410,7 @@ Parameters
  </tr>
  <tr>
  <td>active_connection_id_limit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -425,14 +425,14 @@ Parameters
  </tr>
  <tr>
  <td>active_migration</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -446,14 +446,14 @@ Parameters
  </tr>
  <tr>
  <td>grease_quic_bit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -467,7 +467,7 @@ Parameters
  </tr>
  <tr>
  <td>max_ack_delay</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -482,7 +482,7 @@ Parameters
  </tr>
  <tr>
  <td>max_datagram_frame_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -497,7 +497,7 @@ Parameters
  </tr>
  <tr>
  <td>max_idle_timeout</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -512,7 +512,7 @@ Parameters
  </tr>
  <tr>
  <td>max_udp_payload_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -527,7 +527,7 @@ Parameters
  </tr>
  <tr>
  <td>realservers</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -543,14 +543,14 @@ Parameters
  </tr>
  <tr>
  <td>addr_type</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -564,7 +564,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -579,7 +579,7 @@ Parameters
  </tr>
  <tr>
  <td>domain</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -594,14 +594,14 @@ Parameters
  </tr>
  <tr>
  <td>external_auth</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -615,14 +615,14 @@ Parameters
  </tr>
  <tr>
  <td>health_check</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -636,17 +636,17 @@ Parameters
  </tr>
  <tr>
  <td>health_check_proto</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tcp-connect]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -660,14 +660,14 @@ Parameters
  </tr>
  <tr>
  <td>holddown_interval</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -681,7 +681,7 @@ Parameters
  </tr>
  <tr>
  <td>http_host</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -696,7 +696,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -711,7 +711,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -726,7 +726,7 @@ Parameters
  </tr>
  <tr>
  <td>mappedport</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -741,7 +741,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -756,7 +756,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh_client_cert</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -770,7 +770,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh_host_key</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -786,7 +786,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -802,14 +802,14 @@ Parameters
  </tr>
  <tr>
  <td>ssh_host_key_validation</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -823,17 +823,17 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[active]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[standby]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -847,14 +847,14 @@ Parameters
  </tr>
  <tr>
  <td>translate_host</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -868,14 +868,14 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_encryption</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -889,14 +889,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tcp-forwarding]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -910,7 +910,7 @@ Parameters
  </tr>
  <tr>
  <td>weight</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -926,14 +926,14 @@ Parameters
  </tr>
  <tr>
  <td>saml_redirect</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -947,7 +947,7 @@ Parameters
  </tr>
  <tr>
  <td>saml_server</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -962,27 +962,27 @@ Parameters
  </tr>
  <tr>
  <td>service</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tcp-forwarding]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[samlsp]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[web-portal]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
  </tr>
  <tr>
  <td>[saas]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </tr>
  </table>
  </div>
@@ -997,17 +997,17 @@ Parameters
  </tr>
  <tr>
  <td>ssl_algorithm</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[medium]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[custom]</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.0</code></td>
@@ -1024,7 +1024,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_cipher_suites</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1040,222 +1040,222 @@ Parameters
  </tr>
  <tr>
  <td>cipher</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[TLS-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </tr>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1269,7 +1269,7 @@ Parameters
  </tr>
  <tr>
  <td>priority</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1284,20 +1284,20 @@ Parameters
  </tr>
  <tr>
  <td>versions</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1312,26 +1312,26 @@ Parameters
  </tr>
  <tr>
  <td>ssl_dh_bits</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[768]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[1024]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[1536]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[2048]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[3072]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[4096]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1345,20 +1345,20 @@ Parameters
  </tr>
  <tr>
  <td>ssl_max_version</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1372,20 +1372,20 @@ Parameters
  </tr>
  <tr>
  <td>ssl_min_version</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1399,14 +1399,14 @@ Parameters
  </tr>
  <tr>
  <td>ssl_renegotiation</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1420,7 +1420,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_vpn_web_portal</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1435,7 +1435,7 @@ Parameters
  </tr>
  <tr>
  <td>url_map</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1450,17 +1450,17 @@ Parameters
  </tr>
  <tr>
  <td>url_map_type</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[sub-string]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[wildcard]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[regex]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1474,7 +1474,7 @@ Parameters
  </tr>
  <tr>
  <td>virtual_host</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1489,7 +1489,7 @@ Parameters
  </tr>
  <tr>
  <td>api_gateway6</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1504,7 +1504,7 @@ Parameters
  </tr>
  <tr>
  <td>application</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1520,7 +1520,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1536,14 +1536,14 @@ Parameters
  </tr>
  <tr>
  <td>h2_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1557,14 +1557,14 @@ Parameters
  </tr>
  <tr>
  <td>h3_support</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1578,7 +1578,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_age</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1593,7 +1593,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1608,14 +1608,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_domain_from_host</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1629,7 +1629,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_generation</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1644,7 +1644,7 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_path</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1659,14 +1659,14 @@ Parameters
  </tr>
  <tr>
  <td>http_cookie_share</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[same-ip]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1680,14 +1680,14 @@ Parameters
  </tr>
  <tr>
  <td>https_cookie_secure</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1701,7 +1701,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1716,23 +1716,23 @@ Parameters
  </tr>
  <tr>
  <td>ldb_method</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[round-robin]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[weighted]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[first-alive]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[http-host]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1746,14 +1746,14 @@ Parameters
  </tr>
  <tr>
  <td>persistence</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[http-cookie]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1766,7 +1766,7 @@ Parameters
  </tr>
  <tr>
  <td>quic</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1782,7 +1782,7 @@ Parameters
  </tr>
  <tr>
  <td>ack_delay_exponent</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1797,7 +1797,7 @@ Parameters
  </tr>
  <tr>
  <td>active_connection_id_limit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1812,14 +1812,14 @@ Parameters
  </tr>
  <tr>
  <td>active_migration</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1833,14 +1833,14 @@ Parameters
  </tr>
  <tr>
  <td>grease_quic_bit</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1854,7 +1854,7 @@ Parameters
  </tr>
  <tr>
  <td>max_ack_delay</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1869,7 +1869,7 @@ Parameters
  </tr>
  <tr>
  <td>max_datagram_frame_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1884,7 +1884,7 @@ Parameters
  </tr>
  <tr>
  <td>max_idle_timeout</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1899,7 +1899,7 @@ Parameters
  </tr>
  <tr>
  <td>max_udp_payload_size</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1914,7 +1914,7 @@ Parameters
  </tr>
  <tr>
  <td>realservers</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1930,14 +1930,14 @@ Parameters
  </tr>
  <tr>
  <td>addr_type</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -1951,7 +1951,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1966,7 +1966,7 @@ Parameters
  </tr>
  <tr>
  <td>domain</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1981,14 +1981,14 @@ Parameters
  </tr>
  <tr>
  <td>external_auth</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2002,14 +2002,14 @@ Parameters
  </tr>
  <tr>
  <td>health_check</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2023,17 +2023,17 @@ Parameters
  </tr>
  <tr>
  <td>health_check_proto</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tcp-connect]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2047,14 +2047,14 @@ Parameters
  </tr>
  <tr>
  <td>holddown_interval</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2068,7 +2068,7 @@ Parameters
  </tr>
  <tr>
  <td>http_host</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2083,7 +2083,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2098,7 +2098,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2113,7 +2113,7 @@ Parameters
  </tr>
  <tr>
  <td>mappedport</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2128,7 +2128,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2143,7 +2143,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh_client_cert</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2157,7 +2157,7 @@ Parameters
  </tr>
  <tr>
  <td>ssh_host_key</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2173,7 +2173,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2189,14 +2189,14 @@ Parameters
  </tr>
  <tr>
  <td>ssh_host_key_validation</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2210,17 +2210,17 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[active]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[standby]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2234,14 +2234,14 @@ Parameters
  </tr>
  <tr>
  <td>translate_host</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2255,14 +2255,14 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_encryption</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2276,14 +2276,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tcp-forwarding]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2297,7 +2297,7 @@ Parameters
  </tr>
  <tr>
  <td>weight</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2313,14 +2313,14 @@ Parameters
  </tr>
  <tr>
  <td>saml_redirect</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2334,7 +2334,7 @@ Parameters
  </tr>
  <tr>
  <td>saml_server</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2349,27 +2349,27 @@ Parameters
  </tr>
  <tr>
  <td>service</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tcp-forwarding]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[samlsp]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[web-portal]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
  </tr>
  <tr>
  <td>[saas]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </tr>
  </table>
  </div>
@@ -2384,17 +2384,17 @@ Parameters
  </tr>
  <tr>
  <td>ssl_algorithm</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[medium]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2407,7 +2407,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_cipher_suites</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2423,221 +2423,221 @@ Parameters
  </tr>
  <tr>
  <td>cipher</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[TLS-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-CAMELLIA-256-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-SEED-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-ARIA-128-CBC-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-ECDSA-WITH-ARIA-256-CBC-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-ECDHE-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-3DES-EDE-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-RC4-128-MD5]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-RC4-128-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-DHE-DSS-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[TLS-RSA-WITH-DES-CBC-SHA]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2651,7 +2651,7 @@ Parameters
  </tr>
  <tr>
  <td>priority</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2666,20 +2666,20 @@ Parameters
  </tr>
  <tr>
  <td>versions</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2694,26 +2694,26 @@ Parameters
  </tr>
  <tr>
  <td>ssl_dh_bits</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[768]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[1024]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[1536]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[2048]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[3072]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[4096]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2727,20 +2727,20 @@ Parameters
  </tr>
  <tr>
  <td>ssl_max_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2754,20 +2754,20 @@ Parameters
  </tr>
  <tr>
  <td>ssl_min_version</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.0]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2781,14 +2781,14 @@ Parameters
  </tr>
  <tr>
  <td>ssl_renegotiation</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2802,7 +2802,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_vpn_web_portal</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2817,7 +2817,7 @@ Parameters
  </tr>
  <tr>
  <td>url_map</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2832,17 +2832,17 @@ Parameters
  </tr>
  <tr>
  <td>url_map_type</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[sub-string]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[wildcard]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[regex]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2856,7 +2856,7 @@ Parameters
  </tr>
  <tr>
  <td>virtual_host</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2872,14 +2872,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_portal</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2893,7 +2893,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_virtual_host</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2908,14 +2908,14 @@ Parameters
  </tr>
  <tr>
  <td>client_cert</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -2929,7 +2929,7 @@ Parameters
  </tr>
  <tr>
  <td>decrypted_traffic_mirror</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -2944,17 +2944,17 @@ Parameters
  </tr>
  <tr>
  <td>empty_cert_action</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[accept]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[accept-unmanageable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </tr>
  </table>
  </div>
@@ -3023,14 +3023,14 @@ Parameters
  </tr>
  <tr>
  <td>log_blocked_traffic</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -3044,7 +3044,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -3425,14 +3425,14 @@ Parameters
  </tr>
  <tr>
  <td>svr_pool_multiplex</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -3446,7 +3446,7 @@ Parameters
  </tr>
  <tr>
  <td>svr_pool_server_max_concurrent_request</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -3461,7 +3461,7 @@ Parameters
  </tr>
  <tr>
  <td>svr_pool_server_max_request</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -3476,7 +3476,7 @@ Parameters
  </tr>
  <tr>
  <td>svr_pool_ttl</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -3491,14 +3491,14 @@ Parameters
  </tr>
  <tr>
  <td>user_agent_detect</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -3512,7 +3512,7 @@ Parameters
  </tr>
  <tr>
  <td>vip</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

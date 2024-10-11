@@ -121,7 +121,6 @@ Parameters
         <li><span class="li-head">disk_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -156,7 +155,6 @@ Parameters
         <li><span class="li-head">disk_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -170,7 +168,6 @@ Parameters
         <li><span class="li-head">disk_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -184,7 +181,6 @@ Parameters
         <li><span class="li-head">disk_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -198,7 +194,6 @@ Parameters
         <li><span class="li-head">disk_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -212,7 +207,6 @@ Parameters
         <li><span class="li-head">disk_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -226,7 +220,6 @@ Parameters
         <li><span class="li-head">disk_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -241,7 +234,6 @@ Parameters
         <li><span class="li-head">disk_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -256,7 +248,6 @@ Parameters
         <li><span class="li-head">disk_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -271,7 +262,6 @@ Parameters
         <li><span class="li-head">disk_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -286,7 +276,6 @@ Parameters
         <li><span class="li-head">disk_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -301,7 +290,6 @@ Parameters
         <li><span class="li-head">disk_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -316,7 +304,6 @@ Parameters
         <li><span class="li-head">disk_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -331,7 +318,6 @@ Parameters
         <li><span class="li-head">disk_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -346,7 +332,6 @@ Parameters
         <li><span class="li-head">disk_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -361,7 +346,6 @@ Parameters
         <li><span class="li-head">disk_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -376,7 +360,6 @@ Parameters
         <li><span class="li-head">disk_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -391,7 +374,6 @@ Parameters
         <li><span class="li-head">disk_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -406,7 +388,6 @@ Parameters
         <li><span class="li-head">disk_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -420,7 +401,6 @@ Parameters
         <li><span class="li-head">disk_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -455,7 +435,6 @@ Parameters
         <li><span class="li-head">disk_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -469,7 +448,6 @@ Parameters
         <li><span class="li-head">disk_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -483,7 +461,6 @@ Parameters
         <li><span class="li-head">disk_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -497,7 +474,6 @@ Parameters
         <li><span class="li-head">disk_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -512,7 +488,6 @@ Parameters
         <li><span class="li-head">disk_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -527,7 +502,6 @@ Parameters
         <li><span class="li-head">disk_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -542,7 +516,6 @@ Parameters
         <li><span class="li-head">disk_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -557,7 +530,6 @@ Parameters
         <li><span class="li-head">disk_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -572,7 +544,6 @@ Parameters
         <li><span class="li-head">disk_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -587,8 +558,7 @@ Parameters
         <li><span class="li-head">disk_virus_archive</span> - Return a description of the quarantined virus file. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">mkey</span> - checksum column from the virus log. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filename</span> - Filename of the antivirus archive. (virus type only) <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">mkey</span> - The checksum column from the virus log. <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -597,7 +567,6 @@ Parameters
         <li><span class="li-head">disk_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -611,7 +580,6 @@ Parameters
         <li><span class="li-head">disk_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -625,7 +593,6 @@ Parameters
         <li><span class="li-head">disk_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -639,7 +606,6 @@ Parameters
         <li><span class="li-head">disk_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -653,7 +619,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -688,7 +653,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -702,7 +666,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -716,7 +679,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -730,7 +692,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -744,7 +705,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -758,7 +718,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -773,7 +732,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -788,7 +746,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -803,7 +760,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -818,7 +774,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -833,7 +788,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -848,7 +802,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -863,7 +816,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -878,7 +830,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -893,7 +844,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -908,7 +858,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -923,7 +872,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -938,7 +886,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -952,7 +899,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -987,7 +933,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1001,7 +946,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1015,7 +959,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1029,7 +972,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1044,7 +986,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1059,7 +1000,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1074,7 +1014,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1089,7 +1028,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1104,7 +1042,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1119,8 +1056,7 @@ Parameters
         <li><span class="li-head">fortianalyzer_virus_archive</span> - Return a description of the quarantined virus file. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">mkey</span> - checksum column from the virus log. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filename</span> - Filename of the antivirus archive. (virus type only) <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">mkey</span> - The checksum column from the virus log. <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1129,7 +1065,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1143,7 +1078,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1157,7 +1091,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1171,7 +1104,6 @@ Parameters
         <li><span class="li-head">fortianalyzer_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1185,7 +1117,6 @@ Parameters
         <li><span class="li-head">forticloud_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1220,7 +1151,6 @@ Parameters
         <li><span class="li-head">forticloud_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1234,7 +1164,6 @@ Parameters
         <li><span class="li-head">forticloud_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1248,7 +1177,6 @@ Parameters
         <li><span class="li-head">forticloud_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1262,7 +1190,6 @@ Parameters
         <li><span class="li-head">forticloud_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1276,7 +1203,6 @@ Parameters
         <li><span class="li-head">forticloud_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1290,7 +1216,6 @@ Parameters
         <li><span class="li-head">forticloud_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1305,7 +1230,6 @@ Parameters
         <li><span class="li-head">forticloud_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1320,7 +1244,6 @@ Parameters
         <li><span class="li-head">forticloud_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1335,7 +1258,6 @@ Parameters
         <li><span class="li-head">forticloud_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1350,7 +1272,6 @@ Parameters
         <li><span class="li-head">forticloud_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1365,7 +1286,6 @@ Parameters
         <li><span class="li-head">forticloud_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1380,7 +1300,6 @@ Parameters
         <li><span class="li-head">forticloud_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1395,7 +1314,6 @@ Parameters
         <li><span class="li-head">forticloud_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1410,7 +1328,6 @@ Parameters
         <li><span class="li-head">forticloud_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1425,7 +1342,6 @@ Parameters
         <li><span class="li-head">forticloud_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1440,7 +1356,6 @@ Parameters
         <li><span class="li-head">forticloud_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1455,7 +1370,6 @@ Parameters
         <li><span class="li-head">forticloud_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1470,7 +1384,6 @@ Parameters
         <li><span class="li-head">forticloud_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1484,7 +1397,6 @@ Parameters
         <li><span class="li-head">forticloud_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1519,7 +1431,6 @@ Parameters
         <li><span class="li-head">forticloud_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1533,7 +1444,6 @@ Parameters
         <li><span class="li-head">forticloud_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1547,7 +1457,6 @@ Parameters
         <li><span class="li-head">forticloud_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1561,7 +1470,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1576,7 +1484,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1591,7 +1498,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1606,7 +1512,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1621,7 +1526,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1636,7 +1540,6 @@ Parameters
         <li><span class="li-head">forticloud_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1651,8 +1554,7 @@ Parameters
         <li><span class="li-head">forticloud_virus_archive</span> - Return a description of the quarantined virus file. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">mkey</span> - checksum column from the virus log. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filename</span> - Filename of the antivirus archive. (virus type only) <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">mkey</span> - The checksum column from the virus log. <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -1661,7 +1563,6 @@ Parameters
         <li><span class="li-head">forticloud_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1675,7 +1576,6 @@ Parameters
         <li><span class="li-head">forticloud_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1689,7 +1589,6 @@ Parameters
         <li><span class="li-head">forticloud_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1703,7 +1602,6 @@ Parameters
         <li><span class="li-head">forticloud_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1717,7 +1615,6 @@ Parameters
         <li><span class="li-head">memory_anomaly_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1752,7 +1649,6 @@ Parameters
         <li><span class="li-head">memory_app-ctrl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1766,7 +1662,6 @@ Parameters
         <li><span class="li-head">memory_cifs_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1780,7 +1675,6 @@ Parameters
         <li><span class="li-head">memory_dlp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1794,7 +1688,6 @@ Parameters
         <li><span class="li-head">memory_dns_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1808,7 +1701,6 @@ Parameters
         <li><span class="li-head">memory_emailfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1822,7 +1714,6 @@ Parameters
         <li><span class="li-head">memory_event_compliance-check</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1837,7 +1728,6 @@ Parameters
         <li><span class="li-head">memory_event_connector</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1852,7 +1742,6 @@ Parameters
         <li><span class="li-head">memory_event_endpoint</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1867,7 +1756,6 @@ Parameters
         <li><span class="li-head">memory_event_fortiextender</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1882,7 +1770,6 @@ Parameters
         <li><span class="li-head">memory_event_ha</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1897,7 +1784,6 @@ Parameters
         <li><span class="li-head">memory_event_router</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1912,7 +1798,6 @@ Parameters
         <li><span class="li-head">memory_event_security-rating</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1927,7 +1812,6 @@ Parameters
         <li><span class="li-head">memory_event_system</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1942,7 +1826,6 @@ Parameters
         <li><span class="li-head">memory_event_user</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1957,7 +1840,6 @@ Parameters
         <li><span class="li-head">memory_event_vpn</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1972,7 +1854,6 @@ Parameters
         <li><span class="li-head">memory_event_wad</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -1987,7 +1868,6 @@ Parameters
         <li><span class="li-head">memory_event_wireless</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2002,7 +1882,6 @@ Parameters
         <li><span class="li-head">memory_file-filter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2016,7 +1895,6 @@ Parameters
         <li><span class="li-head">memory_gtp_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2051,7 +1929,6 @@ Parameters
         <li><span class="li-head">memory_ips_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2065,7 +1942,6 @@ Parameters
         <li><span class="li-head">memory_ssh_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2079,7 +1955,6 @@ Parameters
         <li><span class="li-head">memory_ssl_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2093,7 +1968,6 @@ Parameters
         <li><span class="li-head">memory_traffic_fortiview</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2108,7 +1982,6 @@ Parameters
         <li><span class="li-head">memory_traffic_forward</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2123,7 +1996,6 @@ Parameters
         <li><span class="li-head">memory_traffic_local</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2138,7 +2010,6 @@ Parameters
         <li><span class="li-head">memory_traffic_multicast</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2153,7 +2024,6 @@ Parameters
         <li><span class="li-head">memory_traffic_sniffer</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2168,7 +2038,6 @@ Parameters
         <li><span class="li-head">memory_traffic_threat</span> - Log data for the given log type (and subtype). Append '/raw' to retrieve in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2183,8 +2052,7 @@ Parameters
         <li><span class="li-head">memory_virus_archive</span> - Return a description of the quarantined virus file. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">mkey</span> - checksum column from the virus log. <span class="li-normal">type: int </span> </li>
-                <li><span class="li-required">filename</span> - Filename of the antivirus archive. (virus type only) <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">mkey</span> - The checksum column from the virus log. <span class="li-normal">type: int </span> </li>
                 
             </ul>
         
@@ -2193,7 +2061,6 @@ Parameters
         <li><span class="li-head">memory_virus_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2207,7 +2074,6 @@ Parameters
         <li><span class="li-head">memory_voip_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2221,7 +2087,6 @@ Parameters
         <li><span class="li-head">memory_waf_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
@@ -2235,7 +2100,6 @@ Parameters
         <li><span class="li-head">memory_webfilter_raw</span> - Log data for the given log type in raw format. 
         <ul class="ul-self">
                 <li> <span class="li-required">vdom</span> - The name of the virtual domain <span class="li-normal">type: str</span>
-                <li><span class="li-required">start</span> - Row number for the first row to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">rows</span> - Number of rows to return. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">session_id</span> - Provide a session_id to continue getting data for that request. <span class="li-normal">type: int </span> </li>
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_service_category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -110,7 +110,22 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
+ <div id="label9" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -144,6 +159,7 @@ Examples
               comment: "Comment."
               fabric_object: "enable"
               name: "default_name_5"
+              uuid: "<your_own_value>"
 
 
 Return Values

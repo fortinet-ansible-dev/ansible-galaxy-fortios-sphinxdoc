@@ -4,8 +4,8 @@
 
 .. fortios_web_proxy_url_match:
 
-fortios_web_proxy_url_match -- Exempt URLs from web proxy forwarding and caching in Fortinet's FortiOS and FortiGate.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fortios_web_proxy_url_match -- Exempt URLs from web proxy forwarding, caching and fast-fallback in Fortinet's FortiOS and FortiGate.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 2.0.0
 
@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -49,7 +49,7 @@ Parameters
     <li> <span class="li-head">member_path</span> - Member attribute path to operate on. <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">member_state</span> - Add or delete a member under specified attribute path. <span class="li-normal">type: str</span> <span class="li-normal">choices: present, absent</span> </li>
     <li> <span class="li-head">state</span> - Indicates whether to create or remove the object. <span class="li-normal">type: str</span> <span class="li-required">required: true</span> <span class="li-normal">choices: present, absent</span> </li>
-    <li> <span class="li-head">web_proxy_url_match</span> - Exempt URLs from web proxy forwarding and caching. <span class="li-normal">type: dict</span>
+    <li> <span class="li-head">web_proxy_url_match</span> - Exempt URLs from web proxy forwarding, caching and fast-fallback. <span class="li-normal">type: dict</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
  <table border="1">
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>web_proxy_url_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>cache_exemption</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>fast_fallback</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>forward_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -140,12 +140,12 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable exempting the URLs matching the URL pattern from web proxy forwarding and caching. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">status</span> - Enable/disable exempting the URLs matching the URL pattern from web proxy forwarding, caching and fast-fallback. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -155,18 +155,18 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">url_pattern</span> - URL pattern to be exempted from web proxy forwarding and caching. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">url_pattern</span> - URL pattern to be exempted from web proxy forwarding, caching and fast-fallback. <span class="li-normal">type: str</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -176,7 +176,7 @@ Parameters
  </tr>
  <tr>
  <td>url_pattern</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -201,7 +201,7 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - name: Exempt URLs from web proxy forwarding and caching.
+    - name: Exempt URLs from web proxy forwarding, caching and fast-fallback.
       fortinet.fortios.fortios_web_proxy_url_match:
           vdom: "{{ vdom }}"
           state: "present"

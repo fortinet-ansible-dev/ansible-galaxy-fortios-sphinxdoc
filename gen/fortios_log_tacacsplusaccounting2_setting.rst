@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.4.4
+Supported Version Ranges: v7.0.2 -> v7.6.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>log_tacacsplusaccounting2_setting</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,17 +88,17 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -112,7 +112,7 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -127,7 +127,7 @@ Parameters
  </tr>
  <tr>
  <td>server_key</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -142,7 +142,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -157,14 +157,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>

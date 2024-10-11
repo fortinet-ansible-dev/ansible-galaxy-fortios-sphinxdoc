@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>vpn_certificate_setting</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>cert_expire_warning</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_dsa1024</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +103,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_dsa2048</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_ecdsa256</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -133,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_ecdsa384</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_ecdsa521</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -163,7 +163,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_ed25519</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -178,7 +178,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_ed448</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -193,7 +193,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_rsa1024</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -208,7 +208,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_rsa2048</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -223,7 +223,7 @@ Parameters
  </tr>
  <tr>
  <td>certname_rsa4096</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -238,14 +238,14 @@ Parameters
  </tr>
  <tr>
  <td>check_ca_cert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -259,14 +259,14 @@ Parameters
  </tr>
  <tr>
  <td>check_ca_chain</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -282,7 +282,7 @@ Parameters
  <td>cmp_key_usage_checking</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -303,14 +303,14 @@ Parameters
  </tr>
  <tr>
  <td>cmp_save_extra_certs</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -324,14 +324,14 @@ Parameters
  </tr>
  <tr>
  <td>cn_allow_multi</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -345,14 +345,14 @@ Parameters
  </tr>
  <tr>
  <td>cn_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[substring]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[value]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -365,7 +365,7 @@ Parameters
  </tr>
  <tr>
  <td>crl_verification</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -381,14 +381,14 @@ Parameters
  </tr>
  <tr>
  <td>chain_crl_absence</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[revoke]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -402,14 +402,14 @@ Parameters
  </tr>
  <tr>
  <td>expiry</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[revoke]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -423,14 +423,14 @@ Parameters
  </tr>
  <tr>
  <td>leaf_crl_absence</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ignore]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[revoke]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -447,7 +447,7 @@ Parameters
  <td>interface</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -464,7 +464,7 @@ Parameters
  <td>interface_select_method</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
@@ -488,7 +488,7 @@ Parameters
  </tr>
  <tr>
  <td>ocsp_default_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -503,14 +503,14 @@ Parameters
  </tr>
  <tr>
  <td>ocsp_option</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[certificate]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  <tr>
  <td>[server]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -524,18 +524,18 @@ Parameters
  </tr>
  <tr>
  <td>ocsp_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[mandatory]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -549,7 +549,7 @@ Parameters
  </tr>
  <tr>
  <td>proxy</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -564,7 +564,7 @@ Parameters
  </tr>
  <tr>
  <td>proxy_password</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -579,7 +579,7 @@ Parameters
  </tr>
  <tr>
  <td>proxy_port</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -594,7 +594,7 @@ Parameters
  </tr>
  <tr>
  <td>proxy_username</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -609,7 +609,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -624,26 +624,26 @@ Parameters
  </tr>
  <tr>
  <td>ssl_min_proto_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[SSLv3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLSv1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLSv1-1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLSv1-2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[TLSv1-3]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
  </tr>
  </table>
  </div>
@@ -737,14 +737,14 @@ Parameters
  </tr>
  <tr>
  <td>strict_ocsp_check</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -758,14 +758,14 @@ Parameters
  </tr>
  <tr>
  <td>subject_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[substring]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[value]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -779,14 +779,14 @@ Parameters
  </tr>
  <tr>
  <td>subject_set</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[subset]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[superset]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>

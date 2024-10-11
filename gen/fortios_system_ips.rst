@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v6.4.4 -> v7.4.4
+Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  <tr>
  <td>system_ips</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +75,7 @@ Parameters
  <tr>
  <td>override_signature_hold_by_id</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -97,7 +97,7 @@ Parameters
  <tr>
  <td>signature_hold_time</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>

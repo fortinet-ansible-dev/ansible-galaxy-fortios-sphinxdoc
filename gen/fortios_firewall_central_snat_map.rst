@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -62,7 +62,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_central_snat_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -78,7 +78,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -92,7 +92,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_addr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -108,7 +108,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -123,7 +123,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_addr6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -139,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_port</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -169,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>dstintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -185,7 +185,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -201,14 +201,14 @@ Parameters
  </tr>
  <tr>
  <td>nat</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -221,7 +221,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_ippool</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -237,7 +237,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -252,7 +252,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_ippool6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -268,7 +268,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -284,7 +284,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -299,14 +299,14 @@ Parameters
  </tr>
  <tr>
  <td>nat46</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -320,14 +320,14 @@ Parameters
  </tr>
  <tr>
  <td>nat64</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -340,13 +340,13 @@ Parameters
  </tr>
  <tr>
  <td>orig_addr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -356,7 +356,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -371,13 +371,13 @@ Parameters
  </tr>
  <tr>
  <td>orig_addr6</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -387,7 +387,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -403,7 +403,7 @@ Parameters
  </tr>
  <tr>
  <td>orig_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -418,7 +418,7 @@ Parameters
  </tr>
  <tr>
  <td>policyid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -433,14 +433,14 @@ Parameters
  </tr>
  <tr>
  <td>port_preserve</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -454,7 +454,7 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -468,7 +468,7 @@ Parameters
  </tr>
  <tr>
  <td>srcintf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -484,7 +484,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -500,14 +500,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -521,14 +521,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[ipv4]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[ipv6]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -542,7 +542,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -602,10 +602,10 @@ Examples
               nat64: "enable"
               orig_addr:
                   -
-                      name: "default_name_20 (source firewall.address.name firewall.addrgrp.name)"
+                      name: "default_name_20 (source firewall.address.name firewall.addrgrp.name system.external-resource.name)"
               orig_addr6:
                   -
-                      name: "default_name_22 (source firewall.address6.name firewall.addrgrp6.name)"
+                      name: "default_name_22 (source firewall.address6.name firewall.addrgrp6.name system.external-resource.name)"
               orig_port: "<your_own_value>"
               policyid: "<you_own_value>"
               port_preserve: "enable"

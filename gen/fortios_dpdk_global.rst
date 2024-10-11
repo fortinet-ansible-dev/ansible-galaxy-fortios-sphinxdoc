@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.4.4
+Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.6.0
 
 
 Parameters
@@ -59,7 +59,7 @@ Parameters
  <td>dpdk_global</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -77,7 +77,7 @@ Parameters
  <td>elasticbuffer</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -100,7 +100,7 @@ Parameters
  <td>hugepage_percentage</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -116,7 +116,7 @@ Parameters
  <td>interface</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  <td>interface_name</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -152,7 +152,7 @@ Parameters
  <td>ipsec_offload</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -175,7 +175,7 @@ Parameters
  <td>mbufpool_percentage</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -192,7 +192,7 @@ Parameters
  <td>multiqueue</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -215,7 +215,7 @@ Parameters
  <td>per_session_accounting</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -239,7 +239,7 @@ Parameters
  </tr>
  <tr>
  <td>protects</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -256,7 +256,7 @@ Parameters
  <td>sleep_on_idle</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -279,7 +279,7 @@ Parameters
  <td>status</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>

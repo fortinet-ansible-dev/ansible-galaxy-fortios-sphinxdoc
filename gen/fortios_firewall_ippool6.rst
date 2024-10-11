@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_ippool6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>add_nat46_route</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -110,12 +110,12 @@ Parameters
  </tr>
  <tr>
  <td>endip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - IPv6 IP pool name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">external_prefix</span> - External NPTv6 prefix length (32 - 64). <span class="li-normal">type: str</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -124,13 +124,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>external_prefix</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">nat46</span> - Enable/disable NAT46. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">internal_prefix</span> - Internal NPTv6 prefix length (32 - 64). <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -139,19 +139,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>nat46</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4 </code></td>
+ <td>internal_prefix</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">startip</span> - First IPv6 address (inclusive) in the range for the address pool (format = xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - IPv6 IP pool name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -160,9 +154,66 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>startip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">nat46</span> - Enable/disable NAT46. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>nat46</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">startip</span> - First IPv6 address (inclusive) in the range for the address pool (format = xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx). <span class="li-normal">type: str</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>startip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - Configure IPv6 pool type (overload or NPTv6). <span class="li-normal">type: str</span> <span class="li-normal">choices: overload, nptv6</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ </tr>
+ <tr>
+ <td>[overload]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[nptv6]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -195,9 +246,12 @@ Examples
               add_nat46_route: "disable"
               comments: "<your_own_value>"
               endip: "<your_own_value>"
-              name: "default_name_6"
+              external_prefix: "<your_own_value>"
+              internal_prefix: "<your_own_value>"
+              name: "default_name_8"
               nat46: "disable"
               startip: "<your_own_value>"
+              type: "overload"
 
 
 Return Values

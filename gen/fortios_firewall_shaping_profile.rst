@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_shaping_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,12 +89,12 @@ Parameters
  </tr>
  <tr>
  <td>default_class_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">profile_name</span> - Shaping profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">npu_offloading</span> - Enable/disable NPU offloading. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -103,43 +103,49 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>profile_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>npu_offloading</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">shaping_entries</span> - Define shaping entries of this shaping profile. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: shaping_entries:id</span>
+        <li> <span class="li-head">profile_name</span> - Shaping profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>shaping_entries</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">burst_in_msec</span> - Number of bytes that can be burst at maximum-bandwidth speed. Formula: burst = maximum-bandwidth*burst-in-msec. <span class="li-normal">type: int</span>
- <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
- <div id="label11" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>burst_in_msec</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>profile_name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cburst_in_msec</span> - Number of bytes that can be burst as fast as the interface can transmit. Formula: cburst = maximum-bandwidth*cburst-in-msec. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">shaping_entries</span> - Define shaping entries of this shaping profile. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: shaping_entries:id</span>
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>shaping_entries</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">burst_in_msec</span> - Number of bytes that can be burst at maximum-bandwidth speed. Formula: burst = maximum-bandwidth*burst-in-msec. <span class="li-normal">type: int</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -148,13 +154,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cburst_in_msec</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>burst_in_msec</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">class_id</span> - Class ID. Source firewall.traffic-class.class-id. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">cburst_in_msec</span> - Number of bytes that can be burst as fast as the interface can transmit. Formula: cburst = maximum-bandwidth*cburst-in-msec. <span class="li-normal">type: int</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -163,13 +169,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>class_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>cburst_in_msec</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">guaranteed_bandwidth_percentage</span> - Guaranteed bandwidth in percentage. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">class_id</span> - Class ID. Source firewall.traffic-class.class-id. <span class="li-normal">type: int</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -178,13 +184,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>guaranteed_bandwidth_percentage</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>class_id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID number. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">guaranteed_bandwidth_percentage</span> - Guaranteed bandwidth in percentage. <span class="li-normal">type: int</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -193,13 +199,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>guaranteed_bandwidth_percentage</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">limit</span> - Hard limit on the real queue size in packets. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">id</span> - ID number. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -208,13 +214,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>limit</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">max</span> - Average queue size in packets at which RED drop probability is maximal. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">limit</span> - Hard limit on the real queue size in packets. <span class="li-normal">type: int</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -223,13 +229,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>max</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>limit</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_bandwidth_percentage</span> - Maximum bandwidth in percentage. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">max</span> - Average queue size in packets at which RED drop probability is maximal. <span class="li-normal">type: int</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -238,13 +244,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_bandwidth_percentage</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>max</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">min</span> - Average queue size in packets at which RED drop becomes a possibility. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_bandwidth_percentage</span> - Maximum bandwidth in percentage. <span class="li-normal">type: int</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -253,13 +259,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>min</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>maximum_bandwidth_percentage</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">priority</span> - Priority. <span class="li-normal">type: str</span> <span class="li-normal">choices: top, critical, high, medium, low</span>
+            <li> <span class="li-head">min</span> - Average queue size in packets at which RED drop becomes a possibility. <span class="li-normal">type: int</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -268,30 +274,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>min</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
- <tr>
- <td>[top]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
- </tr>
- <tr>
- <td>[critical]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
- </tr>
- <tr>
- <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
- <tr>
- <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
- <tr>
- <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">red_probability</span> - Maximum probability (in percentage) for RED marking. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">priority</span> - Priority. <span class="li-normal">type: str</span> <span class="li-normal">choices: top, critical, high, medium, low</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -300,14 +289,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>red_probability</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>priority</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[top]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ </tr>
+ <tr>
+ <td>[critical]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ </tr>
+ <tr>
+ <td>[high]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[medium]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[low]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">type</span> - Select shaping profile type: policing / queuing. <span class="li-normal">type: str</span> <span class="li-normal">choices: policing, queuing</span>
+            <li> <span class="li-head">red_probability</span> - Maximum probability (in percentage) for RED marking. <span class="li-normal">type: int</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -316,15 +321,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>red_probability</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">type</span> - Select shaping profile type: policing / queuing. <span class="li-normal">type: str</span> <span class="li-normal">choices: policing, queuing</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[policing]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  <tr>
  <td>[queuing]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -356,6 +377,7 @@ Examples
           firewall_shaping_profile:
               comment: "Comment."
               default_class_id: "0"
+              npu_offloading: "disable"
               profile_name: "<your_own_value>"
               shaping_entries:
                   -
@@ -363,7 +385,7 @@ Examples
                       cburst_in_msec: "0"
                       class_id: "0"
                       guaranteed_bandwidth_percentage: "0"
-                      id: "11"
+                      id: "12"
                       limit: "1000"
                       max: "250"
                       maximum_bandwidth_percentage: "1"

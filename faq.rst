@@ -40,7 +40,7 @@ Sometimes we also want to dynamically generate an API token via FortiOS ansible 
                 - id: '1'
                   ipv4_trusthost: '192.168.190.0 255.255.255.0'
 
-   # To reference the generated token, we can use notation "{{ tokeninfo.meta.results.access_token  }}"in further tasks or keep it somewhere in disk.
+   # To reference the generated token, we can use notation "{{ tokeninfo.meta.results.access_token  }}" to keep it somewhere in disk.
    - name: Generate The API token
      fortios_monitor:
         vdom: 'root'
@@ -48,13 +48,6 @@ Sometimes we also want to dynamically generate an API token via FortiOS ansible 
         params:
             api-user: 'AnsibleAPIUser'
      register: tokeninfo
-
-   - name: do another api request with newly generated access_token
-     fortios_configuration_fact:
-        access_token: "{{ tokeninfo.meta.results.access_token  }}"
-        vdom: 'root'
-        selector: 'system_status'
-
 
 
 How To Backup And Restore FOS?
@@ -228,12 +221,20 @@ To generate an access token in advance, please see `How To Generate Access Token
 where to keep generated access token?
 ..................................................
 
-Normally if we generate an access token from WEB UI, we may put it in inventory file as a variable ``fortios_access_token``:
+Normally if we generate an access token from WEB UI, we may put it in inventory file as below:
 
 ::
 
     [fortigates]
-    fortigate01 ansible_host=<the address of the host> fortios_access_token=<the access token>
+    fortigate01 enable_log=True ansible_host=YOUR_HOST_IP_ADDRESS
+
+    [fortigates:vars]
+    ansible_network_os=fortinet.fortios.fortios
+    ansible_persistent_log_messages=True
+    ansible_log_path=/tmp/ansible.network.log
+    ansible_user=YOUR_USERNAME
+    ansible_password=YOUR_PASSWORD
+    ansible_httpapi_session_key={"access_token":"YOUR_OWN_TOKEN"}
 
 
 we can encrypt the inventory file through ansible tool ``ansible-vault``, thus avoiding token leaks.
@@ -255,23 +256,6 @@ To automate token (re)generation, we might also want to keep it somewhere else i
         content: "{{ tokeninfo.meta.results.access_token }}"
         dest: './access_token.save'
 
-then in subsequent tasks, we read the token directly from saved file:
-
-::
-
-   vars:
-    vdom: "root"
-    ansible_httpapi_use_ssl: true
-    ansible_httpapi_validate_certs: false
-    ansible_httpapi_port: 443
-    saved_access_token: "{{ lookup( 'file', './access_token.save') | string }}"
-
-   tasks:
-    - name: do another api request with saved access_token
-      fortios_configuration_fact:
-        access_token: "{{ saved_access_token }}"
-        vdom: 'root'
-        selector: 'system_status'
 
 **Caveats: saved access token is not guarded by Ansible, once leaked, others may access the FOS illegally. one way to restrict illegal access is to limit source localtion in ipv4_trusthost during creating the API users.**
 
@@ -403,7 +387,6 @@ The following example will show you how set_fact module can be used in a task to
           vdom:  '{{ vdom }}'
           state: 'present'
           enable_log: True
-          access_token: '{{ fortios_access_token }}'
           firewall_addrgrp:
             name: 'group_1'
             comment: 'created via Ansible'
@@ -433,7 +416,6 @@ Member operation is used to add an element to an existing object. The example be
     tasks:
     - name: Add an dns entry in the existing obj.
       fortios_system_dns_database:
-        #access_token: "{{ access_token }}"
         state: "present"
         member_state: "present"
         member_path: "dns_entry:id"

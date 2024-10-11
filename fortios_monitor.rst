@@ -309,7 +309,7 @@ Parameters
         <li><span class="li-head">close-all.firewall.session</span> - Immediately close all active IPv4 and IPv6 sessions, as well as IPS sessions of the current VDOM. 
         
         </li>
-        <li><span class="li-head">close-multiple.firewall.session</span> - Close multiple IPv4 firewall sessions which match the provided criteria. This endpoint also accepts a list of criterias. 
+        <li><span class="li-head">close-multiple.firewall.session</span> - Close multiple IPv4 firewall sessions which match the provided criteria. 
         <ul class="ul-self">
                 <li><span class="li-required">proto</span> - Protocol name [tcp|udp|icmp|...] or number. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">saddr</span> - Source address. <span class="li-normal">type: string  required: False </span> </li>
@@ -323,7 +323,7 @@ Parameters
             </ul>
         
         </li>
-        <li><span class="li-head">close-multiple.firewall.session6</span> - Close multiple IPv6 firewall sessions which match the provided criteria. This endpoint also accepts a list of criterias 
+        <li><span class="li-head">close-multiple.firewall.session6</span> - Close multiple IPv6 firewall sessions which match the provided criteria. 
         <ul class="ul-self">
                 <li><span class="li-required">proto</span> - Protocol name [tcp|udp|icmp|...] or number. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">saddr</span> - Source address. <span class="li-normal">type: string  required: False </span> </li>
@@ -563,10 +563,6 @@ Parameters
         
         </li>
         <li><span class="li-head">dynamic.system.external-resource</span> - Push updates to the specified external resource. 
-        <ul class="ul-self">
-                <li><span class="li-required">commands</span> - List of push commands to run. Each push command requires name of external resource, the push command name and a list of entries that the push command acts on. E.g [{"name":"Threat Feed","command":"snapshot","entries":["192.168.1.1","192.168.1.2"]}] <span class="li-normal">type: array  required: True </span> </li>
-                
-            </ul>
         
         </li>
         <li><span class="li-head">eject.system.usb-device</span> - Eject USB drives for safe removal. 
@@ -763,10 +759,12 @@ Parameters
         </li>
         <li><span class="li-head">login.registration.forticare</span> - Login to FortiCare. 
         <ul class="ul-self">
+                <li><span class="li-required">serial</span> - Serial number of an HA cluster member to register to login to FortiCare. Current device will be selected if not set. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">email</span> - Account email. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">password</span> - Account password. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">reseller_name</span> - Reseller name. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">reseller_id</span> - Reseller ID. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">agreement_accepted</span> - Set to true if the end-user accepted the agreement. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">is_government</span> - Set to true if the end-user is affiliated with a government. <span class="li-normal">type: boolean  required: False </span> </li>
                 
             </ul>
@@ -946,6 +944,21 @@ Parameters
         <li><span class="li-head">remove.user.device</span> - Remove single or multiple user devices specified by host MAC addresses. 
         <ul class="ul-self">
                 <li><span class="li-required">macs</span> - An array of host MAC addresses to be removed. <span class="li-normal">type: array  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">report.sdwan.link-monitor-metrics</span> - Report the application-level performance metrics collected by other fabric devices. 
+        <ul class="ul-self">
+                <li><span class="li-required">agent_ip</span> - IPv4 or IPv6 address. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">application_name</span> - Destination application that the FMR agent is monitoring. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">application_id</span> - Destination application ID based on the FortiGuard Application Control DB. <span class="li-normal">type: int  required: True </span> </li>
+                <li><span class="li-required">latency</span> - Latency to report (ms). <span class="li-normal">type: double  required: True </span> </li>
+                <li><span class="li-required">jitter</span> - Jitter to report (ms). <span class="li-normal">type: double  required: True </span> </li>
+                <li><span class="li-required">packet_loss</span> - Packet loss to report [0, 100]. <span class="li-normal">type: double  required: True </span> </li>
+                <li><span class="li-required">ntt</span> - Network transmit time (ms). <span class="li-normal">type: double  required: False </span> </li>
+                <li><span class="li-required">srt</span> - Server response time (ms). <span class="li-normal">type: double  required: False </span> </li>
+                <li><span class="li-required">application_error</span> - Application errors in the current session. <span class="li-normal">type: double  required: False </span> </li>
                 
             </ul>
         
@@ -1361,15 +1374,6 @@ Parameters
         
         </li>
         <li><span class="li-head">test.user.tacacs-plus</span> - Test the connectivity of the given TACACS+ server. 
-        <ul class="ul-self">
-                <li><span class="li-required">mkey</span> - Name of FortiGate's TACACS+ object whose settings to test. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">ordinal</span> - If 'mkey' is provided, the server-key pair to use from the object: 'primary', 'secondary' or 'tertiary'. Defaults to 'primary'. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">server</span> - Host name of IP of a TACACS+ server. If 'mkey' is provided, this overrides the 'server' value in the object. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">secret</span> - Secret key for the TACACS+ server. If 'mkey' is provided, this overrides the 'key' value in the object. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">port</span> - Port number of the TACACS+ server. If 'mkey' is provided, this overrides the 'port' value in the object. Defaults to 49. <span class="li-normal">type: int  required: False </span> </li>
-                <li><span class="li-required">source_ip</span> - Source IP for communications to TACACS+ server. If 'mkey' is provided, this overrides the 'source-ip' value in the object. <span class="li-normal">type: string  required: False </span> </li>
-                
-            </ul>
         
         </li>
         <li><span class="li-head">toggle-vdom-mode.system.admin</span> - Toggles VDOM mode on/off. Enables or disables VDOM mode if it is disabled or enabled respectively. 

@@ -4,6 +4,34 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.8
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.8 is based on 2.3.7
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Return invalid json content instead of error while adding redundant comma at the end of the last variable in `fortios_json_generic`.
+- Github #332
+- Github #337
+- Mantis #1062185
+- Mantis #1069348
+- Mantis #1055387
+- Github #342 improve the generated playbook with customized data instead of hardcoded data
+- Mantis #1070530
+- Mantis #1072112
+- Mantis #1067831 improve the logic to configure the access_token in hosts file
+- Mantis #1040147
+
+Improvements
+^^^^^^^^^^^^^^^
+- Support new FOS versions 7.6.0.
+- Mantis #1067831 improve the logic to configure the access_token in hosts file
+- Improve the logic for SET function to send GET request first then PUT or POST
+
 Release Galaxy 2.3.7
 --------------------
 

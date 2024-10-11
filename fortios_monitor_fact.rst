@@ -389,7 +389,15 @@ Parameters
         
         </li>
         firewall_local-in
-        <li><span class="li-head">firewall_local-in</span> 
+        <li><span class="li-head">firewall_local-in</span> - List implicit and explicit local-in firewall policies. 
+        <ul class="ul-self">
+                <li><span class="li-required">include_ttl</span> - Include TTL local-in policies. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        firewall_local-in6
+        <li><span class="li-head">firewall_local-in6</span> 
         
         </li>
         firewall_multicast-policy
@@ -558,6 +566,7 @@ Parameters
         <li><span class="li-head">firewall_sessions</span> - List all active firewall sessions (optionally filtered). 
         <ul class="ul-self">
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">count</span> - Maximum number of entries to return. Valid range is [20, 1000]; if a value is specified out of that range, it will be rounded up or down. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">summary</span> - Enable/disable inclusion of session summary (setup rate, total sessions, etc). <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">srcport</span> - Source port. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">policyid</span> - Policy ID. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
@@ -614,6 +623,16 @@ Parameters
         </li>
         firewall_vip-overlap
         <li><span class="li-head">firewall_vip-overlap</span> 
+        
+        </li>
+        firmware_extension-device
+        <li><span class="li-head">firmware_extension-device</span> - Retrieve a list of recommended firmwares for the specified extension device type. 
+        <ul class="ul-self">
+                <li><span class="li-required">type</span> - Extension device type to get recommended firmwares for. [fortiswitch|fortiap|fortiextender] <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">timeout</span> - FortiGuard connection timeout. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">version</span> - Target firmware version of the parent FortiGate. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         forticonverter_custom-operation_status
@@ -1241,6 +1260,18 @@ Parameters
             </ul>
         
         </li>
+        service_ldap_query
+        <li><span class="li-head">service_ldap_query</span> - Retrieve LDAP server information and LDAP entries. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of the LDAP server setting object. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">server_info_only</span> - Only retrieve server information. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">skip_schema</span> - Explicitly skip schema retrieval. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ldap_filter</span> - LDAP filter string. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ldap</span> - Object containing overriden values of the LDAP server setting object. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         switch-controller_detected-device
         <li><span class="li-head">switch-controller_detected-device</span> 
         
@@ -1455,7 +1486,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - Name of the interface. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_ha</span> - Incude HA management interfaces. Will only show if accessing the root VDOM interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">view_type</span> - Optionally include additional information for interfaces. This parameter can be repeated multiple times. 'ha': Includes extra meta information useful when dealing with interfaces related to HA configuration. Interfaces that are used by an HA cluster as management interfaces are also included in this view. 'zone': Includes extra meta information for determining zone membership eligibility. 'vwp': Includes extra meta information for determining virtual wire pair eligibility. 'sdwan': Includes extra meta information for determining SD-WAN eligibility. 'switch': Includes extra meta information for determining switch eligibility. 'hard-switch': Includes extra meta information for determining hard-switch eligibility. 'stat': Includes TX/RX statistics data.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">view_type</span> - Deprecated: Use format instead <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">scope</span> - Scope of interface list [vdom|global] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -2092,7 +2123,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">filters</span> - A list of filters. Type:{"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">view_type</span> - View type [device|fortiswitch_client|forticlient|iot_vuln_info]. Default is device. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_id</span> - Provide a query ID to continue getting data for that unified request. Only available for unified query types. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
@@ -2111,7 +2142,7 @@ Parameters
                 <li><span class="li-required">stat-key</span> - key of the stats count on [os_name|hardware_type|detected_interface|is_online|max_vuln_level|fortiswitch_id|fortiswitch_port_name]. fortiswitch_id and fortiswitch_port_name only for fortiswitch_client stats query type <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for stats query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for stats query. <span class="li-normal">type: int</span> <span class="li-normal">required: True</span> </li>
-                <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Only is_online type is supported. Op: filter operator [exact|contains]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">filters</span> - A list of filters. Type:{"type": string, "value": string, "op": string}. Only is_online type is supported. Op: filter operator [exact|contains]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">filter_logic</span> - The logic between filters [and|or]). Default is and. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -2146,12 +2177,7 @@ Parameters
         
         </li>
         user_fsso
-        <li><span class="li-head">user_fsso</span> - Get a list of fsso and fsso polling status. 
-        <ul class="ul-self">
-                <li><span class="li-required">mkey</span> - Filter: Get the status for a specific FSSO entry. `type` is required if this is set. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">type</span> - Filter: Get the status for this type of FSSO entry [fsso|fsso-polling]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                
-            </ul>
+        <li><span class="li-head">user_fsso</span> 
         
         </li>
         user_info_query
@@ -2159,7 +2185,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">timestamp_from</span> - To get entries since the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">timestamp_to</span> - To get entries before the timestamp for unified historical query. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">filters</span> - A list of filters. Type:{"type": string, "value": string, "op": string}. Op: filter operator [exact|contains|greaterThanEqualTo|lessThanEqualTo]. Default is exact. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_type</span> - Query type [latest|unified_latest|unified_history]. Default is latest. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">query_id</span> - Provide a query ID to continue getting data for that unified request. Only available for unified query types. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">cache_query</span> - Cache query result for 5 mins and return query ID. Only available for unified query types. Default is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
@@ -2173,7 +2199,7 @@ Parameters
         user_info_thumbnail
         <li><span class="li-head">user_info_thumbnail</span> - Get user info thumbnail. Returns the first match to the filter. 
         <ul class="ul-self">
-                <li><span class="li-required">filters</span> - A list of filters. Type: {"type": string, "value": string} <span class="li-normal">type: array</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">filters</span> - A list of filters. Type:{"type": string, "value": string} <span class="li-normal">type: array</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         

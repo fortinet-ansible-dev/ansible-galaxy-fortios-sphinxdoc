@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.4
+Supported Version Ranges: v6.0.0 -> v7.6.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_security_policy_802_1x</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_fail_vlan</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_fail_vlan_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -116,7 +116,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">authserver_timeout_period</span> - Authentication server timeout period (3 - 15 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">auth_order</span> - Configure authentication order. <span class="li-normal">type: str</span> <span class="li-normal">choices: dot1x-mab, mab-dot1x, mab</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -125,13 +125,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>authserver_timeout_period</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td>auth_order</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[dot1x-mab]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[mab-dot1x]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[mab]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">authserver_timeout_tagged</span> - Configure timeout option for the tagged VLAN which allows limited access when the authentication server is unavailable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, lldp-voice, static</span>
+        <li> <span class="li-head">auth_priority</span> - Configure authentication priority. <span class="li-normal">type: str</span> <span class="li-normal">choices: legacy, dot1x-mab, mab-dot1x</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -140,22 +149,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>authserver_timeout_tagged</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ <td>auth_priority</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td>[legacy]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  <tr>
- <td>[lldp-voice]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td>[dot1x-mab]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  <tr>
- <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td>[mab-dot1x]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">authserver_timeout_tagged_vlanid</span> - Tagged VLAN name for which the timeout option is applied to (only one VLAN ID). Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">authserver_timeout_period</span> - Authentication server timeout period (3 - 15 sec). <span class="li-normal">type: int</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -164,13 +173,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>authserver_timeout_tagged_vlanid</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ <td>authserver_timeout_period</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">authserver_timeout_vlan</span> - Enable/disable the authentication server timeout VLAN to allow limited access when RADIUS is unavailable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">authserver_timeout_tagged</span> - Configure timeout option for the tagged VLAN which allows limited access when the authentication server is unavailable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, lldp-voice, static</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -179,19 +188,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>authserver_timeout_vlan</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td>authserver_timeout_tagged</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4</code></td>
+ <td>[lldp-voice]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
+ <tr>
+ <td>[static]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">authserver_timeout_vlanid</span> - Authentication server timeout VLAN name. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">authserver_timeout_tagged_vlanid</span> - Tagged VLAN name for which the timeout option is applied to (only one VLAN ID). Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -200,13 +212,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>authserver_timeout_vlanid</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.4.4 </code></td>
+ <td>authserver_timeout_tagged_vlanid</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dacl</span> - Enable/disable dynamic access control list on this interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">authserver_timeout_vlan</span> - Enable/disable the authentication server timeout VLAN to allow limited access when RADIUS is unavailable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -215,19 +227,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dacl</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4 </code></td>
+ <td>authserver_timeout_vlan</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eap_auto_untagged_vlans</span> - Enable/disable automatic inclusion of untagged VLANs. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">authserver_timeout_vlanid</span> - Authentication server timeout VLAN name. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -236,19 +248,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>eap_auto_untagged_vlans</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4 </code></td>
+ <td>authserver_timeout_vlanid</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">eap_passthru</span> - Enable/disable EAP pass-through mode, allowing protocols (such as LLDP) to pass through ports for more flexible authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">dacl</span> - Enable/disable dynamic access control list on this interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -257,19 +263,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>eap_passthru</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>dacl</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">framevid_apply</span> - Enable/disable the capability to apply the EAP/MAB frame VLAN to the port native VLAN. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">eap_auto_untagged_vlans</span> - Enable/disable automatic inclusion of untagged VLANs. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -278,19 +284,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>framevid_apply</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4 </code></td>
+ <td>eap_auto_untagged_vlans</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">guest_auth_delay</span> - Guest authentication delay (1 - 900  sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">eap_passthru</span> - Enable/disable EAP pass-through mode, allowing protocols (such as LLDP) to pass through ports for more flexible authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -299,13 +305,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>guest_auth_delay</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>eap_passthru</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">guest_vlan</span> - Enable the guest VLAN feature to allow limited access to non-802.1X-compliant clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">framevid_apply</span> - Enable/disable the capability to apply the EAP/MAB frame VLAN to the port native VLAN. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -314,19 +326,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>guest_vlan</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>framevid_apply</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">guest_vlan_id</span> - Guest VLAN name. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">guest_auth_delay</span> - Guest authentication delay (1 - 900  sec). <span class="li-normal">type: int</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -335,15 +347,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>guest_auth_delay</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">guest_vlan</span> - Enable the guest VLAN feature to allow limited access to non-802.1X-compliant clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>guest_vlan</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">guest_vlan_id</span> - Guest VLAN name. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>guest_vlan_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">guest_vlanid</span> - Guest VLAN ID. <span class="li-normal">type: int</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -358,42 +406,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">mac_auth_bypass</span> - Enable/disable MAB for this policy. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>mac_auth_bypass</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">name</span> - Policy name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">open_auth</span> - Enable/disable open authentication for this policy. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -402,19 +414,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>open_auth</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>mac_auth_bypass</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">policy_type</span> - Policy type. <span class="li-normal">type: str</span> <span class="li-normal">choices: 802.1X</span>
+        <li> <span class="li-head">name</span> - Policy name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -423,16 +435,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>policy_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
- <tr>
- <td>[802.1X]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">radius_timeout_overwrite</span> - Enable to override the global RADIUS session timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">open_auth</span> - Enable/disable open authentication for this policy. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -441,19 +450,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>radius_timeout_overwrite</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>open_auth</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">security_mode</span> - Port or MAC based 802.1X security mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: 802.1X, 802.1X-mac-based</span>
+        <li> <span class="li-head">policy_type</span> - Policy type. <span class="li-normal">type: str</span> <span class="li-normal">choices: 802.1X</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -462,34 +471,37 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>security_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>policy_type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  <tr>
  <td>[802.1X]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
- <tr>
- <td>[802.1X-mac-based]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">user_group</span> - Name of user-group to assign to this MAC Authentication Bypass (MAB) policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: user_group:name</span>
+        <li> <span class="li-head">radius_timeout_overwrite</span> - Enable to override the global RADIUS session timeout. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>user_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td>radius_timeout_overwrite</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">security_mode</span> - Port or MAC based 802.1X security mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: 802.1X, 802.1X-mac-based</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -498,8 +510,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>security_mode</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ <tr>
+ <td>[802.1X]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <tr>
+ <td>[802.1X-mac-based]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">user_group</span> - Name of user-group to assign to this MAC Authentication Bypass (MAB) policy. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: user_group:name</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>user_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Group name. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -534,6 +582,8 @@ Examples
               auth_fail_vlan: "disable"
               auth_fail_vlan_id: "<your_own_value> (source system.interface.name)"
               auth_fail_vlanid: "32767"
+              auth_order: "dot1x-mab"
+              auth_priority: "legacy"
               authserver_timeout_period: "3"
               authserver_timeout_tagged: "disable"
               authserver_timeout_tagged_vlanid: "<your_own_value> (source system.interface.name)"
@@ -548,14 +598,14 @@ Examples
               guest_vlan_id: "<your_own_value> (source system.interface.name)"
               guest_vlanid: "32767"
               mac_auth_bypass: "disable"
-              name: "default_name_20"
+              name: "default_name_22"
               open_auth: "disable"
               policy_type: "802.1X"
               radius_timeout_overwrite: "disable"
               security_mode: "802.1X"
               user_group:
                   -
-                      name: "default_name_26 (source user.group.name)"
+                      name: "default_name_28 (source user.group.name)"
 
 
 Return Values

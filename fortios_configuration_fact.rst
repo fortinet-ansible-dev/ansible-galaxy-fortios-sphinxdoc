@@ -548,6 +548,7 @@ Parameters
         <li><span class="li-normal">system.session-info_ttl</span> </li>
         <li><span class="li-normal">system.snmp_community</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.snmp_mib-view</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system.snmp_rmon-stat</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.snmp_sysinfo</span> </li>
         <li><span class="li-normal">system.snmp_user</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.source-ip_status</span> </li>
@@ -685,6 +686,7 @@ Parameters
         <li><span class="li-normal">system_virtual-switch</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_virtual-wan-link</span> </li>
         <li><span class="li-normal">system_virtual-wire-pair</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_vne-interface</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_vne-tunnel</span> </li>
         <li><span class="li-normal">system_vxlan</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_wccp</span>  <span class="li-required">param: service_id</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -713,6 +715,7 @@ Parameters
         <li><span class="li-normal">user_quarantine</span> </li>
         <li><span class="li-normal">user_radius</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_saml</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">user_scim</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_security-exempt-list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_setting</span> </li>
         <li><span class="li-normal">user_tacacs+</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -850,6 +853,8 @@ Parameters
         <li><span class="li-normal">wireless-controller_wtp-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-status</span> </li>
+        <li><span class="li-normal">ztna_traffic-forward-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">ztna_traffic-forward-proxy-reverse-service</span> </li>
         </ul>
         </div>
         </section>

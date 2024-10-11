@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.4.4
+Supported Version Ranges: v7.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.0
 
 
 Parameters
@@ -60,7 +60,7 @@ Parameters
  <td>gtp_ie_allow_list</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -77,7 +77,7 @@ Parameters
  <td>entries</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -95,7 +95,7 @@ Parameters
  <td>fos_message</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -112,7 +112,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -129,7 +129,7 @@ Parameters
  <td>ie</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -147,7 +147,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.4.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
  </tr>
  </table>
  </div>
