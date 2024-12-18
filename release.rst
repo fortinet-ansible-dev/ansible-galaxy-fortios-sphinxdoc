@@ -4,6 +4,26 @@ Release Notes
 
 |
 
+Release Galaxy 2.3.9
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.3.9 is based on 2.3.8
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Github #357
+- Github #355
+- Github #354
+- Github #353
+- Fix errors in Ansible sanity test with Ansible-core 2.18
+
+Improvements
+^^^^^^^^^^^^^^^
+- Support check_mode on all the configuration modules.
+
 Release Galaxy 2.3.8
 --------------------
 

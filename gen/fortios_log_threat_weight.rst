@@ -1331,6 +1331,8 @@ Notes
 
    - Legacy fortiosapi has been deprecated, httpapi is the preferred way to run playbooks
 
+   - The module supports check_mode.
+
 
 
 Examples
