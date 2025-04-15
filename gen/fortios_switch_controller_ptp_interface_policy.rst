@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.4.1 -> v7.6.0
+Supported Version Ranges: v7.4.1 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_ptp_interface_policy</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>vlan</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>vlan_pri</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>

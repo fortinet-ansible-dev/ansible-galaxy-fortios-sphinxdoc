@@ -134,6 +134,7 @@ Parameters
         <li><span class="li-normal">authentication_scheme</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">authentication_setting</span> </li>
         <li><span class="li-normal">automation_setting</span> </li>
+        <li><span class="li-normal">casb_attribute-match</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">casb_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">casb_saas-application</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">casb_user-activity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -540,6 +541,8 @@ Parameters
         <li><span class="li-normal">system.replacemsg_traffic-quota</span>  <span class="li-required">param: msg_type</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.replacemsg_utm</span>  <span class="li-required">param: msg_type</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.replacemsg_webproxy</span>  <span class="li-required">param: msg_type</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system.security-rating_controls</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system.security-rating_settings</span> </li>
         <li><span class="li-normal">system.session-helper-info_list</span> </li>
         <li><span class="li-normal">system.session-info_expectation</span> </li>
         <li><span class="li-normal">system.session-info_full-stat</span> </li>
@@ -565,6 +568,7 @@ Parameters
         <li><span class="li-normal">system_auto-install</span> </li>
         <li><span class="li-normal">system_auto-script</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_automation-action</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_automation-condition</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_automation-destination</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_automation-stitch</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_automation-trigger</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -609,6 +613,7 @@ Parameters
         <li><span class="li-normal">system_ha</span> </li>
         <li><span class="li-normal">system_ha-monitor</span> </li>
         <li><span class="li-normal">system_ha-nonsync-csum</span> </li>
+        <li><span class="li-normal">system_health-check-fortiguard</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_ike</span> </li>
         <li><span class="li-normal">system_interface</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_ipam</span> </li>
@@ -632,6 +637,7 @@ Parameters
         <li><span class="li-normal">system_nd-proxy</span> </li>
         <li><span class="li-normal">system_netflow</span> </li>
         <li><span class="li-normal">system_network-visibility</span> </li>
+        <li><span class="li-normal">system_ngfw-settings</span> </li>
         <li><span class="li-normal">system_np6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_npu</span> </li>
         <li><span class="li-normal">system_npu-vlink</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -651,6 +657,7 @@ Parameters
         <li><span class="li-normal">system_saml</span> </li>
         <li><span class="li-normal">system_sdn-connector</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sdn-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_sdn-vpn</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_sdwan</span> </li>
         <li><span class="li-normal">system_session</span> </li>
         <li><span class="li-normal">system_session-helper</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -781,6 +788,7 @@ Parameters
         <li><span class="li-normal">web-proxy_forward-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_forward-server-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_global</span> </li>
+        <li><span class="li-normal">web-proxy_isolator-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_url-match</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">web-proxy_wisp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -790,6 +798,8 @@ Parameters
         <li><span class="li-normal">webfilter_fortiguard</span> </li>
         <li><span class="li-normal">webfilter_ftgd-local-cat</span>  <span class="li-required">param: desc</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">webfilter_ftgd-local-rating</span>  <span class="li-required">param: url</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">webfilter_ftgd-local-risk</span>  <span class="li-required">param: url</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">webfilter_ftgd-risk-level</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">webfilter_ftgd-statistics</span> </li>
         <li><span class="li-normal">webfilter_ips-urlfilter-cache-setting</span> </li>
         <li><span class="li-normal">webfilter_ips-urlfilter-setting</span> </li>
@@ -853,8 +863,12 @@ Parameters
         <li><span class="li-normal">wireless-controller_wtp-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-status</span> </li>
+        <li><span class="li-normal">ztna_reverse-connector</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ztna_traffic-forward-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ztna_traffic-forward-proxy-reverse-service</span> </li>
+        <li><span class="li-normal">ztna_web-portal</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">ztna_web-portal-bookmark</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">ztna_web-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         </ul>
         </div>
         </section>

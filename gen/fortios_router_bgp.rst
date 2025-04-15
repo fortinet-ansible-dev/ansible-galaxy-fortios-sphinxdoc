@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>router_bgp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>additional_path</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -94,7 +94,7 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_select</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -109,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_select_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -124,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_select_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -139,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_select6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -154,14 +154,14 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -175,14 +175,14 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -196,14 +196,14 @@ Parameters
  </tr>
  <tr>
  <td>additional_path6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -216,7 +216,7 @@ Parameters
  </tr>
  <tr>
  <td>admin_distance</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -232,7 +232,7 @@ Parameters
  </tr>
  <tr>
  <td>distance</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -247,7 +247,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -262,7 +262,7 @@ Parameters
  </tr>
  <tr>
  <td>neighbour_prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -277,7 +277,7 @@ Parameters
  </tr>
  <tr>
  <td>route_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -292,7 +292,7 @@ Parameters
  </tr>
  <tr>
  <td>aggregate_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -308,14 +308,14 @@ Parameters
  </tr>
  <tr>
  <td>as_set</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -329,7 +329,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -344,7 +344,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -359,14 +359,14 @@ Parameters
  </tr>
  <tr>
  <td>summary_only</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -380,7 +380,7 @@ Parameters
  </tr>
  <tr>
  <td>aggregate_address6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -396,14 +396,14 @@ Parameters
  </tr>
  <tr>
  <td>as_set</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -417,7 +417,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -432,7 +432,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -447,14 +447,14 @@ Parameters
  </tr>
  <tr>
  <td>summary_only</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -469,14 +469,14 @@ Parameters
  </tr>
  <tr>
  <td>always_compare_med</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -490,7 +490,7 @@ Parameters
  </tr>
  <tr>
  <td>as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -505,14 +505,14 @@ Parameters
  </tr>
  <tr>
  <td>bestpath_as_path_ignore</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -526,14 +526,14 @@ Parameters
  </tr>
  <tr>
  <td>bestpath_cmp_confed_aspath</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -547,14 +547,14 @@ Parameters
  </tr>
  <tr>
  <td>bestpath_cmp_routerid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -568,14 +568,14 @@ Parameters
  </tr>
  <tr>
  <td>bestpath_med_confed</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -589,14 +589,14 @@ Parameters
  </tr>
  <tr>
  <td>bestpath_med_missing_as_worst</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -610,14 +610,14 @@ Parameters
  </tr>
  <tr>
  <td>client_to_client_reflection</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -631,7 +631,7 @@ Parameters
  </tr>
  <tr>
  <td>cluster_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -646,7 +646,7 @@ Parameters
  </tr>
  <tr>
  <td>confederation_identifier</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -660,7 +660,7 @@ Parameters
  </tr>
  <tr>
  <td>confederation_peers</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -676,7 +676,7 @@ Parameters
  </tr>
  <tr>
  <td>peer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -692,14 +692,14 @@ Parameters
  </tr>
  <tr>
  <td>cross_family_conditional_adv</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -713,14 +713,14 @@ Parameters
  </tr>
  <tr>
  <td>dampening</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -734,7 +734,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_max_suppress_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -749,7 +749,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_reachability_half_life</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -764,7 +764,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_reuse</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -779,7 +779,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_route_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -794,7 +794,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_suppress</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -809,7 +809,7 @@ Parameters
  </tr>
  <tr>
  <td>dampening_unreachability_half_life</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -824,7 +824,7 @@ Parameters
  </tr>
  <tr>
  <td>default_local_preference</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -839,14 +839,14 @@ Parameters
  </tr>
  <tr>
  <td>deterministic_med</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -860,7 +860,7 @@ Parameters
  </tr>
  <tr>
  <td>distance_external</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -875,7 +875,7 @@ Parameters
  </tr>
  <tr>
  <td>distance_internal</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -890,7 +890,7 @@ Parameters
  </tr>
  <tr>
  <td>distance_local</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -905,14 +905,14 @@ Parameters
  </tr>
  <tr>
  <td>ebgp_multipath</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -926,14 +926,14 @@ Parameters
  </tr>
  <tr>
  <td>enforce_first_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -947,14 +947,14 @@ Parameters
  </tr>
  <tr>
  <td>fast_external_failover</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -968,14 +968,14 @@ Parameters
  </tr>
  <tr>
  <td>graceful_end_on_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -989,14 +989,14 @@ Parameters
  </tr>
  <tr>
  <td>graceful_restart</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1010,7 +1010,7 @@ Parameters
  </tr>
  <tr>
  <td>graceful_restart_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1025,7 +1025,7 @@ Parameters
  </tr>
  <tr>
  <td>graceful_stalepath_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1040,7 +1040,7 @@ Parameters
  </tr>
  <tr>
  <td>graceful_update_delay</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1055,7 +1055,7 @@ Parameters
  </tr>
  <tr>
  <td>holdtime_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1070,14 +1070,14 @@ Parameters
  </tr>
  <tr>
  <td>ibgp_multipath</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1091,14 +1091,14 @@ Parameters
  </tr>
  <tr>
  <td>ignore_optional_capability</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1112,7 +1112,7 @@ Parameters
  </tr>
  <tr>
  <td>keepalive_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1127,14 +1127,14 @@ Parameters
  </tr>
  <tr>
  <td>log_neighbour_changes</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1149,7 +1149,7 @@ Parameters
  <tr>
  <td>multipath_recursive_distance</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -1169,7 +1169,7 @@ Parameters
  </tr>
  <tr>
  <td>neighbor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1185,14 +1185,14 @@ Parameters
  </tr>
  <tr>
  <td>activate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1206,14 +1206,14 @@ Parameters
  </tr>
  <tr>
  <td>activate_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1227,14 +1227,14 @@ Parameters
  </tr>
  <tr>
  <td>activate_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1248,14 +1248,14 @@ Parameters
  </tr>
  <tr>
  <td>activate_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1269,14 +1269,14 @@ Parameters
  </tr>
  <tr>
  <td>activate6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1290,20 +1290,20 @@ Parameters
  </tr>
  <tr>
  <td>additional_path</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1317,20 +1317,20 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1344,20 +1344,20 @@ Parameters
  </tr>
  <tr>
  <td>additional_path_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1371,20 +1371,20 @@ Parameters
  </tr>
  <tr>
  <td>additional_path6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1398,7 +1398,7 @@ Parameters
  </tr>
  <tr>
  <td>adv_additional_path</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1413,7 +1413,7 @@ Parameters
  </tr>
  <tr>
  <td>adv_additional_path_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1428,7 +1428,7 @@ Parameters
  </tr>
  <tr>
  <td>adv_additional_path_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1443,7 +1443,7 @@ Parameters
  </tr>
  <tr>
  <td>adv_additional_path6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1458,7 +1458,7 @@ Parameters
  </tr>
  <tr>
  <td>advertisement_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1473,7 +1473,7 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1488,14 +1488,14 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_enable</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1509,14 +1509,14 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_enable_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1530,14 +1530,14 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_enable_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1551,14 +1551,14 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_enable_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1572,14 +1572,14 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_enable6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1593,7 +1593,7 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1608,7 +1608,7 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1623,7 +1623,7 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1638,7 +1638,7 @@ Parameters
  </tr>
  <tr>
  <td>allowas_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1653,14 +1653,14 @@ Parameters
  </tr>
  <tr>
  <td>as_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1674,14 +1674,14 @@ Parameters
  </tr>
  <tr>
  <td>as_override6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1695,17 +1695,17 @@ Parameters
  </tr>
  <tr>
  <td>attribute_unchanged</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[med]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1719,17 +1719,17 @@ Parameters
  </tr>
  <tr>
  <td>attribute_unchanged_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[med]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1743,17 +1743,17 @@ Parameters
  </tr>
  <tr>
  <td>attribute_unchanged_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[med]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1767,17 +1767,17 @@ Parameters
  </tr>
  <tr>
  <td>attribute_unchanged6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[med]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1791,7 +1791,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_options</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1806,14 +1806,14 @@ Parameters
  </tr>
  <tr>
  <td>bfd</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1827,14 +1827,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_default_originate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1848,14 +1848,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_default_originate6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1869,14 +1869,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_dynamic</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1890,14 +1890,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_graceful_restart</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1911,14 +1911,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_graceful_restart_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1932,14 +1932,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_graceful_restart_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1953,14 +1953,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_graceful_restart_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1974,14 +1974,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_graceful_restart6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1995,20 +1995,20 @@ Parameters
  </tr>
  <tr>
  <td>capability_orf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2022,20 +2022,20 @@ Parameters
  </tr>
  <tr>
  <td>capability_orf6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2049,14 +2049,14 @@ Parameters
  </tr>
  <tr>
  <td>capability_route_refresh</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2069,7 +2069,7 @@ Parameters
  </tr>
  <tr>
  <td>conditional_advertise</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2085,7 +2085,7 @@ Parameters
  </tr>
  <tr>
  <td>advertise_routemap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2099,7 +2099,7 @@ Parameters
  </tr>
  <tr>
  <td>condition_routemap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2115,7 +2115,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2131,14 +2131,14 @@ Parameters
  </tr>
  <tr>
  <td>condition_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[exist]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[non-exist]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2152,7 +2152,7 @@ Parameters
  </tr>
  <tr>
  <td>conditional_advertise6</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2168,7 +2168,7 @@ Parameters
  </tr>
  <tr>
  <td>advertise_routemap</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2182,7 +2182,7 @@ Parameters
  </tr>
  <tr>
  <td>condition_routemap</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2198,7 +2198,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2214,14 +2214,14 @@ Parameters
  </tr>
  <tr>
  <td>condition_type</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[exist]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
  <tr>
  <td>[non-exist]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2236,7 +2236,7 @@ Parameters
  </tr>
  <tr>
  <td>connect_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2251,7 +2251,7 @@ Parameters
  </tr>
  <tr>
  <td>default_originate_routemap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2266,7 +2266,7 @@ Parameters
  </tr>
  <tr>
  <td>default_originate_routemap6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2281,7 +2281,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2296,7 +2296,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2311,7 +2311,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2326,7 +2326,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2341,7 +2341,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2356,7 +2356,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2371,7 +2371,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2386,7 +2386,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2401,7 +2401,7 @@ Parameters
  </tr>
  <tr>
  <td>distribute_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2416,14 +2416,14 @@ Parameters
  </tr>
  <tr>
  <td>dont_capability_negotiate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2437,14 +2437,14 @@ Parameters
  </tr>
  <tr>
  <td>ebgp_enforce_multihop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2458,7 +2458,7 @@ Parameters
  </tr>
  <tr>
  <td>ebgp_multihop_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2473,7 +2473,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2488,7 +2488,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2503,7 +2503,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2518,7 +2518,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2533,7 +2533,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2548,7 +2548,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2563,7 +2563,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2578,7 +2578,7 @@ Parameters
  </tr>
  <tr>
  <td>filter_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2593,7 +2593,7 @@ Parameters
  </tr>
  <tr>
  <td>holdtime_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2608,7 +2608,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2623,7 +2623,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2638,7 +2638,7 @@ Parameters
  </tr>
  <tr>
  <td>keep_alive_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2653,14 +2653,14 @@ Parameters
  </tr>
  <tr>
  <td>link_down_failover</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2674,7 +2674,7 @@ Parameters
  </tr>
  <tr>
  <td>local_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2689,14 +2689,14 @@ Parameters
  </tr>
  <tr>
  <td>local_as_no_prepend</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2710,14 +2710,14 @@ Parameters
  </tr>
  <tr>
  <td>local_as_replace_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2731,7 +2731,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2746,7 +2746,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2761,7 +2761,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2776,7 +2776,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_threshold_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2791,7 +2791,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_threshold_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2806,7 +2806,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_threshold_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2821,7 +2821,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_threshold6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2836,7 +2836,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2851,7 +2851,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2866,14 +2866,14 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_warning_only</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2887,14 +2887,14 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_warning_only_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2908,14 +2908,14 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_warning_only_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2929,14 +2929,14 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_warning_only_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2950,14 +2950,14 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix_warning_only6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -2971,7 +2971,7 @@ Parameters
  </tr>
  <tr>
  <td>maximum_prefix6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -2986,14 +2986,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3007,14 +3007,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self_rr</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3028,14 +3028,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self_rr6</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3049,14 +3049,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3070,14 +3070,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3091,14 +3091,14 @@ Parameters
  </tr>
  <tr>
  <td>next_hop_self6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3112,14 +3112,14 @@ Parameters
  </tr>
  <tr>
  <td>override_capability</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3133,14 +3133,14 @@ Parameters
  </tr>
  <tr>
  <td>passive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3154,7 +3154,7 @@ Parameters
  </tr>
  <tr>
  <td>password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3169,7 +3169,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3184,7 +3184,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3199,7 +3199,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3214,7 +3214,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3229,7 +3229,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3244,7 +3244,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3259,7 +3259,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3274,7 +3274,7 @@ Parameters
  </tr>
  <tr>
  <td>prefix_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3289,7 +3289,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3304,14 +3304,14 @@ Parameters
  </tr>
  <tr>
  <td>remove_private_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3325,14 +3325,14 @@ Parameters
  </tr>
  <tr>
  <td>remove_private_as_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3346,14 +3346,14 @@ Parameters
  </tr>
  <tr>
  <td>remove_private_as_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3367,14 +3367,14 @@ Parameters
  </tr>
  <tr>
  <td>remove_private_as_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3388,14 +3388,14 @@ Parameters
  </tr>
  <tr>
  <td>remove_private_as6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3409,7 +3409,7 @@ Parameters
  </tr>
  <tr>
  <td>restart_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3424,7 +3424,7 @@ Parameters
  </tr>
  <tr>
  <td>retain_stale_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3439,7 +3439,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3454,7 +3454,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_in_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3469,7 +3469,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3484,7 +3484,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3499,7 +3499,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3514,7 +3514,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3529,7 +3529,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3544,7 +3544,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_preferable</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3559,7 +3559,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3574,7 +3574,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_vpnv4_preferable</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3589,7 +3589,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3604,7 +3604,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out_vpnv6_preferable</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3619,7 +3619,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3634,7 +3634,7 @@ Parameters
  </tr>
  <tr>
  <td>route_map_out6_preferable</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -3649,14 +3649,14 @@ Parameters
  </tr>
  <tr>
  <td>route_reflector_client</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3670,14 +3670,14 @@ Parameters
  </tr>
  <tr>
  <td>route_reflector_client_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3691,14 +3691,14 @@ Parameters
  </tr>
  <tr>
  <td>route_reflector_client_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3712,14 +3712,14 @@ Parameters
  </tr>
  <tr>
  <td>route_reflector_client_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3733,14 +3733,14 @@ Parameters
  </tr>
  <tr>
  <td>route_reflector_client6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3754,14 +3754,14 @@ Parameters
  </tr>
  <tr>
  <td>route_server_client</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3775,14 +3775,14 @@ Parameters
  </tr>
  <tr>
  <td>route_server_client_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3796,14 +3796,14 @@ Parameters
  </tr>
  <tr>
  <td>route_server_client_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3817,14 +3817,14 @@ Parameters
  </tr>
  <tr>
  <td>route_server_client_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -3838,18 +3838,18 @@ Parameters
  </tr>
  <tr>
  <td>route_server_client6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community</span> - IPv4 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change</span> - Enable/disable allowing change of route attributes when advertising to IPv4 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label424' href="javascript:ContentClick('label425', 'label424');" onmouseover="ContentPreview('label425');" onmouseout="ContentUnpreview('label425');" title="click to collapse or expand..."> more... </a>
  <div id="label425" style="display:none">
  <table border="1">
@@ -3858,25 +3858,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_evpn</span> - Enable/disable sending community attribute to neighbor for L2VPN EVPN address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_evpn</span> - Enable/disable allowing change of route attributes when advertising to L2VPN EVPN route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label426' href="javascript:ContentClick('label427', 'label426');" onmouseover="ContentPreview('label427');" onmouseout="ContentUnpreview('label427');" title="click to collapse or expand..."> more... </a>
  <div id="label427" style="display:none">
  <table border="1">
@@ -3885,25 +3879,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_evpn</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_vpnv4</span> - Send community attribute to neighbor for VPNv4 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_vpnv4</span> - Enable/disable allowing change of route attributes when advertising to VPNv4 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label428' href="javascript:ContentClick('label429', 'label428');" onmouseover="ContentPreview('label429');" onmouseout="ContentUnpreview('label429');" title="click to collapse or expand..."> more... </a>
  <div id="label429" style="display:none">
  <table border="1">
@@ -3912,25 +3900,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_vpnv6</span> - Enable/disable sending community attribute to this neighbor for VPNv6 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_vpnv6</span> - Enable/disable allowing change of route attributes when advertising to VPNv6 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label430' href="javascript:ContentClick('label431', 'label430');" onmouseover="ContentPreview('label431');" onmouseout="ContentUnpreview('label431');" title="click to collapse or expand..."> more... </a>
  <div id="label431" style="display:none">
  <table border="1">
@@ -3939,25 +3921,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community6</span> - IPv6 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change6</span> - Enable/disable allowing change of route attributes when advertising to IPv6 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label432' href="javascript:ContentClick('label433', 'label432');" onmouseover="ContentPreview('label433');" onmouseout="ContentUnpreview('label433');" title="click to collapse or expand..."> more... </a>
  <div id="label433" style="display:none">
  <table border="1">
@@ -3966,25 +3942,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change6</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">shutdown</span> - Enable/disable shutdown this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community</span> - IPv4 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label434' href="javascript:ContentClick('label435', 'label434');" onmouseover="ContentPreview('label435');" onmouseout="ContentUnpreview('label435');" title="click to collapse or expand..."> more... </a>
  <div id="label435" style="display:none">
  <table border="1">
@@ -3993,19 +3963,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>shutdown</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration</span> - Enable/disable allow IPv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community_evpn</span> - Enable/disable sending community attribute to neighbor for L2VPN EVPN address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label436' href="javascript:ContentClick('label437', 'label436');" onmouseover="ContentPreview('label437');" onmouseout="ContentUnpreview('label437');" title="click to collapse or expand..."> more... </a>
  <div id="label437" style="display:none">
  <table border="1">
@@ -4014,19 +3990,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_evpn</span> - Enable/disable L2VPN EVPN inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community_vpnv4</span> - Send community attribute to neighbor for VPNv4 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label438' href="javascript:ContentClick('label439', 'label438');" onmouseover="ContentPreview('label439');" onmouseout="ContentUnpreview('label439');" title="click to collapse or expand..."> more... </a>
  <div id="label439" style="display:none">
  <table border="1">
@@ -4035,19 +4017,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>send_community_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_vpnv4</span> - Enable/disable allow VPNv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community_vpnv6</span> - Enable/disable sending community attribute to this neighbor for VPNv6 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label440' href="javascript:ContentClick('label441', 'label440');" onmouseover="ContentPreview('label441');" onmouseout="ContentUnpreview('label441');" title="click to collapse or expand..."> more... </a>
  <div id="label441" style="display:none">
  <table border="1">
@@ -4056,19 +4044,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>send_community_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_vpnv6</span> - Enable/disable VPNv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community6</span> - IPv6 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label442' href="javascript:ContentClick('label443', 'label442');" onmouseover="ContentPreview('label443');" onmouseout="ContentUnpreview('label443');" title="click to collapse or expand..."> more... </a>
  <div id="label443" style="display:none">
  <table border="1">
@@ -4077,19 +4071,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>send_community6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration6</span> - Enable/disable allow IPv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">shutdown</span> - Enable/disable shutdown this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label444' href="javascript:ContentClick('label445', 'label444');" onmouseover="ContentPreview('label445');" onmouseout="ContentUnpreview('label445');" title="click to collapse or expand..."> more... </a>
  <div id="label445" style="display:none">
  <table border="1">
@@ -4098,19 +4098,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>shutdown</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">stale_route</span> - Enable/disable stale route after neighbor down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">soft_reconfiguration</span> - Enable/disable allow IPv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label446' href="javascript:ContentClick('label447', 'label446');" onmouseover="ContentPreview('label447');" onmouseout="ContentUnpreview('label447');" title="click to collapse or expand..."> more... </a>
  <div id="label447" style="display:none">
  <table border="1">
@@ -4119,19 +4119,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>stale_route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">strict_capability_match</span> - Enable/disable strict capability matching. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">soft_reconfiguration_evpn</span> - Enable/disable L2VPN EVPN inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label448' href="javascript:ContentClick('label449', 'label448');" onmouseover="ContentPreview('label449');" onmouseout="ContentUnpreview('label449');" title="click to collapse or expand..."> more... </a>
  <div id="label449" style="display:none">
  <table border="1">
@@ -4140,19 +4140,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>strict_capability_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">unsuppress_map</span> - IPv4 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">soft_reconfiguration_vpnv4</span> - Enable/disable allow VPNv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label450' href="javascript:ContentClick('label451', 'label450');" onmouseover="ContentPreview('label451');" onmouseout="ContentUnpreview('label451');" title="click to collapse or expand..."> more... </a>
  <div id="label451" style="display:none">
  <table border="1">
@@ -4161,13 +4161,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>unsuppress_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">unsuppress_map6</span> - IPv6 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">soft_reconfiguration_vpnv6</span> - Enable/disable VPNv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label452' href="javascript:ContentClick('label453', 'label452');" onmouseover="ContentPreview('label453');" onmouseout="ContentUnpreview('label453');" title="click to collapse or expand..."> more... </a>
  <div id="label453" style="display:none">
  <table border="1">
@@ -4176,13 +4182,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>unsuppress_map6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">update_source</span> - Interface to use as source IP/IPv6 address of TCP connections. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">soft_reconfiguration6</span> - Enable/disable allow IPv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label454' href="javascript:ContentClick('label455', 'label454');" onmouseover="ContentPreview('label455');" onmouseout="ContentUnpreview('label455');" title="click to collapse or expand..."> more... </a>
  <div id="label455" style="display:none">
  <table border="1">
@@ -4191,13 +4203,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">weight</span> - Neighbor weight. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">stale_route</span> - Enable/disable stale route after neighbor down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label456' href="javascript:ContentClick('label457', 'label456');" onmouseover="ContentPreview('label457');" onmouseout="ContentUnpreview('label457');" title="click to collapse or expand..."> more... </a>
  <div id="label457" style="display:none">
  <table border="1">
@@ -4206,29 +4224,40 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>weight</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>stale_route</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">neighbor_group</span> - BGP neighbor group table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_group:name</span>
+            <li> <span class="li-head">strict_capability_match</span> - Enable/disable strict capability matching. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label458' href="javascript:ContentClick('label459', 'label458');" onmouseover="ContentPreview('label459');" onmouseout="ContentUnpreview('label459');" title="click to collapse or expand..."> more... </a>
  <div id="label459" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>neighbor_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>strict_capability_match</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">activate</span> - Enable/disable address family IPv4 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">unsuppress_map</span> - IPv4 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label460' href="javascript:ContentClick('label461', 'label460');" onmouseover="ContentPreview('label461');" onmouseout="ContentUnpreview('label461');" title="click to collapse or expand..."> more... </a>
  <div id="label461" style="display:none">
  <table border="1">
@@ -4237,19 +4266,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>activate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>unsuppress_map</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">activate_evpn</span> - Enable/disable address family L2VPN EVPN for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">unsuppress_map6</span> - IPv6 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label462' href="javascript:ContentClick('label463', 'label462');" onmouseover="ContentPreview('label463');" onmouseout="ContentUnpreview('label463');" title="click to collapse or expand..."> more... </a>
  <div id="label463" style="display:none">
  <table border="1">
@@ -4258,19 +4281,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>activate_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>unsuppress_map6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">activate_vpnv4</span> - Enable/disable address family VPNv4 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">update_source</span> - Interface to use as source IP/IPv6 address of TCP connections. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label464' href="javascript:ContentClick('label465', 'label464');" onmouseover="ContentPreview('label465');" onmouseout="ContentUnpreview('label465');" title="click to collapse or expand..."> more... </a>
  <div id="label465" style="display:none">
  <table border="1">
@@ -4279,19 +4296,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>activate_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>update_source</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">activate_vpnv6</span> - Enable/disable address family VPNv6 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">weight</span> - Neighbor weight. <span class="li-normal">type: int</span>
  <a id='label466' href="javascript:ContentClick('label467', 'label466');" onmouseover="ContentPreview('label467');" onmouseout="ContentUnpreview('label467');" title="click to collapse or expand..."> more... </a>
  <div id="label467" style="display:none">
  <table border="1">
@@ -4300,40 +4311,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>activate_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>weight</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">activate6</span> - Enable/disable address family IPv6 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">neighbor_group</span> - BGP neighbor group table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_group:name</span>
  <a id='label468' href="javascript:ContentClick('label469', 'label468');" onmouseover="ContentPreview('label469');" onmouseout="ContentUnpreview('label469');" title="click to collapse or expand..."> more... </a>
  <div id="label469" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>activate6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>neighbor_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">additional_path</span> - Enable/disable IPv4 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">activate</span> - Enable/disable address family IPv4 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label470' href="javascript:ContentClick('label471', 'label470');" onmouseover="ContentPreview('label471');" onmouseout="ContentUnpreview('label471');" title="click to collapse or expand..."> more... </a>
  <div id="label471" style="display:none">
  <table border="1">
@@ -4342,25 +4342,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>additional_path</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>activate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">additional_path_vpnv4</span> - Enable/disable VPNv4 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
+            <li> <span class="li-head">activate_evpn</span> - Enable/disable address family L2VPN EVPN for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label472' href="javascript:ContentClick('label473', 'label472');" onmouseover="ContentPreview('label473');" onmouseout="ContentUnpreview('label473');" title="click to collapse or expand..."> more... </a>
  <div id="label473" style="display:none">
  <table border="1">
@@ -4369,25 +4363,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>additional_path_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>activate_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">additional_path_vpnv6</span> - Enable/disable VPNv6 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
+            <li> <span class="li-head">activate_vpnv4</span> - Enable/disable address family VPNv4 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label474' href="javascript:ContentClick('label475', 'label474');" onmouseover="ContentPreview('label475');" onmouseout="ContentUnpreview('label475');" title="click to collapse or expand..."> more... </a>
  <div id="label475" style="display:none">
  <table border="1">
@@ -4396,25 +4384,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>additional_path_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>activate_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">additional_path6</span> - Enable/disable IPv6 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
+            <li> <span class="li-head">activate_vpnv6</span> - Enable/disable address family VPNv6 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label476' href="javascript:ContentClick('label477', 'label476');" onmouseover="ContentPreview('label477');" onmouseout="ContentUnpreview('label477');" title="click to collapse or expand..."> more... </a>
  <div id="label477" style="display:none">
  <table border="1">
@@ -4423,25 +4405,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>additional_path6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>activate_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">adv_additional_path</span> - Number of IPv4 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">activate6</span> - Enable/disable address family IPv6 for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label478' href="javascript:ContentClick('label479', 'label478');" onmouseover="ContentPreview('label479');" onmouseout="ContentUnpreview('label479');" title="click to collapse or expand..."> more... </a>
  <div id="label479" style="display:none">
  <table border="1">
@@ -4450,13 +4426,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>adv_additional_path</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>activate6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">adv_additional_path_vpnv4</span> - Number of VPNv4 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">additional_path</span> - Enable/disable IPv4 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
  <a id='label480' href="javascript:ContentClick('label481', 'label480');" onmouseover="ContentPreview('label481');" onmouseout="ContentUnpreview('label481');" title="click to collapse or expand..."> more... </a>
  <div id="label481" style="display:none">
  <table border="1">
@@ -4465,13 +4447,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>adv_additional_path_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>additional_path</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">adv_additional_path_vpnv6</span> - Number of VPNv6 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">additional_path_vpnv4</span> - Enable/disable VPNv4 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
  <a id='label482' href="javascript:ContentClick('label483', 'label482');" onmouseover="ContentPreview('label483');" onmouseout="ContentUnpreview('label483');" title="click to collapse or expand..."> more... </a>
  <div id="label483" style="display:none">
  <table border="1">
@@ -4480,13 +4474,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>adv_additional_path_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>additional_path_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">adv_additional_path6</span> - Number of IPv6 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">additional_path_vpnv6</span> - Enable/disable VPNv6 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
  <a id='label484' href="javascript:ContentClick('label485', 'label484');" onmouseover="ContentPreview('label485');" onmouseout="ContentUnpreview('label485');" title="click to collapse or expand..."> more... </a>
  <div id="label485" style="display:none">
  <table border="1">
@@ -4495,13 +4501,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>adv_additional_path6</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>additional_path_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">advertisement_interval</span> - Minimum interval (sec) between sending updates. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">additional_path6</span> - Enable/disable IPv6 additional-path capability. <span class="li-normal">type: str</span> <span class="li-normal">choices: send, receive, both, disable</span>
  <a id='label486' href="javascript:ContentClick('label487', 'label486');" onmouseover="ContentPreview('label487');" onmouseout="ContentUnpreview('label487');" title="click to collapse or expand..."> more... </a>
  <div id="label487" style="display:none">
  <table border="1">
@@ -4510,13 +4528,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>advertisement_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>additional_path6</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in</span> - IPv4 The maximum number of occurrence of my AS number allowed. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">adv_additional_path</span> - Number of IPv4 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
  <a id='label488' href="javascript:ContentClick('label489', 'label488');" onmouseover="ContentPreview('label489');" onmouseout="ContentUnpreview('label489');" title="click to collapse or expand..."> more... </a>
  <div id="label489" style="display:none">
  <table border="1">
@@ -4525,13 +4555,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>adv_additional_path</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_enable</span> - Enable/disable IPv4 Enable to allow my AS in AS path. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">adv_additional_path_vpnv4</span> - Number of VPNv4 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
  <a id='label490' href="javascript:ContentClick('label491', 'label490');" onmouseover="ContentPreview('label491');" onmouseout="ContentUnpreview('label491');" title="click to collapse or expand..."> more... </a>
  <div id="label491" style="display:none">
  <table border="1">
@@ -4540,19 +4570,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_enable</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>adv_additional_path_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_enable_evpn</span> - Enable/disable to allow my AS in AS path for L2VPN EVPN route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">adv_additional_path_vpnv6</span> - Number of VPNv6 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
  <a id='label492' href="javascript:ContentClick('label493', 'label492');" onmouseover="ContentPreview('label493');" onmouseout="ContentUnpreview('label493');" title="click to collapse or expand..."> more... </a>
  <div id="label493" style="display:none">
  <table border="1">
@@ -4561,19 +4585,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_enable_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>adv_additional_path_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_enable_vpnv4</span> - Enable/disable to allow my AS in AS path for VPNv4 route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">adv_additional_path6</span> - Number of IPv6 additional paths that can be advertised to this neighbor. <span class="li-normal">type: int</span>
  <a id='label494' href="javascript:ContentClick('label495', 'label494');" onmouseover="ContentPreview('label495');" onmouseout="ContentUnpreview('label495');" title="click to collapse or expand..."> more... </a>
  <div id="label495" style="display:none">
  <table border="1">
@@ -4582,19 +4600,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_enable_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>adv_additional_path6</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_enable_vpnv6</span> - Enable/disable use of my AS in AS path for VPNv6 route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">advertisement_interval</span> - Minimum interval (sec) between sending updates. <span class="li-normal">type: int</span>
  <a id='label496' href="javascript:ContentClick('label497', 'label496');" onmouseover="ContentPreview('label497');" onmouseout="ContentUnpreview('label497');" title="click to collapse or expand..."> more... </a>
  <div id="label497" style="display:none">
  <table border="1">
@@ -4603,19 +4615,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_enable_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>advertisement_interval</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_enable6</span> - Enable/disable IPv6 Enable to allow my AS in AS path. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">allowas_in</span> - IPv4 The maximum number of occurrence of my AS number allowed. <span class="li-normal">type: int</span>
  <a id='label498' href="javascript:ContentClick('label499', 'label498');" onmouseover="ContentPreview('label499');" onmouseout="ContentUnpreview('label499');" title="click to collapse or expand..."> more... </a>
  <div id="label499" style="display:none">
  <table border="1">
@@ -4624,19 +4630,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_enable6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>allowas_in</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_evpn</span> - The maximum number of occurrence of my AS number allowed for L2VPN EVPN route. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">allowas_in_enable</span> - Enable/disable IPv4 Enable to allow my AS in AS path. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label500' href="javascript:ContentClick('label501', 'label500');" onmouseover="ContentPreview('label501');" onmouseout="ContentUnpreview('label501');" title="click to collapse or expand..."> more... </a>
  <div id="label501" style="display:none">
  <table border="1">
@@ -4645,13 +4645,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>allowas_in_enable</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_vpnv4</span> - The maximum number of occurrence of my AS number allowed for VPNv4 route. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">allowas_in_enable_evpn</span> - Enable/disable to allow my AS in AS path for L2VPN EVPN route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label502' href="javascript:ContentClick('label503', 'label502');" onmouseover="ContentPreview('label503');" onmouseout="ContentUnpreview('label503');" title="click to collapse or expand..."> more... </a>
  <div id="label503" style="display:none">
  <table border="1">
@@ -4660,13 +4666,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>allowas_in_enable_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in_vpnv6</span> - The maximum number of occurrence of my AS number allowed for VPNv6 route. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">allowas_in_enable_vpnv4</span> - Enable/disable to allow my AS in AS path for VPNv4 route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label504' href="javascript:ContentClick('label505', 'label504');" onmouseover="ContentPreview('label505');" onmouseout="ContentUnpreview('label505');" title="click to collapse or expand..."> more... </a>
  <div id="label505" style="display:none">
  <table border="1">
@@ -4675,13 +4687,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>allowas_in_enable_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">allowas_in6</span> - IPv6 The maximum number of occurrence of my AS number allowed. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">allowas_in_enable_vpnv6</span> - Enable/disable use of my AS in AS path for VPNv6 route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label506' href="javascript:ContentClick('label507', 'label506');" onmouseover="ContentPreview('label507');" onmouseout="ContentUnpreview('label507');" title="click to collapse or expand..."> more... </a>
  <div id="label507" style="display:none">
  <table border="1">
@@ -4690,13 +4708,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>allowas_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>allowas_in_enable_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">as_override</span> - Enable/disable replace peer AS with own AS for IPv4. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">allowas_in_enable6</span> - Enable/disable IPv6 Enable to allow my AS in AS path. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label508' href="javascript:ContentClick('label509', 'label508');" onmouseover="ContentPreview('label509');" onmouseout="ContentUnpreview('label509');" title="click to collapse or expand..."> more... </a>
  <div id="label509" style="display:none">
  <table border="1">
@@ -4705,19 +4729,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>as_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>allowas_in_enable6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">as_override6</span> - Enable/disable replace peer AS with own AS for IPv6. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">allowas_in_evpn</span> - The maximum number of occurrence of my AS number allowed for L2VPN EVPN route. <span class="li-normal">type: int</span>
  <a id='label510' href="javascript:ContentClick('label511', 'label510');" onmouseover="ContentPreview('label511');" onmouseout="ContentUnpreview('label511');" title="click to collapse or expand..."> more... </a>
  <div id="label511" style="display:none">
  <table border="1">
@@ -4726,19 +4750,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>as_override6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>allowas_in_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged</span> - IPv4 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">allowas_in_vpnv4</span> - The maximum number of occurrence of my AS number allowed for VPNv4 route. <span class="li-normal">type: int</span>
  <a id='label512' href="javascript:ContentClick('label513', 'label512');" onmouseover="ContentPreview('label513');" onmouseout="ContentUnpreview('label513');" title="click to collapse or expand..."> more... </a>
  <div id="label513" style="display:none">
  <table border="1">
@@ -4747,22 +4765,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>attribute_unchanged</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>allowas_in_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[med]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged_vpnv4</span> - List of attributes that should be unchanged for VPNv4 route. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">allowas_in_vpnv6</span> - The maximum number of occurrence of my AS number allowed for VPNv6 route. <span class="li-normal">type: int</span>
  <a id='label514' href="javascript:ContentClick('label515', 'label514');" onmouseover="ContentPreview('label515');" onmouseout="ContentUnpreview('label515');" title="click to collapse or expand..."> more... </a>
  <div id="label515" style="display:none">
  <table border="1">
@@ -4771,22 +4780,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>attribute_unchanged_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>allowas_in_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[med]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged_vpnv6</span> - List of attributes that should not be changed for VPNv6 route. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">allowas_in6</span> - IPv6 The maximum number of occurrence of my AS number allowed. <span class="li-normal">type: int</span>
  <a id='label516' href="javascript:ContentClick('label517', 'label516');" onmouseover="ContentPreview('label517');" onmouseout="ContentUnpreview('label517');" title="click to collapse or expand..."> more... </a>
  <div id="label517" style="display:none">
  <table border="1">
@@ -4795,22 +4795,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>attribute_unchanged_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>allowas_in6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[med]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">attribute_unchanged6</span> - IPv6 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
+            <li> <span class="li-head">as_override</span> - Enable/disable replace peer AS with own AS for IPv4. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label518' href="javascript:ContentClick('label519', 'label518');" onmouseover="ContentPreview('label519');" onmouseout="ContentUnpreview('label519');" title="click to collapse or expand..."> more... </a>
  <div id="label519" style="display:none">
  <table border="1">
@@ -4819,22 +4810,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>attribute_unchanged6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>as_override</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[as-path]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[med]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[next-hop]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">auth_options</span> - Key-chain name for TCP authentication options. Source router.key-chain.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">as_override6</span> - Enable/disable replace peer AS with own AS for IPv6. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label520' href="javascript:ContentClick('label521', 'label520');" onmouseover="ContentPreview('label521');" onmouseout="ContentUnpreview('label521');" title="click to collapse or expand..."> more... </a>
  <div id="label521" style="display:none">
  <table border="1">
@@ -4843,13 +4831,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>auth_options</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>as_override6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bfd</span> - Enable/disable BFD for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">attribute_unchanged</span> - IPv4 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label522' href="javascript:ContentClick('label523', 'label522');" onmouseover="ContentPreview('label523');" onmouseout="ContentUnpreview('label523');" title="click to collapse or expand..."> more... </a>
  <div id="label523" style="display:none">
  <table border="1">
@@ -4858,19 +4852,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bfd</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>attribute_unchanged</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[as-path]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[med]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[next-hop]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_default_originate</span> - Enable/disable advertise default IPv4 route to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">attribute_unchanged_vpnv4</span> - List of attributes that should be unchanged for VPNv4 route. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label524' href="javascript:ContentClick('label525', 'label524');" onmouseover="ContentPreview('label525');" onmouseout="ContentUnpreview('label525');" title="click to collapse or expand..."> more... </a>
  <div id="label525" style="display:none">
  <table border="1">
@@ -4879,19 +4876,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_default_originate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>attribute_unchanged_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[as-path]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[med]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[next-hop]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_default_originate6</span> - Enable/disable advertise default IPv6 route to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">attribute_unchanged_vpnv6</span> - List of attributes that should not be changed for VPNv6 route. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label526' href="javascript:ContentClick('label527', 'label526');" onmouseover="ContentPreview('label527');" onmouseout="ContentUnpreview('label527');" title="click to collapse or expand..."> more... </a>
  <div id="label527" style="display:none">
  <table border="1">
@@ -4900,19 +4900,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_default_originate6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>attribute_unchanged_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[as-path]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[med]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[next-hop]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_dynamic</span> - Enable/disable advertise dynamic capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">attribute_unchanged6</span> - IPv6 List of attributes that should be unchanged. <span class="li-normal">type: list</span> <span class="li-normal">choices: as-path, med, next-hop</span>
  <a id='label528' href="javascript:ContentClick('label529', 'label528');" onmouseover="ContentPreview('label529');" onmouseout="ContentUnpreview('label529');" title="click to collapse or expand..."> more... </a>
  <div id="label529" style="display:none">
  <table border="1">
@@ -4921,19 +4924,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_dynamic</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>attribute_unchanged6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[as-path]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[med]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[next-hop]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_graceful_restart</span> - Enable/disable advertise IPv4 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">auth_options</span> - Key-chain name for TCP authentication options. Source router.key-chain.name. <span class="li-normal">type: str</span>
  <a id='label530' href="javascript:ContentClick('label531', 'label530');" onmouseover="ContentPreview('label531');" onmouseout="ContentUnpreview('label531');" title="click to collapse or expand..."> more... </a>
  <div id="label531" style="display:none">
  <table border="1">
@@ -4942,19 +4948,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_graceful_restart</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>auth_options</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_graceful_restart_evpn</span> - Enable/disable advertisement of L2VPN EVPN graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">bfd</span> - Enable/disable BFD for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label532' href="javascript:ContentClick('label533', 'label532');" onmouseover="ContentPreview('label533');" onmouseout="ContentUnpreview('label533');" title="click to collapse or expand..."> more... </a>
  <div id="label533" style="display:none">
  <table border="1">
@@ -4963,19 +4963,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_graceful_restart_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>bfd</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_graceful_restart_vpnv4</span> - Enable/disable advertise VPNv4 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">capability_default_originate</span> - Enable/disable advertise default IPv4 route to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label534' href="javascript:ContentClick('label535', 'label534');" onmouseover="ContentPreview('label535');" onmouseout="ContentUnpreview('label535');" title="click to collapse or expand..."> more... </a>
  <div id="label535" style="display:none">
  <table border="1">
@@ -4984,19 +4984,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_graceful_restart_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>capability_default_originate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_graceful_restart_vpnv6</span> - Enable/disable advertisement of VPNv6 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">capability_default_originate6</span> - Enable/disable advertise default IPv6 route to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label536' href="javascript:ContentClick('label537', 'label536');" onmouseover="ContentPreview('label537');" onmouseout="ContentUnpreview('label537');" title="click to collapse or expand..."> more... </a>
  <div id="label537" style="display:none">
  <table border="1">
@@ -5005,19 +5005,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_graceful_restart_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>capability_default_originate6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_graceful_restart6</span> - Enable/disable advertise IPv6 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">capability_dynamic</span> - Enable/disable advertise dynamic capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label538' href="javascript:ContentClick('label539', 'label538');" onmouseover="ContentPreview('label539');" onmouseout="ContentUnpreview('label539');" title="click to collapse or expand..."> more... </a>
  <div id="label539" style="display:none">
  <table border="1">
@@ -5026,19 +5026,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_graceful_restart6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_dynamic</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_orf</span> - Accept/Send IPv4 ORF lists to/from this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, receive, send, both</span>
+            <li> <span class="li-head">capability_graceful_restart</span> - Enable/disable advertise IPv4 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label540' href="javascript:ContentClick('label541', 'label540');" onmouseover="ContentPreview('label541');" onmouseout="ContentUnpreview('label541');" title="click to collapse or expand..."> more... </a>
  <div id="label541" style="display:none">
  <table border="1">
@@ -5047,25 +5047,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_orf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_graceful_restart</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_orf6</span> - Accept/Send IPv6 ORF lists to/from this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, receive, send, both</span>
+            <li> <span class="li-head">capability_graceful_restart_evpn</span> - Enable/disable advertisement of L2VPN EVPN graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label542' href="javascript:ContentClick('label543', 'label542');" onmouseover="ContentPreview('label543');" onmouseout="ContentUnpreview('label543');" title="click to collapse or expand..."> more... </a>
  <div id="label543" style="display:none">
  <table border="1">
@@ -5074,25 +5068,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_orf6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_graceful_restart_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
- <td>[receive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[send]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">capability_route_refresh</span> - Enable/disable advertise route refresh capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">capability_graceful_restart_vpnv4</span> - Enable/disable advertise VPNv4 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label544' href="javascript:ContentClick('label545', 'label544');" onmouseover="ContentPreview('label545');" onmouseout="ContentUnpreview('label545');" title="click to collapse or expand..."> more... </a>
  <div id="label545" style="display:none">
  <table border="1">
@@ -5101,19 +5089,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>capability_route_refresh</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_graceful_restart_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">connect_timer</span> - Interval (sec) for connect timer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">capability_graceful_restart_vpnv6</span> - Enable/disable advertisement of VPNv6 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label546' href="javascript:ContentClick('label547', 'label546');" onmouseover="ContentPreview('label547');" onmouseout="ContentUnpreview('label547');" title="click to collapse or expand..."> more... </a>
  <div id="label547" style="display:none">
  <table border="1">
@@ -5122,13 +5110,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>connect_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_graceful_restart_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">default_originate_routemap</span> - Route map to specify criteria to originate IPv4 default. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">capability_graceful_restart6</span> - Enable/disable advertise IPv6 graceful restart capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label548' href="javascript:ContentClick('label549', 'label548');" onmouseover="ContentPreview('label549');" onmouseout="ContentUnpreview('label549');" title="click to collapse or expand..."> more... </a>
  <div id="label549" style="display:none">
  <table border="1">
@@ -5137,13 +5131,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>default_originate_routemap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_graceful_restart6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">default_originate_routemap6</span> - Route map to specify criteria to originate IPv6 default. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">capability_orf</span> - Accept/Send IPv4 ORF lists to/from this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, receive, send, both</span>
  <a id='label550' href="javascript:ContentClick('label551', 'label550');" onmouseover="ContentPreview('label551');" onmouseout="ContentUnpreview('label551');" title="click to collapse or expand..."> more... </a>
  <div id="label551" style="display:none">
  <table border="1">
@@ -5152,13 +5152,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>default_originate_routemap6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_orf</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">capability_orf6</span> - Accept/Send IPv6 ORF lists to/from this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, receive, send, both</span>
  <a id='label552' href="javascript:ContentClick('label553', 'label552');" onmouseover="ContentPreview('label553');" onmouseout="ContentUnpreview('label553');" title="click to collapse or expand..."> more... </a>
  <div id="label553" style="display:none">
  <table border="1">
@@ -5167,13 +5179,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>description</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_orf6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[receive]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[send]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_in</span> - Filter for IPv4 updates from this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">capability_route_refresh</span> - Enable/disable advertise route refresh capability to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label554' href="javascript:ContentClick('label555', 'label554');" onmouseover="ContentPreview('label555');" onmouseout="ContentUnpreview('label555');" title="click to collapse or expand..."> more... </a>
  <div id="label555" style="display:none">
  <table border="1">
@@ -5182,13 +5206,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>capability_route_refresh</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_in_vpnv4</span> - Filter for VPNv4 updates from this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">connect_timer</span> - Interval (sec) for connect timer. <span class="li-normal">type: int</span>
  <a id='label556' href="javascript:ContentClick('label557', 'label556');" onmouseover="ContentPreview('label557');" onmouseout="ContentUnpreview('label557');" title="click to collapse or expand..."> more... </a>
  <div id="label557" style="display:none">
  <table border="1">
@@ -5197,13 +5227,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>connect_timer</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_in_vpnv6</span> - Filter for VPNv6 updates from this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">default_originate_routemap</span> - Route map to specify criteria to originate IPv4 default. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label558' href="javascript:ContentClick('label559', 'label558');" onmouseover="ContentPreview('label559');" onmouseout="ContentUnpreview('label559');" title="click to collapse or expand..."> more... </a>
  <div id="label559" style="display:none">
  <table border="1">
@@ -5212,13 +5242,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>default_originate_routemap</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_in6</span> - Filter for IPv6 updates from this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">default_originate_routemap6</span> - Route map to specify criteria to originate IPv6 default. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label560' href="javascript:ContentClick('label561', 'label560');" onmouseover="ContentPreview('label561');" onmouseout="ContentUnpreview('label561');" title="click to collapse or expand..."> more... </a>
  <div id="label561" style="display:none">
  <table border="1">
@@ -5227,13 +5257,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>default_originate_routemap6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_out</span> - Filter for IPv4 updates to this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
  <a id='label562' href="javascript:ContentClick('label563', 'label562');" onmouseover="ContentPreview('label563');" onmouseout="ContentUnpreview('label563');" title="click to collapse or expand..."> more... </a>
  <div id="label563" style="display:none">
  <table border="1">
@@ -5242,13 +5272,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>description</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_out_vpnv4</span> - Filter for VPNv4 updates to this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">distribute_list_in</span> - Filter for IPv4 updates from this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label564' href="javascript:ContentClick('label565', 'label564');" onmouseover="ContentPreview('label565');" onmouseout="ContentUnpreview('label565');" title="click to collapse or expand..."> more... </a>
  <div id="label565" style="display:none">
  <table border="1">
@@ -5257,13 +5287,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>distribute_list_in</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_out_vpnv6</span> - Filter for VPNv6 updates to this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">distribute_list_in_vpnv4</span> - Filter for VPNv4 updates from this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label566' href="javascript:ContentClick('label567', 'label566');" onmouseover="ContentPreview('label567');" onmouseout="ContentUnpreview('label567');" title="click to collapse or expand..."> more... </a>
  <div id="label567" style="display:none">
  <table border="1">
@@ -5272,13 +5302,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>distribute_list_in_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">distribute_list_out6</span> - Filter for IPv6 updates to this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">distribute_list_in_vpnv6</span> - Filter for VPNv6 updates from this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
  <a id='label568' href="javascript:ContentClick('label569', 'label568');" onmouseover="ContentPreview('label569');" onmouseout="ContentUnpreview('label569');" title="click to collapse or expand..."> more... </a>
  <div id="label569" style="display:none">
  <table border="1">
@@ -5287,13 +5317,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>distribute_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>distribute_list_in_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">dont_capability_negotiate</span> - Do not negotiate capabilities with this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">distribute_list_in6</span> - Filter for IPv6 updates from this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
  <a id='label570' href="javascript:ContentClick('label571', 'label570');" onmouseover="ContentPreview('label571');" onmouseout="ContentUnpreview('label571');" title="click to collapse or expand..."> more... </a>
  <div id="label571" style="display:none">
  <table border="1">
@@ -5302,19 +5332,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dont_capability_negotiate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>distribute_list_in6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ebgp_enforce_multihop</span> - Enable/disable allow multi-hop EBGP neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">distribute_list_out</span> - Filter for IPv4 updates to this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label572' href="javascript:ContentClick('label573', 'label572');" onmouseover="ContentPreview('label573');" onmouseout="ContentUnpreview('label573');" title="click to collapse or expand..."> more... </a>
  <div id="label573" style="display:none">
  <table border="1">
@@ -5323,19 +5347,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ebgp_enforce_multihop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>distribute_list_out</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ebgp_multihop_ttl</span> - EBGP multihop TTL for this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">distribute_list_out_vpnv4</span> - Filter for VPNv4 updates to this neighbor. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label574' href="javascript:ContentClick('label575', 'label574');" onmouseover="ContentPreview('label575');" onmouseout="ContentUnpreview('label575');" title="click to collapse or expand..."> more... </a>
  <div id="label575" style="display:none">
  <table border="1">
@@ -5344,13 +5362,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ebgp_multihop_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>distribute_list_out_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_in</span> - BGP filter for IPv4 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">distribute_list_out_vpnv6</span> - Filter for VPNv6 updates to this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
  <a id='label576' href="javascript:ContentClick('label577', 'label576');" onmouseover="ContentPreview('label577');" onmouseout="ContentUnpreview('label577');" title="click to collapse or expand..."> more... </a>
  <div id="label577" style="display:none">
  <table border="1">
@@ -5359,13 +5377,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>distribute_list_out_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_in_vpnv4</span> - BGP filter for VPNv4 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">distribute_list_out6</span> - Filter for IPv6 updates to this neighbor. Source router.access-list6.name. <span class="li-normal">type: str</span>
  <a id='label578' href="javascript:ContentClick('label579', 'label578');" onmouseover="ContentPreview('label579');" onmouseout="ContentUnpreview('label579');" title="click to collapse or expand..."> more... </a>
  <div id="label579" style="display:none">
  <table border="1">
@@ -5374,13 +5392,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td>distribute_list_out6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_in_vpnv6</span> - BGP filter for VPNv6 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">dont_capability_negotiate</span> - Do not negotiate capabilities with this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label580' href="javascript:ContentClick('label581', 'label580');" onmouseover="ContentPreview('label581');" onmouseout="ContentUnpreview('label581');" title="click to collapse or expand..."> more... </a>
  <div id="label581" style="display:none">
  <table border="1">
@@ -5389,13 +5407,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>dont_capability_negotiate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_in6</span> - BGP filter for IPv6 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ebgp_enforce_multihop</span> - Enable/disable allow multi-hop EBGP neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label582' href="javascript:ContentClick('label583', 'label582');" onmouseover="ContentPreview('label583');" onmouseout="ContentUnpreview('label583');" title="click to collapse or expand..."> more... </a>
  <div id="label583" style="display:none">
  <table border="1">
@@ -5404,13 +5428,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>ebgp_enforce_multihop</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_out</span> - BGP filter for IPv4 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ebgp_multihop_ttl</span> - EBGP multihop TTL for this peer. <span class="li-normal">type: int</span>
  <a id='label584' href="javascript:ContentClick('label585', 'label584');" onmouseover="ContentPreview('label585');" onmouseout="ContentUnpreview('label585');" title="click to collapse or expand..."> more... </a>
  <div id="label585" style="display:none">
  <table border="1">
@@ -5419,13 +5449,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>ebgp_multihop_ttl</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_out_vpnv4</span> - BGP filter for VPNv4 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">filter_list_in</span> - BGP filter for IPv4 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label586' href="javascript:ContentClick('label587', 'label586');" onmouseover="ContentPreview('label587');" onmouseout="ContentUnpreview('label587');" title="click to collapse or expand..."> more... </a>
  <div id="label587" style="display:none">
  <table border="1">
@@ -5434,13 +5464,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td>filter_list_in</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_out_vpnv6</span> - BGP filter for VPNv6 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">filter_list_in_vpnv4</span> - BGP filter for VPNv4 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label588' href="javascript:ContentClick('label589', 'label588');" onmouseover="ContentPreview('label589');" onmouseout="ContentUnpreview('label589');" title="click to collapse or expand..."> more... </a>
  <div id="label589" style="display:none">
  <table border="1">
@@ -5449,13 +5479,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>filter_list_in_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">filter_list_out6</span> - BGP filter for IPv6 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">filter_list_in_vpnv6</span> - BGP filter for VPNv6 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label590' href="javascript:ContentClick('label591', 'label590');" onmouseover="ContentPreview('label591');" onmouseout="ContentUnpreview('label591');" title="click to collapse or expand..."> more... </a>
  <div id="label591" style="display:none">
  <table border="1">
@@ -5464,13 +5494,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>filter_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_in_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">holdtime_timer</span> - Interval (sec) before peer considered dead. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">filter_list_in6</span> - BGP filter for IPv6 inbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label592' href="javascript:ContentClick('label593', 'label592');" onmouseover="ContentPreview('label593');" onmouseout="ContentUnpreview('label593');" title="click to collapse or expand..."> more... </a>
  <div id="label593" style="display:none">
  <table border="1">
@@ -5479,13 +5509,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>holdtime_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_in6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">interface</span> - Specify outgoing interface for peer connection. For IPv6 peer, the interface should have link-local address. Source system .interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">filter_list_out</span> - BGP filter for IPv4 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label594' href="javascript:ContentClick('label595', 'label594');" onmouseover="ContentPreview('label595');" onmouseout="ContentUnpreview('label595');" title="click to collapse or expand..."> more... </a>
  <div id="label595" style="display:none">
  <table border="1">
@@ -5494,13 +5524,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_out</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">keep_alive_timer</span> - Keep alive timer interval (sec). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">filter_list_out_vpnv4</span> - BGP filter for VPNv4 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label596' href="javascript:ContentClick('label597', 'label596');" onmouseover="ContentPreview('label597');" onmouseout="ContentUnpreview('label597');" title="click to collapse or expand..."> more... </a>
  <div id="label597" style="display:none">
  <table border="1">
@@ -5509,13 +5539,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>keep_alive_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_out_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">link_down_failover</span> - Enable/disable failover upon link down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">filter_list_out_vpnv6</span> - BGP filter for VPNv6 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label598' href="javascript:ContentClick('label599', 'label598');" onmouseover="ContentPreview('label599');" onmouseout="ContentUnpreview('label599');" title="click to collapse or expand..."> more... </a>
  <div id="label599" style="display:none">
  <table border="1">
@@ -5524,19 +5554,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>link_down_failover</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_out_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">local_as</span> - Local AS number of neighbor. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">filter_list_out6</span> - BGP filter for IPv6 outbound routes. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label600' href="javascript:ContentClick('label601', 'label600');" onmouseover="ContentPreview('label601');" onmouseout="ContentUnpreview('label601');" title="click to collapse or expand..."> more... </a>
  <div id="label601" style="display:none">
  <table border="1">
@@ -5545,13 +5569,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter_list_out6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">local_as_no_prepend</span> - Do not prepend local-as to incoming updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">holdtime_timer</span> - Interval (sec) before peer considered dead. <span class="li-normal">type: int</span>
  <a id='label602' href="javascript:ContentClick('label603', 'label602');" onmouseover="ContentPreview('label603');" onmouseout="ContentUnpreview('label603');" title="click to collapse or expand..."> more... </a>
  <div id="label603" style="display:none">
  <table border="1">
@@ -5560,19 +5584,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_as_no_prepend</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>holdtime_timer</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">local_as_replace_as</span> - Replace real AS with local-as in outgoing updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">interface</span> - Specify outgoing interface for peer connection. For IPv6 peer, the interface should have link-local address. Source system .interface.name. <span class="li-normal">type: str</span>
  <a id='label604' href="javascript:ContentClick('label605', 'label604');" onmouseover="ContentPreview('label605');" onmouseout="ContentUnpreview('label605');" title="click to collapse or expand..."> more... </a>
  <div id="label605" style="display:none">
  <table border="1">
@@ -5581,19 +5599,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_as_replace_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix</span> - Maximum number of IPv4 prefixes to accept from this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">keep_alive_timer</span> - Keep alive timer interval (sec). <span class="li-normal">type: int</span>
  <a id='label606' href="javascript:ContentClick('label607', 'label606');" onmouseover="ContentPreview('label607');" onmouseout="ContentUnpreview('label607');" title="click to collapse or expand..."> more... </a>
  <div id="label607" style="display:none">
  <table border="1">
@@ -5602,13 +5614,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>keep_alive_timer</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_evpn</span> - Maximum number of L2VPN EVPN prefixes to accept from this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">link_down_failover</span> - Enable/disable failover upon link down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label608' href="javascript:ContentClick('label609', 'label608');" onmouseover="ContentPreview('label609');" onmouseout="ContentUnpreview('label609');" title="click to collapse or expand..."> more... </a>
  <div id="label609" style="display:none">
  <table border="1">
@@ -5617,13 +5629,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>link_down_failover</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_threshold</span> - Maximum IPv4 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">local_as</span> - Local AS number of neighbor. <span class="li-normal">type: str</span>
  <a id='label610' href="javascript:ContentClick('label611', 'label610');" onmouseover="ContentPreview('label611');" onmouseout="ContentUnpreview('label611');" title="click to collapse or expand..."> more... </a>
  <div id="label611" style="display:none">
  <table border="1">
@@ -5632,13 +5650,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>local_as</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_threshold_evpn</span> - Maximum L2VPN EVPN prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">local_as_no_prepend</span> - Do not prepend local-as to incoming updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label612' href="javascript:ContentClick('label613', 'label612');" onmouseover="ContentPreview('label613');" onmouseout="ContentUnpreview('label613');" title="click to collapse or expand..."> more... </a>
  <div id="label613" style="display:none">
  <table border="1">
@@ -5647,13 +5665,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_threshold_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>local_as_no_prepend</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_threshold_vpnv4</span> - Maximum VPNv4 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">local_as_replace_as</span> - Replace real AS with local-as in outgoing updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label614' href="javascript:ContentClick('label615', 'label614');" onmouseover="ContentPreview('label615');" onmouseout="ContentUnpreview('label615');" title="click to collapse or expand..."> more... </a>
  <div id="label615" style="display:none">
  <table border="1">
@@ -5662,13 +5686,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_threshold_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>local_as_replace_as</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_threshold_vpnv6</span> - Maximum VPNv6 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_prefix</span> - Maximum number of IPv4 prefixes to accept from this peer. <span class="li-normal">type: int</span>
  <a id='label616' href="javascript:ContentClick('label617', 'label616');" onmouseover="ContentPreview('label617');" onmouseout="ContentUnpreview('label617');" title="click to collapse or expand..."> more... </a>
  <div id="label617" style="display:none">
  <table border="1">
@@ -5677,13 +5707,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_threshold_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>maximum_prefix</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_threshold6</span> - Maximum IPv6 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_prefix_evpn</span> - Maximum number of L2VPN EVPN prefixes to accept from this peer. <span class="li-normal">type: int</span>
  <a id='label618' href="javascript:ContentClick('label619', 'label618');" onmouseover="ContentPreview('label619');" onmouseout="ContentUnpreview('label619');" title="click to collapse or expand..."> more... </a>
  <div id="label619" style="display:none">
  <table border="1">
@@ -5692,13 +5722,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_threshold6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_vpnv4</span> - Maximum number of VPNv4 prefixes to accept from this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_prefix_threshold</span> - Maximum IPv4 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
  <a id='label620' href="javascript:ContentClick('label621', 'label620');" onmouseover="ContentPreview('label621');" onmouseout="ContentUnpreview('label621');" title="click to collapse or expand..."> more... </a>
  <div id="label621" style="display:none">
  <table border="1">
@@ -5707,13 +5737,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_threshold</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_vpnv6</span> - Maximum number of VPNv6 prefixes to accept from this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_prefix_threshold_evpn</span> - Maximum L2VPN EVPN prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
  <a id='label622' href="javascript:ContentClick('label623', 'label622');" onmouseover="ContentPreview('label623');" onmouseout="ContentUnpreview('label623');" title="click to collapse or expand..."> more... </a>
  <div id="label623" style="display:none">
  <table border="1">
@@ -5722,13 +5752,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>maximum_prefix_threshold_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_warning_only</span> - Enable/disable IPv4 Only give warning message when limit is exceeded. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_threshold_vpnv4</span> - Maximum VPNv4 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
  <a id='label624' href="javascript:ContentClick('label625', 'label624');" onmouseover="ContentPreview('label625');" onmouseout="ContentUnpreview('label625');" title="click to collapse or expand..."> more... </a>
  <div id="label625" style="display:none">
  <table border="1">
@@ -5737,19 +5767,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_warning_only</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_threshold_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_warning_only_evpn</span> - Enable/disable only sending warning message when exceeding limit of L2VPN EVPN routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_threshold_vpnv6</span> - Maximum VPNv6 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
  <a id='label626' href="javascript:ContentClick('label627', 'label626');" onmouseover="ContentPreview('label627');" onmouseout="ContentUnpreview('label627');" title="click to collapse or expand..."> more... </a>
  <div id="label627" style="display:none">
  <table border="1">
@@ -5758,19 +5782,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_warning_only_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_threshold_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_warning_only_vpnv4</span> - Enable/disable only giving warning message when limit is exceeded for VPNv4 routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_threshold6</span> - Maximum IPv6 prefix threshold value (1 - 100 percent). <span class="li-normal">type: int</span>
  <a id='label628' href="javascript:ContentClick('label629', 'label628');" onmouseover="ContentPreview('label629');" onmouseout="ContentUnpreview('label629');" title="click to collapse or expand..."> more... </a>
  <div id="label629" style="display:none">
  <table border="1">
@@ -5779,19 +5797,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_warning_only_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_threshold6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_warning_only_vpnv6</span> - Enable/disable warning message when limit is exceeded for VPNv6 routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_vpnv4</span> - Maximum number of VPNv4 prefixes to accept from this peer. <span class="li-normal">type: int</span>
  <a id='label630' href="javascript:ContentClick('label631', 'label630');" onmouseover="ContentPreview('label631');" onmouseout="ContentUnpreview('label631');" title="click to collapse or expand..."> more... </a>
  <div id="label631" style="display:none">
  <table border="1">
@@ -5800,19 +5812,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_warning_only_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>maximum_prefix_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix_warning_only6</span> - Enable/disable IPv6 Only give warning message when limit is exceeded. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_vpnv6</span> - Maximum number of VPNv6 prefixes to accept from this peer. <span class="li-normal">type: int</span>
  <a id='label632' href="javascript:ContentClick('label633', 'label632');" onmouseover="ContentPreview('label633');" onmouseout="ContentUnpreview('label633');" title="click to collapse or expand..."> more... </a>
  <div id="label633" style="display:none">
  <table border="1">
@@ -5821,19 +5827,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix_warning_only6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximum_prefix6</span> - Maximum number of IPv6 prefixes to accept from this peer. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">maximum_prefix_warning_only</span> - Enable/disable IPv4 Only give warning message when limit is exceeded. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label634' href="javascript:ContentClick('label635', 'label634');" onmouseover="ContentPreview('label635');" onmouseout="ContentUnpreview('label635');" title="click to collapse or expand..."> more... </a>
  <div id="label635" style="display:none">
  <table border="1">
@@ -5842,13 +5842,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximum_prefix6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_warning_only</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - Neighbor group name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">maximum_prefix_warning_only_evpn</span> - Enable/disable only sending warning message when exceeding limit of L2VPN EVPN routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label636' href="javascript:ContentClick('label637', 'label636');" onmouseover="ContentPreview('label637');" onmouseout="ContentUnpreview('label637');" title="click to collapse or expand..."> more... </a>
  <div id="label637" style="display:none">
  <table border="1">
@@ -5857,13 +5863,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_warning_only_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self</span> - Enable/disable IPv4 next-hop calculation for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_warning_only_vpnv4</span> - Enable/disable only giving warning message when limit is exceeded for VPNv4 routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label638' href="javascript:ContentClick('label639', 'label638');" onmouseover="ContentPreview('label639');" onmouseout="ContentUnpreview('label639');" title="click to collapse or expand..."> more... </a>
  <div id="label639" style="display:none">
  <table border="1">
@@ -5872,19 +5884,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix_warning_only_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self_rr</span> - Enable/disable setting nexthop"s address to interface"s IPv4 address for route-reflector routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_warning_only_vpnv6</span> - Enable/disable warning message when limit is exceeded for VPNv6 routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label640' href="javascript:ContentClick('label641', 'label640');" onmouseover="ContentPreview('label641');" onmouseout="ContentUnpreview('label641');" title="click to collapse or expand..."> more... </a>
  <div id="label641" style="display:none">
  <table border="1">
@@ -5893,19 +5905,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self_rr</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td>maximum_prefix_warning_only_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self_rr6</span> - Enable/disable setting nexthop"s address to interface"s IPv6 address for route-reflector routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix_warning_only6</span> - Enable/disable IPv6 Only give warning message when limit is exceeded. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label642' href="javascript:ContentClick('label643', 'label642');" onmouseover="ContentPreview('label643');" onmouseout="ContentUnpreview('label643');" title="click to collapse or expand..."> more... </a>
  <div id="label643" style="display:none">
  <table border="1">
@@ -5914,19 +5926,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self_rr6</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td>maximum_prefix_warning_only6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self_vpnv4</span> - Enable/disable setting VPNv4 next-hop to interface"s IP address for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximum_prefix6</span> - Maximum number of IPv6 prefixes to accept from this peer. <span class="li-normal">type: int</span>
  <a id='label644' href="javascript:ContentClick('label645', 'label644');" onmouseover="ContentPreview('label645');" onmouseout="ContentUnpreview('label645');" title="click to collapse or expand..."> more... </a>
  <div id="label645" style="display:none">
  <table border="1">
@@ -5935,19 +5947,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>maximum_prefix6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self_vpnv6</span> - Enable/disable use of outgoing interface"s IP address as VPNv6 next-hop for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">name</span> - Neighbor group name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label646' href="javascript:ContentClick('label647', 'label646');" onmouseover="ContentPreview('label647');" onmouseout="ContentUnpreview('label647');" title="click to collapse or expand..."> more... </a>
  <div id="label647" style="display:none">
  <table border="1">
@@ -5956,19 +5962,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">next_hop_self6</span> - Enable/disable IPv6 next-hop calculation for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">next_hop_self</span> - Enable/disable IPv4 next-hop calculation for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label648' href="javascript:ContentClick('label649', 'label648');" onmouseover="ContentPreview('label649');" onmouseout="ContentUnpreview('label649');" title="click to collapse or expand..."> more... </a>
  <div id="label649" style="display:none">
  <table border="1">
@@ -5977,19 +5977,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>next_hop_self6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>next_hop_self</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">override_capability</span> - Enable/disable override result of capability negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">next_hop_self_rr</span> - Enable/disable setting nexthop"s address to interface"s IPv4 address for route-reflector routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label650' href="javascript:ContentClick('label651', 'label650');" onmouseover="ContentPreview('label651');" onmouseout="ContentUnpreview('label651');" title="click to collapse or expand..."> more... </a>
  <div id="label651" style="display:none">
  <table border="1">
@@ -5998,19 +5998,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>override_capability</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>next_hop_self_rr</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">passive</span> - Enable/disable sending of open messages to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">next_hop_self_rr6</span> - Enable/disable setting nexthop"s address to interface"s IPv6 address for route-reflector routes. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label652' href="javascript:ContentClick('label653', 'label652');" onmouseover="ContentPreview('label653');" onmouseout="ContentUnpreview('label653');" title="click to collapse or expand..."> more... </a>
  <div id="label653" style="display:none">
  <table border="1">
@@ -6019,19 +6019,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>passive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>next_hop_self_rr6</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">password</span> - Password used in MD5 authentication. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">next_hop_self_vpnv4</span> - Enable/disable setting VPNv4 next-hop to interface"s IP address for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label654' href="javascript:ContentClick('label655', 'label654');" onmouseover="ContentPreview('label655');" onmouseout="ContentUnpreview('label655');" title="click to collapse or expand..."> more... </a>
  <div id="label655" style="display:none">
  <table border="1">
@@ -6040,13 +6040,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>password</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td>next_hop_self_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_in</span> - IPv4 Inbound filter for updates from this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">next_hop_self_vpnv6</span> - Enable/disable use of outgoing interface"s IP address as VPNv6 next-hop for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label656' href="javascript:ContentClick('label657', 'label656');" onmouseover="ContentPreview('label657');" onmouseout="ContentUnpreview('label657');" title="click to collapse or expand..."> more... </a>
  <div id="label657" style="display:none">
  <table border="1">
@@ -6055,13 +6061,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>next_hop_self_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_in_vpnv4</span> - Inbound filter for VPNv4 updates from this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">next_hop_self6</span> - Enable/disable IPv6 next-hop calculation for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label658' href="javascript:ContentClick('label659', 'label658');" onmouseover="ContentPreview('label659');" onmouseout="ContentUnpreview('label659');" title="click to collapse or expand..."> more... </a>
  <div id="label659" style="display:none">
  <table border="1">
@@ -6070,13 +6082,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>next_hop_self6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_in_vpnv6</span> - Inbound filter for VPNv6 updates from this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">override_capability</span> - Enable/disable override result of capability negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label660' href="javascript:ContentClick('label661', 'label660');" onmouseover="ContentPreview('label661');" onmouseout="ContentUnpreview('label661');" title="click to collapse or expand..."> more... </a>
  <div id="label661" style="display:none">
  <table border="1">
@@ -6085,13 +6103,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>override_capability</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_in6</span> - IPv6 Inbound filter for updates from this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">passive</span> - Enable/disable sending of open messages to this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label662' href="javascript:ContentClick('label663', 'label662');" onmouseover="ContentPreview('label663');" onmouseout="ContentUnpreview('label663');" title="click to collapse or expand..."> more... </a>
  <div id="label663" style="display:none">
  <table border="1">
@@ -6100,13 +6124,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>passive</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_out</span> - IPv4 Outbound filter for updates to this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">password</span> - Password used in MD5 authentication. <span class="li-normal">type: str</span>
  <a id='label664' href="javascript:ContentClick('label665', 'label664');" onmouseover="ContentPreview('label665');" onmouseout="ContentUnpreview('label665');" title="click to collapse or expand..."> more... </a>
  <div id="label665" style="display:none">
  <table border="1">
@@ -6115,13 +6145,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>password</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_out_vpnv4</span> - Outbound filter for VPNv4 updates to this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix_list_in</span> - IPv4 Inbound filter for updates from this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
  <a id='label666' href="javascript:ContentClick('label667', 'label666');" onmouseover="ContentPreview('label667');" onmouseout="ContentUnpreview('label667');" title="click to collapse or expand..."> more... </a>
  <div id="label667" style="display:none">
  <table border="1">
@@ -6130,13 +6160,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>prefix_list_in</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_out_vpnv6</span> - Outbound filter for VPNv6 updates to this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix_list_in_vpnv4</span> - Inbound filter for VPNv4 updates from this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
  <a id='label668' href="javascript:ContentClick('label669', 'label668');" onmouseover="ContentPreview('label669');" onmouseout="ContentUnpreview('label669');" title="click to collapse or expand..."> more... </a>
  <div id="label669" style="display:none">
  <table border="1">
@@ -6145,13 +6175,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>prefix_list_in_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_list_out6</span> - IPv6 Outbound filter for updates to this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix_list_in_vpnv6</span> - Inbound filter for VPNv6 updates from this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
  <a id='label670' href="javascript:ContentClick('label671', 'label670');" onmouseover="ContentPreview('label671');" onmouseout="ContentUnpreview('label671');" title="click to collapse or expand..."> more... </a>
  <div id="label671" style="display:none">
  <table border="1">
@@ -6160,13 +6190,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_list_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>prefix_list_in_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remote_as</span> - AS number of neighbor. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix_list_in6</span> - IPv6 Inbound filter for updates from this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
  <a id='label672' href="javascript:ContentClick('label673', 'label672');" onmouseover="ContentPreview('label673');" onmouseout="ContentUnpreview('label673');" title="click to collapse or expand..."> more... </a>
  <div id="label673" style="display:none">
  <table border="1">
@@ -6175,13 +6205,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remote_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>prefix_list_in6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remote_as_filter</span> - BGP filter for remote AS. Source router.aspath-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix_list_out</span> - IPv4 Outbound filter for updates to this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
  <a id='label674' href="javascript:ContentClick('label675', 'label674');" onmouseover="ContentPreview('label675');" onmouseout="ContentUnpreview('label675');" title="click to collapse or expand..."> more... </a>
  <div id="label675" style="display:none">
  <table border="1">
@@ -6190,13 +6220,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remote_as_filter</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td>prefix_list_out</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_private_as</span> - Enable/disable remove private AS number from IPv4 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix_list_out_vpnv4</span> - Outbound filter for VPNv4 updates to this neighbor. Source router.prefix-list.name. <span class="li-normal">type: str</span>
  <a id='label676' href="javascript:ContentClick('label677', 'label676');" onmouseover="ContentPreview('label677');" onmouseout="ContentUnpreview('label677');" title="click to collapse or expand..."> more... </a>
  <div id="label677" style="display:none">
  <table border="1">
@@ -6205,19 +6235,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remove_private_as</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>prefix_list_out_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_private_as_evpn</span> - Enable/disable removing private AS number from L2VPN EVPN outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix_list_out_vpnv6</span> - Outbound filter for VPNv6 updates to this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
  <a id='label678' href="javascript:ContentClick('label679', 'label678');" onmouseover="ContentPreview('label679');" onmouseout="ContentUnpreview('label679');" title="click to collapse or expand..."> more... </a>
  <div id="label679" style="display:none">
  <table border="1">
@@ -6226,19 +6250,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remove_private_as_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>prefix_list_out_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_private_as_vpnv4</span> - Enable/disable remove private AS number from VPNv4 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix_list_out6</span> - IPv6 Outbound filter for updates to this neighbor. Source router.prefix-list6.name. <span class="li-normal">type: str</span>
  <a id='label680' href="javascript:ContentClick('label681', 'label680');" onmouseover="ContentPreview('label681');" onmouseout="ContentUnpreview('label681');" title="click to collapse or expand..."> more... </a>
  <div id="label681" style="display:none">
  <table border="1">
@@ -6247,19 +6265,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remove_private_as_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>prefix_list_out6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_private_as_vpnv6</span> - Enable/disable to remove private AS number from VPNv6 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">remote_as</span> - AS number of neighbor. <span class="li-normal">type: str</span>
  <a id='label682' href="javascript:ContentClick('label683', 'label682');" onmouseover="ContentPreview('label683');" onmouseout="ContentUnpreview('label683');" title="click to collapse or expand..."> more... </a>
  <div id="label683" style="display:none">
  <table border="1">
@@ -6268,19 +6280,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remove_private_as_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>remote_as</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">remove_private_as6</span> - Enable/disable remove private AS number from IPv6 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">remote_as_filter</span> - BGP filter for remote AS. Source router.aspath-list.name. <span class="li-normal">type: str</span>
  <a id='label684' href="javascript:ContentClick('label685', 'label684');" onmouseover="ContentPreview('label685');" onmouseout="ContentUnpreview('label685');" title="click to collapse or expand..."> more... </a>
  <div id="label685" style="display:none">
  <table border="1">
@@ -6289,19 +6295,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remove_private_as6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>remote_as_filter</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">restart_time</span> - Graceful restart delay time (sec, 0 = global default). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">remove_private_as</span> - Enable/disable remove private AS number from IPv4 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label686' href="javascript:ContentClick('label687', 'label686');" onmouseover="ContentPreview('label687');" onmouseout="ContentUnpreview('label687');" title="click to collapse or expand..."> more... </a>
  <div id="label687" style="display:none">
  <table border="1">
@@ -6310,13 +6310,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>restart_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>remove_private_as</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">retain_stale_time</span> - Time to retain stale routes. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">remove_private_as_evpn</span> - Enable/disable removing private AS number from L2VPN EVPN outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label688' href="javascript:ContentClick('label689', 'label688');" onmouseover="ContentPreview('label689');" onmouseout="ContentUnpreview('label689');" title="click to collapse or expand..."> more... </a>
  <div id="label689" style="display:none">
  <table border="1">
@@ -6325,13 +6331,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>retain_stale_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>remove_private_as_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_in</span> - IPv4 Inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">remove_private_as_vpnv4</span> - Enable/disable remove private AS number from VPNv4 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label690' href="javascript:ContentClick('label691', 'label690');" onmouseover="ContentPreview('label691');" onmouseout="ContentUnpreview('label691');" title="click to collapse or expand..."> more... </a>
  <div id="label691" style="display:none">
  <table border="1">
@@ -6340,13 +6352,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_in</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>remove_private_as_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_in_evpn</span> - L2VPN EVPN inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">remove_private_as_vpnv6</span> - Enable/disable to remove private AS number from VPNv6 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label692' href="javascript:ContentClick('label693', 'label692');" onmouseover="ContentPreview('label693');" onmouseout="ContentUnpreview('label693');" title="click to collapse or expand..."> more... </a>
  <div id="label693" style="display:none">
  <table border="1">
@@ -6355,13 +6373,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_in_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>remove_private_as_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_in_vpnv4</span> - VPNv4 inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">remove_private_as6</span> - Enable/disable remove private AS number from IPv6 outbound updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label694' href="javascript:ContentClick('label695', 'label694');" onmouseover="ContentPreview('label695');" onmouseout="ContentUnpreview('label695');" title="click to collapse or expand..."> more... </a>
  <div id="label695" style="display:none">
  <table border="1">
@@ -6370,13 +6394,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_in_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>remove_private_as6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_in_vpnv6</span> - VPNv6 inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">restart_time</span> - Graceful restart delay time (sec, 0 = global default). <span class="li-normal">type: int</span>
  <a id='label696' href="javascript:ContentClick('label697', 'label696');" onmouseover="ContentPreview('label697');" onmouseout="ContentUnpreview('label697');" title="click to collapse or expand..."> more... </a>
  <div id="label697" style="display:none">
  <table border="1">
@@ -6385,13 +6415,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_in_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>restart_time</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_in6</span> - IPv6 Inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">retain_stale_time</span> - Time to retain stale routes. <span class="li-normal">type: int</span>
  <a id='label698' href="javascript:ContentClick('label699', 'label698');" onmouseover="ContentPreview('label699');" onmouseout="ContentUnpreview('label699');" title="click to collapse or expand..."> more... </a>
  <div id="label699" style="display:none">
  <table border="1">
@@ -6400,13 +6430,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_in6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>retain_stale_time</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out</span> - IPv4 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_in</span> - IPv4 Inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label700' href="javascript:ContentClick('label701', 'label700');" onmouseover="ContentPreview('label701');" onmouseout="ContentUnpreview('label701');" title="click to collapse or expand..."> more... </a>
  <div id="label701" style="display:none">
  <table border="1">
@@ -6415,13 +6445,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_map_in</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_evpn</span> - L2VPN EVPN outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_in_evpn</span> - L2VPN EVPN inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label702' href="javascript:ContentClick('label703', 'label702');" onmouseover="ContentPreview('label703');" onmouseout="ContentUnpreview('label703');" title="click to collapse or expand..."> more... </a>
  <div id="label703" style="display:none">
  <table border="1">
@@ -6430,13 +6460,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>route_map_in_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_preferable</span> - IPv4 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_in_vpnv4</span> - VPNv4 inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label704' href="javascript:ContentClick('label705', 'label704');" onmouseover="ContentPreview('label705');" onmouseout="ContentUnpreview('label705');" title="click to collapse or expand..."> more... </a>
  <div id="label705" style="display:none">
  <table border="1">
@@ -6445,13 +6475,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_preferable</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>route_map_in_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_vpnv4</span> - VPNv4 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_in_vpnv6</span> - VPNv6 inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label706' href="javascript:ContentClick('label707', 'label706');" onmouseover="ContentPreview('label707');" onmouseout="ContentUnpreview('label707');" title="click to collapse or expand..."> more... </a>
  <div id="label707" style="display:none">
  <table border="1">
@@ -6460,13 +6490,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>route_map_in_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_vpnv4_preferable</span> - VPNv4 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_in6</span> - IPv6 Inbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label708' href="javascript:ContentClick('label709', 'label708');" onmouseover="ContentPreview('label709');" onmouseout="ContentUnpreview('label709');" title="click to collapse or expand..."> more... </a>
  <div id="label709" style="display:none">
  <table border="1">
@@ -6475,13 +6505,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_vpnv4_preferable</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>route_map_in6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_vpnv6</span> - VPNv6 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_out</span> - IPv4 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label710' href="javascript:ContentClick('label711', 'label710');" onmouseover="ContentPreview('label711');" onmouseout="ContentUnpreview('label711');" title="click to collapse or expand..."> more... </a>
  <div id="label711" style="display:none">
  <table border="1">
@@ -6490,13 +6520,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>route_map_out</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out_vpnv6_preferable</span> - VPNv6 outbound route map filter if this neighbor is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_out_evpn</span> - L2VPN EVPN outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label712' href="javascript:ContentClick('label713', 'label712');" onmouseover="ContentPreview('label713');" onmouseout="ContentUnpreview('label713');" title="click to collapse or expand..."> more... </a>
  <div id="label713" style="display:none">
  <table border="1">
@@ -6505,13 +6535,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out_vpnv6_preferable</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>route_map_out_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out6</span> - IPv6 Outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_out_preferable</span> - IPv4 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label714' href="javascript:ContentClick('label715', 'label714');" onmouseover="ContentPreview('label715');" onmouseout="ContentUnpreview('label715');" title="click to collapse or expand..."> more... </a>
  <div id="label715" style="display:none">
  <table border="1">
@@ -6520,13 +6550,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_map_out_preferable</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map_out6_preferable</span> - IPv6 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route_map_out_vpnv4</span> - VPNv4 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label716' href="javascript:ContentClick('label717', 'label716');" onmouseover="ContentPreview('label717');" onmouseout="ContentUnpreview('label717');" title="click to collapse or expand..."> more... </a>
  <div id="label717" style="display:none">
  <table border="1">
@@ -6535,13 +6565,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map_out6_preferable</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td>route_map_out_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_reflector_client</span> - Enable/disable IPv4 AS route reflector client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_map_out_vpnv4_preferable</span> - VPNv4 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label718' href="javascript:ContentClick('label719', 'label718');" onmouseover="ContentPreview('label719');" onmouseout="ContentUnpreview('label719');" title="click to collapse or expand..."> more... </a>
  <div id="label719" style="display:none">
  <table border="1">
@@ -6550,19 +6580,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_reflector_client</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_map_out_vpnv4_preferable</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_reflector_client_evpn</span> - Enable/disable L2VPN EVPN AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_map_out_vpnv6</span> - VPNv6 outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label720' href="javascript:ContentClick('label721', 'label720');" onmouseover="ContentPreview('label721');" onmouseout="ContentUnpreview('label721');" title="click to collapse or expand..."> more... </a>
  <div id="label721" style="display:none">
  <table border="1">
@@ -6571,19 +6595,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_reflector_client_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>route_map_out_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_reflector_client_vpnv4</span> - Enable/disable VPNv4 AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_map_out_vpnv6_preferable</span> - VPNv6 outbound route map filter if this neighbor is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label722' href="javascript:ContentClick('label723', 'label722');" onmouseover="ContentPreview('label723');" onmouseout="ContentUnpreview('label723');" title="click to collapse or expand..."> more... </a>
  <div id="label723" style="display:none">
  <table border="1">
@@ -6592,19 +6610,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_reflector_client_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>route_map_out_vpnv6_preferable</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_reflector_client_vpnv6</span> - Enable/disable VPNv6 AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_map_out6</span> - IPv6 Outbound route map filter. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label724' href="javascript:ContentClick('label725', 'label724');" onmouseover="ContentPreview('label725');" onmouseout="ContentUnpreview('label725');" title="click to collapse or expand..."> more... </a>
  <div id="label725" style="display:none">
  <table border="1">
@@ -6613,19 +6625,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_reflector_client_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>route_map_out6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_reflector_client6</span> - Enable/disable IPv6 AS route reflector client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_map_out6_preferable</span> - IPv6 outbound route map filter if the peer is preferred. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label726' href="javascript:ContentClick('label727', 'label726');" onmouseover="ContentPreview('label727');" onmouseout="ContentUnpreview('label727');" title="click to collapse or expand..."> more... </a>
  <div id="label727" style="display:none">
  <table border="1">
@@ -6634,19 +6640,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_reflector_client6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_map_out6_preferable</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_server_client</span> - Enable/disable IPv4 AS route server client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_reflector_client</span> - Enable/disable IPv4 AS route reflector client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label728' href="javascript:ContentClick('label729', 'label728');" onmouseover="ContentPreview('label729');" onmouseout="ContentUnpreview('label729');" title="click to collapse or expand..."> more... </a>
  <div id="label729" style="display:none">
  <table border="1">
@@ -6655,19 +6655,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_server_client</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_reflector_client</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_server_client_evpn</span> - Enable/disable L2VPN EVPN AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_reflector_client_evpn</span> - Enable/disable L2VPN EVPN AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label730' href="javascript:ContentClick('label731', 'label730');" onmouseover="ContentPreview('label731');" onmouseout="ContentUnpreview('label731');" title="click to collapse or expand..."> more... </a>
  <div id="label731" style="display:none">
  <table border="1">
@@ -6676,19 +6676,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_server_client_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>route_reflector_client_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_server_client_vpnv4</span> - Enable/disable VPNv4 AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_reflector_client_vpnv4</span> - Enable/disable VPNv4 AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label732' href="javascript:ContentClick('label733', 'label732');" onmouseover="ContentPreview('label733');" onmouseout="ContentUnpreview('label733');" title="click to collapse or expand..."> more... </a>
  <div id="label733" style="display:none">
  <table border="1">
@@ -6697,19 +6697,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_server_client_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>route_reflector_client_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_server_client_vpnv6</span> - Enable/disable VPNv6 AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_reflector_client_vpnv6</span> - Enable/disable VPNv6 AS route reflector client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label734' href="javascript:ContentClick('label735', 'label734');" onmouseover="ContentPreview('label735');" onmouseout="ContentUnpreview('label735');" title="click to collapse or expand..."> more... </a>
  <div id="label735" style="display:none">
  <table border="1">
@@ -6718,19 +6718,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_server_client_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>route_reflector_client_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_server_client6</span> - Enable/disable IPv6 AS route server client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">route_reflector_client6</span> - Enable/disable IPv6 AS route reflector client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label736' href="javascript:ContentClick('label737', 'label736');" onmouseover="ContentPreview('label737');" onmouseout="ContentUnpreview('label737');" title="click to collapse or expand..."> more... </a>
  <div id="label737" style="display:none">
  <table border="1">
@@ -6739,19 +6739,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_server_client6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_reflector_client6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community</span> - IPv4 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">route_server_client</span> - Enable/disable IPv4 AS route server client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label738' href="javascript:ContentClick('label739', 'label738');" onmouseover="ContentPreview('label739');" onmouseout="ContentUnpreview('label739');" title="click to collapse or expand..."> more... </a>
  <div id="label739" style="display:none">
  <table border="1">
@@ -6760,25 +6760,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_server_client</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_evpn</span> - Enable/disable sending community attribute to neighbor for L2VPN EVPN address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">route_server_client_evpn</span> - Enable/disable L2VPN EVPN AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label740' href="javascript:ContentClick('label741', 'label740');" onmouseover="ContentPreview('label741');" onmouseout="ContentUnpreview('label741');" title="click to collapse or expand..."> more... </a>
  <div id="label741" style="display:none">
  <table border="1">
@@ -6787,25 +6781,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>route_server_client_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_vpnv4</span> - Send community attribute to neighbor for VPNv4 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">route_server_client_vpnv4</span> - Enable/disable VPNv4 AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label742' href="javascript:ContentClick('label743', 'label742');" onmouseover="ContentPreview('label743');" onmouseout="ContentUnpreview('label743');" title="click to collapse or expand..."> more... </a>
  <div id="label743" style="display:none">
  <table border="1">
@@ -6814,25 +6802,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>route_server_client_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community_vpnv6</span> - Enable/disable sending community attribute to this neighbor for VPNv6 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">route_server_client_vpnv6</span> - Enable/disable VPNv6 AS route server client for this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label744' href="javascript:ContentClick('label745', 'label744');" onmouseover="ContentPreview('label745');" onmouseout="ContentUnpreview('label745');" title="click to collapse or expand..."> more... </a>
  <div id="label745" style="display:none">
  <table border="1">
@@ -6841,25 +6823,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>route_server_client_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">send_community6</span> - IPv6 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
+            <li> <span class="li-head">route_server_client6</span> - Enable/disable IPv6 AS route server client. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label746' href="javascript:ContentClick('label747', 'label746');" onmouseover="ContentPreview('label747');" onmouseout="ContentUnpreview('label747');" title="click to collapse or expand..."> more... </a>
  <div id="label747" style="display:none">
  <table border="1">
@@ -6868,25 +6844,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>send_community6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>route_server_client6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[standard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[extended]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">shutdown</span> - Enable/disable shutdown this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change</span> - Enable/disable allowing change of route attributes when advertising to IPv4 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label748' href="javascript:ContentClick('label749', 'label748');" onmouseover="ContentPreview('label749');" onmouseout="ContentUnpreview('label749');" title="click to collapse or expand..."> more... </a>
  <div id="label749" style="display:none">
  <table border="1">
@@ -6895,19 +6865,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>shutdown</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration</span> - Enable/disable allow IPv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_evpn</span> - Enable/disable allowing change of route attributes when advertising to L2VPN EVPN route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label750' href="javascript:ContentClick('label751', 'label750');" onmouseover="ContentPreview('label751');" onmouseout="ContentUnpreview('label751');" title="click to collapse or expand..."> more... </a>
  <div id="label751" style="display:none">
  <table border="1">
@@ -6916,19 +6886,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_evpn</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_evpn</span> - Enable/disable L2VPN EVPN inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_vpnv4</span> - Enable/disable allowing change of route attributes when advertising to VPNv4 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label752' href="javascript:ContentClick('label753', 'label752');" onmouseover="ContentPreview('label753');" onmouseout="ContentUnpreview('label753');" title="click to collapse or expand..."> more... </a>
  <div id="label753" style="display:none">
  <table border="1">
@@ -6937,19 +6907,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_evpn</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_vpnv4</span> - Enable/disable allow VPNv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change_vpnv6</span> - Enable/disable allowing change of route attributes when advertising to VPNv6 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label754' href="javascript:ContentClick('label755', 'label754');" onmouseover="ContentPreview('label755');" onmouseout="ContentUnpreview('label755');" title="click to collapse or expand..."> more... </a>
  <div id="label755" style="display:none">
  <table border="1">
@@ -6958,19 +6928,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_vpnv4</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration_vpnv6</span> - Enable/disable VPNv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">rr_attr_allow_change6</span> - Enable/disable allowing change of route attributes when advertising to IPv6 route reflector clients. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label756' href="javascript:ContentClick('label757', 'label756');" onmouseover="ContentPreview('label757');" onmouseout="ContentUnpreview('label757');" title="click to collapse or expand..."> more... </a>
  <div id="label757" style="display:none">
  <table border="1">
@@ -6979,19 +6949,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration_vpnv6</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>rr_attr_allow_change6</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">soft_reconfiguration6</span> - Enable/disable allow IPv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community</span> - IPv4 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label758' href="javascript:ContentClick('label759', 'label758');" onmouseover="ContentPreview('label759');" onmouseout="ContentUnpreview('label759');" title="click to collapse or expand..."> more... </a>
  <div id="label759" style="display:none">
  <table border="1">
@@ -7000,19 +6970,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>soft_reconfiguration6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">stale_route</span> - Enable/disable stale route after neighbor down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community_evpn</span> - Enable/disable sending community attribute to neighbor for L2VPN EVPN address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label760' href="javascript:ContentClick('label761', 'label760');" onmouseover="ContentPreview('label761');" onmouseout="ContentUnpreview('label761');" title="click to collapse or expand..."> more... </a>
  <div id="label761" style="display:none">
  <table border="1">
@@ -7021,19 +6997,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>stale_route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">strict_capability_match</span> - Enable/disable strict capability matching. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">send_community_vpnv4</span> - Send community attribute to neighbor for VPNv4 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label762' href="javascript:ContentClick('label763', 'label762');" onmouseover="ContentPreview('label763');" onmouseout="ContentUnpreview('label763');" title="click to collapse or expand..."> more... </a>
  <div id="label763" style="display:none">
  <table border="1">
@@ -7042,19 +7024,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>strict_capability_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">unsuppress_map</span> - IPv4 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">send_community_vpnv6</span> - Enable/disable sending community attribute to this neighbor for VPNv6 address family. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label764' href="javascript:ContentClick('label765', 'label764');" onmouseover="ContentPreview('label765');" onmouseout="ContentUnpreview('label765');" title="click to collapse or expand..."> more... </a>
  <div id="label765" style="display:none">
  <table border="1">
@@ -7063,13 +7051,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>unsuppress_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">unsuppress_map6</span> - IPv6 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">send_community6</span> - IPv6 Send community attribute to neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, extended, both, disable</span>
  <a id='label766' href="javascript:ContentClick('label767', 'label766');" onmouseover="ContentPreview('label767');" onmouseout="ContentUnpreview('label767');" title="click to collapse or expand..."> more... </a>
  <div id="label767" style="display:none">
  <table border="1">
@@ -7078,13 +7078,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>unsuppress_map6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>send_community6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[extended]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[both]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">update_source</span> - Interface to use as source IP/IPv6 address of TCP connections. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">shutdown</span> - Enable/disable shutdown this neighbor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label768' href="javascript:ContentClick('label769', 'label768');" onmouseover="ContentPreview('label769');" onmouseout="ContentUnpreview('label769');" title="click to collapse or expand..."> more... </a>
  <div id="label769" style="display:none">
  <table border="1">
@@ -7093,13 +7105,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>shutdown</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">weight</span> - Neighbor weight. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">soft_reconfiguration</span> - Enable/disable allow IPv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label770' href="javascript:ContentClick('label771', 'label770');" onmouseover="ContentPreview('label771');" onmouseout="ContentUnpreview('label771');" title="click to collapse or expand..."> more... </a>
  <div id="label771" style="display:none">
  <table border="1">
@@ -7108,29 +7126,40 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>weight</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">neighbor_range</span> - BGP neighbor range table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_range:id</span>
+            <li> <span class="li-head">soft_reconfiguration_evpn</span> - Enable/disable L2VPN EVPN inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label772' href="javascript:ContentClick('label773', 'label772');" onmouseover="ContentPreview('label773');" onmouseout="ContentUnpreview('label773');" title="click to collapse or expand..."> more... </a>
  <div id="label773" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>neighbor_range</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_evpn</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Neighbor range ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">soft_reconfiguration_vpnv4</span> - Enable/disable allow VPNv4 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label774' href="javascript:ContentClick('label775', 'label774');" onmouseover="ContentPreview('label775');" onmouseout="ContentUnpreview('label775');" title="click to collapse or expand..."> more... </a>
  <div id="label775" style="display:none">
  <table border="1">
@@ -7139,13 +7168,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_vpnv4</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">max_neighbor_num</span> - Maximum number of neighbors. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">soft_reconfiguration_vpnv6</span> - Enable/disable VPNv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label776' href="javascript:ContentClick('label777', 'label776');" onmouseover="ContentPreview('label777');" onmouseout="ContentUnpreview('label777');" title="click to collapse or expand..."> more... </a>
  <div id="label777" style="display:none">
  <table border="1">
@@ -7154,13 +7189,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>max_neighbor_num</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration_vpnv6</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">neighbor_group</span> - Neighbor group name. Source router.bgp.neighbor-group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">soft_reconfiguration6</span> - Enable/disable allow IPv6 inbound soft reconfiguration. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label778' href="javascript:ContentClick('label779', 'label778');" onmouseover="ContentPreview('label779');" onmouseout="ContentUnpreview('label779');" title="click to collapse or expand..."> more... </a>
  <div id="label779" style="display:none">
  <table border="1">
@@ -7169,13 +7210,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>neighbor_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>soft_reconfiguration6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix</span> - Neighbor range prefix. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">stale_route</span> - Enable/disable stale route after neighbor down. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label780' href="javascript:ContentClick('label781', 'label780');" onmouseover="ContentPreview('label781');" onmouseout="ContentUnpreview('label781');" title="click to collapse or expand..."> more... </a>
  <div id="label781" style="display:none">
  <table border="1">
@@ -7184,29 +7231,40 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>stale_route</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">neighbor_range6</span> - BGP IPv6 neighbor range table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_range6:id</span>
+            <li> <span class="li-head">strict_capability_match</span> - Enable/disable strict capability matching. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label782' href="javascript:ContentClick('label783', 'label782');" onmouseover="ContentPreview('label783');" onmouseout="ContentUnpreview('label783');" title="click to collapse or expand..."> more... </a>
  <div id="label783" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>neighbor_range6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>strict_capability_match</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">id</span> - IPv6 neighbor range ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">unsuppress_map</span> - IPv4 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label784' href="javascript:ContentClick('label785', 'label784');" onmouseover="ContentPreview('label785');" onmouseout="ContentUnpreview('label785');" title="click to collapse or expand..."> more... </a>
  <div id="label785" style="display:none">
  <table border="1">
@@ -7215,13 +7273,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>unsuppress_map</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">max_neighbor_num</span> - Maximum number of neighbors. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">unsuppress_map6</span> - IPv6 Route map to selectively unsuppress suppressed routes. Source router.route-map.name. <span class="li-normal">type: str</span>
  <a id='label786' href="javascript:ContentClick('label787', 'label786');" onmouseover="ContentPreview('label787');" onmouseout="ContentUnpreview('label787');" title="click to collapse or expand..."> more... </a>
  <div id="label787" style="display:none">
  <table border="1">
@@ -7230,13 +7288,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>max_neighbor_num</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>unsuppress_map6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">neighbor_group</span> - Neighbor group name. Source router.bgp.neighbor-group.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">update_source</span> - Interface to use as source IP/IPv6 address of TCP connections. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label788' href="javascript:ContentClick('label789', 'label788');" onmouseover="ContentPreview('label789');" onmouseout="ContentUnpreview('label789');" title="click to collapse or expand..."> more... </a>
  <div id="label789" style="display:none">
  <table border="1">
@@ -7245,13 +7303,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>neighbor_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>update_source</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix6</span> - IPv6 prefix. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">weight</span> - Neighbor weight. <span class="li-normal">type: int</span>
  <a id='label790' href="javascript:ContentClick('label791', 'label790');" onmouseover="ContentPreview('label791');" onmouseout="ContentUnpreview('label791');" title="click to collapse or expand..."> more... </a>
  <div id="label791" style="display:none">
  <table border="1">
@@ -7260,14 +7318,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>weight</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">network</span> - BGP network table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: network:id</span>
+        <li> <span class="li-head">neighbor_range</span> - BGP neighbor range table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_range:id</span>
  <a id='label792' href="javascript:ContentClick('label793', 'label792');" onmouseover="ContentPreview('label793');" onmouseout="ContentUnpreview('label793');" title="click to collapse or expand..."> more... </a>
  <div id="label793" style="display:none">
  <table border="1">
@@ -7275,14 +7333,14 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>network</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>neighbor_range</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">backdoor</span> - Enable/disable route as backdoor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">id</span> - Neighbor range ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label794' href="javascript:ContentClick('label795', 'label794');" onmouseover="ContentPreview('label795');" onmouseout="ContentUnpreview('label795');" title="click to collapse or expand..."> more... </a>
  <div id="label795" style="display:none">
  <table border="1">
@@ -7291,19 +7349,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>backdoor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">max_neighbor_num</span> - Maximum number of neighbors. <span class="li-normal">type: int</span>
  <a id='label796' href="javascript:ContentClick('label797', 'label796');" onmouseover="ContentPreview('label797');" onmouseout="ContentUnpreview('label797');" title="click to collapse or expand..."> more... </a>
  <div id="label797" style="display:none">
  <table border="1">
@@ -7312,13 +7364,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>max_neighbor_num</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">network_import_check</span> - Configure insurance of BGP network route existence in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, enable, disable</span>
+            <li> <span class="li-head">neighbor_group</span> - Neighbor group name. Source router.bgp.neighbor-group.name. <span class="li-normal">type: str</span>
  <a id='label798' href="javascript:ContentClick('label799', 'label798');" onmouseover="ContentPreview('label799');" onmouseout="ContentUnpreview('label799');" title="click to collapse or expand..."> more... </a>
  <div id="label799" style="display:none">
  <table border="1">
@@ -7327,22 +7379,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>network_import_check</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td>neighbor_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[global]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix</span> - Network prefix. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">prefix</span> - Neighbor range prefix. <span class="li-normal">type: str</span>
  <a id='label800' href="javascript:ContentClick('label801', 'label800');" onmouseover="ContentPreview('label801');" onmouseout="ContentUnpreview('label801');" title="click to collapse or expand..."> more... </a>
  <div id="label801" style="display:none">
  <table border="1">
@@ -7352,27 +7395,28 @@ Parameters
  </tr>
  <tr>
  <td>prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix_name</span> - Name of firewall address or address group. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">neighbor_range6</span> - BGP IPv6 neighbor range table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: neighbor_range6:id</span>
  <a id='label802' href="javascript:ContentClick('label803', 'label802');" onmouseover="ContentPreview('label803');" onmouseout="ContentUnpreview('label803');" title="click to collapse or expand..."> more... </a>
  <div id="label803" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix_name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>neighbor_range6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map</span> - Route map to modify generated route. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">id</span> - IPv6 neighbor range ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label804' href="javascript:ContentClick('label805', 'label804');" onmouseover="ContentPreview('label805');" onmouseout="ContentUnpreview('label805');" title="click to collapse or expand..."> more... </a>
  <div id="label805" style="display:none">
  <table border="1">
@@ -7381,14 +7425,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">network_import_check</span> - Enable/disable ensure BGP network route exists in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">max_neighbor_num</span> - Maximum number of neighbors. <span class="li-normal">type: int</span>
  <a id='label806' href="javascript:ContentClick('label807', 'label806');" onmouseover="ContentPreview('label807');" onmouseout="ContentUnpreview('label807');" title="click to collapse or expand..."> more... </a>
  <div id="label807" style="display:none">
  <table border="1">
@@ -7397,34 +7440,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>network_import_check</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>max_neighbor_num</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">network6</span> - BGP IPv6 network table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: network6:id</span>
+            <li> <span class="li-head">neighbor_group</span> - Neighbor group name. Source router.bgp.neighbor-group.name. <span class="li-normal">type: str</span>
  <a id='label808' href="javascript:ContentClick('label809', 'label808');" onmouseover="ContentPreview('label809');" onmouseout="ContentUnpreview('label809');" title="click to collapse or expand..."> more... </a>
  <div id="label809" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>network6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>neighbor_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">backdoor</span> - Enable/disable route as backdoor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix6</span> - IPv6 prefix. <span class="li-normal">type: str</span>
  <a id='label810' href="javascript:ContentClick('label811', 'label810');" onmouseover="ContentPreview('label811');" onmouseout="ContentUnpreview('label811');" title="click to collapse or expand..."> more... </a>
  <div id="label811" style="display:none">
  <table border="1">
@@ -7433,34 +7470,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>backdoor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>prefix6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            </ul>
+        <li> <span class="li-head">network</span> - BGP network table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: network:id</span>
  <a id='label812' href="javascript:ContentClick('label813', 'label812');" onmouseover="ContentPreview('label813');" onmouseout="ContentUnpreview('label813');" title="click to collapse or expand..."> more... </a>
  <div id="label813" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>network</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">network_import_check</span> - Configure insurance of BGP network route existence in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, enable, disable</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">backdoor</span> - Enable/disable route as backdoor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label814' href="javascript:ContentClick('label815', 'label814');" onmouseover="ContentPreview('label815');" onmouseout="ContentUnpreview('label815');" title="click to collapse or expand..."> more... </a>
  <div id="label815" style="display:none">
  <table border="1">
@@ -7469,22 +7501,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>network_import_check</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td>backdoor</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[global]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix6</span> - Network IPv6 prefix. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label816' href="javascript:ContentClick('label817', 'label816');" onmouseover="ContentPreview('label817');" onmouseout="ContentUnpreview('label817');" title="click to collapse or expand..."> more... </a>
  <div id="label817" style="display:none">
  <table border="1">
@@ -7493,13 +7522,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route_map</span> - Route map to modify generated route. Source router.route-map.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">network_import_check</span> - Configure insurance of BGP network route existence in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, enable, disable</span>
  <a id='label818' href="javascript:ContentClick('label819', 'label818');" onmouseover="ContentPreview('label819');" onmouseout="ContentUnpreview('label819');" title="click to collapse or expand..."> more... </a>
  <div id="label819" style="display:none">
  <table border="1">
@@ -7508,14 +7537,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>network_import_check</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[global]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">recursive_inherit_priority</span> - Enable/disable priority inheritance for recursive resolution. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix</span> - Network prefix. <span class="li-normal">type: str</span>
  <a id='label820' href="javascript:ContentClick('label821', 'label820');" onmouseover="ContentPreview('label821');" onmouseout="ContentUnpreview('label821');" title="click to collapse or expand..."> more... </a>
  <div id="label821" style="display:none">
  <table border="1">
@@ -7524,19 +7561,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>recursive_inherit_priority</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
+ <td>prefix</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">recursive_next_hop</span> - Enable/disable recursive resolution of next-hop using BGP route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">prefix_name</span> - Name of firewall address or address group. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span>
  <a id='label822' href="javascript:ContentClick('label823', 'label822');" onmouseover="ContentPreview('label823');" onmouseout="ContentUnpreview('label823');" title="click to collapse or expand..."> more... </a>
  <div id="label823" style="display:none">
  <table border="1">
@@ -7545,21 +7576,200 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>recursive_next_hop</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td>prefix_name</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">route_map</span> - Route map to modify generated route. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label824' href="javascript:ContentClick('label825', 'label824');" onmouseover="ContentPreview('label825');" onmouseout="ContentUnpreview('label825');" title="click to collapse or expand..."> more... </a>
+ <div id="label825" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_map</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">network_import_check</span> - Enable/disable ensure BGP network route exists in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label826' href="javascript:ContentClick('label827', 'label826');" onmouseover="ContentPreview('label827');" onmouseout="ContentUnpreview('label827');" title="click to collapse or expand..."> more... </a>
+ <div id="label827" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>network_import_check</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">network6</span> - BGP IPv6 network table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: network6:id</span>
+ <a id='label828' href="javascript:ContentClick('label829', 'label828');" onmouseover="ContentPreview('label829');" onmouseout="ContentUnpreview('label829');" title="click to collapse or expand..."> more... </a>
+ <div id="label829" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>network6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">backdoor</span> - Enable/disable route as backdoor. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label830' href="javascript:ContentClick('label831', 'label830');" onmouseover="ContentPreview('label831');" onmouseout="ContentUnpreview('label831');" title="click to collapse or expand..."> more... </a>
+ <div id="label831" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>backdoor</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+ <a id='label832' href="javascript:ContentClick('label833', 'label832');" onmouseover="ContentPreview('label833');" onmouseout="ContentUnpreview('label833');" title="click to collapse or expand..."> more... </a>
+ <div id="label833" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">network_import_check</span> - Configure insurance of BGP network route existence in IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: global, enable, disable</span>
+ <a id='label834' href="javascript:ContentClick('label835', 'label834');" onmouseover="ContentPreview('label835');" onmouseout="ContentUnpreview('label835');" title="click to collapse or expand..."> more... </a>
+ <div id="label835" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>network_import_check</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[global]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">prefix6</span> - Network IPv6 prefix. <span class="li-normal">type: str</span>
+ <a id='label836' href="javascript:ContentClick('label837', 'label836');" onmouseover="ContentPreview('label837');" onmouseout="ContentUnpreview('label837');" title="click to collapse or expand..."> more... </a>
+ <div id="label837" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>prefix6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">route_map</span> - Route map to modify generated route. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label838' href="javascript:ContentClick('label839', 'label838');" onmouseover="ContentPreview('label839');" onmouseout="ContentUnpreview('label839');" title="click to collapse or expand..."> more... </a>
+ <div id="label839" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_map</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">recursive_inherit_priority</span> - Enable/disable priority inheritance for recursive resolution. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label840' href="javascript:ContentClick('label841', 'label840');" onmouseover="ContentPreview('label841');" onmouseout="ContentUnpreview('label841');" title="click to collapse or expand..."> more... </a>
+ <div id="label841" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>recursive_inherit_priority</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">recursive_next_hop</span> - Enable/disable recursive resolution of next-hop using BGP route. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label842' href="javascript:ContentClick('label843', 'label842');" onmouseover="ContentPreview('label843');" onmouseout="ContentUnpreview('label843');" title="click to collapse or expand..."> more... </a>
+ <div id="label843" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>recursive_next_hop</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">redistribute</span> - BGP IPv4 redistribute table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: redistribute:name</span>
- <a id='label824' href="javascript:ContentClick('label825', 'label824');" onmouseover="ContentPreview('label825');" onmouseout="ContentUnpreview('label825');" title="click to collapse or expand..."> more... </a>
- <div id="label825" style="display:none">
+ <a id='label844' href="javascript:ContentClick('label845', 'label844');" onmouseover="ContentPreview('label845');" onmouseout="ContentUnpreview('label845');" title="click to collapse or expand..."> more... </a>
+ <div id="label845" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="2">Supported Version Ranges</td>
@@ -7574,8 +7784,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Distribute list entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label826' href="javascript:ContentClick('label827', 'label826');" onmouseover="ContentPreview('label827');" onmouseout="ContentUnpreview('label827');" title="click to collapse or expand..."> more... </a>
- <div id="label827" style="display:none">
+ <a id='label846' href="javascript:ContentClick('label847', 'label846');" onmouseover="ContentPreview('label847');" onmouseout="ContentUnpreview('label847');" title="click to collapse or expand..."> more... </a>
+ <div id="label847" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7590,8 +7800,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">route_map</span> - Route map name. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label828' href="javascript:ContentClick('label829', 'label828');" onmouseover="ContentPreview('label829');" onmouseout="ContentUnpreview('label829');" title="click to collapse or expand..."> more... </a>
- <div id="label829" style="display:none">
+ <a id='label848' href="javascript:ContentClick('label849', 'label848');" onmouseover="ContentPreview('label849');" onmouseout="ContentUnpreview('label849');" title="click to collapse or expand..."> more... </a>
+ <div id="label849" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7606,8 +7816,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">status</span> - Status. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label830' href="javascript:ContentClick('label831', 'label830');" onmouseover="ContentPreview('label831');" onmouseout="ContentUnpreview('label831');" title="click to collapse or expand..."> more... </a>
- <div id="label831" style="display:none">
+ <a id='label850' href="javascript:ContentClick('label851', 'label850');" onmouseover="ContentPreview('label851');" onmouseout="ContentUnpreview('label851');" title="click to collapse or expand..."> more... </a>
+ <div id="label851" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7629,8 +7839,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">redistribute6</span> - BGP IPv6 redistribute table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: redistribute6:name</span>
- <a id='label832' href="javascript:ContentClick('label833', 'label832');" onmouseover="ContentPreview('label833');" onmouseout="ContentUnpreview('label833');" title="click to collapse or expand..."> more... </a>
- <div id="label833" style="display:none">
+ <a id='label852' href="javascript:ContentClick('label853', 'label852');" onmouseover="ContentPreview('label853');" onmouseout="ContentUnpreview('label853');" title="click to collapse or expand..."> more... </a>
+ <div id="label853" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="2">Supported Version Ranges</td>
@@ -7645,8 +7855,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Distribute list entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label834' href="javascript:ContentClick('label835', 'label834');" onmouseover="ContentPreview('label835');" onmouseout="ContentUnpreview('label835');" title="click to collapse or expand..."> more... </a>
- <div id="label835" style="display:none">
+ <a id='label854' href="javascript:ContentClick('label855', 'label854');" onmouseover="ContentPreview('label855');" onmouseout="ContentUnpreview('label855');" title="click to collapse or expand..."> more... </a>
+ <div id="label855" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7661,8 +7871,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">route_map</span> - Route map name. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label836' href="javascript:ContentClick('label837', 'label836');" onmouseover="ContentPreview('label837');" onmouseout="ContentUnpreview('label837');" title="click to collapse or expand..."> more... </a>
- <div id="label837" style="display:none">
+ <a id='label856' href="javascript:ContentClick('label857', 'label856');" onmouseover="ContentPreview('label857');" onmouseout="ContentUnpreview('label857');" title="click to collapse or expand..."> more... </a>
+ <div id="label857" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7677,8 +7887,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">status</span> - Status. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label838' href="javascript:ContentClick('label839', 'label838');" onmouseover="ContentPreview('label839');" onmouseout="ContentUnpreview('label839');" title="click to collapse or expand..."> more... </a>
- <div id="label839" style="display:none">
+ <a id='label858' href="javascript:ContentClick('label859', 'label858');" onmouseover="ContentPreview('label859');" onmouseout="ContentUnpreview('label859');" title="click to collapse or expand..."> more... </a>
+ <div id="label859" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7700,8 +7910,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">router_id</span> - Router ID. <span class="li-normal">type: str</span>
- <a id='label840' href="javascript:ContentClick('label841', 'label840');" onmouseover="ContentPreview('label841');" onmouseout="ContentUnpreview('label841');" title="click to collapse or expand..."> more... </a>
- <div id="label841" style="display:none">
+ <a id='label860' href="javascript:ContentClick('label861', 'label860');" onmouseover="ContentPreview('label861');" onmouseout="ContentUnpreview('label861');" title="click to collapse or expand..."> more... </a>
+ <div id="label861" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -7709,183 +7919,12 @@ Parameters
  </tr>
  <tr>
  <td>router_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">scan_time</span> - Background scanner interval (sec), 0 to disable it. <span class="li-normal">type: int</span>
- <a id='label842' href="javascript:ContentClick('label843', 'label842');" onmouseover="ContentPreview('label843');" onmouseout="ContentUnpreview('label843');" title="click to collapse or expand..."> more... </a>
- <div id="label843" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>scan_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">synchronization</span> - Enable/disable only advertise routes from iBGP if routes present in an IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label844' href="javascript:ContentClick('label845', 'label844');" onmouseover="ContentPreview('label845');" onmouseout="ContentUnpreview('label845');" title="click to collapse or expand..."> more... </a>
- <div id="label845" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>synchronization</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">tag_resolve_mode</span> - Configure tag-match mode. Resolves BGP routes with other routes containing the same tag. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, preferred, merge, merge-all</span>
- <a id='label846' href="javascript:ContentClick('label847', 'label846');" onmouseover="ContentPreview('label847');" onmouseout="ContentUnpreview('label847');" title="click to collapse or expand..."> more... </a>
- <div id="label847" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>tag_resolve_mode</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
- <td>[preferred]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
- <td>[merge]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- <tr>
- <td>[merge-all]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">vrf</span> - BGP VRF leaking table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf</span>
- <a id='label848' href="javascript:ContentClick('label849', 'label848');" onmouseover="ContentPreview('label849');" onmouseout="ContentUnpreview('label849');" title="click to collapse or expand..."> more... </a>
- <div id="label849" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">export_rt</span> - List of export route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/export_rt:route_target</span>
- <a id='label850' href="javascript:ContentClick('label851', 'label850');" onmouseover="ContentPreview('label851');" onmouseout="ContentUnpreview('label851');" title="click to collapse or expand..."> more... </a>
- <div id="label851" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>export_rt</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label852' href="javascript:ContentClick('label853', 'label852');" onmouseover="ContentPreview('label853');" onmouseout="ContentUnpreview('label853');" title="click to collapse or expand..."> more... </a>
- <div id="label853" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route_target</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">import_route_map</span> - Import route map. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label854' href="javascript:ContentClick('label855', 'label854');" onmouseover="ContentPreview('label855');" onmouseout="ContentUnpreview('label855');" title="click to collapse or expand..."> more... </a>
- <div id="label855" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>import_route_map</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">import_rt</span> - List of import route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/import_rt:route_target</span>
- <a id='label856' href="javascript:ContentClick('label857', 'label856');" onmouseover="ContentPreview('label857');" onmouseout="ContentUnpreview('label857');" title="click to collapse or expand..."> more... </a>
- <div id="label857" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>import_rt</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label858' href="javascript:ContentClick('label859', 'label858');" onmouseover="ContentPreview('label859');" onmouseout="ContentUnpreview('label859');" title="click to collapse or expand..."> more... </a>
- <div id="label859" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route_target</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">leak_target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/leak_target:vrf</span>
- <a id='label860' href="javascript:ContentClick('label861', 'label860');" onmouseover="ContentPreview('label861');" onmouseout="ContentUnpreview('label861');" title="click to collapse or expand..."> more... </a>
- <div id="label861" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>leak_target</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label862' href="javascript:ContentClick('label863', 'label862');" onmouseover="ContentPreview('label863');" onmouseout="ContentUnpreview('label863');" title="click to collapse or expand..."> more... </a>
  <div id="label863" style="display:none">
  <table border="1">
@@ -7894,13 +7933,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>scan_time</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">synchronization</span> - Enable/disable only advertise routes from iBGP if routes present in an IGP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label864' href="javascript:ContentClick('label865', 'label864');" onmouseover="ContentPreview('label865');" onmouseout="ContentUnpreview('label865');" title="click to collapse or expand..."> more... </a>
  <div id="label865" style="display:none">
  <table border="1">
@@ -7909,13 +7948,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_map</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>synchronization</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">vrf</span> - Target VRF ID (0 - 251). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">tag_resolve_mode</span> - Configure tag-match mode. Resolves BGP routes with other routes containing the same tag. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, preferred, merge, merge-all</span>
  <a id='label866' href="javascript:ContentClick('label867', 'label866');" onmouseover="ContentPreview('label867');" onmouseout="ContentUnpreview('label867');" title="click to collapse or expand..."> more... </a>
  <div id="label867" style="display:none">
  <table border="1">
@@ -7924,53 +7969,56 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>tag_resolve_mode</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[preferred]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[merge]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <tr>
+ <td>[merge-all]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">rd</span> - Route Distinguisher: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">vrf</span> - BGP VRF leaking table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf</span>
  <a id='label868' href="javascript:ContentClick('label869', 'label868');" onmouseover="ContentPreview('label869');" onmouseout="ContentUnpreview('label869');" title="click to collapse or expand..."> more... </a>
  <div id="label869" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>rd</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>vrf</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">role</span> - VRF role. <span class="li-normal">type: str</span> <span class="li-normal">choices: standalone, ce, pe</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">export_rt</span> - List of export route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/export_rt:route_target</span>
  <a id='label870' href="javascript:ContentClick('label871', 'label870');" onmouseover="ContentPreview('label871');" onmouseout="ContentUnpreview('label871');" title="click to collapse or expand..."> more... </a>
  <div id="label871" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>role</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>export_rt</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[standalone]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[ce]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[pe]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">vrf</span> - Origin VRF ID (0 - 251). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label872' href="javascript:ContentClick('label873', 'label872');" onmouseover="ContentPreview('label873');" onmouseout="ContentUnpreview('label873');" title="click to collapse or expand..."> more... </a>
  <div id="label873" style="display:none">
  <table border="1">
@@ -7979,16 +8027,178 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>route_target</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">import_route_map</span> - Import route map. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label874' href="javascript:ContentClick('label875', 'label874');" onmouseover="ContentPreview('label875');" onmouseout="ContentUnpreview('label875');" title="click to collapse or expand..."> more... </a>
+ <div id="label875" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>import_route_map</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">import_rt</span> - List of import route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/import_rt:route_target</span>
+ <a id='label876' href="javascript:ContentClick('label877', 'label876');" onmouseover="ContentPreview('label877');" onmouseout="ContentUnpreview('label877');" title="click to collapse or expand..."> more... </a>
+ <div id="label877" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>import_rt</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label878' href="javascript:ContentClick('label879', 'label878');" onmouseover="ContentPreview('label879');" onmouseout="ContentUnpreview('label879');" title="click to collapse or expand..."> more... </a>
+ <div id="label879" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_target</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">leak_target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf:vrf/leak_target:vrf</span>
+ <a id='label880' href="javascript:ContentClick('label881', 'label880');" onmouseover="ContentPreview('label881');" onmouseout="ContentUnpreview('label881');" title="click to collapse or expand..."> more... </a>
+ <div id="label881" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>leak_target</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label882' href="javascript:ContentClick('label883', 'label882');" onmouseover="ContentPreview('label883');" onmouseout="ContentUnpreview('label883');" title="click to collapse or expand..."> more... </a>
+ <div id="label883" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label884' href="javascript:ContentClick('label885', 'label884');" onmouseover="ContentPreview('label885');" onmouseout="ContentUnpreview('label885');" title="click to collapse or expand..."> more... </a>
+ <div id="label885" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_map</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">vrf</span> - Target VRF ID <0-511>. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label886' href="javascript:ContentClick('label887', 'label886');" onmouseover="ContentPreview('label887');" onmouseout="ContentUnpreview('label887');" title="click to collapse or expand..."> more... </a>
+ <div id="label887" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">rd</span> - Route Distinguisher: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
+ <a id='label888' href="javascript:ContentClick('label889', 'label888');" onmouseover="ContentPreview('label889');" onmouseout="ContentUnpreview('label889');" title="click to collapse or expand..."> more... </a>
+ <div id="label889" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rd</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">role</span> - VRF role. <span class="li-normal">type: str</span> <span class="li-normal">choices: standalone, ce, pe</span>
+ <a id='label890' href="javascript:ContentClick('label891', 'label890');" onmouseover="ContentPreview('label891');" onmouseout="ContentUnpreview('label891');" title="click to collapse or expand..."> more... </a>
+ <div id="label891" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>role</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[standalone]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[ce]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[pe]</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">vrf</span> - Origin VRF ID <0-511>. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label892' href="javascript:ContentClick('label893', 'label892');" onmouseover="ContentPreview('label893');" onmouseout="ContentUnpreview('label893');" title="click to collapse or expand..."> more... </a>
+ <div id="label893" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vrf</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">vrf_leak</span> - BGP VRF leaking table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf_leak:vrf</span>
- <a id='label874' href="javascript:ContentClick('label875', 'label874');" onmouseover="ContentPreview('label875');" onmouseout="ContentUnpreview('label875');" title="click to collapse or expand..."> more... </a>
- <div id="label875" style="display:none">
+ <a id='label894' href="javascript:ContentClick('label895', 'label894');" onmouseover="ContentPreview('label895');" onmouseout="ContentUnpreview('label895');" title="click to collapse or expand..."> more... </a>
+ <div id="label895" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -8002,8 +8212,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf_leak:vrf/target:vrf</span>
- <a id='label876' href="javascript:ContentClick('label877', 'label876');" onmouseover="ContentPreview('label877');" onmouseout="ContentUnpreview('label877');" title="click to collapse or expand..."> more... </a>
- <div id="label877" style="display:none">
+ <a id='label896' href="javascript:ContentClick('label897', 'label896');" onmouseover="ContentPreview('label897');" onmouseout="ContentUnpreview('label897');" title="click to collapse or expand..."> more... </a>
+ <div id="label897" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -8017,8 +8227,8 @@ Parameters
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label878' href="javascript:ContentClick('label879', 'label878');" onmouseover="ContentPreview('label879');" onmouseout="ContentUnpreview('label879');" title="click to collapse or expand..."> more... </a>
- <div id="label879" style="display:none">
+ <a id='label898' href="javascript:ContentClick('label899', 'label898');" onmouseover="ContentPreview('label899');" onmouseout="ContentUnpreview('label899');" title="click to collapse or expand..."> more... </a>
+ <div id="label899" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8032,8 +8242,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label880' href="javascript:ContentClick('label881', 'label880');" onmouseover="ContentPreview('label881');" onmouseout="ContentUnpreview('label881');" title="click to collapse or expand..."> more... </a>
- <div id="label881" style="display:none">
+ <a id='label900' href="javascript:ContentClick('label901', 'label900');" onmouseover="ContentPreview('label901');" onmouseout="ContentUnpreview('label901');" title="click to collapse or expand..."> more... </a>
+ <div id="label901" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8047,8 +8257,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">vrf</span> - Target VRF ID (0 - 31). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label882' href="javascript:ContentClick('label883', 'label882');" onmouseover="ContentPreview('label883');" onmouseout="ContentUnpreview('label883');" title="click to collapse or expand..."> more... </a>
- <div id="label883" style="display:none">
+ <a id='label902' href="javascript:ContentClick('label903', 'label902');" onmouseover="ContentPreview('label903');" onmouseout="ContentUnpreview('label903');" title="click to collapse or expand..."> more... </a>
+ <div id="label903" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8063,8 +8273,8 @@ Parameters
  </li>
                 </ul>
             <li> <span class="li-head">vrf</span> - Origin VRF ID (0 - 31). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label884' href="javascript:ContentClick('label885', 'label884');" onmouseover="ContentPreview('label885');" onmouseout="ContentUnpreview('label885');" title="click to collapse or expand..."> more... </a>
- <div id="label885" style="display:none">
+ <a id='label904' href="javascript:ContentClick('label905', 'label904');" onmouseover="ContentPreview('label905');" onmouseout="ContentUnpreview('label905');" title="click to collapse or expand..."> more... </a>
+ <div id="label905" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8079,8 +8289,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">vrf_leak6</span> - BGP IPv6 VRF leaking table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf_leak6:vrf</span>
- <a id='label886' href="javascript:ContentClick('label887', 'label886');" onmouseover="ContentPreview('label887');" onmouseout="ContentUnpreview('label887');" title="click to collapse or expand..."> more... </a>
- <div id="label887" style="display:none">
+ <a id='label906' href="javascript:ContentClick('label907', 'label906');" onmouseover="ContentPreview('label907');" onmouseout="ContentUnpreview('label907');" title="click to collapse or expand..."> more... </a>
+ <div id="label907" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -8094,8 +8304,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf_leak6:vrf/target:vrf</span>
- <a id='label888' href="javascript:ContentClick('label889', 'label888');" onmouseover="ContentPreview('label889');" onmouseout="ContentUnpreview('label889');" title="click to collapse or expand..."> more... </a>
- <div id="label889" style="display:none">
+ <a id='label908' href="javascript:ContentClick('label909', 'label908');" onmouseover="ContentPreview('label909');" onmouseout="ContentUnpreview('label909');" title="click to collapse or expand..."> more... </a>
+ <div id="label909" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -8109,8 +8319,8 @@ Parameters
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label890' href="javascript:ContentClick('label891', 'label890');" onmouseover="ContentPreview('label891');" onmouseout="ContentUnpreview('label891');" title="click to collapse or expand..."> more... </a>
- <div id="label891" style="display:none">
+ <a id='label910' href="javascript:ContentClick('label911', 'label910');" onmouseover="ContentPreview('label911');" onmouseout="ContentUnpreview('label911');" title="click to collapse or expand..."> more... </a>
+ <div id="label911" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8124,8 +8334,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label892' href="javascript:ContentClick('label893', 'label892');" onmouseover="ContentPreview('label893');" onmouseout="ContentUnpreview('label893');" title="click to collapse or expand..."> more... </a>
- <div id="label893" style="display:none">
+ <a id='label912' href="javascript:ContentClick('label913', 'label912');" onmouseover="ContentPreview('label913');" onmouseout="ContentUnpreview('label913');" title="click to collapse or expand..."> more... </a>
+ <div id="label913" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8139,8 +8349,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">vrf</span> - Target VRF ID (0 - 31). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label894' href="javascript:ContentClick('label895', 'label894');" onmouseover="ContentPreview('label895');" onmouseout="ContentUnpreview('label895');" title="click to collapse or expand..."> more... </a>
- <div id="label895" style="display:none">
+ <a id='label914' href="javascript:ContentClick('label915', 'label914');" onmouseover="ContentPreview('label915');" onmouseout="ContentUnpreview('label915');" title="click to collapse or expand..."> more... </a>
+ <div id="label915" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8155,8 +8365,8 @@ Parameters
  </li>
                 </ul>
             <li> <span class="li-head">vrf</span> - Origin VRF ID (0 - 31). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label896' href="javascript:ContentClick('label897', 'label896');" onmouseover="ContentPreview('label897');" onmouseout="ContentUnpreview('label897');" title="click to collapse or expand..."> more... </a>
- <div id="label897" style="display:none">
+ <a id='label916' href="javascript:ContentClick('label917', 'label916');" onmouseover="ContentPreview('label917');" onmouseout="ContentUnpreview('label917');" title="click to collapse or expand..."> more... </a>
+ <div id="label917" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -8171,198 +8381,36 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">vrf6</span> - BGP IPv6 VRF leaking table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf</span>
- <a id='label898' href="javascript:ContentClick('label899', 'label898');" onmouseover="ContentPreview('label899');" onmouseout="ContentUnpreview('label899');" title="click to collapse or expand..."> more... </a>
- <div id="label899" style="display:none">
+ <a id='label918' href="javascript:ContentClick('label919', 'label918');" onmouseover="ContentPreview('label919');" onmouseout="ContentUnpreview('label919');" title="click to collapse or expand..."> more... </a>
+ <div id="label919" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>vrf6</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">export_rt</span> - List of export route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf/export_rt:route_target</span>
- <a id='label900' href="javascript:ContentClick('label901', 'label900');" onmouseover="ContentPreview('label901');" onmouseout="ContentUnpreview('label901');" title="click to collapse or expand..."> more... </a>
- <div id="label901" style="display:none">
+ <a id='label920' href="javascript:ContentClick('label921', 'label920');" onmouseover="ContentPreview('label921');" onmouseout="ContentUnpreview('label921');" title="click to collapse or expand..."> more... </a>
+ <div id="label921" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>export_rt</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label902' href="javascript:ContentClick('label903', 'label902');" onmouseover="ContentPreview('label903');" onmouseout="ContentUnpreview('label903');" title="click to collapse or expand..."> more... </a>
- <div id="label903" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route_target</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">import_route_map</span> - Import route map. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label904' href="javascript:ContentClick('label905', 'label904');" onmouseover="ContentPreview('label905');" onmouseout="ContentUnpreview('label905');" title="click to collapse or expand..."> more... </a>
- <div id="label905" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>import_route_map</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">import_rt</span> - List of import route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf/import_rt:route_target</span>
- <a id='label906' href="javascript:ContentClick('label907', 'label906');" onmouseover="ContentPreview('label907');" onmouseout="ContentUnpreview('label907');" title="click to collapse or expand..."> more... </a>
- <div id="label907" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>import_rt</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label908' href="javascript:ContentClick('label909', 'label908');" onmouseover="ContentPreview('label909');" onmouseout="ContentUnpreview('label909');" title="click to collapse or expand..."> more... </a>
- <div id="label909" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route_target</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">leak_target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf/leak_target:vrf</span>
- <a id='label910' href="javascript:ContentClick('label911', 'label910');" onmouseover="ContentPreview('label911');" onmouseout="ContentUnpreview('label911');" title="click to collapse or expand..."> more... </a>
- <div id="label911" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>leak_target</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label912' href="javascript:ContentClick('label913', 'label912');" onmouseover="ContentPreview('label913');" onmouseout="ContentUnpreview('label913');" title="click to collapse or expand..."> more... </a>
- <div id="label913" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
- <a id='label914' href="javascript:ContentClick('label915', 'label914');" onmouseover="ContentPreview('label915');" onmouseout="ContentUnpreview('label915');" title="click to collapse or expand..."> more... </a>
- <div id="label915" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route_map</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <li> <span class="li-head">vrf</span> - Target VRF ID (0 - 251). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label916' href="javascript:ContentClick('label917', 'label916');" onmouseover="ContentPreview('label917');" onmouseout="ContentUnpreview('label917');" title="click to collapse or expand..."> more... </a>
- <div id="label917" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">rd</span> - Route Distinguisher: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
- <a id='label918' href="javascript:ContentClick('label919', 'label918');" onmouseover="ContentPreview('label919');" onmouseout="ContentUnpreview('label919');" title="click to collapse or expand..."> more... </a>
- <div id="label919" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>rd</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">role</span> - VRF role. <span class="li-normal">type: str</span> <span class="li-normal">choices: standalone, ce, pe</span>
- <a id='label920' href="javascript:ContentClick('label921', 'label920');" onmouseover="ContentPreview('label921');" onmouseout="ContentUnpreview('label921');" title="click to collapse or expand..."> more... </a>
- <div id="label921" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>role</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[standalone]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[ce]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- <tr>
- <td>[pe]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">vrf</span> - Origin VRF ID (0 - 251). <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label922' href="javascript:ContentClick('label923', 'label922');" onmouseover="ContentPreview('label923');" onmouseout="ContentUnpreview('label923');" title="click to collapse or expand..."> more... </a>
  <div id="label923" style="display:none">
  <table border="1">
@@ -8371,8 +8419,170 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>route_target</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">import_route_map</span> - Import route map. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label924' href="javascript:ContentClick('label925', 'label924');" onmouseover="ContentPreview('label925');" onmouseout="ContentUnpreview('label925');" title="click to collapse or expand..."> more... </a>
+ <div id="label925" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>import_route_map</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">import_rt</span> - List of import route target. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf/import_rt:route_target</span>
+ <a id='label926' href="javascript:ContentClick('label927', 'label926');" onmouseover="ContentPreview('label927');" onmouseout="ContentUnpreview('label927');" title="click to collapse or expand..."> more... </a>
+ <div id="label927" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>import_rt</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">route_target</span> - Attribute: AA:NN|A.B.C.D:NN <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label928' href="javascript:ContentClick('label929', 'label928');" onmouseover="ContentPreview('label929');" onmouseout="ContentUnpreview('label929');" title="click to collapse or expand..."> more... </a>
+ <div id="label929" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_target</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">leak_target</span> - Target VRF table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vrf6:vrf/leak_target:vrf</span>
+ <a id='label930' href="javascript:ContentClick('label931', 'label930');" onmouseover="ContentPreview('label931');" onmouseout="ContentUnpreview('label931');" title="click to collapse or expand..."> more... </a>
+ <div id="label931" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>leak_target</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">interface</span> - Interface which is used to leak routes to target VRF. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label932' href="javascript:ContentClick('label933', 'label932');" onmouseover="ContentPreview('label933');" onmouseout="ContentUnpreview('label933');" title="click to collapse or expand..."> more... </a>
+ <div id="label933" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">route_map</span> - Route map of VRF leaking. Source router.route-map.name. <span class="li-normal">type: str</span>
+ <a id='label934' href="javascript:ContentClick('label935', 'label934');" onmouseover="ContentPreview('label935');" onmouseout="ContentUnpreview('label935');" title="click to collapse or expand..."> more... </a>
+ <div id="label935" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route_map</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">vrf</span> - Target VRF ID <0-511>. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label936' href="javascript:ContentClick('label937', 'label936');" onmouseover="ContentPreview('label937');" onmouseout="ContentUnpreview('label937');" title="click to collapse or expand..."> more... </a>
+ <div id="label937" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">rd</span> - Route Distinguisher: AA:NN|A.B.C.D:NN. <span class="li-normal">type: str</span>
+ <a id='label938' href="javascript:ContentClick('label939', 'label938');" onmouseover="ContentPreview('label939');" onmouseout="ContentUnpreview('label939');" title="click to collapse or expand..."> more... </a>
+ <div id="label939" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rd</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">role</span> - VRF role. <span class="li-normal">type: str</span> <span class="li-normal">choices: standalone, ce, pe</span>
+ <a id='label940' href="javascript:ContentClick('label941', 'label940');" onmouseover="ContentPreview('label941');" onmouseout="ContentUnpreview('label941');" title="click to collapse or expand..."> more... </a>
+ <div id="label941" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>role</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[standalone]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[ce]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <tr>
+ <td>[pe]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">vrf</span> - Origin VRF ID <0-511>. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label942' href="javascript:ContentClick('label943', 'label942');" onmouseover="ContentPreview('label943');" onmouseout="ContentUnpreview('label943');" title="click to collapse or expand..."> more... </a>
+ <div id="label943" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vrf</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -8622,6 +8832,11 @@ Examples
                       route_server_client_vpnv4: "enable"
                       route_server_client_vpnv6: "enable"
                       route_server_client6: "enable"
+                      rr_attr_allow_change: "enable"
+                      rr_attr_allow_change_evpn: "enable"
+                      rr_attr_allow_change_vpnv4: "enable"
+                      rr_attr_allow_change_vpnv6: "enable"
+                      rr_attr_allow_change6: "enable"
                       send_community: "standard"
                       send_community_evpn: "standard"
                       send_community_vpnv4: "standard"
@@ -8729,7 +8944,7 @@ Examples
                       maximum_prefix_warning_only_vpnv6: "enable"
                       maximum_prefix_warning_only6: "enable"
                       maximum_prefix6: "0"
-                      name: "default_name_320"
+                      name: "default_name_325"
                       next_hop_self: "enable"
                       next_hop_self_rr: "enable"
                       next_hop_self_rr6: "enable"
@@ -8780,6 +8995,11 @@ Examples
                       route_server_client_vpnv4: "enable"
                       route_server_client_vpnv6: "enable"
                       route_server_client6: "enable"
+                      rr_attr_allow_change: "enable"
+                      rr_attr_allow_change_evpn: "enable"
+                      rr_attr_allow_change_vpnv4: "enable"
+                      rr_attr_allow_change_vpnv6: "enable"
+                      rr_attr_allow_change6: "enable"
                       send_community: "standard"
                       send_community_evpn: "standard"
                       send_community_vpnv4: "standard"
@@ -8799,20 +9019,20 @@ Examples
                       weight: "4294967295"
               neighbor_range:
                   -
-                      id: "389"
+                      id: "399"
                       max_neighbor_num: "0"
                       neighbor_group: "<your_own_value> (source router.bgp.neighbor-group.name)"
                       prefix: "<your_own_value>"
               neighbor_range6:
                   -
-                      id: "394"
+                      id: "404"
                       max_neighbor_num: "0"
                       neighbor_group: "<your_own_value> (source router.bgp.neighbor-group.name)"
                       prefix6: "<your_own_value>"
               network:
                   -
                       backdoor: "enable"
-                      id: "400"
+                      id: "410"
                       network_import_check: "global"
                       prefix: "<your_own_value>"
                       prefix_name: "<your_own_value> (source firewall.address.name firewall.addrgrp.name)"
@@ -8821,7 +9041,7 @@ Examples
               network6:
                   -
                       backdoor: "enable"
-                      id: "408"
+                      id: "418"
                       network_import_check: "global"
                       prefix6: "<your_own_value>"
                       route_map: "<your_own_value> (source router.route-map.name)"
@@ -8829,12 +9049,12 @@ Examples
               recursive_next_hop: "enable"
               redistribute:
                   -
-                      name: "default_name_415"
+                      name: "default_name_425"
                       route_map: "<your_own_value> (source router.route-map.name)"
                       status: "enable"
               redistribute6:
                   -
-                      name: "default_name_419"
+                      name: "default_name_429"
                       route_map: "<your_own_value> (source router.route-map.name)"
                       status: "enable"
               router_id: "<your_own_value>"

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_timers</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>ap_reboot_wait_interval1</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>ap_reboot_wait_interval2</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +103,7 @@ Parameters
  </tr>
  <tr>
  <td>ap_reboot_wait_time</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_timeout</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -133,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>ble_device_cleanup</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>ble_scan_report_intv</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -163,7 +163,7 @@ Parameters
  </tr>
  <tr>
  <td>client_idle_rehome_timeout</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -178,7 +178,7 @@ Parameters
  </tr>
  <tr>
  <td>client_idle_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -275,7 +275,7 @@ Parameters
  </tr>
  <tr>
  <td>discovery_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -290,7 +290,7 @@ Parameters
  </tr>
  <tr>
  <td>drma_interval</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -305,7 +305,7 @@ Parameters
  </tr>
  <tr>
  <td>echo_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -320,7 +320,7 @@ Parameters
  </tr>
  <tr>
  <td>fake_ap_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -335,7 +335,7 @@ Parameters
  </tr>
  <tr>
  <td>ipsec_intf_cleanup</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -350,7 +350,7 @@ Parameters
  </tr>
  <tr>
  <td>nat_session_keep_alive</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -365,7 +365,7 @@ Parameters
  </tr>
  <tr>
  <td>radio_stats_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -380,7 +380,7 @@ Parameters
  </tr>
  <tr>
  <td>rogue_ap_cleanup</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -395,7 +395,7 @@ Parameters
  </tr>
  <tr>
  <td>rogue_ap_log</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -410,7 +410,7 @@ Parameters
  </tr>
  <tr>
  <td>rogue_sta_cleanup</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -425,7 +425,7 @@ Parameters
  </tr>
  <tr>
  <td>sta_cap_cleanup</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -440,7 +440,7 @@ Parameters
  </tr>
  <tr>
  <td>sta_capability_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -455,7 +455,7 @@ Parameters
  </tr>
  <tr>
  <td>sta_locate_timer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -470,7 +470,7 @@ Parameters
  </tr>
  <tr>
  <td>sta_stats_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -485,7 +485,22 @@ Parameters
  </tr>
  <tr>
  <td>vap_stats_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">wids_entry_cleanup</span> - Time period in minutes to keep wids entry after it is gone . <span class="li-normal">type: int</span>
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>wids_entry_cleanup</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -542,6 +557,7 @@ Examples
               sta_locate_timer: "1800"
               sta_stats_interval: "10"
               vap_stats_interval: "15"
+              wids_entry_cleanup: "0"
 
 
 Return Values

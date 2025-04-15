@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_multicast_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>associated_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>end_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +149,7 @@ Parameters
  </tr>
  <tr>
  <td>start_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -164,7 +164,7 @@ Parameters
  </tr>
  <tr>
  <td>subnet</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -178,7 +178,7 @@ Parameters
  </tr>
  <tr>
  <td>tagging</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +194,7 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -209,7 +209,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -223,7 +223,7 @@ Parameters
  </tr>
  <tr>
  <td>tags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -239,7 +239,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -256,14 +256,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[multicastrange]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[broadcastmask]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>

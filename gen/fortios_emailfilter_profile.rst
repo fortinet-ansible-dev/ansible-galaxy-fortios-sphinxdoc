@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.0
+Supported Version Ranges: v6.2.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>emailfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>external</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -110,14 +110,14 @@ Parameters
  </tr>
  <tr>
  <td>feature_set</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[flow]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -352,7 +352,7 @@ Parameters
  </tr>
  <tr>
  <td>gmail</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -391,7 +391,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -412,7 +412,7 @@ Parameters
  </tr>
  <tr>
  <td>imap</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -428,14 +428,14 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[tag]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -472,7 +472,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -493,7 +493,7 @@ Parameters
  </tr>
  <tr>
  <td>tag_msg</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -508,17 +508,17 @@ Parameters
  </tr>
  <tr>
  <td>tag_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[subject]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spaminfo]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -532,7 +532,7 @@ Parameters
  </tr>
  <tr>
  <td>mapi</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -548,14 +548,14 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[discard]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -592,7 +592,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -613,7 +613,7 @@ Parameters
  </tr>
  <tr>
  <td>msn_hotmail</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -652,7 +652,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -674,7 +674,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -689,42 +689,42 @@ Parameters
  </tr>
  <tr>
  <td>options</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[bannedword]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spambal]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[spamfsip]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamfssubmit]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamfschksum]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamfsurl]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamhelodns]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamraddrdns]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamrbl]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamhdrcheck]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spamfsphish]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spambwl]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.4.4</code></td>
@@ -742,7 +742,7 @@ Parameters
  <tr>
  <td>other_webmails</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -759,7 +759,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -780,7 +780,7 @@ Parameters
  </tr>
  <tr>
  <td>pop3</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -796,14 +796,14 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[tag]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -840,7 +840,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -861,7 +861,7 @@ Parameters
  </tr>
  <tr>
  <td>tag_msg</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -876,17 +876,17 @@ Parameters
  </tr>
  <tr>
  <td>tag_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[subject]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spaminfo]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -901,7 +901,7 @@ Parameters
  </tr>
  <tr>
  <td>replacemsg_group</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -915,7 +915,7 @@ Parameters
  </tr>
  <tr>
  <td>smtp</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -931,17 +931,17 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[tag]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[discard]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -955,14 +955,14 @@ Parameters
  </tr>
  <tr>
  <td>hdrip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -976,14 +976,14 @@ Parameters
  </tr>
  <tr>
  <td>local_override</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1020,7 +1020,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1041,7 +1041,7 @@ Parameters
  </tr>
  <tr>
  <td>tag_msg</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1056,17 +1056,17 @@ Parameters
  </tr>
  <tr>
  <td>tag_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[subject]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[header]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[spaminfo]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1081,7 +1081,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_bal_table</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1111,7 +1111,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_bword_table</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1126,7 +1126,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_bword_threshold</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1141,14 +1141,14 @@ Parameters
  </tr>
  <tr>
  <td>spam_filtering</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1162,7 +1162,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_iptrust_table</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1177,14 +1177,14 @@ Parameters
  </tr>
  <tr>
  <td>spam_log</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1198,14 +1198,14 @@ Parameters
  </tr>
  <tr>
  <td>spam_log_fortiguard_response</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -1219,7 +1219,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_mheader_table</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1234,7 +1234,7 @@ Parameters
  </tr>
  <tr>
  <td>spam_rbl_table</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1248,7 +1248,7 @@ Parameters
  </tr>
  <tr>
  <td>yahoo_mail</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1287,7 +1287,7 @@ Parameters
  <tr>
  <td>log_all</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>system_snmp_community</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">events</span> - SNMP trap events. <span class="li-normal">type: list</span> <span class="li-normal">choices: cpu-high, mem-low, log-full, intf-ip, vpn-tun-up, vpn-tun-down, ha-switch, ha-hb-failure, ips-signature, ips-anomaly, av-virus, av-oversize, av-pattern, av-fragmented, fm-if-change, fm-conf-change, bgp-established, bgp-backward-transition, ha-member-up, ha-member-down, ent-conf-change, av-conserve, av-bypass, av-oversize-passed, av-oversize-blocked, ips-pkg-update, ips-fail-open, faz-disconnect, faz, wc-ap-up, wc-ap-down, fswctl-session-up, fswctl-session-down, load-balance-real-server-down, device-new, per-cpu-high, dhcp, pool-usage, ippool, interface, ospf-nbr-state-change, ospf-virtnbr-state-change, temperature-high, voltage-alert, power-supply, fan-failure, power-supply-failure</span>
+        <li> <span class="li-head">events</span> - SNMP trap events. <span class="li-normal">type: list</span> <span class="li-normal">choices: cpu-high, mem-low, log-full, intf-ip, vpn-tun-up, vpn-tun-down, ha-switch, ha-hb-failure, ips-signature, ips-anomaly, av-virus, av-oversize, av-pattern, av-fragmented, fm-if-change, fm-conf-change, bgp-established, bgp-backward-transition, ha-member-up, ha-member-down, ent-conf-change, av-conserve, av-bypass, av-oversize-passed, av-oversize-blocked, ips-pkg-update, ips-fail-open, temperature-high, voltage-alert, power-supply, faz-disconnect, faz, fan-failure, wc-ap-up, wc-ap-down, fswctl-session-up, fswctl-session-down, load-balance-real-server-down, device-new, per-cpu-high, dhcp, pool-usage, ippool, interface, ospf-nbr-state-change, ospf-virtnbr-state-change, power-supply-failure</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -74,155 +74,155 @@ Parameters
  </tr>
  <tr>
  <td>events</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[cpu-high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[mem-low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[log-full]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[intf-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[vpn-tun-up]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[vpn-tun-down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ha-switch]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ha-hb-failure]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ips-signature]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ips-anomaly]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-virus]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-oversize]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-pattern]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-fragmented]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[fm-if-change]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[fm-conf-change]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[bgp-established]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[bgp-backward-transition]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ha-member-up]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ha-member-down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ent-conf-change]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-conserve]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-bypass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-oversize-passed]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[av-oversize-blocked]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ips-pkg-update]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[ips-fail-open]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[faz-disconnect]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[temperature-high]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[faz]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
+ <td>[voltage-alert]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[power-supply]</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </tr>
  <tr>
+ <td>[faz-disconnect]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[faz]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[fan-failure]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
  <td>[wc-ap-up]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[wc-ap-down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[fswctl-session-up]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[fswctl-session-down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[load-balance-real-server-down]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[device-new]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[per-cpu-high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[dhcp]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[pool-usage]</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[ippool]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[interface]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[ospf-nbr-state-change]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[ospf-virtnbr-state-change]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </tr>
- <tr>
- <td>[temperature-high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[voltage-alert]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[power-supply]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[fan-failure]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  <tr>
  <td>[power-supply-failure]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1</code></td>
@@ -239,7 +239,7 @@ Parameters
  </tr>
  <tr>
  <td>hosts</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -255,14 +255,14 @@ Parameters
  </tr>
  <tr>
  <td>ha_direct</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -276,17 +276,17 @@ Parameters
  </tr>
  <tr>
  <td>host_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[query]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[trap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -300,7 +300,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -315,7 +315,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -330,17 +330,17 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -354,7 +354,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -369,49 +369,43 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">hosts6</span> - Configure IPv6 SNMP managers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: hosts6:id</span>
+            <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>hosts6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">ha_direct</span> - Enable/disable direct management of HA cluster members. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ha_direct</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>vrf_select</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">host_type</span> - Control whether the SNMP manager sends SNMP queries, receives SNMP traps, or both. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, query, trap</span>
+            </ul>
+        <li> <span class="li-head">hosts6</span> - Configure IPv6 SNMP managers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: hosts6:id</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>hosts6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">ha_direct</span> - Enable/disable direct management of HA cluster members. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -420,22 +414,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>host_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>ha_direct</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
- <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
- <td>[query]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[trap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Host6 entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">host_type</span> - Control whether the SNMP manager sends SNMP queries, receives SNMP traps, or both. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, query, trap</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -444,13 +435,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>host_type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[any]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[query]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[trap]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">id</span> - Host6 entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -459,13 +459,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+            <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -474,22 +474,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
- <tr>
- <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
- <tr>
- <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ipv6</span> - SNMP manager IPv6 address prefix. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -498,13 +489,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ipv6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>interface_select_method</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[sdwan]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[specify]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">source_ipv6</span> - Source IPv6 address for SNMP traps. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ipv6</span> - SNMP manager IPv6 address prefix. <span class="li-normal">type: str</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -513,14 +513,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ipv6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>ipv6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">id</span> - Community ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">source_ipv6</span> - Source IPv6 address for SNMP traps. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -529,13 +528,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>source_ipv6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">mib_view</span> - SNMP access control MIB view. Source system.snmp.mib-view.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -544,13 +543,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mib_view</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>vrf_select</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Community name. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">id</span> - Community ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -559,13 +559,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">query_v1_port</span> - SNMP v1 query port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">mib_view</span> - SNMP access control MIB view. Source system.snmp.mib-view.name. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -574,13 +574,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>query_v1_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>mib_view</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">query_v1_status</span> - Enable/disable SNMP v1 queries. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">name</span> - Community name. <span class="li-normal">type: str</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -589,19 +589,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>query_v1_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">query_v2c_port</span> - SNMP v2c query port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">query_v1_port</span> - SNMP v1 query port . <span class="li-normal">type: int</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -610,13 +604,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>query_v2c_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>query_v1_port</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">query_v2c_status</span> - Enable/disable SNMP v2c queries. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">query_v1_status</span> - Enable/disable SNMP v1 queries. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -625,19 +619,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>query_v2c_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>query_v1_status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable this SNMP community. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">query_v2c_port</span> - SNMP v2c query port . <span class="li-normal">type: int</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -646,19 +640,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>query_v2c_port</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v1_lport</span> - SNMP v1 trap local port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">query_v2c_status</span> - Enable/disable SNMP v2c queries. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -667,13 +655,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v1_lport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>query_v2c_status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v1_rport</span> - SNMP v1 trap remote port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">status</span> - Enable/disable this SNMP community. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -682,13 +676,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v1_rport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v1_status</span> - Enable/disable SNMP v1 traps. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">trap_v1_lport</span> - SNMP v1 trap local port . <span class="li-normal">type: int</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -697,19 +697,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v1_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>trap_v1_lport</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v2c_lport</span> - SNMP v2c trap local port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">trap_v1_rport</span> - SNMP v1 trap remote port . <span class="li-normal">type: int</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -718,13 +712,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v2c_lport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>trap_v1_rport</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v2c_rport</span> - SNMP v2c trap remote port . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">trap_v1_status</span> - Enable/disable SNMP v1 traps. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -733,13 +727,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v2c_rport</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>trap_v1_status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trap_v2c_status</span> - Enable/disable SNMP v2c traps. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">trap_v2c_lport</span> - SNMP v2c trap local port . <span class="li-normal">type: int</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -748,34 +748,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>trap_v2c_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>trap_v2c_lport</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vdoms</span> - SNMP access control VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdoms:name</span>
+        <li> <span class="li-head">trap_v2c_rport</span> - SNMP v2c trap remote port . <span class="li-normal">type: int</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vdoms</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td>trap_v2c_rport</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">trap_v2c_status</span> - Enable/disable SNMP v2c traps. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
@@ -784,8 +778,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>trap_v2c_status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vdoms</span> - SNMP access control VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdoms:name</span>
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vdoms</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
+ <div id="label71" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -829,18 +859,20 @@ Examples
                       interface_select_method: "auto"
                       ip: "<your_own_value>"
                       source_ip: "84.230.14.43"
+                      vrf_select: "0"
               hosts6:
                   -
                       ha_direct: "enable"
                       host_type: "any"
-                      id: "15"
+                      id: "16"
                       interface: "<your_own_value> (source system.interface.name)"
                       interface_select_method: "auto"
                       ipv6: "<your_own_value>"
                       source_ipv6: "<your_own_value>"
-              id: "20"
+                      vrf_select: "0"
+              id: "22"
               mib_view: "<your_own_value> (source system.snmp.mib-view.name)"
-              name: "default_name_22"
+              name: "default_name_24"
               query_v1_port: "161"
               query_v1_status: "enable"
               query_v2c_port: "161"
@@ -854,7 +886,7 @@ Examples
               trap_v2c_status: "enable"
               vdoms:
                   -
-                      name: "default_name_35 (source system.vdom.name)"
+                      name: "default_name_37 (source system.vdom.name)"
 
 
 Return Values

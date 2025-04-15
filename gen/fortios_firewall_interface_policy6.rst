@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_interface_policy6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -96,7 +96,7 @@ Parameters
  </tr>
  <tr>
  <td>application_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -111,14 +111,14 @@ Parameters
  </tr>
  <tr>
  <td>application_list_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -132,7 +132,7 @@ Parameters
  </tr>
  <tr>
  <td>av_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -147,14 +147,14 @@ Parameters
  </tr>
  <tr>
  <td>av_profile_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -168,7 +168,7 @@ Parameters
  </tr>
  <tr>
  <td>casb_profile</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -183,14 +183,14 @@ Parameters
  </tr>
  <tr>
  <td>casb_profile_status</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -204,7 +204,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -219,7 +219,7 @@ Parameters
  </tr>
  <tr>
  <td>dlp_profile</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -234,14 +234,14 @@ Parameters
  </tr>
  <tr>
  <td>dlp_profile_status</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -291,14 +291,14 @@ Parameters
  </tr>
  <tr>
  <td>dsri</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -311,7 +311,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -327,7 +327,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -343,7 +343,7 @@ Parameters
  </tr>
  <tr>
  <td>emailfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -358,18 +358,18 @@ Parameters
  </tr>
  <tr>
  <td>emailfilter_profile_status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">interface</span> - Monitored interface name from available interfaces. Source system.zone.name system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">interface</span> - Monitored interface name from available interfaces. Source system.zone.name system.sdwan.zone.name system.interface.name. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -379,7 +379,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -394,7 +394,7 @@ Parameters
  </tr>
  <tr>
  <td>ips_sensor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -409,14 +409,14 @@ Parameters
  </tr>
  <tr>
  <td>ips_sensor_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -446,17 +446,17 @@ Parameters
  </tr>
  <tr>
  <td>logtraffic</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[utm]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -470,7 +470,7 @@ Parameters
  </tr>
  <tr>
  <td>policyid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -508,7 +508,7 @@ Parameters
  </tr>
  <tr>
  <td>service6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -524,7 +524,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -575,7 +575,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -591,7 +591,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -607,14 +607,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -628,7 +628,7 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -643,7 +643,7 @@ Parameters
  </tr>
  <tr>
  <td>webfilter_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -658,14 +658,14 @@ Parameters
  </tr>
  <tr>
  <td>webfilter_profile_status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -715,7 +715,7 @@ Examples
                       name: "default_name_17 (source firewall.address6.name firewall.addrgrp6.name)"
               emailfilter_profile: "<your_own_value> (source emailfilter.profile.name)"
               emailfilter_profile_status: "enable"
-              interface: "<your_own_value> (source system.zone.name system.interface.name)"
+              interface: "<your_own_value> (source system.zone.name system.sdwan.zone.name system.interface.name)"
               ips_sensor: "<your_own_value> (source ips.sensor.name)"
               ips_sensor_status: "enable"
               label: "<your_own_value>"

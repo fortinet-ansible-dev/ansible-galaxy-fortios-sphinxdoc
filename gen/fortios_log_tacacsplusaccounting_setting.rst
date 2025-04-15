@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.6.0
+Supported Version Ranges: v7.0.2 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>log_tacacsplusaccounting_setting</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -88,17 +88,17 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -112,7 +112,7 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -127,7 +127,7 @@ Parameters
  </tr>
  <tr>
  <td>server_key</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -142,7 +142,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -157,14 +157,29 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vrf_select</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -198,6 +213,7 @@ Examples
               server_key: "<your_own_value>"
               source_ip: "84.230.14.43"
               status: "enable"
+              vrf_select: "0"
 
 
 Return Values

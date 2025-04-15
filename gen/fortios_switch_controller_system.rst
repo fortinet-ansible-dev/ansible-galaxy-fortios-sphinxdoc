@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_system</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>caputp_echo_interval</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>caputp_max_retransmit</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +103,7 @@ Parameters
  </tr>
  <tr>
  <td>data_sync_interval</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>dynamic_periodic_interval</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -133,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_holdoff</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_mac_idle</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -163,7 +163,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_scan_interval</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -178,7 +178,7 @@ Parameters
  </tr>
  <tr>
  <td>iot_weight_threshold</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -193,7 +193,7 @@ Parameters
  </tr>
  <tr>
  <td>nac_periodic_interval</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -208,7 +208,7 @@ Parameters
  </tr>
  <tr>
  <td>parallel_process</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -223,14 +223,14 @@ Parameters
  </tr>
  <tr>
  <td>parallel_process_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -244,18 +244,18 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_mode</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[compatible]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[moderate]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[strict]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.0
+Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.2
 
 
 Parameters
@@ -59,7 +59,7 @@ Parameters
  <tr>
  <td>wireless_controller_arrp_profile</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -76,7 +76,7 @@ Parameters
  <tr>
  <td>comment</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -91,7 +91,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -105,7 +105,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize_schedules</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -121,7 +121,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -138,15 +138,15 @@ Parameters
  <tr>
  <td>include_dfs_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[yes]</td>
@@ -170,15 +170,15 @@ Parameters
  <tr>
  <td>include_weather_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[yes]</td>
@@ -202,7 +202,7 @@ Parameters
  <tr>
  <td>monitor_period</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -218,7 +218,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -233,14 +233,14 @@ Parameters
  </tr>
  <tr>
  <td>override_darrp_optimize</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -255,7 +255,7 @@ Parameters
  <tr>
  <td>selection_period</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -271,7 +271,7 @@ Parameters
  <tr>
  <td>threshold_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -287,7 +287,7 @@ Parameters
  <tr>
  <td>threshold_channel_load</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -303,7 +303,7 @@ Parameters
  <tr>
  <td>threshold_noise_floor</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -319,7 +319,7 @@ Parameters
  <tr>
  <td>threshold_rx_errors</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -335,7 +335,7 @@ Parameters
  <tr>
  <td>threshold_spectral_rssi</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -351,7 +351,7 @@ Parameters
  <tr>
  <td>threshold_tx_retries</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -367,7 +367,7 @@ Parameters
  <tr>
  <td>weight_channel_load</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -383,7 +383,7 @@ Parameters
  <tr>
  <td>weight_dfs_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -399,7 +399,7 @@ Parameters
  <tr>
  <td>weight_managed_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -415,7 +415,7 @@ Parameters
  <tr>
  <td>weight_noise_floor</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -431,7 +431,7 @@ Parameters
  <tr>
  <td>weight_rogue_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -447,7 +447,7 @@ Parameters
  <tr>
  <td>weight_spectral_rssi</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -463,7 +463,7 @@ Parameters
  <tr>
  <td>weight_weather_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>

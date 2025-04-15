@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_automation_stitch</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>actions</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -120,7 +120,7 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -135,7 +135,7 @@ Parameters
  </tr>
  <tr>
  <td>delay</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -150,7 +150,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -165,49 +165,50 @@ Parameters
  </tr>
  <tr>
  <td>required</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">condition</span> - Automation conditions. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: condition:name</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>condition</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Condition name. Source system.automation-condition.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>description</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">destination</span> - Serial number/HA group-name of destination devices. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: destination:name</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>destination</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Destination name. Source system.automation-destination.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            </ul>
+        <li> <span class="li-head">condition_logic</span> - Apply AND/OR logic to the specified automation conditions. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -216,14 +217,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>condition_logic</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[and]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[or]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -232,34 +238,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>description</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable this stitch. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">destination</span> - Serial number/HA group-name of destination devices. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: destination:name</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>destination</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">trigger</span> - Trigger name. Source system.automation-trigger.name. <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Destination name. Source system.automation-destination.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -268,8 +268,60 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">status</span> - Enable/disable this stitch. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">trigger</span> - Trigger name. Source system.automation-trigger.name. <span class="li-normal">type: str</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>trigger</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -309,11 +361,15 @@ Examples
                       delay: "0"
                       id: "8"
                       required: "enable"
+              condition:
+                  -
+                      name: "default_name_11 (source system.automation-condition.name)"
+              condition_logic: "and"
               description: "<your_own_value>"
               destination:
                   -
-                      name: "default_name_12 (source system.automation-destination.name)"
-              name: "default_name_13"
+                      name: "default_name_15 (source system.automation-destination.name)"
+              name: "default_name_16"
               status: "enable"
               trigger: "<your_own_value> (source system.automation-trigger.name)"
 

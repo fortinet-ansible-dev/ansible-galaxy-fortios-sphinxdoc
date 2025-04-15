@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.2
 
 
 Parameters
@@ -60,7 +60,7 @@ Parameters
  <td>gtp_message_filter_v0v1</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -78,7 +78,7 @@ Parameters
  <td>create_mbms</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -101,7 +101,7 @@ Parameters
  <td>create_pdp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -124,7 +124,7 @@ Parameters
  <td>data_record</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -147,7 +147,7 @@ Parameters
  <td>delete_aa_pdp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -170,7 +170,7 @@ Parameters
  <td>delete_mbms</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -193,7 +193,7 @@ Parameters
  <td>delete_pdp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -216,7 +216,7 @@ Parameters
  <td>echo</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -239,7 +239,7 @@ Parameters
  <td>end_marker</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -262,7 +262,7 @@ Parameters
  <td>error_indication</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -285,7 +285,7 @@ Parameters
  <td>failure_report</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -308,7 +308,7 @@ Parameters
  <td>fwd_relocation</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -331,7 +331,7 @@ Parameters
  <td>fwd_srns_context</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -354,7 +354,7 @@ Parameters
  <td>gtp_pdu</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -377,7 +377,7 @@ Parameters
  <td>identification</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -400,7 +400,7 @@ Parameters
  <td>mbms_de_registration</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -423,7 +423,7 @@ Parameters
  <td>mbms_notification</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -446,7 +446,7 @@ Parameters
  <td>mbms_registration</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -469,7 +469,7 @@ Parameters
  <td>mbms_session_start</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -492,7 +492,7 @@ Parameters
  <td>mbms_session_stop</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -515,7 +515,7 @@ Parameters
  <td>mbms_session_update</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -538,7 +538,7 @@ Parameters
  <td>ms_info_change_notif</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -561,7 +561,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -578,7 +578,7 @@ Parameters
  <td>node_alive</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -601,7 +601,7 @@ Parameters
  <td>note_ms_present</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -624,7 +624,7 @@ Parameters
  <td>pdu_notification</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -647,7 +647,7 @@ Parameters
  <td>ran_info</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -670,7 +670,7 @@ Parameters
  <td>redirection</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -693,7 +693,7 @@ Parameters
  <td>relocation_cancel</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -716,7 +716,7 @@ Parameters
  <td>send_route</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -739,7 +739,7 @@ Parameters
  <td>sgsn_context</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -762,7 +762,7 @@ Parameters
  <td>support_extension</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -784,7 +784,7 @@ Parameters
  <tr>
  <td>ue_registration_query</td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -807,7 +807,7 @@ Parameters
  <td>unknown_message</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -829,7 +829,7 @@ Parameters
  <td>unknown_message_white_list</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -847,7 +847,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -865,7 +865,7 @@ Parameters
  <td>update_mbms</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -888,7 +888,7 @@ Parameters
  <td>update_pdp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -911,7 +911,7 @@ Parameters
  <td>v0_create_aa_pdp__v1_init_pdp_ctx</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -934,7 +934,7 @@ Parameters
  <td>version_not_support</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>

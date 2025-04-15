@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> v7.6.0
+Supported Version Ranges: v6.4.0 -> v7.6.2
 
 
 Parameters
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_mac_policy</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">bounce_port_link</span> - Enable/disable bouncing (administratively bring the link down, up) of a switch port where this mac-policy is applied. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">bounce_port_duration</span> - Bounce duration in seconds of a switch port where this mac-policy is applied. <span class="li-normal">type: int</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -73,19 +73,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bounce_port_link</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td>bounce_port_duration</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">count</span> - Enable/disable packet count on the NAC device. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">bounce_port_link</span> - Enable/disable bouncing (administratively bring the link down, up) of a switch port where this mac-policy is applied. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -94,19 +88,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>count</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td>bounce_port_link</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">description</span> - Description for the MAC policy. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">count</span> - Enable/disable packet count on the NAC device. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -115,15 +109,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>count</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">description</span> - Description for the MAC policy. <span class="li-normal">type: str</span>
+ <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
+ <div id="label9" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">drop</span> - Enable/disable dropping of NAC device traffic. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
- <div id="label9" style="display:none">
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -143,21 +158,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">fortilink</span> - FortiLink interface for which this MAC policy belongs to. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
- <div id="label11" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>fortilink</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">name</span> - MAC policy name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -166,13 +166,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td>fortilink</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">traffic_policy</span> - Traffic policy to be applied when using this MAC policy. Source switch-controller.traffic-policy.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - MAC policy name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -181,13 +181,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>traffic_policy</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vlan</span> - Ingress traffic VLAN assignment for the MAC address matching this MAC policy. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">poe_reset</span> - Enable/disable POE reset of a switch port where this mac-policy is applied. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -196,8 +196,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>poe_reset</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">traffic_policy</span> - Traffic policy to be applied when using this MAC policy. Source switch-controller.traffic-policy.name. <span class="li-normal">type: str</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>traffic_policy</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vlan</span> - Ingress traffic VLAN assignment for the MAC address matching this MAC policy. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vlan</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -228,12 +264,14 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           switch_controller_mac_policy:
+              bounce_port_duration: "5"
               bounce_port_link: "disable"
               count: "disable"
               description: "<your_own_value>"
               drop: "disable"
               fortilink: "<your_own_value> (source system.interface.name)"
-              name: "default_name_8"
+              name: "default_name_9"
+              poe_reset: "disable"
               traffic_policy: "<your_own_value> (source switch-controller.traffic-policy.name)"
               vlan: "<your_own_value> (source system.interface.name)"
 

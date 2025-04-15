@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_dns_database</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -75,14 +75,14 @@ Parameters
  </tr>
  <tr>
  <td>authoritative</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -96,7 +96,7 @@ Parameters
  </tr>
  <tr>
  <td>contact</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>dns_entry</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -126,7 +126,7 @@ Parameters
  </tr>
  <tr>
  <td>canonical_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -141,7 +141,7 @@ Parameters
  </tr>
  <tr>
  <td>hostname</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -156,7 +156,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -171,7 +171,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -186,7 +186,7 @@ Parameters
  </tr>
  <tr>
  <td>ipv6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -201,7 +201,7 @@ Parameters
  </tr>
  <tr>
  <td>preference</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -216,14 +216,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -237,7 +237,7 @@ Parameters
  </tr>
  <tr>
  <td>ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -252,29 +252,29 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[A]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[NS]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[CNAME]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[MX]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[AAAA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[PTR]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[PTR_V6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -289,7 +289,7 @@ Parameters
  </tr>
  <tr>
  <td>domain</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -305,14 +305,53 @@ Parameters
  </tr>
  <tr>
  <td>forwarder6</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ip_master</span> - IP address of master DNS server. Entries in this master DNS server and imported into the DNS zone. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>interface_select_method</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[sdwan]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[specify]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">ip_master</span> - IP address of master DNS server. Entries in this master DNS server and imported into the DNS zone. <span class="li-normal">type: str</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -326,36 +365,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">ip_primary</span> - IP address of primary DNS server. Entries in this primary DNS server and imported into the DNS zone. <span class="li-normal">type: str</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>ip_primary</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">name</span> - Zone name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">primary_name</span> - Domain name of the default DNS server for this zone. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -364,13 +373,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>primary_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>ip_primary</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">rr_max</span> - Maximum number of resource records (10 - 65536, 0 means infinite). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">name</span> - Zone name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -379,13 +388,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>rr_max</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - Source IP for forwarding to DNS server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">primary_name</span> - Domain name of the default DNS server for this zone. <span class="li-normal">type: str</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -394,13 +403,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>primary_name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip_interface</span> - IP address of the specified interface as the source IP address. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">rr_max</span> - Maximum number of resource records (10 - 65536, 0 means infinite). <span class="li-normal">type: int</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -409,13 +418,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip_interface</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>rr_max</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip6</span> - IPv6 source IP address for forwarding to DNS server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">source_ip</span> - Source IP for forwarding to DNS server. <span class="li-normal">type: str</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -424,13 +433,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip6</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0 </code></td>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable this DNS zone. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">source_ip_interface</span> - IP address of the specified interface as the source IP address. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -439,19 +448,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>source_ip_interface</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ttl</span> - Default time-to-live value for the entries of this DNS zone (0 - 2147483647 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">source_ip6</span> - IPv6 source IP address for forwarding to DNS server. <span class="li-normal">type: str</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -460,13 +463,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>source_ip6</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Zone type (primary to manage entries directly, secondary to import entries from other zones). <span class="li-normal">type: str</span> <span class="li-normal">choices: primary, secondary, master, slave</span>
+        <li> <span class="li-head">status</span> - Enable/disable this DNS zone. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -475,16 +478,52 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">ttl</span> - Default time-to-live value for the entries of this DNS zone (0 - 2147483647 sec). <span class="li-normal">type: int</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>ttl</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - Zone type (primary to manage entries directly, secondary to import entries from other zones). <span class="li-normal">type: str</span> <span class="li-normal">choices: primary, secondary, master, slave</span>
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[primary]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[secondary]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[master]</td>
@@ -498,8 +537,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">view</span> - Zone view (public to serve public clients, shadow to serve internal clients). <span class="li-normal">type: str</span> <span class="li-normal">choices: shadow, public, shadow-ztna, proxy</span>
- <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
- <div id="label53" style="display:none">
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -507,21 +546,36 @@ Parameters
  </tr>
  <tr>
  <td>view</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[shadow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[public]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[shadow-ztna]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2</code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
+ <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
+ <div id="label59" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vrf_select</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -569,9 +623,11 @@ Examples
               domain: "<your_own_value>"
               forwarder: "<your_own_value>"
               forwarder6: "<your_own_value>"
+              interface: "<your_own_value> (source system.interface.name)"
+              interface_select_method: "auto"
               ip_master: "<your_own_value>"
               ip_primary: "<your_own_value>"
-              name: "default_name_21"
+              name: "default_name_23"
               primary_name: "<your_own_value>"
               rr_max: "16384"
               source_ip: "84.230.14.43"
@@ -581,6 +637,7 @@ Examples
               ttl: "86400"
               type: "primary"
               view: "shadow"
+              vrf_select: "0"
 
 
 Return Values

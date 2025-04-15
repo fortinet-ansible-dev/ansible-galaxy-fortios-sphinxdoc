@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.4 -> v7.6.0
+Supported Version Ranges: v7.2.4 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_fabric_vpn</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -72,7 +72,7 @@ Parameters
  </tr>
  <tr>
  <td>advertised_subnets</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -88,14 +88,14 @@ Parameters
  </tr>
  <tr>
  <td>access</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[inbound]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[bidirectional]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -109,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_network</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -124,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_address</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -139,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -155,13 +155,13 @@ Parameters
  </tr>
  <tr>
  <td>prefix</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">bgp_as</span> - BGP Router AS number, valid from 1 to 4294967295. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">bgp_as</span> - BGP Router AS number, asplain/asdot/asdot+ format. <span class="li-normal">type: str</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -171,7 +171,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_as</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -186,7 +186,7 @@ Parameters
  </tr>
  <tr>
  <td>branch_name</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -202,7 +202,7 @@ Parameters
  </tr>
  <tr>
  <td>loopback_address_block</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -217,7 +217,7 @@ Parameters
  </tr>
  <tr>
  <td>loopback_advertised_subnet</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -232,7 +232,7 @@ Parameters
  </tr>
  <tr>
  <td>loopback_interface</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -246,7 +246,7 @@ Parameters
  </tr>
  <tr>
  <td>overlays</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -262,7 +262,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_neighbor</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -277,7 +277,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_neighbor_group</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -292,7 +292,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_neighbor_range</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -307,7 +307,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_network</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -322,7 +322,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -337,7 +337,7 @@ Parameters
  </tr>
  <tr>
  <td>ipsec_phase1</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -352,7 +352,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -367,7 +367,7 @@ Parameters
  </tr>
  <tr>
  <td>overlay_policy</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -382,7 +382,7 @@ Parameters
  </tr>
  <tr>
  <td>overlay_tunnel_block</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -397,7 +397,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_gw</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -412,7 +412,7 @@ Parameters
  </tr>
  <tr>
  <td>route_policy</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -427,7 +427,7 @@ Parameters
  </tr>
  <tr>
  <td>sdwan_member</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -443,17 +443,17 @@ Parameters
  </tr>
  <tr>
  <td>policy_rule</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[health-check]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[manual]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -467,7 +467,7 @@ Parameters
  </tr>
  <tr>
  <td>psksecret</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -482,7 +482,7 @@ Parameters
  </tr>
  <tr>
  <td>sdwan_zone</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -497,14 +497,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -518,14 +518,14 @@ Parameters
  </tr>
  <tr>
  <td>sync_mode</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -539,14 +539,14 @@ Parameters
  </tr>
  <tr>
  <td>vpn_role</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[hub]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  <tr>
  <td>[spoke]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -582,7 +582,7 @@ Examples
                       id: "7"
                       policies: "<your_own_value> (source firewall.policy.policyid)"
                       prefix: "<your_own_value>"
-              bgp_as: "0"
+              bgp_as: "<your_own_value>"
               branch_name: "<your_own_value>"
               health_checks: "<your_own_value> (source system.sdwan.health-check.name)"
               loopback_address_block: "<your_own_value>"

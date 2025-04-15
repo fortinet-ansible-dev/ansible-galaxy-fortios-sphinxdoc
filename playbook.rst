@@ -27,6 +27,7 @@ in our case we create a file named ``hosts``:
    ansible_user=admin
    ansible_password=YOUR_OWN_VALUE
    ansible_httpapi_session_key={"access_token":"YOUR_OWN_VALUE"}
+   ansible_facts_modules=setup
 
 FortiOS supports two ways to authenticate Ansible: ``ansible_user`` and ``ansible_password`` pair based; ``ansible_httpapi_session_key`` access token based. The access token method is preferred as it offers enhanced security by avoiding password exposure and ensures that requests originate from the intended source.
 

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_address6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>cache_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>country</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>end_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -166,7 +166,7 @@ Parameters
  </tr>
  <tr>
  <td>epg_name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -181,18 +181,18 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">fqdn</span> - Fully qualified domain name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">filter</span> - Match criteria filter. <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -201,13 +201,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>fqdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>filter</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">host</span> - Host Address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">fqdn</span> - Fully qualified domain name. <span class="li-normal">type: str</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -216,13 +216,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>host</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>fqdn</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">host_type</span> - Host type. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, specific</span>
+        <li> <span class="li-head">host</span> - Host Address. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -231,19 +231,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>host_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>host</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[specific]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ip6</span> - IPv6 address prefix (format: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/xxx). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">host_type</span> - Host type. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, specific</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -252,30 +246,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>host_type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[any]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[specific]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">ip6</span> - IPv6 address prefix (format: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx/xxx). <span class="li-normal">type: str</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">list</span> - IP address list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: list:ip</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">ip</span> - IP. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
- <div id="label29" style="display:none">
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -283,14 +298,14 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">net_id</span> - Network ID. <span class="li-normal">type: str</span>
- <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
- <div id="label31" style="display:none">
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -304,8 +319,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">obj_id</span> - Object ID. <span class="li-normal">type: str</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -320,37 +335,21 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">macaddr</span> - Multiple MAC address ranges. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: macaddr:macaddr</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>macaddr</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">macaddr</span> - MAC address ranges <start>[-<end>] separated by space. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>macaddr</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">name</span> - Address name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -359,13 +358,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>macaddr</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">obj_id</span> - Object ID for NSX. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">name</span> - Address name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -374,13 +374,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>obj_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">route_tag</span> - route-tag address. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">obj_id</span> - Object ID for NSX. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -389,13 +389,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_tag</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>obj_id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sdn</span> - SDN. Source system.sdn-connector.name. <span class="li-normal">type: str</span> <span class="li-normal">choices: nsx</span>
+        <li> <span class="li-head">route_tag</span> - route-tag address. <span class="li-normal">type: int</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -404,17 +404,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[nsx]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
+ <td>route_tag</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sdn_tag</span> - SDN Tag. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sdn</span> - SDN. Source system.sdn-connector.name. <span class="li-normal">type: str</span> <span class="li-normal">choices: nsx</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -423,13 +419,17 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sdn_tag</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
+ <td>sdn</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[nsx]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.11</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">start_ip</span> - First IP address (inclusive) in the range for the address (format: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sdn_addr_type</span> - Type of addresses to collect. <span class="li-normal">type: str</span> <span class="li-normal">choices: private, public, all</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -438,15 +438,54 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>sdn_addr_type</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[private]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[public]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[all]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">sdn_tag</span> - SDN Tag. <span class="li-normal">type: str</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>sdn_tag</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">start_ip</span> - First IP address (inclusive) in the range for the address (format: xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx). <span class="li-normal">type: str</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>start_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">start_mac</span> - First MAC address in the range. <span class="li-normal">type: str</span>
- <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
- <div id="label51" style="display:none">
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -462,57 +501,21 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">subnet_segment</span> - IPv6 subnet segments. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: subnet_segment:name</span>
- <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
- <div id="label53" style="display:none">
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>subnet_segment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
- <div id="label55" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">type</span> - Subnet segment type. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, specific</span>
- <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
- <div id="label57" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[specific]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">value</span> - Subnet segment value. <span class="li-normal">type: str</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -521,29 +524,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>value</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name</span>
+            <li> <span class="li-head">type</span> - Subnet segment type. <span class="li-normal">type: str</span> <span class="li-normal">choices: any, specific</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tagging</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[any]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[specific]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">category</span> - Tag category. Source system.object-tagging.category. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">value</span> - Subnet segment value. <span class="li-normal">type: str</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -552,43 +560,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>value</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            </ul>
+        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tagging</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">category</span> - Tag category. Source system.object-tagging.category. <span class="li-normal">type: str</span>
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>category</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name/tags:name</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>tags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -598,29 +607,27 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            </ul>
-        <li> <span class="li-head">template</span> - IPv6 address template. Source firewall.address6-template.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name/tags:name</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>template</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>tags</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tenant</span> - Tenant. <span class="li-normal">type: str</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -629,13 +636,15 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tenant</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.0 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Type of IPv6 address object . <span class="li-normal">type: str</span> <span class="li-normal">choices: ipprefix, iprange, fqdn, geography, dynamic, template, mac, route-tag</span>
+                </ul>
+            </ul>
+        <li> <span class="li-head">template</span> - IPv6 address template. Source firewall.address6-template.name. <span class="li-normal">type: str</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -644,42 +653,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[ipprefix]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[iprange]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[geography]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[dynamic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[template]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[mac]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[route-tag]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td>template</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">tenant</span> - Tenant. <span class="li-normal">type: str</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
@@ -688,15 +668,74 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>tenant</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - Type of IPv6 address object . <span class="li-normal">type: str</span> <span class="li-normal">choices: ipprefix, iprange, fqdn, geography, dynamic, template, mac, route-tag</span>
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[ipprefix]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[iprange]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[fqdn]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[geography]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[dynamic]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[template]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[mac]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[route-tag]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
+ <div id="label81" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">visibility</span> - Enable/disable the visibility of the object in the GUI. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
- <div id="label79" style="display:none">
+ <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
+ <div id="label83" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -749,6 +788,7 @@ Examples
               end_mac: "<your_own_value>"
               epg_name: "<your_own_value>"
               fabric_object: "enable"
+              filter: "<your_own_value>"
               fqdn: "<your_own_value>"
               host: "myhostname"
               host_type: "any"
@@ -761,25 +801,26 @@ Examples
               macaddr:
                   -
                       macaddr: "<your_own_value>"
-              name: "default_name_21"
+              name: "default_name_22"
               obj_id: "<your_own_value>"
               route_tag: "0"
               sdn: "nsx"
+              sdn_addr_type: "private"
               sdn_tag: "<your_own_value>"
               start_ip: "<your_own_value>"
               start_mac: "<your_own_value>"
               subnet_segment:
                   -
-                      name: "default_name_29"
+                      name: "default_name_31"
                       type: "any"
                       value: "<your_own_value>"
               tagging:
                   -
                       category: "<your_own_value> (source system.object-tagging.category)"
-                      name: "default_name_34"
+                      name: "default_name_36"
                       tags:
                           -
-                              name: "default_name_36 (source system.object-tagging.tags.name)"
+                              name: "default_name_38 (source system.object-tagging.tags.name)"
               template: "<your_own_value> (source firewall.address6-template.name)"
               tenant: "<your_own_value>"
               type: "ipprefix"

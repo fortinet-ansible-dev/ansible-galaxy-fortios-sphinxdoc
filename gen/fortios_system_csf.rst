@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_csf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  <tr>
  <td>accept_auth_by_cert</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -96,7 +96,7 @@ Parameters
  <tr>
  <td>authorization_request_type</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[serial]</td>
@@ -118,7 +118,7 @@ Parameters
  <tr>
  <td>certificate</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -133,14 +133,14 @@ Parameters
  </tr>
  <tr>
  <td>configuration_sync</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[local]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -154,14 +154,14 @@ Parameters
  </tr>
  <tr>
  <td>downstream_access</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -175,7 +175,7 @@ Parameters
  </tr>
  <tr>
  <td>downstream_accprofile</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -189,7 +189,7 @@ Parameters
  </tr>
  <tr>
  <td>fabric_connector</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -205,7 +205,7 @@ Parameters
  </tr>
  <tr>
  <td>accprofile</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -220,14 +220,14 @@ Parameters
  </tr>
  <tr>
  <td>configuration_write_access</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -241,7 +241,7 @@ Parameters
  </tr>
  <tr>
  <td>serial</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -255,7 +255,7 @@ Parameters
  </tr>
  <tr>
  <td>vdom</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -271,7 +271,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -412,14 +412,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object_unification</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[local]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -433,7 +433,7 @@ Parameters
  </tr>
  <tr>
  <td>fabric_workers</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -448,14 +448,14 @@ Parameters
  </tr>
  <tr>
  <td>file_mgmt</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -469,7 +469,7 @@ Parameters
  </tr>
  <tr>
  <td>file_quota</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -484,7 +484,7 @@ Parameters
  </tr>
  <tr>
  <td>file_quota_warning</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -515,14 +515,14 @@ Parameters
  </tr>
  <tr>
  <td>forticloud_account_enforcement</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -536,12 +536,12 @@ Parameters
  </tr>
  <tr>
  <td>group_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">group_password</span> - Security Fabric group password. All FortiGates in a Security Fabric must have the same group password. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">group_password</span> - Security Fabric group password. For legacy authentication, fabric members must have the same group password. <span class="li-normal">type: str</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -551,12 +551,12 @@ Parameters
  </tr>
  <tr>
  <td>group_password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">log_unification</span> - Enable/disable broadcast of discovery messages for log unification. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">legacy_authentication</span> - Enable/disable legacy authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -565,21 +565,42 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>log_unification</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td>legacy_authentication</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">log_unification</span> - Enable/disable broadcast of discovery messages for log unification. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
+ <div id="label63" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>log_unification</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">management_ip</span> - Management IP address of this FortiGate. Used to log into this FortiGate from another FortiGate in the Security Fabric. <span class="li-normal">type: str</span>
- <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
- <div id="label63" style="display:none">
+ <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
+ <div id="label65" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -593,8 +614,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">management_port</span> - Overriding port for management connection (Overrides admin port). <span class="li-normal">type: int</span>
- <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
- <div id="label65" style="display:none">
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -608,8 +629,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">saml_configuration_sync</span> - SAML setting configuration synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, local</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -618,7 +639,7 @@ Parameters
  <tr>
  <td>saml_configuration_sync</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
@@ -630,21 +651,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">source_ip</span> - Source IP address for communication with the upstream FortiGate. <span class="li-normal">type: str</span>
- <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
- <div id="label69" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">status</span> - Enable/disable Security Fabric. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -653,36 +659,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">status</span> - Enable/disable Security Fabric. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
+ <div id="label73" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">trusted_list</span> - Pre-authorized and blocked security fabric nodes. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: trusted_list:name</span>
- <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
- <div id="label73" style="display:none">
+ <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
+ <div id="label75" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>trusted_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">action</span> - Security fabric authorization action. <span class="li-normal">type: str</span> <span class="li-normal">choices: accept, deny</span>
- <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
- <div id="label75" style="display:none">
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -690,20 +711,20 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[accept]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
             <li> <span class="li-head">authorization_type</span> - Authorization type. <span class="li-normal">type: str</span> <span class="li-normal">choices: serial, certificate</span>
- <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
- <div id="label77" style="display:none">
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -712,7 +733,7 @@ Parameters
  <tr>
  <td>authorization_type</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[serial]</td>
@@ -724,8 +745,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">certificate</span> - Certificate. <span class="li-normal">type: str</span>
- <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
- <div id="label79" style="display:none">
+ <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
+ <div id="label81" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -734,34 +755,12 @@ Parameters
  <tr>
  <td>certificate</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">downstream_authorization</span> - Trust authorizations by this node"s administrator. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
- <div id="label81" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>downstream_authorization</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">ha_members</span> - HA members. <span class="li-normal">type: list</span> </li>
-            <li> <span class="li-head">index</span> - Index of the downstream in tree. <span class="li-normal">type: int</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -770,15 +769,37 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>downstream_authorization</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">ha_members</span> - HA members. <span class="li-normal">type: list</span> </li>
+            <li> <span class="li-head">index</span> - Index of the downstream in tree. <span class="li-normal">type: int</span>
+ <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
+ <div id="label85" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>index</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
- <div id="label85" style="display:none">
+ <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
+ <div id="label87" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -787,28 +808,12 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">serial</span> - Serial. <span class="li-normal">type: str</span>
- <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
- <div id="label87" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>serial</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">uid</span> - Unique ID of the current CSF node <span class="li-normal">type: str</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -817,13 +822,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>uid</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.0 </code></td>
+ <td>serial</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">upstream</span> - IP/FQDN of the FortiGate upstream from this FortiGate in the Security Fabric. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">uid</span> - Unique ID of the current CSF node <span class="li-normal">type: str</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -832,13 +838,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upstream</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td>uid</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">upstream_interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">upstream</span> - IP/FQDN of the FortiGate upstream from this FortiGate in the Security Fabric. <span class="li-normal">type: str</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -847,13 +853,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>upstream_interface</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td>upstream</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">upstream_interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+        <li> <span class="li-head">upstream_interface</span> - Specify outgoing interface to reach server. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
  <div id="label95" style="display:none">
  <table border="1">
@@ -862,24 +868,39 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>upstream_interface</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">upstream_interface_select_method</span> - Specify how to select outgoing interface to reach server. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, sdwan, specify</span>
+ <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
+ <div id="label97" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>upstream_interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">upstream_ip</span> - IP address of the FortiGate upstream from this FortiGate in the Security Fabric. <span class="li-normal">type: str</span>
- <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
- <div id="label97" style="display:none">
+ <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
+ <div id="label99" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -893,8 +914,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">upstream_port</span> - The port number to use to communicate with the FortiGate upstream from this FortiGate in the Security Fabric . <span class="li-normal">type: int</span>
- <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
- <div id="label99" style="display:none">
+ <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
+ <div id="label101" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -902,7 +923,7 @@ Parameters
  </tr>
  <tr>
  <td>upstream_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -963,6 +984,7 @@ Examples
               forticloud_account_enforcement: "enable"
               group_name: "<your_own_value>"
               group_password: "<your_own_value>"
+              legacy_authentication: "disable"
               log_unification: "disable"
               management_ip: "<your_own_value>"
               management_port: "32767"
@@ -977,7 +999,7 @@ Examples
                       downstream_authorization: "enable"
                       ha_members: "<your_own_value>"
                       index: "0"
-                      name: "default_name_45"
+                      name: "default_name_46"
                       serial: "<your_own_value>"
               uid: "<your_own_value>"
               upstream: "<your_own_value>"

@@ -4,8 +4,8 @@
 
 .. fortios_dlp_settings:
 
-fortios_dlp_settings -- Designate logical storage for DLP fingerprint database in Fortinet's FortiOS and FortiGate.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fortios_dlp_settings -- Configure settings for DLP in Fortinet's FortiOS and FortiGate.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 2.0.0
 
@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -48,7 +48,7 @@ Parameters
     <li> <span class="li-head">vdom</span> - Virtual domain, among those defined previously. A vdom is a virtual instance of the FortiGate that can be configured and used as a different unit. <span class="li-normal">type: str</span> <span class="li-normal">default: root</span> </li>
     <li> <span class="li-head">member_path</span> - Member attribute path to operate on. <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">member_state</span> - Add or delete a member under specified attribute path. <span class="li-normal">type: str</span> <span class="li-normal">choices: present, absent</span> </li>
-    <li> <span class="li-head">dlp_settings</span> - Designate logical storage for DLP fingerprint database. <span class="li-normal">type: dict</span>
+    <li> <span class="li-head">dlp_settings</span> - Configure settings for DLP. <span class="li-normal">type: dict</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
  <table border="1">
@@ -57,13 +57,13 @@ Parameters
  </tr>
  <tr>
  <td>dlp_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">cache_mem_percent</span> - Maximum percentage of available memory allocated to caching (1 - 15). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">cache_mem_percent</span> - Maximum percentage of available memory allocated to caching DLP fingerprints (1 - 15). <span class="li-normal">type: int</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>cache_mem_percent</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -88,12 +88,12 @@ Parameters
  </tr>
  <tr>
  <td>chunk_size</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">db_mode</span> - Behavior when the maximum size is reached. <span class="li-normal">type: str</span> <span class="li-normal">choices: stop-adding, remove-modified-then-oldest, remove-oldest</span>
+        <li> <span class="li-head">config_builder_timeout</span> - Maximum time allowed for building a single DLP profile . <span class="li-normal">type: int</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -102,22 +102,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>db_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>config_builder_timeout</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[stop-adding]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[remove-modified-then-oldest]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
- <tr>
- <td>[remove-oldest]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">size</span> - Maximum total size of files within the storage (MB). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">db_mode</span> - Behavior when the maximum size is reached in the DLP fingerprint database. <span class="li-normal">type: str</span> <span class="li-normal">choices: stop-adding, remove-modified-then-oldest, remove-oldest</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -126,13 +117,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>size</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>db_mode</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[stop-adding]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[remove-modified-then-oldest]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[remove-oldest]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">storage_device</span> - Storage device name. Source system.storage.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">size</span> - Maximum total size of files within the DLP fingerprint database (MB). <span class="li-normal">type: int</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -141,8 +141,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>size</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">storage_device</span> - Storage device name. Source system.storage.name. <span class="li-normal">type: str</span>
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>storage_device</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -167,12 +182,13 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - name: Designate logical storage for DLP fingerprint database.
+    - name: Configure settings for DLP.
       fortinet.fortios.fortios_dlp_settings:
           vdom: "{{ vdom }}"
           dlp_settings:
               cache_mem_percent: "2"
               chunk_size: "2800"
+              config_builder_timeout: "60"
               db_mode: "stop-adding"
               size: "16"
               storage_device: "<your_own_value> (source system.storage.name)"

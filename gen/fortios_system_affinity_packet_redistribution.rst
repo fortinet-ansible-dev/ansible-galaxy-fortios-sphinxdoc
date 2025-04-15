@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.6.0
+Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.6.1
 
 
 Parameters
@@ -60,13 +60,13 @@ Parameters
  <td>system_affinity_packet_redistribution</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">affinity_cpumask</span> - Affinity setting for VM throughput (64-bit hexadecimal value in the format of 0xxxxxxxxxxxxxxxxx). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">affinity_cpumask</span> - Hexadecimal cpumask, empty value means all CPUs. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -78,7 +78,7 @@ Parameters
  <td>affinity_cpumask</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  </table>
  </div>
@@ -95,7 +95,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  </table>
  </div>
@@ -112,7 +112,7 @@ Parameters
  <td>interface</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  </table>
  </div>
@@ -127,14 +127,14 @@ Parameters
  </tr>
  <tr>
  <td>round_robin</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1</code></td>
  </table>
  </div>
  </li>
@@ -150,7 +150,7 @@ Parameters
  <td>rxqid</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
  </tr>
  </table>
  </div>
@@ -187,7 +187,7 @@ Examples
               id: "4"
               interface: "<your_own_value> (source system.interface.name)"
               round_robin: "enable"
-              rxqid: "0"
+              rxqid: "255"
 
 
 Return Values

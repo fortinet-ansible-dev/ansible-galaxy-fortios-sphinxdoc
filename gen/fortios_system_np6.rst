@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.4.1, v7.4.3 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.4.1, v7.4.3 -> v7.6.2
 
 
 Parameters
@@ -59,7 +59,7 @@ Parameters
  <tr>
  <td>system_np6</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -76,7 +76,7 @@ Parameters
  <tr>
  <td>fastpath</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -97,7 +97,7 @@ Parameters
  <tr>
  <td>fp_anomaly</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -114,7 +114,7 @@ Parameters
  <tr>
  <td>icmp_csum_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
@@ -136,7 +136,7 @@ Parameters
  <tr>
  <td>icmp_frag</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -161,7 +161,7 @@ Parameters
  <tr>
  <td>icmp_land</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -186,7 +186,7 @@ Parameters
  <tr>
  <td>ipv4_csum_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
@@ -208,7 +208,7 @@ Parameters
  <tr>
  <td>ipv4_land</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -233,7 +233,7 @@ Parameters
  <tr>
  <td>ipv4_optlsrr</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -258,7 +258,7 @@ Parameters
  <tr>
  <td>ipv4_optrr</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -283,7 +283,7 @@ Parameters
  <tr>
  <td>ipv4_optsecurity</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -308,7 +308,7 @@ Parameters
  <tr>
  <td>ipv4_optssrr</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -333,7 +333,7 @@ Parameters
  <tr>
  <td>ipv4_optstream</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -358,7 +358,7 @@ Parameters
  <tr>
  <td>ipv4_opttimestamp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -383,7 +383,7 @@ Parameters
  <tr>
  <td>ipv4_proto_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -408,7 +408,7 @@ Parameters
  <tr>
  <td>ipv4_unknopt</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -433,7 +433,7 @@ Parameters
  <tr>
  <td>ipv6_daddr_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -458,7 +458,7 @@ Parameters
  <tr>
  <td>ipv6_land</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -483,7 +483,7 @@ Parameters
  <tr>
  <td>ipv6_optendpid</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -508,7 +508,7 @@ Parameters
  <tr>
  <td>ipv6_opthomeaddr</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -533,7 +533,7 @@ Parameters
  <tr>
  <td>ipv6_optinvld</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -558,7 +558,7 @@ Parameters
  <tr>
  <td>ipv6_optjumbo</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -583,7 +583,7 @@ Parameters
  <tr>
  <td>ipv6_optnsap</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -608,7 +608,7 @@ Parameters
  <tr>
  <td>ipv6_optralert</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -633,7 +633,7 @@ Parameters
  <tr>
  <td>ipv6_opttunnel</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -658,7 +658,7 @@ Parameters
  <tr>
  <td>ipv6_proto_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -683,7 +683,7 @@ Parameters
  <tr>
  <td>ipv6_saddr_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -708,7 +708,7 @@ Parameters
  <tr>
  <td>ipv6_unknopt</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -733,7 +733,7 @@ Parameters
  <tr>
  <td>tcp_csum_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
@@ -755,7 +755,7 @@ Parameters
  <tr>
  <td>tcp_fin_noack</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -780,7 +780,7 @@ Parameters
  <tr>
  <td>tcp_fin_only</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -805,7 +805,7 @@ Parameters
  <tr>
  <td>tcp_land</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -830,7 +830,7 @@ Parameters
  <tr>
  <td>tcp_no_flag</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -855,7 +855,7 @@ Parameters
  <tr>
  <td>tcp_syn_data</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -880,7 +880,7 @@ Parameters
  <tr>
  <td>tcp_syn_fin</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -905,7 +905,7 @@ Parameters
  <tr>
  <td>tcp_winnuke</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -930,7 +930,7 @@ Parameters
  <tr>
  <td>udp_csum_err</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
@@ -952,7 +952,7 @@ Parameters
  <tr>
  <td>udp_land</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
@@ -978,7 +978,7 @@ Parameters
  <tr>
  <td>garbage_session_collector</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -999,7 +999,7 @@ Parameters
  <tr>
  <td>hpe</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1016,7 +1016,7 @@ Parameters
  <tr>
  <td>arp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1032,7 +1032,7 @@ Parameters
  <tr>
  <td>enable_shaper</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1054,7 +1054,7 @@ Parameters
  <tr>
  <td>esp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1070,7 +1070,7 @@ Parameters
  <tr>
  <td>icmp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1086,7 +1086,7 @@ Parameters
  <tr>
  <td>ip_frag_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1102,7 +1102,7 @@ Parameters
  <tr>
  <td>ip_others_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1118,7 +1118,7 @@ Parameters
  <tr>
  <td>l2_others_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1135,7 +1135,7 @@ Parameters
  <td>pri_type_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
  <td><code class="docutils literal notranslate">v6.0.11 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1151,7 +1151,7 @@ Parameters
  <tr>
  <td>sctp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1167,7 +1167,7 @@ Parameters
  <tr>
  <td>tcp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1183,7 +1183,7 @@ Parameters
  <tr>
  <td>tcpfin_rst_max</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1199,7 +1199,7 @@ Parameters
  <tr>
  <td>tcpsyn_ack_max</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1215,7 +1215,7 @@ Parameters
  <tr>
  <td>tcpsyn_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1231,7 +1231,7 @@ Parameters
  <tr>
  <td>udp_max</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1294,7 +1294,7 @@ Parameters
  <tr>
  <td>low_latency_mode</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1316,7 +1316,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1332,7 +1332,7 @@ Parameters
  <tr>
  <td>per_session_accounting</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1357,7 +1357,7 @@ Parameters
  <tr>
  <td>session_collector_interval</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1373,7 +1373,7 @@ Parameters
  <tr>
  <td>session_timeout_fixed</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -1395,7 +1395,7 @@ Parameters
  <tr>
  <td>session_timeout_interval</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1411,7 +1411,7 @@ Parameters
  <tr>
  <td>session_timeout_random_range</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>

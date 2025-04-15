@@ -593,6 +593,7 @@ Parameters
                 <li><span class="li-required">since</span> - Only return sessions generated since this Unix timestamp. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">seconds</span> - Only return sessions generated in the last N seconds. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">fortiasic</span> - "true" to show NPU accelerated sessions only, false to exclude. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">nturbo</span> - "true" to include nTurbo sessions, false to exclude. <span class="li-normal">type: object</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1144,6 +1145,14 @@ Parameters
         <li><span class="li-head">router_bgp_neighbors</span> 
         
         </li>
+        router_bgp_neighbors-statistics
+        <li><span class="li-head">router_bgp_neighbors-statistics</span> - Retrieve BGP neighbors statistics, including number of IPv4 or IPv6 BGP neighbors. 
+        <ul class="ul-self">
+                <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         router_bgp_neighbors6
         <li><span class="li-head">router_bgp_neighbors6</span> 
         
@@ -1207,6 +1216,16 @@ Parameters
                 <li><span class="li-required">source_port</span> - Source Port. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface_name</span> - Incoming Interface. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">protocol_number</span> - IP Protocol Number. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        router_lookup_ha-peer
+        <li><span class="li-head">router_lookup_ha-peer</span> - Performs a route lookup by querying the routing table of an HA peer. 
+        <ul class="ul-self">
+                <li><span class="li-required">serial</span> - HA peer serial number. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">ipv6</span> - Perform an IPv6 lookup. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">destination</span> - Destination IP/FQDN. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         
@@ -1400,6 +1419,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">mkey</span> - FortiSwitch ID. Will return all devices if no ID is provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">include_dynamic</span> - If true, include devices that match dynamic port policies. Default value is false. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">mac</span> - FortiSwitch client MAC address. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -1552,6 +1572,10 @@ Parameters
             </ul>
         
         </li>
+        system_cluster_state
+        <li><span class="li-head">system_cluster_state</span> 
+        
+        </li>
         system_com-log_download
         <li><span class="li-head">system_com-log_download</span> 
         
@@ -1664,6 +1688,14 @@ Parameters
             </ul>
         
         </li>
+        system_external-resource_validate-jsonpath
+        <li><span class="li-head">system_external-resource_validate-jsonpath</span> - Validate a JSON path name. 
+        <ul class="ul-self">
+                <li><span class="li-required">path_name</span> - The name of the JSON path to validate. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
         system_firmware
         <li><span class="li-head">system_firmware</span> 
         
@@ -1720,6 +1752,10 @@ Parameters
                 <li><span class="li-required">exact</span> - If true, only entries with exact match will be returned. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        system_ha-backup-hb-used
+        <li><span class="li-head">system_ha-backup-hb-used</span> 
         
         </li>
         system_ha-checksums
@@ -2048,6 +2084,18 @@ Parameters
             </ul>
         
         </li>
+        system_upgrade-report_current
+        <li><span class="li-head">system_upgrade-report_current</span> 
+        
+        </li>
+        system_upgrade-report_exists
+        <li><span class="li-head">system_upgrade-report_exists</span> 
+        
+        </li>
+        system_upgrade-report_saved
+        <li><span class="li-head">system_upgrade-report_saved</span> 
+        
+        </li>
         system_usb-log
         <li><span class="li-head">system_usb-log</span> 
         
@@ -2234,6 +2282,14 @@ Parameters
             </ul>
         
         </li>
+        user_scim_groups
+        <li><span class="li-head">user_scim_groups</span> - Get SCIM client group-names. 
+        <ul class="ul-self">
+                <li><span class="li-required">scim-client-name</span> - SCIM client name to be used to retrieve group names. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
         utm_antivirus_stats
         <li><span class="li-head">utm_antivirus_stats</span> 
         
@@ -2276,7 +2332,11 @@ Parameters
         
         </li>
         virtual-wan_health-check
-        <li><span class="li-head">virtual-wan_health-check</span> 
+        <li><span class="li-head">virtual-wan_health-check</span> - Retrieve health-check statistics for each SD-WAN link. 
+        <ul class="ul-self">
+                <li><span class="li-required">health_check_name</span> - Health check name. If not provided, will return results of all health checks. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         virtual-wan_interface-log
@@ -2290,7 +2350,12 @@ Parameters
         
         </li>
         virtual-wan_members
-        <li><span class="li-head">virtual-wan_members</span> 
+        <li><span class="li-head">virtual-wan_members</span> - Retrieve interface statistics for each SD-WAN link. 
+        <ul class="ul-self">
+                <li><span class="li-required">zone</span> - SD-WAN zone name. If not set, will return members of all SD-WAN zones. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">skip_vpn_child</span> - If set, will skip all VPN child interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         virtual-wan_sla-log
@@ -2301,8 +2366,13 @@ Parameters
                 <li><span class="li-required">since</span> - Filter: Only return SLA logs generated since this Unix timestamp. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">seconds</span> - Filter: Only return SLA logs generated in the last N seconds. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">sampling_interval</span> - The interval to be used for sampling SLA logs, in seconds (default=5). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">skip_vpn_child</span> - If set, will skip all VPN child interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        virtual-wan_sladb
+        <li><span class="li-head">virtual-wan_sladb</span> 
         
         </li>
         vpn-certificate_cert-name-available
@@ -2448,6 +2518,7 @@ Parameters
                 <li><span class="li-required">type</span> - Request type [all*|fail-login]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">with_triangulation</span> - Enable to include regions of FortiAP detecting the client. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">with_stats</span> - Enable to include statistics of FortiAP client. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">mac</span> - WiFi client MAC address. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2484,7 +2555,11 @@ Parameters
         
         </li>
         wifi_matched-devices
-        <li><span class="li-head">wifi_matched-devices</span> 
+        <li><span class="li-head">wifi_matched-devices</span> - Return a list of devices that match NAC WiFi settings. 
+        <ul class="ul-self">
+                <li><span class="li-required">mac</span> - WiFi client MAC address. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         wifi_meta
@@ -2535,6 +2610,10 @@ Parameters
                 <li><span class="li-required">max_age</span> - Maximum value for RSSI 2G age and 5G RSSI age, in seconds. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        wifi_statistics
+        <li><span class="li-head">wifi_statistics</span> 
         
         </li>
         wifi_unassociated-devices

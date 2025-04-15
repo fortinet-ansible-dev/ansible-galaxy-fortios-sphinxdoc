@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.6.0
+Supported Version Ranges: v7.0.2 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_syslog_profile</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -89,32 +89,32 @@ Parameters
  </tr>
  <tr>
  <td>log_level</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[emergency]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[alert]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[critical]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[error]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[warning]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[notification]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[information]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[debugging]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -128,7 +128,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -143,14 +143,14 @@ Parameters
  </tr>
  <tr>
  <td>server_addr_type</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -164,7 +164,7 @@ Parameters
  </tr>
  <tr>
  <td>server_fqdn</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -179,7 +179,7 @@ Parameters
  </tr>
  <tr>
  <td>server_ip</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +194,7 @@ Parameters
  </tr>
  <tr>
  <td>server_port</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -209,14 +209,35 @@ Parameters
  </tr>
  <tr>
  <td>server_status</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">server_type</span> - Configure syslog server type . <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, fortianalyzer</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>server_type</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[standard]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[fortianalyzer]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -254,6 +275,7 @@ Examples
               server_ip: "<your_own_value>"
               server_port: "514"
               server_status: "enable"
+              server_type: "standard"
 
 
 Return Values

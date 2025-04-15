@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.0
+Supported Version Ranges: v6.0.0 -> v7.6.2
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>allow_routing</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>associated_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>cache_ttl</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -125,26 +125,26 @@ Parameters
  </tr>
  <tr>
  <td>clearpass_spt</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[unknown]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[healthy]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[checkup]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[transient]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[infected]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -158,7 +158,7 @@ Parameters
  </tr>
  <tr>
  <td>color</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -173,7 +173,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -188,7 +188,7 @@ Parameters
  </tr>
  <tr>
  <td>country</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -203,7 +203,7 @@ Parameters
  </tr>
  <tr>
  <td>end_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -233,7 +233,7 @@ Parameters
  </tr>
  <tr>
  <td>epg_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -248,14 +248,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_object</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -269,7 +269,7 @@ Parameters
  </tr>
  <tr>
  <td>filter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -284,7 +284,7 @@ Parameters
  </tr>
  <tr>
  <td>fqdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -298,7 +298,7 @@ Parameters
  </tr>
  <tr>
  <td>fsso_group</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -314,7 +314,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -330,7 +330,7 @@ Parameters
  </tr>
  <tr>
  <td>hw_model</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -345,7 +345,7 @@ Parameters
  </tr>
  <tr>
  <td>hw_vendor</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -360,7 +360,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -374,7 +374,7 @@ Parameters
  </tr>
  <tr>
  <td>list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -390,7 +390,7 @@ Parameters
  </tr>
  <tr>
  <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -435,7 +435,7 @@ Parameters
  </tr>
  <tr>
  <td>macaddr</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -451,7 +451,7 @@ Parameters
  </tr>
  <tr>
  <td>macaddr</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -467,7 +467,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -482,14 +482,14 @@ Parameters
  </tr>
  <tr>
  <td>node_ip_only</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -503,7 +503,7 @@ Parameters
  </tr>
  <tr>
  <td>obj_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -519,7 +519,7 @@ Parameters
  <tr>
  <td>obj_tag</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -535,7 +535,7 @@ Parameters
  <tr>
  <td>obj_type</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[ip]</td>
@@ -556,7 +556,7 @@ Parameters
  </tr>
  <tr>
  <td>organization</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -571,7 +571,7 @@ Parameters
  </tr>
  <tr>
  <td>os</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -586,7 +586,7 @@ Parameters
  </tr>
  <tr>
  <td>policy_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -601,7 +601,7 @@ Parameters
  </tr>
  <tr>
  <td>route_tag</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -616,7 +616,7 @@ Parameters
  </tr>
  <tr>
  <td>sdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -631,17 +631,17 @@ Parameters
  </tr>
  <tr>
  <td>sdn_addr_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[private]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[public]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -655,14 +655,45 @@ Parameters
  </tr>
  <tr>
  <td>sdn_tag</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">start_ip</span> - First IP address (inclusive) in the range for the address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sso_attribute_value</span> - Name(s) of the RADIUS user groups that this address includes. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: sso_attribute_value:name</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>sso_attribute_value</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - RADIUS user group name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">start_ip</span> - First IP address (inclusive) in the range for the address. <span class="li-normal">type: str</span>
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -670,14 +701,14 @@ Parameters
  </tr>
  <tr>
  <td>start_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">start_mac</span> - First MAC address in the range. <span class="li-normal">type: str</span>
- <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
- <div id="label77" style="display:none">
+ <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
+ <div id="label81" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -690,70 +721,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sub_type</span> - Sub-type of address. <span class="li-normal">type: str</span> <span class="li-normal">choices: sdn, clearpass-spt, fsso, ems-tag, fortivoice-tag, fortinac-tag, fortipolicy-tag, swc-tag, device-identification</span>
- <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
- <div id="label79" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>sub_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0 </code></td>
- </tr>
- <tr>
- <td>[sdn]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[clearpass-spt]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[fsso]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
- <tr>
- <td>[ems-tag]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[fortivoice-tag]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[fortinac-tag]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[fortipolicy-tag]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[swc-tag]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.0</code></td>
- </tr>
- <tr>
- <td>[device-identification]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">subnet</span> - IP address and subnet mask of address. <span class="li-normal">type: str</span>
- <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
- <div id="label81" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>subnet</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">subnet_name</span> - Subnet name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sub_type</span> - Sub-type of address. <span class="li-normal">type: str</span> <span class="li-normal">choices: sdn, clearpass-spt, fsso, rsso, ems-tag, fortivoice-tag, fortinac-tag, fortipolicy-tag, swc-tag, device-identification, external-resource</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -762,13 +730,54 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>subnet_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>sub_type</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ </tr>
+ <tr>
+ <td>[sdn]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[clearpass-spt]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[fsso]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[rsso]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[ems-tag]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[fortivoice-tag]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[fortinac-tag]</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[fortipolicy-tag]</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[swc-tag]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[device-identification]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ </tr>
+ <tr>
+ <td>[external-resource]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sw_version</span> - Dynamic address matching software version. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">subnet</span> - IP address and subnet mask of address. <span class="li-normal">type: str</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -777,13 +786,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sw_version</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0 </code></td>
+ <td>subnet</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tag_detection_level</span> - Tag detection level of dynamic address object. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">subnet_name</span> - Subnet name. <span class="li-normal">type: str</span>
  <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
  <div id="label87" style="display:none">
  <table border="1">
@@ -792,13 +801,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tag_detection_level</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td>subnet_name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tag_type</span> - Tag type of dynamic address object. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sw_version</span> - Dynamic address matching software version. <span class="li-normal">type: str</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -807,28 +816,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tag_type</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.0 </code></td>
+ <td>sw_version</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name</span>
+        <li> <span class="li-head">tag_detection_level</span> - Tag detection level of dynamic address object. <span class="li-normal">type: str</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tagging</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>tag_detection_level</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">category</span> - Tag category. Source system.object-tagging.category. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">tag_type</span> - Tag type of dynamic address object. <span class="li-normal">type: str</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -837,43 +846,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>category</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>tag_type</td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">tagging</span> - Config object tagging. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name</span>
  <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
  <div id="label95" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tagging</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">category</span> - Tag category. Source system.object-tagging.category. <span class="li-normal">type: str</span>
+ <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
+ <div id="label97" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>category</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name/tags:name</span>
- <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
- <div id="label97" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>tags</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">name</span> - Tagging entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
@@ -883,29 +892,27 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            </ul>
-        <li> <span class="li-head">tenant</span> - Tenant. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">tags</span> - Tags. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tagging:name/tags:name</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tenant</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td>tags</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Type of address. <span class="li-normal">type: str</span> <span class="li-normal">choices: ipmask, iprange, fqdn, geography, wildcard, dynamic, interface-subnet, mac, route-tag, wildcard-fqdn</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - Tag name. Source system.object-tagging.tags.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
  <div id="label103" style="display:none">
  <table border="1">
@@ -914,38 +921,70 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            </ul>
+        <li> <span class="li-head">tenant</span> - Tenant. <span class="li-normal">type: str</span>
+ <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
+ <div id="label105" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tenant</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - Type of address. <span class="li-normal">type: str</span> <span class="li-normal">choices: ipmask, iprange, fqdn, geography, wildcard, dynamic, interface-subnet, mac, route-tag, wildcard-fqdn</span>
+ <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
+ <div id="label107" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[ipmask]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[iprange]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[geography]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[wildcard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[dynamic]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  <tr>
  <td>[interface-subnet]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[mac]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[route-tag]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
  </tr>
  <tr>
  <td>[wildcard-fqdn]</td>
@@ -955,8 +994,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
- <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
- <div id="label105" style="display:none">
+ <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
+ <div id="label109" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -964,14 +1003,14 @@ Parameters
  </tr>
  <tr>
  <td>uuid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">visibility</span> - Enable/disable address visibility in the GUI. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
- <div id="label107" style="display:none">
+ <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
+ <div id="label111" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -991,8 +1030,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">wildcard</span> - IP address and wildcard netmask. <span class="li-normal">type: str</span>
- <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
- <div id="label109" style="display:none">
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1000,14 +1039,14 @@ Parameters
  </tr>
  <tr>
  <td>wildcard</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">wildcard_fqdn</span> - Fully Qualified Domain Name with wildcard characters. <span class="li-normal">type: str</span>
- <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
- <div id="label111" style="display:none">
+ <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
+ <div id="label115" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1015,7 +1054,7 @@ Parameters
  </tr>
  <tr>
  <td>wildcard_fqdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -1085,6 +1124,9 @@ Examples
               sdn: "<your_own_value> (source system.sdn-connector.name)"
               sdn_addr_type: "private"
               sdn_tag: "<your_own_value>"
+              sso_attribute_value:
+                  -
+                      name: "default_name_40"
               start_ip: "<your_own_value>"
               start_mac: "<your_own_value>"
               sub_type: "sdn"
@@ -1096,10 +1138,10 @@ Examples
               tagging:
                   -
                       category: "<your_own_value> (source system.object-tagging.category)"
-                      name: "default_name_49"
+                      name: "default_name_51"
                       tags:
                           -
-                              name: "default_name_51 (source system.object-tagging.tags.name)"
+                              name: "default_name_53 (source system.object-tagging.tags.name)"
               tenant: "<your_own_value>"
               type: "ipmask"
               uuid: "<your_own_value>"

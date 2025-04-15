@@ -4,6 +4,31 @@ Release Notes
 
 |
 
+Release Galaxy 2.4.0
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.4.0 is based on 2.3.9
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Github Issue #362
+- Github Issue #365
+- Github Issue #382
+- Github Issue #251
+- Github Issue #355
+- Github Issue #366
+- Github Issue #364
+- Github Issue #383
+- Mantis Issue #1109817
+
+Improvements
+^^^^^^^^^^^^^^^
+- Supported fortiOS 7.6.1 and 7.6.2
+- Updated the examples with correct values that have minimum or maximum values.
+
 Release Galaxy 2.3.9
 --------------------
 

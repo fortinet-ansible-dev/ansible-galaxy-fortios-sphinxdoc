@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>ztna_traffic_forward_proxy_reverse_service</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -72,7 +72,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_servers</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -103,7 +103,7 @@ Parameters
  </tr>
  <tr>
  <td>certificate</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  </tr>
  <tr>
  <td>health_check_interval</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -133,7 +133,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
@@ -163,17 +163,17 @@ Parameters
  </tr>
  <tr>
  <td>ssl_max_version</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  <tr>
  <td>[tls-1.1]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  <tr>
  <td>[tls-1.2]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  <tr>
  <td>[tls-1.3]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -187,14 +187,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  </table>
  </div>
  </li>
@@ -208,7 +208,7 @@ Parameters
  </tr>
  <tr>
  <td>trusted_server_ca</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>

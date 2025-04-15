@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.0
+Supported Version Ranges: v7.6.0 -> v7.6.2
 
 
 Parameters
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>user_scim</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">base_url</span> - Server URL to receive SCIM create, read, update, delete (CRUD) requests. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">auth_method</span> - TLS client authentication methods . <span class="li-normal">type: str</span> <span class="li-normal">choices: token, base</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -73,13 +73,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>base_url</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>auth_method</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[token]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <tr>
+ <td>[base]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">certificate</span> - Certificate name. Source vpn.certificate.ca.name vpn.certificate.remote.name certificate.ca.name certificate.remote.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">base_url</span> - Server URL to receive SCIM create, read, update, delete (CRUD) requests. <span class="li-normal">type: str</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -88,13 +94,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>certificate</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>base_url</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">client_authentication_method</span> - TLS client authentication methods . <span class="li-normal">type: str</span> <span class="li-normal">choices: token, base</span>
+        <li> <span class="li-head">certificate</span> - Certificate for client verification during TLS handshake. Source vpn.certificate.ca.name vpn.certificate.remote.name certificate.ca.name certificate.remote.name. <span class="li-normal">type: str</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -103,19 +109,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>client_authentication_method</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>certificate</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
- <tr>
- <td>[token]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
- <tr>
- <td>[base]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">client_identity_check</span> - Enable/disable client identity check. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">client_authentication_method</span> - TLS client authentication methods . <span class="li-normal">type: str</span> <span class="li-normal">choices: token, base</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -124,19 +124,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>client_identity_check</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>client_authentication_method</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td>[token]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td>[base]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">client_secret_token</span> - Client secret token for authentication. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">client_identity_check</span> - Enable/disable client identity check. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -145,13 +145,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>client_secret_token</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>client_identity_check</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">id</span> - SCIM client ID. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">client_secret_token</span> - Client secret token for authentication. <span class="li-normal">type: str</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -160,13 +166,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>client_secret_token</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - SCIM client name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">id</span> - SCIM client ID. <span class="li-normal">type: int</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -175,13 +181,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable System for Cross-domain Identity Management (SCIM). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">name</span> - SCIM client name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -190,15 +196,60 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">secret</span> - Secret for token verification or base authentication. <span class="li-normal">type: str</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>secret</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">status</span> - Enable/disable System for Cross-domain Identity Management (SCIM). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.0</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">token_certificate</span> - Certificate for token verification. Source vpn.certificate.remote.name vpn.certificate.local.name. <span class="li-normal">type: str</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>token_certificate</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -228,14 +279,17 @@ Examples
           state: "present"
           access_token: "<your_own_value>"
           user_scim:
+              auth_method: "token"
               base_url: "<your_own_value>"
               certificate: "<your_own_value> (source vpn.certificate.ca.name vpn.certificate.remote.name certificate.ca.name certificate.remote.name)"
               client_authentication_method: "token"
               client_identity_check: "enable"
               client_secret_token: "<your_own_value>"
-              id: "8"
-              name: "default_name_9"
+              id: "9"
+              name: "default_name_10"
+              secret: "<your_own_value>"
               status: "enable"
+              token_certificate: "<your_own_value> (source vpn.certificate.remote.name vpn.certificate.local.name)"
 
 
 Return Values

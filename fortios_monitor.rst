@@ -563,6 +563,10 @@ Parameters
         
         </li>
         <li><span class="li-head">dynamic.system.external-resource</span> - Push updates to the specified external resource. 
+        <ul class="ul-self">
+                <li><span class="li-required">commands</span> - The commands to execute to update dynamic external resources. <span class="li-normal">type: array  required: True </span> </li>
+                
+            </ul>
         
         </li>
         <li><span class="li-head">eject.system.usb-device</span> - Eject USB drives for safe removal. 
@@ -607,6 +611,10 @@ Parameters
         
         </li>
         <li><span class="li-head">format.system.logdisk</span> - Format log disk. 
+        <ul class="ul-self">
+                <li><span class="li-required">raid</span> - RAID level [Raid-0|Raid-1|Raid-5|Raid-10]. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
         
         </li>
         <li><span class="li-head">forticonverter.set-source-sn</span> - Set the source FortiGate which will upload its config. 
@@ -629,6 +637,7 @@ Parameters
                 <li><span class="li-required">mpsk_profile</span> - Multi pre-shared key profile to add keys to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">group</span> - Multi pre-shared key group to add keys to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">prefix</span> - Prefix to be added at the start of the generated key's name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">count</span> - Number of keys to be generated [1-512]. <span class="li-normal">type: int  required: True </span> </li>
                 <li><span class="li-required">key_length</span> - Length of the keys to be generated [8-63]. <span class="li-normal">type: int  required: True </span> </li>
                 
             </ul>
@@ -652,6 +661,14 @@ Parameters
                 <li><span class="li-required">scep_url</span> - SCEP server URL. If provided, use the url to enroll the csr through SCEP. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">scep_password</span> - SCEP challenge password. Some SCEP servers may require challege password. Provide it when SCEP server requires. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">scope</span> - Scope of CSR [vdom*|global]. Global scope is only accessible for global administrators <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">generic-address.system.external-resource</span> - Push JSON data to the specified external resource. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - The name of the external resource to update. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">data</span> - JSON data. <span class="li-normal">type: object  required: True </span> </li>
                 
             </ul>
         
@@ -930,7 +947,7 @@ Parameters
         </li>
         <li><span class="li-head">register-device.registration.forticloud</span> - Register a device to FortiCloud through FortiGate. Currently FortiSwitch and FortiAP are supported. 
         <ul class="ul-self">
-                <li><span class="li-required">serial</span> - Device serial number <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">serial</span> - Device serial number <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">email</span> - FortiCloud email. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">password</span> - Password. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">reseller</span> - Reseller. <span class="li-normal">type: string  required: True </span> </li>
@@ -1555,9 +1572,12 @@ Parameters
             </ul>
         
         </li>
-        <li><span class="li-head">upgrade.system.firmware</span> - Upgrade firmware image on this device using uploaded file. 
+        <li><span class="li-head">upgrade.system.firmware</span> - Upgrade firmware image on this device. 
         <ul class="ul-self">
-                <li><span class="li-required">source</span> - Firmware file data source [upload|usb|fortiguard]. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">source</span> - Firmware file data source [upload|usb|fortiguard|url]. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">url</span> - URL where the image should be retrieved from. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">passphrase</span> - Image encryption passphrase. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">force</span> - Bypass signature and validity checking. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">filename</span> - Name of file on USB disk to upgrade to, or ID from FortiGuard available firmware. <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">format_partition</span> - Set to true to format boot partition before upgrade. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">ignore_invalid_signature</span> - Set to true to allow upgrade of firmware images with invalid signatures. <span class="li-normal">type: boolean  required: False </span> </li>
