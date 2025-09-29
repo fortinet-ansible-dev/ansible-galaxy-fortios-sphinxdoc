@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>dnsfilter_domain_filter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>entries</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,21 +104,21 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[monitor]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">domain</span> - Domain entries to be filtered. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -127,13 +127,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>domain</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>comment</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - Id. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">domain</span> - Domain entries to be filtered. <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -142,13 +142,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>domain</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">status</span> - Enable/disable this domain filter. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">id</span> - Id. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -157,19 +157,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">type</span> - DNS domain filter type. <span class="li-normal">type: str</span> <span class="li-normal">choices: simple, regex, wildcard</span>
+            <li> <span class="li-head">status</span> - Enable/disable this domain filter. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -178,23 +172,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[simple]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
- <td>[regex]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[wildcard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">type</span> - DNS domain filter type. <span class="li-normal">type: str</span> <span class="li-normal">choices: simple, regex, wildcard</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -203,13 +193,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[simple]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[regex]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[wildcard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Name of table. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -218,8 +218,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">name</span> - Name of table. <span class="li-normal">type: str</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -256,12 +271,13 @@ Examples
               entries:
                   -
                       action: "block"
+                      comment: "Comment."
                       domain: "<your_own_value>"
-                      id: "7"
+                      id: "8"
                       status: "enable"
                       type: "simple"
-              id: "10"
-              name: "default_name_11"
+              id: "11"
+              name: "default_name_12"
 
 
 Return Values

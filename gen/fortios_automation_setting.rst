@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.0 -> v7.6.2
+Supported Version Ranges: v7.2.0 -> v7.6.4
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>automation_setting</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_sync</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -94,8 +94,29 @@ Parameters
  </tr>
  <tr>
  <td>max_concurrent_stitches</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">secure_mode</span> - Enable/disable secure running mode for automation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
+ <div id="label7" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>secure_mode</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -125,6 +146,7 @@ Examples
           automation_setting:
               fabric_sync: "enable"
               max_concurrent_stitches: "512"
+              secure_mode: "enable"
 
 
 Return Values

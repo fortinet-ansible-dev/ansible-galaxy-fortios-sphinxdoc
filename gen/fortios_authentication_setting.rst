@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>authentication_setting</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>active_auth_scheme</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -88,14 +88,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_https</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -109,7 +109,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -124,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -139,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -154,7 +154,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -169,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal_ssl_port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -184,14 +184,14 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -205,7 +205,7 @@ Parameters
  </tr>
  <tr>
  <td>captive_portal6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -220,14 +220,14 @@ Parameters
  </tr>
  <tr>
  <td>cert_auth</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -241,7 +241,7 @@ Parameters
  </tr>
  <tr>
  <td>cert_captive_portal</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -256,7 +256,7 @@ Parameters
  </tr>
  <tr>
  <td>cert_captive_portal_ip</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -271,7 +271,7 @@ Parameters
  </tr>
  <tr>
  <td>cert_captive_portal_port</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -286,7 +286,7 @@ Parameters
  </tr>
  <tr>
  <td>cookie_max_age</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -301,7 +301,7 @@ Parameters
  </tr>
  <tr>
  <td>cookie_refresh_div</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -315,7 +315,7 @@ Parameters
  </tr>
  <tr>
  <td>dev_range</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -331,7 +331,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -347,14 +347,14 @@ Parameters
  </tr>
  <tr>
  <td>ip_auth_cookie</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -368,14 +368,14 @@ Parameters
  </tr>
  <tr>
  <td>persistent_cookie</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -389,7 +389,7 @@ Parameters
  </tr>
  <tr>
  <td>sso_auth_scheme</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -404,7 +404,7 @@ Parameters
  </tr>
  <tr>
  <td>update_time</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -418,7 +418,7 @@ Parameters
  </tr>
  <tr>
  <td>user_cert_ca</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -434,7 +434,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

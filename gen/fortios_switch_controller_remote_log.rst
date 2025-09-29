@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.2
+Supported Version Ranges: v6.2.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_remote_log</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>csv</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -95,80 +95,80 @@ Parameters
  </tr>
  <tr>
  <td>facility</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[kernel]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[user]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[mail]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[daemon]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[auth]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[syslog]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[lpr]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[news]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[uucp]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[cron]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[authpriv]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[ftp]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[ntp]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[audit]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[alert]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[clock]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local0]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local1]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local2]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local4]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local5]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local6]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[local7]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -182,7 +182,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -197,7 +197,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -212,7 +212,7 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -227,32 +227,32 @@ Parameters
  </tr>
  <tr>
  <td>severity</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[emergency]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[alert]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[critical]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[error]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[warning]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[notification]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[information]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[debug]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -266,14 +266,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>

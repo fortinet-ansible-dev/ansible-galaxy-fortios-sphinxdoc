@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_sdn_connector</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>access_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>alt_resource_ip</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>api_key</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -125,23 +125,23 @@ Parameters
  </tr>
  <tr>
  <td>azure_region</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[global]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[china]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[germany]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[usgov]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[local]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>client_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>client_secret</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -199,7 +199,7 @@ Parameters
  </tr>
  <tr>
  <td>compartment_list</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -215,7 +215,7 @@ Parameters
  </tr>
  <tr>
  <td>compartment_id</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -246,7 +246,7 @@ Parameters
  </tr>
  <tr>
  <td>domain</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -260,7 +260,7 @@ Parameters
  </tr>
  <tr>
  <td>external_account_list</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -277,7 +277,7 @@ Parameters
  <tr>
  <td>external_id</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -291,7 +291,7 @@ Parameters
  </tr>
  <tr>
  <td>region_list</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -307,7 +307,7 @@ Parameters
  </tr>
  <tr>
  <td>region</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -323,7 +323,7 @@ Parameters
  </tr>
  <tr>
  <td>role_arn</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -338,7 +338,7 @@ Parameters
  </tr>
  <tr>
  <td>external_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -354,7 +354,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -369,7 +369,7 @@ Parameters
  </tr>
  <tr>
  <td>forwarding_rule</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -385,7 +385,7 @@ Parameters
  </tr>
  <tr>
  <td>rule_name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -400,7 +400,7 @@ Parameters
  </tr>
  <tr>
  <td>target</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -430,7 +430,7 @@ Parameters
  </tr>
  <tr>
  <td>gcp_project_list</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -445,7 +445,7 @@ Parameters
  </tr>
  <tr>
  <td>gcp_zone_list</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -461,7 +461,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -477,7 +477,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -493,7 +493,7 @@ Parameters
  </tr>
  <tr>
  <td>group_name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -508,14 +508,14 @@ Parameters
  </tr>
  <tr>
  <td>ha_status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -530,47 +530,47 @@ Parameters
  <tr>
  <td>ibm_region</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[dallas]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[washington-dc]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[london]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[frankfurt]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[sydney]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[tokyo]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[osaka]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[toronto]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[sao-paulo]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[madrid]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[us-south]</td>
@@ -688,7 +688,7 @@ Parameters
  </tr>
  <tr>
  <td>login_endpoint</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -703,12 +703,12 @@ Parameters
  </tr>
  <tr>
  <td>message_server_port</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - SDN connector name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">microsoft_365</span> - Enable to use as Microsoft 365 connector. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -717,45 +717,21 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>microsoft_365</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">nic</span> - Configure Azure network interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nic:name</span>
+        <li> <span class="li-head">name</span> - SDN connector name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>nic</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">ip</span> - Configure IP configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nic:name/ip:name</span>
- <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
- <div id="label75" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - IP configuration name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
- <div id="label77" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -763,12 +739,42 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">private_ip</span> - Private IP address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">nic</span> - Configure Azure network interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nic:name</span>
+ <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
+ <div id="label75" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>nic</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">ip</span> - Configure IP configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nic:name/ip:name</span>
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - IP configuration name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -777,13 +783,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>private_ip</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">public_ip</span> - Public IP name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">private_ip</span> - Private IP address. <span class="li-normal">type: str</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -792,13 +798,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>public_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>private_ip</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">resource_group</span> - Resource group of Azure public IP. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">public_ip</span> - Public IP name. <span class="li-normal">type: str</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -807,14 +813,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>resource_group</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td>public_ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">name</span> - Network interface name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">resource_group</span> - Resource group of Azure public IP. <span class="li-normal">type: str</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -823,13 +828,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>resource_group</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">peer_nic</span> - Peer network interface name. <span class="li-normal">type: str</span>
+                </ul>
+            <li> <span class="li-head">name</span> - Network interface name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
  <div id="label87" style="display:none">
  <table border="1">
@@ -838,14 +844,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>peer_nic</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">oci_cert</span> - OCI certificate. Source certificate.local.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">peer_nic</span> - Peer network interface name. <span class="li-normal">type: str</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -854,15 +859,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>peer_nic</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">oci_cert</span> - OCI certificate. Source certificate.local.name. <span class="li-normal">type: str</span>
+ <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
+ <div id="label91" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>oci_cert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">oci_fingerprint</span> - OCI pubkey fingerprint. <span class="li-normal">type: str</span>
- <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
- <div id="label91" style="display:none">
+ <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
+ <div id="label93" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -877,8 +898,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">oci_region</span> - OCI server region. <span class="li-normal">type: str</span> <span class="li-normal">choices: phoenix, ashburn, frankfurt, london</span>
- <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
- <div id="label93" style="display:none">
+ <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
+ <div id="label95" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -908,37 +929,21 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">oci_region_list</span> - Configure OCI region list. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: oci_region_list:region</span>
- <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
- <div id="label95" style="display:none">
+ <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
+ <div id="label97" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>oci_region_list</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">region</span> - OCI region. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
- <div id="label97" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>region</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">oci_region_type</span> - OCI region type. <span class="li-normal">type: str</span> <span class="li-normal">choices: commercial, government</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
@@ -947,19 +952,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>oci_region_type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td>region</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[commercial]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- <tr>
- <td>[government]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">password</span> - Password of the remote SDN connector as login credentials. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">oci_region_type</span> - OCI region type. <span class="li-normal">type: str</span> <span class="li-normal">choices: commercial, government</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
@@ -968,13 +968,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>oci_region_type</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[commercial]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[government]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">private_key</span> - Private key of GCP service account. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">password</span> - Password of the remote SDN connector as login credentials. <span class="li-normal">type: str</span>
  <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
  <div id="label103" style="display:none">
  <table border="1">
@@ -983,13 +989,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>private_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>password</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">proxy</span> - SDN proxy. Source system.sdn-proxy.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">private_key</span> - Private key of GCP service account. <span class="li-normal">type: str</span>
  <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
  <div id="label105" style="display:none">
  <table border="1">
@@ -998,13 +1004,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>proxy</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
+ <td>private_key</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">region</span> - AWS / ACS region name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">proxy</span> - SDN proxy. Source system.sdn-proxy.name. <span class="li-normal">type: str</span>
  <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
  <div id="label107" style="display:none">
  <table border="1">
@@ -1013,13 +1019,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>region</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>proxy</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">resource_group</span> - Azure resource group. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">region</span> - AWS / ACS region name. <span class="li-normal">type: str</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -1028,13 +1034,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>resource_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>region</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">resource_url</span> - Azure Stack resource URL. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">resource_group</span> - Azure resource group. <span class="li-normal">type: str</span>
  <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
  <div id="label111" style="display:none">
  <table border="1">
@@ -1043,30 +1049,45 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>resource_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">resource_url</span> - Azure Stack resource URL. <span class="li-normal">type: str</span>
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>resource_url</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">route</span> - Configure GCP route. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: route:name</span>
- <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
- <div id="label113" style="display:none">
+ <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
+ <div id="label115" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Route name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
- <div id="label115" style="display:none">
+ <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
+ <div id="label117" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1074,43 +1095,28 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">route_table</span> - Configure Azure route table. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: route_table:name</span>
- <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
- <div id="label117" style="display:none">
+ <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
+ <div id="label119" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>route_table</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Route table name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
- <div id="label119" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">resource_group</span> - Resource group of Azure route table. <span class="li-normal">type: str</span>
  <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
  <div id="label121" style="display:none">
  <table border="1">
@@ -1119,43 +1125,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>resource_group</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">route</span> - Configure Azure route. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: route_table:name/route:name</span>
+            <li> <span class="li-head">resource_group</span> - Resource group of Azure route table. <span class="li-normal">type: str</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - Route name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
- <div id="label125" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>resource_group</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">next_hop</span> - Next hop address. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">route</span> - Configure Azure route. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: route_table:name/route:name</span>
+ <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
+ <div id="label125" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>route</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - Route name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
  <div id="label127" style="display:none">
  <table border="1">
@@ -1164,16 +1170,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">next_hop</span> - Next hop address. <span class="li-normal">type: str</span>
+ <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
+ <div id="label129" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>next_hop</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 </ul>
             <li> <span class="li-head">subscription_id</span> - Subscription ID of Azure route table. <span class="li-normal">type: str</span>
- <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
- <div id="label129" style="display:none">
+ <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
+ <div id="label131" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1182,28 +1203,13 @@ Parameters
  <tr>
  <td>subscription_id</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">secret_key</span> - AWS / ACS secret access key. <span class="li-normal">type: str</span>
- <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
- <div id="label131" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>secret_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">secret_token</span> - Secret token of Kubernetes service account. <span class="li-normal">type: str</span>
  <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
  <div id="label133" style="display:none">
  <table border="1">
@@ -1212,13 +1218,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>secret_token</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td>secret_key</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server</span> - Server address of the remote SDN connector. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">secret_token</span> - Secret token of Kubernetes service account. <span class="li-normal">type: str</span>
  <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
  <div id="label135" style="display:none">
  <table border="1">
@@ -1227,13 +1233,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>secret_token</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_ca_cert</span> - Trust only those servers whose certificate is directly/indirectly signed by this certificate. Source certificate.remote.name certificate .ca.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server</span> - Server address of the remote SDN connector. <span class="li-normal">type: str</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
  <table border="1">
@@ -1242,13 +1248,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_ca_cert</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
+ <td>server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_cert</span> - Trust servers that contain this certificate only. Source certificate.remote.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server_ca_cert</span> - Trust only those servers whose certificate is directly/indirectly signed by this certificate. Source certificate.remote.name certificate .ca.name. <span class="li-normal">type: str</span>
  <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
  <div id="label139" style="display:none">
  <table border="1">
@@ -1257,44 +1263,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_cert</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2 </code></td>
+ <td>server_ca_cert</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_list</span> - Server address list of the remote SDN connector. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server_list:ip</span>
+        <li> <span class="li-head">server_cert</span> - Trust servers that contain this certificate only. Source certificate.remote.name. <span class="li-normal">type: str</span>
  <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
  <div id="label141" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>server_list</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">ip</span> - IPv4 address. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
- <div id="label143" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ip</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td>server_cert</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">server_port</span> - Port number of the remote SDN connector. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">server_list</span> - Server address list of the remote SDN connector. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: server_list:ip</span>
+ <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
+ <div id="label143" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>server_list</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">ip</span> - IPv4 address. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
  <div id="label145" style="display:none">
  <table border="1">
@@ -1303,13 +1308,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>ip</td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">service_account</span> - GCP service account email. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">server_port</span> - Port number of the remote SDN connector. <span class="li-normal">type: int</span>
  <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
  <div id="label147" style="display:none">
  <table border="1">
@@ -1318,13 +1324,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>service_account</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>server_port</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable connection to the remote SDN connector. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">service_account</span> - GCP service account email. <span class="li-normal">type: str</span>
  <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
  <div id="label149" style="display:none">
  <table border="1">
@@ -1333,19 +1339,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>service_account</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">subscription_id</span> - Azure subscription ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">status</span> - Enable/disable connection to the remote SDN connector. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
  <div id="label151" style="display:none">
  <table border="1">
@@ -1354,13 +1354,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>subscription_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tenant_id</span> - Tenant ID (directory ID). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">subscription_id</span> - Azure subscription ID. <span class="li-normal">type: str</span>
  <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
  <div id="label153" style="display:none">
  <table border="1">
@@ -1369,13 +1375,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tenant_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>subscription_id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Type of SDN connector. <span class="li-normal">type: str</span> <span class="li-normal">choices: aci, alicloud, aws, azure, gcp, nsx, nuage, oci, openstack, kubernetes, vmware, sepm, aci-direct, ibm, nutanix, sap</span>
+        <li> <span class="li-head">tenant_id</span> - Tenant ID (directory ID). <span class="li-normal">type: str</span>
  <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
  <div id="label155" style="display:none">
  <table border="1">
@@ -1384,69 +1390,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- <tr>
- <td>[aci]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[alicloud]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[aws]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[azure]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[gcp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[nsx]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[nuage]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[oci]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[openstack]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[kubernetes]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[vmware]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[sepm]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[aci-direct]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[ibm]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[nutanix]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[sap]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td>tenant_id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_interval</span> - Dynamic object update interval (30 - 3600 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">type</span> - Type of SDN connector. <span class="li-normal">type: str</span> <span class="li-normal">choices: aci, alicloud, aws, azure, gcp, nsx, nuage, oci, openstack, kubernetes, vmware, sepm, aci-direct, ibm, nutanix, sap</span>
  <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
  <div id="label157" style="display:none">
  <table border="1">
@@ -1455,13 +1405,69 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[aci]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[alicloud]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[aws]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[azure]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[gcp]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[nsx]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[nuage]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[oci]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[openstack]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[kubernetes]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[vmware]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[sepm]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[aci-direct]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[ibm]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[nutanix]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[sap]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">use_metadata_iam</span> - Enable/disable use of IAM role from metadata to call API. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">update_interval</span> - Dynamic object update interval (30 - 3600 sec). <span class="li-normal">type: int</span>
  <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
  <div id="label159" style="display:none">
  <table border="1">
@@ -1470,19 +1476,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>use_metadata_iam</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>update_interval</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">user_id</span> - User ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">use_metadata_iam</span> - Enable/disable use of IAM role from metadata to call API. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
  <div id="label161" style="display:none">
  <table border="1">
@@ -1491,13 +1491,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>user_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>use_metadata_iam</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">username</span> - Username of the remote SDN connector as login credentials. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">user_id</span> - User ID. <span class="li-normal">type: str</span>
  <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
  <div id="label163" style="display:none">
  <table border="1">
@@ -1506,13 +1512,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>username</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>user_id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vcenter_password</span> - vCenter server password for NSX quarantine. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">username</span> - Username of the remote SDN connector as login credentials. <span class="li-normal">type: str</span>
  <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
  <div id="label165" style="display:none">
  <table border="1">
@@ -1521,13 +1527,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vcenter_password</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td>username</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vcenter_server</span> - vCenter server address for NSX quarantine. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">vcenter_password</span> - vCenter server password for NSX quarantine. <span class="li-normal">type: str</span>
  <a id='label166' href="javascript:ContentClick('label167', 'label166');" onmouseover="ContentPreview('label167');" onmouseout="ContentUnpreview('label167');" title="click to collapse or expand..."> more... </a>
  <div id="label167" style="display:none">
  <table border="1">
@@ -1536,13 +1542,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vcenter_server</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td>vcenter_password</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vcenter_username</span> - vCenter server username for NSX quarantine. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">vcenter_server</span> - vCenter server address for NSX quarantine. <span class="li-normal">type: str</span>
  <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
  <div id="label169" style="display:none">
  <table border="1">
@@ -1551,13 +1557,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vcenter_username</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td>vcenter_server</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">verify_certificate</span> - Enable/disable server certificate verification. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">vcenter_username</span> - vCenter server username for NSX quarantine. <span class="li-normal">type: str</span>
  <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
  <div id="label171" style="display:none">
  <table border="1">
@@ -1566,19 +1572,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>verify_certificate</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td>vcenter_username</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vpc_id</span> - AWS VPC ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">vdom</span> - Virtual domain name of the remote SDN connector. Source system.vdom.name. <span class="li-normal">type: str</span>
  <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
  <div id="label173" style="display:none">
  <table border="1">
@@ -1587,8 +1587,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>vdom</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">verify_certificate</span> - Enable/disable server certificate verification. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
+ <div id="label175" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>verify_certificate</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vpc_id</span> - AWS VPC ID. <span class="li-normal">type: str</span>
+ <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
+ <div id="label177" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vpc_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1660,16 +1696,17 @@ Examples
               key_passwd: "<your_own_value>"
               login_endpoint: "<your_own_value>"
               message_server_port: "0"
-              name: "default_name_37"
+              microsoft_365: "disable"
+              name: "default_name_38"
               nic:
                   -
                       ip:
                           -
-                              name: "default_name_40"
+                              name: "default_name_41"
                               private_ip: "<your_own_value>"
                               public_ip: "<your_own_value>"
                               resource_group: "<your_own_value>"
-                      name: "default_name_44"
+                      name: "default_name_45"
                       peer_nic: "<your_own_value>"
               oci_cert: "<your_own_value> (source certificate.local.name)"
               oci_fingerprint: "<your_own_value>"
@@ -1686,14 +1723,14 @@ Examples
               resource_url: "<your_own_value>"
               route:
                   -
-                      name: "default_name_59"
+                      name: "default_name_60"
               route_table:
                   -
-                      name: "default_name_61"
+                      name: "default_name_62"
                       resource_group: "<your_own_value>"
                       route:
                           -
-                              name: "default_name_64"
+                              name: "default_name_65"
                               next_hop: "<your_own_value>"
                       subscription_id: "<your_own_value>"
               secret_key: "<your_own_value>"
@@ -1717,6 +1754,7 @@ Examples
               vcenter_password: "<your_own_value>"
               vcenter_server: "<your_own_value>"
               vcenter_username: "<your_own_value>"
+              vdom: "<your_own_value> (source system.vdom.name)"
               verify_certificate: "disable"
               vpc_id: "<your_own_value>"
 

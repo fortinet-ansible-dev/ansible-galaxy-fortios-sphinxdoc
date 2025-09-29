@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.1 -> v7.6.2
+Supported Version Ranges: v7.6.1 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_sdn_vpn</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>bgp_as</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>cgw_gateway</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>cgw_name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>internal_interface</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>local_cidr</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +149,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -164,14 +164,14 @@ Parameters
  </tr>
  <tr>
  <td>nat_traversal</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -185,7 +185,7 @@ Parameters
  </tr>
  <tr>
  <td>psksecret</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -200,7 +200,7 @@ Parameters
  </tr>
  <tr>
  <td>remote_cidr</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -215,14 +215,14 @@ Parameters
  </tr>
  <tr>
  <td>remote_type</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[vgw]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[tgw]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -236,14 +236,14 @@ Parameters
  </tr>
  <tr>
  <td>routing_type</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[dynamic]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -257,7 +257,7 @@ Parameters
  </tr>
  <tr>
  <td>sdn</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -272,7 +272,7 @@ Parameters
  </tr>
  <tr>
  <td>subnet_id</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -287,7 +287,7 @@ Parameters
  </tr>
  <tr>
  <td>tgw_id</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -302,7 +302,7 @@ Parameters
  </tr>
  <tr>
  <td>tunnel_interface</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -317,7 +317,7 @@ Parameters
  </tr>
  <tr>
  <td>vgw_id</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

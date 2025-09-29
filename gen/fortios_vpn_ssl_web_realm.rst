@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>vpn_ssl_web_realm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">login_page</span> - Replacement HTML for SSL-VPN login page. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">login_page</span> - Replacement HTML for Agentless VPN login page. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>login_page</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>max_concurrent_user</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>nas_ip</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -120,7 +120,7 @@ Parameters
  <tr>
  <td>radius_port</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -135,12 +135,12 @@ Parameters
  </tr>
  <tr>
  <td>radius_server</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">url_path</span> - URL path to access SSL-VPN login page. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">url_path</span> - URL path to access Agentless VPN login page. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -150,7 +150,7 @@ Parameters
  </tr>
  <tr>
  <td>url_path</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -165,12 +165,12 @@ Parameters
  </tr>
  <tr>
  <td>virtual_host</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">virtual_host_only</span> - Enable/disable enforcement of virtual host method for SSL-VPN client access. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">virtual_host_only</span> - Enable/disable enforcement of virtual host method for Agentless VPN client access. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -180,14 +180,14 @@ Parameters
  </tr>
  <tr>
  <td>virtual_host_only</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -201,7 +201,7 @@ Parameters
  </tr>
  <tr>
  <td>virtual_host_server_cert</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

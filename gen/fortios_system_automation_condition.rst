@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.1 -> v7.6.2
+Supported Version Ranges: v7.6.1 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_automation_condition</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,17 +74,17 @@ Parameters
  </tr>
  <tr>
  <td>condition_type</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[cpu]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[memory]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[vpn]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -98,7 +98,7 @@ Parameters
  </tr>
  <tr>
  <td>cpu_usage_percent</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -113,7 +113,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -128,7 +128,7 @@ Parameters
  </tr>
  <tr>
  <td>mem_usage_percent</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -143,7 +143,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -158,7 +158,7 @@ Parameters
  </tr>
  <tr>
  <td>vdom</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -173,7 +173,7 @@ Parameters
  </tr>
  <tr>
  <td>vpn_tunnel_name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -188,14 +188,14 @@ Parameters
  </tr>
  <tr>
  <td>vpn_tunnel_state</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[tunnel-up]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[tunnel-down]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.1 -> v7.6.2
+Supported Version Ranges: v7.6.1 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>webfilter_ftgd_local_risk</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>risk_score</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,14 +104,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>url</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

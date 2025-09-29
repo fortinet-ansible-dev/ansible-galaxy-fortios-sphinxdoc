@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>router_key_chain</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>accept_lifetime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,26 +104,26 @@ Parameters
  </tr>
  <tr>
  <td>algorithm</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[md5]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[hmac-sha1]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[hmac-sha256]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[hmac-sha384]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[hmac-sha512]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[cmac-aes128]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
  </tr>
  </table>
  </div>
@@ -138,7 +138,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +153,7 @@ Parameters
  </tr>
  <tr>
  <td>key_string</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -168,7 +168,7 @@ Parameters
  </tr>
  <tr>
  <td>send_lifetime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -184,7 +184,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

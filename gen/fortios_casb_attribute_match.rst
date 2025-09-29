@@ -4,8 +4,8 @@
 
 .. fortios_casb_attribute_match:
 
-fortios_casb_attribute_match -- Configure CASB SaaS application in Fortinet's FortiOS and FortiGate.
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fortios_casb_attribute_match -- Configure CASB attribute match rule in Fortinet's FortiOS and FortiGate.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 2.0.0
 
@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.1 -> v7.6.2
+Supported Version Ranges: v7.6.1 -> v7.6.4
 
 
 Parameters
@@ -49,7 +49,7 @@ Parameters
     <li> <span class="li-head">member_path</span> - Member attribute path to operate on. <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">member_state</span> - Add or delete a member under specified attribute path. <span class="li-normal">type: str</span> <span class="li-normal">choices: present, absent</span> </li>
     <li> <span class="li-head">state</span> - Indicates whether to create or remove the object. <span class="li-normal">type: str</span> <span class="li-required">required: true</span> <span class="li-normal">choices: present, absent</span> </li>
-    <li> <span class="li-head">casb_attribute_match</span> - Configure CASB SaaS application. <span class="li-normal">type: dict</span>
+    <li> <span class="li-head">casb_attribute_match</span> - Configure CASB attribute match rule. <span class="li-normal">type: dict</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
  <table border="1">
@@ -58,13 +58,13 @@ Parameters
  </tr>
  <tr>
  <td>casb_attribute_match</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <ul class="ul-self">
-        <li> <span class="li-head">application</span> - CASB tenant application name. Source casb.saas-application.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">application</span> - CASB attribute application name. Source casb.saas-application.name. <span class="li-normal">type: str</span>
  <a id='label2' href="javascript:ContentClick('label3', 'label2');" onmouseover="ContentPreview('label3');" onmouseout="ContentUnpreview('label3');" title="click to collapse or expand..."> more... </a>
  <div id="label3" style="display:none">
  <table border="1">
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>application</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>attribute</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -104,14 +104,14 @@ Parameters
  </tr>
  <tr>
  <td>case_sensitive</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -125,17 +125,17 @@ Parameters
  </tr>
  <tr>
  <td>match_pattern</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  <tr>
  <td>[simple]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  <tr>
  <td>[substr]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  <tr>
  <td>[regexp]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  </table>
  </div>
  </li>
@@ -149,7 +149,7 @@ Parameters
  </tr>
  <tr>
  <td>match_value</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -164,7 +164,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  </table>
  </div>
@@ -179,40 +179,34 @@ Parameters
  </tr>
  <tr>
  <td>negate</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.2</code></td>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">match_strategy</span> - CASB tenant match strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
+        <li> <span class="li-head">match</span> - CASB tenant match rules. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>match_strategy</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>match</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[and]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
- <tr>
- <td>[or]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - CASB tenant match name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">id</span> - CASB attribute match rule ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -221,8 +215,193 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">rule</span> - CASB attribute match rule. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: match:id/rule:id</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rule</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">attribute</span> - CASB attribute match name. <span class="li-normal">type: str</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>attribute</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">case_sensitive</span> - CASB attribute match case sensitive. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
+ <div id="label25" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>case_sensitive</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">id</span> - CASB attribute rule ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">match_pattern</span> - CASB attribute match pattern. <span class="li-normal">type: str</span> <span class="li-normal">choices: simple, substr, regexp</span>
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>match_pattern</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[simple]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[substr]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[regexp]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">match_value</span> - CASB attribute match value. <span class="li-normal">type: str</span>
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>match_value</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">negate</span> - Enable/disable what the matching strategy must not be. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>negate</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">rule_strategy</span> - CASB attribute match rule strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rule_strategy</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[and]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[or]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">match_strategy</span> - CASB attribute match strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: and, or</span>
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>match_strategy</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[and]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[or]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">name</span> - CASB attribute match name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -245,7 +424,7 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - name: Configure CASB SaaS application.
+    - name: Configure CASB attribute match rule.
       fortinet.fortios.fortios_casb_attribute_match:
           vdom: "{{ vdom }}"
           state: "present"
@@ -259,8 +438,20 @@ Examples
                       match_value: "<your_own_value>"
                       name: "default_name_8"
                       negate: "enable"
+              match:
+                  -
+                      id: "11"
+                      rule:
+                          -
+                              attribute: "<your_own_value>"
+                              case_sensitive: "enable"
+                              id: "15"
+                              match_pattern: "simple"
+                              match_value: "<your_own_value>"
+                              negate: "enable"
+                      rule_strategy: "and"
               match_strategy: "and"
-              name: "default_name_11"
+              name: "default_name_21"
 
 
 Return Values

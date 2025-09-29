@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.0.8, v7.2.0 -> v7.2.4, v7.4.3 -> v7.6.4
 
 
 Parameters
@@ -60,7 +60,7 @@ Parameters
  <td>gtp_apn_shaper</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -78,7 +78,7 @@ Parameters
  <td>action</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[drop]</td>
@@ -100,7 +100,7 @@ Parameters
  <td>apn</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -118,7 +118,7 @@ Parameters
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -136,7 +136,7 @@ Parameters
  <td>back_off_time</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +153,7 @@ Parameters
  <td>id</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  <td>rate_limit</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

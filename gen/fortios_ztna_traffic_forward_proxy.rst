@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.0 -> v7.6.2
+Supported Version Ranges: v7.6.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>ztna_traffic_forward_proxy</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_portal</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_virtual_host</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -146,7 +146,7 @@ Parameters
  </tr>
  <tr>
  <td>decrypted_traffic_mirror</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -206,7 +206,7 @@ Parameters
  </tr>
  <tr>
  <td>host</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -236,14 +236,14 @@ Parameters
  </tr>
  <tr>
  <td>log_blocked_traffic</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -257,7 +257,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1854,7 +1854,7 @@ Parameters
  </tr>
  <tr>
  <td>vip</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1869,7 +1869,7 @@ Parameters
  </tr>
  <tr>
  <td>vip6</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

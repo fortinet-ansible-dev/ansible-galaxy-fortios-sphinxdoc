@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_vdom_dns</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>alt_primary</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>alt_secondary</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -128,7 +128,7 @@ Parameters
  <tr>
  <td>interface</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -144,7 +144,7 @@ Parameters
  <tr>
  <td>interface_select_method</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
@@ -168,7 +168,7 @@ Parameters
  </tr>
  <tr>
  <td>ip6_primary</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -183,7 +183,7 @@ Parameters
  </tr>
  <tr>
  <td>ip6_secondary</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -198,7 +198,7 @@ Parameters
  </tr>
  <tr>
  <td>primary</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -213,17 +213,17 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[cleartext]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[dot]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[doh]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -237,7 +237,7 @@ Parameters
  </tr>
  <tr>
  <td>secondary</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -251,7 +251,7 @@ Parameters
  </tr>
  <tr>
  <td>server_hostname</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -267,7 +267,7 @@ Parameters
  </tr>
  <tr>
  <td>hostname</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -283,14 +283,14 @@ Parameters
  </tr>
  <tr>
  <td>server_select_method</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[least-rtt]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  <tr>
  <td>[failover]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -304,7 +304,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -319,7 +319,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip_interface</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -334,7 +334,7 @@ Parameters
  </tr>
  <tr>
  <td>ssl_certificate</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -349,14 +349,14 @@ Parameters
  </tr>
  <tr>
  <td>vdom_dns</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -370,7 +370,7 @@ Parameters
  </tr>
  <tr>
  <td>vrf_select</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

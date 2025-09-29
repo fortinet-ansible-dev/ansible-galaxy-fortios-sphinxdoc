@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_automation_action</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>accprofile</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,80 +89,80 @@ Parameters
  </tr>
  <tr>
  <td>action_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[email]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[fortiexplorer-notification]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[alert]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable-ssid]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[system-actions]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[quarantine]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[quarantine-forticlient]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[quarantine-nsx]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[quarantine-fortinac]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[ban-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[aws-lambda]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[azure-function]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[google-cloud-function]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[alicloud-function]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[webhook]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[cli-script]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[diagnose-script]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[regular-expression]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[slack-notification]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[microsoft-teams-notification]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[ios-notification]</td>
@@ -181,7 +181,7 @@ Parameters
  </tr>
  <tr>
  <td>alicloud_access_key_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -196,7 +196,7 @@ Parameters
  </tr>
  <tr>
  <td>alicloud_access_key_secret</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -241,14 +241,14 @@ Parameters
  </tr>
  <tr>
  <td>alicloud_function_authorization</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[anonymous]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[function]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -337,7 +337,7 @@ Parameters
  </tr>
  <tr>
  <td>aws_api_key</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -412,7 +412,7 @@ Parameters
  </tr>
  <tr>
  <td>azure_api_key</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -472,17 +472,17 @@ Parameters
  </tr>
  <tr>
  <td>azure_function_authorization</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[anonymous]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[function]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  <tr>
  <td>[admin]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -511,7 +511,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -526,7 +526,7 @@ Parameters
  </tr>
  <tr>
  <td>duration</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -556,7 +556,7 @@ Parameters
  </tr>
  <tr>
  <td>email_from</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -571,7 +571,7 @@ Parameters
  </tr>
  <tr>
  <td>email_subject</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -585,7 +585,7 @@ Parameters
  </tr>
  <tr>
  <td>email_to</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -601,7 +601,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -617,18 +617,18 @@ Parameters
  </tr>
  <tr>
  <td>execute_security_fabric</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">forticare_email</span> - Enable/disable use of your FortiCare email address as the email-to address. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">file_only</span> - Enable/disable the output in files only. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -637,21 +637,103 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>forticare_email</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2 </code></td>
+ <td>file_only</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">form_data</span> - Form data parts for content type multipart/form-data. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: form_data:id</span>
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>form_data</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">id</span> - Entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">key</span> - Key of the part of Multipart/form-data. <span class="li-normal">type: str</span>
+ <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
+ <div id="label71" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>key</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">value</span> - Value of the part of Multipart/form-data. <span class="li-normal">type: str</span>
+ <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
+ <div id="label73" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>value</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">forticare_email</span> - Enable/disable use of your FortiCare email address as the email-to address. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
+ <div id="label75" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>forticare_email</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">fos_message</span> - Message content. <span class="li-normal">type: str</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -659,14 +741,14 @@ Parameters
  </tr>
  <tr>
  <td>fos_message</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">gcp_function</span> - Google Cloud function name. <span class="li-normal">type: str</span>
- <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
- <div id="label69" style="display:none">
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -680,8 +762,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">gcp_function_domain</span> - Google Cloud function domain. <span class="li-normal">type: str</span>
- <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
- <div id="label71" style="display:none">
+ <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
+ <div id="label81" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -695,8 +777,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">gcp_function_region</span> - Google Cloud function region. <span class="li-normal">type: str</span>
- <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
- <div id="label73" style="display:none">
+ <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
+ <div id="label83" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -710,8 +792,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">gcp_project</span> - Google Cloud Platform project name. <span class="li-normal">type: str</span>
- <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
- <div id="label75" style="display:none">
+ <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
+ <div id="label85" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -725,8 +807,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">headers</span> - Request headers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: headers:header</span>
- <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
- <div id="label77" style="display:none">
+ <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
+ <div id="label87" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="2">Supported Version Ranges</td>
@@ -741,8 +823,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">header</span> - Request header. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
- <div id="label79" style="display:none">
+ <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
+ <div id="label89" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -758,86 +840,6 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">http_body</span> - Request body (if necessary). Should be serialized json string. <span class="li-normal">type: str</span>
- <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
- <div id="label81" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>http_body</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">http_headers</span> - Request headers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: http_headers:id</span>
- <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
- <div id="label83" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>http_headers</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
- <div id="label85" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">key</span> - Request header key. <span class="li-normal">type: str</span>
- <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
- <div id="label87" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>key</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">value</span> - Request header value. <span class="li-normal">type: str</span>
- <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
- <div id="label89" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="2">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>value</td>
- <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">message_type</span> - Message type. <span class="li-normal">type: str</span> <span class="li-normal">choices: text, json</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -846,96 +848,78 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>message_type</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td>http_body</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[text]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[json]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">method</span> - Request method (POST, PUT, GET, PATCH or DELETE). <span class="li-normal">type: str</span> <span class="li-normal">choices: post, put, get, patch, delete</span>
+        <li> <span class="li-head">http_headers</span> - Request headers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: http_headers:id</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>method</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
- </tr>
- <tr>
- <td>[post]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[put]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[get]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[patch]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[delete]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td>http_headers</td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">minimum_interval</span> - Limit execution to no more than once in this interval (in seconds). <span class="li-normal">type: int</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">id</span> - Entry ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
  <div id="label95" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>minimum_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">key</span> - Request header key. <span class="li-normal">type: str</span>
  <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
  <div id="label97" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>key</td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">output_size</span> - Number of megabytes to limit script output to (1 - 1024). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">value</span> - Request header value. <span class="li-normal">type: str</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>output_size</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
+ <td>value</td>
+ <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">port</span> - Protocol port. <span class="li-normal">type: int</span>
+            </ul>
+        <li> <span class="li-head">log_debug_print</span> - Enable/disable logging debug print output from diagnose action. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
@@ -944,13 +928,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>log_debug_print</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">protocol</span> - Request protocol. <span class="li-normal">type: str</span> <span class="li-normal">choices: http, https</span>
+        <li> <span class="li-head">message_type</span> - Message type. <span class="li-normal">type: str</span> <span class="li-normal">choices: text, json, form-data</span>
  <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
  <div id="label103" style="display:none">
  <table border="1">
@@ -959,19 +949,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td>message_type</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td>[text]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  <tr>
- <td>[https]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td>[json]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[form-data]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">regular_expression</span> - Regular expression string. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">method</span> - Request method (POST, PUT, GET, PATCH or DELETE). <span class="li-normal">type: str</span> <span class="li-normal">choices: post, put, get, patch, delete</span>
  <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
  <div id="label105" style="display:none">
  <table border="1">
@@ -980,13 +974,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>regular_expression</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>method</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[post]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[put]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[get]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[patch]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[delete]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">replacement_message</span> - Enable/disable replacement message. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">minimum_interval</span> - Limit execution to no more than once in this interval (in seconds). <span class="li-normal">type: int</span>
  <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
  <div id="label107" style="display:none">
  <table border="1">
@@ -995,19 +1006,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>replacement_message</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td>minimum_interval</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">replacemsg_group</span> - Replacement message group. Source system.replacemsg-group.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -1016,15 +1021,132 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">output_interval</span> - Collect the outputs for each output-interval in seconds (0 = no intermediate output). <span class="li-normal">type: int</span>
+ <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
+ <div id="label111" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>output_interval</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">output_size</span> - Number of megabytes to limit script output to (1 - 1024). <span class="li-normal">type: int</span>
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>output_size</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">port</span> - Protocol port. <span class="li-normal">type: int</span>
+ <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
+ <div id="label115" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>port</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">protocol</span> - Request protocol. <span class="li-normal">type: str</span> <span class="li-normal">choices: http, https</span>
+ <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
+ <div id="label117" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>protocol</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[http]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[https]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">regular_expression</span> - Regular expression string. <span class="li-normal">type: str</span>
+ <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
+ <div id="label119" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>regular_expression</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">replacement_message</span> - Enable/disable replacement message. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
+ <div id="label121" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>replacement_message</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">replacemsg_group</span> - Replacement message group. Source system.replacemsg-group.name. <span class="li-normal">type: str</span>
+ <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
+ <div id="label123" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>replacemsg_group</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">required</span> - Required in action chain. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
- <div id="label111" style="display:none">
+ <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
+ <div id="label125" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1044,121 +1166,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">script</span> - CLI script. <span class="li-normal">type: str</span>
- <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
- <div id="label113" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>script</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">sdn_connector</span> - NSX SDN connector names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: sdn_connector:name</span>
- <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
- <div id="label115" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>sdn_connector</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - SDN connector name. Source system.sdn-connector.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
- <div id="label117" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">security_tag</span> - NSX security tag. <span class="li-normal">type: str</span>
- <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
- <div id="label119" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>security_tag</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">system_action</span> - System action type. <span class="li-normal">type: str</span> <span class="li-normal">choices: reboot, shutdown, backup-config</span>
- <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
- <div id="label121" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>system_action</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- <tr>
- <td>[reboot]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[shutdown]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[backup-config]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">timeout</span> - Maximum running time for this script in seconds (0 = no timeout). <span class="li-normal">type: int</span>
- <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
- <div id="label123" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>timeout</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">tls_certificate</span> - Custom TLS certificate for API request. Source certificate.local.name. <span class="li-normal">type: str</span>
- <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
- <div id="label125" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>tls_certificate</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">uri</span> - Request API URI. <span class="li-normal">type: str</span>
  <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
  <div id="label127" style="display:none">
  <table border="1">
@@ -1167,15 +1174,130 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>script</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">sdn_connector</span> - NSX SDN connector names. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: sdn_connector:name</span>
+ <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
+ <div id="label129" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>sdn_connector</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - SDN connector name. Source system.sdn-connector.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
+ <div id="label131" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">security_tag</span> - NSX security tag. <span class="li-normal">type: str</span>
+ <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
+ <div id="label133" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>security_tag</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">system_action</span> - System action type. <span class="li-normal">type: str</span> <span class="li-normal">choices: reboot, shutdown, backup-config</span>
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>system_action</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[reboot]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[shutdown]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[backup-config]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">timeout</span> - Maximum running time for this script in seconds (0 = no timeout). <span class="li-normal">type: int</span>
+ <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
+ <div id="label137" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>timeout</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">tls_certificate</span> - Custom TLS certificate for API request. Source certificate.local.name. <span class="li-normal">type: str</span>
+ <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
+ <div id="label139" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tls_certificate</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uri</span> - Request API URI. <span class="li-normal">type: str</span>
+ <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
+ <div id="label141" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>uri</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">verify_host_cert</span> - Enable/disable verification of the remote host certificate. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
- <div id="label129" style="display:none">
+ <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
+ <div id="label143" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1183,14 +1305,14 @@ Parameters
  </tr>
  <tr>
  <td>verify_host_cert</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1252,6 +1374,12 @@ Examples
                   -
                       name: "default_name_32"
               execute_security_fabric: "enable"
+              file_only: "enable"
+              form_data:
+                  -
+                      id: "36"
+                      key: "<your_own_value>"
+                      value: "<your_own_value>"
               forticare_email: "enable"
               fos_message: "<your_own_value>"
               gcp_function: "<your_own_value>"
@@ -1264,13 +1392,15 @@ Examples
               http_body: "<your_own_value>"
               http_headers:
                   -
-                      id: "44"
+                      id: "49"
                       key: "<your_own_value>"
                       value: "<your_own_value>"
+              log_debug_print: "enable"
               message_type: "text"
               method: "post"
               minimum_interval: "0"
-              name: "default_name_50"
+              name: "default_name_56"
+              output_interval: "0"
               output_size: "10"
               port: "0"
               protocol: "http"
@@ -1281,7 +1411,7 @@ Examples
               script: "<your_own_value>"
               sdn_connector:
                   -
-                      name: "default_name_60 (source system.sdn-connector.name)"
+                      name: "default_name_67 (source system.sdn-connector.name)"
               security_tag: "<your_own_value>"
               system_action: "reboot"
               timeout: "0"

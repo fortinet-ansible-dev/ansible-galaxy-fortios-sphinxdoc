@@ -4,6 +4,24 @@ Release Notes
 
 |
 
+Release Galaxy 2.4.1
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.4.1 is based on 2.4.0
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fix the issue in check_modu when backend returns invallid IP address.
+- Fix the issue in configuration_fact and monitor_fact when omitting vdom or assigning vdom to "".
+
+Improvements
+^^^^^^^^^^^^^^^
+- Supported new versions 7.6.3 and 7.6.4.
+- Supported the authentication method when using username and password in v7.6.4.
+
 Release Galaxy 2.4.0
 --------------------
 

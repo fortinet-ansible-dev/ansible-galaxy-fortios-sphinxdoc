@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.1 -> v7.6.2
+Supported Version Ranges: v7.2.1 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>extension_controller_extender_profile</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,26 +74,26 @@ Parameters
  </tr>
  <tr>
  <td>allowaccess</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[telnet]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[snmp]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -107,7 +107,7 @@ Parameters
  </tr>
  <tr>
  <td>bandwidth_limit</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -121,7 +121,7 @@ Parameters
  </tr>
  <tr>
  <td>cellular</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -136,7 +136,7 @@ Parameters
  </tr>
  <tr>
  <td>controller_report</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -152,7 +152,7 @@ Parameters
  </tr>
  <tr>
  <td>interval</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -167,7 +167,7 @@ Parameters
  </tr>
  <tr>
  <td>signal_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -182,14 +182,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -203,7 +203,7 @@ Parameters
  </tr>
  <tr>
  <td>dataplan</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -219,7 +219,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -234,7 +234,7 @@ Parameters
  </tr>
  <tr>
  <td>modem1</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -249,7 +249,7 @@ Parameters
  </tr>
  <tr>
  <td>auto_switch</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -265,14 +265,14 @@ Parameters
  </tr>
  <tr>
  <td>dataplan</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -286,14 +286,14 @@ Parameters
  </tr>
  <tr>
  <td>disconnect</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -307,7 +307,7 @@ Parameters
  </tr>
  <tr>
  <td>disconnect_period</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -322,7 +322,7 @@ Parameters
  </tr>
  <tr>
  <td>disconnect_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -337,14 +337,14 @@ Parameters
  </tr>
  <tr>
  <td>signal</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -358,14 +358,14 @@ Parameters
  </tr>
  <tr>
  <td>switch_back</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[time]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[timer]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -379,7 +379,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_back_time</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -394,7 +394,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_back_timer</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -410,20 +410,20 @@ Parameters
  </tr>
  <tr>
  <td>default_sim</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[sim1]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[sim2]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[carrier]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[cost]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -437,14 +437,14 @@ Parameters
  </tr>
  <tr>
  <td>gps</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -458,14 +458,14 @@ Parameters
  </tr>
  <tr>
  <td>multiple_PDN</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -479,7 +479,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn1_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -494,7 +494,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn2_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -509,7 +509,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn3_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -524,7 +524,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn4_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -539,7 +539,7 @@ Parameters
  </tr>
  <tr>
  <td>preferred_carrier</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -554,7 +554,7 @@ Parameters
  </tr>
  <tr>
  <td>redundant_intf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -569,14 +569,14 @@ Parameters
  </tr>
  <tr>
  <td>redundant_mode</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -590,14 +590,14 @@ Parameters
  </tr>
  <tr>
  <td>sim1_pin</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -611,7 +611,7 @@ Parameters
  </tr>
  <tr>
  <td>sim1_pin_code</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -626,14 +626,14 @@ Parameters
  </tr>
  <tr>
  <td>sim2_pin</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -647,7 +647,7 @@ Parameters
  </tr>
  <tr>
  <td>sim2_pin_code</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -662,7 +662,7 @@ Parameters
  </tr>
  <tr>
  <td>modem2</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -677,7 +677,7 @@ Parameters
  </tr>
  <tr>
  <td>auto_switch</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -693,14 +693,14 @@ Parameters
  </tr>
  <tr>
  <td>dataplan</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -714,14 +714,14 @@ Parameters
  </tr>
  <tr>
  <td>disconnect</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -735,7 +735,7 @@ Parameters
  </tr>
  <tr>
  <td>disconnect_period</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -750,7 +750,7 @@ Parameters
  </tr>
  <tr>
  <td>disconnect_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -765,14 +765,14 @@ Parameters
  </tr>
  <tr>
  <td>signal</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -786,14 +786,14 @@ Parameters
  </tr>
  <tr>
  <td>switch_back</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[time]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[timer]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -807,7 +807,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_back_time</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -822,7 +822,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_back_timer</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -838,20 +838,20 @@ Parameters
  </tr>
  <tr>
  <td>default_sim</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[sim1]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[sim2]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[carrier]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[cost]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -865,14 +865,14 @@ Parameters
  </tr>
  <tr>
  <td>gps</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -886,14 +886,14 @@ Parameters
  </tr>
  <tr>
  <td>multiple_PDN</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -907,7 +907,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn1_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -922,7 +922,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn2_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -937,7 +937,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn3_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -952,7 +952,7 @@ Parameters
  </tr>
  <tr>
  <td>pdn4_dataplan</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -967,7 +967,7 @@ Parameters
  </tr>
  <tr>
  <td>preferred_carrier</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -982,7 +982,7 @@ Parameters
  </tr>
  <tr>
  <td>redundant_intf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -997,14 +997,14 @@ Parameters
  </tr>
  <tr>
  <td>redundant_mode</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1018,14 +1018,14 @@ Parameters
  </tr>
  <tr>
  <td>sim1_pin</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1039,7 +1039,7 @@ Parameters
  </tr>
  <tr>
  <td>sim1_pin_code</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1054,14 +1054,14 @@ Parameters
  </tr>
  <tr>
  <td>sim2_pin</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1075,7 +1075,7 @@ Parameters
  </tr>
  <tr>
  <td>sim2_pin_code</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1090,7 +1090,7 @@ Parameters
  </tr>
  <tr>
  <td>sms_notification</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1105,7 +1105,7 @@ Parameters
  </tr>
  <tr>
  <td>alert</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1121,7 +1121,7 @@ Parameters
  </tr>
  <tr>
  <td>data_exhausted</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1136,7 +1136,7 @@ Parameters
  </tr>
  <tr>
  <td>fgt_backup_mode_switch</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1151,7 +1151,7 @@ Parameters
  </tr>
  <tr>
  <td>low_signal_strength</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1166,7 +1166,7 @@ Parameters
  </tr>
  <tr>
  <td>mode_switch</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1181,7 +1181,7 @@ Parameters
  </tr>
  <tr>
  <td>os_image_fallback</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1196,7 +1196,7 @@ Parameters
  </tr>
  <tr>
  <td>session_disconnect</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1211,7 +1211,7 @@ Parameters
  </tr>
  <tr>
  <td>system_reboot</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1226,7 +1226,7 @@ Parameters
  </tr>
  <tr>
  <td>receiver</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1242,29 +1242,29 @@ Parameters
  </tr>
  <tr>
  <td>alert</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[system-reboot]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[data-exhausted]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[session-disconnect]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[low-signal-strength]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[mode-switch]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[os-image-fallback]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[fgt-backup-mode-switch]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1278,7 +1278,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1293,7 +1293,7 @@ Parameters
  </tr>
  <tr>
  <td>phone_number</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1308,14 +1308,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1330,14 +1330,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1353,14 +1353,14 @@ Parameters
  </tr>
  <tr>
  <td>enforce_bandwidth</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1374,14 +1374,14 @@ Parameters
  </tr>
  <tr>
  <td>extension</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[wan-extension]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[lan-extension]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1395,7 +1395,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1409,7 +1409,7 @@ Parameters
  </tr>
  <tr>
  <td>lan_extension</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1424,7 +1424,7 @@ Parameters
  </tr>
  <tr>
  <td>backhaul</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1440,7 +1440,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1455,35 +1455,35 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[wan]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[lte1]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[lte2]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[port1]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[port2]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[port3]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[port4]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[port5]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[sfp]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1497,14 +1497,14 @@ Parameters
  </tr>
  <tr>
  <td>role</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[primary]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  <tr>
  <td>[secondary]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1518,7 +1518,7 @@ Parameters
  </tr>
  <tr>
  <td>weight</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1534,7 +1534,7 @@ Parameters
  </tr>
  <tr>
  <td>backhaul_interface</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1549,7 +1549,7 @@ Parameters
  </tr>
  <tr>
  <td>backhaul_ip</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1563,7 +1563,7 @@ Parameters
  </tr>
  <tr>
  <td>downlinks</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1579,12 +1579,12 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">port</span> - FortiExtender LAN extension downlink port. <span class="li-normal">type: str</span> <span class="li-normal">choices: port1, port2, port3, port4, port5, lan1, lan2</span>
+                <li> <span class="li-head">port</span> - FortiExtender LAN extension downlink port. <span class="li-normal">type: str</span> <span class="li-normal">choices: port1, port2, port3, port4, port5, lan1, lan2, lan</span>
  <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
  <div id="label173" style="display:none">
  <table border="1">
@@ -1594,33 +1594,37 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[port1]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[port2]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[port3]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[port4]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[port5]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[lan1]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[lan2]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <tr>
+ <td>[lan]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">pvid</span> - FortiExtender LAN extension downlink PVID. <span class="li-normal">type: int</span>
+                <li> <span class="li-head">pvid</span> - FortiExtender LAN extension downlink PVID (1 - 4089). <span class="li-normal">type: int</span>
  <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
  <div id="label175" style="display:none">
  <table border="1">
@@ -1630,7 +1634,7 @@ Parameters
  </tr>
  <tr>
  <td>pvid</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -1645,14 +1649,14 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[port]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  <tr>
  <td>[vap]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -1666,28 +1670,27 @@ Parameters
  </tr>
  <tr>
  <td>vap</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">ipsec_tunnel</span> - IPsec tunnel name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">vids</span> - FortiExtender LAN extension downlink VIDs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: lan_extension/downlinks:name/vids:vid</span>
  <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
  <div id="label181" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ipsec_tunnel</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td>vids</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">link_loadbalance</span> - LAN extension link load balance strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: activebackup, loadbalance</span>
+                    <ul class="ul-self">
+                    <li> <span class="li-head">vid</span> - Please enter VID numbers (1 - 4089) with space separated. Up to 50 VIDs are accepted. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
  <div id="label183" style="display:none">
  <table border="1">
@@ -1696,34 +1699,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>link_loadbalance</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td>vid</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[activebackup]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[loadbalance]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">traffic_split_services</span> - Config FortiExtender traffic split interface for LAN extension. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: lan_extension/traffic_split_services:name</span>
+                    </ul>
+                </ul>
+            <li> <span class="li-head">ipsec_tunnel</span> - IPsec tunnel name. <span class="li-normal">type: str</span>
  <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
  <div id="label185" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>traffic_split_services</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>ipsec_tunnel</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">address</span> - Address selection. Source firewall.address.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">link_loadbalance</span> - LAN extension link load balance strategy. <span class="li-normal">type: str</span> <span class="li-normal">choices: activebackup, loadbalance</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
  <table border="1">
@@ -1732,28 +1731,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>address</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>link_loadbalance</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[activebackup]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[loadbalance]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">name</span> - FortiExtender LAN extension tunnel split entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">traffic_split_services</span> - Config FortiExtender traffic split interface for LAN extension. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: lan_extension/traffic_split_services:name</span>
  <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
  <div id="label189" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>traffic_split_services</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">service</span> - Service selection. Source firewall.service.custom.name. <span class="li-normal">type: str</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">address</span> - Address selection. Source firewall.address.name. <span class="li-normal">type: str</span>
  <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
  <div id="label191" style="display:none">
  <table border="1">
@@ -1762,13 +1767,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>service</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>address</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">vsdb</span> - Select vsdb [enable/disable]. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                <li> <span class="li-head">name</span> - FortiExtender LAN extension tunnel split entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -1777,21 +1782,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vsdb</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                </ul>
-            </ul>
-        <li> <span class="li-head">login_password</span> - Set the managed extender"s administrator password. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">service</span> - Service selection. Source firewall.service.custom.name. <span class="li-normal">type: str</span>
  <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
  <div id="label195" style="display:none">
  <table border="1">
@@ -1800,13 +1797,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>login_password</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td>service</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">login_password_change</span> - Change or reset the administrator password of a managed extender (yes, default, or no). <span class="li-normal">type: str</span> <span class="li-normal">choices: yes, default, no</span>
+                <li> <span class="li-head">vsdb</span> - Set video streaming traffic goes through local WAN [enable/disable]. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
  <div id="label197" style="display:none">
  <table border="1">
@@ -1815,22 +1812,21 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>login_password_change</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td>vsdb</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[yes]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  <tr>
- <td>[default]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[no]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">model</span> - Model. <span class="li-normal">type: str</span> <span class="li-normal">choices: FX201E, FX211E, FX200F, FXA11F, FXE11F, FXA21F, FXE21F, FXA22F, FXE22F, FX212F, FX311F, FX312F, FX511F, FXR51G, FXN51G, FXW51G, FVG21F, FVA21F, FVG22F, FVA22F, FX04DA, FG, BS10FW, BS20GW, BS20GN, FVG51G</span>
+                </ul>
+            </ul>
+        <li> <span class="li-head">login_password</span> - Set the managed extender"s administrator password. <span class="li-normal">type: str</span>
  <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
  <div id="label199" style="display:none">
  <table border="1">
@@ -1839,99 +1835,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>model</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
- </tr>
- <tr>
- <td>[FX201E]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX211E]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX200F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXA11F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXE11F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXA21F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXE21F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXA22F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXE22F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX212F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX311F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX312F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX511F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FXR51G]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[FXN51G]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[FXW51G]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[FVG21F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FVA21F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FVG22F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FVA22F]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FX04DA]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
- <tr>
- <td>[FG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[BS10FW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[BS20GW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[BS20GN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- </tr>
- <tr>
- <td>[FVG51G]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td>login_password</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - FortiExtender profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">login_password_change</span> - Change or reset the administrator password of a managed extender (yes, default, or no). <span class="li-normal">type: str</span> <span class="li-normal">choices: yes, default, no</span>
  <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
  <div id="label201" style="display:none">
  <table border="1">
@@ -1940,28 +1850,131 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2 </code></td>
+ <td>login_password_change</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[yes]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[default]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[no]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">wifi</span> - FortiExtender Wi-Fi configuration. <span class="li-normal">type: dict</span>
+        <li> <span class="li-head">model</span> - Model. <span class="li-normal">type: str</span> <span class="li-normal">choices: FX201E, FX211E, FX200F, FXA11F, FXE11F, FXA21F, FXE21F, FXA22F, FXE22F, FX212F, FX311F, FX312F, FX511F, FXR51G, FXN51G, FXW51G, FVG21F, FVA21F, FVG22F, FVA22F, FX04DA, FG, BS10FW, BS20GW, BS20GN, FVG51G, FXE11G, FX211G</span>
  <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
  <div id="label203" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>wifi</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>model</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[FX201E]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX211E]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX200F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXA11F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXE11F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXA21F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXE21F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXA22F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXE22F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX212F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX311F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX312F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX511F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FXR51G]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FXN51G]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FXW51G]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FVG21F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FVA21F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FVG22F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FVA22F]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FX04DA]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
+ <tr>
+ <td>[FG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[BS10FW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[BS20GW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[BS20GN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FVG51G]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FXE11G]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[FX211G]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
  </tr>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">country</span> - Country in which this FEX will operate . <span class="li-normal">type: str</span> <span class="li-normal">choices: --, AF, AL, DZ, AS, AO, AR, AM, AU, AT, AZ, BS, BH, BD, BB, BY, BE, BZ, BJ, BM, BT, BO, BA, BW, BR, BN, BG, BF, KH, CM, KY, CF, TD, CL, CN, CX, CO, CG, CD, CR, HR, CY, CZ, DK, DJ, DM, DO, EC, EG, SV, ET, EE, GF, PF, FO, FJ, FI, FR, GA, GE, GM, DE, GH, GI, GR, GL, GD, GP, GU, GT, GY, HT, HN, HK, HU, IS, IN, ID, IQ, IE, IM, IL, IT, CI, JM, JO, KZ, KE, KR, KW, LA, LV, LB, LS, LR, LY, LI, LT, LU, MO, MK, MG, MW, MY, MV, ML, MT, MH, MQ, MR, MU, YT, MX, FM, MD, MC, MN, MA, MZ, MM, NA, NP, NL, AN, AW, NZ, NI, NE, NG, NO, MP, OM, PK, PW, PA, PG, PY, PE, PH, PL, PT, PR, QA, RE, RO, RU, RW, BL, KN, LC, MF, PM, VC, SA, SN, RS, ME, SL, SG, SK, SI, SO, ZA, ES, LK, SR, SZ, SE, CH, TW, TZ, TH, TG, TT, TN, TR, TM, AE, TC, UG, UA, GB, US, PS, UY, UZ, VU, VE, VN, VI, WF, YE, ZM, ZW, JP, CA</span>
+        <li> <span class="li-head">name</span> - FortiExtender profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
  <div id="label205" style="display:none">
  <table border="1">
@@ -1970,601 +1983,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>country</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[--]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BD]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BB]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BJ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TD]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CD]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[HR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DJ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[EC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[EG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SV]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ET]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[EE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[FO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[FJ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[FI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[FR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[DE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GD]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[HT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[HN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[HK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[HU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ID]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IQ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[IT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[JM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[JO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LV]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LB]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MV]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ML]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MQ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[YT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[FM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MD]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[NO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[OM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[QA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[RE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[RO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[RU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[RW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[BL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[KN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[MF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[VC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[RS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ME]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SL]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SO]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ZA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ES]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[LK]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[SE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TH]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TT]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TR]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[AE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[TC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[UG]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[UA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[GB]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[US]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[PS]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[UY]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[UZ]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[VU]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[VE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[VN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[VI]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[WF]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[YE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ZM]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[ZW]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[JP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CA]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">radio_1</span> - Radio-1 config for Wi-Fi 2.4GHz <span class="li-normal">type: dict</span>
+        <li> <span class="li-head">wifi</span> - FortiExtender Wi-Fi configuration. <span class="li-normal">type: dict</span>
  <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
  <div id="label207" style="display:none">
  <table border="1">
@@ -2572,14 +1997,14 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>radio_1</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>wifi</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">band</span> - Wi-Fi band selection 2.4GHz / 5GHz. <span class="li-normal">type: str</span> <span class="li-normal">choices: 2.4GHz</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">country</span> - Country in which this FEX will operate . <span class="li-normal">type: str</span> <span class="li-normal">choices: --, AF, AL, DZ, AS, AO, AR, AM, AU, AT, AZ, BS, BH, BD, BB, BY, BE, BZ, BJ, BM, BT, BO, BA, BW, BR, BN, BG, BF, KH, CM, KY, CF, TD, CL, CN, CX, CO, CG, CD, CR, HR, CY, CZ, DK, DJ, DM, DO, EC, EG, SV, ET, EE, GF, PF, FO, FJ, FI, FR, GA, GE, GM, DE, GH, GI, GR, GL, GD, GP, GU, GT, GY, HT, HN, HK, HU, IS, IN, ID, IQ, IE, IM, IL, IT, CI, JM, JO, KZ, KE, KR, KW, LA, LV, LB, LS, LR, LY, LI, LT, LU, MO, MK, MG, MW, MY, MV, ML, MT, MH, MQ, MR, MU, YT, MX, FM, MD, MC, MN, MA, MZ, MM, NA, NP, NL, AN, AW, NZ, NI, NE, NG, NO, MP, OM, PK, PW, PA, PG, PY, PE, PH, PL, PT, PR, QA, RE, RO, RU, RW, BL, KN, LC, MF, PM, VC, SA, SN, RS, ME, SL, SG, SK, SI, SO, ZA, ES, LK, SR, SZ, SE, CH, TW, TZ, TH, TL, TG, TT, TN, TR, TM, AE, TC, UG, UA, GB, US, PS, UY, UZ, VU, VE, VN, VI, WF, YE, ZM, ZW, JP, CA</span>
  <a id='label208' href="javascript:ContentClick('label209', 'label208');" onmouseover="ContentPreview('label209');" onmouseout="ContentUnpreview('label209');" title="click to collapse or expand..."> more... </a>
  <div id="label209" style="display:none">
  <table border="1">
@@ -2588,43 +2013,620 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>band</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>country</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[2.4GHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[--]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BD]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BB]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BJ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TD]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CD]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[HR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DJ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[EC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[EG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SV]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ET]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[EE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[FO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[FJ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[FI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[FR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[DE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GD]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[HT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[HN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[HK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[HU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ID]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IQ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[IT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[JM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[JO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LV]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LB]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MV]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ML]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MQ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[YT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[FM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MD]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[NO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[OM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[QA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[RE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[RO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[RU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[RW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[BL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[KN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[MF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[VC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[RS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ME]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SL]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SO]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ZA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ES]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[LK]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[SE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TH]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TL]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[TG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TT]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TR]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[AE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[TC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[UG]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[UA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[GB]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[US]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[PS]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[UY]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[UZ]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[VU]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[VE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[VN]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[VI]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[WF]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[YE]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ZM]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[ZW]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[JP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CA]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bandwidth</span> - Wi-Fi channel bandwidth. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 20MHz, 40MHz, 80MHz</span>
+            <li> <span class="li-head">radio_1</span> - Radio-1 config for Wi-Fi 2.4GHz <span class="li-normal">type: dict</span>
  <a id='label210' href="javascript:ContentClick('label211', 'label210');" onmouseover="ContentPreview('label211');" onmouseout="ContentUnpreview('label211');" title="click to collapse or expand..."> more... </a>
  <div id="label211" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bandwidth</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>radio_1</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[20MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[40MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[80MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">beacon_interval</span> - Wi-Fi beacon interval in miliseconds (100 - 3500). <span class="li-normal">type: int</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">band</span> - Wi-Fi band selection 2.4GHz / 5GHz. <span class="li-normal">type: str</span> <span class="li-normal">choices: 2.4GHz</span>
  <a id='label212' href="javascript:ContentClick('label213', 'label212');" onmouseover="ContentPreview('label213');" onmouseout="ContentUnpreview('label213');" title="click to collapse or expand..."> more... </a>
  <div id="label213" style="display:none">
  <table border="1">
@@ -2633,13 +2635,16 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>beacon_interval</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>band</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[2.4GHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bss_color</span> - Wi-Fi 802.11AX BSS color value (0 - 63, 0 = disable). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">bandwidth</span> - Wi-Fi channel bandwidth. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 20MHz, 40MHz, 80MHz</span>
  <a id='label214' href="javascript:ContentClick('label215', 'label214');" onmouseover="ContentPreview('label215');" onmouseout="ContentUnpreview('label215');" title="click to collapse or expand..."> more... </a>
  <div id="label215" style="display:none">
  <table border="1">
@@ -2648,13 +2653,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bss_color</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bandwidth</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[20MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[40MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[80MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bss_color_mode</span> - Wi-Fi 802.11AX BSS color mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, static</span>
+                <li> <span class="li-head">beacon_interval</span> - Wi-Fi beacon interval in miliseconds (100 - 3500). <span class="li-normal">type: int</span>
  <a id='label216' href="javascript:ContentClick('label217', 'label216');" onmouseover="ContentPreview('label217');" onmouseout="ContentUnpreview('label217');" title="click to collapse or expand..."> more... </a>
  <div id="label217" style="display:none">
  <table border="1">
@@ -2663,19 +2680,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bss_color_mode</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>beacon_interval</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">channel</span> - Wi-Fi channels. <span class="li-normal">type: list</span> <span class="li-normal">choices: CH1, CH2, CH3, CH4, CH5, CH6, CH7, CH8, CH9, CH10, CH11</span>
+                <li> <span class="li-head">bss_color</span> - Wi-Fi 802.11AX BSS color value (0 - 63, 0 = disable). <span class="li-normal">type: int</span>
  <a id='label218' href="javascript:ContentClick('label219', 'label218');" onmouseover="ContentPreview('label219');" onmouseout="ContentUnpreview('label219');" title="click to collapse or expand..."> more... </a>
  <div id="label219" style="display:none">
  <table border="1">
@@ -2684,46 +2695,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>channel</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bss_color</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[CH1]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH2]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH3]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH4]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH5]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH6]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH7]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH8]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH9]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH10]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH11]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">extension_channel</span> - Wi-Fi extension channel. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, higher, lower</span>
+                <li> <span class="li-head">bss_color_mode</span> - Wi-Fi 802.11AX BSS color mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, static</span>
  <a id='label220' href="javascript:ContentClick('label221', 'label220');" onmouseover="ContentPreview('label221');" onmouseout="ContentUnpreview('label221');" title="click to collapse or expand..."> more... </a>
  <div id="label221" style="display:none">
  <table border="1">
@@ -2732,22 +2710,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>extension_channel</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bss_color_mode</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[higher]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[lower]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[static]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">guard_interval</span> - Wi-Fi guard interval. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 400ns, 800ns</span>
+                <li> <span class="li-head">channel</span> - Wi-Fi channels. <span class="li-normal">type: list</span> <span class="li-normal">choices: CH1, CH2, CH3, CH4, CH5, CH6, CH7, CH8, CH9, CH10, CH11</span>
  <a id='label222' href="javascript:ContentClick('label223', 'label222');" onmouseover="ContentPreview('label223');" onmouseout="ContentUnpreview('label223');" title="click to collapse or expand..."> more... </a>
  <div id="label223" style="display:none">
  <table border="1">
@@ -2756,22 +2731,46 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>guard_interval</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>channel</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH1]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[400ns]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH2]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[800ns]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH3]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH4]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH5]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH6]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH7]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH8]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH9]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH10]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH11]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">lan_ext_vap</span> - Wi-Fi LAN-Extention VAP. Select only one VAP. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">extension_channel</span> - Wi-Fi extension channel. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, higher, lower</span>
  <a id='label224' href="javascript:ContentClick('label225', 'label224');" onmouseover="ContentPreview('label225');" onmouseout="ContentUnpreview('label225');" title="click to collapse or expand..."> more... </a>
  <div id="label225" style="display:none">
  <table border="1">
@@ -2780,28 +2779,46 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>lan_ext_vap</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>extension_channel</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[higher]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[lower]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">local_vaps</span> - Wi-Fi local VAP. Select up to three VAPs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wifi/radio_1/local_vaps:name</span>
+                <li> <span class="li-head">guard_interval</span> - Wi-Fi guard interval. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 400ns, 800ns</span>
  <a id='label226' href="javascript:ContentClick('label227', 'label226');" onmouseover="ContentPreview('label227');" onmouseout="ContentUnpreview('label227');" title="click to collapse or expand..."> more... </a>
  <div id="label227" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_vaps</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>guard_interval</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[400ns]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[800ns]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                    <ul class="ul-self">
-                    <li> <span class="li-head">name</span> - Wi-Fi local VAP name. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">lan_ext_vap</span> - Wi-Fi LAN-Extention VAP. Select only one VAP. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span>
  <a id='label228' href="javascript:ContentClick('label229', 'label228');" onmouseover="ContentPreview('label229');" onmouseout="ContentUnpreview('label229');" title="click to collapse or expand..."> more... </a>
  <div id="label229" style="display:none">
  <table border="1">
@@ -2810,29 +2827,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>lan_ext_vap</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                    </ul>
-                <li> <span class="li-head">max_clients</span> - Maximum number of Wi-Fi radio clients (0 - 512, 0 = unlimited). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">local_vaps</span> - Wi-Fi local VAP. Select up to three VAPs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wifi/radio_1/local_vaps:name</span>
  <a id='label230' href="javascript:ContentClick('label231', 'label230');" onmouseover="ContentPreview('label231');" onmouseout="ContentUnpreview('label231');" title="click to collapse or expand..."> more... </a>
  <div id="label231" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>max_clients</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>local_vaps</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">mode</span> - Wi-Fi radio mode AP(LAN mode) / Client(WAN mode). <span class="li-normal">type: str</span> <span class="li-normal">choices: AP, Client</span>
+                    <ul class="ul-self">
+                    <li> <span class="li-head">name</span> - Wi-Fi local VAP name. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label232' href="javascript:ContentClick('label233', 'label232');" onmouseover="ContentPreview('label233');" onmouseout="ContentUnpreview('label233');" title="click to collapse or expand..."> more... </a>
  <div id="label233" style="display:none">
  <table border="1">
@@ -2841,19 +2857,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mode</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[AP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[Client]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">operating_standard</span> - Wi-Fi operating standard. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 11A-N-AC-AX, 11A-N-AC, 11A-N, 11A, 11N-AC-AX, 11AC-AX, 11AC, 11N-AC, 11B-G-N-AX, 11B-G-N, 11B-G, 11B, 11G-N-AX, 11N-AX, 11AX, 11G-N, 11N, 11G</span>
+                    </ul>
+                <li> <span class="li-head">max_clients</span> - Maximum number of Wi-Fi radio clients (0 - 512, 0 = unlimited). <span class="li-normal">type: int</span>
  <a id='label234' href="javascript:ContentClick('label235', 'label234');" onmouseover="ContentPreview('label235');" onmouseout="ContentUnpreview('label235');" title="click to collapse or expand..."> more... </a>
  <div id="label235" style="display:none">
  <table border="1">
@@ -2862,70 +2873,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>operating_standard</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>max_clients</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N-AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N-AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G-N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G-N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">power_level</span> - Wi-Fi power level in percent (0 - 100, 0 = auto). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">mode</span> - Wi-Fi radio mode AP(LAN mode) / Client(WAN mode). <span class="li-normal">type: str</span> <span class="li-normal">choices: AP, Client</span>
  <a id='label236' href="javascript:ContentClick('label237', 'label236');" onmouseover="ContentPreview('label237');" onmouseout="ContentUnpreview('label237');" title="click to collapse or expand..."> more... </a>
  <div id="label237" style="display:none">
  <table border="1">
@@ -2934,13 +2888,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>power_level</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>mode</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[AP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[Client]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">set_80211d</span> - Enable/disable Wi-Fi 802.11d. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                <li> <span class="li-head">operating_standard</span> - Wi-Fi operating standard. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 11A-N-AC-AX, 11A-N-AC, 11A-N, 11A, 11N-AC-AX, 11AC-AX, 11AC, 11N-AC, 11B-G-N-AX, 11B-G-N, 11B-G, 11B, 11G-N-AX, 11N-AX, 11AX, 11G-N, 11N, 11G</span>
  <a id='label238' href="javascript:ContentClick('label239', 'label238');" onmouseover="ContentPreview('label239');" onmouseout="ContentUnpreview('label239');" title="click to collapse or expand..."> more... </a>
  <div id="label239" style="display:none">
  <table border="1">
@@ -2949,19 +2909,70 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>set_80211d</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>operating_standard</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[11A-N-AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A-N-AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G-N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G-N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">status</span> - Enable/disable Wi-Fi radio. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                <li> <span class="li-head">power_level</span> - Wi-Fi power level in percent (0 - 100, 0 = auto). <span class="li-normal">type: int</span>
  <a id='label240' href="javascript:ContentClick('label241', 'label240');" onmouseover="ContentPreview('label241');" onmouseout="ContentUnpreview('label241');" title="click to collapse or expand..."> more... </a>
  <div id="label241" style="display:none">
  <table border="1">
@@ -2970,35 +2981,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>power_level</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">radio_2</span> - Radio-2 config for Wi-Fi 5GHz <span class="li-normal">type: dict</span>
+                <li> <span class="li-head">set_80211d</span> - Enable/disable Wi-Fi 802.11d. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label242' href="javascript:ContentClick('label243', 'label242');" onmouseover="ContentPreview('label243');" onmouseout="ContentUnpreview('label243');" title="click to collapse or expand..."> more... </a>
  <div id="label243" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>radio_2</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>set_80211d</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">band</span> - Wi-Fi band selection 2.4GHz / 5GHz. <span class="li-normal">type: str</span> <span class="li-normal">choices: 5GHz</span>
+                <li> <span class="li-head">status</span> - Enable/disable Wi-Fi radio. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label244' href="javascript:ContentClick('label245', 'label244');" onmouseover="ContentPreview('label245');" onmouseout="ContentUnpreview('label245');" title="click to collapse or expand..."> more... </a>
  <div id="label245" style="display:none">
  <table border="1">
@@ -3007,43 +3017,35 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>band</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[5GHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bandwidth</span> - Wi-Fi channel bandwidth. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 20MHz, 40MHz, 80MHz</span>
+                </ul>
+            <li> <span class="li-head">radio_2</span> - Radio-2 config for Wi-Fi 5GHz <span class="li-normal">type: dict</span>
  <a id='label246' href="javascript:ContentClick('label247', 'label246');" onmouseover="ContentPreview('label247');" onmouseout="ContentUnpreview('label247');" title="click to collapse or expand..."> more... </a>
  <div id="label247" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bandwidth</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>radio_2</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[20MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[40MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[80MHz]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">beacon_interval</span> - Wi-Fi beacon interval in miliseconds (100 - 3500). <span class="li-normal">type: int</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">band</span> - Wi-Fi band selection 2.4GHz / 5GHz. <span class="li-normal">type: str</span> <span class="li-normal">choices: 5GHz</span>
  <a id='label248' href="javascript:ContentClick('label249', 'label248');" onmouseover="ContentPreview('label249');" onmouseout="ContentUnpreview('label249');" title="click to collapse or expand..."> more... </a>
  <div id="label249" style="display:none">
  <table border="1">
@@ -3052,13 +3054,16 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>beacon_interval</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>band</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[5GHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bss_color</span> - Wi-Fi 802.11AX BSS color value (0 - 63, 0 = disable). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">bandwidth</span> - Wi-Fi channel bandwidth. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 20MHz, 40MHz, 80MHz</span>
  <a id='label250' href="javascript:ContentClick('label251', 'label250');" onmouseover="ContentPreview('label251');" onmouseout="ContentUnpreview('label251');" title="click to collapse or expand..."> more... </a>
  <div id="label251" style="display:none">
  <table border="1">
@@ -3067,13 +3072,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bss_color</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bandwidth</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[20MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[40MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[80MHz]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">bss_color_mode</span> - Wi-Fi 802.11AX BSS color mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, static</span>
+                <li> <span class="li-head">beacon_interval</span> - Wi-Fi beacon interval in miliseconds (100 - 3500). <span class="li-normal">type: int</span>
  <a id='label252' href="javascript:ContentClick('label253', 'label252');" onmouseover="ContentPreview('label253');" onmouseout="ContentUnpreview('label253');" title="click to collapse or expand..."> more... </a>
  <div id="label253" style="display:none">
  <table border="1">
@@ -3082,19 +3099,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bss_color_mode</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>beacon_interval</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[static]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">channel</span> - Wi-Fi channels. <span class="li-normal">type: list</span> <span class="li-normal">choices: CH36, CH40, CH44, CH48, CH52, CH56, CH60, CH64, CH100, CH104, CH108, CH112, CH116, CH120, CH124, CH128, CH132, CH136, CH140, CH144, CH149, CH153, CH157, CH161, CH165</span>
+                <li> <span class="li-head">bss_color</span> - Wi-Fi 802.11AX BSS color value (0 - 63, 0 = disable). <span class="li-normal">type: int</span>
  <a id='label254' href="javascript:ContentClick('label255', 'label254');" onmouseover="ContentPreview('label255');" onmouseout="ContentUnpreview('label255');" title="click to collapse or expand..."> more... </a>
  <div id="label255" style="display:none">
  <table border="1">
@@ -3103,88 +3114,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>channel</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bss_color</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[CH36]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH40]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH44]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH48]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH52]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH56]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH60]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH64]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH100]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH104]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH108]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH112]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH116]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH120]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH124]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH128]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH132]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH136]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH140]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH144]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH149]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH153]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH157]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH161]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[CH165]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">extension_channel</span> - Wi-Fi extension channel. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, higher, lower</span>
+                <li> <span class="li-head">bss_color_mode</span> - Wi-Fi 802.11AX BSS color mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, static</span>
  <a id='label256' href="javascript:ContentClick('label257', 'label256');" onmouseover="ContentPreview('label257');" onmouseout="ContentUnpreview('label257');" title="click to collapse or expand..."> more... </a>
  <div id="label257" style="display:none">
  <table border="1">
@@ -3193,22 +3129,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>extension_channel</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>bss_color_mode</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[higher]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[lower]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[static]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">guard_interval</span> - Wi-Fi guard interval. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 400ns, 800ns</span>
+                <li> <span class="li-head">channel</span> - Wi-Fi channels. <span class="li-normal">type: list</span> <span class="li-normal">choices: CH36, CH40, CH44, CH48, CH52, CH56, CH60, CH64, CH100, CH104, CH108, CH112, CH116, CH120, CH124, CH128, CH132, CH136, CH140, CH144, CH149, CH153, CH157, CH161, CH165</span>
  <a id='label258' href="javascript:ContentClick('label259', 'label258');" onmouseover="ContentPreview('label259');" onmouseout="ContentUnpreview('label259');" title="click to collapse or expand..."> more... </a>
  <div id="label259" style="display:none">
  <table border="1">
@@ -3217,22 +3150,88 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>guard_interval</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>channel</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH36]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[400ns]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH40]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[800ns]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[CH44]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH48]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH52]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH56]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH60]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH64]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH100]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH104]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH108]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH112]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH116]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH120]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH124]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH128]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH132]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH136]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH140]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH144]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH149]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH153]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH157]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH161]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[CH165]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">lan_ext_vap</span> - Wi-Fi LAN-Extention VAP. Select only one VAP. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">extension_channel</span> - Wi-Fi extension channel. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, higher, lower</span>
  <a id='label260' href="javascript:ContentClick('label261', 'label260');" onmouseover="ContentPreview('label261');" onmouseout="ContentUnpreview('label261');" title="click to collapse or expand..."> more... </a>
  <div id="label261" style="display:none">
  <table border="1">
@@ -3241,28 +3240,46 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>lan_ext_vap</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>extension_channel</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[higher]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[lower]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">local_vaps</span> - Wi-Fi local VAP. Select up to three VAPs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wifi/radio_2/local_vaps:name</span>
+                <li> <span class="li-head">guard_interval</span> - Wi-Fi guard interval. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 400ns, 800ns</span>
  <a id='label262' href="javascript:ContentClick('label263', 'label262');" onmouseover="ContentPreview('label263');" onmouseout="ContentUnpreview('label263');" title="click to collapse or expand..."> more... </a>
  <div id="label263" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>local_vaps</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>guard_interval</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[400ns]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[800ns]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                    <ul class="ul-self">
-                    <li> <span class="li-head">name</span> - Wi-Fi local VAP name. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">lan_ext_vap</span> - Wi-Fi LAN-Extention VAP. Select only one VAP. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span>
  <a id='label264' href="javascript:ContentClick('label265', 'label264');" onmouseover="ContentPreview('label265');" onmouseout="ContentUnpreview('label265');" title="click to collapse or expand..."> more... </a>
  <div id="label265" style="display:none">
  <table border="1">
@@ -3271,29 +3288,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>lan_ext_vap</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                    </ul>
-                <li> <span class="li-head">max_clients</span> - Maximum number of Wi-Fi radio clients (0 - 512, 0 = unlimited). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">local_vaps</span> - Wi-Fi local VAP. Select up to three VAPs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: wifi/radio_2/local_vaps:name</span>
  <a id='label266' href="javascript:ContentClick('label267', 'label266');" onmouseover="ContentPreview('label267');" onmouseout="ContentUnpreview('label267');" title="click to collapse or expand..."> more... </a>
  <div id="label267" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>max_clients</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>local_vaps</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">mode</span> - Wi-Fi radio mode AP(LAN mode) / Client(WAN mode). <span class="li-normal">type: str</span> <span class="li-normal">choices: AP, Client</span>
+                    <ul class="ul-self">
+                    <li> <span class="li-head">name</span> - Wi-Fi local VAP name. Source extension-controller.extender-vap.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label268' href="javascript:ContentClick('label269', 'label268');" onmouseover="ContentPreview('label269');" onmouseout="ContentUnpreview('label269');" title="click to collapse or expand..."> more... </a>
  <div id="label269" style="display:none">
  <table border="1">
@@ -3302,19 +3318,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mode</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[AP]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[Client]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">operating_standard</span> - Wi-Fi operating standard. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 11A-N-AC-AX, 11A-N-AC, 11A-N, 11A, 11N-AC-AX, 11AC-AX, 11AC, 11N-AC, 11B-G-N-AX, 11B-G-N, 11B-G, 11B, 11G-N-AX, 11N-AX, 11AX, 11G-N, 11N, 11G</span>
+                    </ul>
+                <li> <span class="li-head">max_clients</span> - Maximum number of Wi-Fi radio clients (0 - 512, 0 = unlimited). <span class="li-normal">type: int</span>
  <a id='label270' href="javascript:ContentClick('label271', 'label270');" onmouseover="ContentPreview('label271');" onmouseout="ContentUnpreview('label271');" title="click to collapse or expand..."> more... </a>
  <div id="label271" style="display:none">
  <table border="1">
@@ -3323,70 +3334,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>operating_standard</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>max_clients</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
- <tr>
- <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N-AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N-AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11A]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AC-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AC]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G-N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B-G]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11B]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G-N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N-AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11AX]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G-N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11N]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
- <tr>
- <td>[11G]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">power_level</span> - Wi-Fi power level in percent (0 - 100, 0 = auto). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">mode</span> - Wi-Fi radio mode AP(LAN mode) / Client(WAN mode). <span class="li-normal">type: str</span> <span class="li-normal">choices: AP, Client</span>
  <a id='label272' href="javascript:ContentClick('label273', 'label272');" onmouseover="ContentPreview('label273');" onmouseout="ContentUnpreview('label273');" title="click to collapse or expand..."> more... </a>
  <div id="label273" style="display:none">
  <table border="1">
@@ -3395,13 +3349,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>power_level</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>mode</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[AP]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[Client]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">set_80211d</span> - Enable/disable Wi-Fi 802.11d. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                <li> <span class="li-head">operating_standard</span> - Wi-Fi operating standard. <span class="li-normal">type: str</span> <span class="li-normal">choices: auto, 11A-N-AC-AX, 11A-N-AC, 11A-N, 11A, 11N-AC-AX, 11AC-AX, 11AC, 11N-AC, 11B-G-N-AX, 11B-G-N, 11B-G, 11B, 11G-N-AX, 11N-AX, 11AX, 11G-N, 11N, 11G</span>
  <a id='label274' href="javascript:ContentClick('label275', 'label274');" onmouseover="ContentPreview('label275');" onmouseout="ContentUnpreview('label275');" title="click to collapse or expand..."> more... </a>
  <div id="label275" style="display:none">
  <table border="1">
@@ -3410,19 +3370,70 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>set_80211d</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>operating_standard</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td>[11A-N-AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A-N-AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11A]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AC-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AC]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G-N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B-G]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11B]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G-N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N-AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11AX]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G-N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11N]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[11G]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">status</span> - Enable/disable Wi-Fi radio. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                <li> <span class="li-head">power_level</span> - Wi-Fi power level in percent (0 - 100, 0 = auto). <span class="li-normal">type: int</span>
  <a id='label276' href="javascript:ContentClick('label277', 'label276');" onmouseover="ContentPreview('label277');" onmouseout="ContentUnpreview('label277');" title="click to collapse or expand..."> more... </a>
  <div id="label277" style="display:none">
  <table border="1">
@@ -3431,15 +3442,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2 </code></td>
+ <td>power_level</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">set_80211d</span> - Enable/disable Wi-Fi 802.11d. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label278' href="javascript:ContentClick('label279', 'label278');" onmouseover="ContentPreview('label279');" onmouseout="ContentUnpreview('label279');" title="click to collapse or expand..."> more... </a>
+ <div id="label279" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>set_80211d</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">status</span> - Enable/disable Wi-Fi radio. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label280' href="javascript:ContentClick('label281', 'label280');" onmouseover="ContentPreview('label281');" onmouseout="ContentUnpreview('label281');" title="click to collapse or expand..."> more... </a>
+ <div id="label281" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
@@ -3561,21 +3608,24 @@ Examples
                       -
                           name: "default_name_87"
                           port: "port1"
-                          pvid: "0"
+                          pvid: "1"
                           type: "port"
                           vap: "<your_own_value> (source extension-controller.extender-vap.name)"
+                          vids:
+                              -
+                                  vid: "<you_own_value>"
                   ipsec_tunnel: "<your_own_value>"
                   link_loadbalance: "activebackup"
                   traffic_split_services:
                       -
                           address: "<your_own_value> (source firewall.address.name)"
-                          name: "default_name_96"
+                          name: "default_name_98"
                           service: "<your_own_value> (source firewall.service.custom.name)"
                           vsdb: "disable"
               login_password: "<your_own_value>"
               login_password_change: "yes"
               model: "FX201E"
-              name: "default_name_102"
+              name: "default_name_104"
               wifi:
                   country: "--"
                   radio_1:
@@ -3590,7 +3640,7 @@ Examples
                       lan_ext_vap: "<your_own_value> (source extension-controller.extender-vap.name)"
                       local_vaps:
                           -
-                              name: "default_name_116 (source extension-controller.extender-vap.name)"
+                              name: "default_name_118 (source extension-controller.extender-vap.name)"
                       max_clients: "0"
                       mode: "AP"
                       operating_standard: "auto"
@@ -3609,7 +3659,7 @@ Examples
                       lan_ext_vap: "<your_own_value> (source extension-controller.extender-vap.name)"
                       local_vaps:
                           -
-                              name: "default_name_134 (source extension-controller.extender-vap.name)"
+                              name: "default_name_136 (source extension-controller.extender-vap.name)"
                       max_clients: "0"
                       mode: "AP"
                       operating_standard: "auto"

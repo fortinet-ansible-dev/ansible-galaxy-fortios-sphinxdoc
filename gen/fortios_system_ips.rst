@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.2
+Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  <tr>
  <td>system_ips</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -75,7 +75,7 @@ Parameters
  <tr>
  <td>override_signature_hold_by_id</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -86,7 +86,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">signature_hold_time</span> - Time to hold and monitor IPS signatures. Format <#d##h> (day range: 0 - 7, hour range: 0 - 23, max hold time: 7d0h). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">signature_hold_time</span> - Time to hold and monitor IPS signatures. Format <#d##h> (day range: 0 - 21, hour range: 0 - 23, max hold time: 21d0h). <span class="li-normal">type: str</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -97,7 +97,7 @@ Parameters
  <tr>
  <td>signature_hold_time</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

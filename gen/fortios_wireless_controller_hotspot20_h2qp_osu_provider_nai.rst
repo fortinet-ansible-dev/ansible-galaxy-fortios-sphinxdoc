@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.6.2
+Supported Version Ranges: v7.0.2 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_hotspot20_h2qp_osu_provider_nai</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>nai_list</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>osu_nai</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -120,7 +120,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

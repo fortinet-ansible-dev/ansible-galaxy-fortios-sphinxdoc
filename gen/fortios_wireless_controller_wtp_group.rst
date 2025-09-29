@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.2
+Supported Version Ranges: v6.0.0 -> v7.6.4
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_wtp_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>ble_major_id</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -89,12 +89,12 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">platform_type</span> - FortiAP models to define the WTP group platform type. <span class="li-normal">type: str</span> <span class="li-normal">choices: AP-11N, C24JE, 421E, 423E, 221E, 222E, 223E, 224E, 231E, 321E, 431F, 431FL, 432F, 432FR, 433F, 433FL, 231F, 231FL, 234F, 23JF, 831F, 231G, 233G, 234G, 431G, 432G, 433G, 231K, 23JK, 241K, 243K, 441K, 443K, U421E, U422EV, U423E, U221EV, U223EV, U24JEV, U321EV, U323EV, U431F, U433F, U231F, U234F, U432F, U231G, 220B, 210B, 222B, 112B, 320B, 11C, 14C, 223B, 28C, 320C, 221C, 25D, 222C, 224D, 214B, 21D, 24D, 112D, 223C, 321C, C220C, C225C, C23JD, S321C, S322C, S323C, S311C, S313C, S321CR, S322CR, S323CR, S421E, S422E, S423E, S221E, S223E, U441G</span>
+        <li> <span class="li-head">platform_type</span> - FortiAP models to define the WTP group platform type. <span class="li-normal">type: str</span> <span class="li-normal">choices: AP-11N, C24JE, 421E, 423E, 221E, 222E, 223E, 224E, 231E, 321E, 431F, 431FL, 432F, 432FR, 433F, 433FL, 231F, 231FL, 234F, 23JF, 831F, 231G, 233G, 234G, 431G, 432G, 433G, 231K, 23JK, 222KL, 241K, 243K, 244K, 441K, 443K, U421E, U422EV, U423E, U221EV, U223EV, U24JEV, U321EV, U323EV, U431F, U433F, U231F, U234F, U432F, U231G, 220B, 210B, 222B, 112B, 320B, 11C, 14C, 223B, 28C, 320C, 221C, 25D, 222C, 224D, 214B, 21D, 24D, 112D, 223C, 321C, C220C, C225C, C23JD, S321C, S322C, S323C, S311C, S313C, S321CR, S322CR, S323CR, S421E, S422E, S423E, S221E, S223E, U441G</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -104,199 +104,207 @@ Parameters
  </tr>
  <tr>
  <td>platform_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  <tr>
  <td>[AP-11N]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[C24JE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[421E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[423E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[221E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[222E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[223E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[224E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[231E]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[321E]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[431F]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[431FL]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[432F]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[432FR]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[433F]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[433FL]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[231F]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[231FL]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[234F]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[23JF]</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0</code></td>
  <td><code class="docutils literal notranslate">v6.2.5 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[831F]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[231G]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[233G]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[234G]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[431G]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[432G]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[433G]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[231K]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[23JK]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[222KL]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[241K]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[243K]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ </tr>
+ <tr>
+ <td>[244K]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[441K]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[443K]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U421E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U422EV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U423E]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U221EV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U223EV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U24JEV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U321EV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U323EV]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  <tr>
  <td>[U431F]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U433F]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U231F]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U234F]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U432F]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[U231G]</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12</code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.2</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
  </tr>
  <tr>
  <td>[220B]</td>
@@ -459,7 +467,7 @@ Parameters
  </tr>
  <tr>
  <td>wtps</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>
@@ -475,7 +483,7 @@ Parameters
  </tr>
  <tr>
  <td>wtp_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.2 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
  </tr>
  </table>
  </div>

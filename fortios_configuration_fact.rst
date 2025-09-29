@@ -140,6 +140,7 @@ Parameters
         <li><span class="li-normal">casb_user-activity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_ca</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_crl</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">certificate_hsm-local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">certificate_remote</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">cifs_domain-controller</span>  <span class="li-required">param: server_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -152,6 +153,7 @@ Parameters
         <li><span class="li-normal">dlp_filepattern</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_fp-doc-source</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_fp-sensitivity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">dlp_label</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_sensitivity</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">dlp_sensor</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -251,6 +253,7 @@ Parameters
         <li><span class="li-normal">firewall_internet-service-custom-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_internet-service-definition</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_internet-service-extension</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_internet-service-fortiguard</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_internet-service-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_internet-service-ipbl-reason</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_internet-service-ipbl-vendor</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -469,6 +472,7 @@ Parameters
         <li><span class="li-normal">switch-controller_fortilink-settings</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_global</span> </li>
         <li><span class="li-normal">switch-controller_igmp-snooping</span> </li>
+        <li><span class="li-normal">switch-controller_ip-source-guard-log</span> </li>
         <li><span class="li-normal">switch-controller_lldp-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_lldp-settings</span> </li>
         <li><span class="li-normal">switch-controller_location</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -574,6 +578,7 @@ Parameters
         <li><span class="li-normal">system_automation-trigger</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_central-management</span> </li>
         <li><span class="li-normal">system_central-mgmt</span> </li>
+        <li><span class="li-normal">system_cloud-service</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_cluster-sync</span>  <span class="li-required">param: sync_id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_cmdb</span> </li>
         <li><span class="li-normal">system_console</span> </li>
@@ -582,6 +587,7 @@ Parameters
         <li><span class="li-normal">system_ddns</span>  <span class="li-required">param: ddnsid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dedicated-mgmt</span> </li>
         <li><span class="li-normal">system_device-upgrade</span>  <span class="li-required">param: serial</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_device-upgrade-exemptions</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dns</span> </li>
         <li><span class="li-normal">system_dns-database</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_dns-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -596,6 +602,7 @@ Parameters
         <li><span class="li-normal">system_fm</span> </li>
         <li><span class="li-normal">system_fortiai</span> </li>
         <li><span class="li-normal">system_fortianalyzer-connectivity</span> </li>
+        <li><span class="li-normal">system_fortidata</span> </li>
         <li><span class="li-normal">system_fortiguard</span> </li>
         <li><span class="li-normal">system_fortiguard-log-service</span> </li>
         <li><span class="li-normal">system_fortiguard-service</span> </li>
@@ -698,6 +705,11 @@ Parameters
         <li><span class="li-normal">system_vxlan</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_wccp</span>  <span class="li-required">param: service_id</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_zone</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">telemetry-controller.application_predefine</span>  <span class="li-required">param: app_name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">telemetry-controller_agent</span>  <span class="li-required">param: agent_id</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">telemetry-controller_agent-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">telemetry-controller_global</span> </li>
+        <li><span class="li-normal">telemetry-controller_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_adgrp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_certificate</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_device</span>  <span class="li-required">param: alias</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -734,6 +746,7 @@ Parameters
         <li><span class="li-normal">voip_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_ca</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_crl</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">vpn.certificate_hsm-local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_ocsp-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">vpn.certificate_remote</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>

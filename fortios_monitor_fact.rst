@@ -348,6 +348,14 @@ Parameters
             </ul>
         
         </li>
+        firewall_internet-service-fqdn
+        <li><span class="li-head">firewall_internet-service-fqdn</span> 
+        
+        </li>
+        firewall_internet-service-fqdn-icon-ids
+        <li><span class="li-head">firewall_internet-service-fqdn-icon-ids</span> 
+        
+        </li>
         firewall_internet-service-match
         <li><span class="li-head">firewall_internet-service-match</span> - List internet services that exist at a given IP or Subnet. 
         <ul class="ul-self">
@@ -435,7 +443,7 @@ Parameters
         firewall_policy
         <li><span class="li-head">firewall_policy</span> - List traffic statistics for firewall policies. 
         <ul class="ul-self">
-                <li><span class="li-required">policyid</span> - Filter: Policy ID. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">policyid</span> - Filter: Array of policy IDs. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - Filter: Traffic IP Version. [ ipv4 | ipv6 ], if left empty, will retrieve data for both ipv4 and ipv6. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -454,9 +462,11 @@ Parameters
                 <li><span class="li-required">icmptype</span> - ICMP type. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">icmpcode</span> - ICMP code. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">policy_type</span> - Policy type. [*policy | proxy] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">auth_type</span> - Authentication type. [user | group] Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">auth_type</span> - Authentication type. [user | group | saml | ldap] Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">user_group</span> - List of remote user groups. ['cn=remote desktop users,cn=builtin,dc=devqa,dc=lab','cn=domain users,cn=users,dc=devqa,dc=lab', ...] Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">server_name</span> - Remote user/group server name. Note: this only works for models that can guarantee WAD workers availability, i.e. those that do not disable proxy features globally. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">user_db</span> - Authentication server to contain user information. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">group_attr_type</span> - Remote user group attribute type. [*name | id] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -954,7 +964,11 @@ Parameters
         
         </li>
         log_device_state
-        <li><span class="li-head">log_device_state</span> 
+        <li><span class="li-head">log_device_state</span> - Retrieve information on state of log devices. 
+        <ul class="ul-self">
+                <li><span class="li-required">scope</span> - Scope from which to retrieve log device state [vdom*|global]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         log_event
@@ -1173,13 +1187,28 @@ Parameters
         <li><span class="li-head">router_bgp_paths6</span> 
         
         </li>
-        router_ipv4
-        <li><span class="li-head">router_ipv4</span> - List all active IPv4 routing table entries. 
+        router_charts
+        <li><span class="li-head">router_charts</span> - Retrieve routing chart statistics, including a map of interfaces and route types. 
         <ul class="ul-self">
+                <li><span class="li-required">operator</span> - Filter logic [*and|or]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ip_version</span> - IP version (4|6). If not present, IPv4 and IPv6 will be returned. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        router_ipv4
+        <li><span class="li-head">router_ipv4</span> - List all active IPv4 routing table entries. 
+        <ul class="ul-self">
+                <li><span class="li-required">operator</span> - Filter logic [*and|or]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1188,10 +1217,11 @@ Parameters
         router_ipv6
         <li><span class="li-head">router_ipv6</span> - List all active IPv6 routing table entries. 
         <ul class="ul-self">
+                <li><span class="li-required">operator</span> - Filter logic [*and|or]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1269,11 +1299,12 @@ Parameters
         router_statistics
         <li><span class="li-head">router_statistics</span> - Retrieve routing table statistics, including number of matched routes. 
         <ul class="ul-self">
+                <li><span class="li-required">operator</span> - Filter logic [*and|or]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - IP version (4|6). If not present, IPv4 and IPv6 will be returned. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_mask</span> - Filter: IP/netmask. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">gateway</span> - Filter: gateway. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">type</span> - Filter: route type. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">origin</span> - Filter: router origin.  <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">origin</span> - Filter: router origin. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
@@ -1311,6 +1342,10 @@ Parameters
                 <li><span class="li-required">fortilink</span> - FortiLink interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
+        
+        </li>
+        switch-controller_known-nac-device-criteria-list
+        <li><span class="li-head">switch-controller_known-nac-device-criteria-list</span> 
         
         </li>
         switch-controller_managed-switch
@@ -1457,6 +1492,14 @@ Parameters
         </li>
         system_3g-modem
         <li><span class="li-head">system_3g-modem</span> 
+        
+        </li>
+        system_5g-modem_status
+        <li><span class="li-head">system_5g-modem_status</span> - Retrieve the 5G modem status. 
+        <ul class="ul-self">
+                <li><span class="li-required">modem</span> - Modem to query status [all|1|2]. Defaults to all modems if not provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         system_acme-certificate-status
@@ -1837,6 +1880,10 @@ Parameters
             </ul>
         
         </li>
+        system_interface_poe-usage
+        <li><span class="li-head">system_interface_poe-usage</span> 
+        
+        </li>
         system_interface_speed-test-status
         <li><span class="li-head">system_interface_speed-test-status</span> - Retrieve the current status of a speed-test with the results if finished. 
         <ul class="ul-self">
@@ -1888,6 +1935,10 @@ Parameters
         </li>
         system_modem
         <li><span class="li-head">system_modem</span> 
+        
+        </li>
+        system_monitor-sensor
+        <li><span class="li-head">system_monitor-sensor</span> 
         
         </li>
         system_nat46-ippools
@@ -1952,6 +2003,10 @@ Parameters
                 <li><span class="li-required">server</span> - IP/FQDN of the FortiSandbox to test. Uses the configured FortiSandbox IP/FQDN if no server is provided. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        system_sandbox_detect
+        <li><span class="li-head">system_sandbox_detect</span> 
         
         </li>
         system_sandbox_stats
@@ -2116,6 +2171,14 @@ Parameters
         <li><span class="li-head">system_vm-information</span> 
         
         </li>
+        telemetry-controller_agent-tasks
+        <li><span class="li-head">telemetry-controller_agent-tasks</span> 
+        
+        </li>
+        telemetry-controller_agents
+        <li><span class="li-head">telemetry-controller_agents</span> 
+        
+        </li>
         user_banned
         <li><span class="li-head">user_banned</span> 
         
@@ -2164,6 +2227,15 @@ Parameters
         </li>
         user_device-type
         <li><span class="li-head">user_device-type</span> 
+        
+        </li>
+        user_device_iot-query
+        <li><span class="li-head">user_device_iot-query</span> - Retrieve IoT/OT information for a given device from user device store. 
+        <ul class="ul-self">
+                <li><span class="li-required">mac</span> - Main MAC address of the device. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">ip</span> - IP address of the device. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
         
         </li>
         user_device_query
@@ -2285,7 +2357,17 @@ Parameters
         user_scim_groups
         <li><span class="li-head">user_scim_groups</span> - Get SCIM client group-names. 
         <ul class="ul-self">
-                <li><span class="li-required">scim-client-name</span> - SCIM client name to be used to retrieve group names. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">client_name</span> - SCIM client name to be used to retrieve group names. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        user_scim_users
+        <li><span class="li-head">user_scim_users</span> - Get SCIM client users. 
+        <ul class="ul-self">
+                <li><span class="li-required">client_name</span> - SCIM client name to be used to retrieve group names. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">group_name</span> - SCIM client group name to be used to retrieve users, if left empty, will retrieve users from all groups. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">user_name</span> - SCIM client user name to retrieve, if left empty, will retrieve all users from group. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2295,7 +2377,7 @@ Parameters
         
         </li>
         utm_app-lookup
-        <li><span class="li-head">utm_app-lookup</span> - Query remote FortiFlow database to resolve hosts to application control entries. 
+        <li><span class="li-head">utm_app-lookup</span> - Query ISDB to resolve hosts to application control entries. 
         <ul class="ul-self">
                 <li><span class="li-required">hosts</span> - List of hosts to resolve. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 
@@ -2332,7 +2414,7 @@ Parameters
         
         </li>
         virtual-wan_health-check
-        <li><span class="li-head">virtual-wan_health-check</span> - Retrieve health-check statistics for each SD-WAN link. 
+        <li><span class="li-head">virtual-wan_health-check</span> - Retrieve health-check statistics for each SD-WAN link. To be deprecated and replaced by /api/v2/monitor/virtual-wan/sla-log?latest=1&sla=<sla_name> for SLA health metrics  
         <ul class="ul-self">
                 <li><span class="li-required">health_check_name</span> - Health check name. If not provided, will return results of all health checks. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
@@ -2352,21 +2434,26 @@ Parameters
         virtual-wan_members
         <li><span class="li-head">virtual-wan_members</span> - Retrieve interface statistics for each SD-WAN link. 
         <ul class="ul-self">
-                <li><span class="li-required">zone</span> - SD-WAN zone name. If not set, will return members of all SD-WAN zones. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">interface</span> - Interface names. "interface" param take precedence over "zone" or "sla". If set, will return only return the members that matches the interfaces. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">zone</span> - SD-WAN zone name. "zone" param take precedence over "sla". If set, will only return members of the zone. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sla</span> - SLA name. If set, will only return members that are participants of the SLA. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">skip_vpn_child</span> - If set, will skip all VPN child interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
         </li>
         virtual-wan_sla-log
-        <li><span class="li-head">virtual-wan_sla-log</span> - Retrieve log of SLA probe results for for each SD-WAN SLA rule. 
+        <li><span class="li-head">virtual-wan_sla-log</span> - Retrieve logs of SLA probe results for the specified SD-WAN SLA or health check name. 
         <ul class="ul-self">
-                <li><span class="li-required">sla</span> - Filter: SLA name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sla</span> - Filter: SLA names. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: Interface name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">since</span> - Filter: Only return SLA logs generated since this Unix timestamp. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">seconds</span> - Filter: Only return SLA logs generated in the last N seconds. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">sampling_interval</span> - The interval to be used for sampling SLA logs, in seconds (default=5). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">latest</span> - If set, will only return the latest log, in the meantime, since, seconds, or sampling_interval will be ignored. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">min_sample_interval</span> - Minimum seconds between kept log samples. Returned samples may not be evenly spaced (default: 5). <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">sampling_interval</span> - Deprecated: Use min_sample_interval instead <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">skip_vpn_child</span> - If set, will skip all VPN child interfaces. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">include_sla_targets_met</span> - If set, will return SLA targets that are met. Can only be used when "latest" is set. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2390,6 +2477,10 @@ Parameters
                 <li><span class="li-required">tunnel</span> - Filter for a specific IPsec tunnel name. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
+        
+        </li>
+        vpn_ipsec_connection-count
+        <li><span class="li-head">vpn_ipsec_connection-count</span> 
         
         </li>
         vpn_ocvpn_members
@@ -2550,6 +2641,7 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">wtp_id</span> - Filter: single managed FortiAP by ID. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">incl_local</span> - Enable to include the local FortiWiFi device in the results. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">skip_eos</span> - Skip adding Fortiguard end-of-support data. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         

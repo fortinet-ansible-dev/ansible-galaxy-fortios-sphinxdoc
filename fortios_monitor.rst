@@ -364,6 +364,13 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">create-default.wifi.ap-profile</span> - Create a default FortiAP profile for the specified platform. 
+        <ul class="ul-self">
+                <li><span class="li-required">platform</span> - FortiAP platform to create a default profile for. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">create.forticonverter.ticket</span> - Create a new FortiConverter service ticket to initiate a migration. 
         
         </li>
@@ -461,7 +468,7 @@ Parameters
             </ul>
         
         </li>
-        <li><span class="li-head">delete.vpn.ssl</span> - Terminate the provided SSL-VPN session. 
+        <li><span class="li-head">delete.vpn.ssl</span> - Terminate the provided Agentless VPN session. 
         <ul class="ul-self">
                 <li><span class="li-required">type</span> - The session type [websession|subsession]. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">index</span> - The session index. <span class="li-normal">type: int  required: True </span> </li>
@@ -628,6 +635,7 @@ Parameters
         <li><span class="li-head">generate-key.system.api-user</span> - Generate a new api-key for the specified api-key-auth admin. The old api-key will be replaced. The response contains the only chance to read the new api-key plaintext in the api_key field. 
         <ul class="ul-self">
                 <li><span class="li-required">api-user</span> - Generate a new token for this api-user. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">expiry</span> - Optional expiry of API key in minutes from now (valid range: 1 - 10080). <span class="li-normal">type: int  required: False </span> </li>
                 
             </ul>
         
@@ -945,7 +953,7 @@ Parameters
             </ul>
         
         </li>
-        <li><span class="li-head">register-device.registration.forticloud</span> - Register a device to FortiCloud through FortiGate. Currently FortiSwitch and FortiAP are supported. 
+        <li><span class="li-head">register-device.registration.forticloud</span> - Register a device to FortiCloud through FortiGate. Currently FortiSwitches, FortiAPs and FortiExtenders are supported. 
         <ul class="ul-self">
                 <li><span class="li-required">serial</span> - Device serial number <span class="li-normal">type: string  required: False </span> </li>
                 <li><span class="li-required">email</span> - FortiCloud email. <span class="li-normal">type: string  required: True </span> </li>
@@ -954,6 +962,7 @@ Parameters
                 <li><span class="li-required">reseller_id</span> - Reseller ID. <span class="li-normal">type: int  required: True </span> </li>
                 <li><span class="li-required">country</span> - Country. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">is_government</span> - Set to true if the end-user is affiliated with a government. <span class="li-normal">type: boolean  required: False </span> </li>
+                <li><span class="li-required">agreement_accepted</span> - Set to true if the end-user accepted the agreement. <span class="li-normal">type: boolean  required: False </span> </li>
                 
             </ul>
         
@@ -1146,6 +1155,14 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">set.system.private-data-encryption</span> - Sets private data encryption. 
+        <ul class="ul-self">
+                <li><span class="li-required">enable</span> - Enable private data encryption. <span class="li-normal">type: boolean  required: True </span> </li>
+                <li><span class="li-required">password</span> - Admin password. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">set.system.time</span> - Sets current system time stamp. 
         <ul class="ul-self">
                 <li><span class="li-required">year</span> - Specifies the year for setting/updating time manually. <span class="li-normal">type: int  required: True </span> </li>
@@ -1192,7 +1209,7 @@ Parameters
         </li>
         <li><span class="li-head">soft-reset-neighbor.router.bgp</span> - BGP Neighbor soft reset. 
         <ul class="ul-self">
-                <li><span class="li-required">ip</span> - IP address of neighbor to perform soft reset on. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">ip</span> - IPv4 or IPv6 address of neighbor to perform soft reset on. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>
         
@@ -1391,6 +1408,15 @@ Parameters
         
         </li>
         <li><span class="li-head">test.user.tacacs-plus</span> - Test the connectivity of the given TACACS+ server. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of FortiGate's TACACS+ object whose settings to test. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">ordinal</span> - If 'mkey' is provided, the server-key pair to use from the object: 'primary', 'secondary' or 'tertiary'. Defaults to 'primary'. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">server</span> - Host name of IP of a TACACS+ server. If 'mkey' is provided, this overrides the 'server' value in the object. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">secret</span> - Secret key for the TACACS+ server. If 'mkey' is provided, this overrides the 'key' value in the object. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">port</span> - Port number of the TACACS+ server. If 'mkey' is provided, this overrides the 'port' value in the object. Defaults to 49. <span class="li-normal">type: int  required: False </span> </li>
+                <li><span class="li-required">source_ip</span> - Source IP for communications to TACACS+ server. If 'mkey' is provided, this overrides the 'source-ip' value in the object. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
         
         </li>
         <li><span class="li-head">toggle-vdom-mode.system.admin</span> - Toggles VDOM mode on/off. Enables or disables VDOM mode if it is disabled or enabled respectively. 
@@ -1402,6 +1428,7 @@ Parameters
                 <li><span class="li-required">password</span> - Account password. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">old_email</span> - Old account email. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">old_password</span> - Old account password. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">is_government</span> - Set to true if the end-user is affiliated with a government. <span class="li-normal">type: boolean  required: False </span> </li>
                 
             </ul>
         
@@ -1582,6 +1609,7 @@ Parameters
                 <li><span class="li-required">format_partition</span> - Set to true to format boot partition before upgrade. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">ignore_invalid_signature</span> - Set to true to allow upgrade of firmware images with invalid signatures. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">file_id</span> - File ID of the uploaded firmware image to allow upgrade of firmware images with invalid signatures. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">ignore_admin_lockout_upon_downgrade</span> - Set to true to allow dowgrading if the firmware doesn't support safer password and there is at least 1 admin that will be locked out after upgrade. <span class="li-normal">type: boolean  required: False </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
                 
             </ul>
