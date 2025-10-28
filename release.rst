@@ -4,6 +4,24 @@ Release Notes
 
 |
 
+Release Galaxy 2.4.2
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.4.2 is based on 2.4.1
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+
+- Fixed authentication issue in v7.6.4 when using access_token.
+
+Improvements
+^^^^^^^^^^^^^
+
+- Supported default_group feature for the all of the modules.
+
 Release Galaxy 2.4.1
 --------------------
 
