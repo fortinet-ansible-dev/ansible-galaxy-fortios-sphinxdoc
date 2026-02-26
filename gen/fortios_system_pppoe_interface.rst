@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.4
+Supported Version Ranges: v6.0.0 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_pppoe_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>ac_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,23 +89,23 @@ Parameters
  </tr>
  <tr>
  <td>auth_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[pap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[chap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[mschapv1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[mschapv2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>device</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -134,14 +134,14 @@ Parameters
  </tr>
  <tr>
  <td>dial_on_demand</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>disc_retry_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>idle_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -185,7 +185,7 @@ Parameters
  </tr>
  <tr>
  <td>ipunnumbered</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -200,14 +200,14 @@ Parameters
  </tr>
  <tr>
  <td>ipv6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -221,7 +221,7 @@ Parameters
  </tr>
  <tr>
  <td>lcp_echo_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -236,12 +236,12 @@ Parameters
  </tr>
  <tr>
  <td>lcp_max_echo_fails</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Name of the PPPoE interface. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">mrru</span> - PPP MRRU (296 - 65535). <span class="li-normal">type: int</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -250,13 +250,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>mrru</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">padt_retry_timeout</span> - PPPoE terminate timeout value in (0-4294967295 sec). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">multilink</span> - Enable/disable PPP multilink support. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -265,13 +265,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>padt_retry_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>multilink</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">password</span> - Enter the password. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - Name of the PPPoE interface. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -280,13 +286,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>password</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">pppoe_egress_cos</span> - CoS in VLAN tag for outgoing PPPoE/PPP packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: cos0, cos1, cos2, cos3, cos4, cos5, cos6, cos7</span>
+        <li> <span class="li-head">padt_retry_timeout</span> - PPPoE terminate timeout value in (0-4294967295 sec). <span class="li-normal">type: int</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -295,37 +301,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>pppoe_egress_cos</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td>padt_retry_timeout</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[cos0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos1]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos2]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos3]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos4]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos5]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos6]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
- <tr>
- <td>[cos7]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">pppoe_unnumbered_negotiate</span> - Enable/disable PPPoE unnumbered negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">password</span> - Enter the password. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -334,19 +316,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>pppoe_unnumbered_negotiate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>password</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">service_name</span> - PPPoE service name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">pppoe_egress_cos</span> - CoS in VLAN tag for outgoing PPPoE/PPP packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: cos0, cos1, cos2, cos3, cos4, cos5, cos6, cos7</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -355,13 +331,37 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>service_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>pppoe_egress_cos</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
+ <tr>
+ <td>[cos0]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos1]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos2]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos3]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos4]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos5]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos6]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[cos7]</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">username</span> - User name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">pppoe_unnumbered_negotiate</span> - Enable/disable PPPoE unnumbered negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -370,8 +370,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>pppoe_unnumbered_negotiate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">service_name</span> - PPPoE service name. <span class="li-normal">type: str</span>
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>service_name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">username</span> - User name. <span class="li-normal">type: str</span>
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>username</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -412,7 +448,9 @@ Examples
               ipv6: "enable"
               lcp_echo_interval: "5"
               lcp_max_echo_fails: "3"
-              name: "default_name_13"
+              mrru: "1500"
+              multilink: "enable"
+              name: "default_name_15"
               padt_retry_timeout: "1"
               password: "<your_own_value>"
               pppoe_egress_cos: "cos0"

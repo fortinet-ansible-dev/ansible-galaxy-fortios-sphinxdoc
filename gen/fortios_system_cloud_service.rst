@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.3 -> v7.6.4
+Supported Version Ranges: v7.6.3 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_cloud_service</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>gck_access_token_lifetime</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>gck_keyid</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>gck_private_key</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>gck_service_account</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -134,7 +134,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -149,7 +149,7 @@ Parameters
  </tr>
  <tr>
  <td>traffic_vdom</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -164,14 +164,14 @@ Parameters
  </tr>
  <tr>
  <td>vendor</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[unknown]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  <tr>
  <td>[google-cloud-kms]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  </table>
  </div>
  </li>

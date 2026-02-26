@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.4
+Supported Version Ranges: v6.0.0 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_accprofile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>admintimeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>admintimeout_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -110,17 +110,17 @@ Parameters
  </tr>
  <tr>
  <td>authgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -134,14 +134,14 @@ Parameters
  </tr>
  <tr>
  <td>cli_config</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -155,14 +155,14 @@ Parameters
  </tr>
  <tr>
  <td>cli_diagnose</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -176,14 +176,14 @@ Parameters
  </tr>
  <tr>
  <td>cli_exec</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -197,14 +197,14 @@ Parameters
  </tr>
  <tr>
  <td>cli_get</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -218,14 +218,14 @@ Parameters
  </tr>
  <tr>
  <td>cli_show</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -239,7 +239,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -254,17 +254,17 @@ Parameters
  </tr>
  <tr>
  <td>ftviewgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -278,20 +278,20 @@ Parameters
  </tr>
  <tr>
  <td>fwgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -304,7 +304,7 @@ Parameters
  </tr>
  <tr>
  <td>fwgrp_permission</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -320,17 +320,17 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -344,17 +344,17 @@ Parameters
  </tr>
  <tr>
  <td>others</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -368,17 +368,17 @@ Parameters
  </tr>
  <tr>
  <td>policy</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -392,17 +392,17 @@ Parameters
  </tr>
  <tr>
  <td>schedule</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -416,17 +416,17 @@ Parameters
  </tr>
  <tr>
  <td>service</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -441,20 +441,20 @@ Parameters
  </tr>
  <tr>
  <td>loggrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -467,7 +467,7 @@ Parameters
  </tr>
  <tr>
  <td>loggrp_permission</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -483,17 +483,17 @@ Parameters
  </tr>
  <tr>
  <td>config</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -507,17 +507,17 @@ Parameters
  </tr>
  <tr>
  <td>data_access</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -531,17 +531,17 @@ Parameters
  </tr>
  <tr>
  <td>report_access</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -555,17 +555,17 @@ Parameters
  </tr>
  <tr>
  <td>threat_weight</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -580,7 +580,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -595,20 +595,20 @@ Parameters
  </tr>
  <tr>
  <td>netgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -621,7 +621,7 @@ Parameters
  </tr>
  <tr>
  <td>netgrp_permission</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -637,17 +637,17 @@ Parameters
  </tr>
  <tr>
  <td>cfg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -661,17 +661,17 @@ Parameters
  </tr>
  <tr>
  <td>packet_capture</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -685,17 +685,17 @@ Parameters
  </tr>
  <tr>
  <td>route_cfg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -710,18 +710,18 @@ Parameters
  </tr>
  <tr>
  <td>scope</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[vdom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[global]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">secfabgrp</span> - Security Fabric. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+        <li> <span class="li-head">secfabgrp</span> - Security Fabric. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write, custom</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -731,63 +731,64 @@ Parameters
  </tr>
  <tr>
  <td>secfabgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sysgrp</span> - System Configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write, custom</span>
+        <li> <span class="li-head">secfabgrp_permission</span> - Custom Security Fabric permissions. <span class="li-normal">type: dict</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>secfabgrp_permission</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">csffoo</span> - Fabric Overlay Orchestrator profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sysgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>csffoo</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sysgrp_permission</span> - Custom system permission. <span class="li-normal">type: dict</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>sysgrp_permission</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">admin</span> - Administrator Users. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">csfsys</span> - Security Fabric system profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -796,22 +797,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>admin</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>csfsys</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cfg</span> - System Configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">mmsgtp</span> - UTM permission. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -820,22 +821,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cfg</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>mmsgtp</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">mnt</span> - Maintenance. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            </ul>
+        <li> <span class="li-head">sysgrp</span> - System Configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write, custom</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -844,24 +846,114 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mnt</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>sysgrp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">sysgrp_permission</span> - Custom system permission. <span class="li-normal">type: dict</span>
+ <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
+ <div id="label75" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>sysgrp_permission</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">admin</span> - Administrator Users. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
+ <div id="label77" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>admin</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">cfg</span> - System Configuration. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
+ <div id="label79" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>cfg</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">mnt</span> - Maintenance. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
+ <div id="label81" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>mnt</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
             <li> <span class="li-head">upd</span> - FortiGuard Updates. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
- <div id="label75" style="display:none">
+ <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
+ <div id="label83" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -869,24 +961,24 @@ Parameters
  </tr>
  <tr>
  <td>upd</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">system_diagnostics</span> - Enable/disable permission to run system diagnostic commands. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
- <div id="label77" style="display:none">
+ <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
+ <div id="label85" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -906,90 +998,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">system_execute_ssh</span> - Enable/disable permission to execute SSH commands. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
- <div id="label79" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>system_execute_ssh</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">system_execute_telnet</span> - Enable/disable permission to execute TELNET commands. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
- <div id="label81" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>system_execute_telnet</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">utmgrp</span> - Administrator access to Security Profiles. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write, custom</span>
- <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
- <div id="label83" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>utmgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">utmgrp_permission</span> - Custom Security Profile permissions. <span class="li-normal">type: dict</span>
- <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
- <div id="label85" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>utmgrp_permission</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">antivirus</span> - Antivirus profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
  <div id="label87" style="display:none">
  <table border="1">
@@ -998,22 +1006,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>antivirus</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>system_execute_ssh</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">application_control</span> - Application Control profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+        <li> <span class="li-head">system_execute_telnet</span> - Enable/disable permission to execute TELNET commands. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -1022,22 +1027,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>application_control</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>system_execute_telnet</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">casb</span> - Inline CASB filter profile and settings <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+        <li> <span class="li-head">utmgrp</span> - Administrator access to Security Profiles. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write, custom</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -1046,24 +1048,114 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>casb</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4 </code></td>
+ <td>utmgrp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">utmgrp_permission</span> - Custom Security Profile permissions. <span class="li-normal">type: dict</span>
+ <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
+ <div id="label93" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>utmgrp_permission</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">antivirus</span> - Antivirus profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
+ <div id="label95" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>antivirus</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">application_control</span> - Application Control profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
+ <div id="label97" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>application_control</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">casb</span> - Inline CASB filter profile and settings <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
+ <div id="label99" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>casb</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
             <li> <span class="li-head">data_leak_prevention</span> - DLP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
- <div id="label93" style="display:none">
+ <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
+ <div id="label101" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1086,8 +1178,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">data_loss_prevention</span> - DLP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
- <div id="label95" style="display:none">
+ <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
+ <div id="label103" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1110,102 +1202,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">dlp</span> - DLP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
- <div id="label97" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>dlp</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">dnsfilter</span> - DNS Filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
- <div id="label99" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>dnsfilter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">emailfilter</span> - Email Filter and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
- <div id="label101" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>emailfilter</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">endpoint_control</span> - FortiClient Profiles. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
- <div id="label103" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>endpoint_control</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">file_filter</span> - File-filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
  <div id="label105" style="display:none">
  <table border="1">
@@ -1214,22 +1210,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>file_filter</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td>dlp</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">icap</span> - ICAP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">dnsfilter</span> - DNS Filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
  <div id="label107" style="display:none">
  <table border="1">
@@ -1238,22 +1234,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>icap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>dnsfilter</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ips</span> - IPS profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">emailfilter</span> - Email Filter and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -1262,24 +1258,120 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ips</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>emailfilter</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">endpoint_control</span> - FortiClient Profiles. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
+ <div id="label111" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>endpoint_control</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">file_filter</span> - File-filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
+ <div id="label113" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>file_filter</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">icap</span> - ICAP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
+ <div id="label115" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>icap</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">ips</span> - IPS profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
+ <div id="label117" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>ips</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
             <li> <span class="li-head">mmsgtp</span> - UTM permission. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
- <div id="label111" style="display:none">
+ <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
+ <div id="label119" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1289,7 +1381,7 @@ Parameters
  <td>mmsgtp</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v7.0.8 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.4 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> v7.6.4 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
@@ -1304,8 +1396,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">spamfilter</span> - AntiSpam filter and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
- <div id="label113" style="display:none">
+ <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
+ <div id="label121" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1328,102 +1420,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">telemetry</span> - Telemetry profile and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
- <div id="label115" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>telemetry</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">videofilter</span> - Video filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
- <div id="label117" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>videofilter</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">virtual_patch</span> - Virtual patch profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
- <div id="label119" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>virtual_patch</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">voip</span> - VoIP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
- <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
- <div id="label121" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>voip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">waf</span> - Web Application Firewall profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
  <table border="1">
@@ -1432,22 +1428,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>waf</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>telemetry</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">webfilter</span> - Web Filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">videofilter</span> - Video filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
  <div id="label125" style="display:none">
  <table border="1">
@@ -1456,23 +1452,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>webfilter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>videofilter</td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">vpngrp</span> - Administrator access to IPsec, SSL, PPTP, and L2TP VPN. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">virtual_patch</span> - Virtual patch profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
  <div id="label127" style="display:none">
  <table border="1">
@@ -1481,50 +1476,46 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vpngrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>virtual_patch</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">wanoptgrp</span> - Administrator access to WAN Opt & Cache. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">voip</span> - VoIP profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
  <div id="label129" style="display:none">
  <table border="1">
  <tr>
  <td></td>
- <td colspan="2">Supported Version Ranges</td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>wanoptgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
- <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.4 </code></td>
+ <td>voip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </tr>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">wifi</span> - Administrator access to the WiFi controller and Switch controller. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+            <li> <span class="li-head">waf</span> - Web Application Firewall profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
  <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
  <div id="label131" style="display:none">
  <table border="1">
@@ -1533,18 +1524,119 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>wifi</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>waf</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[read-write]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">webfilter</span> - Web Filter profiles and settings. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
+ <div id="label133" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>webfilter</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">vpngrp</span> - Administrator access to IPsec, SSL, PPTP, and L2TP VPN. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vpngrp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">wanoptgrp</span> - Administrator access to WAN Opt & Cache. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
+ <div id="label137" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="2">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>wanoptgrp</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.4.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.3 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </tr>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </tr>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">wifi</span> - Administrator access to the WiFi controller and Switch controller. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, read, read-write</span>
+ <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
+ <div id="label139" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>wifi</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[read-write]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -1605,6 +1697,10 @@ Examples
                   route_cfg: "none"
               scope: "vdom"
               secfabgrp: "none"
+              secfabgrp_permission:
+                  csffoo: "none"
+                  csfsys: "none"
+                  mmsgtp: "none"
               sysgrp: "none"
               sysgrp_permission:
                   admin: "none"

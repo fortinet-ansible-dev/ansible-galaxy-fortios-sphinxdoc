@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.3 -> v7.6.4
+Supported Version Ranges: v7.6.3 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>telemetry_controller_agent_profile</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,12 +74,12 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">model</span> - Model. <span class="li-normal">type: str</span> <span class="li-normal">choices: FTL100G, WINDOWS</span>
+        <li> <span class="li-head">model</span> - Model. <span class="li-normal">type: str</span> <span class="li-normal">choices: ftl-100g, windows, macos, FTL100G, WINDOWS</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -89,14 +89,28 @@ Parameters
  </tr>
  <tr>
  <td>model</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[ftl-100g]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ </tr>
+ <tr>
+ <td>[windows]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ </tr>
+ <tr>
+ <td>[macos]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[FTL100G]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> v7.6.4</code></td>
+ </tr>
  <tr>
  <td>[WINDOWS]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> v7.6.4</code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -110,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +154,7 @@ Examples
           access_token: "<your_own_value>"
           telemetry_controller_agent_profile:
               comment: "Comment."
-              model: "FTL100G"
+              model: "ftl-100g"
               name: "default_name_5"
 
 

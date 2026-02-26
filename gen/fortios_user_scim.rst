@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.0 -> v7.6.4
+Supported Version Ranges: v7.6.0 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>user_scim</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_method</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[token]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  <tr>
  <td>[base]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>base_url</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -110,14 +110,14 @@ Parameters
  </tr>
  <tr>
  <td>cascade</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -131,7 +131,7 @@ Parameters
  </tr>
  <tr>
  <td>certificate</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -167,14 +167,14 @@ Parameters
  </tr>
  <tr>
  <td>client_identity_check</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -203,7 +203,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -218,7 +218,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -233,7 +233,7 @@ Parameters
  </tr>
  <tr>
  <td>secret</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -248,14 +248,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -269,7 +269,7 @@ Parameters
  </tr>
  <tr>
  <td>token_certificate</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>

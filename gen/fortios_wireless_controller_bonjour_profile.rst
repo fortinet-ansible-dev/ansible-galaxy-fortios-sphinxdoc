@@ -4,8 +4,8 @@
 
 .. fortios_wireless_controller_bonjour_profile:
 
-fortios_wireless_controller_bonjour_profile -- Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connnect to networks using Bonjour in Fortinet's FortiOS and FortiGate.
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fortios_wireless_controller_bonjour_profile -- Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connect to networks using Bonjour in Fortinet's FortiOS and FortiGate.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 2.0.0
 
@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.4
+Supported Version Ranges: v6.0.0 -> v7.6.6
 
 
 Parameters
@@ -49,7 +49,7 @@ Parameters
     <li> <span class="li-head">member_path</span> - Member attribute path to operate on. <span class="li-normal">type: str</span> </li>
     <li> <span class="li-head">member_state</span> - Add or delete a member under specified attribute path. <span class="li-normal">type: str</span> <span class="li-normal">choices: present, absent</span> </li>
     <li> <span class="li-head">state</span> - Indicates whether to create or remove the object. <span class="li-normal">type: str</span> <span class="li-required">required: true</span> <span class="li-normal">choices: present, absent</span> </li>
-    <li> <span class="li-head">wireless_controller_bonjour_profile</span> - Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connnect to networks using Bonjour. <span class="li-normal">type: dict</span>
+    <li> <span class="li-head">wireless_controller_bonjour_profile</span> - Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connect to networks using Bonjour. <span class="li-normal">type: dict</span>
  <a id='label0' href="javascript:ContentClick('label1', 'label0');" onmouseover="ContentPreview('label1');" onmouseout="ContentUnpreview('label1');" title="click to collapse or expand..."> more... </a>
  <div id="label1" style="display:none">
  <table border="1">
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_bonjour_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  </tr>
  <tr>
  <td>micro_location</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -124,7 +124,7 @@ Parameters
  </tr>
  <tr>
  <td>policy_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>from_vlan</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>policy_id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -185,47 +185,47 @@ Parameters
  </tr>
  <tr>
  <td>services</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[airplay]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[afp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[bit-torrent]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ftp]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ichat]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[itunes]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[printers]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[samba]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[scanners]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[chromecast]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[miracast]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
@@ -240,7 +240,7 @@ Parameters
  </tr>
  <tr>
  <td>to_vlan</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -266,7 +266,7 @@ Examples
 
 .. code-block:: yaml+jinja
     
-    - name: Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connnect to networks
+    - name: Configure Bonjour profiles. Bonjour is Apple's zero configuration networking protocol. Bonjour profiles allow APs and FortiAPs to connect to networks
        using Bonjour.
       fortinet.fortios.fortios_wireless_controller_bonjour_profile:
           vdom: "{{ vdom }}"

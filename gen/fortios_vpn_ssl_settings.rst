@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.4
+Supported Version Ranges: v6.0.0 -> v7.6.6
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>vpn_ssl_settings</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -73,20 +73,20 @@ Parameters
  </tr>
  <tr>
  <td>algorithm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[low]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -100,14 +100,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_session_check_source_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -121,7 +121,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -135,7 +135,7 @@ Parameters
  </tr>
  <tr>
  <td>authentication_rule</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -151,26 +151,26 @@ Parameters
  </tr>
  <tr>
  <td>auth</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[local]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[radius]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[tacacs+]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ldap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[peer]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
@@ -185,17 +185,17 @@ Parameters
  </tr>
  <tr>
  <td>cipher</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[high]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[medium]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -209,14 +209,14 @@ Parameters
  </tr>
  <tr>
  <td>client_cert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -229,7 +229,7 @@ Parameters
  </tr>
  <tr>
  <td>groups</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -245,7 +245,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -261,7 +261,7 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -276,7 +276,7 @@ Parameters
  </tr>
  <tr>
  <td>portal</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -291,7 +291,7 @@ Parameters
  </tr>
  <tr>
  <td>realm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -305,7 +305,7 @@ Parameters
  </tr>
  <tr>
  <td>source_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -321,7 +321,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -337,14 +337,14 @@ Parameters
  </tr>
  <tr>
  <td>source_address_negate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -357,7 +357,7 @@ Parameters
  </tr>
  <tr>
  <td>source_address6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -373,7 +373,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -389,14 +389,14 @@ Parameters
  </tr>
  <tr>
  <td>source_address6_negate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -409,7 +409,7 @@ Parameters
  </tr>
  <tr>
  <td>source_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -425,7 +425,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -441,7 +441,7 @@ Parameters
  </tr>
  <tr>
  <td>user_peer</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -455,7 +455,7 @@ Parameters
  </tr>
  <tr>
  <td>users</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -471,7 +471,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -509,58 +509,58 @@ Parameters
  </tr>
  <tr>
  <td>banned_cipher</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[RSA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[DHE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ECDHE]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[DSS]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[ECDSA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[AES]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[AESGCM]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[CAMELLIA]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[3DES]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[SHA1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[SHA256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[SHA384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[STATIC]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[CHACHA20]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[ARIA]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[AESCCM]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[DH]</td>
@@ -583,14 +583,14 @@ Parameters
  </tr>
  <tr>
  <td>browser_language_detection</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -604,14 +604,14 @@ Parameters
  </tr>
  <tr>
  <td>check_referer</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -625,23 +625,23 @@ Parameters
  </tr>
  <tr>
  <td>ciphersuite</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[TLS-AES-128-GCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[TLS-AES-256-GCM-SHA384]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[TLS-CHACHA20-POLY1305-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[TLS-AES-128-CCM-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[TLS-AES-128-CCM-8-SHA256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -655,14 +655,14 @@ Parameters
  </tr>
  <tr>
  <td>client_sigalgs</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[no-rsa-pss]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -676,7 +676,7 @@ Parameters
  </tr>
  <tr>
  <td>default_portal</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -691,7 +691,7 @@ Parameters
  </tr>
  <tr>
  <td>deflate_compression_level</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -706,7 +706,7 @@ Parameters
  </tr>
  <tr>
  <td>deflate_min_data_size</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -751,7 +751,7 @@ Parameters
  </tr>
  <tr>
  <td>dns_suffix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -766,7 +766,7 @@ Parameters
  </tr>
  <tr>
  <td>dtls_heartbeat_fail_count</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -781,7 +781,7 @@ Parameters
  </tr>
  <tr>
  <td>dtls_heartbeat_idle_timeout</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -796,7 +796,7 @@ Parameters
  </tr>
  <tr>
  <td>dtls_heartbeat_interval</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -811,7 +811,7 @@ Parameters
  </tr>
  <tr>
  <td>dtls_hello_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -889,14 +889,14 @@ Parameters
  </tr>
  <tr>
  <td>dual_stack_mode</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -911,7 +911,7 @@ Parameters
  <tr>
  <td>encode_2f_sequence</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -932,14 +932,14 @@ Parameters
  </tr>
  <tr>
  <td>encrypt_and_store_password</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -953,14 +953,14 @@ Parameters
  </tr>
  <tr>
  <td>force_two_factor_auth</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -974,17 +974,17 @@ Parameters
  </tr>
  <tr>
  <td>header_x_forwarded_for</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[pass]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[add]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[remove]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -998,14 +998,14 @@ Parameters
  </tr>
  <tr>
  <td>hsts_include_subdomains</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -1019,14 +1019,14 @@ Parameters
  </tr>
  <tr>
  <td>http_compression</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -1040,14 +1040,14 @@ Parameters
  </tr>
  <tr>
  <td>http_only_cookie</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -1061,7 +1061,7 @@ Parameters
  </tr>
  <tr>
  <td>http_request_body_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1076,7 +1076,7 @@ Parameters
  </tr>
  <tr>
  <td>http_request_header_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1091,14 +1091,14 @@ Parameters
  </tr>
  <tr>
  <td>https_redirect</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -1112,7 +1112,7 @@ Parameters
  </tr>
  <tr>
  <td>idle_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1187,7 +1187,7 @@ Parameters
  </tr>
  <tr>
  <td>login_attempt_limit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1202,7 +1202,7 @@ Parameters
  </tr>
  <tr>
  <td>login_block_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1217,7 +1217,7 @@ Parameters
  </tr>
  <tr>
  <td>login_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1232,7 +1232,7 @@ Parameters
  </tr>
  <tr>
  <td>port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -1247,18 +1247,18 @@ Parameters
  </tr>
  <tr>
  <td>port_precedence</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">reqclientcert</span> - Enable/disable to require client certificates for all Agentless VPN users. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">remote_https_cert_check</span> - Configure how the FortiGate unit checks and responds to the remote HTTPS server"s certificate . <span class="li-normal">type: str</span> <span class="li-normal">choices: no-check, warn-on-error, reject-on-error</span>
  <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
  <div id="label129" style="display:none">
  <table border="1">
@@ -1267,21 +1267,45 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>remote_https_cert_check</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[no-check]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[warn-on-error]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[reject-on-error]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">reqclientcert</span> - Enable/disable to require client certificates for all Agentless VPN users. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
+ <div id="label131" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>reqclientcert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">route_source_interface</span> - Enable to allow SSL-VPN sessions to bypass routing and bind to the incoming interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
- <div id="label131" style="display:none">
+ <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
+ <div id="label133" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1301,8 +1325,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">saml_redirect_port</span> - SAML local redirect port in the machine running FortiClient (0 - 65535). 0 is to disable redirection on FGT side. <span class="li-normal">type: int</span>
- <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
- <div id="label133" style="display:none">
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1316,21 +1340,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">server_hostname</span> - Server hostname for HTTPS. When set, will be used for Agentless VPN web proxy host header for any redirection. <span class="li-normal">type: str</span>
- <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
- <div id="label135" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>server_hostname</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">servercert</span> - Name of the server certificate to be used for Agentless VPNs. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
  <table border="1">
@@ -1339,44 +1348,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>servercert</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>server_hostname</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_address</span> - Source address of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_address:name</span>
+        <li> <span class="li-head">servercert</span> - Name of the server certificate to be used for Agentless VPNs. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
  <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
  <div id="label139" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>source_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
- <div id="label141" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>servercert</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">source_address_negate</span> - Enable/disable negated source address match. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">source_address</span> - Source address of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_address:name</span>
+ <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
+ <div id="label141" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>source_address</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
  <div id="label143" style="display:none">
  <table border="1">
@@ -1385,50 +1393,50 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_address_negate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_address6</span> - IPv6 source address of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_address6:name</span>
+            </ul>
+        <li> <span class="li-head">source_address_negate</span> - Enable/disable negated source address match. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
  <div id="label145" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>source_address6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - IPv6 address name. Source firewall.address6.name firewall.addrgrp6.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
- <div id="label147" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>source_address_negate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">source_address6</span> - IPv6 source address of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_address6:name</span>
+ <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
+ <div id="label147" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>source_address6</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">source_address6_negate</span> - Enable/disable negated source IPv6 address match. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - IPv6 address name. Source firewall.address6.name firewall.addrgrp6.name system.external-resource.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
  <div id="label149" style="display:none">
  <table border="1">
@@ -1437,50 +1445,50 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_address6_negate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_interface</span> - Agentless VPN source interface of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_interface:name</span>
+            </ul>
+        <li> <span class="li-head">source_address6_negate</span> - Enable/disable negated source IPv6 address match. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
  <div id="label151" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>source_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name system.zone.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
- <div id="label153" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>source_address6_negate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">source_interface</span> - Agentless VPN source interface of incoming traffic. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: source_interface:name</span>
+ <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
+ <div id="label153" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>source_interface</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">ssl_client_renegotiation</span> - Enable/disable to allow client renegotiation by the server if the tunnel goes down. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name system.zone.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
  <div id="label155" style="display:none">
  <table border="1">
@@ -1489,19 +1497,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_client_renegotiation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_insert_empty_fragment</span> - Enable/disable insertion of empty fragment. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">ssl_client_renegotiation</span> - Enable/disable to allow client renegotiation by the server if the tunnel goes down. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
  <div id="label157" style="display:none">
  <table border="1">
@@ -1510,19 +1513,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_insert_empty_fragment</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td>ssl_client_renegotiation</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_max_proto_ver</span> - SSL maximum protocol version. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls1-0, tls1-1, tls1-2, tls1-3</span>
+        <li> <span class="li-head">ssl_insert_empty_fragment</span> - Enable/disable insertion of empty fragment. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
  <div id="label159" style="display:none">
  <table border="1">
@@ -1531,25 +1534,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_max_proto_ver</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>ssl_insert_empty_fragment</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
- <td>[tls1-0]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
- <td>[tls1-1]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[tls1-2]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[tls1-3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_min_proto_ver</span> - SSL minimum protocol version. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls1-0, tls1-1, tls1-2, tls1-3</span>
+        <li> <span class="li-head">ssl_max_proto_ver</span> - SSL maximum protocol version. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls1-0, tls1-1, tls1-2, tls1-3</span>
  <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
  <div id="label161" style="display:none">
  <table border="1">
@@ -1558,25 +1555,25 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_min_proto_ver</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>ssl_max_proto_ver</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[tls1-0]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[tls1-1]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[tls1-2]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[tls1-3]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable Agentless VPN. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_min_proto_ver</span> - SSL minimum protocol version. <span class="li-normal">type: str</span> <span class="li-normal">choices: tls1-0, tls1-1, tls1-2, tls1-3</span>
  <a id='label162' href="javascript:ContentClick('label163', 'label162');" onmouseover="ContentPreview('label163');" onmouseout="ContentUnpreview('label163');" title="click to collapse or expand..."> more... </a>
  <div id="label163" style="display:none">
  <table border="1">
@@ -1585,21 +1582,111 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>ssl_min_proto_ver</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[tls1-0]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[tls1-1]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[tls1-2]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[tls1-3]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">status</span> - Enable/disable Agentless VPN. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
+ <div id="label165" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">tls_groups</span> - Configure the supported groups for TLS negotiation. <span class="li-normal">type: list</span> <span class="li-normal">choices: P-521, P-384, P-256, ML-KEM512, ML-KEM768, ML-KEM1024, P-384-MLKEM1024, P-256-MLKEM768, X25519-MLKEM768, X448, X25519, FFDHE2048, FFDHE3072, FFDHE4096, FFDHE6144, FFDHE8192</span>
+ <a id='label166' href="javascript:ContentClick('label167', 'label166');" onmouseover="ContentPreview('label167');" onmouseout="ContentUnpreview('label167');" title="click to collapse or expand..."> more... </a>
+ <div id="label167" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tls_groups</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[P-521]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[P-384]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[P-256]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[ML-KEM512]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[ML-KEM768]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[ML-KEM1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[P-384-MLKEM1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[P-256-MLKEM768]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[X25519-MLKEM768]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[X448]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[X25519]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[FFDHE2048]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[FFDHE3072]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[FFDHE4096]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[FFDHE6144]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <tr>
+ <td>[FFDHE8192]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">tlsv1_0</span> - tlsv1-0 <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label164' href="javascript:ContentClick('label165', 'label164');" onmouseover="ContentPreview('label165');" onmouseout="ContentUnpreview('label165');" title="click to collapse or expand..."> more... </a>
- <div id="label165" style="display:none">
+ <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
+ <div id="label169" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1619,8 +1706,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tlsv1_1</span> - tlsv1-1 <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label166' href="javascript:ContentClick('label167', 'label166');" onmouseover="ContentPreview('label167');" onmouseout="ContentUnpreview('label167');" title="click to collapse or expand..."> more... </a>
- <div id="label167" style="display:none">
+ <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
+ <div id="label171" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1640,8 +1727,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tlsv1_2</span> - tlsv1-2 <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label168' href="javascript:ContentClick('label169', 'label168');" onmouseover="ContentPreview('label169');" onmouseout="ContentUnpreview('label169');" title="click to collapse or expand..."> more... </a>
- <div id="label169" style="display:none">
+ <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
+ <div id="label173" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1661,8 +1748,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tlsv1_3</span> - tlsv1-3 <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label170' href="javascript:ContentClick('label171', 'label170');" onmouseover="ContentPreview('label171');" onmouseout="ContentUnpreview('label171');" title="click to collapse or expand..."> more... </a>
- <div id="label171" style="display:none">
+ <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
+ <div id="label175" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1682,8 +1769,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">transform_backward_slashes</span> - Transform backward slashes to forward slashes in URLs. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label172' href="javascript:ContentClick('label173', 'label172');" onmouseover="ContentPreview('label173');" onmouseout="ContentUnpreview('label173');" title="click to collapse or expand..."> more... </a>
- <div id="label173" style="display:none">
+ <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
+ <div id="label177" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1691,20 +1778,20 @@ Parameters
  </tr>
  <tr>
  <td>transform_backward_slashes</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">tunnel_addr_assigned_method</span> - Method used for assigning address for tunnel. <span class="li-normal">type: str</span> <span class="li-normal">choices: first-available, round-robin</span>
- <a id='label174' href="javascript:ContentClick('label175', 'label174');" onmouseover="ContentPreview('label175');" onmouseout="ContentUnpreview('label175');" title="click to collapse or expand..."> more... </a>
- <div id="label175" style="display:none">
+ <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
+ <div id="label179" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1724,8 +1811,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tunnel_connect_without_reauth</span> - Enable/disable tunnel connection without re-authorization if previous connection dropped. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label176' href="javascript:ContentClick('label177', 'label176');" onmouseover="ContentPreview('label177');" onmouseout="ContentUnpreview('label177');" title="click to collapse or expand..."> more... </a>
- <div id="label177" style="display:none">
+ <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
+ <div id="label181" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1745,8 +1832,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">tunnel_ip_pools</span> - Names of the IPv4 IP Pool firewall objects that define the IP addresses reserved for remote clients. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tunnel_ip_pools:name</span>
- <a id='label178' href="javascript:ContentClick('label179', 'label178');" onmouseover="ContentPreview('label179');" onmouseout="ContentUnpreview('label179');" title="click to collapse or expand..."> more... </a>
- <div id="label179" style="display:none">
+ <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
+ <div id="label183" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -1760,37 +1847,6 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">name</span> - Address name. Source firewall.address.name firewall.addrgrp.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label180' href="javascript:ContentClick('label181', 'label180');" onmouseover="ContentPreview('label181');" onmouseout="ContentUnpreview('label181');" title="click to collapse or expand..."> more... </a>
- <div id="label181" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            </ul>
-        <li> <span class="li-head">tunnel_ipv6_pools</span> - Names of the IPv6 IP Pool firewall objects that define the IP addresses reserved for remote clients. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tunnel_ipv6_pools:name</span>
- <a id='label182' href="javascript:ContentClick('label183', 'label182');" onmouseover="ContentPreview('label183');" onmouseout="ContentUnpreview('label183');" title="click to collapse or expand..."> more... </a>
- <div id="label183" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>tunnel_ipv6_pools</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> v7.6.2 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label184' href="javascript:ContentClick('label185', 'label184');" onmouseover="ContentPreview('label185');" onmouseout="ContentUnpreview('label185');" title="click to collapse or expand..."> more... </a>
  <div id="label185" style="display:none">
  <table border="1">
@@ -1806,9 +1862,40 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">tunnel_user_session_timeout</span> - Number of seconds after which user sessions are cleaned up after tunnel connection is dropped (1 - 86400). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">tunnel_ipv6_pools</span> - Names of the IPv6 IP Pool firewall objects that define the IP addresses reserved for remote clients. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: tunnel_ipv6_pools:name</span>
  <a id='label186' href="javascript:ContentClick('label187', 'label186');" onmouseover="ContentPreview('label187');" onmouseout="ContentUnpreview('label187');" title="click to collapse or expand..."> more... </a>
  <div id="label187" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tunnel_ipv6_pools</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Address name. Source firewall.address6.name firewall.addrgrp6.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
+ <div id="label189" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> v7.6.2 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">tunnel_user_session_timeout</span> - Number of seconds after which user sessions are cleaned up after tunnel connection is dropped (1 - 86400). <span class="li-normal">type: int</span>
+ <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
+ <div id="label191" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1822,48 +1909,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unsafe_legacy_renegotiation</span> - Enable/disable unsafe legacy re-negotiation. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label188' href="javascript:ContentClick('label189', 'label188');" onmouseover="ContentPreview('label189');" onmouseout="ContentUnpreview('label189');" title="click to collapse or expand..."> more... </a>
- <div id="label189" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>unsafe_legacy_renegotiation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">url_obscuration</span> - Enable/disable to obscure the host name of the URL of the web browser display. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label190' href="javascript:ContentClick('label191', 'label190');" onmouseover="ContentPreview('label191');" onmouseout="ContentUnpreview('label191');" title="click to collapse or expand..."> more... </a>
- <div id="label191" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>url_obscuration</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">user_peer</span> - Name of user peer. Source user.peer.name. <span class="li-normal">type: str</span>
  <a id='label192' href="javascript:ContentClick('label193', 'label192');" onmouseover="ContentPreview('label193');" onmouseout="ContentUnpreview('label193');" title="click to collapse or expand..."> more... </a>
  <div id="label193" style="display:none">
  <table border="1">
@@ -1872,15 +1917,57 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>unsafe_legacy_renegotiation</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">url_obscuration</span> - Enable/disable to obscure the host name of the URL of the web browser display. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
+ <div id="label195" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>url_obscuration</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">user_peer</span> - Name of user peer. Source user.peer.name. <span class="li-normal">type: str</span>
+ <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
+ <div id="label197" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>user_peer</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">web_mode_snat</span> - Enable/disable use of IP pools defined in firewall policy while using web-mode. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label194' href="javascript:ContentClick('label195', 'label194');" onmouseover="ContentPreview('label195');" onmouseout="ContentUnpreview('label195');" title="click to collapse or expand..."> more... </a>
- <div id="label195" style="display:none">
+ <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
+ <div id="label199" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1900,8 +1987,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">wins_server1</span> - WINS server 1. <span class="li-normal">type: str</span>
- <a id='label196' href="javascript:ContentClick('label197', 'label196');" onmouseover="ContentPreview('label197');" onmouseout="ContentUnpreview('label197');" title="click to collapse or expand..."> more... </a>
- <div id="label197" style="display:none">
+ <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
+ <div id="label201" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1915,8 +2002,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">wins_server2</span> - WINS server 2. <span class="li-normal">type: str</span>
- <a id='label198' href="javascript:ContentClick('label199', 'label198');" onmouseover="ContentPreview('label199');" onmouseout="ContentUnpreview('label199');" title="click to collapse or expand..."> more... </a>
- <div id="label199" style="display:none">
+ <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
+ <div id="label203" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1930,8 +2017,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">x_content_type_options</span> - Add HTTP X-Content-Type-Options header. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label200' href="javascript:ContentClick('label201', 'label200');" onmouseover="ContentPreview('label201');" onmouseout="ContentUnpreview('label201');" title="click to collapse or expand..."> more... </a>
- <div id="label201" style="display:none">
+ <a id='label204' href="javascript:ContentClick('label205', 'label204');" onmouseover="ContentPreview('label205');" onmouseout="ContentUnpreview('label205');" title="click to collapse or expand..."> more... </a>
+ <div id="label205" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -1939,20 +2026,20 @@ Parameters
  </tr>
  <tr>
  <td>x_content_type_options</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">ztna_trusted_client</span> - Enable/disable verification of device certificate for SSLVPN ZTNA session. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label202' href="javascript:ContentClick('label203', 'label202');" onmouseover="ContentPreview('label203');" onmouseout="ContentUnpreview('label203');" title="click to collapse or expand..."> more... </a>
- <div id="label203" style="display:none">
+ <a id='label206' href="javascript:ContentClick('label207', 'label206');" onmouseover="ContentPreview('label207');" onmouseout="ContentUnpreview('label207');" title="click to collapse or expand..."> more... </a>
+ <div id="label207" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -2064,6 +2151,7 @@ Examples
               login_timeout: "30"
               port: "10443"
               port_precedence: "enable"
+              remote_https_cert_check: "no-check"
               reqclientcert: "enable"
               route_source_interface: "enable"
               saml_redirect_port: "8020"
@@ -2071,20 +2159,21 @@ Examples
               servercert: "<your_own_value> (source vpn.certificate.local.name)"
               source_address:
                   -
-                      name: "default_name_72 (source firewall.address.name firewall.addrgrp.name system.external-resource.name)"
+                      name: "default_name_73 (source firewall.address.name firewall.addrgrp.name system.external-resource.name)"
               source_address_negate: "enable"
               source_address6:
                   -
-                      name: "default_name_75 (source firewall.address6.name firewall.addrgrp6.name system.external-resource.name)"
+                      name: "default_name_76 (source firewall.address6.name firewall.addrgrp6.name system.external-resource.name)"
               source_address6_negate: "enable"
               source_interface:
                   -
-                      name: "default_name_78 (source system.interface.name system.zone.name)"
+                      name: "default_name_79 (source system.interface.name system.zone.name)"
               ssl_client_renegotiation: "disable"
               ssl_insert_empty_fragment: "enable"
               ssl_max_proto_ver: "tls1-0"
               ssl_min_proto_ver: "tls1-0"
               status: "enable"
+              tls_groups: "P-521"
               tlsv1_0: "enable"
               tlsv1_1: "enable"
               tlsv1_2: "enable"
@@ -2094,10 +2183,10 @@ Examples
               tunnel_connect_without_reauth: "enable"
               tunnel_ip_pools:
                   -
-                      name: "default_name_92 (source firewall.address.name firewall.addrgrp.name)"
+                      name: "default_name_94 (source firewall.address.name firewall.addrgrp.name)"
               tunnel_ipv6_pools:
                   -
-                      name: "default_name_94 (source firewall.address6.name firewall.addrgrp6.name)"
+                      name: "default_name_96 (source firewall.address6.name firewall.addrgrp6.name)"
               tunnel_user_session_timeout: "30"
               unsafe_legacy_renegotiation: "enable"
               url_obscuration: "enable"

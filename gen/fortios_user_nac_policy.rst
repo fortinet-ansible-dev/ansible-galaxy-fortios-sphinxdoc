@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> v7.6.4
+Supported Version Ranges: v6.4.0 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>user_nac_policy</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,26 +74,26 @@ Parameters
  </tr>
  <tr>
  <td>category</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[device]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  <tr>
  <td>[firewall-user]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  <tr>
  <td>[ems-tag]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[fortivoice-tag]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  </tr>
  <tr>
  <td>[vulnerability]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
@@ -108,7 +108,7 @@ Parameters
  </tr>
  <tr>
  <td>description</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -124,7 +124,7 @@ Parameters
  <tr>
  <td>ems_tag</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -139,7 +139,7 @@ Parameters
  </tr>
  <tr>
  <td>family</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -154,7 +154,7 @@ Parameters
  </tr>
  <tr>
  <td>firewall_address</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -169,7 +169,7 @@ Parameters
  </tr>
  <tr>
  <td>fortivoice_tag</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -184,7 +184,7 @@ Parameters
  </tr>
  <tr>
  <td>host</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -199,7 +199,7 @@ Parameters
  </tr>
  <tr>
  <td>hw_vendor</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -214,7 +214,7 @@ Parameters
  </tr>
  <tr>
  <td>hw_version</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -229,7 +229,7 @@ Parameters
  </tr>
  <tr>
  <td>mac</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -244,7 +244,7 @@ Parameters
  </tr>
  <tr>
  <td>match_period</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -259,14 +259,14 @@ Parameters
  </tr>
  <tr>
  <td>match_remove</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[default]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  <tr>
  <td>[link-down]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -280,14 +280,14 @@ Parameters
  </tr>
  <tr>
  <td>match_type</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[dynamic]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  <tr>
  <td>[override]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -301,7 +301,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -316,7 +316,7 @@ Parameters
  </tr>
  <tr>
  <td>os</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -330,7 +330,7 @@ Parameters
  </tr>
  <tr>
  <td>severity</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -346,7 +346,7 @@ Parameters
  </tr>
  <tr>
  <td>severity_num</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -362,7 +362,7 @@ Parameters
  </tr>
  <tr>
  <td>src</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -377,7 +377,7 @@ Parameters
  </tr>
  <tr>
  <td>ssid_policy</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -392,14 +392,14 @@ Parameters
  </tr>
  <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -413,7 +413,7 @@ Parameters
  </tr>
  <tr>
  <td>sw_version</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -452,7 +452,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_fortilink</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -466,7 +466,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_group</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -482,7 +482,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -498,7 +498,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_mac_policy</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -559,7 +559,7 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -574,7 +574,7 @@ Parameters
  </tr>
  <tr>
  <td>user</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -589,7 +589,7 @@ Parameters
  </tr>
  <tr>
  <td>user_group</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>

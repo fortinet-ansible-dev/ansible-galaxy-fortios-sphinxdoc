@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.2.0 -> v7.6.4
+Supported Version Ranges: v7.2.0 -> v7.6.6
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>automation_setting</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>fabric_sync</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -94,7 +94,7 @@ Parameters
  </tr>
  <tr>
  <td>max_concurrent_stitches</td>
- <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -109,14 +109,14 @@ Parameters
  </tr>
  <tr>
  <td>secure_mode</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>

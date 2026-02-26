@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.4
+Supported Version Ranges: v6.2.0 -> v7.6.6
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_saml</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,14 +89,14 @@ Parameters
  <tr>
  <td>binding_protocol</td>
  <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[post]</td>
  <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
  <tr>
  <td>[redirect]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
@@ -111,7 +111,7 @@ Parameters
  </tr>
  <tr>
  <td>cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -126,14 +126,14 @@ Parameters
  </tr>
  <tr>
  <td>default_login_page</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[normal]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[sso]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -147,7 +147,7 @@ Parameters
  </tr>
  <tr>
  <td>default_profile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -164,7 +164,7 @@ Parameters
  <td>entity_id</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v7.0.5 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +194,7 @@ Parameters
  </tr>
  <tr>
  <td>idp_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -209,7 +209,7 @@ Parameters
  </tr>
  <tr>
  <td>idp_entity_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -224,7 +224,7 @@ Parameters
  </tr>
  <tr>
  <td>idp_single_logout_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -239,7 +239,7 @@ Parameters
  </tr>
  <tr>
  <td>idp_single_sign_on_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -254,7 +254,7 @@ Parameters
  </tr>
  <tr>
  <td>life</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -275,7 +275,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">role</span> - SAML role. <span class="li-normal">type: str</span> <span class="li-normal">choices: identity-provider, service-provider</span>
+        <li> <span class="li-head">require_signed_resp_and_asrt</span> - Require both response and assertion from IDP to be signed when FGT acts as SP . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -284,19 +284,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>role</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>require_signed_resp_and_asrt</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
- <td>[identity-provider]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  <tr>
- <td>[service-provider]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_address</span> - Server address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">role</span> - SAML role. <span class="li-normal">type: str</span> <span class="li-normal">choices: identity-provider, service-provider</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -305,28 +305,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>role</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[identity-provider]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[service-provider]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">server_address</span> - Server address. <span class="li-normal">type: str</span>
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>server_address</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">service_providers</span> - Authorized service providers. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service_providers:name</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>service_providers</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">assertion_attributes</span> - Customized SAML attributes to send along with assertion. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service_providers:name/assertion_attributes:name</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -334,29 +340,29 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>service_providers</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">assertion_attributes</span> - Customized SAML attributes to send along with assertion. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: service_providers:name/assertion_attributes:name</span>
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>assertion_attributes</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <li> <span class="li-head">type</span> - Type. <span class="li-normal">type: str</span> <span class="li-normal">choices: username, email, profile-name</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -365,26 +371,41 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <li> <span class="li-head">type</span> - Type. <span class="li-normal">type: str</span> <span class="li-normal">choices: username, email, profile-name</span>
+ <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
+ <div id="label41" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[username]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[email]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
  <tr>
  <td>[profile-name]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
                 </ul>
             <li> <span class="li-head">idp_artifact_resolution_url</span> - IDP artifact resolution URL. <span class="li-normal">type: str</span>
- <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
- <div id="label41" style="display:none">
+ <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
+ <div id="label43" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -398,8 +419,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">idp_entity_id</span> - IDP entity ID. <span class="li-normal">type: str</span>
- <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
- <div id="label43" style="display:none">
+ <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
+ <div id="label45" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -414,8 +435,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">idp_single_logout_url</span> - IDP single logout URL. <span class="li-normal">type: str</span>
- <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
- <div id="label45" style="display:none">
+ <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
+ <div id="label47" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -430,8 +451,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">idp_single_sign_on_url</span> - IDP single sign-on URL. <span class="li-normal">type: str</span>
- <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
- <div id="label47" style="display:none">
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -446,21 +467,6 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">name</span> - Name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
- <div id="label49" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">prefix</span> - Prefix. <span class="li-normal">type: str</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
@@ -469,15 +475,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">prefix</span> - Prefix. <span class="li-normal">type: str</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>prefix</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">sp_artifact_resolution_url</span> - SP artifact resolution URL. <span class="li-normal">type: str</span>
- <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
- <div id="label53" style="display:none">
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -491,8 +512,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">sp_binding_protocol</span> - SP binding protocol. <span class="li-normal">type: str</span> <span class="li-normal">choices: post, redirect</span>
- <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
- <div id="label55" style="display:none">
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -501,34 +522,19 @@ Parameters
  <tr>
  <td>sp_binding_protocol</td>
  <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[post]</td>
  <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3</code></td>
  <tr>
  <td>[redirect]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">sp_cert</span> - SP certificate name. Source certificate.remote.name. <span class="li-normal">type: str</span>
- <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
- <div id="label57" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>sp_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">sp_entity_id</span> - SP entity ID. <span class="li-normal">type: str</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
@@ -537,13 +543,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sp_entity_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>sp_cert</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">sp_portal_url</span> - SP portal URL. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">sp_entity_id</span> - SP entity ID. <span class="li-normal">type: str</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -552,13 +558,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sp_portal_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>sp_entity_id</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">sp_single_logout_url</span> - SP single logout URL. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">sp_portal_url</span> - SP portal URL. <span class="li-normal">type: str</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -567,13 +573,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sp_single_logout_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td>sp_portal_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">sp_single_sign_on_url</span> - SP single sign-on URL. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">sp_single_logout_url</span> - SP single logout URL. <span class="li-normal">type: str</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -582,16 +588,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>sp_single_logout_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">sp_single_sign_on_url</span> - SP single sign-on URL. <span class="li-normal">type: str</span>
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>sp_single_sign_on_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
         <li> <span class="li-head">single_logout_url</span> - SP single logout URL. <span class="li-normal">type: str</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -606,8 +627,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">single_sign_on_url</span> - SP single sign-on URL. <span class="li-normal">type: str</span>
- <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
- <div id="label69" style="display:none">
+ <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
+ <div id="label71" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -622,27 +643,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">status</span> - Enable/disable SAML authentication . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
- <div id="label71" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
- </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4</code></td>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">tolerance</span> - Tolerance to the range of time when the assertion is valid (in minutes). <span class="li-normal">type: int</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -651,8 +651,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">tolerance</span> - Tolerance to the range of time when the assertion is valid (in minutes). <span class="li-normal">type: int</span>
+ <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
+ <div id="label75" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>tolerance</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -694,19 +715,20 @@ Examples
               idp_single_sign_on_url: "<your_own_value>"
               life: "30"
               portal_url: "<your_own_value>"
+              require_signed_resp_and_asrt: "enable"
               role: "identity-provider"
               server_address: "<your_own_value>"
               service_providers:
                   -
                       assertion_attributes:
                           -
-                              name: "default_name_20"
+                              name: "default_name_21"
                               type: "username"
                       idp_artifact_resolution_url: "<your_own_value>"
                       idp_entity_id: "<your_own_value>"
                       idp_single_logout_url: "<your_own_value>"
                       idp_single_sign_on_url: "<your_own_value>"
-                      name: "default_name_26"
+                      name: "default_name_27"
                       prefix: "<your_own_value>"
                       sp_artifact_resolution_url: "<your_own_value>"
                       sp_binding_protocol: "post"

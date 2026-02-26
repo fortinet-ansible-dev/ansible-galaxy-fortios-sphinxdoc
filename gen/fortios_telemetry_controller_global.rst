@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.3 -> v7.6.4
+Supported Version Ranges: v7.6.3 -> v7.6.6
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>telemetry_controller_global</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>auto_group_telemetry_addr</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -94,11 +94,11 @@ Parameters
  </tr>
  <tr>
  <td>region</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[global]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -112,7 +112,7 @@ Parameters
  </tr>
  <tr>
  <td>retry_interval</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -127,7 +127,7 @@ Parameters
  </tr>
  <tr>
  <td>telemetry_ca_certificate</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>

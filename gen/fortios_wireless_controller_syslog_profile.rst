@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.6.4
+Supported Version Ranges: v7.0.2 -> v7.6.6
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_syslog_profile</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,32 +89,32 @@ Parameters
  </tr>
  <tr>
  <td>log_level</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[emergency]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[alert]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[critical]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[error]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[warning]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[notification]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[information]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  <tr>
  <td>[debugging]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -128,12 +128,12 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_addr_type</span> - Syslog server address type . <span class="li-normal">type: str</span> <span class="li-normal">choices: fqdn, ip</span>
+        <li> <span class="li-head">server</span> - Syslog server CN domain name or IP address. <span class="li-normal">type: str</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -142,19 +142,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_addr_type</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td>server</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[fqdn]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
- <tr>
- <td>[ip]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_fqdn</span> - FQDN of syslog server that FortiAP units send log messages to. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server_addr_type</span> - Syslog server address type . <span class="li-normal">type: str</span> <span class="li-normal">choices: fqdn, ip</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -163,13 +157,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_fqdn</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td>server_addr_type</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.6.4 </code></td>
  </tr>
+ <tr>
+ <td>[fqdn]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.6.4</code></td>
+ <tr>
+ <td>[ip]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_ip</span> - IP address of syslog server that FortiAP units send log messages to. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server_fqdn</span> - FQDN of syslog server that FortiAP units send log messages to. <span class="li-normal">type: str</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -178,13 +178,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_ip</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td>server_fqdn</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_port</span> - Port number of syslog server that FortiAP units send log messages to . <span class="li-normal">type: int</span>
+        <li> <span class="li-head">server_ip</span> - IP address of syslog server that FortiAP units send log messages to. <span class="li-normal">type: str</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -193,13 +193,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_port</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td>server_ip</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> v7.6.4 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_status</span> - Enable/disable FortiAP units to send log messages to a syslog server . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">server_port</span> - Port number of syslog server that FortiAP units send log messages to . <span class="li-normal">type: int</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -208,19 +208,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_status</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4 </code></td>
+ <td>server_port</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.4</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_type</span> - Configure syslog server type . <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, fortianalyzer</span>
+        <li> <span class="li-head">server_status</span> - Enable/disable FortiAP units to send log messages to a syslog server . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -229,15 +223,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>server_status</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">server_type</span> - Configure syslog server type . <span class="li-normal">type: str</span> <span class="li-normal">choices: standard, fortianalyzer</span>
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>server_type</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[standard]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  <tr>
  <td>[fortianalyzer]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.4</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
@@ -270,6 +285,7 @@ Examples
               comment: "Comment."
               log_level: "emergency"
               name: "default_name_5"
+              server: "192.168.100.40"
               server_addr_type: "fqdn"
               server_fqdn: "<your_own_value>"
               server_ip: "<your_own_value>"

@@ -4,6 +4,24 @@ Release Notes
 
 |
 
+Release Galaxy 2.5.0
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.5.0 is based on 2.4.2
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fixed an issue where users were required to specify a password confirmation when using the system_admin and system_api_user modules in FortiOS 7.6.5 and later.
+- Fixed the issue that getting an error "BadGzipFile" when using token for authentication in new versions of FortiOS.
+
+Improvements
+^^^^^^^^^^^^^^^
+- Supported new versions 7.6.5 and 7.6.6.
+- Updated the Q&A for using the default_group feature in modules.
+
 Release Galaxy 2.4.2
 --------------------
 
@@ -14,13 +32,11 @@ FortiOS Galaxy 2.4.2 is based on 2.4.1
 
 Bug Fixes
 ^^^^^^^^^^^^^^^
-
 - Fixed authentication issue in v7.6.4 when using access_token.
 
 Improvements
-^^^^^^^^^^^^^
-
-- Supported default_group feature for the all of the modules.
+^^^^^^^^^^^^^^^
+- Supported default_group feature for all of the modules.
 
 Release Galaxy 2.4.1
 --------------------

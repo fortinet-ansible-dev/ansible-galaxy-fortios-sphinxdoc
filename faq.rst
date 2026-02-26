@@ -15,6 +15,7 @@ Frequently Asked Questions (FAQ)
  - `Set up FortiToken multi-factor authentication`_
  - `Avoid using the special placeholder 0 as the mkey in some modules`_
  - `Resolution for Ansible Always Sending GET/PUT Requests as POST Requests`_
+ - `How to use the default_group feature in modules?`_
 
 What's Access Token?
 ~~~~~~~~~~~~~~~~~~~~
@@ -509,6 +510,84 @@ We have been inundated with complaints regarding older Ansible versions consiste
 
 To upgrade to the latest version of ansible.netcommon, use the following command:
 ansible-galaxy collection install ansible.netcommon --force
+
+How to use the default_group feature in modules?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In Ansible, action groups are a mechanism used in module defaults to apply common parameters or settings to multiple modules simultaneously, instead of defining them individually for each module. This is different from inventory groups, which are used to organize hosts.  This feature helps streamline playbooks by reducing repetitive configurations when numerous tasks require similar settings.
+
+below is an example of how to use the default_group feature in Ansible playbooks:
+
+```
+- hosts: testhost
+  gather_facts: no
+  collections:
+    - fortinet.fortios
+  connection: httpapi
+  vars:
+    ansible_httpapi_use_ssl: yes
+    ansible_httpapi_validate_certs: no
+    ansible_httpapi_port: 443
+
+  module_defaults:
+    group/fortinet.fortios.fortios:
+      vdom: "root"
+      enable_log: True
+
+  tasks:
+    - name: configure firewall policy
+      fortios_firewall_policy:
+        state: "present"
+        firewall_policy:
+          policyid: 1
+          srcaddr:
+            - name: all
+          dstaddr:
+            - name: FABRIC_DEVICE
+          srcintf:
+            - name: port2
+            - name: port2
+          dstintf:
+            - name: any
+          service:
+            - name: HTTPS
+            - name: HTTP
+            - name: SSH
+            - name: PING
+            - name: SNMP
+          action: accept
+          schedule: always
+          utm_status: enable
+
+    - name: get hardware status
+      fortios_configuration_fact:
+        selector: system_vdom
+
+    - name: get system info
+      fortios_monitor_fact:
+        selectors:
+          - selector: license_status
+          - selector: system_status
+          - selector: firewall_security-policy
+          - selector: firewall_load-balance
+            params:
+              count: 2
+
+    - name: Configure NTP Server
+      fortios_system_ntp:
+        # access_token: "{{ access_token }}"
+        member_state: present
+        member_path: "ntpserver:id"
+        system_ntp:
+          ntpserver:
+            - id: 1
+              server: 10.0.0.2
+            - id: 2
+              server: 10.0.1.100
+
+```
+
+In this example, we have defined a default group for all modules under the fortinet.fortios collection. This means that any module from this collection will automatically inherit the parameters specified in the default group, such as vdom and enable_log. This allows us to avoid repeating these parameters in each task, making our playbook cleaner and more efficient.
 
 .. _Run Your Playbook: playbook.html
 .. _How To Generate Access Token Dynamically: faq.html#what-s-access-token

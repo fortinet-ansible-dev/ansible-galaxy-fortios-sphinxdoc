@@ -1138,6 +1138,10 @@ Parameters
             </ul>
         
         </li>
+        registration_forticare_check-connectivity
+        <li><span class="li-head">registration_forticare_check-connectivity</span> 
+        
+        </li>
         registration_forticloud_device-status
         <li><span class="li-head">registration_forticloud_device-status</span> - Fetch device registration status from FortiCloud. Currently FortiSwitch and FortiAP are supported. 
         <ul class="ul-self">
@@ -2557,12 +2561,7 @@ Parameters
         
         </li>
         webfilter_fortiguard-categories
-        <li><span class="li-head">webfilter_fortiguard-categories</span> - Return FortiGuard web filter categories. 
-        <ul class="ul-self">
-                <li><span class="li-required">include_unrated</span> - Include Unrated category in result list. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                <li><span class="li-required">convert_unrated_id</span> - Convert Unrated category id to the one for CLI use. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
-                
-            </ul>
+        <li><span class="li-head">webfilter_fortiguard-categories</span> 
         
         </li>
         webfilter_malicious-urls

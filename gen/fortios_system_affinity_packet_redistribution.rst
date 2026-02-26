@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.6.1
+Supported Version Ranges: v7.0.0 -> v7.0.12, v7.2.1 -> v7.2.2, v7.4.0 -> v7.6.1, v7.6.5 -> v7.6.6
 
 
 Parameters
@@ -54,13 +54,14 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="3">Supported Version Ranges</td>
+ <td></td><td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_affinity_packet_redistribution</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -72,13 +73,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>affinity_cpumask</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -89,13 +91,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>id</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -106,13 +109,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>interface</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>
@@ -123,11 +127,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>round_robin</td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -144,13 +149,14 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="3">Supported Version Ranges</td>
+ <td colspan="4">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>rxqid</td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.2 </code></td>
  <td><code class="docutils literal notranslate">v7.4.0 -> v7.6.1 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
  </tr>
  </table>
  </div>

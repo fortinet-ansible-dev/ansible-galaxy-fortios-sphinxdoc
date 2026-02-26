@@ -675,6 +675,7 @@ Parameters
         <li><span class="li-normal">system_sit-tunnel</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_smc-ntp</span> </li>
         <li><span class="li-normal">system_sms-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_sov-sase</span> </li>
         <li><span class="li-normal">system_speed-test-schedule</span>  <span class="li-required">param: interface</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_speed-test-server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_speed-test-setting</span> </li>
@@ -852,6 +853,7 @@ Parameters
         <li><span class="li-normal">wireless-controller_global</span> </li>
         <li><span class="li-normal">wireless-controller_inter-controller</span> </li>
         <li><span class="li-normal">wireless-controller_log</span> </li>
+        <li><span class="li-normal">wireless-controller_lw-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_mpsk-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_nac-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_qos-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
