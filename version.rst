@@ -66,5 +66,7 @@ are expected to find the version compatibility information for each module and i
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
 | unified       | 2.4.2               | 2025/10/24     | ``ansible-galaxy collection install fortinet.fortios:2.4.2``    |
 +---------------+---------------------+----------------+-----------------------------------------------------------------+
-| unified       | 2.5.0 ``latest``    | 2026/2/25      | ``ansible-galaxy collection install fortinet.fortios:2.5.0``    |
+| unified       | 2.5.0               | 2026/2/25      | ``ansible-galaxy collection install fortinet.fortios:2.5.0``    |
++---------------+---------------------+----------------+-----------------------------------------------------------------+
+| unified       | 2.5.1 ``latest``    | 2026/4/15      | ``ansible-galaxy collection install fortinet.fortios:2.5.1``    |
 +---------------+---------------------+----------------+-----------------------------------------------------------------+

@@ -16,6 +16,8 @@ Frequently Asked Questions (FAQ)
  - `Avoid using the special placeholder 0 as the mkey in some modules`_
  - `Resolution for Ansible Always Sending GET/PUT Requests as POST Requests`_
  - `How to use the default_group feature in modules?`_
+ - `How to configure webfilter_profile globally?`_
+ - `How to use custom headers in fortios_json_generic?`_
 
 What's Access Token?
 ~~~~~~~~~~~~~~~~~~~~
@@ -518,66 +520,67 @@ In Ansible, action groups are a mechanism used in module defaults to apply commo
 
 below is an example of how to use the default_group feature in Ansible playbooks:
 
-```
-- hosts: testhost
-  gather_facts: no
-  collections:
-    - fortinet.fortios
-  connection: httpapi
-  vars:
-    ansible_httpapi_use_ssl: yes
-    ansible_httpapi_validate_certs: no
-    ansible_httpapi_port: 443
+::
 
-  module_defaults:
-    group/fortinet.fortios.fortios:
-      vdom: "root"
-      enable_log: True
+ - hosts: testhost
+   gather_facts: no
+   collections:
+     - fortinet.fortios
+   connection: httpapi
+   vars:
+     ansible_httpapi_use_ssl: yes
+     ansible_httpapi_validate_certs: no
+     ansible_httpapi_port: 443
 
-  tasks:
-    - name: configure firewall policy
-      fortios_firewall_policy:
-        state: "present"
-        firewall_policy:
-          policyid: 1
-          srcaddr:
-            - name: all
-          dstaddr:
-            - name: FABRIC_DEVICE
-          srcintf:
-            - name: port2
-            - name: port2
-          dstintf:
-            - name: any
-          service:
-            - name: HTTPS
-            - name: HTTP
-            - name: SSH
-            - name: PING
-            - name: SNMP
-          action: accept
-          schedule: always
-          utm_status: enable
+   module_defaults:
+     group/fortinet.fortios.fortios:
+       vdom: "root"
+       enable_log: True
 
-    - name: get hardware status
-      fortios_configuration_fact:
-        selector: system_vdom
+   tasks:
+     - name: configure firewall policy
+       fortios_firewall_policy:
+         state: "present"
+         firewall_policy:
+           policyid: 1
+           srcaddr:
+             - name: all
+           dstaddr:
+             - name: FABRIC_DEVICE
+           srcintf:
+             - name: port2
+             - name: port2
+           dstintf:
+             - name: any
+           service:
+             - name: HTTPS
+             - name: HTTP
+             - name: SSH
+             - name: PING
+             - name: SNMP
+           action: accept
+           schedule: always
+           utm_status: enable
 
-    - name: get system info
-      fortios_monitor_fact:
-        selectors:
-          - selector: license_status
-          - selector: system_status
-          - selector: firewall_security-policy
-          - selector: firewall_load-balance
-            params:
-              count: 2
+     - name: get hardware status
+       fortios_configuration_fact:
+         selector: system_vdom
 
-    - name: Configure NTP Server
-      fortios_system_ntp:
-        # access_token: "{{ access_token }}"
-        member_state: present
-        member_path: "ntpserver:id"
+     - name: get system info
+       fortios_monitor_fact:
+         selectors:
+           - selector: license_status
+           - selector: system_status
+           - selector: firewall_security-policy
+           - selector: firewall_load-balance
+             params:
+               count: 2
+
+     - name: Configure NTP Server
+       fortios_system_ntp:
+         # access_token: "{{ access_token }}"
+         member_state: present
+         member_path: "ntpserver:id"
         system_ntp:
           ntpserver:
             - id: 1
@@ -585,9 +588,76 @@ below is an example of how to use the default_group feature in Ansible playbooks
             - id: 2
               server: 10.0.1.100
 
-```
-
 In this example, we have defined a default group for all modules under the fortinet.fortios collection. This means that any module from this collection will automatically inherit the parameters specified in the default group, such as vdom and enable_log. This allows us to avoid repeating these parameters in each task, making our playbook cleaner and more efficient.
+
+How to configure webfilter_profile globally?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For global web filter profile configuration, set ``vdom`` to ``global`` at module level.
+The module utility builds the request URL in global scope automatically.
+
+::
+
+ - hosts: fortigateslab
+   connection: httpapi
+   collections:
+     - fortinet.fortios
+   vars:
+     ansible_httpapi_use_ssl: true
+     ansible_httpapi_validate_certs: false
+     ansible_httpapi_port: 443
+   tasks:
+     - name: Configure webfilter profile in global scope
+       fortios_webfilter_profile:
+         vdom: "global"
+         state: "present"
+         webfilter_profile:
+           name: "global_profile"
+           comment: "Configured in global scope"
+           options:
+             - "activexfilter"
+
+How to use custom headers in fortios_json_generic?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some FortiOS APIs require administrator password confirmation for sensitive operations.
+For those APIs, set ``headers: { X-Admin-Passwd: true }`` in ``fortios_json_generic`` so the module can complete the request.
+
+Example: create ``/api/v2/cmdb/system/admin``
+..............................................
+
+::
+
+  - name: Create /api/v2/cmdb/system/admin
+    fortios_json_generic:
+      headers:
+        X-Admin-Passwd: true
+      json_generic:
+        method: "POST"
+        path: "/api/v2/cmdb/system/admin"
+        dictbody:
+          name: "test"
+          password: "{{ new_admin_password }}"
+          accprofile: "all-access"
+          vdom: "{{ vdom }}"
+    register: admin_result
+
+Example: generate API key via ``/api/v2/monitor/system/api-user/generate-key``
+...............................................................................
+
+::
+
+  - name: Generate API key for system api-user via json generic
+    fortios_json_generic:
+      vdom: "{{ vdom }}"
+      headers:
+        X-Admin-Passwd: true
+      json_generic:
+        method: "POST"
+        path: "/api/v2/monitor/system/api-user/generate-key"
+        specialparams: "api-user=gui"
+        dictbody: {}
+    register: tokeninfo
 
 .. _Run Your Playbook: playbook.html
 .. _How To Generate Access Token Dynamically: faq.html#what-s-access-token
