@@ -346,6 +346,13 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">config-sync.switch-controller.managed-switch</span> - Trigger config sync for a given FortiSwitch. 
+        <ul class="ul-self">
+                <li><span class="li-required">mkey</span> - Name of managed FortiSwitch. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">config.system.fortimanager</span> - Configure FortiManager IP. Register FortiManager if 'fortimanager_ip' is provided.       Unregister FortiManager if only 'unregister' parameter is specified and set to true. 
         <ul class="ul-self">
                 <li><span class="li-required">fortimanager_ip</span> - FortiManager IP address. <span class="li-normal">type: string  required: False </span> </li>
@@ -544,6 +551,14 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">download-image.firmware.extension-device</span> - Download extension device firmware from FortiGuard servers using image-id 
+        <ul class="ul-self">
+                <li><span class="li-required">type</span> - The type of extension device the image is for [fortiap|fortiswitch|fortiextender] <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">image_id</span> - The image id of the firmware to download from FortiGuard servers. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">download.switch-controller.fsw-firmware</span> - Download FortiSwitch firmware from FortiGuard to the FortiGate according to FortiSwitch image ID. 
         <ul class="ul-self">
                 <li><span class="li-required">image_id</span> - FortiSwitch image ID. <span class="li-normal">type: string  required: True </span> </li>
@@ -683,7 +698,7 @@ Parameters
         </li>
         <li><span class="li-head">geoip.geoip-query</span> - Retrieve location details for IPs queried against FortiGuard's geoip service. 
         <ul class="ul-self">
-                <li><span class="li-required">ip_addresses</span> - One or more IP address strings to query for location details. <span class="li-normal">type: array  required: True </span> </li>
+                <li><span class="li-required">ip_addresses</span> - One or more IP address strings to query for location details. Maximum 100 addresses per request. If exceeded, only the first 100 query results will be returned. <span class="li-normal">type: array  required: True </span> </li>
                 
             </ul>
         
@@ -1128,8 +1143,6 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">token</span> - FortiToken serial number. The token must be assigned to a user/admin. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">method</span> - Method to send activation code [email|sms]. If not set, SMS will be attempted first, then email. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">email</span> - Override email address. <span class="li-normal">type: string  required: False </span> </li>
-                <li><span class="li-required">sms_phone</span> - Override SMS phone number. SMS provider must be set in the assigned user/admin. <span class="li-normal">type: string  required: False </span> </li>
                 
             </ul>
         
@@ -1210,6 +1223,14 @@ Parameters
         <li><span class="li-head">soft-reset-neighbor.router.bgp</span> - BGP Neighbor soft reset. 
         <ul class="ul-self">
                 <li><span class="li-required">ip</span> - IPv4 or IPv6 address of neighbor to perform soft reset on. <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">speed-test-run.vpn.ipsec</span> - Run IPSec tunnel speed-test and return results. 
+        <ul class="ul-self">
+                <li><span class="li-required">p1name</span> - IPsec phase1 name. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">tunnel</span> - IPsec tunnel name. <span class="li-normal">type: string  required: False </span> </li>
                 
             </ul>
         
@@ -1436,6 +1457,15 @@ Parameters
         <li><span class="li-head">trial.user.fortitoken-cloud</span> - Activate FortiToken Cloud trial. 
         
         </li>
+        <li><span class="li-head">trigger-update.firmware.extension-device</span> - Trigger firmware update for specified extension device serials using an image-id and return result for each extension-device. 
+        <ul class="ul-self">
+                <li><span class="li-required">serial</span> - Serial of the extension-device to be upgraded. <span class="li-normal">type: array  required: True </span> </li>
+                <li><span class="li-required">image_id</span> - Image ID of the firmware to use for the upgrade. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">type</span> - The type of extension device. [fortiap|fortiswitch|fortiextender] <span class="li-normal">type: string  required: True </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">trigger.system.security-rating</span> - Run a Security Rating report. 
         <ul class="ul-self">
                 <li><span class="li-required">report_type</span> - Security Rating report to run, run all reports when unspecified. <span class="li-normal">type: string  required: False </span> </li>
@@ -1599,6 +1629,15 @@ Parameters
             </ul>
         
         </li>
+        <li><span class="li-head">upgrade.system.5g-modem</span> - Upgrade 5G modem(s). 
+        <ul class="ul-self">
+                <li><span class="li-required">source</span> - Firmware file data source [upload]. <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">modem</span> - Modem to upgrade [all|1|2]. Defaults to all modems if not provided. <span class="li-normal">type: string  required: False </span> </li>
+                <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
         <li><span class="li-head">upgrade.system.firmware</span> - Upgrade firmware image on this device. 
         <ul class="ul-self">
                 <li><span class="li-required">source</span> - Firmware file data source [upload|usb|fortiguard|url]. <span class="li-normal">type: string  required: True </span> </li>
@@ -1616,6 +1655,14 @@ Parameters
         
         </li>
         <li><span class="li-head">upgrade.system.lte-modem</span> - Upgrade LTE modem firmware image on this device using uploaded files. 
+        
+        </li>
+        <li><span class="li-head">upload-image.firmware.extension-device</span> - Upload extension device firmware and return image-id. 
+        <ul class="ul-self">
+                <li><span class="li-required">type</span> - The type of extension device the firmware is for. [fortiap|fortiswitch|fortiextender] <span class="li-normal">type: string  required: True </span> </li>
+                <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
         
         </li>
         <li><span class="li-head">upload.forticonverter.config</span> - Upload config from target FortiGate to FortiConverter. 
@@ -1685,6 +1732,13 @@ Parameters
                 <li><span class="li-required">region_name</span> - Region name to save image to. <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">image_type</span> - MIME type of the image (png|jpeg|gif). <span class="li-normal">type: string  required: True </span> </li>
                 <li><span class="li-required">file_content</span> - Provided when uploading a file: base64 encoded file data. Must not contain whitespace or other invalid base64 characters. Must be included in HTTP body. <span class="li-normal">type: string  required: False </span> </li>
+                
+            </ul>
+        
+        </li>
+        <li><span class="li-head">upstream-authorize.system.csf</span> - Authorize Security Fabric upstream FortiGate by serial. 
+        <ul class="ul-self">
+                <li><span class="li-required">upstream_serial</span> - Security Fabric path identifier. <span class="li-normal">type: string  required: True </span> </li>
                 
             </ul>
         
@@ -1783,7 +1837,6 @@ Examples
    - name: Activate FortiToken
      fortios_monitor:
         vdom: "root"
-        access_token: "<fortios_access_token>"
         selector: 'activate.user.fortitoken'
         params:
             tokens: '<token string>'
@@ -1791,7 +1844,6 @@ Examples
    - name: Reboot This Device
      fortios_monitor:
         vdom: "root"
-        access_token: "<fortios_access_token>"
         selector: 'reboot.system.os'
         params:
             event_log_message: 'Reboot Request From Ansible'

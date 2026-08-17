@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>vpn_ipsec_phase2_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,21 +74,21 @@ Parameters
  </tr>
  <tr>
  <td>add_route</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[phase1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke1</span> - phase2 ADDKE1 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke1</span> - phase2 ADDKE1 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -98,72 +98,140 @@ Parameters
  </tr>
  <tr>
  <td>addke1</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke2</span> - phase2 ADDKE2 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke2</span> - phase2 ADDKE2 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -173,72 +241,140 @@ Parameters
  </tr>
  <tr>
  <td>addke2</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke3</span> - phase2 ADDKE3 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke3</span> - phase2 ADDKE3 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -248,72 +384,140 @@ Parameters
  </tr>
  <tr>
  <td>addke3</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke4</span> - phase2 ADDKE4 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke4</span> - phase2 ADDKE4 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -323,72 +527,140 @@ Parameters
  </tr>
  <tr>
  <td>addke4</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke5</span> - phase2 ADDKE5 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke5</span> - phase2 ADDKE5 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -398,72 +670,140 @@ Parameters
  </tr>
  <tr>
  <td>addke5</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke6</span> - phase2 ADDKE6 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke6</span> - phase2 ADDKE6 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -473,72 +813,140 @@ Parameters
  </tr>
  <tr>
  <td>addke6</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">addke7</span> - phase2 ADDKE7 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
+        <li> <span class="li-head">addke7</span> - phase2 ADDKE7 group. <span class="li-normal">type: list</span> <span class="li-normal">choices: none, ml-kem-512, ml-kem-768, ml-kem-1024, kyber512, kyber768, kyber1024, frodo-l1, frodo-l3, frodo-l5, bike-l1, bike-l3, bike-l5, hqc128, hqc192, hqc256, 0, 35, 36, 37, 1080, 1081, 1082, 1083, 1084, 1085, 1089, 1090, 1091, 1092, 1093, 1094</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -548,67 +956,135 @@ Parameters
  </tr>
  <tr>
  <td>addke7</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[ml-kem-1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber512]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber768]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[kyber1024]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[frodo-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l1]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l3]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[bike-l5]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc128]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc192]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[hqc256]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[0]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[35]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[36]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[37]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1080]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1081]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1082]</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> v7.6.6</code></td>
+ </tr>
  <tr>
  <td>[1083]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1084]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1085]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1089]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1090]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1091]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1092]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1093]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  <tr>
  <td>[1094]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> v7.6.6</code></td>
  </tr>
  </table>
  </div>
@@ -623,17 +1099,17 @@ Parameters
  </tr>
  <tr>
  <td>auto_discovery_forwarder</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[phase1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -647,17 +1123,17 @@ Parameters
  </tr>
  <tr>
  <td>auto_discovery_sender</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[phase1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -671,14 +1147,14 @@ Parameters
  </tr>
  <tr>
  <td>auto_negotiate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -692,7 +1168,7 @@ Parameters
  </tr>
  <tr>
  <td>comments</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -707,14 +1183,14 @@ Parameters
  </tr>
  <tr>
  <td>dhcp_ipsec</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -728,59 +1204,59 @@ Parameters
  </tr>
  <tr>
  <td>dhgrp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[14]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[15]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[16]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[17]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[18]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[19]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[20]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[21]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[27]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[28]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[29]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[30]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[31]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[32]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
@@ -795,14 +1271,14 @@ Parameters
  </tr>
  <tr>
  <td>diffserv</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -816,7 +1292,7 @@ Parameters
  </tr>
  <tr>
  <td>diffservcode</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -831,32 +1307,32 @@ Parameters
  </tr>
  <tr>
  <td>dst_addr_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[subnet]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[range]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[name]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[subnet6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[range6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[ip6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[name6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -870,7 +1346,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_end_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -885,7 +1361,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_end_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -900,7 +1376,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -915,7 +1391,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_name6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -930,7 +1406,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -945,7 +1421,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_start_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -960,7 +1436,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_start_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -975,7 +1451,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_subnet</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -990,7 +1466,7 @@ Parameters
  </tr>
  <tr>
  <td>dst_subnet6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1005,14 +1481,14 @@ Parameters
  </tr>
  <tr>
  <td>encapsulation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[tunnel-mode]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[transport-mode]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1027,7 +1503,7 @@ Parameters
  <tr>
  <td>inbound_dscp_copy</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[phase1]</td>
@@ -1051,14 +1527,14 @@ Parameters
  </tr>
  <tr>
  <td>initiator_ts_narrow</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1093,14 +1569,14 @@ Parameters
  </tr>
  <tr>
  <td>keepalive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1114,17 +1590,17 @@ Parameters
  </tr>
  <tr>
  <td>keylife_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[seconds]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[kbs]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1138,7 +1614,7 @@ Parameters
  </tr>
  <tr>
  <td>keylifekbs</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1153,7 +1629,7 @@ Parameters
  </tr>
  <tr>
  <td>keylifeseconds</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1168,14 +1644,14 @@ Parameters
  </tr>
  <tr>
  <td>l2tp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1189,7 +1665,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1204,14 +1680,14 @@ Parameters
  </tr>
  <tr>
  <td>pfs</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1225,12 +1701,12 @@ Parameters
  </tr>
  <tr>
  <td>phase1name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">proposal</span> - Phase2 proposal. <span class="li-normal">type: list</span> <span class="li-normal">choices: null-md5, null-sha1, null-sha256, null-sha384, null-sha512, des-null, des-md5, des-sha1, des-sha256, des-sha384, des-sha512, 3des-null, 3des-md5, 3des-sha1, 3des-sha256, 3des-sha384, 3des-sha512, aes128-null, aes128-md5, aes128-sha1, aes128-sha256, aes128-sha384, aes128-sha512, aes128gcm, aes192-null, aes192-md5, aes192-sha1, aes192-sha256, aes192-sha384, aes192-sha512, aes256-null, aes256-md5, aes256-sha1, aes256-sha256, aes256-sha384, aes256-sha512, aes256gcm, chacha20poly1305, aria128-null, aria128-md5, aria128-sha1, aria128-sha256, aria128-sha384, aria128-sha512, aria192-null, aria192-md5, aria192-sha1, aria192-sha256, aria192-sha384, aria192-sha512, aria256-null, aria256-md5, aria256-sha1, aria256-sha256, aria256-sha384, aria256-sha512, seed-null, seed-md5, seed-sha1, seed-sha256, seed-sha384, seed-sha512</span>
+        <li> <span class="li-head">proposal</span> - Phase2 proposal. <span class="li-normal">type: list</span> <span class="li-normal">choices: null-md5, null-sha1, null-sha256, null-sha384, null-sha512, des-null, des-md5, des-sha1, des-sha256, des-sha384, des-sha512, 3des-null, 3des-md5, 3des-sha1, 3des-sha256, 3des-sha384, 3des-sha512, aes128-null, aes128-md5, aes128-sha1, aes128-sha256, aes128-sha384, aes128-sha512, aes128gcm, aes192-null, aes192-md5, aes192-sha1, aes192-sha256, aes192-sha384, aes192-sha512, aes256-null, aes256-md5, aes256-sha1, aes256-sha256, aes256-sha384, aes256-sha512, aes256gcm, chacha20poly1305, aria128-null, aria128-md5, aria128-sha1, aria128-sha256, aria128-sha384, aria128-sha512, aria192-null, aria192-md5, aria192-sha1, aria192-sha256, aria192-sha384, aria192-sha512, aria256-null, aria256-md5, aria256-sha1, aria256-sha256, aria256-sha384, aria256-sha512, seed-null, seed-md5, seed-sha1, seed-sha256, seed-sha384, seed-sha512, sm4-sm3</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -1240,194 +1716,198 @@ Parameters
  </tr>
  <tr>
  <td>proposal</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[null-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[null-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[null-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[null-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[null-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[des-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[3des-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes128gcm]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes192-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aes256gcm]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[chacha20poly1305]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria128-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria192-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[aria256-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-null]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-md5]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-sha1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-sha256]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-sha384]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[seed-sha512]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[sm4-sm3]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -1441,7 +1921,7 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1456,14 +1936,14 @@ Parameters
  </tr>
  <tr>
  <td>replay</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1477,17 +1957,17 @@ Parameters
  </tr>
  <tr>
  <td>route_overlap</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[use-old]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[use-new]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1501,14 +1981,14 @@ Parameters
  </tr>
  <tr>
  <td>single_source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1522,32 +2002,32 @@ Parameters
  </tr>
  <tr>
  <td>src_addr_type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[subnet]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[range]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[name]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[subnet6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[range6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[ip6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[name6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -1561,7 +2041,7 @@ Parameters
  </tr>
  <tr>
  <td>src_end_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1576,7 +2056,7 @@ Parameters
  </tr>
  <tr>
  <td>src_end_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1591,7 +2071,7 @@ Parameters
  </tr>
  <tr>
  <td>src_name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1606,7 +2086,7 @@ Parameters
  </tr>
  <tr>
  <td>src_name6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1621,7 +2101,7 @@ Parameters
  </tr>
  <tr>
  <td>src_port</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1636,7 +2116,7 @@ Parameters
  </tr>
  <tr>
  <td>src_start_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1651,7 +2131,7 @@ Parameters
  </tr>
  <tr>
  <td>src_start_ip6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1666,7 +2146,7 @@ Parameters
  </tr>
  <tr>
  <td>src_subnet</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1681,7 +2161,7 @@ Parameters
  </tr>
  <tr>
  <td>src_subnet6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1713,13 +2193,13 @@ Examples
           access_token: "<your_own_value>"
           vpn_ipsec_phase2_interface:
               add_route: "phase1"
-              addke1: "0"
-              addke2: "0"
-              addke3: "0"
-              addke4: "0"
-              addke5: "0"
-              addke6: "0"
-              addke7: "0"
+              addke1: "none"
+              addke2: "none"
+              addke3: "none"
+              addke4: "none"
+              addke5: "none"
+              addke6: "none"
+              addke7: "none"
               auto_discovery_forwarder: "phase1"
               auto_discovery_sender: "phase1"
               auto_negotiate: "enable"

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v6.2.7, v6.4.1 -> v7.0.12, v7.2.1 -> v7.2.4, v7.4.2
+Supported Version Ranges: v6.0.0 -> v6.2.7, v6.4.1 -> v7.0.12, v7.2.1 -> v7.2.4, v7.4.2, v8.0.0
 
 
 Parameters
@@ -54,7 +54,7 @@ Parameters
  <div id="label1" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="4">Supported Version Ranges</td>
+ <td></td><td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>system_virtual_switch</td>
@@ -62,6 +62,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +74,7 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="4">Supported Version Ranges</td>
+ <td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
@@ -81,6 +82,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -91,7 +93,7 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="4">Supported Version Ranges</td>
+ <td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>physical_switch</td>
@@ -99,6 +101,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -108,7 +111,7 @@ Parameters
  <div id="label7" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="4">Supported Version Ranges</td>
+ <td></td><td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>port</td>
@@ -116,6 +119,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -127,7 +131,7 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="4">Supported Version Ranges</td>
+ <td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>alias</td>
@@ -135,6 +139,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -167,7 +172,7 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="4">Supported Version Ranges</td>
+ <td colspan="5">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>name</td>
@@ -175,6 +180,7 @@ Parameters
  <td><code class="docutils literal notranslate">v6.4.1 -> v7.0.12 </code></td>
  <td><code class="docutils literal notranslate">v7.2.1 -> v7.2.4 </code></td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -343,11 +349,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>vlan</td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>

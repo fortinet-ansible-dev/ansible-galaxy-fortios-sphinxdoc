@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>user_local</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>auth_concurrent_override</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -95,7 +95,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_concurrent_value</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>authtimeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -125,12 +125,12 @@ Parameters
  </tr>
  <tr>
  <td>email_to</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">fortitoken</span> - Two-factor recipient"s FortiToken serial number. Source user.fortitoken.serial-number. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">fabric_force_sync</span> - Enable/disable forced synchronization of configuration objects from the root FortiGate unit to the downstream devices.  Configuration conflict check is skipped. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -139,15 +139,81 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>fabric_force_sync</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">fabric_object</span> - Security Fabric global object setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>fabric_object</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">fabric_object_source</span> - Source of truth for fabric object. <span class="li-normal">type: str</span> <span class="li-normal">choices: member, local, root</span>
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>fabric_object_source</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[member]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[local]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[root]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">fortitoken</span> - Two-factor recipient"s FortiToken serial number. Source user.fortitoken.serial-number. <span class="li-normal">type: str</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>fortitoken</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">id</span> - User ID. <span class="li-normal">type: int</span>
- <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
- <div id="label13" style="display:none">
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -162,51 +228,6 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">ldap_server</span> - Name of LDAP server with which the user must authenticate. Source user.ldap.name. <span class="li-normal">type: str</span>
- <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
- <div id="label15" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>ldap_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">name</span> - Local user name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
- <div id="label17" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">passwd</span> - User"s password. <span class="li-normal">type: str</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>passwd</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-        <li> <span class="li-head">passwd_policy</span> - Password policy to apply to this user, as defined in config user password-policy. Source user.password-policy.name. <span class="li-normal">type: str</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -215,13 +236,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>passwd_policy</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>ldap_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">passwd_time</span> - Time of the last password update. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - Local user name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -230,13 +251,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>passwd_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ppk_identity</span> - IKEv2 Postquantum Preshared Key Identity. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">passwd</span> - User"s password. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -245,13 +266,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ppk_identity</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>passwd</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ppk_secret</span> - IKEv2 Postquantum Preshared Key (ASCII string or hexadecimal encoded with a leading 0x). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">passwd_policy</span> - Password policy to apply to this user, as defined in config user password-policy. Source user.password-policy.name. <span class="li-normal">type: str</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -260,13 +281,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ppk_secret</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>passwd_policy</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">qkd_profile</span> - Quantum Key Distribution (QKD) profile. Source vpn.qkd.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">passwd_time</span> - Time of the last password update. <span class="li-normal">type: str</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -275,13 +296,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>qkd_profile</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td>passwd_time</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">radius_server</span> - Name of RADIUS server with which the user must authenticate. Source user.radius.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ppk_identity</span> - IKEv2 Postquantum Preshared Key Identity. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -290,13 +311,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>radius_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>ppk_identity</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">saml_server</span> - Name of SAML server with which the user must authenticate. Source user.saml.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ppk_secret</span> - IKEv2 Postquantum Preshared Key (ASCII string or hexadecimal encoded with a leading 0x). <span class="li-normal">type: str</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -305,13 +326,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>saml_server</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
+ <td>ppk_secret</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sms_custom_server</span> - Two-factor recipient"s SMS server. Source system.sms-server.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">qkd_profile</span> - Quantum Key Distribution (QKD) profile. Source vpn.qkd.name. <span class="li-normal">type: str</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -320,13 +341,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sms_custom_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>qkd_profile</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sms_phone</span> - Two-factor recipient"s mobile phone number. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">radius_server</span> - Name of RADIUS server with which the user must authenticate. Source user.radius.name. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -335,13 +356,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sms_phone</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>radius_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">sms_server</span> - Send SMS through FortiGuard or other external server. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortiguard, custom</span>
+        <li> <span class="li-head">saml_server</span> - Name of SAML server with which the user must authenticate. Source user.saml.name. <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -350,19 +371,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sms_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>saml_server</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[fortiguard]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[custom]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable allowing the local user to authenticate with the FortiGate unit. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">sms_custom_server</span> - Two-factor recipient"s SMS server. Source system.sms-server.name. <span class="li-normal">type: str</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -371,19 +386,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>sms_custom_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">tacacs_plus_server</span> - Name of TACACS+ server with which the user must authenticate. Source user.tacacs+.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">sms_phone</span> - Two-factor recipient"s mobile phone number. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -392,13 +401,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>tacacs_plus_server</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>sms_phone</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">two_factor</span> - Enable/disable two-factor authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, fortitoken, fortitoken-cloud, email, sms</span>
+        <li> <span class="li-head">sms_server</span> - Send SMS through FortiGuard or other external server. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortiguard, custom</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -407,31 +416,88 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>sms_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[fortiguard]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">status</span> - Enable/disable allowing the local user to authenticate with the FortiGate unit. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
+ <div id="label47" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">tacacs_plus_server</span> - Name of TACACS+ server with which the user must authenticate. Source user.tacacs+.name. <span class="li-normal">type: str</span>
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>tacacs_plus_server</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">two_factor</span> - Enable/disable two-factor authentication. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, fortitoken, fortitoken-cloud, email, sms</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>two_factor</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[fortitoken]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[fortitoken-cloud]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[email]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[sms]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">two_factor_authentication</span> - Authentication method by FortiToken Cloud. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortitoken, email, sms</span>
- <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
- <div id="label47" style="display:none">
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -440,7 +506,7 @@ Parameters
  <tr>
  <td>two_factor_authentication</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[fortitoken]</td>
@@ -455,8 +521,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">two_factor_notification</span> - Notification method for user activation by FortiToken Cloud. <span class="li-normal">type: str</span> <span class="li-normal">choices: email, sms</span>
- <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
- <div id="label49" style="display:none">
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -465,7 +531,7 @@ Parameters
  <tr>
  <td>two_factor_notification</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.0 </code></td>
- <td><code class="docutils literal notranslate">v6.2.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.5 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[email]</td>
@@ -477,8 +543,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">type</span> - Authentication method. <span class="li-normal">type: str</span> <span class="li-normal">choices: password, radius, tacacs+, ldap, saml</span>
- <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
- <div id="label51" style="display:none">
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -486,30 +552,30 @@ Parameters
  </tr>
  <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[password]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[radius]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[tacacs+]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[ldap]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[saml]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">username_case_sensitivity</span> - Enable/disable case sensitivity when performing username matching (uppercase and lowercase letters are treated either as distinct or equivalent). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
- <div id="label53" style="display:none">
+ <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
+ <div id="label59" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -531,8 +597,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">username_sensitivity</span> - Enable/disable case and accent sensitivity when performing username matching (accents are stripped and case is ignored when disabled). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
- <div id="label55" style="display:none">
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -540,20 +606,35 @@ Parameters
  </tr>
  <tr>
  <td>username_sensitivity</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
+ <div id="label63" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">workstation</span> - Name of the remote user workstation, if you want to limit the user to authenticate only from a particular workstation. <span class="li-normal">type: str</span>
- <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
- <div id="label57" style="display:none">
+ <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
+ <div id="label65" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -561,7 +642,7 @@ Parameters
  </tr>
  <tr>
  <td>workstation</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -596,10 +677,13 @@ Examples
               auth_concurrent_value: "0"
               authtimeout: "0"
               email_to: "<your_own_value>"
+              fabric_force_sync: "enable"
+              fabric_object: "enable"
+              fabric_object_source: "member"
               fortitoken: "<your_own_value> (source user.fortitoken.serial-number)"
-              id: "8"
+              id: "11"
               ldap_server: "<your_own_value> (source user.ldap.name)"
-              name: "default_name_10"
+              name: "default_name_13"
               passwd: "<your_own_value>"
               passwd_policy: "<your_own_value> (source user.password-policy.name)"
               passwd_time: "<your_own_value>"
@@ -619,6 +703,7 @@ Examples
               type: "password"
               username_case_sensitivity: "disable"
               username_sensitivity: "disable"
+              uuid: "<your_own_value>"
               workstation: "<your_own_value>"
 
 

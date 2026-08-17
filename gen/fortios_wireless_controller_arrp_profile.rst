@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0, v6.4.4 -> v7.6.6
+Supported Version Ranges: v6.4.0, v6.4.4 -> v8.0.0
 
 
 Parameters
@@ -59,7 +59,7 @@ Parameters
  <tr>
  <td>wireless_controller_arrp_profile</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -76,7 +76,7 @@ Parameters
  <tr>
  <td>comment</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -91,7 +91,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -105,7 +105,7 @@ Parameters
  </tr>
  <tr>
  <td>darrp_optimize_schedules</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -121,7 +121,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -138,15 +138,15 @@ Parameters
  <tr>
  <td>include_dfs_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[yes]</td>
@@ -170,15 +170,15 @@ Parameters
  <tr>
  <td>include_weather_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[yes]</td>
@@ -202,7 +202,7 @@ Parameters
  <tr>
  <td>monitor_period</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -218,7 +218,7 @@ Parameters
  <tr>
  <td>name</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -233,14 +233,14 @@ Parameters
  </tr>
  <tr>
  <td>override_darrp_optimize</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -255,7 +255,7 @@ Parameters
  <tr>
  <td>selection_period</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -271,7 +271,7 @@ Parameters
  <tr>
  <td>threshold_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -287,7 +287,7 @@ Parameters
  <tr>
  <td>threshold_channel_load</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -303,7 +303,7 @@ Parameters
  <tr>
  <td>threshold_noise_floor</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -319,7 +319,7 @@ Parameters
  <tr>
  <td>threshold_rx_errors</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -335,7 +335,7 @@ Parameters
  <tr>
  <td>threshold_spectral_rssi</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -351,12 +351,12 @@ Parameters
  <tr>
  <td>threshold_tx_retries</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_channel_load</span> - Weight in DARRP channel score calculation for channel load (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_channel_load</span> - Weight in DARRP channel score calculation for channel load (0 - 200). <span class="li-normal">type: int</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -367,12 +367,12 @@ Parameters
  <tr>
  <td>weight_channel_load</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_dfs_channel</span> - Weight in DARRP channel score calculation for DFS channel (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_dfs_channel</span> - Weight in DARRP channel score calculation for DFS channel (0 - 200). <span class="li-normal">type: int</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -383,12 +383,12 @@ Parameters
  <tr>
  <td>weight_dfs_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_managed_ap</span> - Weight in DARRP channel score calculation for managed APs (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_managed_ap</span> - Weight in DARRP channel score calculation for managed APs (0 - 200). <span class="li-normal">type: int</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -399,12 +399,12 @@ Parameters
  <tr>
  <td>weight_managed_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_noise_floor</span> - Weight in DARRP channel score calculation for noise floor (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_noise_floor</span> - Weight in DARRP channel score calculation for noise floor (0 - 200). <span class="li-normal">type: int</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -415,12 +415,12 @@ Parameters
  <tr>
  <td>weight_noise_floor</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_rogue_ap</span> - Weight in DARRP channel score calculation for rogue APs (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_rogue_ap</span> - Weight in DARRP channel score calculation for rogue APs (0 - 200). <span class="li-normal">type: int</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -431,12 +431,12 @@ Parameters
  <tr>
  <td>weight_rogue_ap</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_spectral_rssi</span> - Weight in DARRP channel score calculation for spectral RSSI (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_spectral_rssi</span> - Weight in DARRP channel score calculation for spectral RSSI (0 - 200). <span class="li-normal">type: int</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -447,12 +447,12 @@ Parameters
  <tr>
  <td>weight_spectral_rssi</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">weight_weather_channel</span> - Weight in DARRP channel score calculation for weather channel (0 - 2000). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">weight_weather_channel</span> - Weight in DARRP channel score calculation for weather channel (0 - 200). <span class="li-normal">type: int</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -463,7 +463,7 @@ Parameters
  <tr>
  <td>weight_weather_channel</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -512,12 +512,12 @@ Examples
               threshold_spectral_rssi: "<your_own_value>"
               threshold_tx_retries: "300"
               weight_channel_load: "20"
-              weight_dfs_channel: "500"
+              weight_dfs_channel: "50"
               weight_managed_ap: "50"
               weight_noise_floor: "40"
               weight_rogue_ap: "10"
               weight_spectral_rssi: "40"
-              weight_weather_channel: "1000"
+              weight_weather_channel: "100"
 
 
 Return Values

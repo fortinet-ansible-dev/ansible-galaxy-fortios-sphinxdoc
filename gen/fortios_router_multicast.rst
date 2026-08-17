@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>router_multicast</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -72,7 +72,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,14 +88,14 @@ Parameters
  </tr>
  <tr>
  <td>bfd</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -109,14 +109,14 @@ Parameters
  </tr>
  <tr>
  <td>cisco_exclude_genid</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -130,7 +130,7 @@ Parameters
  </tr>
  <tr>
  <td>dr_priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -145,7 +145,7 @@ Parameters
  </tr>
  <tr>
  <td>hello_holdtime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -160,7 +160,7 @@ Parameters
  </tr>
  <tr>
  <td>hello_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -174,7 +174,7 @@ Parameters
  </tr>
  <tr>
  <td>igmp</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -190,7 +190,7 @@ Parameters
  </tr>
  <tr>
  <td>access_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -205,7 +205,7 @@ Parameters
  </tr>
  <tr>
  <td>immediate_leave_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -220,7 +220,7 @@ Parameters
  </tr>
  <tr>
  <td>last_member_query_count</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -235,7 +235,7 @@ Parameters
  </tr>
  <tr>
  <td>last_member_query_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -250,7 +250,7 @@ Parameters
  </tr>
  <tr>
  <td>query_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -265,7 +265,7 @@ Parameters
  </tr>
  <tr>
  <td>query_max_response_time</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -280,7 +280,7 @@ Parameters
  </tr>
  <tr>
  <td>query_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -295,14 +295,14 @@ Parameters
  </tr>
  <tr>
  <td>router_alert_check</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -316,17 +316,17 @@ Parameters
  </tr>
  <tr>
  <td>version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[3]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[2]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[1]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -340,7 +340,7 @@ Parameters
  </tr>
  <tr>
  <td>join_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -356,7 +356,7 @@ Parameters
  </tr>
  <tr>
  <td>address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -372,7 +372,7 @@ Parameters
  </tr>
  <tr>
  <td>multicast_flow</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -387,7 +387,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -402,7 +402,7 @@ Parameters
  </tr>
  <tr>
  <td>neighbour_filter</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -417,14 +417,14 @@ Parameters
  </tr>
  <tr>
  <td>passive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -438,14 +438,14 @@ Parameters
  </tr>
  <tr>
  <td>pim_mode</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[sparse-mode]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[dense-mode]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -459,7 +459,7 @@ Parameters
  </tr>
  <tr>
  <td>propagation_delay</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -474,14 +474,14 @@ Parameters
  </tr>
  <tr>
  <td>rp_candidate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -495,7 +495,7 @@ Parameters
  </tr>
  <tr>
  <td>rp_candidate_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -510,7 +510,7 @@ Parameters
  </tr>
  <tr>
  <td>rp_candidate_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -525,7 +525,7 @@ Parameters
  </tr>
  <tr>
  <td>rp_candidate_priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -540,14 +540,14 @@ Parameters
  </tr>
  <tr>
  <td>rpf_nbr_fail_back</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -561,7 +561,7 @@ Parameters
  </tr>
  <tr>
  <td>rpf_nbr_fail_back_filter</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -576,7 +576,7 @@ Parameters
  </tr>
  <tr>
  <td>state_refresh_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -591,7 +591,7 @@ Parameters
  </tr>
  <tr>
  <td>static_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -606,13 +606,12 @@ Parameters
  </tr>
  <tr>
  <td>ttl_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">multicast_routing</span> - Enable/disable IP multicast routing. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">update_source</span> - Interface to use as source IP. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -621,49 +620,50 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>multicast_routing</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>update_source</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> v7.6.7 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">pim_sm_global</span> - PIM sparse-mode global settings. <span class="li-normal">type: dict</span>
+            </ul>
+        <li> <span class="li-head">multicast_routing</span> - Enable/disable IP multicast routing. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>pim_sm_global</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">accept_register_list</span> - Sources allowed to register packets with this Rendezvous Point (RP). Source router.access-list.name. <span class="li-normal">type: str</span>
- <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
- <div id="label73" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>accept_register_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>multicast_routing</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">pim_sm_global</span> - PIM sparse-mode global settings. <span class="li-normal">type: dict</span>
+ <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
+ <div id="label73" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>pim_sm_global</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">accept_source_list</span> - Sources allowed to send multicast traffic. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">accept_register_list</span> - Sources allowed to register packets with this Rendezvous Point (RP). Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -672,13 +672,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>accept_source_list</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>accept_register_list</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_allow_quick_refresh</span> - Enable/disable accept BSR quick refresh packets from neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">accept_source_list</span> - Sources allowed to send multicast traffic. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
@@ -687,19 +687,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_allow_quick_refresh</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>accept_source_list</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_candidate</span> - Enable/disable allowing this router to become a bootstrap router (BSR). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">bsr_allow_quick_refresh</span> - Enable/disable accept BSR quick refresh packets from neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -708,19 +702,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_candidate</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>bsr_allow_quick_refresh</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_hash</span> - BSR hash length (0 - 32). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">bsr_candidate</span> - Enable/disable allowing this router to become a bootstrap router (BSR). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -729,13 +723,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_hash</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>bsr_candidate</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_interface</span> - Interface to advertise as candidate BSR. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">bsr_hash</span> - BSR hash length (0 - 32). <span class="li-normal">type: int</span>
  <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
  <div id="label83" style="display:none">
  <table border="1">
@@ -744,13 +744,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>bsr_hash</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_priority</span> - BSR priority (0 - 255). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">bsr_interface</span> - Interface to advertise as candidate BSR. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
  <div id="label85" style="display:none">
  <table border="1">
@@ -759,13 +759,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>bsr_interface</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cisco_crp_prefix</span> - Enable/disable making candidate RP compatible with old Cisco IOS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">bsr_priority</span> - BSR priority (0 - 255). <span class="li-normal">type: int</span>
  <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
  <div id="label87" style="display:none">
  <table border="1">
@@ -774,19 +774,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cisco_crp_prefix</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>bsr_priority</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cisco_ignore_rp_set_priority</span> - Use only hash for RP selection (compatibility with old Cisco IOS). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">cisco_crp_prefix</span> - Enable/disable making candidate RP compatible with old Cisco IOS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
  <div id="label89" style="display:none">
  <table border="1">
@@ -795,19 +789,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cisco_ignore_rp_set_priority</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>cisco_crp_prefix</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cisco_register_checksum</span> - Checksum entire register packet(for old Cisco IOS compatibility). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">cisco_ignore_rp_set_priority</span> - Use only hash for RP selection (compatibility with old Cisco IOS). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
  <div id="label91" style="display:none">
  <table border="1">
@@ -816,19 +810,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cisco_register_checksum</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>cisco_ignore_rp_set_priority</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cisco_register_checksum_group</span> - Cisco register checksum only these groups. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">cisco_register_checksum</span> - Checksum entire register packet(for old Cisco IOS compatibility). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
  <div id="label93" style="display:none">
  <table border="1">
@@ -837,13 +831,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cisco_register_checksum_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>cisco_register_checksum</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">join_prune_holdtime</span> - Join/prune holdtime (1 - 65535). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">cisco_register_checksum_group</span> - Cisco register checksum only these groups. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
  <div id="label95" style="display:none">
  <table border="1">
@@ -852,13 +852,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>join_prune_holdtime</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>cisco_register_checksum_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">message_interval</span> - Period of time between sending periodic PIM join/prune messages in seconds (1 - 65535). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">join_prune_holdtime</span> - Join/prune holdtime (1 - 65535). <span class="li-normal">type: int</span>
  <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
  <div id="label97" style="display:none">
  <table border="1">
@@ -867,13 +867,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>message_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>join_prune_holdtime</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">null_register_retries</span> - Maximum retries of null register (1 - 20). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">message_interval</span> - Period of time between sending periodic PIM join/prune messages in seconds (1 - 65535). <span class="li-normal">type: int</span>
  <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
  <div id="label99" style="display:none">
  <table border="1">
@@ -882,13 +882,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>null_register_retries</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>message_interval</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">pim_use_sdwan</span> - Enable/disable use of SDWAN when checking RPF neighbor and sending of REG packet. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">null_register_retries</span> - Maximum retries of null register (1 - 20). <span class="li-normal">type: int</span>
  <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
  <div id="label101" style="display:none">
  <table border="1">
@@ -897,19 +897,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>pim_use_sdwan</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>null_register_retries</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_rate_limit</span> - Limit of packets/sec per source registered through this RP (0 - 65535). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">pim_use_sdwan</span> - Enable/disable use of SDWAN when checking RPF neighbor and sending of REG packet. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label102' href="javascript:ContentClick('label103', 'label102');" onmouseover="ContentPreview('label103');" onmouseout="ContentUnpreview('label103');" title="click to collapse or expand..."> more... </a>
  <div id="label103" style="display:none">
  <table border="1">
@@ -918,13 +912,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_rate_limit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>pim_use_sdwan</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_rp_reachability</span> - Enable/disable check RP is reachable before registering packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">register_rate_limit</span> - Limit of packets/sec per source registered through this RP (0 - 65535). <span class="li-normal">type: int</span>
  <a id='label104' href="javascript:ContentClick('label105', 'label104');" onmouseover="ContentPreview('label105');" onmouseout="ContentUnpreview('label105');" title="click to collapse or expand..."> more... </a>
  <div id="label105" style="display:none">
  <table border="1">
@@ -933,19 +933,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_rp_reachability</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_rate_limit</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_source</span> - Override source address in register packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, interface, ip-address</span>
+            <li> <span class="li-head">register_rp_reachability</span> - Enable/disable check RP is reachable before registering packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label106' href="javascript:ContentClick('label107', 'label106');" onmouseover="ContentPreview('label107');" onmouseout="ContentUnpreview('label107');" title="click to collapse or expand..."> more... </a>
  <div id="label107" style="display:none">
  <table border="1">
@@ -954,22 +948,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_source</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_rp_reachability</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[interface]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[ip-address]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_source_interface</span> - Override with primary interface address. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">register_source</span> - Override source address in register packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, interface, ip-address</span>
  <a id='label108' href="javascript:ContentClick('label109', 'label108');" onmouseover="ContentPreview('label109');" onmouseout="ContentUnpreview('label109');" title="click to collapse or expand..."> more... </a>
  <div id="label109" style="display:none">
  <table border="1">
@@ -978,13 +969,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_source_interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_source</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[interface]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[ip-address]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_source_ip</span> - Override with local IP address. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">register_source_interface</span> - Override with primary interface address. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label110' href="javascript:ContentClick('label111', 'label110');" onmouseover="ContentPreview('label111');" onmouseout="ContentUnpreview('label111');" title="click to collapse or expand..."> more... </a>
  <div id="label111" style="display:none">
  <table border="1">
@@ -993,13 +993,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_source_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_source_interface</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">register_supression</span> - Period of time to honor register-stop message (1 - 65535 sec). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">register_source_ip</span> - Override with local IP address. <span class="li-normal">type: str</span>
  <a id='label112' href="javascript:ContentClick('label113', 'label112');" onmouseover="ContentPreview('label113');" onmouseout="ContentUnpreview('label113');" title="click to collapse or expand..."> more... </a>
  <div id="label113" style="display:none">
  <table border="1">
@@ -1008,43 +1008,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>register_supression</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_source_ip</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">rp_address</span> - Statically configure RP addresses. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global/rp_address:id</span>
+            <li> <span class="li-head">register_supression</span> - Period of time to honor register-stop message (1 - 65535 sec). <span class="li-normal">type: int</span>
  <a id='label114' href="javascript:ContentClick('label115', 'label114');" onmouseover="ContentPreview('label115');" onmouseout="ContentUnpreview('label115');" title="click to collapse or expand..."> more... </a>
  <div id="label115" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>rp_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">group</span> - Groups to use this RP. Source router.access-list.name. <span class="li-normal">type: str</span>
- <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
- <div id="label117" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>register_supression</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">rp_address</span> - Statically configure RP addresses. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global/rp_address:id</span>
+ <a id='label116' href="javascript:ContentClick('label117', 'label116');" onmouseover="ContentPreview('label117');" onmouseout="ContentUnpreview('label117');" title="click to collapse or expand..."> more... </a>
+ <div id="label117" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rp_address</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">group</span> - Groups to use this RP. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label118' href="javascript:ContentClick('label119', 'label118');" onmouseover="ContentPreview('label119');" onmouseout="ContentUnpreview('label119');" title="click to collapse or expand..."> more... </a>
  <div id="label119" style="display:none">
  <table border="1">
@@ -1053,13 +1053,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">ip_address</span> - RP router address. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label120' href="javascript:ContentClick('label121', 'label120');" onmouseover="ContentPreview('label121');" onmouseout="ContentUnpreview('label121');" title="click to collapse or expand..."> more... </a>
  <div id="label121" style="display:none">
  <table border="1">
@@ -1068,14 +1068,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ip_address</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">rp_register_keepalive</span> - Timeout for RP receiving data on (S,G) tree (1 - 65535 sec). <span class="li-normal">type: int</span>
+                <li> <span class="li-head">ip_address</span> - RP router address. <span class="li-normal">type: str</span>
  <a id='label122' href="javascript:ContentClick('label123', 'label122');" onmouseover="ContentPreview('label123');" onmouseout="ContentUnpreview('label123');" title="click to collapse or expand..."> more... </a>
  <div id="label123" style="display:none">
  <table border="1">
@@ -1084,13 +1083,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>rp_register_keepalive</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>ip_address</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">spt_threshold</span> - Enable/disable switching to source specific trees. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+                </ul>
+            <li> <span class="li-head">rp_register_keepalive</span> - Timeout for RP receiving data on (S,G) tree (1 - 65535 sec). <span class="li-normal">type: int</span>
  <a id='label124' href="javascript:ContentClick('label125', 'label124');" onmouseover="ContentPreview('label125');" onmouseout="ContentUnpreview('label125');" title="click to collapse or expand..."> more... </a>
  <div id="label125" style="display:none">
  <table border="1">
@@ -1099,19 +1099,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>spt_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>rp_register_keepalive</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">spt_threshold_group</span> - Groups allowed to switch to source tree. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">spt_threshold</span> - Enable/disable switching to source specific trees. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label126' href="javascript:ContentClick('label127', 'label126');" onmouseover="ContentPreview('label127');" onmouseout="ContentUnpreview('label127');" title="click to collapse or expand..."> more... </a>
  <div id="label127" style="display:none">
  <table border="1">
@@ -1120,13 +1114,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>spt_threshold_group</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>spt_threshold</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ssm</span> - Enable/disable source specific multicast. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">spt_threshold_group</span> - Groups allowed to switch to source tree. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label128' href="javascript:ContentClick('label129', 'label128');" onmouseover="ContentPreview('label129');" onmouseout="ContentUnpreview('label129');" title="click to collapse or expand..."> more... </a>
  <div id="label129" style="display:none">
  <table border="1">
@@ -1135,19 +1135,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssm</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>spt_threshold_group</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ssm_range</span> - Groups allowed to source specific multicast. Source router.access-list.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ssm</span> - Enable/disable source specific multicast. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label130' href="javascript:ContentClick('label131', 'label130');" onmouseover="ContentPreview('label131');" onmouseout="ContentUnpreview('label131');" title="click to collapse or expand..."> more... </a>
  <div id="label131" style="display:none">
  <table border="1">
@@ -1156,50 +1150,50 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssm_range</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>ssm</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">pim_sm_global_vrf</span> - per-VRF PIM sparse-mode global settings. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global_vrf:vrf</span>
+            <li> <span class="li-head">ssm_range</span> - Groups allowed to source specific multicast. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label132' href="javascript:ContentClick('label133', 'label132');" onmouseover="ContentPreview('label133');" onmouseout="ContentUnpreview('label133');" title="click to collapse or expand..."> more... </a>
  <div id="label133" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>pim_sm_global_vrf</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">bsr_allow_quick_refresh</span> - Enable/disable accept BSR quick refresh packets from neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
- <div id="label135" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_allow_quick_refresh</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>ssm_range</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_candidate</span> - Enable/disable allowing this router to become a bootstrap router (BSR). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">pim_sm_global_vrf</span> - per-VRF PIM sparse-mode global settings. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global_vrf:vrf</span>
+ <a id='label134' href="javascript:ContentClick('label135', 'label134');" onmouseover="ContentPreview('label135');" onmouseout="ContentUnpreview('label135');" title="click to collapse or expand..."> more... </a>
+ <div id="label135" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>pim_sm_global_vrf</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">bsr_allow_quick_refresh</span> - Enable/disable accept BSR quick refresh packets from neighbors. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label136' href="javascript:ContentClick('label137', 'label136');" onmouseover="ContentPreview('label137');" onmouseout="ContentUnpreview('label137');" title="click to collapse or expand..."> more... </a>
  <div id="label137" style="display:none">
  <table border="1">
@@ -1208,19 +1202,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_candidate</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>bsr_allow_quick_refresh</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_hash</span> - BSR hash length (0 - 32). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">bsr_candidate</span> - Enable/disable allowing this router to become a bootstrap router (BSR). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label138' href="javascript:ContentClick('label139', 'label138');" onmouseover="ContentPreview('label139');" onmouseout="ContentUnpreview('label139');" title="click to collapse or expand..."> more... </a>
  <div id="label139" style="display:none">
  <table border="1">
@@ -1229,13 +1223,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_hash</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>bsr_candidate</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_interface</span> - Interface to advertise as candidate BSR. Source system.interface.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">bsr_hash</span> - BSR hash length (0 - 32). <span class="li-normal">type: int</span>
  <a id='label140' href="javascript:ContentClick('label141', 'label140');" onmouseover="ContentPreview('label141');" onmouseout="ContentUnpreview('label141');" title="click to collapse or expand..."> more... </a>
  <div id="label141" style="display:none">
  <table border="1">
@@ -1244,13 +1244,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_interface</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>bsr_hash</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">bsr_priority</span> - BSR priority (0 - 255). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">bsr_interface</span> - Interface to advertise as candidate BSR. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label142' href="javascript:ContentClick('label143', 'label142');" onmouseover="ContentPreview('label143');" onmouseout="ContentUnpreview('label143');" title="click to collapse or expand..."> more... </a>
  <div id="label143" style="display:none">
  <table border="1">
@@ -1259,13 +1259,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>bsr_priority</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>bsr_interface</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">cisco_crp_prefix</span> - Enable/disable making candidate RP compatible with old Cisco IOS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">bsr_priority</span> - BSR priority (0 - 255). <span class="li-normal">type: int</span>
  <a id='label144' href="javascript:ContentClick('label145', 'label144');" onmouseover="ContentPreview('label145');" onmouseout="ContentUnpreview('label145');" title="click to collapse or expand..."> more... </a>
  <div id="label145" style="display:none">
  <table border="1">
@@ -1274,49 +1274,49 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>cisco_crp_prefix</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>bsr_priority</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">rp_address</span> - Statically configure RP addresses. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global_vrf:vrf/rp_address:id</span>
+            <li> <span class="li-head">cisco_crp_prefix</span> - Enable/disable making candidate RP compatible with old Cisco IOS. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label146' href="javascript:ContentClick('label147', 'label146');" onmouseover="ContentPreview('label147');" onmouseout="ContentUnpreview('label147');" title="click to collapse or expand..."> more... </a>
  <div id="label147" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>rp_address</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">group</span> - Groups to use this RP. Source router.access-list.name. <span class="li-normal">type: str</span>
- <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
- <div id="label149" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>group</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>cisco_crp_prefix</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">rp_address</span> - Statically configure RP addresses. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pim_sm_global_vrf:vrf/rp_address:id</span>
+ <a id='label148' href="javascript:ContentClick('label149', 'label148');" onmouseover="ContentPreview('label149');" onmouseout="ContentUnpreview('label149');" title="click to collapse or expand..."> more... </a>
+ <div id="label149" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rp_address</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">group</span> - Groups to use this RP. Source router.access-list.name. <span class="li-normal">type: str</span>
  <a id='label150' href="javascript:ContentClick('label151', 'label150');" onmouseover="ContentPreview('label151');" onmouseout="ContentUnpreview('label151');" title="click to collapse or expand..."> more... </a>
  <div id="label151" style="display:none">
  <table border="1">
@@ -1325,13 +1325,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>group</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">ip_address</span> - RP router address. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label152' href="javascript:ContentClick('label153', 'label152');" onmouseover="ContentPreview('label153');" onmouseout="ContentUnpreview('label153');" title="click to collapse or expand..."> more... </a>
  <div id="label153" style="display:none">
  <table border="1">
@@ -1340,14 +1340,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ip_address</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">vrf</span> - VRF ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">ip_address</span> - RP router address. <span class="li-normal">type: str</span>
  <a id='label154' href="javascript:ContentClick('label155', 'label154');" onmouseover="ContentPreview('label155');" onmouseout="ContentUnpreview('label155');" title="click to collapse or expand..."> more... </a>
  <div id="label155" style="display:none">
  <table border="1">
@@ -1356,14 +1355,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>ip_address</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">route_limit</span> - Maximum number of multicast routes. <span class="li-normal">type: int</span>
+                </ul>
+            <li> <span class="li-head">vrf</span> - VRF ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label156' href="javascript:ContentClick('label157', 'label156');" onmouseover="ContentPreview('label157');" onmouseout="ContentUnpreview('label157');" title="click to collapse or expand..."> more... </a>
  <div id="label157" style="display:none">
  <table border="1">
@@ -1372,13 +1371,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>route_limit</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>vrf</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">route_threshold</span> - Generate warnings when the number of multicast routes exceeds this number, must not be greater than route-limit. <span class="li-normal">type: int</span>
+            </ul>
+        <li> <span class="li-head">route_limit</span> - Maximum number of multicast routes. <span class="li-normal">type: int</span>
  <a id='label158' href="javascript:ContentClick('label159', 'label158');" onmouseover="ContentPreview('label159');" onmouseout="ContentUnpreview('label159');" title="click to collapse or expand..."> more... </a>
  <div id="label159" style="display:none">
  <table border="1">
@@ -1387,8 +1387,23 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>route_limit</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">route_threshold</span> - Generate warnings when the number of multicast routes exceeds this number, must not be greater than route-limit. <span class="li-normal">type: int</span>
+ <a id='label160' href="javascript:ContentClick('label161', 'label160');" onmouseover="ContentPreview('label161');" onmouseout="ContentUnpreview('label161');" title="click to collapse or expand..."> more... </a>
+ <div id="label161" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>route_threshold</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -1452,6 +1467,7 @@ Examples
                       state_refresh_interval: "60"
                       static_group: "<your_own_value> (source router.multicast-flow.name)"
                       ttl_threshold: "1"
+                      update_source: "<your_own_value> (source system.interface.name)"
               multicast_routing: "enable"
               pim_sm_global:
                   accept_register_list: "<your_own_value> (source router.access-list.name)"
@@ -1478,7 +1494,7 @@ Examples
                   rp_address:
                       -
                           group: "<your_own_value> (source router.access-list.name)"
-                          id: "61"
+                          id: "62"
                           ip_address: "<your_own_value>"
                   rp_register_keepalive: "185"
                   spt_threshold: "enable"
@@ -1496,7 +1512,7 @@ Examples
                       rp_address:
                           -
                               group: "<your_own_value> (source router.access-list.name)"
-                              id: "77"
+                              id: "78"
                               ip_address: "<your_own_value>"
                       vrf: "<you_own_value>"
               route_limit: "2147483647"

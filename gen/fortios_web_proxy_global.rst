@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>web_proxy_global</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>always_learn_client_ip</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -94,7 +94,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_sign_timeout</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -109,14 +109,14 @@ Parameters
  </tr>
  <tr>
  <td>fast_policy_match</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -130,14 +130,14 @@ Parameters
  </tr>
  <tr>
  <td>forward_proxy_auth</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -151,7 +151,7 @@ Parameters
  </tr>
  <tr>
  <td>forward_server_affinity_timeout</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -166,7 +166,7 @@ Parameters
  </tr>
  <tr>
  <td>http2_client_window_size</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -181,7 +181,7 @@ Parameters
  </tr>
  <tr>
  <td>http2_server_window_size</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -196,14 +196,14 @@ Parameters
  </tr>
  <tr>
  <td>ldap_user_cache</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -217,14 +217,14 @@ Parameters
  </tr>
  <tr>
  <td>learn_client_ip</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -238,17 +238,17 @@ Parameters
  </tr>
  <tr>
  <td>learn_client_ip_from_header</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[true-client-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[x-real-ip]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[x-forwarded-for]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -261,7 +261,7 @@ Parameters
  </tr>
  <tr>
  <td>learn_client_ip_srcaddr</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -277,7 +277,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -292,7 +292,7 @@ Parameters
  </tr>
  <tr>
  <td>learn_client_ip_srcaddr6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -308,7 +308,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -324,14 +324,14 @@ Parameters
  </tr>
  <tr>
  <td>log_app_id</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -345,14 +345,14 @@ Parameters
  </tr>
  <tr>
  <td>log_forward_server</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -366,14 +366,14 @@ Parameters
  </tr>
  <tr>
  <td>log_policy_pending</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -387,7 +387,7 @@ Parameters
  </tr>
  <tr>
  <td>max_message_length</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -402,7 +402,7 @@ Parameters
  </tr>
  <tr>
  <td>max_request_length</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -417,7 +417,7 @@ Parameters
  </tr>
  <tr>
  <td>max_waf_body_cache_length</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -453,14 +453,14 @@ Parameters
  </tr>
  <tr>
  <td>policy_partial_match</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -474,7 +474,7 @@ Parameters
  </tr>
  <tr>
  <td>proxy_fqdn</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -489,14 +489,14 @@ Parameters
  </tr>
  <tr>
  <td>proxy_transparent_cert_inspection</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -510,23 +510,23 @@ Parameters
  </tr>
  <tr>
  <td>request_obs_fold</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[replace-with-sp]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  <tr>
  <td>[block]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  <tr>
  <td>[keep]</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">src_affinity_exempt_addr</span> - IPv4 source addresses to exempt proxy affinity. <span class="li-normal">type: list</span> </li>
         <li> <span class="li-head">src_affinity_exempt_addr6</span> - IPv6 source addresses to exempt proxy affinity. <span class="li-normal">type: list</span> </li>
-        <li> <span class="li-head">ssl_ca_cert</span> - SSL CA certificate for SSL interception. Source vpn.certificate.local.name vpn.certificate.hsm-local.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_bypass_cache</span> - Enable/disable SSL bypass cache. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -535,13 +535,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_ca_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>ssl_bypass_cache</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> v7.6.7 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> v7.6.7</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> v7.6.7</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssl_cert</span> - SSL certificate for SSL interception. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ssl_ca_cert</span> - SSL CA certificate for SSL interception. Source vpn.certificate.local.name vpn.certificate.hsm-local.name. <span class="li-normal">type: str</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -550,13 +556,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssl_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>ssl_ca_cert</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">strict_web_check</span> - Enable/disable strict web checking to block web sites that send incorrect headers that don"t conform to HTTP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">ssl_cert</span> - SSL certificate for SSL interception. Source vpn.certificate.local.name. <span class="li-normal">type: str</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -565,21 +571,36 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>ssl_cert</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">strict_web_check</span> - Enable/disable strict web checking to block web sites that send incorrect headers that don"t conform to HTTP. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
+ <div id="label59" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>strict_web_check</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">tunnel_non_http</span> - Enable/disable allowing non-HTTP traffic. Allowed non-HTTP traffic is tunneled. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
- <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
- <div id="label59" style="display:none">
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -599,8 +620,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">unknown_http_version</span> - Action to take when an unknown version of HTTP is encountered: reject, allow (tunnel), or proceed with best-effort. <span class="li-normal">type: str</span> <span class="li-normal">choices: reject, tunnel, best-effort</span>
- <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
- <div id="label61" style="display:none">
+ <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
+ <div id="label63" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -623,8 +644,8 @@ Parameters
  </div>
  </li>
         <li> <span class="li-head">webproxy_profile</span> - Name of the web proxy profile to apply when explicit proxy traffic is allowed by default and traffic is accepted that does not match an explicit proxy policy. Source web-proxy.profile.name. <span class="li-normal">type: str</span>
- <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
- <div id="label63" style="display:none">
+ <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
+ <div id="label65" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -632,7 +653,7 @@ Parameters
  </tr>
  <tr>
  <td>webproxy_profile</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -690,6 +711,7 @@ Examples
               request_obs_fold: "replace-with-sp"
               src_affinity_exempt_addr: "<your_own_value>"
               src_affinity_exempt_addr6: "<your_own_value>"
+              ssl_bypass_cache: "enable"
               ssl_ca_cert: "<your_own_value> (source vpn.certificate.local.name vpn.certificate.hsm-local.name)"
               ssl_cert: "<your_own_value> (source vpn.certificate.local.name)"
               strict_web_check: "enable"

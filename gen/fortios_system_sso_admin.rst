@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.6
+Supported Version Ranges: v6.2.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_sso_admin</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,29 @@ Parameters
  </tr>
  <tr>
  <td>accprofile</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">gui_custom_theme</span> - Custom theme that overrides the default FortiGate theme. Source system.theme.name. <span class="li-normal">type: str</span>
+ <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
+ <div id="label5" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>gui_custom_theme</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">gui_dashboard</span> - GUI dashboards. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id</span>
- <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
- <div id="label5" style="display:none">
+ <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
+ <div id="label7" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -95,8 +110,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">columns</span> - Number of columns. <span class="li-normal">type: int</span>
- <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
- <div id="label7" style="display:none">
+ <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
+ <div id="label9" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -110,8 +125,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">id</span> - Dashboard ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
- <div id="label9" style="display:none">
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -125,8 +140,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">layout_type</span> - Layout type. <span class="li-normal">type: str</span> <span class="li-normal">choices: responsive, fixed</span>
- <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
- <div id="label11" style="display:none">
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -146,8 +161,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">name</span> - Dashboard name. <span class="li-normal">type: str</span>
- <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
- <div id="label13" style="display:none">
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -161,8 +176,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">permanent</span> - Permanent dashboard (can"t be removed via the GUI). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
- <div id="label15" style="display:none">
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -182,8 +197,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">vdom</span> - Virtual domain. Source system.vdom.name. <span class="li-normal">type: str</span>
- <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
- <div id="label17" style="display:none">
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -197,8 +212,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">widget</span> - Dashboard widgets. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id/widget:id</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -212,8 +227,8 @@ Parameters
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">fabric_device</span> - Fabric device to monitor. <span class="li-normal">type: str</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -227,8 +242,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fabric_device_widget_name</span> - Fabric device widget name. <span class="li-normal">type: str</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
+ <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
+ <div id="label25" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -242,8 +257,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fabric_device_widget_visualization_type</span> - Visualization type for fabric device widget. <span class="li-normal">type: str</span>
- <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
- <div id="label25" style="display:none">
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -257,8 +272,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fortiview_device</span> - FortiView device. <span class="li-normal">type: str</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -272,8 +287,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fortiview_filters</span> - FortiView filters. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_dashboard:id/widget:id/fortiview_filters:id</span>
- <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
- <div id="label29" style="display:none">
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -287,8 +302,8 @@ Parameters
  </li>
                     <ul class="ul-self">
                     <li> <span class="li-head">id</span> - FortiView Filter ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
- <div id="label31" style="display:none">
+ <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
+ <div id="label33" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -302,8 +317,8 @@ Parameters
  </div>
  </li>
                     <li> <span class="li-head">key</span> - Filter key. <span class="li-normal">type: str</span>
- <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
- <div id="label33" style="display:none">
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -317,8 +332,8 @@ Parameters
  </div>
  </li>
                     <li> <span class="li-head">value</span> - Filter value. <span class="li-normal">type: str</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -333,8 +348,8 @@ Parameters
  </li>
                     </ul>
                 <li> <span class="li-head">fortiview_sort_by</span> - FortiView sort by. <span class="li-normal">type: str</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -348,8 +363,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fortiview_timeframe</span> - FortiView timeframe. <span class="li-normal">type: str</span>
- <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
- <div id="label39" style="display:none">
+ <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
+ <div id="label41" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -363,8 +378,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fortiview_type</span> - FortiView type. <span class="li-normal">type: str</span>
- <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
- <div id="label41" style="display:none">
+ <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
+ <div id="label43" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -378,8 +393,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">fortiview_visualization</span> - FortiView visualization. <span class="li-normal">type: str</span>
- <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
- <div id="label43" style="display:none">
+ <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
+ <div id="label45" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -393,8 +408,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">height</span> - Height. <span class="li-normal">type: int</span>
- <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
- <div id="label45" style="display:none">
+ <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
+ <div id="label47" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -408,8 +423,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">id</span> - Widget ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
- <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
- <div id="label47" style="display:none">
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -423,8 +438,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">industry</span> - Security Audit Rating industry. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, custom</span>
- <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
- <div id="label49" style="display:none">
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -444,8 +459,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">interface</span> - Interface to monitor. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
- <div id="label51" style="display:none">
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -459,8 +474,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">region</span> - Security Audit Rating region. <span class="li-normal">type: str</span> <span class="li-normal">choices: default, custom</span>
- <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
- <div id="label53" style="display:none">
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -480,8 +495,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">title</span> - Widget title. <span class="li-normal">type: str</span>
- <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
- <div id="label55" style="display:none">
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -495,8 +510,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">type</span> - Widget type. <span class="li-normal">type: str</span> <span class="li-normal">choices: sysinfo, licinfo, forticloud, cpu-usage, memory-usage, disk-usage, log-rate, sessions, session-rate, tr-history, analytics, usb-modem, admins, security-fabric, security-fabric-ranking, sensor-info, ha-status, vulnerability-summary, host-scan-summary, fortiview, botnet-activity, fabric-device</span>
- <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
- <div id="label57" style="display:none">
+ <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
+ <div id="label59" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -576,8 +591,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">width</span> - Width. <span class="li-normal">type: int</span>
- <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
- <div id="label59" style="display:none">
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -591,8 +606,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">x_pos</span> - X position. <span class="li-normal">type: int</span>
- <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
- <div id="label61" style="display:none">
+ <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
+ <div id="label63" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -606,8 +621,8 @@ Parameters
  </div>
  </li>
                 <li> <span class="li-head">y_pos</span> - Y position. <span class="li-normal">type: int</span>
- <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
- <div id="label63" style="display:none">
+ <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
+ <div id="label65" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -623,8 +638,8 @@ Parameters
                 </ul>
             </ul>
         <li> <span class="li-head">gui_global_menu_favorites</span> - Favorite GUI menu IDs for the global VDOM. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_global_menu_favorites:id</span>
- <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
- <div id="label65" style="display:none">
+ <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
+ <div id="label67" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
@@ -638,8 +653,8 @@ Parameters
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
- <div id="label67" style="display:none">
+ <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
+ <div id="label69" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -654,8 +669,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">gui_ignore_release_overview_version</span> - The FortiOS version to ignore release overview prompt for. <span class="li-normal">type: str</span>
- <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
- <div id="label69" style="display:none">
+ <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
+ <div id="label71" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -668,22 +683,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">gui_new_feature_acknowledge</span> - Acknowledgement of new features. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_new_feature_acknowledge:id</span>
- <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
- <div id="label71" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>gui_new_feature_acknowledge</td>
- <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">gui_llm_provider</span> - Select the LLM provider. <span class="li-normal">type: str</span> <span class="li-normal">choices: fortiai, openai</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
@@ -692,14 +692,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
+ <td>gui_llm_provider</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[fortiai]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[openai]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">gui_vdom_menu_favorites</span> - Favorite GUI menu IDs for VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_vdom_menu_favorites:id</span>
+        <li> <span class="li-head">gui_new_feature_acknowledge</span> - Acknowledgement of new features. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_new_feature_acknowledge:id</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -707,7 +712,7 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>gui_vdom_menu_favorites</td>
+ <td>gui_new_feature_acknowledge</td>
  <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
@@ -730,7 +735,7 @@ Parameters
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">name</span> - SSO admin name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">gui_theme</span> - Predefined theme that overrides the default FortiGate theme. <span class="li-normal">type: str</span> <span class="li-normal">choices: jade, neutrino, mariner, graphite, melongene, jet-stream, security-fabric, retro, dark-matter, onyx, eclipse, none</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -739,30 +744,103 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>gui_theme</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[jade]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[neutrino]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[mariner]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[graphite]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[melongene]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[jet-stream]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[security-fabric]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[retro]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[dark-matter]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[onyx]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[eclipse]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vdom</span> - Virtual domain(s) that the administrator can access. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdom:name</span>
+        <li> <span class="li-head">gui_theme_type</span> - Use predefined themes or custom themes. <span class="li-normal">type: str</span> <span class="li-normal">choices: predefined, custom</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>gui_theme_type</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[predefined]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">gui_vdom_menu_favorites</span> - Favorite GUI menu IDs for VDOMs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: gui_vdom_menu_favorites:id</span>
+ <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
+ <div id="label83" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vdom</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>gui_vdom_menu_favorites</td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
- <div id="label83" style="display:none">
+            <li> <span class="li-head">id</span> - Select menu ID. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
+ <div id="label85" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v6.2.3 -> v6.2.3 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">name</span> - SSO admin name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
+ <div id="label87" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -770,7 +848,112 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">openai_api_key</span> - OpenAI API key. <span class="li-normal">type: str</span>
+ <a id='label88' href="javascript:ContentClick('label89', 'label88');" onmouseover="ContentPreview('label89');" onmouseout="ContentUnpreview('label89');" title="click to collapse or expand..."> more... </a>
+ <div id="label89" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>openai_api_key</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">openai_api_key_part2</span> - OpenAI API key part 2 for excess length. <span class="li-normal">type: str</span>
+ <a id='label90' href="javascript:ContentClick('label91', 'label90');" onmouseover="ContentPreview('label91');" onmouseout="ContentUnpreview('label91');" title="click to collapse or expand..."> more... </a>
+ <div id="label91" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>openai_api_key_part2</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">openai_model</span> - OpenAI model. <span class="li-normal">type: str</span>
+ <a id='label92' href="javascript:ContentClick('label93', 'label92');" onmouseover="ContentPreview('label93');" onmouseout="ContentUnpreview('label93');" title="click to collapse or expand..."> more... </a>
+ <div id="label93" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>openai_model</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">openai_org_id</span> - OpenAI organization ID. <span class="li-normal">type: str</span>
+ <a id='label94' href="javascript:ContentClick('label95', 'label94');" onmouseover="ContentPreview('label95');" onmouseout="ContentUnpreview('label95');" title="click to collapse or expand..."> more... </a>
+ <div id="label95" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>openai_org_id</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">openai_project_id</span> - OpenAI project ID. <span class="li-normal">type: str</span>
+ <a id='label96' href="javascript:ContentClick('label97', 'label96');" onmouseover="ContentPreview('label97');" onmouseout="ContentUnpreview('label97');" title="click to collapse or expand..."> more... </a>
+ <div id="label97" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>openai_project_id</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vdom</span> - Virtual domain(s) that the administrator can access. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: vdom:name</span>
+ <a id='label98' href="javascript:ContentClick('label99', 'label98');" onmouseover="ContentPreview('label99');" onmouseout="ContentUnpreview('label99');" title="click to collapse or expand..."> more... </a>
+ <div id="label99" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>vdom</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Virtual domain name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label100' href="javascript:ContentClick('label101', 'label100');" onmouseover="ContentPreview('label101');" onmouseout="ContentUnpreview('label101');" title="click to collapse or expand..."> more... </a>
+ <div id="label101" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -803,12 +986,13 @@ Examples
           access_token: "<your_own_value>"
           system_sso_admin:
               accprofile: "<your_own_value> (source system.accprofile.name)"
+              gui_custom_theme: "<your_own_value> (source system.theme.name)"
               gui_dashboard:
                   -
                       columns: "10"
-                      id: "6"
+                      id: "7"
                       layout_type: "responsive"
-                      name: "default_name_8"
+                      name: "default_name_9"
                       permanent: "disable"
                       vdom: "<your_own_value> (source system.vdom.name)"
                       widget:
@@ -819,7 +1003,7 @@ Examples
                               fortiview_device: "<your_own_value>"
                               fortiview_filters:
                                   -
-                                      id: "17"
+                                      id: "18"
                                       key: "<your_own_value>"
                                       value: "<your_own_value>"
                               fortiview_sort_by: "<your_own_value>"
@@ -827,7 +1011,7 @@ Examples
                               fortiview_type: "<your_own_value>"
                               fortiview_visualization: "<your_own_value>"
                               height: "25"
-                              id: "25"
+                              id: "26"
                               industry: "default"
                               interface: "<your_own_value> (source system.interface.name)"
                               region: "default"
@@ -838,18 +1022,26 @@ Examples
                               y_pos: "500"
               gui_global_menu_favorites:
                   -
-                      id: "35"
+                      id: "36"
               gui_ignore_release_overview_version: "<your_own_value>"
+              gui_llm_provider: "fortiai"
               gui_new_feature_acknowledge:
                   -
-                      id: "38"
+                      id: "40"
+              gui_theme: "jade"
+              gui_theme_type: "predefined"
               gui_vdom_menu_favorites:
                   -
-                      id: "40"
-              name: "default_name_41"
+                      id: "44"
+              name: "default_name_45"
+              openai_api_key: "<your_own_value>"
+              openai_api_key_part2: "<your_own_value>"
+              openai_model: "<your_own_value>"
+              openai_org_id: "<your_own_value>"
+              openai_project_id: "<your_own_value>"
               vdom:
                   -
-                      name: "default_name_43 (source system.vdom.name)"
+                      name: "default_name_52 (source system.vdom.name)"
 
 
 Return Values

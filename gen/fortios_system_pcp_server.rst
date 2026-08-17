@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.4.0 -> v7.6.6
+Supported Version Ranges: v7.4.0 -> v8.0.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_pcp_server</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -72,7 +72,7 @@ Parameters
  </tr>
  <tr>
  <td>pools</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,17 +88,17 @@ Parameters
  </tr>
  <tr>
  <td>allow_opcode</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[map]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[peer]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[announce]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -112,7 +112,7 @@ Parameters
  </tr>
  <tr>
  <td>announcement_count</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -127,14 +127,14 @@ Parameters
  </tr>
  <tr>
  <td>arp_reply</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -148,7 +148,7 @@ Parameters
  </tr>
  <tr>
  <td>client_mapping_limit</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -162,7 +162,7 @@ Parameters
  </tr>
  <tr>
  <td>client_subnet</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -178,28 +178,28 @@ Parameters
  </tr>
  <tr>
  <td>subnet</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">client6_prefix</span> - Prefixes from which PCP requests are accepted. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pools:name/client6_prefix:prefix</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>description</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>client6_prefix</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ext_intf</span> - External interface name. Source system.interface.name. <span class="li-normal">type: str</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">prefix</span> - IPv6 Client prefixes. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -208,13 +208,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ext_intf</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>prefix</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">extip</span> - IP address or address range on the external interface that you want to map to an address on the internal network. <span class="li-normal">type: str</span>
+                </ul>
+            <li> <span class="li-head">description</span> - Description. <span class="li-normal">type: str</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -223,13 +224,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>extip</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>description</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">extport</span> - Incoming port number range that you want to map to a port number on the internal network. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ext_intf</span> - External interface name. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -238,13 +239,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>extport</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>ext_intf</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">extip</span> - IP address or address range on the external interface that you want to map to an address on the internal network. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -253,28 +254,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>extip</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">intl_intf</span> - Internal interface name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pools:name/intl_intf:interface_name</span>
+            <li> <span class="li-head">extport</span> - Incoming port number range that you want to map to a port number on the internal network. <span class="li-normal">type: str</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>intl_intf</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>extport</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">id</span> - ID. <span class="li-normal">type: int</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -283,29 +284,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>interface_name</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">mapping_filter_limit</span> - Filter limit per mapping (0 - 5). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">intl_intf</span> - Internal interface name. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pools:name/intl_intf:interface_name</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mapping_filter_limit</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>intl_intf</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">maximal_lifetime</span> - Maximal lifetime of a PCP mapping in seconds (3600 - 604800). <span class="li-normal">type: int</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">interface_name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -314,13 +314,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>maximal_lifetime</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>interface_name</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">minimal_lifetime</span> - Minimal lifetime of a PCP mapping in seconds (60 - 300). <span class="li-normal">type: int</span>
+                </ul>
+            <li> <span class="li-head">mapping_filter_limit</span> - Filter limit per mapping (0 - 5). <span class="li-normal">type: int</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -329,13 +330,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>minimal_lifetime</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>mapping_filter_limit</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">multicast_announcement</span> - Enable/disable multicast announcements. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">maximal_lifetime</span> - Maximal lifetime of a PCP mapping in seconds (3600 - 604800). <span class="li-normal">type: int</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -344,19 +345,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>multicast_announcement</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>maximal_lifetime</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">name</span> - PCP pool name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">minimal_lifetime</span> - Minimal lifetime of a PCP mapping in seconds (60 - 300). <span class="li-normal">type: int</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -365,13 +360,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>minimal_lifetime</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">recycle_delay</span> - Minimum delay (in seconds) the PCP Server will wait before recycling mappings that have expired (0 - 3600). <span class="li-normal">type: int</span>
+            <li> <span class="li-head">multicast_announcement</span> - Enable/disable multicast announcements. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -380,13 +375,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>recycle_delay</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>multicast_announcement</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">third_party</span> - Allow/disallow third party option. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, disallow</span>
+            <li> <span class="li-head">name</span> - PCP pool name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -395,34 +396,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>third_party</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[allow]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[disallow]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">third_party_subnet</span> - Subnets from which third party requests are accepted. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pools:name/third_party_subnet:subnet</span>
+            <li> <span class="li-head">nat46</span> - Enable/disable NAT46. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>third_party_subnet</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>nat46</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">subnet</span> - Third party subnets. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">recycle_delay</span> - Minimum delay (in seconds) the PCP Server will wait before recycling mappings that have expired (0 - 3600). <span class="li-normal">type: int</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -431,15 +432,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>subnet</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td>recycle_delay</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            </ul>
-        <li> <span class="li-head">status</span> - Enable/disable PCP server. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">third_party</span> - Allow/disallow third party option. <span class="li-normal">type: str</span> <span class="li-normal">choices: allow, disallow</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -448,15 +447,68 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>third_party</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[allow]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disallow]</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">third_party_subnet</span> - Subnets from which third party requests are accepted. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pools:name/third_party_subnet:subnet</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>third_party_subnet</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">subnet</span> - Third party subnets. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>subnet</td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            </ul>
+        <li> <span class="li-head">status</span> - Enable/disable PCP server. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>status</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -493,11 +545,14 @@ Examples
                       client_subnet:
                           -
                               subnet: "<your_own_value>"
+                      client6_prefix:
+                          -
+                              prefix: "<your_own_value>"
                       description: "<your_own_value>"
                       ext_intf: "<your_own_value> (source system.interface.name)"
                       extip: "<your_own_value>"
                       extport: "<your_own_value>"
-                      id: "14"
+                      id: "16"
                       intl_intf:
                           -
                               interface_name: "<your_own_value> (source system.interface.name)"
@@ -505,7 +560,8 @@ Examples
                       maximal_lifetime: "86400"
                       minimal_lifetime: "120"
                       multicast_announcement: "enable"
-                      name: "default_name_21"
+                      name: "default_name_23"
+                      nat46: "disable"
                       recycle_delay: "0"
                       third_party: "allow"
                       third_party_subnet:

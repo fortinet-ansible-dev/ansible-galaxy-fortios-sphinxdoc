@@ -646,6 +646,22 @@ Parameters
             </ul>
         
         </li>
+        firmware_extension-device_image-list
+        <li><span class="li-head">firmware_extension-device_image-list</span> - Get list of uploaded extension device firmwares. 
+        <ul class="ul-self">
+                <li><span class="li-required">type</span> - The type of extension device the firmware is for. [fortiap|fortiswitch|fortiextender] <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        firmware_extension-device_update-status
+        <li><span class="li-head">firmware_extension-device_update-status</span> - Get extension device update status. 
+        <ul class="ul-self">
+                <li><span class="li-required">serial</span> - Serial of the extension-device to show status for. <span class="li-normal">type: array</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         forticonverter_custom-operation_status
         <li><span class="li-head">forticonverter_custom-operation_status</span> - Get the current status for a custom FortiConverter operation that was executed. 
         <ul class="ul-self">
@@ -1176,19 +1192,28 @@ Parameters
         
         </li>
         router_bgp_paths
-        <li><span class="li-head">router_bgp_paths</span> 
+        <li><span class="li-head">router_bgp_paths</span> - List all discovered BGP paths. 
+        <ul class="ul-self">
+                <li><span class="li-required">vrf</span> - VRF ID. Defaults to all VRF if not provided. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         router_bgp_paths-statistics
         <li><span class="li-head">router_bgp_paths-statistics</span> - Retrieve BGP paths statistics, including number of IPv4 or IPv6 BGP paths. 
         <ul class="ul-self">
+                <li><span class="li-required">vrf</span> - VRF ID. Defaults to all VRF if not provided. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ip_version</span> - IP version [*ipv4 | ipv6 | ipboth]. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
         </li>
         router_bgp_paths6
-        <li><span class="li-head">router_bgp_paths6</span> 
+        <li><span class="li-head">router_bgp_paths6</span> - List all discovered IPv6 BGP paths. 
+        <ul class="ul-self">
+                <li><span class="li-required">vrf</span> - VRF ID. Defaults to all VRF if not provided. <span class="li-normal">type: int</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         router_charts
@@ -1498,6 +1523,10 @@ Parameters
         <li><span class="li-head">system_3g-modem</span> 
         
         </li>
+        system_5g-modem_firmware
+        <li><span class="li-head">system_5g-modem_firmware</span> 
+        
+        </li>
         system_5g-modem_status
         <li><span class="li-head">system_5g-modem_status</span> - Retrieve the 5G modem status. 
         <ul class="ul-self">
@@ -1705,6 +1734,10 @@ Parameters
         <li><span class="li-head">system_csf_pending-authorizations</span> 
         
         </li>
+        system_csf_upstream-status
+        <li><span class="li-head">system_csf_upstream-status</span> 
+        
+        </li>
         system_current-admins
         <li><span class="li-head">system_current-admins</span> 
         
@@ -1719,6 +1752,17 @@ Parameters
                 <li><span class="li-required">scope</span> - Scope from which to retrieve DHCP leases [vdom*|global]. Global scope is only accessible for global administrators. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">ipv6</span> - Include IPv6 addresses in the response. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
                 <li><span class="li-required">interface</span> - Filter: Retrieve DHCP leases for this interface only. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        system_dhcp_convert-from-template
+        <li><span class="li-head">system_dhcp_convert-from-template</span> - Convert a DHCP template to a server. 
+        <ul class="ul-self">
+                <li><span class="li-required">template</span> - The DHCP server template name. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">interface</span> - The interface for the DHCP server. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">ip</span> - The IP for the server. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">mask</span> - The netmask for the server. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
         
@@ -1785,6 +1829,10 @@ Parameters
             </ul>
         
         </li>
+        system_fsck_status
+        <li><span class="li-head">system_fsck_status</span> 
+        
+        </li>
         system_global-resources
         <li><span class="li-head">system_global-resources</span> 
         
@@ -1839,6 +1887,16 @@ Parameters
         <ul class="ul-self">
                 <li><span class="li-required">serial_no</span> - Serial number of the HA member. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 <li><span class="li-required">vdom_name</span> - VDOM name of the HA member. If not specified, fetch table checksums for global. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        system_ha-table-configuration
+        <li><span class="li-head">system_ha-table-configuration</span> - Get the configurations of the two out of sync FortiGates. 
+        <ul class="ul-self">
+                <li><span class="li-required">serial_a</span> - Serial number of the HA member A. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">serial_b</span> - Serial number of the HA member B. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">vdom_name</span> - VDOM name of the HA members. If not specified, use table checksums for global. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
                 
             </ul>
         
@@ -2010,7 +2068,11 @@ Parameters
         
         </li>
         system_sandbox_detect
-        <li><span class="li-head">system_sandbox_detect</span> 
+        <li><span class="li-head">system_sandbox_detect</span> - Retrieve sandbox serial number and connection status. 
+        <ul class="ul-self">
+                <li><span class="li-required">fsb_cloud</span> - Set to true to detect FortiSandbox Cloud. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         system_sandbox_stats
@@ -2110,6 +2172,10 @@ Parameters
         <li><span class="li-head">system_storage</span> 
         
         </li>
+        system_theme_permissions
+        <li><span class="li-head">system_theme_permissions</span> 
+        
+        </li>
         system_time
         <li><span class="li-head">system_time</span> 
         
@@ -2133,6 +2199,10 @@ Parameters
                 <li><span class="li-required">time_period</span> - Time period to retrieve data for [hour | day | week]. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
                 
             </ul>
+        
+        </li>
+        system_trigger-ha-force-resync
+        <li><span class="li-head">system_trigger-ha-force-resync</span> 
         
         </li>
         system_trusted-cert-authorities
@@ -2233,6 +2303,15 @@ Parameters
         <li><span class="li-head">user_device-type</span> 
         
         </li>
+        user_device_forticlient-vulnerabilities
+        <li><span class="li-head">user_device_forticlient-vulnerabilities</span> - Retrieve FortiClient vulnerabilities for a given device from user device store. 
+        <ul class="ul-self">
+                <li><span class="li-required">mac</span> - Main MAC address of the device. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">ip</span> - IP address of the device. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
         user_device_iot-query
         <li><span class="li-head">user_device_iot-query</span> - Retrieve IoT/OT information for a given device from user device store. 
         <ul class="ul-self">
@@ -2296,8 +2375,41 @@ Parameters
         <li><span class="li-head">user_fortitoken</span> 
         
         </li>
+        user_fortitoken-cloud_groups
+        <li><span class="li-head">user_fortitoken-cloud_groups</span> - Retrieve FortiIdentity Cloud groups. 
+        <ul class="ul-self">
+                <li><span class="li-required">realm_id</span> - Realm ID of FortiIdentity Cloud user groups. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        user_fortitoken-cloud_idp-certs
+        <li><span class="li-head">user_fortitoken-cloud_idp-certs</span> 
+        
+        </li>
+        user_fortitoken-cloud_realms
+        <li><span class="li-head">user_fortitoken-cloud_realms</span> 
+        
+        </li>
         user_fortitoken-cloud_status
-        <li><span class="li-head">user_fortitoken-cloud_status</span> 
+        <li><span class="li-head">user_fortitoken-cloud_status</span> - Retrieve FortiToken Cloud service status. 
+        <ul class="ul-self">
+                <li><span class="li-required">invalidate_cache</span> - Invalid license status cache and retrive license status from remote. <span class="li-normal">type: boolean</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
+        user_fortitoken-cloud_user-sources
+        <li><span class="li-head">user_fortitoken-cloud_user-sources</span> 
+        
+        </li>
+        user_fortitoken-cloud_users
+        <li><span class="li-head">user_fortitoken-cloud_users</span> - Retrieve FortiIdentity Cloud users. 
+        <ul class="ul-self">
+                <li><span class="li-required">realm_id</span> - Realm ID of FortiIdentity Cloud users. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                <li><span class="li-required">type</span> - Type [local|remote] of FortiIdentity Cloud users. <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
         
         </li>
         user_fsso
@@ -2390,6 +2502,10 @@ Parameters
         </li>
         utm_application-categories
         <li><span class="li-head">utm_application-categories</span> 
+        
+        </li>
+        utm_applications
+        <li><span class="li-head">utm_applications</span> 
         
         </li>
         utm_blacklisted-certificates
@@ -2487,6 +2603,14 @@ Parameters
         <li><span class="li-head">vpn_ipsec_connection-count</span> 
         
         </li>
+        vpn_ipsec_speed-test-result
+        <li><span class="li-head">vpn_ipsec_speed-test-result</span> - Get the last 5 IPsec speed test result for the specified phase 1 interface. 
+        <ul class="ul-self">
+                <li><span class="li-required">p1name</span> - IPsec phase1 name. To specify a tunnel, add the tunnel name as suffix separated by ":" (i.e p1name:tunnel) <span class="li-normal">type: string</span> <span class="li-normal">required: False</span> </li>
+                
+            </ul>
+        
+        </li>
         vpn_ocvpn_members
         <li><span class="li-head">vpn_ocvpn_members</span> 
         
@@ -2505,6 +2629,23 @@ Parameters
         </li>
         vpn_one-click_status
         <li><span class="li-head">vpn_one-click_status</span> 
+        
+        </li>
+        vpn_sdn_gateway
+        <li><span class="li-head">vpn_sdn_gateway</span> - List all available VPN gateways for a specified SDN Fabric Connector. 
+        <ul class="ul-self">
+                <li><span class="li-required">connector</span> - Name of the SDN Fabric Connector to get the vpn gateways from. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                <li><span class="li-required">gateway-type</span> - Type of gateways to get from the SDN Fabric Connector. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
+        
+        </li>
+        vpn_sdn_validate-aws-permissions
+        <li><span class="li-head">vpn_sdn_validate-aws-permissions</span> - Validate the SDN VPN permissions of the specified SDN Fabric Connector. 
+        <ul class="ul-self">
+                <li><span class="li-required">connector</span> - Name of the SDN Fabric Connector to validate permissions. <span class="li-normal">type: string</span> <span class="li-normal">required: True</span> </li>
+                
+            </ul>
         
         </li>
         vpn_ssl

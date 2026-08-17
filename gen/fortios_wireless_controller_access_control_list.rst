@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> v7.6.6
+Supported Version Ranges: v6.4.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_access_control_list</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,7 +88,7 @@ Parameters
  </tr>
  <tr>
  <td>layer3_ipv4_rules</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,14 +104,14 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>dstport</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -185,12 +185,12 @@ Parameters
  </tr>
  <tr>
  <td>rule_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">srcaddr</span> - Source IP address (any | local-LAN | IPv4 address[/<network mask | mask length>]). <span class="li-normal">type: str</span>
+            <li> <span class="li-head">srcaddr</span> - Source IP address (any | local-LAN | IPv4 address[/<network mask | mask length>] | fqdn). <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -200,7 +200,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -215,7 +215,7 @@ Parameters
  </tr>
  <tr>
  <td>srcport</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -230,7 +230,7 @@ Parameters
  </tr>
  <tr>
  <td>layer3_ipv6_rules</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -246,14 +246,14 @@ Parameters
  </tr>
  <tr>
  <td>action</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[allow]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[deny]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -267,7 +267,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -282,7 +282,7 @@ Parameters
  </tr>
  <tr>
  <td>dstaddr</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -297,7 +297,7 @@ Parameters
  </tr>
  <tr>
  <td>dstport</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -312,7 +312,7 @@ Parameters
  </tr>
  <tr>
  <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -327,12 +327,12 @@ Parameters
  </tr>
  <tr>
  <td>rule_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">srcaddr</span> - Source IPv6 address (any | local-LAN | IPv6 address[/prefix length]), default = any. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">srcaddr</span> - Source IPv6 address (any | local-LAN | IPv6 address[/prefix length] | fqdn), default = any. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -342,7 +342,7 @@ Parameters
  </tr>
  <tr>
  <td>srcaddr</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -357,7 +357,7 @@ Parameters
  </tr>
  <tr>
  <td>srcport</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -373,7 +373,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>

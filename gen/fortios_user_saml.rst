@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.6
+Supported Version Ranges: v6.2.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>user_saml</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,14 +74,14 @@ Parameters
  </tr>
  <tr>
  <td>adfs_claim</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -110,7 +110,7 @@ Parameters
  </tr>
  <tr>
  <td>cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>clock_tolerance</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -140,14 +140,14 @@ Parameters
  </tr>
  <tr>
  <td>digest_method</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[sha1]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[sha256]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -161,12 +161,12 @@ Parameters
  </tr>
  <tr>
  <td>entity_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">group_claim_type</span> - Group claim in assertion statement. <span class="li-normal">type: str</span> <span class="li-normal">choices: email, given-name, name, upn, common-name, email-adfs-1x, group, upn-adfs-1x, role, sur-name, ppid, name-identifier, authentication-method, deny-only-group-sid, deny-only-primary-sid, deny-only-primary-group-sid, group-sid, primary-group-sid, primary-sid, windows-account-name</span>
+        <li> <span class="li-head">fabric_force_sync</span> - Enable/disable forced synchronization of configuration objects from the root FortiGate unit to the downstream devices.  Configuration conflict check is skipped. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -175,73 +175,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>group_claim_type</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>fabric_force_sync</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[email]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  <tr>
- <td>[given-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[upn]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[common-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[email-adfs-1x]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[group]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[upn-adfs-1x]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[role]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[sur-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[ppid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[name-identifier]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[authentication-method]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-primary-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-primary-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[primary-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[primary-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[windows-account-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">group_name</span> - Group name in assertion statement. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">fabric_object</span> - Security Fabric global object setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -250,13 +196,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>group_name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>fabric_object</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">idp_cert</span> - IDP Certificate name. Source vpn.certificate.remote.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">fabric_object_source</span> - Source of truth for fabric object. <span class="li-normal">type: str</span> <span class="li-normal">choices: member, local, root</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -265,13 +217,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>idp_cert</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>fabric_object_source</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[member]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[local]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[root]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">idp_entity_id</span> - IDP entity ID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">group_claim_type</span> - Group claim in assertion statement. <span class="li-normal">type: str</span> <span class="li-normal">choices: email, given-name, name, upn, common-name, email-adfs-1x, group, upn-adfs-1x, role, sur-name, ppid, name-identifier, authentication-method, deny-only-group-sid, deny-only-primary-sid, deny-only-primary-group-sid, group-sid, primary-group-sid, primary-sid, windows-account-name</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -280,13 +241,73 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>idp_entity_id</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>group_claim_type</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[email]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[given-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[upn]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[common-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[email-adfs-1x]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[group]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[upn-adfs-1x]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[role]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[sur-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[ppid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[name-identifier]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[authentication-method]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-primary-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-primary-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[primary-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[primary-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[windows-account-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">idp_single_logout_url</span> - IDP single logout url. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">group_name</span> - Group name in assertion statement. <span class="li-normal">type: str</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -295,13 +316,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>idp_single_logout_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>group_name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">idp_single_sign_on_url</span> - IDP single sign-on URL. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">idp_cert</span> - IDP Certificate name. Source vpn.certificate.remote.name. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -310,13 +331,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>idp_single_sign_on_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>idp_cert</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">limit_relaystate</span> - Enable/disable limiting of relay-state parameter when it exceeds SAML 2.0 specification limits (80 bytes). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">idp_entity_id</span> - IDP entity ID. <span class="li-normal">type: str</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -325,19 +346,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>limit_relaystate</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>idp_entity_id</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - SAML server entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">idp_single_logout_url</span> - IDP single logout url. <span class="li-normal">type: str</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -346,13 +361,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>idp_single_logout_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">reauth</span> - Enable/disable signalling of IDP to force user re-authentication . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">idp_single_sign_on_url</span> - IDP single sign-on URL. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -361,19 +376,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>reauth</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
+ <td>idp_single_sign_on_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">require_signed_resp_and_asrt</span> - Require both response and assertion from IDP to be signed when FGT acts as SP . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">limit_relaystate</span> - Enable/disable limiting of relay-state parameter when it exceeds SAML 2.0 specification limits (80 bytes). <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -382,19 +391,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>require_signed_resp_and_asrt</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td>limit_relaystate</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">scim_client</span> - SCIM client name. Source user.scim.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - SAML server entry name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -403,13 +412,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>scim_client</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">scim_group_attr_type</span> - Group attribute type used to match SCIM groups . <span class="li-normal">type: str</span> <span class="li-normal">choices: display-name, external-id</span>
+        <li> <span class="li-head">realm</span> - FortiIdentity cloud realm. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -418,19 +427,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>scim_group_attr_type</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6 </code></td>
+ <td>realm</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[display-name]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
- <tr>
- <td>[external-id]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">scim_user_attr_type</span> - User attribute type used to match SCIM users . <span class="li-normal">type: str</span> <span class="li-normal">choices: user-name, display-name, external-id, email</span>
+        <li> <span class="li-head">reauth</span> - Enable/disable signalling of IDP to force user re-authentication . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -439,26 +442,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>scim_user_attr_type</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
+ <td>reauth</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[user-name]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  <tr>
- <td>[display-name]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
- <tr>
- <td>[external-id]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
- <tr>
- <td>[email]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
- </tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">single_logout_url</span> - SP single logout URL. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">require_signed_resp_and_asrt</span> - Require both response and assertion from IDP to be signed when FGT acts as SP . <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -467,13 +463,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>single_logout_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>require_signed_resp_and_asrt</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">single_sign_on_url</span> - SP single sign-on URL. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">scim_client</span> - SCIM client name. Source user.scim.name. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -482,13 +484,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>single_sign_on_url</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td>scim_client</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">user_claim_type</span> - User name claim in assertion statement. <span class="li-normal">type: str</span> <span class="li-normal">choices: email, given-name, name, upn, common-name, email-adfs-1x, group, upn-adfs-1x, role, sur-name, ppid, name-identifier, authentication-method, deny-only-group-sid, deny-only-primary-sid, deny-only-primary-group-sid, group-sid, primary-group-sid, primary-sid, windows-account-name</span>
+        <li> <span class="li-head">scim_group_attr_type</span> - Group attribute type used to match SCIM groups . <span class="li-normal">type: str</span> <span class="li-normal">choices: display-name, external-id</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -497,73 +499,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>user_claim_type</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>scim_group_attr_type</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[email]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td>[display-name]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0</code></td>
  <tr>
- <td>[given-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[upn]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[common-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[email-adfs-1x]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[group]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[upn-adfs-1x]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[role]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[sur-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[ppid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[name-identifier]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[authentication-method]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-primary-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[deny-only-primary-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[primary-group-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[primary-sid]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[windows-account-name]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td>[external-id]</td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">user_name</span> - User name in assertion statement. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">scim_user_attr_type</span> - User attribute type used to match SCIM users . <span class="li-normal">type: str</span> <span class="li-normal">choices: user-name, display-name, external-id, email</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -572,8 +520,207 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>scim_user_attr_type</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[user-name]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[display-name]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[external-id]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[email]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">service_provider_address</span> - The address to handle SAML auth request. To include a port, append it after a colon. <span class="li-normal">type: str</span>
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>service_provider_address</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">single_logout_url</span> - SP single logout URL. <span class="li-normal">type: str</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>single_logout_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">single_sign_on_url</span> - SP single sign-on URL. <span class="li-normal">type: str</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>single_sign_on_url</td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - SAML type. <span class="li-normal">type: str</span> <span class="li-normal">choices: custom, fortiidentity-cloud</span>
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>type</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[custom]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[fortiidentity-cloud]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">user_claim_type</span> - User name claim in assertion statement. <span class="li-normal">type: str</span> <span class="li-normal">choices: email, given-name, name, upn, common-name, email-adfs-1x, group, upn-adfs-1x, role, sur-name, ppid, name-identifier, authentication-method, deny-only-group-sid, deny-only-primary-sid, deny-only-primary-group-sid, group-sid, primary-group-sid, primary-sid, windows-account-name</span>
+ <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
+ <div id="label57" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>user_claim_type</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[email]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[given-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[upn]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[common-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[email-adfs-1x]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[group]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[upn-adfs-1x]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[role]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[sur-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[ppid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[name-identifier]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[authentication-method]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-primary-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[deny-only-primary-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[primary-group-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[primary-sid]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[windows-account-name]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">user_name</span> - User name in assertion statement. <span class="li-normal">type: str</span>
+ <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
+ <div id="label59" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>user_name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">user_source</span> - FortiIdentity cloud user souce. <span class="li-normal">type: str</span>
+ <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
+ <div id="label61" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>user_source</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
+ <div id="label63" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -610,6 +757,9 @@ Examples
               clock_tolerance: "15"
               digest_method: "sha1"
               entity_id: "<your_own_value>"
+              fabric_force_sync: "enable"
+              fabric_object: "enable"
+              fabric_object_source: "member"
               group_claim_type: "email"
               group_name: "<your_own_value>"
               idp_cert: "<your_own_value> (source vpn.certificate.remote.name)"
@@ -617,16 +767,21 @@ Examples
               idp_single_logout_url: "<your_own_value>"
               idp_single_sign_on_url: "<your_own_value>"
               limit_relaystate: "enable"
-              name: "default_name_16"
+              name: "default_name_19"
+              realm: "<your_own_value>"
               reauth: "enable"
               require_signed_resp_and_asrt: "enable"
               scim_client: "<your_own_value> (source user.scim.name)"
               scim_group_attr_type: "display-name"
               scim_user_attr_type: "user-name"
+              service_provider_address: "<your_own_value>"
               single_logout_url: "<your_own_value>"
               single_sign_on_url: "<your_own_value>"
+              type: "custom"
               user_claim_type: "email"
               user_name: "<your_own_value>"
+              user_source: "<your_own_value>"
+              uuid: "<your_own_value>"
 
 
 Return Values

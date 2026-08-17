@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.2 -> v7.6.6
+Supported Version Ranges: v7.0.2 -> v8.0.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>log_tacacsplusaccounting2_setting</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,7 +73,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -88,21 +88,21 @@ Parameters
  </tr>
  <tr>
  <td>interface_select_method</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0</code></td>
  <tr>
  <td>[sdwan]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0</code></td>
  <tr>
  <td>[specify]</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server</span> - Address of TACACS+ server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">port</span> - Server listen port. <span class="li-normal">type: int</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -111,13 +111,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td>port</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_key</span> - Key to access the TACACS+ server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server</span> - Address of TACACS+ server. <span class="li-normal">type: str</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -126,13 +126,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_key</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td>server</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">source_ip</span> - Source IP address for communication to TACACS+ server. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">server_key</span> - Key to access the TACACS+ server. <span class="li-normal">type: str</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -141,13 +141,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>source_ip</td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6 </code></td>
+ <td>server_key</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable TACACS+ accounting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">source_ip</span> - Source IP address for communication to TACACS+ server. <span class="li-normal">type: str</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -156,19 +156,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">status</span> - Enable/disable TACACS+ accounting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -177,8 +171,44 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">timeout</span> - connection time-out in seconds. <span class="li-normal">type: int</span>
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>timeout</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">vrf_select</span> - VRF ID used for connection to server. <span class="li-normal">type: int</span>
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>vrf_select</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -209,10 +239,12 @@ Examples
           log_tacacsplusaccounting2_setting:
               interface: "<your_own_value> (source system.interface.name)"
               interface_select_method: "auto"
+              port: "49"
               server: "192.168.100.40"
               server_key: "<your_own_value>"
               source_ip: "84.230.14.43"
               status: "enable"
+              timeout: "5"
               vrf_select: "0"
 
 

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_gre_tunnel</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -70,11 +70,12 @@ Parameters
  <table border="1">
  <tr>
  <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td colspan="2">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>auto_asic_offload</td>
  <td><code class="docutils literal notranslate">v7.4.2 -> v7.4.2 </code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -97,19 +98,19 @@ Parameters
  <td>checksum_reception</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
@@ -126,19 +127,19 @@ Parameters
  <td>checksum_transmission</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
@@ -153,7 +154,7 @@ Parameters
  </tr>
  <tr>
  <td>diffservcode</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -168,14 +169,14 @@ Parameters
  </tr>
  <tr>
  <td>dscp_copying</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -189,7 +190,7 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -204,14 +205,14 @@ Parameters
  </tr>
  <tr>
  <td>ip_version</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[4]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[6]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -225,7 +226,7 @@ Parameters
  </tr>
  <tr>
  <td>keepalive_failtimes</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -240,7 +241,7 @@ Parameters
  </tr>
  <tr>
  <td>keepalive_interval</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -257,7 +258,7 @@ Parameters
  <td>key_inbound</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -274,7 +275,7 @@ Parameters
  <td>key_outbound</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -289,7 +290,7 @@ Parameters
  </tr>
  <tr>
  <td>local_gw</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -304,12 +305,12 @@ Parameters
  </tr>
  <tr>
  <td>local_gw6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Tunnel name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">loopback_ecmp_offload</span> - Enable/disable tunnel over loopback ecmp offloading support. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -318,13 +319,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>loopback_ecmp_offload</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">remote_gw</span> - IP address of the remote gateway. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">name</span> - Tunnel name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -333,13 +340,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>remote_gw</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">remote_gw6</span> - IPv6 address of the remote gateway. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">remote_gw</span> - IP address of the remote gateway. <span class="li-normal">type: str</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -348,15 +355,30 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>remote_gw</td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">remote_gw6</span> - IPv6 address of the remote gateway. <span class="li-normal">type: str</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>remote_gw6</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">sequence_number_reception</span> - Enable/disable validating sequence numbers in received GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
- <div id="label35" style="display:none">
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -366,26 +388,26 @@ Parameters
  <td>sequence_number_reception</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">sequence_number_transmission</span> - Enable/disable including of sequence numbers in transmitted GRE packets. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
- <div id="label37" style="display:none">
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -395,26 +417,26 @@ Parameters
  <td>sequence_number_transmission</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
  <td><code class="docutils literal notranslate">v7.2.0 -> v7.2.0 </code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[enable]</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0</code></td>
  <td><code class="docutils literal notranslate">v7.0.0 -> v7.2.2</code></td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
  </li>
         <li> <span class="li-head">use_sdwan</span> - Enable/disable use of SD-WAN to reach remote gateway. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
- <div id="label39" style="display:none">
+ <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
+ <div id="label41" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -422,14 +444,14 @@ Parameters
  </tr>
  <tr>
  <td>use_sdwan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -472,7 +494,8 @@ Examples
               key_outbound: "0"
               local_gw: "<your_own_value>"
               local_gw6: "<your_own_value>"
-              name: "default_name_16"
+              loopback_ecmp_offload: "disable"
+              name: "default_name_17"
               remote_gw: "<your_own_value>"
               remote_gw6: "<your_own_value>"
               sequence_number_reception: "disable"

@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.2.0 -> v7.6.6
+Supported Version Ranges: v6.2.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>endpoint_control_fctems</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,12 +104,12 @@ Parameters
  </tr>
  <tr>
  <td>call_timeout</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">capabilities</span> - List of EMS capabilities. <span class="li-normal">type: list</span> <span class="li-normal">choices: fabric-auth, silent-approval, websocket, websocket-malware, push-ca-certs, common-tags-api, tenant-id, client-avatars, single-vdom-connector, fgt-sysinfo-api, ztna-server-info, used-tags</span>
+        <li> <span class="li-head">capabilities</span> - List of EMS capabilities. <span class="li-normal">type: list</span> <span class="li-normal">choices: fabric-auth, silent-approval, websocket, websocket-malware, push-ca-certs, common-tags-api, tenant-id, client-avatars, single-vdom-connector, fgt-sysinfo-api, ztna-server-info, tag-def, used-tags, crl</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -119,52 +119,60 @@ Parameters
  </tr>
  <tr>
  <td>capabilities</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[fabric-auth]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[silent-approval]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[websocket]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[websocket-malware]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[push-ca-certs]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[common-tags-api]</td>
- <td><code class="docutils literal notranslate">v7.0.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[tenant-id]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[client-avatars]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[single-vdom-connector]</td>
- <td><code class="docutils literal notranslate">v7.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[fgt-sysinfo-api]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[ztna-server-info]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[tag-def]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[used-tags]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[crl]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
@@ -194,7 +202,7 @@ Parameters
  </tr>
  <tr>
  <td>cloud_authentication_access_key</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -234,7 +242,7 @@ Parameters
  <tr>
  <td>dirty_reason</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[none]</td>
@@ -256,7 +264,7 @@ Parameters
  <tr>
  <td>ems_id</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -271,14 +279,14 @@ Parameters
  </tr>
  <tr>
  <td>fortinetone_cloud_authentication</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -292,7 +300,7 @@ Parameters
  </tr>
  <tr>
  <td>https_port</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -308,7 +316,7 @@ Parameters
  <tr>
  <td>interface</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -324,7 +332,7 @@ Parameters
  <tr>
  <td>interface_select_method</td>
  <td><code class="docutils literal notranslate">v7.0.6 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[auto]</td>
@@ -348,12 +356,12 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">out_of_sync_threshold</span> - Outdated resource threshold in seconds (10 - 3600). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">out_of_sync_threshold</span> - Outdated resource threshold in seconds (10 - 2592000). <span class="li-normal">type: int</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -363,7 +371,7 @@ Parameters
  </tr>
  <tr>
  <td>out_of_sync_threshold</td>
- <td><code class="docutils literal notranslate">v7.0.8 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.8 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -420,14 +428,14 @@ Parameters
  </tr>
  <tr>
  <td>pull_malware_hash</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -441,14 +449,14 @@ Parameters
  </tr>
  <tr>
  <td>pull_sysinfo</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -462,14 +470,14 @@ Parameters
  </tr>
  <tr>
  <td>pull_tags</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -483,14 +491,14 @@ Parameters
  </tr>
  <tr>
  <td>pull_vulnerabilities</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -504,14 +512,14 @@ Parameters
  </tr>
  <tr>
  <td>send_tags_to_all_vdoms</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -527,7 +535,7 @@ Parameters
  <td>serial_number</td>
  <td><code class="docutils literal notranslate">v6.2.0 -> v6.2.7 </code></td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -542,7 +550,7 @@ Parameters
  </tr>
  <tr>
  <td>server</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -557,7 +565,7 @@ Parameters
  </tr>
  <tr>
  <td>source_ip</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -573,7 +581,7 @@ Parameters
  <tr>
  <td>status</td>
  <td><code class="docutils literal notranslate">v7.0.8 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -609,7 +617,7 @@ Parameters
  </tr>
  <tr>
  <td>tenant_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -625,7 +633,7 @@ Parameters
  <tr>
  <td>trust_ca_cn</td>
  <td><code class="docutils literal notranslate">v7.0.12 -> v7.0.12 </code></td>
- <td><code class="docutils literal notranslate">v7.2.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
@@ -646,7 +654,7 @@ Parameters
  </tr>
  <tr>
  <td>verifying_ca</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -661,14 +669,14 @@ Parameters
  </tr>
  <tr>
  <td>websocket_override</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -714,7 +722,7 @@ Examples
               interface: "<your_own_value> (source system.interface.name)"
               interface_select_method: "auto"
               name: "default_name_16"
-              out_of_sync_threshold: "180"
+              out_of_sync_threshold: "345600"
               preserve_ssl_session: "enable"
               pull_avatars: "enable"
               pull_malware_hash: "enable"

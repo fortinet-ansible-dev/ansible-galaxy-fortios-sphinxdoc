@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> v7.6.6
+Supported Version Ranges: v6.4.0 -> v8.0.0
 
 
 Parameters
@@ -57,7 +57,7 @@ Parameters
  </tr>
  <tr>
  <td>system_standalone_cluster</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -73,14 +73,14 @@ Parameters
  </tr>
  <tr>
  <td>asymmetric_traffic_control</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[cps-preferred]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  <tr>
  <td>[strict-anti-replay]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -93,7 +93,7 @@ Parameters
  </tr>
  <tr>
  <td>cluster_peer</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -108,7 +108,7 @@ Parameters
  </tr>
  <tr>
  <td>down_intfs_before_sess_sync</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -124,13 +124,13 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 </ul>
-            <li> <span class="li-head">hb_interval</span> - Heartbeat interval (1 - 20 (100*ms). Increase to reduce false positives. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">hb_interval</span> - Heartbeat interval (1 - 20) (100*ms). Increase to reduce false positives. <span class="li-normal">type: int</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -140,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>hb_interval</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -155,12 +155,12 @@ Parameters
  </tr>
  <tr>
  <td>hb_lost_threshold</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">ipsec_tunnel_sync</span> - Enable/disable IPsec tunnel synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">interface</span> - Outgoing interface for peer connections. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -169,19 +169,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ipsec_tunnel_sync</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>interface</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">peerip</span> - IP address of the interface on the peer unit that is used for the session synchronization link. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">ipsec_tunnel_sync</span> - Enable/disable IPsec tunnel synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -190,13 +184,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>peerip</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>ipsec_tunnel_sync</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">peervd</span> - VDOM that contains the session synchronization link interface on the peer unit. Usually both peers would have the same peervd. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <li> <span class="li-head">peerip</span> - IP address of the interface on the peer unit that is used for the session synchronization link. <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -205,13 +205,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>peervd</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>peerip</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">secondary_add_ipsec_routes</span> - Enable/disable IKE route announcement on the backup unit. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">peervd</span> - VDOM that contains the session synchronization link interface on the peer unit. Usually both peers would have the same peervd. Source system.vdom.name. <span class="li-normal">type: str</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -220,34 +220,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>secondary_add_ipsec_routes</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>peervd</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">session_sync_filter</span> - Add one or more filters if you only want to synchronize some sessions. Use the filter to configure the types of sessions to synchronize. <span class="li-normal">type: dict</span>
+            <li> <span class="li-head">secondary_add_ipsec_routes</span> - Enable/disable IKE route announcement on the backup unit. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>session_sync_filter</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>secondary_add_ipsec_routes</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">custom_service</span> - Only sessions using these custom services are synchronized. Use source and destination port ranges to define these custom services. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cluster_peer:sync_id/session_sync_filter/custom_service:id</span>
+            <li> <span class="li-head">session_sync_filter</span> - Add one or more filters if you only want to synchronize some sessions. Use the filter to configure the types of sessions to synchronize. <span class="li-normal">type: dict</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -255,29 +255,29 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>session_sync_filter</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                <ul class="ul-self">
+                <li> <span class="li-head">custom_service</span> - Only sessions using these custom services are synchronized. Use source and destination port ranges to define these custom services. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cluster_peer:sync_id/session_sync_filter/custom_service:id</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>custom_service</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
                     <ul class="ul-self">
                     <li> <span class="li-head">dst_port_range</span> - Custom service destination port range. <span class="li-normal">type: str</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>dst_port_range</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                    <li> <span class="li-head">id</span> - Custom service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -286,13 +286,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>dst_port_range</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                    <li> <span class="li-head">src_port_range</span> - Custom service source port range. <span class="li-normal">type: str</span>
+                    <li> <span class="li-head">id</span> - Custom service ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -301,14 +301,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>src_port_range</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                    </ul>
-                <li> <span class="li-head">dstaddr</span> - Only sessions to this IPv4 address are synchronized. <span class="li-normal">type: str</span>
+                    <li> <span class="li-head">src_port_range</span> - Custom service source port range. <span class="li-normal">type: str</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -317,13 +316,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dstaddr</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>src_port_range</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">dstaddr6</span> - Only sessions to this IPv6 address are synchronized. <span class="li-normal">type: str</span>
+                    </ul>
+                <li> <span class="li-head">dstaddr</span> - Only sessions to this IPv4 address are synchronized. <span class="li-normal">type: str</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -332,13 +332,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dstaddr6</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>dstaddr</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">dstintf</span> - Only sessions to this interface are synchronized. Source system.interface.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">dstaddr6</span> - Only sessions to this IPv6 address are synchronized. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -347,13 +347,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>dstintf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>dstaddr6</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">srcaddr</span> - Only sessions from this IPv4 address are synchronized. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">dstintf</span> - Only sessions to this interface are synchronized. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -362,13 +362,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>srcaddr</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>dstintf</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">srcaddr6</span> - Only sessions from this IPv6 address are synchronized. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">srcaddr</span> - Only sessions from this IPv4 address are synchronized. <span class="li-normal">type: str</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -377,13 +377,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>srcaddr6</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>srcaddr</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <li> <span class="li-head">srcintf</span> - Only sessions from this interface are synchronized. Source system.interface.name. <span class="li-normal">type: str</span>
+                <li> <span class="li-head">srcaddr6</span> - Only sessions from this IPv6 address are synchronized. <span class="li-normal">type: str</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -392,14 +392,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>srcintf</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>srcaddr6</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">sync_id</span> - Sync ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+                <li> <span class="li-head">srcintf</span> - Only sessions from this interface are synchronized. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -408,28 +407,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>sync_id</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>srcintf</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">syncvd</span> - Sessions from these VDOMs are synchronized using this session synchronization configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cluster_peer:sync_id/syncvd:name</span>
+                </ul>
+            <li> <span class="li-head">source_ip</span> - Source IP address to use for peer connections. <span class="li-normal">type: str</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>syncvd</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>source_ip</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">sync_id</span> - Sync ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -438,36 +438,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.2.1 -> 7.6.6 </code></td>
+ <td>sync_id</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            </ul>
-        <li> <span class="li-head">encryption</span> - Enable/disable encryption when synchronizing sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            <li> <span class="li-head">syncvd</span> - Sessions from these VDOMs are synchronized using this session synchronization configuration. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: cluster_peer:sync_id/syncvd:name</span>
  <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
  <div id="label51" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>encryption</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>syncvd</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">group_member_id</span> - Cluster member ID (0 - 15). <span class="li-normal">type: int</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
  <div id="label53" style="display:none">
  <table border="1">
@@ -476,13 +468,15 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>group_member_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.2.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">helper_traffic_bounce</span> - Enable/disable helper related traffic bounce. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+                </ul>
+            </ul>
+        <li> <span class="li-head">encryption</span> - Enable/disable encryption when synchronizing sessions. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
  <div id="label55" style="display:none">
  <table border="1">
@@ -491,19 +485,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>helper_traffic_bounce</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
+ <td>encryption</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">layer2_connection</span> - Indicate whether layer 2 connections are present among FGSP members. <span class="li-normal">type: str</span> <span class="li-normal">choices: available, unavailable</span>
+        <li> <span class="li-head">group_member_id</span> - Cluster member ID (0 - 15). <span class="li-normal">type: int</span>
  <a id='label56' href="javascript:ContentClick('label57', 'label56');" onmouseover="ContentPreview('label57');" onmouseout="ContentUnpreview('label57');" title="click to collapse or expand..."> more... </a>
  <div id="label57" style="display:none">
  <table border="1">
@@ -512,34 +506,34 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>layer2_connection</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>group_member_id</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[available]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[unavailable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">monitor_interface</span> - Configure a list of interfaces on which to monitor itself. Monitoring is performed on the status of the interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: monitor_interface:name</span>
+        <li> <span class="li-head">helper_traffic_bounce</span> - Enable/disable helper related traffic bounce. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label58' href="javascript:ContentClick('label59', 'label58');" onmouseover="ContentPreview('label59');" onmouseout="ContentUnpreview('label59');" title="click to collapse or expand..."> more... </a>
  <div id="label59" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>monitor_interface</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td>helper_traffic_bounce</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">layer2_connection</span> - Indicate whether layer 2 connections are present among FGSP members. <span class="li-normal">type: str</span> <span class="li-normal">choices: available, unavailable</span>
  <a id='label60' href="javascript:ContentClick('label61', 'label60');" onmouseover="ContentPreview('label61');" onmouseout="ContentUnpreview('label61');" title="click to collapse or expand..."> more... </a>
  <div id="label61" style="display:none">
  <table border="1">
@@ -548,14 +542,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td>layer2_connection</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[available]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[unavailable]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">monitor_prefix</span> - Configure a list of routing prefixes to monitor. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: monitor_prefix:id</span>
+        <li> <span class="li-head">monitor_interface</span> - Configure a list of interfaces on which to monitor itself. Monitoring is performed on the status of the interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: monitor_interface:name</span>
  <a id='label62' href="javascript:ContentClick('label63', 'label62');" onmouseover="ContentPreview('label63');" onmouseout="ContentUnpreview('label63');" title="click to collapse or expand..."> more... </a>
  <div id="label63" style="display:none">
  <table border="1">
@@ -563,14 +562,14 @@ Parameters
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>monitor_prefix</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>monitor_interface</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
-            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label64' href="javascript:ContentClick('label65', 'label64');" onmouseover="ContentPreview('label65');" onmouseout="ContentUnpreview('label65');" title="click to collapse or expand..."> more... </a>
  <div id="label65" style="display:none">
  <table border="1">
@@ -579,28 +578,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>id</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">prefix</span> - Prefix. <span class="li-normal">type: str</span>
+            </ul>
+        <li> <span class="li-head">monitor_prefix</span> - Configure a list of routing prefixes to monitor. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: monitor_prefix:id</span>
  <a id='label66' href="javascript:ContentClick('label67', 'label66');" onmouseover="ContentPreview('label67');" onmouseout="ContentUnpreview('label67');" title="click to collapse or expand..."> more... </a>
  <div id="label67" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>prefix</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>monitor_prefix</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">vdom</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">id</span> - ID. see <a href='#notes'>Notes</a>. <span class="li-normal">type: int</span> <span class="li-required">required: true</span>
  <a id='label68' href="javascript:ContentClick('label69', 'label68');" onmouseover="ContentPreview('label69');" onmouseout="ContentUnpreview('label69');" title="click to collapse or expand..."> more... </a>
  <div id="label69" style="display:none">
  <table border="1">
@@ -609,13 +609,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vdom</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>id</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">vrf</span> - VRF ID. <span class="li-normal">type: int</span>
+            <li> <span class="li-head">prefix</span> - Prefix. <span class="li-normal">type: str</span>
  <a id='label70' href="javascript:ContentClick('label71', 'label70');" onmouseover="ContentPreview('label71');" onmouseout="ContentUnpreview('label71');" title="click to collapse or expand..."> more... </a>
  <div id="label71" style="display:none">
  <table border="1">
@@ -624,29 +624,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>vrf</td>
- <td><code class="docutils literal notranslate">v7.6.1 -> 7.6.6 </code></td>
+ <td>prefix</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">pingsvr_monitor_interface</span> - List of pingsvr monitor interface to check for remote IP monitoring. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pingsvr_monitor_interface:name</span>
+            <li> <span class="li-head">vdom</span> - VDOM name. Source system.vdom.name. <span class="li-normal">type: str</span>
  <a id='label72' href="javascript:ContentClick('label73', 'label72');" onmouseover="ContentPreview('label73');" onmouseout="ContentUnpreview('label73');" title="click to collapse or expand..."> more... </a>
  <div id="label73" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>pingsvr_monitor_interface</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td>vdom</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">vrf</span> - VRF ID. <span class="li-normal">type: int</span>
  <a id='label74' href="javascript:ContentClick('label75', 'label74');" onmouseover="ContentPreview('label75');" onmouseout="ContentUnpreview('label75');" title="click to collapse or expand..."> more... </a>
  <div id="label75" style="display:none">
  <table border="1">
@@ -655,30 +654,29 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.0 -> 7.6.6 </code></td>
+ <td>vrf</td>
+ <td><code class="docutils literal notranslate">v7.6.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             </ul>
-        <li> <span class="li-head">psksecret</span> - Pre-shared secret for session synchronization (ASCII string or hexadecimal encoded with a leading 0x). <span class="li-normal">type: str</span>
+        <li> <span class="li-head">pingsvr_monitor_interface</span> - List of pingsvr monitor interface to check for remote IP monitoring. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: pingsvr_monitor_interface:name</span>
  <a id='label76' href="javascript:ContentClick('label77', 'label76');" onmouseover="ContentPreview('label77');" onmouseout="ContentUnpreview('label77');" title="click to collapse or expand..."> more... </a>
  <div id="label77" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>psksecret</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>pingsvr_monitor_interface</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">session_sync_dev</span> - Offload session-sync process to kernel and sync sessions using connected interface(s) directly. Source system.interface.name. <span class="li-normal">type: list</span> </li>
-        <li> <span class="li-head">standalone_group_id</span> - Cluster group ID (0 - 255). Must be the same for all members. <span class="li-normal">type: int</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label78' href="javascript:ContentClick('label79', 'label78');" onmouseover="ContentPreview('label79');" onmouseout="ContentUnpreview('label79');" title="click to collapse or expand..."> more... </a>
  <div id="label79" style="display:none">
  <table border="1">
@@ -687,13 +685,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>standalone_group_id</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.6.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">utm_traffic_bounce</span> - Enable/disable UTM related traffic bounce. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+            </ul>
+        <li> <span class="li-head">psksecret</span> - Pre-shared secret for session synchronization (ASCII string or hexadecimal encoded with a leading 0x). <span class="li-normal">type: str</span>
  <a id='label80' href="javascript:ContentClick('label81', 'label80');" onmouseover="ContentPreview('label81');" onmouseout="ContentUnpreview('label81');" title="click to collapse or expand..."> more... </a>
  <div id="label81" style="display:none">
  <table border="1">
@@ -702,15 +701,67 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>utm_traffic_bounce</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6 </code></td>
+ <td>psksecret</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">session_sync</span> - Enable/disable session synchronization. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label82' href="javascript:ContentClick('label83', 'label82');" onmouseover="ContentPreview('label83');" onmouseout="ContentUnpreview('label83');" title="click to collapse or expand..."> more... </a>
+ <div id="label83" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>session_sync</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">session_sync_dev</span> - Offload session-sync process to kernel and sync sessions using connected interface(s) directly. Source system.interface.name. <span class="li-normal">type: list</span> </li>
+        <li> <span class="li-head">standalone_group_id</span> - Cluster group ID (0 - 255). Must be the same for all members. <span class="li-normal">type: int</span>
+ <a id='label84' href="javascript:ContentClick('label85', 'label84');" onmouseover="ContentPreview('label85');" onmouseout="ContentUnpreview('label85');" title="click to collapse or expand..."> more... </a>
+ <div id="label85" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>standalone_group_id</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">utm_traffic_bounce</span> - Enable/disable UTM related traffic bounce, disable it may stop the asymmetric-traffic UTM features from working. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+ <a id='label86' href="javascript:ContentClick('label87', 'label86');" onmouseover="ContentPreview('label87');" onmouseout="ContentUnpreview('label87');" title="click to collapse or expand..."> more... </a>
+ <div id="label87" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>utm_traffic_bounce</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -746,6 +797,7 @@ Examples
                               name: "default_name_6 (source system.interface.name)"
                       hb_interval: "2"
                       hb_lost_threshold: "10"
+                      interface: "<your_own_value> (source system.interface.name)"
                       ipsec_tunnel_sync: "enable"
                       peerip: "<your_own_value>"
                       peervd: "<your_own_value> (source system.vdom.name)"
@@ -754,7 +806,7 @@ Examples
                           custom_service:
                               -
                                   dst_port_range: "<your_own_value>"
-                                  id: "16"
+                                  id: "17"
                                   src_port_range: "<your_own_value>"
                           dstaddr: "<your_own_value>"
                           dstaddr6: "<your_own_value>"
@@ -762,27 +814,29 @@ Examples
                           srcaddr: "<your_own_value>"
                           srcaddr6: "<your_own_value>"
                           srcintf: "<your_own_value> (source system.interface.name)"
+                      source_ip: "84.230.14.43"
                       sync_id: "<you_own_value>"
                       syncvd:
                           -
-                              name: "default_name_26 (source system.vdom.name)"
+                              name: "default_name_28 (source system.vdom.name)"
               encryption: "enable"
               group_member_id: "0"
               helper_traffic_bounce: "enable"
               layer2_connection: "available"
               monitor_interface:
                   -
-                      name: "default_name_32 (source system.interface.name)"
+                      name: "default_name_34 (source system.interface.name)"
               monitor_prefix:
                   -
-                      id: "34"
+                      id: "36"
                       prefix: "<your_own_value>"
                       vdom: "<your_own_value> (source system.vdom.name)"
                       vrf: "0"
               pingsvr_monitor_interface:
                   -
-                      name: "default_name_39 (source system.interface.name)"
+                      name: "default_name_41 (source system.interface.name)"
               psksecret: "<your_own_value>"
+              session_sync: "enable"
               session_sync_dev: "<your_own_value> (source system.interface.name)"
               standalone_group_id: "0"
               utm_traffic_bounce: "enable"

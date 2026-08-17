@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.4.0 -> v7.6.6
+Supported Version Ranges: v6.4.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>file_filter_profile</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -90,7 +90,7 @@ Parameters
  <tr>
  <td>extended_log</td>
  <td><code class="docutils literal notranslate">v6.4.0 -> v6.4.0 </code></td>
- <td><code class="docutils literal notranslate">v6.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
@@ -101,7 +101,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">feature_set</span> - Flow/proxy feature set. <span class="li-normal">type: str</span> <span class="li-normal">choices: flow, proxy</span>
+        <li> <span class="li-head">fabric_force_sync</span> - Enable/disable forced synchronization of configuration objects from the root FortiGate unit to the downstream devices.  Configuration conflict check is skipped. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -110,19 +110,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>feature_set</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>fabric_force_sync</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[flow]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  <tr>
- <td>[proxy]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">log</span> - Enable/disable file-filter logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">fabric_object</span> - Security Fabric global object setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -131,19 +131,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>log</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>fabric_object</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">name</span> - Profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+        <li> <span class="li-head">fabric_object_source</span> - Source of truth for fabric object. <span class="li-normal">type: str</span> <span class="li-normal">choices: member, local, root</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -152,13 +152,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>fabric_object_source</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[member]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[local]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[root]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">replacemsg_group</span> - Replacement message group. Source system.replacemsg-group.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">feature_set</span> - Flow/proxy feature set. <span class="li-normal">type: str</span> <span class="li-normal">choices: flow, proxy</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -167,28 +176,40 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>replacemsg_group</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>feature_set</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[flow]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[proxy]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">rules</span> - File filter rules. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: rules:name</span>
+        <li> <span class="li-head">log</span> - Enable/disable file-filter logging. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
  <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>rules</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>log</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">action</span> - Action taken for matched file. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block</span>
+        <li> <span class="li-head">name</span> - Profile name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -197,19 +218,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>action</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[log-only]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[block]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">replacemsg_group</span> - Replacement message group. Source system.replacemsg-group.name. <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -218,52 +233,53 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>comment</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>replacemsg_group</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">direction</span> - Traffic direction (HTTP, FTP, SSH, CIFS, and MAPI only). <span class="li-normal">type: str</span> <span class="li-normal">choices: incoming, outgoing, any</span>
+        <li> <span class="li-head">rules</span> - File filter rules. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: rules:name</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>rules</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">action</span> - Action taken for matched file. <span class="li-normal">type: str</span> <span class="li-normal">choices: log-only, block, warning</span>
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>direction</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>action</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[incoming]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td>[log-only]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
- <td>[outgoing]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td>[block]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
- <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- </table>
- </div>
- </li>
-            <li> <span class="li-head">file_type</span> - Select file type. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: rules:name/file_type:name</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>file_type</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>[warning]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </tr>
  </table>
  </div>
  </li>
-                <ul class="ul-self">
-                <li> <span class="li-head">name</span> - File type name. Source antivirus.filetype.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">comment</span> - Comment. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -272,14 +288,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>comment</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-                </ul>
-            <li> <span class="li-head">name</span> - File-filter rule name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
+            <li> <span class="li-head">direction</span> - Traffic direction (HTTP, FTP, SSH, WEBSOCKET, CIFS, and MAPI only). <span class="li-normal">type: str</span> <span class="li-normal">choices: incoming, outgoing, any</span>
  <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
  <div id="label27" style="display:none">
  <table border="1">
@@ -288,34 +303,37 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>direction</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[incoming]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[outgoing]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[any]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">password_protected</span> - Match password-protected files. <span class="li-normal">type: str</span> <span class="li-normal">choices: yes, any</span>
+            <li> <span class="li-head">file_type</span> - Select file type. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: rules:name/file_type:name</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>password_protected</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>file_type</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[yes]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[any]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            <li> <span class="li-head">protocol</span> - Protocols to apply rule to. <span class="li-normal">type: list</span> <span class="li-normal">choices: http, ftp, smtp, imap, pop3, mapi, cifs, ssh</span>
+                <ul class="ul-self">
+                <li> <span class="li-head">name</span> - File type name. Source antivirus.filetype.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -324,38 +342,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>protocol</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[http]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[ftp]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[smtp]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[imap]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[pop3]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[mapi]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[cifs]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
- <tr>
- <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">scan_archive_contents</span> - Enable/disable archive contents scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+                </ul>
+            <li> <span class="li-head">name</span> - File-filter rule name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -364,15 +358,110 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">password_protected</span> - Match password-protected files. <span class="li-normal">type: str</span> <span class="li-normal">choices: yes, any</span>
+ <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
+ <div id="label35" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>password_protected</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[yes]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[any]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+            <li> <span class="li-head">protocol</span> - Protocols to apply rule to. <span class="li-normal">type: list</span> <span class="li-normal">choices: http, ftp, smtp, imap, pop3, mapi, cifs, ssh, websocket</span>
+ <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
+ <div id="label37" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>protocol</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[http]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[ftp]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[smtp]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[imap]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[pop3]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[mapi]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[cifs]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[ssh]</td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[websocket]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">scan_archive_contents</span> - Enable/disable archive contents scan. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
+ <div id="label39" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>scan_archive_contents</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">uuid</span> - Universally Unique Identifier (UUID; automatically assigned but can be manually reset). <span class="li-normal">type: str</span>
+ <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
+ <div id="label41" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>uuid</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
  </table>
  </div>
  </li>
@@ -404,9 +493,12 @@ Examples
           file_filter_profile:
               comment: "Comment."
               extended_log: "disable"
+              fabric_force_sync: "enable"
+              fabric_object: "enable"
+              fabric_object_source: "member"
               feature_set: "flow"
               log: "disable"
-              name: "default_name_7"
+              name: "default_name_10"
               replacemsg_group: "<your_own_value> (source system.replacemsg-group.name)"
               rules:
                   -
@@ -415,11 +507,12 @@ Examples
                       direction: "incoming"
                       file_type:
                           -
-                              name: "default_name_14 (source antivirus.filetype.name)"
-                      name: "default_name_15"
+                              name: "default_name_17 (source antivirus.filetype.name)"
+                      name: "default_name_18"
                       password_protected: "yes"
                       protocol: "http"
               scan_archive_contents: "disable"
+              uuid: "<your_own_value>"
 
 
 Return Values

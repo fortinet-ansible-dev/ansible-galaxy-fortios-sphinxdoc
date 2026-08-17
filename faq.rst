@@ -8,6 +8,7 @@ Frequently Asked Questions (FAQ)
  - `What's Access Token?`_
  - `How To Backup And Restore FOS?`_
  - `How To Import A License?`_
+ - `How To Import VPN Certificates?`_
  - `How does Ansible work with login banner?`_
  - `How To Work With Raw FotiOS CLI?`_
  - `How to use the set_fact module in a task?`_
@@ -162,9 +163,8 @@ Then run the following playbook to upload licence for the first time:
       - fortinet.fortios
      vars:
       vdom: "root"
-      ansible_httpapi_use_ssl: true
-      ansible_httpapi_validate_certs: false
-      ansible_httpapi_port: 443
+      ansible_httpapi_use_ssl: no
+      ansible_httpapi_port: 80
      tasks:
 
       - name: Upload the license to the newly installed FGT device
@@ -190,6 +190,75 @@ by setting ``ansible_httpapi_use_ssl`` to ``true`` and ``ansible_httpapi_port`` 
 
 
 **Renewing a license can use access token based authentication as long as associated API user has admin privilege to upload license.**
+
+
+How To Import VPN Certificates?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use ``fortios_monitor`` when importing VPN certificate files into FortiGate. The CMDB certificate modules, such as ``fortios_certificate_local``, ``fortios_certificate_remote``, ``fortios_certificate_crl``, and ``fortios_certificate_ca``, manage certificate configuration entries and are not the correct modules for certificate file import operations. Those modules use legacy CMDB endpoints such as:
+
+ - ``/api/v2/cmdb/certificate/local``
+ - ``/api/v2/cmdb/certificate/remote``
+ - ``/api/v2/cmdb/certificate/crl``
+ - ``/api/v2/cmdb/certificate/ca``
+
+Use the monitor import selectors instead:
+
+ - ``import.vpn-certificate.local`` for ``/api/v2/monitor/vpn-certificate/local/import``
+ - ``import.vpn-certificate.remote`` for ``/api/v2/monitor/vpn-certificate/remote/import``
+ - ``import.vpn-certificate.ca`` for ``/api/v2/monitor/vpn-certificate/ca/import``
+ - ``import.vpn-certificate.crl`` for ``/api/v2/monitor/vpn-certificate/crl/import``
+
+The certificate file content must be base64 encoded before it is sent to FortiGate.
+
+::
+
+   - hosts: fortigates
+     connection: httpapi
+     collections:
+      - fortinet.fortios
+     vars:
+      vdom: "root"
+      ansible_httpapi_use_ssl: true
+      ansible_httpapi_validate_certs: false
+      ansible_httpapi_port: 443
+     tasks:
+
+      - name: Import a remote certificate
+        fortios_monitor:
+            vdom: "{{ vdom }}"
+            selector: 'import.vpn-certificate.remote'
+            params:
+                scope: 'vdom'
+                file_content: "{{ lookup( 'file', './remote.cer') | string | b64encode }}"
+
+      - name: Import a CA certificate
+        fortios_monitor:
+            vdom: "{{ vdom }}"
+            selector: 'import.vpn-certificate.ca'
+            params:
+                import_method: 'file'
+                scope: 'vdom'
+                file_content: "{{ lookup( 'file', './ca.cer') | string | b64encode }}"
+
+      - name: Import a certificate revocation list
+        fortios_monitor:
+            vdom: "{{ vdom }}"
+            selector: 'import.vpn-certificate.crl'
+            params:
+                scope: 'vdom'
+                file_content: "{{ lookup( 'file', './ca.crl') | string | b64encode }}"
+
+      - name: Import a local certificate and private key
+        fortios_monitor:
+            vdom: "{{ vdom }}"
+            selector: 'import.vpn-certificate.local'
+            params:
+                type: 'regular'
+                certname: 'ansible_local_cert'
+                scope: 'vdom'
+                file_content: "{{ lookup( 'file', './local.crt') | string | b64encode }}"
+                key_file_content: "{{ lookup( 'file', './local.key') | string | b64encode }}"
 
 How does Ansible work with login banner?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

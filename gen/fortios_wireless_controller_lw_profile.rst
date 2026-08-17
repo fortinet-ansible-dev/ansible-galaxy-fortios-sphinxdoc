@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.6.5 -> v7.6.6
+Supported Version Ranges: v7.6.5 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>wireless_controller_lw_profile</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>comment</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>cups_api_key</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </tr>
  <tr>
  <td>cups_server</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -119,7 +119,7 @@ Parameters
  </tr>
  <tr>
  <td>cups_server_port</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -134,14 +134,14 @@ Parameters
  </tr>
  <tr>
  <td>lw_protocol</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[basics-station]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
  <tr>
  <td>[packet-forwarder]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>tc_api_key</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -185,7 +185,7 @@ Parameters
  </tr>
  <tr>
  <td>tc_server</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -200,7 +200,7 @@ Parameters
  </tr>
  <tr>
  <td>tc_server_port</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>

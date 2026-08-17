@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.6.6
+Supported Version Ranges: v7.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_speed_test_schedule</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,7 +74,7 @@ Parameters
  </tr>
  <tr>
  <td>ctrl_port</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -89,7 +89,7 @@ Parameters
  </tr>
  <tr>
  <td>diffserv</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,14 +104,14 @@ Parameters
  </tr>
  <tr>
  <td>dynamic_server</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -125,7 +125,7 @@ Parameters
  </tr>
  <tr>
  <td>expected_inbandwidth_maximum</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
@@ -140,7 +140,7 @@ Parameters
  </tr>
  <tr>
  <td>expected_inbandwidth_minimum</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
@@ -155,7 +155,7 @@ Parameters
  </tr>
  <tr>
  <td>expected_outbandwidth_maximum</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
@@ -170,7 +170,7 @@ Parameters
  </tr>
  <tr>
  <td>expected_outbandwidth_minimum</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
@@ -185,12 +185,12 @@ Parameters
  </tr>
  <tr>
  <td>interface</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">mode</span> - Protocol Auto(default), TCP or UDP used for speed test. <span class="li-normal">type: str</span> <span class="li-normal">choices: UDP, TCP, Auto</span>
+        <li> <span class="li-head">legacy_server_mode</span> - Legacy test server selection. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -199,22 +199,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>mode</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
+ <td>legacy_server_mode</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
- <td>[UDP]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  <tr>
- <td>[TCP]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
- <tr>
- <td>[Auto]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">retries</span> - Maximum number of times the FortiGate unit will attempt to contact the same server before considering the speed test has failed (1 - 10). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">mode</span> - Protocol Auto(default), TCP or UDP used for speed test. <span class="li-normal">type: str</span> <span class="li-normal">choices: UDP, TCP, Auto</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -223,13 +220,22 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>retries</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td>mode</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[UDP]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[TCP]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
+ <tr>
+ <td>[Auto]</td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">retry_pause</span> - Number of seconds the FortiGate pauses between successive speed tests before trying a different server (60 - 3600). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">retries</span> - Maximum number of times the FortiGate unit will attempt to contact the same server before considering the speed test has failed (1 - 10). <span class="li-normal">type: int</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -238,44 +244,43 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>retry_pause</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td>retries</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">schedules</span> - Schedules for the interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: schedules:name</span>
+        <li> <span class="li-head">retry_pause</span> - Number of seconds the FortiGate pauses between successive speed tests before trying a different server (60 - 3600). <span class="li-normal">type: int</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
- <table border="1">
- <tr>
- <td></td><td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>schedules</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-            <ul class="ul-self">
-            <li> <span class="li-head">name</span> - Name of a firewall recurring schedule. Source firewall.schedule.recurring.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
  <table border="1">
  <tr>
  <td></td>
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>retry_pause</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
  </table>
  </div>
  </li>
-            </ul>
-        <li> <span class="li-head">server_name</span> - Speed test server name in system.speed-test-server list or leave it as empty to choose default server "FTNT_Auto". Source system .speed-test-server.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">schedules</span> - Schedules for the interface. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: schedules:name</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td><td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>schedules</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Name of a firewall recurring schedule. Source firewall.schedule.recurring.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -284,13 +289,14 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">server_port</span> - Port of the server to run speed test. <span class="li-normal">type: int</span>
+            </ul>
+        <li> <span class="li-head">server_name</span> - Speed test server name. Source system.speed-test-server.name. <span class="li-normal">type: str</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -299,13 +305,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>server_port</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td>server_name</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable scheduled speed test. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">server_port</span> - Port of the server to run speed test. <span class="li-normal">type: int</span>
  <a id='label32' href="javascript:ContentClick('label33', 'label32');" onmouseover="ContentPreview('label33');" onmouseout="ContentUnpreview('label33');" title="click to collapse or expand..."> more... </a>
  <div id="label33" style="display:none">
  <table border="1">
@@ -314,19 +320,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>status</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>server_port</td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_inbandwidth</span> - Enable/disable bypassing interface"s inbound bandwidth setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">status</span> - Enable/disable scheduled speed test. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label34' href="javascript:ContentClick('label35', 'label34');" onmouseover="ContentPreview('label35');" onmouseout="ContentUnpreview('label35');" title="click to collapse or expand..."> more... </a>
  <div id="label35" style="display:none">
  <table border="1">
@@ -335,19 +335,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_inbandwidth</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>status</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_inbandwidth_maximum</span> - Maximum downloading bandwidth (kbps) to be used in a speed test. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">update_bandwidth_limit_unit</span> - Set the update bandwidth limits by values in kbps or percentages of interface"s bandwidth. <span class="li-normal">type: str</span> <span class="li-normal">choices: value, percentage</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -356,13 +356,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_inbandwidth_maximum</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>update_bandwidth_limit_unit</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
+ <tr>
+ <td>[value]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[percentage]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_inbandwidth_minimum</span> - Minimum downloading bandwidth (kbps) to be considered effective. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">update_inbandwidth</span> - Enable/disable bypassing interface"s inbound bandwidth setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -371,13 +377,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_inbandwidth_minimum</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>update_inbandwidth</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_interface_shaping</span> - Enable/disable using the speedtest results as reference for interface shaping (overriding configured in/outbandwidth). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">update_inbandwidth_maximum</span> - Maximum downloading bandwidth (kbps) or percentage of the interface"s inbandwidth to be used in shaping. <span class="li-normal">type: int</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
@@ -386,19 +398,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_interface_shaping</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6 </code></td>
+ <td>update_inbandwidth_maximum</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.6.5 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_outbandwidth</span> - Enable/disable bypassing interface"s outbound bandwidth setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">update_inbandwidth_minimum</span> - Minimum downloading bandwidth (kbps) or percentage of the interface"s inbandwidth to be used in shaping. <span class="li-normal">type: int</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -407,19 +413,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_outbandwidth</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>update_inbandwidth_minimum</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_outbandwidth_maximum</span> - Maximum uploading bandwidth (kbps) to be used in a speed test. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">update_interface_shaping</span> - Enable/disable using the speedtest results as reference for interface shaping (overriding configured in/outbandwidth). <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
  <div id="label45" style="display:none">
  <table border="1">
@@ -428,13 +428,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_outbandwidth_maximum</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>update_interface_shaping</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.6.5 -> v7.6.7</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_outbandwidth_minimum</span> - Minimum uploading bandwidth (kbps) to be considered effective. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">update_outbandwidth</span> - Enable/disable bypassing interface"s outbound bandwidth setting. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
  <div id="label47" style="display:none">
  <table border="1">
@@ -443,13 +449,19 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>update_outbandwidth_minimum</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>update_outbandwidth</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7 </code></td>
  </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> v7.6.7</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">update_shaper</span> - Set egress shaper based on the test result. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, local, remote, both</span>
+        <li> <span class="li-head">update_outbandwidth_maximum</span> - Maximum uploading bandwidth (kbps) or percentage of the interface"s outbandwidth to be used in shaping. <span class="li-normal">type: int</span>
  <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
  <div id="label49" style="display:none">
  <table border="1">
@@ -458,21 +470,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>update_outbandwidth_maximum</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">update_outbandwidth_minimum</span> - Minimum uploading bandwidth (kbps) or percentage of the interface"s outbandwidth to be used in shaping. <span class="li-normal">type: int</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>update_outbandwidth_minimum</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">update_shaper</span> - Set egress shaper based on the test result. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, local, remote, both</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>update_shaper</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.6.7 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.6.7</code></td>
  <tr>
  <td>[local]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.6.7</code></td>
  <tr>
  <td>[remote]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.6.7</code></td>
  <tr>
  <td>[both]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> v7.6.7</code></td>
  </table>
  </div>
  </li>
@@ -510,15 +552,17 @@ Examples
               expected_outbandwidth_maximum: "0"
               expected_outbandwidth_minimum: "0"
               interface: "<your_own_value> (source system.interface.name)"
+              legacy_server_mode: "disable"
               mode: "UDP"
               retries: "5"
               retry_pause: "300"
               schedules:
                   -
-                      name: "default_name_15 (source firewall.schedule.recurring.name)"
+                      name: "default_name_16 (source firewall.schedule.recurring.name)"
               server_name: "<your_own_value> (source system.speed-test-server.name)"
               server_port: "5201"
               status: "disable"
+              update_bandwidth_limit_unit: "value"
               update_inbandwidth: "disable"
               update_inbandwidth_maximum: "0"
               update_inbandwidth_minimum: "0"

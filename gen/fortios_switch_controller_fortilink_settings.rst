@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.0.0 -> v7.6.6
+Supported Version Ranges: v7.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>switch_controller_fortilink_settings</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,21 +74,21 @@ Parameters
  </tr>
  <tr>
  <td>access_vlan_mode</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[legacy]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  <tr>
  <td>[fail-open]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  <tr>
  <td>[fail-close]</td>
- <td><code class="docutils literal notranslate">v7.4.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">fortilink</span> - FortiLink interface to which this fortilink-setting belongs. Source system.interface.name. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">admin_policy</span> - FortiSwitch"s admin security-policy applied to all switch on this Fortilink interface. Source switch-controller.security-policy.admin .name. <span class="li-normal">type: str</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -97,13 +97,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>fortilink</td>
- <td><code class="docutils literal notranslate">v7.0.2 -> 7.6.6 </code></td>
+ <td>admin_policy</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">inactive_timer</span> - Time interval(minutes) to be included in the inactive devices expiry calculation (mac age-out + inactive-time + periodic scan interval). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">fortilink</span> - FortiLink interface to which this fortilink-setting belongs. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -112,13 +112,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>inactive_timer</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td>fortilink</td>
+ <td><code class="docutils literal notranslate">v7.0.2 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">link_down_flush</span> - Clear NAC and dynamic devices on switch ports on link down event. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">inactive_timer</span> - Time interval(minutes) to be included in the inactive devices expiry calculation (mac age-out + inactive-time + periodic scan interval). <span class="li-normal">type: int</span>
  <a id='label8' href="javascript:ContentClick('label9', 'label8');" onmouseover="ContentPreview('label9');" onmouseout="ContentUnpreview('label9');" title="click to collapse or expand..."> more... </a>
  <div id="label9" style="display:none">
  <table border="1">
@@ -127,36 +127,51 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>inactive_timer</td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">link_down_flush</span> - Clear NAC and dynamic devices on switch ports on link down event. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
+ <div id="label11" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>link_down_flush</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
         <li> <span class="li-head">nac_ports</span> - NAC specific configuration. <span class="li-normal">type: dict</span>
- <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
- <div id="label11" style="display:none">
+ <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
+ <div id="label13" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>nac_ports</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <ul class="ul-self">
             <li> <span class="li-head">bounce_nac_port</span> - Enable/disable bouncing (administratively bring the link down, up) of a switch port when NAC mode is configured on the port. Helps to re-initiate the DHCP process for a device. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
- <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
- <div id="label13" style="display:none">
+ <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
+ <div id="label15" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -176,8 +191,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">lan_segment</span> - Enable/disable LAN segment feature on the FortiLink interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: enabled, disabled</span>
- <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
- <div id="label15" style="display:none">
+ <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
+ <div id="label17" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -185,20 +200,20 @@ Parameters
  </tr>
  <tr>
  <td>lan_segment</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enabled]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  <tr>
  <td>[disabled]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
             <li> <span class="li-head">member_change</span> - Member change flag. <span class="li-normal">type: int</span>
- <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
- <div id="label17" style="display:none">
+ <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
+ <div id="label19" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -213,8 +228,8 @@ Parameters
  </div>
  </li>
             <li> <span class="li-head">nac_lan_interface</span> - Configure NAC LAN interface. Source system.interface.name. <span class="li-normal">type: str</span>
- <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
- <div id="label19" style="display:none">
+ <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
+ <div id="label21" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -222,43 +237,27 @@ Parameters
  </tr>
  <tr>
  <td>nac_lan_interface</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">nac_segment_vlans</span> - Configure NAC segment VLANs. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: nac_ports/nac_segment_vlans:vlan_name</span>
- <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
- <div id="label21" style="display:none">
+ <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
+ <div id="label23" style="display:none">
  <table border="1">
  <tr>
  <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
  <td>nac_segment_vlans</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
                 <ul class="ul-self">
                 <li> <span class="li-head">vlan_name</span> - VLAN interface name. Source system.interface.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
- <div id="label23" style="display:none">
- <table border="1">
- <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
- </tr>
- <tr>
- <td>vlan_name</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6 </code></td>
- </tr>
- </table>
- </div>
- </li>
-                </ul>
-            <li> <span class="li-head">onboarding_vlan</span> - Default NAC Onboarding VLAN when NAC devices are discovered. Source system.interface.name. <span class="li-normal">type: str</span>
  <a id='label24' href="javascript:ContentClick('label25', 'label24');" onmouseover="ContentPreview('label25');" onmouseout="ContentUnpreview('label25');" title="click to collapse or expand..."> more... </a>
  <div id="label25" style="display:none">
  <table border="1">
@@ -267,15 +266,31 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>vlan_name</td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+                </ul>
+            <li> <span class="li-head">onboarding_vlan</span> - Default NAC Onboarding VLAN when NAC devices are discovered. Source system.interface.name. <span class="li-normal">type: str</span>
+ <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
+ <div id="label27" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>onboarding_vlan</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
             <li> <span class="li-head">parent_key</span> - Parent key name. <span class="li-normal">type: str</span>
- <a id='label26' href="javascript:ContentClick('label27', 'label26');" onmouseover="ContentPreview('label27');" onmouseout="ContentUnpreview('label27');" title="click to collapse or expand..."> more... </a>
- <div id="label27" style="display:none">
+ <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
+ <div id="label29" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -291,8 +306,8 @@ Parameters
  </li>
             </ul>
         <li> <span class="li-head">name</span> - FortiLink settings name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
- <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
- <div id="label29" style="display:none">
+ <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
+ <div id="label31" style="display:none">
  <table border="1">
  <tr>
  <td></td>
@@ -300,7 +315,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -332,6 +347,7 @@ Examples
           access_token: "<your_own_value>"
           switch_controller_fortilink_settings:
               access_vlan_mode: "legacy"
+              admin_policy: "<your_own_value> (source switch-controller.security-policy.admin.name)"
               fortilink: "<your_own_value> (source system.interface.name)"
               inactive_timer: "15"
               link_down_flush: "disable"
@@ -345,7 +361,7 @@ Examples
                           vlan_name: "<your_own_value> (source system.interface.name)"
                   onboarding_vlan: "<your_own_value> (source system.interface.name)"
                   parent_key: "<your_own_value>"
-              name: "default_name_16"
+              name: "default_name_17"
 
 
 Return Values

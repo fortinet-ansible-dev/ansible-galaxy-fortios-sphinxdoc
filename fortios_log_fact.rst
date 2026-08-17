@@ -126,6 +126,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -160,6 +161,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -173,6 +175,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -186,6 +189,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -199,6 +203,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -212,8 +217,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        disk_event_:session_id
+        <li><span class="li-head">disk_event_:session_id</span> 
         
         </li>
         disk_event_compliance-check
@@ -393,6 +403,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -406,6 +417,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -440,6 +452,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -453,6 +466,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -466,8 +480,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        disk_traffic_:session_id
+        <li><span class="li-head">disk_traffic_:session_id</span> 
         
         </li>
         disk_traffic_fortiview
@@ -572,6 +591,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -585,6 +605,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -598,6 +619,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -611,6 +633,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -624,6 +647,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -658,6 +682,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -671,6 +696,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -684,6 +710,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -697,6 +724,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -710,8 +738,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        fortianalyzer_event_:session_id
+        <li><span class="li-head">fortianalyzer_event_:session_id</span> 
         
         </li>
         fortianalyzer_event_compliance-check
@@ -891,6 +924,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -904,6 +938,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -938,6 +973,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -951,6 +987,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -964,8 +1001,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        fortianalyzer_traffic_:session_id
+        <li><span class="li-head">fortianalyzer_traffic_:session_id</span> 
         
         </li>
         fortianalyzer_traffic_fortiview
@@ -1070,6 +1112,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1083,6 +1126,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1096,6 +1140,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1109,6 +1154,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1122,6 +1168,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1156,6 +1203,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1169,6 +1217,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1182,6 +1231,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1195,6 +1245,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1208,8 +1259,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        forticloud_event_:session_id
+        <li><span class="li-head">forticloud_event_:session_id</span> 
         
         </li>
         forticloud_event_compliance-check
@@ -1389,6 +1445,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1402,6 +1459,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1436,6 +1494,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1449,6 +1508,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1462,8 +1522,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        forticloud_traffic_:session_id
+        <li><span class="li-head">forticloud_traffic_:session_id</span> 
         
         </li>
         forticloud_traffic_fortiview
@@ -1568,6 +1633,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1581,6 +1647,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1594,6 +1661,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1607,6 +1675,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1620,6 +1689,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1654,6 +1724,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1667,6 +1738,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1680,6 +1752,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1693,6 +1766,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1706,8 +1780,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        memory_event_:session_id
+        <li><span class="li-head">memory_event_:session_id</span> 
         
         </li>
         memory_event_compliance-check
@@ -1887,6 +1966,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1900,6 +1980,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1934,6 +2015,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1947,6 +2029,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -1960,8 +2043,13 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
+        
+        </li>
+        memory_traffic_:session_id
+        <li><span class="li-head">memory_traffic_:session_id</span> 
         
         </li>
         memory_traffic_fortiview
@@ -2066,6 +2154,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -2079,6 +2168,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -2092,6 +2182,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         
@@ -2105,6 +2196,7 @@ Parameters
                 <li><span class="li-required">serial_no</span> - Retrieve log from the specified device. <span class="li-normal">type: string </span> </li>
                 <li><span class="li-required">is_ha_member</span> - Is the specified device an HA member. <span class="li-normal">type: boolean </span> </li>
                 <li><span class="li-required">filter</span> - Filter expression(s). <span class="li-normal">type: string </span> </li>
+                <li><span class="li-required">keep_session_alive</span> - Keep the log session alive. Session needs to be manually aborted when this is true. <span class="li-normal">type: boolean </span> </li>
                 
             </ul>
         

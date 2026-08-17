@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v7.4.4 -> v7.6.6
+Supported Version Ranges: v7.4.4 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>extension_controller_extender_vap</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,26 +74,26 @@ Parameters
  </tr>
  <tr>
  <td>allowaccess</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[ping]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[telnet]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[http]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[https]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[ssh]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[snmp]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -107,7 +107,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_server_address</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -122,7 +122,7 @@ Parameters
  </tr>
  <tr>
  <td>auth_server_port</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -137,12 +137,12 @@ Parameters
  </tr>
  <tr>
  <td>auth_server_secret</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">broadcast_ssid</span> - Wi-Fi broadcast SSID enable / disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">broadcast_ssid</span> - Enable/disable Wi-Fi broadcast SSID. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label10' href="javascript:ContentClick('label11', 'label10');" onmouseover="ContentPreview('label11');" onmouseout="ContentUnpreview('label11');" title="click to collapse or expand..."> more... </a>
  <div id="label11" style="display:none">
  <table border="1">
@@ -152,18 +152,18 @@ Parameters
  </tr>
  <tr>
  <td>broadcast_ssid</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">bss_color_partial</span> - Wi-Fi 802.11AX bss color partial enable / disable, default = enable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">bss_color_partial</span> - Enable/disable Wi-Fi 802.11AX BSS color partial . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label12' href="javascript:ContentClick('label13', 'label12');" onmouseover="ContentPreview('label13');" onmouseout="ContentUnpreview('label13');" title="click to collapse or expand..."> more... </a>
  <div id="label13" style="display:none">
  <table border="1">
@@ -173,18 +173,18 @@ Parameters
  </tr>
  <tr>
  <td>bss_color_partial</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">dtim</span> - Wi-Fi DTIM (1 - 255) default = 1. <span class="li-normal">type: int</span>
+        <li> <span class="li-head">dtim</span> - Wi-Fi DTIM (1 - 255). <span class="li-normal">type: int</span>
  <a id='label14' href="javascript:ContentClick('label15', 'label14');" onmouseover="ContentPreview('label15');" onmouseout="ContentUnpreview('label15');" title="click to collapse or expand..."> more... </a>
  <div id="label15" style="display:none">
  <table border="1">
@@ -194,12 +194,12 @@ Parameters
  </tr>
  <tr>
  <td>dtim</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">end_ip</span> - End ip address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">end_ip</span> - End IP address. <span class="li-normal">type: str</span>
  <a id='label16' href="javascript:ContentClick('label17', 'label16');" onmouseover="ContentPreview('label17');" onmouseout="ContentUnpreview('label17');" title="click to collapse or expand..."> more... </a>
  <div id="label17" style="display:none">
  <table border="1">
@@ -209,12 +209,12 @@ Parameters
  </tr>
  <tr>
  <td>end_ip</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ip_address</span> - Extender ip address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">ip_address</span> - Extender IP address. <span class="li-normal">type: str</span>
  <a id='label18' href="javascript:ContentClick('label19', 'label18');" onmouseover="ContentPreview('label19');" onmouseout="ContentUnpreview('label19');" title="click to collapse or expand..."> more... </a>
  <div id="label19" style="display:none">
  <table border="1">
@@ -224,12 +224,12 @@ Parameters
  </tr>
  <tr>
  <td>ip_address</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">max_clients</span> - Wi-Fi max clients (0 - 512)) <span class="li-normal">type: int</span>
+        <li> <span class="li-head">max_clients</span> - Wi-Fi maximum clients (0 - 512). <span class="li-normal">type: int</span>
  <a id='label20' href="javascript:ContentClick('label21', 'label20');" onmouseover="ContentPreview('label21');" onmouseout="ContentUnpreview('label21');" title="click to collapse or expand..."> more... </a>
  <div id="label21" style="display:none">
  <table border="1">
@@ -239,12 +239,12 @@ Parameters
  </tr>
  <tr>
  <td>max_clients</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">mu_mimo</span> - Wi-Fi multi-user MIMO enable / disable, default = enable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">mu_mimo</span> - Enable/disable Wi-Fi multi-user MIMO . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
  <a id='label22' href="javascript:ContentClick('label23', 'label22');" onmouseover="ContentPreview('label23');" onmouseout="ContentUnpreview('label23');" title="click to collapse or expand..."> more... </a>
  <div id="label23" style="display:none">
  <table border="1">
@@ -254,14 +254,14 @@ Parameters
  </tr>
  <tr>
  <td>mu_mimo</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -275,7 +275,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -290,12 +290,12 @@ Parameters
  </tr>
  <tr>
  <td>passphrase</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">pmf</span> - Wi-Fi pmf enable/disable, default = disable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disabled, optional, required</span>
+        <li> <span class="li-head">pmf</span> - Enable/disable Wi-Fi PMF . <span class="li-normal">type: str</span> <span class="li-normal">choices: disabled, optional, required</span>
  <a id='label28' href="javascript:ContentClick('label29', 'label28');" onmouseover="ContentPreview('label29');" onmouseout="ContentUnpreview('label29');" title="click to collapse or expand..."> more... </a>
  <div id="label29" style="display:none">
  <table border="1">
@@ -305,21 +305,21 @@ Parameters
  </tr>
  <tr>
  <td>pmf</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[disabled]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[optional]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[required]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">rts_threshold</span> - Wi-Fi RTS Threshold (256 - 2347)). <span class="li-normal">type: int</span>
+        <li> <span class="li-head">rts_threshold</span> - Wi-Fi RTS threshold (256 - 2347). <span class="li-normal">type: int</span>
  <a id='label30' href="javascript:ContentClick('label31', 'label30');" onmouseover="ContentPreview('label31');" onmouseout="ContentUnpreview('label31');" title="click to collapse or expand..."> more... </a>
  <div id="label31" style="display:none">
  <table border="1">
@@ -329,7 +329,7 @@ Parameters
  </tr>
  <tr>
  <td>rts_threshold</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -344,7 +344,7 @@ Parameters
  </tr>
  <tr>
  <td>sae_password</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -359,39 +359,39 @@ Parameters
  </tr>
  <tr>
  <td>security</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[OPEN]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA2-Personal]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA-WPA2-Personal]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA3-SAE]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA3-SAE-Transition]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA2-Enterprise]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA3-Enterprise-only]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA3-Enterprise-transition]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[WPA3-Enterprise-192-bit]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">ssid</span> - Wi-Fi SSID. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">security_exempt_list</span> - Name of security exempt list. Source user.security-exempt-list.name. <span class="li-normal">type: str</span>
  <a id='label36' href="javascript:ContentClick('label37', 'label36');" onmouseover="ContentPreview('label37');" onmouseout="ContentUnpreview('label37');" title="click to collapse or expand..."> more... </a>
  <div id="label37" style="display:none">
  <table border="1">
@@ -400,13 +400,13 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>ssid</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td>security_exempt_list</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">start_ip</span> - Start ip address. <span class="li-normal">type: str</span>
+        <li> <span class="li-head">security_external_web</span> - URL of external authentication web server. <span class="li-normal">type: str</span>
  <a id='label38' href="javascript:ContentClick('label39', 'label38');" onmouseover="ContentPreview('label39');" onmouseout="ContentUnpreview('label39');" title="click to collapse or expand..."> more... </a>
  <div id="label39" style="display:none">
  <table border="1">
@@ -415,34 +415,28 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>start_ip</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td>security_external_web</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">target_wake_time</span> - Wi-Fi 802.11AX target wake time enable / disable, default = enable. <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+        <li> <span class="li-head">security_groups</span> - User groups that can authenticate with the captive portal. <span class="li-normal">type: list</span> <span style="font-family:'Courier New'" class="li-required">member_path: security_groups:name</span>
  <a id='label40' href="javascript:ContentClick('label41', 'label40');" onmouseover="ContentPreview('label41');" onmouseout="ContentUnpreview('label41');" title="click to collapse or expand..."> more... </a>
  <div id="label41" style="display:none">
  <table border="1">
  <tr>
- <td></td>
- <td colspan="1">Supported Version Ranges</td>
+ <td></td><td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
- <td>target_wake_time</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td>security_groups</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
  </tr>
- <tr>
- <td>[disable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
- <tr>
- <td>[enable]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">type</span> - Wi-Fi VAP type local-vap / lan-extension-vap. <span class="li-normal">type: str</span> <span class="li-normal">choices: local-vap, lan-ext-vap</span>
+            <ul class="ul-self">
+            <li> <span class="li-head">name</span> - Names of user groups that can authenticate with the captive portal. Source user.group.name. <span class="li-normal">type: str</span> <span class="li-required">required: true</span>
  <a id='label42' href="javascript:ContentClick('label43', 'label42');" onmouseover="ContentPreview('label43');" onmouseout="ContentUnpreview('label43');" title="click to collapse or expand..."> more... </a>
  <div id="label43" style="display:none">
  <table border="1">
@@ -451,15 +445,118 @@ Parameters
  <td colspan="1">Supported Version Ranges</td>
  </tr>
  <tr>
+ <td>name</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+            </ul>
+        <li> <span class="li-head">security_mode</span> - Turn on captive portal authentication for this Wi-Fi interface. <span class="li-normal">type: str</span> <span class="li-normal">choices: none, captive-portal</span>
+ <a id='label44' href="javascript:ContentClick('label45', 'label44');" onmouseover="ContentPreview('label45');" onmouseout="ContentUnpreview('label45');" title="click to collapse or expand..."> more... </a>
+ <div id="label45" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>security_mode</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[none]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ <tr>
+ <td>[captive-portal]</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">security_redirect_url</span> - Optional URL for redirecting users after they pass captive portal authentication. <span class="li-normal">type: str</span>
+ <a id='label46' href="javascript:ContentClick('label47', 'label46');" onmouseover="ContentPreview('label47');" onmouseout="ContentUnpreview('label47');" title="click to collapse or expand..."> more... </a>
+ <div id="label47" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>security_redirect_url</td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">ssid</span> - Wi-Fi SSID. <span class="li-normal">type: str</span>
+ <a id='label48' href="javascript:ContentClick('label49', 'label48');" onmouseover="ContentPreview('label49');" onmouseout="ContentUnpreview('label49');" title="click to collapse or expand..."> more... </a>
+ <div id="label49" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>ssid</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">start_ip</span> - Start IP address. <span class="li-normal">type: str</span>
+ <a id='label50' href="javascript:ContentClick('label51', 'label50');" onmouseover="ContentPreview('label51');" onmouseout="ContentUnpreview('label51');" title="click to collapse or expand..."> more... </a>
+ <div id="label51" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>start_ip</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
+ </tr>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">target_wake_time</span> - Enable/disable Wi-Fi 802.11AX target wake time . <span class="li-normal">type: str</span> <span class="li-normal">choices: disable, enable</span>
+ <a id='label52' href="javascript:ContentClick('label53', 'label52');" onmouseover="ContentPreview('label53');" onmouseout="ContentUnpreview('label53');" title="click to collapse or expand..."> more... </a>
+ <div id="label53" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
+ <td>target_wake_time</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
+ </tr>
+ <tr>
+ <td>[disable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
+ <tr>
+ <td>[enable]</td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
+ </table>
+ </div>
+ </li>
+        <li> <span class="li-head">type</span> - Wi-Fi VAP type local-vap / lan-extension-vap. <span class="li-normal">type: str</span> <span class="li-normal">choices: local-vap, lan-ext-vap</span>
+ <a id='label54' href="javascript:ContentClick('label55', 'label54');" onmouseover="ContentPreview('label55');" onmouseout="ContentUnpreview('label55');" title="click to collapse or expand..."> more... </a>
+ <div id="label55" style="display:none">
+ <table border="1">
+ <tr>
+ <td></td>
+ <td colspan="1">Supported Version Ranges</td>
+ </tr>
+ <tr>
  <td>type</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[local-vap]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  <tr>
  <td>[lan-ext-vap]</td>
- <td><code class="docutils literal notranslate">v7.4.4 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.4 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -506,6 +603,13 @@ Examples
               rts_threshold: "2347"
               sae_password: "<your_own_value>"
               security: "OPEN"
+              security_exempt_list: "<your_own_value> (source user.security-exempt-list.name)"
+              security_external_web: "<your_own_value>"
+              security_groups:
+                  -
+                      name: "default_name_23 (source user.group.name)"
+              security_mode: "none"
+              security_redirect_url: "<your_own_value>"
               ssid: "<your_own_value>"
               start_ip: "<your_own_value>"
               target_wake_time: "disable"

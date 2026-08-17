@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0, v6.0.11 -> v7.6.6
+Supported Version Ranges: v6.0.0, v6.0.11 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  <tr>
  <td>log_fortianalyzer_cloud_override_setting</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -104,7 +104,7 @@ Parameters
  </table>
  </div>
  </li>
-        <li> <span class="li-head">status</span> - Enable/disable logging to FortiAnalyzer. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
+        <li> <span class="li-head">status</span> - Enable/disable logging to FortiAnalyzer Cloud. <span class="li-normal">type: str</span> <span class="li-normal">choices: enable, disable</span>
  <a id='label6' href="javascript:ContentClick('label7', 'label6');" onmouseover="ContentPreview('label7');" onmouseout="ContentUnpreview('label7');" title="click to collapse or expand..."> more... </a>
  <div id="label7" style="display:none">
  <table border="1">
@@ -115,7 +115,7 @@ Parameters
  <tr>
  <td>status</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0 </code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[enable]</td>

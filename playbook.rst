@@ -65,9 +65,10 @@ there are several options which might need you special care:
 
 -  **connection** : ``httpapi`` is preferred.
 -  **collections** : The namespace must be ``fortinet.fortios``
--  **ansible_httpapi_use_ssl** and **ansible_httpapi_port**: by
-   default when your fortiOS device is licensed, the https is enabled.
-   there is one exception: uploading vmlicence to a newly installed FOS instance, where you should set
+-  **ansible_httpapi_use_ssl** and **ansible_httpapi_port**: For normal FortiOS REST API usage, use HTTPS by
+   setting ``ansible_httpapi_use_ssl: true`` and ``ansible_httpapi_port: 443``. If the FortiGate uses
+   a self-signed certificate, set ``ansible_httpapi_validate_certs: false``. One exception is uploading
+   a VM license to a newly installed FOS instance, where HTTP is required with
    ``ansible_httpapi_use_ssl: no`` and ``ansible_httpapi_port: 80``. Please see `Import licence to FOS`_ for more details.
 
 Run the playbook

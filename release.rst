@@ -4,6 +4,27 @@ Release Notes
 
 |
 
+Release Galaxy 2.6.0
+--------------------
+
+Release Targets
+^^^^^^^^^^^^^^^
+
+FortiOS Galaxy 2.6.0 is based on 2.5.1
+
+Bug Fixes
+^^^^^^^^^^^^^^^
+- Fixed an issue where forwarder always returns diff when using check_mode in the system_dns_database module even when no changes were made. Github Issue #418
+- Fixed the Github issue #417
+- Fixed an issue to throw an user-friendly error message when the users make the Connection protocol mismatch. Github issue #416
+
+Improvements
+^^^^^^^^^^^^^^^
+- Supported new versions 7.6.7 and 8.0.0.
+- Supported multiple versions of log fact modules.
+- Updated the Q&A for importing a certificate in the fortios_certificate_remote module.
+
+
 Release Galaxy 2.5.1
 --------------------
 
@@ -1128,6 +1149,5 @@ Bug Fixes
 -  Fix the mkey encoding in fortios api URL.
 -  Fix ``banned_cipher`` exceptional multilist for module
    ``fortios_vpn_ssl_settings``.
-
 
 

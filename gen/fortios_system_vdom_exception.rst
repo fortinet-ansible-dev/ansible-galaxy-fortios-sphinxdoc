@@ -33,7 +33,7 @@ Using member operation to add an element to an existing object.
 
 FortiOS Version Compatibility
 -----------------------------
-Supported Version Ranges: v6.0.0 -> v7.6.6
+Supported Version Ranges: v6.0.0 -> v8.0.0
 
 
 Parameters
@@ -58,7 +58,7 @@ Parameters
  </tr>
  <tr>
  <td>system_vdom_exception</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -74,12 +74,12 @@ Parameters
  </tr>
  <tr>
  <td>id</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
  </li>
-        <li> <span class="li-head">object</span> - Name of the configuration object that can be configured independently for all VDOMs. <span class="li-normal">type: str</span> <span class="li-normal">choices: log.fortianalyzer.setting, log.fortianalyzer.override-setting, log.fortianalyzer2.setting, log.fortianalyzer2.override-setting, log.fortianalyzer3.setting, log.fortianalyzer3.override-setting, log.fortianalyzer-cloud.setting, log.fortianalyzer-cloud.override-setting, log.syslogd.setting, log.syslogd.override-setting, log.syslogd2.setting, log.syslogd2.override-setting, log.syslogd3.setting, log.syslogd3.override-setting, log.syslogd4.setting, log.syslogd4.override-setting, system.gre-tunnel, system.central-management, system.csf, user.radius, system.interface, log.syslogd.setting, log.syslogd.override-setting, firewall.address, vpn.ipsec.phase1-interface, vpn.ipsec.phase2-interface, router.bgp, router.route-map, router.prefix-list, firewall.ippool, firewall.ippool6, router.static, router.static6, firewall.vip, firewall.vip6, system.sdwan, system.saml, router.policy, router.policy6, firewall.vip46, firewall.vip64</span>
+        <li> <span class="li-head">object</span> - Name of the configuration object that can be configured independently for all VDOMs. <span class="li-normal">type: str</span> <span class="li-normal">choices: log.fortianalyzer.setting, log.fortianalyzer.override-setting, log.fortianalyzer2.setting, log.fortianalyzer2.override-setting, log.fortianalyzer3.setting, log.fortianalyzer3.override-setting, log.fortianalyzer-cloud.setting, log.fortianalyzer-cloud.override-setting, log.syslogd.setting, log.syslogd.override-setting, log.syslogd2.setting, log.syslogd2.override-setting, log.syslogd3.setting, log.syslogd3.override-setting, log.syslogd4.setting, log.syslogd4.override-setting, system.gre-tunnel, system.central-management, system.csf, user.radius, system.interface, log.syslogd.setting, log.syslogd.override-setting, firewall.address, system.snmp.sysinfo, vpn.ipsec.phase1-interface, vpn.ipsec.phase2-interface, router.bgp, router.route-map, router.prefix-list, firewall.ippool, firewall.ippool6, router.static, router.static6, firewall.vip, firewall.vip6, system.sdwan, system.saml, router.policy, router.policy6, firewall.vip46, firewall.vip64</span>
  <a id='label4' href="javascript:ContentClick('label5', 'label4');" onmouseover="ContentPreview('label5');" onmouseout="ContentUnpreview('label5');" title="click to collapse or expand..."> more... </a>
  <div id="label5" style="display:none">
  <table border="1">
@@ -89,108 +89,112 @@ Parameters
  </tr>
  <tr>
  <td>object</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer.setting]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[log.fortianalyzer.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[log.fortianalyzer2.setting]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer2.override-setting]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer3.setting]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer3.override-setting]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer-cloud.setting]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.fortianalyzer-cloud.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.2.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.2.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd.setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd2.setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd2.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd3.setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd3.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd4.setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd4.override-setting]</td>
- <td><code class="docutils literal notranslate">v6.4.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.4.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[system.gre-tunnel]</td>
- <td><code class="docutils literal notranslate">v7.0.1 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.0.1 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[system.central-management]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[system.csf]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[user.radius]</td>
  <td><code class="docutils literal notranslate">v6.0.0 -> v6.0.0</code></td>
- <td><code class="docutils literal notranslate">v6.0.11 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.11 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[system.interface]</td>
- <td><code class="docutils literal notranslate">v7.6.3 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.6.3 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd.setting]</td>
- <td><code class="docutils literal notranslate">v7.6.6 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[log.syslogd.override-setting]</td>
- <td><code class="docutils literal notranslate">v7.6.6 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v8.0.0 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[firewall.address]</td>
- <td><code class="docutils literal notranslate">v7.4.2 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v7.4.2 -> 8.0.0</code></td>
+ </tr>
+ <tr>
+ <td>[system.snmp.sysinfo]</td>
+ <td><code class="docutils literal notranslate">v7.6.7 -> 8.0.0</code></td>
  </tr>
  <tr>
  <td>[vpn.ipsec.phase1-interface]</td>
@@ -272,17 +276,17 @@ Parameters
  </tr>
  <tr>
  <td>scope</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  <tr>
  <td>[all]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[inclusive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  <tr>
  <td>[exclusive]</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6</code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0</code></td>
  </table>
  </div>
  </li>
@@ -295,7 +299,7 @@ Parameters
  </tr>
  <tr>
  <td>vdom</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>
@@ -311,7 +315,7 @@ Parameters
  </tr>
  <tr>
  <td>name</td>
- <td><code class="docutils literal notranslate">v6.0.0 -> 7.6.6 </code></td>
+ <td><code class="docutils literal notranslate">v6.0.0 -> 8.0.0 </code></td>
  </tr>
  </table>
  </div>

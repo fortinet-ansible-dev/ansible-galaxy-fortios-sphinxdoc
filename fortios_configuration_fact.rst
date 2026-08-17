@@ -125,11 +125,13 @@ Parameters
         <li><span class="li-normal">antivirus_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">antivirus_quarantine</span> </li>
         <li><span class="li-normal">antivirus_settings</span> </li>
+        <li><span class="li-normal">application_classification-settings</span> </li>
         <li><span class="li-normal">application_custom</span>  <span class="li-required">param: tag</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">application_group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">application_list</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">application_name</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">application_rule-settings</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">application_unsanctioned-apps</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">authentication_rule</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">authentication_scheme</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">authentication_setting</span> </li>
@@ -236,6 +238,7 @@ Parameters
         <li><span class="li-normal">firewall_central-snat-map</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_city</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_country</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_custom-tag</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_decrypted-traffic-mirror</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_dnstranslation</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_DoS-policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -286,7 +289,9 @@ Parameters
         <li><span class="li-normal">firewall_proute</span> </li>
         <li><span class="li-normal">firewall_proute6</span> </li>
         <li><span class="li-normal">firewall_proxy-address</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_proxy-address6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_proxy-addrgrp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">firewall_proxy-addrgrp6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_proxy-policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_region</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">firewall_security-policy</span>  <span class="li-required">param: policyid</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -340,6 +345,9 @@ Parameters
         <li><span class="li-normal">ips_settings</span> </li>
         <li><span class="li-normal">ips_view-map</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ipsec_tunnel</span> </li>
+        <li><span class="li-normal">llm_profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">llm_proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">llm_server</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">log.disk_filter</span> </li>
         <li><span class="li-normal">log.disk_setting</span> </li>
         <li><span class="li-normal">log.fortianalyzer-cloud_filter</span> </li>
@@ -392,6 +400,7 @@ Parameters
         <li><span class="li-normal">log.webtrends_filter</span> </li>
         <li><span class="li-normal">log.webtrends_setting</span> </li>
         <li><span class="li-normal">log_custom-field</span>  <span class="li-required">param: id</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">log_custom-format</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">log_eventfilter</span> </li>
         <li><span class="li-normal">log_gui-display</span> </li>
         <li><span class="li-normal">log_setting</span> </li>
@@ -425,6 +434,7 @@ Parameters
         <li><span class="li-normal">router_multicast</span> </li>
         <li><span class="li-normal">router_multicast-flow</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">router_multicast6</span> </li>
+        <li><span class="li-normal">router_multicast6-flow</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">router_ospf</span> </li>
         <li><span class="li-normal">router_ospf6</span> </li>
         <li><span class="li-normal">router_policy</span>  <span class="li-required">param: seq_num</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
@@ -463,6 +473,7 @@ Parameters
         <li><span class="li-normal">switch-controller.qos_qos-policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.qos_queue-policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.security-policy_802-1X</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">switch-controller.security-policy_admin</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.security-policy_captive-portal</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller.security-policy_local-access</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_802-1X-settings</span> </li>
@@ -472,6 +483,7 @@ Parameters
         <li><span class="li-normal">switch-controller_fortilink-settings</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_global</span> </li>
         <li><span class="li-normal">switch-controller_igmp-snooping</span> </li>
+        <li><span class="li-normal">switch-controller_igmp-snooping-static-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_ip-source-guard-log</span> </li>
         <li><span class="li-normal">switch-controller_lldp-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">switch-controller_lldp-settings</span> </li>
@@ -514,6 +526,7 @@ Parameters
         <li><span class="li-normal">system.checksum_status</span> </li>
         <li><span class="li-normal">system.dhcp6_server</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.dhcp_server</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system.dhcp_template</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system.info.admin_ssh</span> </li>
         <li><span class="li-normal">system.info.admin_status</span> </li>
         <li><span class="li-normal">system.ip-conflict_status</span> </li>
@@ -607,8 +620,9 @@ Parameters
         <li><span class="li-normal">system_fortiguard-log-service</span> </li>
         <li><span class="li-normal">system_fortiguard-service</span> </li>
         <li><span class="li-normal">system_fortimanager</span> </li>
+        <li><span class="li-normal">system_fortimq</span> </li>
         <li><span class="li-normal">system_fortindr</span> </li>
-        <li><span class="li-normal">system_fortisandbox</span> </li>
+        <li><span class="li-normal">system_fortisandbox</span>  <span class="li-required">param: device</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_fsso-polling</span> </li>
         <li><span class="li-normal">system_ftm-push</span> </li>
         <li><span class="li-normal">system_geneve</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -647,6 +661,7 @@ Parameters
         <li><span class="li-normal">system_ngfw-settings</span> </li>
         <li><span class="li-normal">system_np6</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_npu</span> </li>
+        <li><span class="li-normal">system_npu-post</span> </li>
         <li><span class="li-normal">system_npu-vlink</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_ntp</span> </li>
         <li><span class="li-normal">system_object-tagging</span>  <span class="li-required">param: category</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -689,6 +704,7 @@ Parameters
         <li><span class="li-normal">system_storage</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_stp</span> </li>
         <li><span class="li-normal">system_switch-interface</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">system_theme</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_tos-based-priority</span>  <span class="li-required">param: id</span>  <span class="li-required">type: int</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_vdom</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">system_vdom-dns</span> </li>
@@ -728,6 +744,7 @@ Parameters
         <li><span class="li-normal">user_ldap</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_local</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_nac-policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">user_oidc</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_password-policy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_peer</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">user_peergrp</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
@@ -878,7 +895,10 @@ Parameters
         <li><span class="li-normal">wireless-controller_wtp-group</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-profile</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">wireless-controller_wtp-status</span> </li>
+        <li><span class="li-normal">ztna_connector-edge</span> </li>
+        <li><span class="li-normal">ztna_destination</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ztna_reverse-connector</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
+        <li><span class="li-normal">ztna_service-connector</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ztna_traffic-forward-proxy</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
         <li><span class="li-normal">ztna_traffic-forward-proxy-reverse-service</span> </li>
         <li><span class="li-normal">ztna_web-portal</span>  <span class="li-required">param: name</span>  <span class="li-required">type: str</span> <span class="li-required">required: True </span></li>
